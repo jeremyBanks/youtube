@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "run": "deno run --allow-read --allow-env --allow-net=localhost:8783,youtube.googleapis.com main.ts"
+  }
+}

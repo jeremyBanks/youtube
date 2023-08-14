@@ -1,4 +1,5 @@
 import { google } from "npm:googleapis";
+const youtube = google.youtube("v3");
 
 const client = new google.auth.OAuth2({
   clientId: (localStorage.clientId ??= prompt("YouTube API Client ID:")),
@@ -19,7 +20,7 @@ if (!localStorage.clientAccessToken) {
 
   const userAuthCode: string = await new Promise((resolve) => {
     const abort = new AbortController();
-    Deno.serve({ signal: abort.signal }, (request) => {
+    Deno.serve({ signal: abort.signal, port: 8783 }, (request) => {
       const url = new URL(request.url);
       resolve(url.searchParams.get("code")!);
       abort.abort();
@@ -49,9 +50,7 @@ client.on("tokens", (tokens) => {
   localStorage.clientExpiryDate = tokens.expiry_date;
 });
 
-const youtube = google.youtube("v3");
-
-const channels = await youtube.channels
+const channel = await youtube.channels
   .list({
     auth: client,
     mine: true,
@@ -68,8 +67,6 @@ const channels = await youtube.channels
     ],
   })
   .then(({ data }) => data.items?.[0]!);
-
-console.log(channels);
 
 const playlistId = "PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG";
 const title = "Dimension 20 (All Full Episodes)";

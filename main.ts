@@ -1,41 +1,44 @@
 import { google } from "npm:googleapis";
 const youtube = google.youtube("v3");
 
-const client = new google.auth.OAuth2({
+const auth = new google.auth.OAuth2({
   clientId: (localStorage.clientId ??= prompt("YouTube API Client ID:")),
   clientSecret: (localStorage.clientSecret ??= prompt(
     "YouTube API Client Secret:"
   )),
-  redirectUri: "http://localhost:8000",
+  redirectUri: "http://localhost:8783",
 });
 
 if (!localStorage.clientAccessToken) {
-  const authUrl = client.generateAuthUrl({
+  const authUrl = auth.generateAuthUrl({
     access_type: "offline",
     scope: "https://www.googleapis.com/auth/youtube",
-    redirect_uri: "http://localhost:8000",
+    redirect_uri: "http://localhost:8783",
   });
 
   console.log("Please open this URL to authenticate:", authUrl);
 
   const userAuthCode: string = await new Promise((resolve) => {
     const abort = new AbortController();
-    Deno.serve({ signal: abort.signal, port: 8783 }, (request) => {
-      const url = new URL(request.url);
-      resolve(url.searchParams.get("code")!);
-      abort.abort();
-      return new Response("Got it, thanks! You can close this window.");
-    });
+    Deno.serve(
+      { signal: abort.signal, port: 8783, hostname: "localhost" },
+      (request) => {
+        const url = new URL(request.url);
+        resolve(url.searchParams.get("code")!);
+        abort.abort();
+        return new Response("Got it, thanks! You can close this window.");
+      }
+    );
   });
 
-  const { tokens } = await client.getToken(userAuthCode);
+  const { tokens } = await auth.getToken(userAuthCode);
 
   localStorage.clientAccessToken = tokens.access_token;
   localStorage.clientRefreshToken = tokens.refresh_token;
   localStorage.clientExpiryDate = tokens.expiry_date;
 }
 
-client.setCredentials({
+auth.setCredentials({
   token_type: "Bearer",
   scope: "https://www.googleapis.com/auth/youtube",
   access_token: localStorage.clientAccessToken,
@@ -43,7 +46,7 @@ client.setCredentials({
   expiry_date: localStorage.clientExpiryDate,
 });
 
-client.on("tokens", (tokens) => {
+auth.on("tokens", (tokens) => {
   console.debug("Updated access tokens:", tokens);
   localStorage.clientAccessToken = tokens.access_token;
   localStorage.clientRefreshToken = tokens.refresh_token;
@@ -52,7 +55,7 @@ client.on("tokens", (tokens) => {
 
 const channel = await youtube.channels
   .list({
-    auth: client,
+    auth,
     mine: true,
     part: [
       "brandingSettings",
@@ -67,6 +70,10 @@ const channel = await youtube.channels
     ],
   })
   .then(({ data }) => data.items?.[0]!);
+
+console.log(
+  `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`
+);
 
 const playlistId = "PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG";
 const title = "Dimension 20 (All Full Episodes)";
@@ -281,3 +288,32 @@ const videoIds = [
   "RT6XwcsQ3Tc",
   "wed7lXpuoSA",
 ];
+
+const items = [];
+let pageToken: string | undefined = undefined;
+
+do {
+  const page = await youtube.playlistItems
+    .list({
+      auth,
+      pageToken,
+      playlistId: "PLULB7YVHWGwZimsx6nutX7DKC7HejYHC6",
+      maxResults: 50,
+      part: ["id", "snippet", "contentDetails", "status"],
+    })
+    .then(({ data }) => data);
+
+  items.push(...page.items!);
+  pageToken = page.nextPageToken as string | undefined;
+} while (pageToken);
+
+console.log(
+  items.map((item) => ({
+    id: item.id,
+    position: item.snippet?.position!,
+    publishedAt: item.snippet?.publishedAt!,
+    videoId: item.contentDetails?.videoId!,
+    videoPublishedAt: item.contentDetails?.videoPublishedAt!,
+    videoTitle: item.snippet?.title!,
+  }))
+);

@@ -289,7 +289,7 @@ const videoIds = [
   "wed7lXpuoSA",
 ];
 
-const items = [];
+const existingItems = [];
 let pageToken: string | undefined = undefined;
 
 do {
@@ -303,17 +303,40 @@ do {
     })
     .then(({ data }) => data);
 
-  items.push(...page.items!);
+  existingItems.push(
+    ...page.items!.map((item) => ({
+      id: item.id,
+      videoId: item.contentDetails?.videoId!,
+    }))
+  );
   pageToken = page.nextPageToken as string | undefined;
 } while (pageToken);
 
-console.log(
-  items.map((item) => ({
-    id: item.id,
-    position: item.snippet?.position!,
-    publishedAt: item.snippet?.publishedAt!,
-    videoId: item.contentDetails?.videoId!,
-    videoPublishedAt: item.contentDetails?.videoPublishedAt!,
-    videoTitle: item.snippet?.title!,
-  }))
-);
+const uniqueItems = new Set(existingItems.map(({ videoId }) => videoId)).size;
+if (uniqueItems !== existingItems.length) {
+  console.warn("Warning: playlist contains duplicate entries.");
+
+  // TODO: remove them, and any other unexpected entires
+}
+
+for (const [targetIndex, videoId] of videoIds.entries()) {
+  const actualIndex = existingItems.findIndex(
+    (item) => item.videoId == videoId
+  );
+
+  if (actualIndex === -1) {
+    console.log(`Video ${videoId} was missing from playlist.`);
+  } else if (actualIndex !== targetIndex) {
+    console.log(
+      `Video ${videoId} was in the playlist, but at the wrong position.`
+    );
+
+    // TODO: fix that?
+  } else {
+    console.log(
+      `Video ${videoId} was already in the playlist at the correct location.`
+    );
+
+    // TODO: fix that?
+  }
+}

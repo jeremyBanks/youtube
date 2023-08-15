@@ -289,6 +289,18 @@ const videoIds = [
   "wed7lXpuoSA",
 ];
 
+await youtube.playlists.update({
+  auth,
+  part: ["snippet"],
+  requestBody: {
+    id: playlistId,
+    snippet: {
+      title,
+      description,
+    },
+  },
+});
+
 const existingItems = [];
 let pageToken: string | undefined = undefined;
 
@@ -297,7 +309,7 @@ do {
     .list({
       auth,
       pageToken,
-      playlistId: "PLULB7YVHWGwZimsx6nutX7DKC7HejYHC6",
+      playlistId,
       maxResults: 50,
       part: ["id", "snippet", "contentDetails", "status"],
     })
@@ -325,7 +337,24 @@ for (const [targetIndex, videoId] of videoIds.entries()) {
   );
 
   if (actualIndex === -1) {
-    console.log(`Video ${videoId} was missing from playlist.`);
+    console.log(
+      `Video ${videoId} was missing from playlist. Inserting it now.`
+    );
+
+    await youtube.playlistItems.insert({
+      auth,
+      part: ["snippet"],
+      requestBody: {
+        snippet: {
+          playlistId,
+          position: targetIndex,
+          resourceId: {
+            kind: "youtube#video",
+            videoId,
+          },
+        },
+      },
+    });
   } else if (actualIndex !== targetIndex) {
     console.log(
       `Video ${videoId} was in the playlist, but at the wrong position.`

@@ -1,4 +1,8 @@
+import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
+import * as json from "https://deno.land/std@0.198.0/json/mod.ts";
+
 import { google } from "npm:googleapis";
+
 const youtube = google.youtube("v3");
 
 const auth = new google.auth.OAuth2({
@@ -9,7 +13,12 @@ const auth = new google.auth.OAuth2({
   redirectUri: "http://localhost:8783",
 });
 
-if (!localStorage.clientAccessToken) {
+if (
+  await auth.getAccessToken().then(
+    () => false,
+    () => true
+  )
+) {
   const authUrl = auth.generateAuthUrl({
     access_type: "offline",
     scope: "https://www.googleapis.com/auth/youtube",
@@ -51,6 +60,14 @@ auth.on("tokens", (tokens) => {
   localStorage.clientAccessToken = tokens.access_token;
   localStorage.clientRefreshToken = tokens.refresh_token;
   localStorage.clientExpiryDate = tokens.expiry_date;
+
+  auth.setCredentials({
+    token_type: "Bearer",
+    scope: "https://www.googleapis.com/auth/youtube",
+    access_token: localStorage.clientAccessToken,
+    refresh_token: localStorage.clientRefreshToken,
+    expiry_date: localStorage.clientExpiryDate,
+  });
 });
 
 const channel = await youtube.channels

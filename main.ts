@@ -1,98 +1,22 @@
+// deno-lint-ignore-file no-explicit-any
 import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
 import * as json from "https://deno.land/std@0.198.0/json/mod.ts";
-
+import { Innertube } from "https://deno.land/x/youtubei/deno.ts";
 import { google } from "npm:googleapis";
 
-const youtube = google.youtube("v3");
+// Do we need to extend https://github.com/LuanRT/YouTube.js/blob/main/docs/API/playlist.md ?
 
-const auth = new google.auth.OAuth2({
-  clientId: (localStorage.clientId ??= prompt("YouTube API Client ID:")),
-  clientSecret: (localStorage.clientSecret ??= prompt(
-    "YouTube API Client Secret:"
-  )),
-  redirectUri: "http://localhost:8783",
+const youtubei = await Innertube.create({
+  cookie: localStorage.youtubeCookie,
+  retrieve_player: false,
+  fetch: async (a: any, b: any) => {
+    await new Promise((resolve) => setTimeout(resolve, 500));
+    console.log("Fetching", a);
+    return await fetch(a, b);
+  },
 });
 
-if (
-  await auth.getAccessToken().then(
-    () => false,
-    () => true
-  )
-) {
-  const authUrl = auth.generateAuthUrl({
-    access_type: "offline",
-    scope: "https://www.googleapis.com/auth/youtube",
-    redirect_uri: "http://localhost:8783",
-  });
-
-  console.log("Please open this URL to authenticate:", authUrl);
-
-  const userAuthCode: string = await new Promise((resolve) => {
-    const abort = new AbortController();
-    Deno.serve(
-      { signal: abort.signal, port: 8783, hostname: "localhost" },
-      (request) => {
-        const url = new URL(request.url);
-        resolve(url.searchParams.get("code")!);
-        abort.abort();
-        return new Response("Got it, thanks! You can close this window.");
-      }
-    );
-  });
-
-  const { tokens } = await auth.getToken(userAuthCode);
-
-  localStorage.clientAccessToken = tokens.access_token;
-  localStorage.clientRefreshToken = tokens.refresh_token;
-  localStorage.clientExpiryDate = tokens.expiry_date;
-}
-
-auth.setCredentials({
-  token_type: "Bearer",
-  scope: "https://www.googleapis.com/auth/youtube",
-  access_token: localStorage.clientAccessToken,
-  refresh_token: localStorage.clientRefreshToken,
-  expiry_date: localStorage.clientExpiryDate,
-});
-
-auth.on("tokens", (tokens) => {
-  console.debug("Updated access tokens:", tokens);
-  localStorage.clientAccessToken = tokens.access_token;
-  localStorage.clientRefreshToken = tokens.refresh_token;
-  localStorage.clientExpiryDate = tokens.expiry_date;
-
-  auth.setCredentials({
-    token_type: "Bearer",
-    scope: "https://www.googleapis.com/auth/youtube",
-    access_token: localStorage.clientAccessToken,
-    refresh_token: localStorage.clientRefreshToken,
-    expiry_date: localStorage.clientExpiryDate,
-  });
-});
-
-const channel = await youtube.channels
-  .list({
-    auth,
-    mine: true,
-    part: [
-      "brandingSettings",
-      "contentDetails",
-      "contentOwnerDetails",
-      "id",
-      "localizations",
-      "snippet",
-      "statistics",
-      "status",
-      "topicDetails",
-    ],
-  })
-  .then(({ data }) => data.items?.[0]!);
-
-console.log(
-  `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`
-);
-
-const playlistId = "PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG";
+const playlistId = "PLULB7YVHWGwZimsx6nutX7DKC7HejYHC6";
 const title = "Dimension 20 (All Full Episodes)";
 const description = `Mega-playlist with every episode of Dimension 20 in order. Free videos are used where possible, while member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
 
@@ -305,6 +229,103 @@ const videoIds = [
   "RT6XwcsQ3Tc",
   "wed7lXpuoSA",
 ];
+
+// const pi = await youtubei.getPlaylist(playlistId);
+// await youtubei.playlist.removeVideos(playlistId, ["M7FIvfx5J10"]);
+await youtubei.playlist.addVideos(playlistId, videoIds);
+
+// console.log(pi.videos);
+
+Deno.exit();
+
+const youtube = google.youtube("v3");
+
+const auth = new google.auth.OAuth2({
+  clientId: (localStorage.clientId ??= prompt("YouTube API Client ID:")),
+  clientSecret: (localStorage.clientSecret ??= prompt(
+    "YouTube API Client Secret:"
+  )),
+  redirectUri: "http://localhost:8783",
+});
+
+if (
+  await auth.getAccessToken().then(
+    () => false,
+    () => true
+  )
+) {
+  const authUrl = auth.generateAuthUrl({
+    access_type: "offline",
+    scope: "https://www.googleapis.com/auth/youtube",
+    redirect_uri: "http://localhost:8783",
+  });
+
+  console.log("Please open this URL to authenticate:", authUrl);
+
+  const userAuthCode: string = await new Promise((resolve) => {
+    const abort = new AbortController();
+    Deno.serve(
+      { signal: abort.signal, port: 8783, hostname: "localhost" },
+      (request) => {
+        const url = new URL(request.url);
+        resolve(url.searchParams.get("code")!);
+        abort.abort();
+        return new Response("Got it, thanks! You can close this window.");
+      }
+    );
+  });
+
+  const { tokens } = await auth.getToken(userAuthCode);
+
+  localStorage.clientAccessToken = tokens.access_token;
+  localStorage.clientRefreshToken = tokens.refresh_token;
+  localStorage.clientExpiryDate = tokens.expiry_date;
+}
+
+auth.setCredentials({
+  token_type: "Bearer",
+  scope: "https://www.googleapis.com/auth/youtube",
+  access_token: localStorage.clientAccessToken,
+  refresh_token: localStorage.clientRefreshToken,
+  expiry_date: localStorage.clientExpiryDate,
+});
+
+auth.on("tokens", (tokens) => {
+  console.debug("Updated access tokens:", tokens);
+  localStorage.clientAccessToken = tokens.access_token;
+  localStorage.clientRefreshToken = tokens.refresh_token;
+  localStorage.clientExpiryDate = tokens.expiry_date;
+
+  auth.setCredentials({
+    token_type: "Bearer",
+    scope: "https://www.googleapis.com/auth/youtube",
+    access_token: localStorage.clientAccessToken,
+    refresh_token: localStorage.clientRefreshToken,
+    expiry_date: localStorage.clientExpiryDate,
+  });
+});
+
+const channel = await youtube.channels
+  .list({
+    auth,
+    mine: true,
+    part: [
+      "brandingSettings",
+      "contentDetails",
+      "contentOwnerDetails",
+      "id",
+      "localizations",
+      "snippet",
+      "statistics",
+      "status",
+      "topicDetails",
+    ],
+  })
+  .then(({ data }) => data.items?.[0]!);
+
+console.log(
+  `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`
+);
 
 await youtube.playlists.update({
   auth,

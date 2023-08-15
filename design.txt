@@ -1,9 +1,0 @@
-I am curating playlists of "Actual Play" tabletop RPG videos, to make it easier for myself and other fans to consume videos from a particular campaign or setting. I am curating these playlists on my computer using text files, so I can back them up and track changes. (Some of the content producers whose videos I'm aggregating don't provide official playlists with all of their content.)
-
-I am using the YouTube API solely to copy these playlists from my computer to YouTube. Previously, I had been doing so manually, but I've made some mistakes previously, and thought it would be more reliable to do so this way.
-
-This is non-commercial. I'm just going to be creating playlists and sharing them with other fans.
-
-The client uses the YouTube Data API to read and update playlists on my own channel. I have text files listing video IDs on my computer, and the client reads the current playlist contents via the API, and them executes the appropriate insert and update operations to make the playlist on YouTube itself reflect the changes I've made locally.
-
-I'm already designing the script to use the minimum number of API calls possible, by using a bulk read to check the existing contents and only performing changes where neccessary, but if I need to insert more than 200 playlist items per day, it's fundamentally not possible under the current quota.

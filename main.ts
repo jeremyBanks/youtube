@@ -3,6 +3,7 @@ import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
 import * as json from "https://deno.land/std@0.198.0/json/mod.ts";
 import { Innertube } from "https://deno.land/x/youtubei/deno.ts";
 import { google } from "npm:googleapis";
+import PlaylistVideo from "https://deno.land/x/youtubei@v5.8.0-deno/deno/src/parser/classes/PlaylistVideo.ts";
 
 // Do we need to extend https://github.com/LuanRT/YouTube.js/blob/main/docs/API/playlist.md ?
 
@@ -11,7 +12,7 @@ const youtubei = await Innertube.create({
   retrieve_player: false,
   fetch: async (a: any, b: any) => {
     await new Promise((resolve) => setTimeout(resolve, 500));
-    console.log("Fetching", a);
+    console.log("Fetching", a, b);
     return await fetch(a, b);
   },
 });
@@ -230,13 +231,23 @@ const videoIds = [
   "wed7lXpuoSA",
 ];
 
-// const pi = await youtubei.getPlaylist(playlistId);
+let pi = await youtubei.getPlaylist(playlistId);
+const all = pi.items.map((item) => (item as PlaylistVideo).id);
+while (pi.has_continuation) {
+  pi = await pi.getContinuation();
+  all.push(...pi.items.map((item) => (item as PlaylistVideo).id));
+}
+
+console.log(`Found ${all.length} entries in playlist.`);
+
+if (Math.random()) {
+  Deno.exit();
+}
+
 // await youtubei.playlist.removeVideos(playlistId, ["M7FIvfx5J10"]);
-await youtubei.playlist.addVideos(playlistId, videoIds);
+// await youtubei.playlist.addVideos(playlistId, videoIds);
 
 // console.log(pi.videos);
-
-Deno.exit();
 
 const youtube = google.youtube("v3");
 

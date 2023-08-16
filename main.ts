@@ -1,9 +1,9 @@
 // deno-lint-ignore-file no-explicit-any
 import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
 import * as json from "https://deno.land/std@0.198.0/json/mod.ts";
-import { Innertube } from "https://deno.land/x/youtubei/deno.ts";
+import { Innertube } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@70426e30/deno.ts";
+import PlaylistVideo from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@70426e30/deno/src/parser/classes/PlaylistVideo.ts";
 import { google } from "npm:googleapis";
-import PlaylistVideo from "https://deno.land/x/youtubei@v5.8.0-deno/deno/src/parser/classes/PlaylistVideo.ts";
 
 // Do we need to extend https://github.com/LuanRT/YouTube.js/blob/main/docs/API/playlist.md ?
 
@@ -238,14 +238,14 @@ while (pi.has_continuation) {
   all.push(...pi.items.map((item) => (item as PlaylistVideo).id));
 }
 
-console.log(`Found ${all.length} entries in playlist.`);
+console.log(`Found ${all.length} entries in playlist. Removing and replacing.`);
+
+await youtubei.playlist.removeVideos(playlistId, all);
+await youtubei.playlist.addVideos(playlistId, videoIds);
 
 if (Math.random()) {
   Deno.exit();
 }
-
-// await youtubei.playlist.removeVideos(playlistId, ["M7FIvfx5J10"]);
-// await youtubei.playlist.addVideos(playlistId, videoIds);
 
 // console.log(pi.videos);
 

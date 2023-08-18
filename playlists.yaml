@@ -1,53 +1,269 @@
-id: PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG
 name: Dimension 20 (All Episodes)
+id: PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG
 description: |
-  Mega-playlist with every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+  Mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
 
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   type:
   - episode
-  prefer:
+  version:
   - public
-  - public parts
-  - public compilation
   - members
-  - members parts
-  - members compilation
-  - public deleted
-  - members deleted
+
 ---
-id: msx6nutX7DKC7HejYHC6PLULB7YVHWGwZi
+
 name: Dimension 20 (All Episodes and Extras)
+id: msx6nutX7DKC7HejYHC6PLULB7YVHWGwZi
 description: |
-  Mega-playlist with every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, and trailers. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episodes it refers to.
+  Mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, and trailers. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episodes it refers to.
 
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
-  type:
-  - trailer
-  - episode
-  - insight
-  prefer:
+  version:
   - public
-  - public parts
-  - public compilation
   - members
-  - members parts
-  - members compilation
-  - public deleted
-  - members deleted
+
 ---
-id: 3_8kXgd7uFrOFmGVUGPLObfuAmZm9pDqgg
+
 name: Dimension 20 (Free Episodes)
+id: 3_8kXgd7uFrOFmGVUGPLObfuAmZm9pDqgg
 description: |
-  Playlist with all free episodes of Dimension 20. This includes all of the first season, the frist four episodes of the fourth season, and the first episode of every other season.
+  Playlist of all free episodes of Dimension 20. This includes all episodes of the first season, the frist four episodes of the fourth season, and the first episode of every other season.
 
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   type:
   - episode
-  prefer:
+  - special
+  version:
   - public
-  - public parts
-  - public compilation
+
+---
+
+name: "Dimension 20: Fantasy High (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from both seasons of Fantasy High, a series of campaigns from Dimension 20.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season:
+  - Fantasy High (Chapter 1)
+  - Fantasy High (Chapter 2)
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Escape from the Bloodkeep (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Escape from the Bloodkeep, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Escape from the Bloodkeep
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: The Unsleeping City (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from both seasons of The Unsleeping City, a series of campaigns from Dimension 20.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season:
+  - The Unsleeping City (Chapter 1)
+  - The Unsleeping City (Chapter 2)
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Tiny Heist (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Tiny Heist
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: A Crown of Candy (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from A Crown of Candy, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: A Crown of Candy
+  version:
+  - public
+  - members
+
+---
+
+
+name: "Dimension 20: Pirates of Leviathan (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Pirates of Leviathan, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Pirates of Leviathan
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Mice and Murder (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Mice and Murder, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Mice and Murder
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Misfits and Magic (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Misfits and Magic, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Misfits and Magic
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: The Seven (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from The Seven, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: The Seven
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Shreik Week (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Shreik Week, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Shreik Week
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Coffin Run (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Coffin Run, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Coffin Run
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: A Court of Fey and Flowers (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from A Court of Fey and Flowers, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: A Court of Fey and Flowers
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Neverafter (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Neverafter, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Neverafter
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: The Ravening War (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from The Ravening War, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: The Ravening War
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Dungeons and Drag Queens (Episodes and Extras)"
+id: Pd7bqguFrOFLgmGVfuAmZm9pDUOg3_8kXG
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Dungeons and Drag Queens, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Dungeons and Drag Queens
+  version:
+  - public
+  - members
+
+---
+
+name: "Dimension 20: Mentopolis (Episodes and Extras)"
+id: gmGVUGPLObfuAmZm9pDqg3_8kXgd7uFrOF
+description: |
+  Playlist of all episodes, talkbacks, and trailers from Mentopolis, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  season: Mentopolis
+  version:
+  - public
+  - members

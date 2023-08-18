@@ -7,7 +7,15 @@ const Season = z
   .object({
     season: z.string(),
     debut: z.date(),
-    world: z.string().optional(),
+    world: z.union([
+      z.literal("Spyre"),
+      z.literal("Calorum"),
+      z.literal("The Unsleeping City"),
+    ]).optional(),
+    cast: z.union([
+      z.literal("Intrepid"),
+      z.literal("Side"),
+    ]),
     videos: z.array(
       z.intersection(
         z.object({

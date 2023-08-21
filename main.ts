@@ -3,11 +3,10 @@ import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
 import * as json from "https://deno.land/std@0.198.0/json/mod.ts";
 import { Innertube } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno.ts";
 import PlaylistVideo from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/classes/PlaylistVideo.ts";
-import { google } from "npm:googleapis";
 
 const youtubei = await Innertube.create({
   cookie: localStorage.youtubeCookie,
-  on_behalf_of_user: localStorage.onBehalfOfUser = "116738283471161318219",
+  on_behalf_of_user: localStorage.onBehalfOfUser ??= "116738283471161318219",
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await new Promise((resolve) => setTimeout(resolve, 500));

@@ -5,12 +5,14 @@ import { Innertube } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0
 import PlaylistVideo from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/classes/PlaylistVideo.ts";
 
 const youtubei = await Innertube.create({
-  cookie: localStorage.youtubeCookie,
-  on_behalf_of_user: localStorage.onBehalfOfUser ??= "116738283471161318219",
+  cookie: (localStorage.youtubeCookie =
+    Deno.env.get("YOUTUBE_COOKIE") ?? localStorage.youtubeCookie),
+  on_behalf_of_user: (localStorage.onBehalfOfUser =
+    Deno.env.get("ON_BEHALF_OF_USER") ?? localStorage.onBehalfOfUser),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await new Promise((resolve) => setTimeout(resolve, 500));
-    
+
     const response = await fetch(req, opts);
 
     console.log(response.status, response.url);

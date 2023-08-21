@@ -1,4 +1,5 @@
 season: Fantasy High (Chapter 1)
+from: Dimension 20
 debut: 2018-09-19
 cast: Intrepid
 world: Spyre
@@ -13,7 +14,7 @@ videos:
   public: https://youtu.be/DZ5rprmAHhE
   members: https://youtu.be/25pBWVz1Wss
   public compilation: https://youtu.be/TTC_2ANnmng
-- animation: The Price Must Be Paid
+- animate: The Price Must Be Paid
   public: https://youtu.be/RuQ3MSscXDE
   members: https://youtu.be/XvJ6cKf23DY
 - episode: 3. After the Afterlife
@@ -90,8 +91,8 @@ videos:
 ---
 
 season: Escape from the Bloodkeep
+from: Dimension 20
 debut: 2019-04-30
-cast: Side
 videos:
 - trailer: Escape from the Bloodkeep Trailer
   public: https://youtu.be/Ih6ZdHE2kvo
@@ -123,6 +124,7 @@ videos:
 ---
 
 season: The Unsleeping City (Chapter 1)
+from: Dimension 20
 debut: 2019-07-09
 cast: Intrepid
 world: The Unsleeping City
@@ -167,6 +169,7 @@ videos:
 ---
 
 season: Fantasy High (Chapter 2)
+from: Dimension 20
 debut: 2019-10-16
 cast: Intrepid
 world: Spyre
@@ -220,14 +223,14 @@ videos:
 ---
 
 season: Tiny Heist
+from: Dimension 20
 debut: 2020-01-09
-cast: Side
 videos:
 - trailer: Tiny Heist Trailer
   public: https://youtu.be/kR6vADysaxM
 - episode: 1. Big Little Crimes
   public: https://youtu.be/l-y98OYaXu8
-- animation: Rick Diggins Is At Your Service
+- animate: Rick Diggins Is At Your Service
   members: https://youtu.be/PWvqA_Ib_uY
   public: https://youtu.be/NnylOrzi_Kw
 - episode: 2. Chicanery at Shoeby's Casino
@@ -245,6 +248,7 @@ videos:
 ---
 
 season: A Crown of Candy
+from: Dimension 20
 debut: 2020-04-08
 cast: Intrepid
 world: Calorum
@@ -259,7 +263,7 @@ videos:
   members: https://youtu.be/rKXhP1mV5A8
 - episode: 4. The Grand Tournament
   members: https://youtu.be/QSVHCBuS7ys
-- animation: Where's Your Bulb Now?
+- animate: Where's Your Bulb Now?
   public: https://youtu.be/4Fj1wU6xT6w
   members: https://youtu.be/y6UJtVbY-Yw
 - episode: 5. Lapin's Big Day
@@ -272,7 +276,7 @@ videos:
   members: https://youtu.be/zjkhYwst2tE
 - episode: 9. Safe Harbor
   members: https://youtu.be/HJUWVd7byRI
-- animation: Liam Tries to Flirt
+- animate: Liam Tries to Flirt
   public: gI2KgJvft90
   members: https://youtu.be/4bJ3Hr5bi6s
 - episode: 10. Blood & Bread
@@ -295,15 +299,15 @@ videos:
 ---
 
 season: Pirates of Leviathan
+from: Dimension 20
 debut: 2020-09-16
-cast: Side
 world: Spyre
 videos:
 - trailer: Pirates of Leviathan Trailer
   public: https://youtu.be/AdEuH8CYG_k
 - episode: 1. A Heaping Helping of Trouble
   public: https://youtu.be/HuMbE1G2O2c
-- animation: Meet Bob
+- animate: Meet Bob
   public: https://youtu.be/TJI2c2E_9vk
   members: https://youtu.be/pi54L4C_2K8
 - episode: 2. The Daughter of Storms
@@ -320,6 +324,7 @@ videos:
 ---
 
 season: The Unsleeping City (Chapter 2)
+from: Dimension 20
 debut: 2020-11-11
 cast: Intrepid
 world: The Unsleeping City
@@ -328,7 +333,7 @@ videos:
   public: https://youtu.be/cbBflJXRZzU
 - episode: 1. The Fall of New York City
   public: https://youtu.be/-Ho5CdsUIQc
-- animation: Cody Sells His Soul
+- animate: Cody Sells His Soul
   public: https://youtu.be/ZUu0XGoCbUM
   members: https://youtu.be/mPHs6O1nMsk
 - episode: 2. Heaven and Hell On Earth
@@ -341,7 +346,7 @@ videos:
   members: https://youtu.be/gmU6DEXP4Q0
 - episode: 6. Collaborators
   members: https://youtu.be/AvwtIPtuWvQ
-- animation: Casting Silence
+- animate: Casting Silence
   public: https://youtu.be/XweZBOiiqNg
   members: https://youtu.be/xZu1uCAyU5A
 - episode: 7. Parade of Peril
@@ -372,14 +377,14 @@ videos:
 ---
 
 season: Mice and Murder
+from: Dimension 20
 debut: 2021-04-07
-cast: Side
 videos:
 - trailer: Mice and Murder Trailer
   public: https://youtu.be/CokApJchV94
 - episode: 1. It Was a Dark and Stormy Night
   public: https://youtu.be/_GX8075fX3k
-- animation: Do I Have A Fellow Student of the Stars Here As Well?
+- animate: Do I Have A Fellow Student of the Stars Here As Well?
   public: https://youtu.be/lsizZEAw7K8
   members: https://youtu.be/6VuJWgCiDuo
 - episode: 2. A Scandal in Britannia
@@ -404,8 +409,8 @@ videos:
 ---
 
 season: Misfits and Magic
+from: Dimension 20
 debut: 2021-06-30
-cast: Side
 videos:
 - trailer: Misfits and Magic Trailer
   public: https://youtu.be/yKHP2mPv7Ws
@@ -417,10 +422,10 @@ videos:
   members: https://youtu.be/R3hq2zf55SE
 - episode: 4. We're the Heroes
   members: https://youtu.be/nyEunKC1Y70
-- animation: A Drink at the Questing Beast
+- animate: A Drink at the Questing Beast
   public: https://youtu.be/ydy-16qo5FY
   members: https://youtu.be/bkdkqGPdXBI
-- animation: Evan Kelmp Blasts a Kid into the Underworld
+- animate: Evan Kelmp Blasts a Kid into the Underworld
   public: https://youtu.be/1OH5Kz3uXh8
   members: https://youtu.be/3RMIhKC-Dvk
 - trailer: Holiday Special Trailer
@@ -433,8 +438,8 @@ videos:
 ---
 
 season: The Seven
+from: Dimension 20
 debut: 2021-08-18
-cast: Side
 world: Spyre
 videos:
 - trailer: The Seven Trailer
@@ -463,8 +468,8 @@ videos:
 ---
 
 season: Shriek Week
+from: Dimension 20
 debut: 2021-11-10
-cast: Side
 videos:
 - trailer: Shriek Week Trailer
   public: https://youtu.be/3mlLfl5ZNLI
@@ -480,6 +485,7 @@ videos:
 ---
 
 season: A Starstruck Odyssey
+from: Dimension 20
 debut: 2022-01-12
 cast: Intrepid
 videos:
@@ -501,7 +507,7 @@ videos:
   members: https://youtu.be/a5Uamf-JeW4
 - episode: 8. Wallops at Swallop's
   members: https://youtu.be/fcOzNxk2PgA
-- animation: The Magic of Plug
+- animate: The Magic of Plug
   public: https://youtu.be/zQCxwYhhCcI
   members: https://youtu.be/4We1ITzYonE
 - episode: 9. Baustin Skiffy Limits
@@ -510,7 +516,7 @@ videos:
   members: https://youtu.be/EH3zr_EJfA4
 - episode: 11. Flee From Fantanimalland
   members: https://youtu.be/zzXwoZz-s58
-- animation: Gunnie Buys a Maple Cake
+- animate: Gunnie Buys a Maple Cake
   public: https://youtu.be/SC1C-HXFnUA
   members: https://youtu.be/L8_hld6RW6s
 - episode: 12. Go Big or Go Home
@@ -531,8 +537,8 @@ videos:
 ---
 
 season: Coffin Run
+from: Dimension 20
 debut: 2022-06-08
-cast: Side
 videos:
 - trailer: Coffin Run Trailer
   public: https://youtu.be/pdji4F1Ax_w
@@ -552,14 +558,14 @@ videos:
 ---
 
 season: A Court of Fey and Flowers
+from: Dimension 20
 debut: 2022-08-03
-cast: Side
 videos:
 - trailer: A Court of Fey and Flowers Trailer
   public: https://youtu.be/VFyHiykk2U4
 - episode: 1. A Bloom to Remember
   members: https://youtu.be/hMNzZiN0-P0
-- animation: The Lords of the Wing Spill Their Secrets
+- animate: The Lords of the Wing Spill Their Secrets
   public: https://youtu.be/uJ6PkAJlMHI
   members: https://youtu.be/pfufHGSaBkY
 - episode: 2. The Great Hart Hunt
@@ -584,6 +590,7 @@ videos:
 ---
 
 season: Neverafter
+from: Dimension 20
 debut: 2022-11-30
 cast: Intrepid
 videos:
@@ -633,8 +640,9 @@ videos:
 ---
 
 season: The Ravening War
+from: Dimension 20
 debut: 2023-03-10
-cast: Side
+world: Calorum
 videos:
 - trailer: The Ravening War Trailer
   public: https://youtu.be/c4xTd-NjEj4
@@ -654,8 +662,8 @@ videos:
 ---
 
 season: Dungeons and Drag Queens
+from: Dimension 20
 debut: 2023-06-28
-cast: Side
 videos:
 - trailer: Dungeons and Drag Queens Trailer
   public: https://youtu.be/khZVjQL74qE
@@ -671,15 +679,15 @@ videos:
 ---
 
 season: Mentopolis
+from: Dimension 20
 debut: 2023-08-09
-cast: Side
 videos:
 - trailer: Mentopolis Trailer
   public: https://youtu.be/9riE94Kkwq4
 - episode: 1. The Big Guy
   public: https://youtu.be/9pT1OhH3F1Y
   members: https://youtu.be/wed7lXpuoSA
-  deleted mhttps://youtu.be/embers: EYun__yyYnI
+  removed members: https://youtu.be/EYun__yyYnI
 - insight: Key Lime Pie is a Marketing Invention
   members: https://youtu.be/12-Dxx-UqIs
 - episode: 2. The Scattered Mind

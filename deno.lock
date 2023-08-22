@@ -1628,6 +1628,7 @@
     "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/proto/index.ts": "b5162b765f14de205d421ffb1da2c057267d4653dfeb7bd11a2f6c6aad68e432",
     "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/types/Cache.ts": "06cd238bce7c9657055151587e36ee445e8236d54d27272124ced10ea7be0da4",
     "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/types/Clients.ts": "29214456feece3f500f3b2c80bab1fd6d3caa81fe8fce598e6890a8fe5dbdd2f",
+    "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/types/DashOptions.ts": "968cf82da4ddc3a1ec9cf045c0efe739dcde85134eb5db119abe489efbe1f695",
     "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/types/Endpoints.ts": "c7e105bdc9692931d239195d670f3c8ccaac3a27817d050a46090b492a84aee2",
     "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/types/PlatformShim.ts": "289169eca29fd825a2f4ce9754e1f6932058724275dd0cade5ddf8d6fc94f75c",
     "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/types/index.ts": "c4dc52ea55cb42d5205fa9530f798b0739b9f77e835deb6f8ce70b80b61b3dba",

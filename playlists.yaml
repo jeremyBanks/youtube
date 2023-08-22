@@ -23,6 +23,12 @@ description: |
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   from: Dimension 20
+  type:
+  - episode
+  - special
+  - trailer
+  - insight
+  - animate
   version:
   - public
   - members

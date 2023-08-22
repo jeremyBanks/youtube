@@ -1,6 +1,5 @@
-// deno-lint-ignore-file no-explicit-any
 import yaml from "../yaml.ts";
-import { youtubei, replaceVideos } from "../youtube.ts";
+import { replaceVideos } from "../youtube.ts";
 
 const catalogueData = yaml.load("catalogue.yaml");
 const campaignData = yaml.load("campaigns.yaml") as Array<{

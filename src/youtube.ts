@@ -38,7 +38,6 @@ export const replaceVideos = async (
   videoIds: Array<string>
 ) => {
   console.log("Publishing", videoIds.length, "videos to", playlistId);
-  console.log(JSON.stringify(videoIds));
 
   let pi = await youtubei.getPlaylist(playlistId);
   const all = pi.items.map((item) => (item as PlaylistVideo).id);
@@ -47,16 +46,20 @@ export const replaceVideos = async (
     all.push(...pi.items.map((item) => (item as PlaylistVideo).id));
   }
 
-  console.log(
-    `Found ${all.length} existing entries in playlist. Removing and replacing.`
-  );
+  console.log(`Found ${all.length} existing entries in playlist.`);
 
-  try {
-    if (all.length) {
-      await youtubei.playlist.removeVideos(playlistId, all);
+  if (all.toString() === videoIds.toString()) {
+    console.log("Playlist is already up-to-date!");
+  } else {
+    console.log("Replacing with intended playlist contents.");
+
+    try {
+      if (all.length) {
+        await youtubei.playlist.removeVideos(playlistId, all);
+      }
+      await youtubei.playlist.addVideos(playlistId, videoIds);
+    } catch (error) {
+      console.error(error, "\n" + JSON.stringify(videoIds));
     }
-    await youtubei.playlist.addVideos(playlistId, videoIds);
-  } catch (error) {
-    console.error(error);
   }
 };

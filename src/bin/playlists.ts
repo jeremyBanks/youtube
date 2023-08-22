@@ -16,6 +16,7 @@ const campaignData = yaml.load("campaigns.yaml") as Array<{
     insight?: string;
     special?: string;
     public?: string;
+    "public parts"?: Array<string>;
     members?: string;
   }>;
 }>;
@@ -32,7 +33,8 @@ const playlistSpecs = yaml.load("playlists.yaml") as Array<{
     version: Array<"public" | "members">;
   };
 }>;
-let playlistMd = "# Playlists\n\n";
+let playlistMd =
+  "# [Playlists](https://www.youtube.com/@actualplaylists/playlists?view=1)\n\n";
 
 for (const playlist of playlistSpecs) {
   if (!playlist.id) {
@@ -47,15 +49,13 @@ for (const playlist of playlistSpecs) {
 
 `;
 
-  let videos: Array<{
+  const videos: Array<{
     id: string;
     title: string;
   }> = [];
 
   for (const campaign of campaignData) {
     for (const video of campaign.videos) {
-      // TODO: support "public parts"
-
       const type = video.animate
         ? "animate"
         : video.episode
@@ -67,7 +67,9 @@ for (const playlist of playlistSpecs) {
         : video.trailer
         ? "trailer"
         : (() => {
-            throw new Error("unreachable");
+            throw new Error(
+              "unreachable type from " + JSON.stringify(video, null, 2)
+            );
           })();
       const title =
         video.episode ??
@@ -76,10 +78,19 @@ for (const playlist of playlistSpecs) {
         video.insight ??
         video.trailer ??
         (() => {
-          throw new Error("unreachable");
+          throw new Error(
+            "unreachable title from " + JSON.stringify(video, null, 2)
+          );
         })();
-      const url = video.public ?? video.members ?? "error";
-      const id = url.replace("https://youtu.be/", "");
+      const url =
+        video.public ??
+        video["public parts"] ??
+        video.members ??
+        (() => {
+          throw new Error(
+            "unreachable url from " + JSON.stringify(video, null, 2)
+          );
+        })();
 
       if (
         playlist.include.season &&
@@ -106,7 +117,15 @@ for (const playlist of playlistSpecs) {
         continue;
       }
 
-      videos.push({ id, title });
+      if (typeof url == "string") {
+        const id = url.replace("https://youtu.be/", "");
+        videos.push({ id, title });
+      } else {
+        for (const one_url of url) {
+          const id = one_url.replace("https://youtu.be/", "");
+          videos.push({ id, title });
+        }
+      }
     }
   }
 

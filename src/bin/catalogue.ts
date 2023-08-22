@@ -42,6 +42,11 @@ for (const channel: {
       yaml.dump("catalogue.yaml", catalogue);
 
       if (feed.has_continuation) {
+        console.warn(
+          "XXX: SKIPPING ADDITIONAL PAGES, DELETE THIS `break`; LATER."
+        );
+        break;
+
         feed = await feed.getContinuation();
         continue;
       } else {

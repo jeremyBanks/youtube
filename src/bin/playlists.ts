@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
 import yaml from "../yaml.ts";
-import { youtubei } from "../youtube.ts";
+import { youtubei, replaceVideos } from "../youtube.ts";
 
 const catalogueData = yaml.load("catalogue.yaml");
 const campaignData = yaml.load("campaigns.yaml") as Array<{
@@ -25,7 +25,9 @@ const playlistSpecs = yaml.load("playlists.yaml") as Array<{
   description: string;
   include: {
     from: "Dimension 20";
-    season?: string;
+    world?: string;
+    cast?: string;
+    season?: string | Array<string>;
     type: Array<"episode" | "special" | "trailer" | "insight" | "animate">;
     version: Array<"public" | "members">;
   };
@@ -52,6 +54,8 @@ for (const playlist of playlistSpecs) {
 
   for (const campaign of campaignData) {
     for (const video of campaign.videos) {
+      // TODO: support "public parts"
+
       const type = video.animate
         ? "animate"
         : video.episode
@@ -62,21 +66,35 @@ for (const playlist of playlistSpecs) {
         ? "insight"
         : video.trailer
         ? "trailer"
-        : ("error" as any);
+        : (() => {
+            throw new Error("unreachable");
+          })();
       const title =
         video.episode ??
         video.animate ??
         video.special ??
         video.insight ??
         video.trailer ??
-        "error";
+        (() => {
+          throw new Error("unreachable");
+        })();
       const url = video.public ?? video.members ?? "error";
       const id = url.replace("https://youtu.be/", "");
 
       if (
         playlist.include.season &&
-        playlist.include.season != campaign.season
+        !(playlist.include.season.includes
+          ? playlist.include.season.includes(campaign.season)
+          : playlist.include.season == campaign.season)
       ) {
+        continue;
+      }
+
+      if (playlist.include.world && playlist.include.world != campaign.world) {
+        continue;
+      }
+
+      if (playlist.include.cast && playlist.include.cast != campaign.cast) {
         continue;
       }
 
@@ -98,7 +116,10 @@ for (const playlist of playlistSpecs) {
 
   playlistMd += "\n";
 
-  console.log(playlist);
+  await replaceVideos(
+    playlist.id,
+    videos.map((v) => v.id)
+  );
 }
 
 console.log(playlistMd);

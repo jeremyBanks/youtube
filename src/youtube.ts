@@ -32,3 +32,31 @@ export const youtubeiDefaultUser = await Innertube.create({
     return response;
   },
 });
+
+export const replaceVideos = async (
+  playlistId: string,
+  videoIds: Array<string>
+) => {
+  console.log("Publishing", videoIds.length, "videos to", playlistId);
+  console.log(JSON.stringify(videoIds));
+
+  let pi = await youtubei.getPlaylist(playlistId);
+  const all = pi.items.map((item) => (item as PlaylistVideo).id);
+  while (pi.has_continuation) {
+    pi = await pi.getContinuation();
+    all.push(...pi.items.map((item) => (item as PlaylistVideo).id));
+  }
+
+  console.log(
+    `Found ${all.length} existing entries in playlist. Removing and replacing.`
+  );
+
+  try {
+    if (all.length) {
+      await youtubei.playlist.removeVideos(playlistId, all);
+    }
+    await youtubei.playlist.addVideos(playlistId, videoIds);
+  } catch (error) {
+    console.error(error);
+  }
+};

@@ -38,7 +38,7 @@ include:
 name: Dimension 20 (Free Episodes)
 id: PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO
 description: |
-  Playlist of all free episodes of Dimension 20. This includes all episodes of the first season, and <TBD>.
+  Playlist of all free episodes of Dimension 20.
 
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
@@ -51,8 +51,27 @@ include:
 
 ---
 
-name: "Dimension 20: Fantasy High (Episodes and Extras)"
+name: Dimension 20 (Free Episodes and Extras)
 id: PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA
+description: |
+  Mega-playlist of all free episodes of Dimension 20 and all free extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - trailer
+  - insight
+  - animate
+  version:
+  - public
+
+---
+
+name: "Dimension 20: Fantasy High (Episodes and Extras)"
+id: PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
 
@@ -75,7 +94,7 @@ include:
 ---
 
 name: "Dimension 20: Spyre (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
 
@@ -97,15 +116,13 @@ include:
 ---
 
 name: "Dimension 20: Intrepid Heroes (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
 
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   cast: Intrepid
-  world:
-  - Spyre
   type:
   - episode
   - special
@@ -119,7 +136,7 @@ include:
 ---
 
 name: "Dimension 20: Escape from the Bloodkeep (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Escape from the Bloodkeep, a Dimension 20 campaign.
 
@@ -140,7 +157,7 @@ include:
 ---
 
 name: "Dimension 20: The Unsleeping City (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from both seasons of The Unsleeping City, a series of campaigns from Dimension 20.
 
@@ -163,7 +180,7 @@ include:
 ---
 
 name: "Dimension 20: Tiny Heist (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU
 description: |
   Playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
 
@@ -184,7 +201,7 @@ include:
 ---
 
 name: "Dimension 20: A Crown of Candy (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from A Crown of Candy, a Dimension 20 campaign.
 
@@ -205,7 +222,7 @@ include:
 ---
 
 name: "Dimension 20: Calorum (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from the two seasons of Dimension 20 set in the world of Calorum.
 
@@ -228,7 +245,7 @@ include:
 
 
 name: "Dimension 20: Pirates of Leviathan (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Pirates of Leviathan, a Dimension 20 campaign.
 
@@ -249,7 +266,7 @@ include:
 ---
 
 name: "Dimension 20: Mice and Murder (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Mice and Murder, a Dimension 20 campaign.
 
@@ -270,7 +287,7 @@ include:
 ---
 
 name: "Dimension 20: Misfits and Magic (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Misfits and Magic, a Dimension 20 campaign.
 
@@ -291,7 +308,7 @@ include:
 ---
 
 name: "Dimension 20: The Seven (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from The Seven, a Dimension 20 campaign.
 
@@ -312,7 +329,7 @@ include:
 ---
 
 name: "Dimension 20: Shreik Week (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Shreik Week, a Dimension 20 campaign.
 
@@ -332,8 +349,29 @@ include:
 
 ---
 
+name: "Dimension 20: A Starstruck Odyssey (Episodes and Extras)"
+id: PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4
+description: |
+  Playlist of all episodes, talkbacks, trailers, and animations from A Starstruck Odyssey, a Dimension 20 campaign.
+
+  Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+include:
+  from: Dimension 20
+  season: A Starstruck Odyssey
+  type:
+  - episode
+  - special
+  - trailer
+  - insight
+  - animate
+  version:
+  - public
+  - members
+
+---
+
 name: "Dimension 20: Coffin Run (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Coffin Run, a Dimension 20 campaign.
 
@@ -354,7 +392,7 @@ include:
 ---
 
 name: "Dimension 20: A Court of Fey and Flowers (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from A Court of Fey and Flowers, a Dimension 20 campaign.
 
@@ -375,7 +413,7 @@ include:
 ---
 
 name: "Dimension 20: Neverafter (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Neverafter, a Dimension 20 campaign.
 
@@ -396,7 +434,7 @@ include:
 ---
 
 name: "Dimension 20: The Ravening War (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from The Ravening War, a Dimension 20 campaign.
 
@@ -417,7 +455,7 @@ include:
 ---
 
 name: "Dimension 20: Dungeons and Drag Queens (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Dungeons and Drag Queens, a Dimension 20 campaign.
 
@@ -438,7 +476,7 @@ include:
 ---
 
 name: "Dimension 20: Mentopolis (Episodes and Extras)"
-id: 
+id: PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb
 description: |
   Playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
 

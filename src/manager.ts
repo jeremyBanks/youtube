@@ -7,22 +7,21 @@ const Season = z
   .object({
     season: z.string(),
     debut: z.date(),
-    world: z.union([
-      z.literal("Spyre"),
-      z.literal("Calorum"),
-      z.literal("The Unsleeping City"),
-    ]).optional(),
-    cast: z.union([
-      z.literal("Intrepid"),
-      z.literal("Side"),
-    ]),
+    world: z
+      .union([
+        z.literal("Spyre"),
+        z.literal("Calorum"),
+        z.literal("The Unsleeping City"),
+      ])
+      .optional(),
+    cast: z.union([z.literal("Intrepid"), z.literal("Side")]),
     videos: z.array(
       z.intersection(
         z.object({
           episode: z.string().optional(),
           trailer: z.string().optional(),
           special: z.string().optional(),
-          insight: z.string().optional(),
+          bts: z.string().optional(),
           public: z.string().optional(),
           members: z.string().optional(),
           "public compilation": z.string().optional(),
@@ -43,7 +42,7 @@ const Season = z
             special: z.string(),
           }),
           z.object({
-            insight: z.string(),
+            bts: z.string(),
           }),
         ]),
         z.union([

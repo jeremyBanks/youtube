@@ -14,7 +14,7 @@ videos:
   public: DZ5rprmAHhE
   members: 25pBWVz1Wss
   public compilation: TTC_2ANnmng
-- animate: The Price Must Be Paid
+- animation: The Price Must Be Paid
   public: RuQ3MSscXDE
   members: XvJ6cKf23DY
 - episode: 3. After the Afterlife
@@ -47,7 +47,7 @@ videos:
 - episode: 10. Battle of the Bloodrush Brethren
   public: 2i_yAoWqPJA
   members: CttbCSHBrg8
-- insight: Wally and Gilear in the Morning with Emily, Murph, and Michael
+- bts: Wally and Gilear in the Morning with Emily, Murph, and Michael
   public: VPmwamOA7dg
   members: idvVx0aOOTE
 - episode: 11. Cool Kid, Cold Case
@@ -56,7 +56,7 @@ videos:
 - episode: 12. The Sisterly Showdown
   public: eZQSVAnW5Yk
   members: 4ZYLxfOw7Dg
-- insight: Parties are Weird but Friendship is Dope with Lou and Rick
+- bts: Parties are Weird but Friendship is Dope with Lou and Rick
   public: 5_zHhugm_28
   members: P12Bh6kIsDo
 - episode: 13. First Kisses and Last Words
@@ -65,7 +65,7 @@ videos:
 - episode: 14. Arcade Ambush
   public: C6lnrDGbOag
   members: yuyxI7l97Ds
-- insight: Problem Players and Troublesome Tangents with Ally and Zac
+- bts: Problem Players and Troublesome Tangents with Ally and Zac
   public: oqvXsPDhIsY
   members: OFzLTt9KvkM
 - episode: 15. Family in Flames
@@ -77,10 +77,10 @@ videos:
 - episode: 17. Prompocalypse (Part 2)
   public: _F1gTeuVMb8
   members: ayGtElwiNTo
-- insight: The Greatest Nat 20 of All Time with Siobhan and Lou
+- bts: The Greatest Nat 20 of All Time with Siobhan and Lou
   public: 2MIPr_Biw8U
   members: jrMPTsPpChI
-- insight: Behind the Scenes
+- bts: Behind the Scenes
   public parts: [JnAZ4wc0zeM, O4jDmG3z8Rg]
   members: -tasYql6FBY
 - special: Live in Brooklyn
@@ -114,11 +114,11 @@ videos:
 - episode: 6. The Tomb of Ultimate Evil
   public: 8OUNHM0dMZ8
   members: XCcHTrZR0bE
-- insight: Behind the Scenes
+- bts: Behind the Scenes
   members: rqwcG_2upgk
-- insight: Cast Reunion (Part 1)
+- bts: Cast Reunion (Part 1)
   public: RGb2VYNd4ws
-- insight: Cast Reunion (Part 2)
+- bts: Cast Reunion (Part 2)
   public: 63tcD2_hhHU
 
 ---
@@ -133,56 +133,73 @@ videos:
   public: AdJaWHk_HAk
 - episode: 1. Start Spreading the News
   public: 2Kktwa0kqaU
+  members: MljQci1IM5E
 - episode: 2. Mutant Santa Melee
-  members: uIxx5ID1BU8
+  public: uIxx5ID1BU8
+  members: Dw_d4wBqL9c
 - episode: 3. Pigeon Plus Ones
   public: zme6xXL1WQ8
+  members: jqH9y97Ui3I
 - episode: 4. Scramble in the Sewers
-  members: k8FPa4KjoUE
+  public: k8FPa4KjoUE
+  members: Q8JwkP_kSZE
 - episode: 5. A New York Wedding
-  members: uFrZM6A4t44
+  public: uFrZM6A4t44
+  members: B_vp3eBd0bY
 - episode: 6. The War of Bugs and Rats
-  members: lfCb7uMW8JM
+  public: lfCb7uMW8JM
+  members: hVepp_ZIsow
 - episode: 7. We Need to Talk About Pete
-  members: 8n0PA87sugg
+  public: 8n0PA87sugg
+  members: gGAofBHh6xI
 - episode: 8. Subway Skirmish
-  members: MeC7Jhnb8cE
+  public: MeC7Jhnb8cE
+  members: xEiV1g47knQ
 - episode: 9. Borough of Dreams
-  members: 22jrl5-8tNQ
+  public: 22jrl5-8tNQ
+  members: Wdq0TbScLNY
 - episode: 10. Panic at the Art Show
-  members: RsIuqJiZdnY
+  public: RsIuqJiZdnY
+  members: G7kRjdUier0
 - episode: 11. Home for the Holidays
-  members: deJ-bNFYVe4
+  public: deJ-bNFYVe4
+  members: hFPUKQmWQ3M
 - episode: 12. Broadway Brawl
-  members: 54SgvyoOI2I
-- episode: 13. Faeries and Fathers
-  members: GRjDgEXTrB0
+  public: 54SgvyoOI2I
+  members: Bvyhoy10d_k
+- episode: 13. Faeries and Feces
+  public: GRjDgEXTrB0
+  members: AKly1A7McNA
 - episode: 14. Showdown at the Stock Exchange
-  members: 3HzN11pnXdw
+  public: 3HzN11pnXdw
+  members: YGXoJ7KqXaQ
 - episode: 15. Hall of Heroes
-  members: 8rz--KiKHYU
+  public: 8rz--KiKHYU
+  members: v_N2DfBsdos
 - episode: 16. Times Squaremageddon (Part 1)
-  members: WfM1isoVe8U
+  public: WfM1isoVe8U
+  members: 6W-m2zmEvvw
 - episode: 17. Times Squaremageddon (Part 2)
-  members: RcvVO3xd-po
-- insight: "Behind the Scenes: Brennan"
+  public: RcvVO3xd-po
+  members: mpQ7hkuTf2A
+- bts: "Behind the Scenes: Brennan"
   public: 5Gov0t2HOas
   members: Gbr9AGX58pE
-- insight: "Behind the Scenes: Murph"
+- bts: "Behind the Scenes: Murph"
   members: GtkWIOkOMIw
-- insight: "Behind the Scenes: Ally"
+- bts: "Behind the Scenes: Ally"
   members: Eb5wey1ZBgA
-- insight: "Behind the Scenes: Zac"
+- bts: "Behind the Scenes: Zac"
   members: LYo8Tr9K0Eg
-- insight: "Behind the Scenes: Siobhan"
+- bts: "Behind the Scenes: Siobhan"
   members: Cku2ZO43TaA
-- insight: "Behind the Scenes: Lou"
+- bts: "Behind the Scenes: Lou"
   members: g2EfECoV2nI
-- insight: "Behind the Scenes: Emily"
+- bts: "Behind the Scenes: Emily"
   members: BDhea1lB4jk
-- insight: How the Editors Make Dimension 20 Come To Life
+- bts: How the Editors Make Dimension 20 Come To Life
   public: kjIorkzxF0s
-- insight: How the Minis of Dimension 20 Are Made
+- bts: How the Minis of Dimension 20 Are Made
   public: LIGsNWQ8zEU
 
 ---
@@ -195,6 +212,7 @@ world: Spyre
 videos:
 - episode: 1. Sophomores Start
   public: J5D0ij7cv-c
+  members: PrkKnvRoLug
 - episode: 2. Mirror Madness
   public parts: [I5rJSs8QxvY, 3o39rSn-K6o]
   members: pzUFWFdCe7c
@@ -249,7 +267,8 @@ videos:
   public: kR6vADysaxM
 - episode: 1. Big Little Crimes
   public: l-y98OYaXu8
-- animate: Rick Diggins Is At Your Service
+  members: ZMjiLecUutM
+- animation: Rick Diggins Is At Your Service
   members: PWvqA_Ib_uY
   public: NnylOrzi_Kw
 - episode: 2. Chicanery at Shoeby's Casino
@@ -276,79 +295,80 @@ videos:
   public: zOnnqKPh5RY
 - episode: 1. There Is Strength in Sweetness
   public: REnc_wXkHnc
-- insight: Are The Dice Scripted?
+  members: mA7BlfOsYng
+- bts: Are The Dice Scripted?
   members: PvM2yQ12t70
 - episode: 2. Ambush On the Sucrosi Road
   members: t8mO8UlfDho
-- insight: For The Corn Cuties!
+- bts: For The Corn Cuties!
   members: 5qlemDfjl1U
 - episode: 3. Keep Sharp
   members: rKXhP1mV5A8
-- insight: Choices and Voices
+- bts: Choices and Voices
   members: mQN4hJ8IdWE
 - episode: 4. The Grand Tournament
   members: QSVHCBuS7ys
-- animate: Where's Your Bulb Now?
+- animation: Where's Your Bulb Now?
   public: 4Fj1wU6xT6w
   members: y6UJtVbY-Yw
-- insight: Zac's Big Day
+- bts: Zac's Big Day
   members: 79WG3mN4AW4
 - episode: 5. Lapin's Big Day
   members: 2AkMeUhcTT0
-- insight: The Jeff Goldblum Episode
+- bts: The Jeff Goldblum Episode
   members: cQPiAC6vfhA
 - episode: 6. Chaos in the Cathedral
   members: YpbxZ7CBTwU
-- insight: Welcome to Denny's
+- bts: Welcome to Denny's
   members: iJl_qUA-4gc
 - episode: 7. Escape From the Bulb Creeps
   members: VRpIyUkeRY4
-- insight: We've Got Ink On Our Hands
+- bts: We've Got Ink On Our Hands
   members: BtONMuscCOQ
 - episode: 8. Deep Bleu Sea
   members: zjkhYwst2tE
-- insight: War Crimes and Good Times
+- bts: War Crimes and Good Times
   members: IZmvdLrmZTY
 - episode: 9. Safe Harbor
   members: HJUWVd7byRI
-- animate: Liam Tries to Flirt
+- animation: Liam Tries to Flirt
   public: gI2KgJvft90
   members: 4bJ3Hr5bi6s
-- insight: Slammed Down, Big-Style
+- bts: Slammed Down, Big-Style
   members: kZy0mmTLf_g
 - episode: 10. Blood and Bread
   members: XMaGdEKIfiI
-- insight: Soft Hugs
+- bts: Soft Hugs
   members: wD8Gi-AUKkw
 - episode: 11. At the Mountains of Sweetness
   members: l-AUIcjoln4
-- insight: Twinned Down, Big Business-Style
+- bts: Twinned Down, Big Business-Style
   members: ZIP50ZxigK0
 - episode: 12. Rescue at Buzzybrook
   members: KbOetf8U6TY
-- insight: Choppy Skullduggery
+- bts: Choppy Skullduggery
   members: aYY-vGsxfMY
 - episode: 13. Family Ties
   members: bSvcfWDgC7I
-- insight: Dom or Be Dommed
+- bts: Dom or Be Dommed
   members: JN2QzaQcpSo
 - episode: 14. Encounter in the Ice Cream Temple
   members: i9OczQ1vCvo
-- insight: Rude Goldberg and Eartha Crit, Explained
+- bts: Rude Goldberg and Eartha Crit, Explained
   members: jUcxLbad31I
 - episode: 15. The Two Balls
   members: u6nBCXfCUVE
-- insight: I Stan The Protestant Work Ethic!
+- bts: I Stan The Protestant Work Ethic!
   members: intsLWmLjxE
 - episode: 16. For Candia! (Part 1)
   members: yPDSSCV02xc
-- insight: Burt From Ohio, Thankyousomuch
+- bts: Burt From Ohio, Thankyousomuch
   members: aqqNBb3-l5c
 - episode: 17. For Candia! (Part 2)
   members: he8QU5a9HfA
-- insight: The Wild Childs
+- bts: The Wild Childs
   members: JqRJ4TEZmvs
-- insight: Behind the Scenes
+- bts: Behind the Scenes
   members: hdQKi3wf_zw
 
 ---
@@ -362,7 +382,8 @@ videos:
   public: AdEuH8CYG_k
 - episode: 1. A Heaping Helping of Trouble
   public: HuMbE1G2O2c
-- animate: Meet Bob
+  members: 6oKn_w5R9Dk
+- animation: Meet Bob
   public: TJI2c2E_9vk
   members: pi54L4C_2K8
 - episode: 2. The Daughter of Storms
@@ -371,13 +392,13 @@ videos:
   members: qrllCdwZP3w
 - episode: 4. I'm Worth This
   members: VqTE22HU-1A
-- insight: Look At All My Friends!
+- bts: Look At All My Friends!
   members: GCBoHjAdyfo
 - episode: 5. Scramble to the Ramble
   members: O0VHseTnWNM
 - episode: 6. The Horizon Beyond the Squall
   members: SshOcZR5_Do
-- insight: The Buccaneer Buddies Reunite
+- bts: The Buccaneer Buddies Reunite
   members: eP_uySY8X-o
 
 ---
@@ -392,79 +413,80 @@ videos:
   public: cbBflJXRZzU
 - episode: 1. The Fall of New York City
   public: "-Ho5CdsUIQc"
-- animate: Cody Sells His Soul
+  members: wfcwB10zZFM
+- animation: Cody Sells His Soul
   public: ZUu0XGoCbUM
   members: mPHs6O1nMsk
-- insight: A Ferry Special Episode
+- bts: A Ferry Special Episode
   members: 7r9nmTsdDG0
 - episode: 2. Heaven and Hell On Earth
   members: Zacas5bn0Y4
-- insight: Bon Mots and Bánh Mìs
+- bts: Bon Mots and Bánh Mìs
   members: 0XNeKl5g76s
 - episode: 3. The Mystery of the Haunted Subway
   members: EUtbkIyYbSs
 - episode: 4. We Need To Talk About Cody
   members: sM9t4jCeL_o
-- insight: The Yellow M&M Is the Funniest Guy Alive
+- bts: The Yellow M&M Is the Funniest Guy Alive
   members: WYQXUDy8Lvo
 - episode: 5. Trouble at the Tunnel
   members: gmU6DEXP4Q0
-- insight: The Perfect Stack of Pancakes
+- bts: The Perfect Stack of Pancakes
   members: adXrikFX-gE
 - episode: 6. Collaborators
   members: AvwtIPtuWvQ
-- animate: Casting Silence
+- animation: Casting Silence
   public: XweZBOiiqNg
   members: xZu1uCAyU5A
-- insight: The Person Among Muppets
+- bts: The Person Among Muppets
   members: FLBEATzIiE4
 - episode: 7. Parade of Peril
   members: d7HNkywItkU
 - episode: 8. Feasts and Families
   members: hdv8-A75yEc
-- insight: Thinking About True Clowns
+- bts: Thinking About True Clowns
   members: Crkmgrk2IGM
 - episode: 9. Fight at the Museum
   members: LW1MkDhYTog
-- insight: Character Assassination
+- bts: Character Assassination
   members: UO1PWvRFEm4
 - episode: 10. Nulla Dies Umquam Memori Vos Eximet Aevo
   members: Kff_E0jrPxU
-- insight: "#PrefluorideBoomers"
+- bts: "#PrefluorideBoomers"
   members: XmXMMPXolVI
 - episode: 11. Let's Get Tiny
   members: HmSG1F97z1A
-- insight: The Bazathrax and Baby Podcast
+- bts: The Bazathrax and Baby Podcast
   members: O196GrtdD2Q
 - episode: 12. The Battle of the Hot Dog Cart
   members: VEiSV8faeU0
-- insight: This Show is Not Frasier
+- bts: This Show is Not Frasier
   members: PN0jB0fZX24
 - episode: 13. Of Rats and Dragons
   members: dKLW2EgEmEo
-- insight: Referral Code ZACOYAMA40MILLION
+- bts: Referral Code ZACOYAMA40MILLION
   members: IH2CUIbYqK0
 - episode: 14. History Checks and Lost Dex
   members: CfldRVNPXNk
-- insight: Dog Singing and Flesh Papa
+- bts: Dog Singing and Flesh Papa
   members: 2skzm6ViAd4
 - episode: 15. For the Hoard
   members: aDvCAxLpJp0
-- insight: Intrepid Bunnies
+- bts: Intrepid Bunnies
   members: a7TWgWVOxyw
 - episode: 16. Treachery At Gramercy
   members: -Ihu3sOYxGs
-- insight: The Lou Show
+- bts: The Lou Show
   members: vPZ9MYlSqcQ
 - episode: 17. Two Sides of the Same Coin (Part 1)
   members: 6T6pUOq2br4
-- insight: I Really Miss Smelling My Friends
+- bts: I Really Miss Smelling My Friends
   members: BxG3LFihVMc
 - episode: 18. Two Sides of the Same Coin (Part 2)
   members: 2CfxlgkapJE
-- insight: Cody, The Kids, and Lorne Michaels
+- bts: Cody, The Kids, and Lorne Michaels
   members: _C43rGbNSfs
-- insight: Crew Edition
+- bts: Crew Edition
   members: 6f5pfudBaGU
 
 ---
@@ -477,46 +499,47 @@ videos:
   public: CokApJchV94
 - episode: 1. It Was a Dark and Stormy Night
   public: _GX8075fX3k
-- insight: Say Hi, Sylvan Sleuths!
+  members: 3uUfFTNeSLg
+- bts: Say Hi, Sylvan Sleuths!
   members: zj8F-GqWaIs
-- animate: Do I Have A Fellow Student of the Stars Here As Well?
+- animation: Do I Have A Fellow Student of the Stars Here As Well?
   public: lsizZEAw7K8
   members: 6VuJWgCiDuo
 - episode: 2. A Scandal in Britannia
   members: v79wbHZPqJM
-- insight: Tisching All Over the Place
+- bts: Tisching All Over the Place
   members: dswptEabsho
 - episode: 3. A Time For Clues
   members: DAdOEaLlLqg
-- insight: The Donkey Vibe
+- bts: The Donkey Vibe
   members: dV_ZSMANHnU
 - episode: 4. The Stabber of the Evening
   members: efUbyvvZ-KM
-- insight: Masculine Fertile
+- bts: Masculine Fertile
   members: rSR7Kedh5r8
 - episode: 5. The Eye of the Storm
   members: oy75ccKpawE
-- insight: She Already Happened
+- bts: She Already Happened
   members: Fwv7sCAKj7o
 - episode: 6. Busted
   members: KLuAA_qeWRs
-- insight: The Roll that Broke Brennan
+- bts: The Roll that Broke Brennan
   members: yL1Jw3PrddQ
 - episode: 7. I've Been Here the Whole Time
   members: X6K7qXawUuQ
-- insight: The Kevin Bacon of Crime
+- bts: The Kevin Bacon of Crime
   members: Qt9IWziXSq0
 - episode: 8. Outfoxed
   members: 3WPs3tj9bl0
-- insight: Fashion Show!
+- bts: Fashion Show!
   members: Lw2udFOdsSw
 - episode: 9. The Belly of the Beast
   members: siJ8N-FU-g4
-- insight: Ass-Ass-I-Ate
+- bts: Ass-Ass-I-Ate
   members: UUtXjkwLUKY
 - episode: 10. Unfinished Business
   members: eeyoMM9Rpt4
-- insight: Farewell, Sylvan Sleuths!
+- bts: Farewell, Sylvan Sleuths!
   members: HdKObIkyoA8
 
 ---
@@ -529,27 +552,28 @@ videos:
   public: yKHP2mPv7Ws
 - episode: 1. The Chosen Ones
   public: C1VffF1Z5-Y
-- insight: Cluck If You Buck
+  members: HSV2WQnH_A0
+- bts: Cluck If You Buck
   members: RNNCvG3DDmI
 - episode: 2. Class Conflict
   members: Y5gw8bpe1Bc
-- insight: True Facts About McDonald's Apple Pie
+- bts: True Facts About McDonald's Apple Pie
   members: oVEMU6j2ZPg
 - episode: 3. Family On Six
   members: R3hq2zf55SE
-- insight: Wet Fire (and Bad News Brooms)
+- bts: Wet Fire (and Bad News Brooms)
   members: GfqePzMJoM4
 - episode: 4. We're the Heroes
   members: nyEunKC1Y70
-- animate: A Drink at the Questing Beast
+- animation: A Drink at the Questing Beast
   public: ydy-16qo5FY
   members: bkdkqGPdXBI
-- animate: Evan Kelmp Blasts a Kid into the Underworld
+- animation: Evan Kelmp Blasts a Kid into the Underworld
   public: 1OH5Kz3uXh8
   members: 3RMIhKC-Dvk
-- insight: That's the Squad
+- bts: That's the Squad
   members: qYVlar0YboE
-- insight: Everybody Put Their Little Stank On It
+- bts: Everybody Put Their Little Stank On It
   members: aYstKw4VHwQ
 - trailer: Holiday Special Trailer
   public: xf2hV6GmrCk
@@ -569,47 +593,48 @@ videos:
   public: 0bJfIZyEP98
 - episode: 1. Party of Seven
   public: 9_LkwjqQ_mo
-- insight: I've Never Been in a Campaign That Is Hornier
+  members: REYMCBoByAs
+- bts: I've Never Been in a Campaign That Is Hornier
   members: pfbC-eFk9Tc
 - episode: 2. In or Out
   members: s1w3krwpU9Y
-- insight: How Was This All One Episode
+- bts: How Was This All One Episode
   members: yDV7xQYIdbc
 - episode: 3. Big City Connections
   members: 1I8te_xbk-M
-- insight: Schrödinger's Double Slit
+- bts: Schrödinger's Double Slit
   members: '-bh4EseQymY'
 - episode: 4. Stone Temple Pile-Up
   members: xJVcO6QdZHo
-- insight: Party Fowl
+- bts: Party Fowl
   members: ACjCoEoUW1I
 - episode: 5. Reflections
   members: KYU-nznR5x4
-- insight: Everybody's In Freaking Mirrors
+- bts: Everybody's In Freaking Mirrors
   members: hUiAoZh2fkc
 - episode: 6. Belles of The Baronies
   members: C4ZxnN7lTuo
-- insight: You Did a Murder, Girl
+- bts: You Did a Murder, Girl
   members: zqS7qyr7cX4
 - episode: 7. Bloppelganger Blitz
   members: tuDdqACkRp4
-- insight: Booger Lee Mulligan
+- bts: Booger Lee Mulligan
   members: fyLGKXmnkuo
 - episode: 8. And Another Thing
   members: Ya1LxpI0LbU
-- insight: There Is Nothing These Women Cannot Do
+- bts: There Is Nothing These Women Cannot Do
   members: azIQ9K5rt0E
 - episode: 9. Time and Space
   members: jgxxwrybbNY
-- insight: I Get This Insight Into How Your Nasty Little Mind Works
+- bts: I Get This Insight Into How Your Nasty Little Mind Works
   members: s0dDUvaCgRw
 - episode: 10. I Fucking Love You
   members: F3dJqK_MriE
-- insight: The Ending of All Things
+- bts: The Ending of All Things
   members: cbydaI1LaIk
-- insight: Have You Heard of This Thing Called Talespire?
+- bts: Have You Heard of This Thing Called Talespire?
   members: TrQe-zniCpA
-- insight: We All Felt Like It Was Therapy with Brennan During This Game
+- bts: We All Felt Like It Was Therapy with Brennan During This Game
   members: UVDaRZssWzQ
 
 ---
@@ -622,21 +647,22 @@ videos:
   public: 3mlLfl5ZNLI
 - episode: 1. The Club Fair
   public: msr-i7SwcN0
-- insight: I Pretended to be a Wolf for Awhile as a Child
+  members: JqMPN9_5OG8
+- bts: I Pretended to be a Wolf for Awhile as a Child
   members: hwZlEc2l4dM
 - episode: 2. Quandary on the Quad
   members: jKYykMZpad0
-- insight: Everyone Put a Finger Down If You Smelled a Chair
+- bts: Everyone Put a Finger Down If You Smelled a Chair
   members: tEHj5v-mUtw
 - episode: 3. Parents' Weekend
   members: mZuaiaBIJyc
-- insight: That's The Beauty of D&D
+- bts: That's The Beauty of D&D
   members: vujC_Uk_nSQ
 - episode: 4. Van Helsing's Party
   members: yb169Rb3UPU
-- insight: I Wish I Had Bitten More People
+- bts: I Wish I Had Bitten More People
   members: OyVhJi7hr0g
-- insight: Oh No, I'm In Love With Chupacabra
+- bts: Oh No, I'm In Love With Chupacabra
   members: _BYg4oX3juA
 
 ---
@@ -649,84 +675,85 @@ videos:
 - trailer: A Starstruck Odyssey Trailer
   public: oVC-KqAgm38
 - episode: 1. Welcome To The Spacin' Life, Buddy
-  members: 6I7cZG_RoWI
-- insight: Our Tail Was Not Between Our Legs
+  public: 6I7cZG_RoWI
+  members: GK7Ud5sqinU
+- bts: Our Tail Was Not Between Our Legs
   members: QFqHarfv_w8
 - episode: 2. Rolling Up The Hill
   members: -PXnJ25vgec
-- insight: Was That the Worst Social Interaction in D20 History?
+- bts: Was That the Worst Social Interaction in D20 History?
   members: qfF_IOKBSg8
 - episode: 3. Wrecked on Rec 97
   members: 1aeZiZT9kjs
-- insight: The Ball Continues Rolling Up
+- bts: The Ball Continues Rolling Up
   members: UdXqBE0E-R0
 - episode: 4. Every Day is Our Wurst Day
   members: 3rV-tm8OiOU
-- insight: The Chaos, the Chaos of this Episode
+- bts: The Chaos, the Chaos of this Episode
   members: 4ZIVGsbsET0
 - episode: 5. All In the Hot Exit
   members: iiEf2E1kIOM
-- insight: To Me, This Is A Perfect Battle
+- bts: To Me, This Is A Perfect Battle
   members: 5Qr-l3WM_eQ
 - episode: 6. On the Run In the Martini Nebula
   members: XsFcJ8eD9j0
-- insight: Hot Dog Wrapped in Ham
+- bts: Hot Dog Wrapped in Ham
   members: AywIm9xP30g
 - episode: 7. Dying Tomorrow, It's a Pleasure
   members: a5Uamf-JeW4
-- insight: We've Never Not Hot Exited
+- bts: We've Never Not Hot Exited
   members: dx7EhwzpAAk
 - episode: 8. Wallops at Swallop's
   members: fcOzNxk2PgA
-- animate: The Magic of Plug
+- animation: The Magic of Plug
   public: zQCxwYhhCcI
   members: 4We1ITzYonE
-- insight: Cool, This Is Not Going to Go According to Plan
+- bts: Cool, This Is Not Going to Go According to Plan
   members: cmoj-_F0Jag
 - episode: 9. Baustin Skiffy Limits
   members: FaRQeh41ThQ
-- insight: No Heroes
+- bts: No Heroes
   members: TH7Iypj5cUs
 - episode: 10. It's a Griivarr World After All
   members: EH3zr_EJfA4
-- insight: That's When the Slapping and Kissing Starts
+- bts: That's When the Slapping and Kissing Starts
   members: KQ7Z1Hr_krc
 - episode: 11. Flee From Fantanimalland
   members: zzXwoZz-s58
-- animate: Gunnie Buys a Maple Cake
+- animation: Gunnie Buys a Maple Cake
   public: SC1C-HXFnUA
   members: L8_hld6RW6s
-- insight: Randomness Lets Something Amazing Happen
+- bts: Randomness Lets Something Amazing Happen
   members: b6NS8Y7Jxks
 - episode: 12. Go Big or Go Home
   members: -wtoiSfr_FU
-- insight: Prelude to the Tight Pony Episode
+- bts: Prelude to the Tight Pony Episode
   members: iwAuC38xNIk
 - episode: 13. Battle of the Brands
   members: sqwSnG0o2es
-- insight: Riva Más Vegas
+- bts: Riva Más Vegas
   members: eWePbnhli4E
 - episode: 14. The House Always Wins
   members: E2i_AQ1vO-Q
-- insight: Life After Debt
+- bts: Life After Debt
   members: '-ak0NiTE9js'
 - episode: 15. Face to Face
   members: nSqi34msqg0
-- insight: Snake Eyes
+- bts: Snake Eyes
   members: NCIps1gDGWQ
 - episode: 16. Jailbreak!
   members: jCR9JfQo2hE
-- insight: Plug's Butt Ugly Podcast
+- bts: Plug's Butt Ugly Podcast
   members: QRnkGR4NLqk
 - episode: 17. The Luckless, the Abandoned, and the Forsaked (Part 1)
   members: NxJi-1GLa4E
-- insight: Prilbus!
+- bts: Prilbus!
   members: AnNV1XNMli4
 - episode: 18. The Luckless, the Abandoned, and the Forsaked (Part 2)
   members: renBy5RQG4I
-- insight: From Running to Ramming, The Wurst Story
+- bts: From Running to Ramming, The Wurst Story
   members: 2aae_QSoFJU
-- insight: No Middle Sliders
+- bts: No Middle Sliders
   members: Wxraddz_7Ds
 
 ---
@@ -739,29 +766,30 @@ videos:
   public: pdji4F1Ax_w
 - episode: 1. Down For The Count
   public: ul8iK77Cl-k
-- insight: All You Need Is Stab
+  members: QqkAroaBBAI
+- bts: All You Need Is Stab
   members: RJR5vc8h82g
 - episode: 2. Attacks on the Tracks
   members: EE_8AOsWwO4
-- insight: Bat Shit Mountain
+- bts: Bat Shit Mountain
   members: tm0qNcOb2P0
 - episode: 3. Let's Kill Everybody
   members: JMEu5WUzCnE
-- insight: Trope Queen
+- bts: Trope Queen
   members: qVUk9C4ANo0
 - episode: 4. Waylaid by Werewolves
   members: pUSMYzMBI5c
-- insight: Werewolf Sex
+- bts: Werewolf Sex
   members: YjhKcQ2h-u8
 - episode: 5. Drac's Moved-In Castle
   members: U9yOg46ZJjc
-- insight: Hideo Kojima Mind, Activate!
+- bts: Hideo Kojima Mind, Activate!
   members: ZH8c3zvpz64
 - episode: 6. Feed the Beast
   members: KXzcNhs8w18
-- insight: Let's Do Shots!
+- bts: Let's Do Shots!
   members: KpKBuGy4jog
-- insight: Butthole Incorporated
+- bts: Butthole Incorporated
   members: uxf1mXa1C90
 
 ---
@@ -773,49 +801,50 @@ videos:
 - trailer: A Court of Fey and Flowers Trailer
   public: VFyHiykk2U4
 - episode: 1. A Bloom to Remember
-  members: hMNzZiN0-P0
-- animate: The Lords of the Wing Spill Their Secrets
+  public: hMNzZiN0-P0
+  members: uqvKpOlVd08
+- animation: The Lords of the Wing Spill Their Secrets
   public: uJ6PkAJlMHI
   members: pfufHGSaBkY
-- insight: I Demand Satisfaction
+- bts: I Demand Satisfaction
   members: 2l8WRPN8Ij8
 - episode: 2. The Great Hart Hunt
   members: fGonw_1q3hk
-- insight: A Diamond Doesn't Know They're a Diamond
+- bts: A Diamond Doesn't Know They're a Diamond
   members: VKTumIJwhhU
 - episode: 3. Duel on the Southern Lawn
   members: P3Vn60Z-WS4
-- insight: Was Your Father a Meat Burglar?
+- bts: Was Your Father a Meat Burglar?
   members: yDkATMJHuX0
 - episode: 4. Seaside Teatime
   members: bwr69Oj-nLM
-- insight: Not Too Bad For a Kid Who Used to Lick Walls
+- bts: Not Too Bad For a Kid Who Used to Lick Walls
   members: pZZHDASgrMs
 - episode: 5. Through The Hedge Maze
   members: MnwPwum3FIU
-- insight: Trinkets For Everybody
+- bts: Trinkets For Everybody
   members: 4k4rczmqQYI
 - episode: 6. Of One Mind
   members: 0nsDWuL3Sm4
-- insight: Knickolas Pterodactyl Hob
+- bts: Knickolas Pterodactyl Hob
   members: LzmDM0SQfm0
 - episode: 7. The Masquerade Ball
   members: Ggn0IfRUZOM
-- insight: A Spill of Pearls
+- bts: A Spill of Pearls
   members: jqhDptZ2y9c
 - episode: 8. The Rule of Sneakery
   members: HgTqinh73kE
-- insight: Doctor Green Hunter
+- bts: Doctor Green Hunter
   members: 98n8C8f8CU0
 - episode: 9. Theater of War
   members: Hfd5lRmT6pM
-- insight: Do Clothes Die?
+- bts: Do Clothes Die?
   members: VMnLAqhqMIA
 - episode: 10. You Will Never Know a Lonely Day Again
   members: AJG4IqC0Ivw
-- insight: Schrödinger's Canon
+- bts: Schrödinger's Canon
   members: k39f1gBpeEk
-- insight: The Wish Factory
+- bts: The Wish Factory
   members: uHJ0ejs57q8
 
 ---
@@ -829,85 +858,86 @@ videos:
   public: nwMxp7mRbx4
 - episode: 1. The Times of Shadow
   public: 7GTogwQVmYE
-- insight: Royals, Scamps, and Townies
+  members: 0_RiOyVMOCE
+- bts: Royals, Scamps, and Townies
   members: SAiHzPimhC0
 - episode: 2. Mirror, Mirror
   members: 9sjFyMxZ8-U
-- insight: Mrs. Potts Will Not Be Appearing
+- bts: Mrs. Potts Will Not Be Appearing
   members: tKZS-b82TxE
 - episode: 3. No Place For a Prince or Princess
   members: jPlOR1EBGqA
-- insight: You Got Episode Three'd
+- bts: You Got Episode Three'd
   members: erZWVbM93tQ
 - episode: 4. Once Upon a Time
   members: DxKgpGDUBAQ
-- insight: Psychopomp and Circumstance
+- bts: Psychopomp and Circumstance
   members: pnw6pEzv9Nw
 - episode: 5. Down Came the Rain
   members: ViTCCW6PGxw
-- insight: Gatorade Shampoo
+- bts: Gatorade Shampoo
   members: b_ff-DmctUA
 - episode: 6. The Curdled Web
   members: bErTB5lb7EE
-- insight: The Fable of the Frog and the Scorpion
+- bts: The Fable of the Frog and the Scorpion
   members: SOD-hPwHj8M
 - episode: 7. Trouble in Tuffeton
   members: fNEG6bIc2wA
-- insight: The Nat Honey (AKA The A-crit-stant)
+- bts: The Nat Honey (AKA The A-crit-stant)
   members: OyQKEyeSVJw
 - episode: 8. The Lines Between
   members: FglHink-o9s
-- insight: Big Zoom Energy
+- bts: Big Zoom Energy
   members: OwDCmQNz38k
 - episode: 9. Origins
   members: P4zzJzFxr0g
-- insight: I Bet You're Wondering How We Got Into This Mess...
+- bts: I Bet You're Wondering How We Got Into This Mess...
   members: JYdmjZOrdpg
 - episode: 10. The Baron of Bricks
   members: _S5rrZf3OEY
-- insight: We'll See You in the Soup
+- bts: We'll See You in the Soup
   members: 7spfFOYKtVc
 - episode: 11. Big and Bad
   members: JEI9h_CgRZ8
-- insight: The Bánh Mì Debt
+- bts: The Bánh Mì Debt
   members: IHnFNTsVUuI
 - episode: 12. A Warm Heart and a Tombstone
   members: gNJeX0Akhk0
-- insight: One Un-Donkey Hot Dog
+- bts: One Un-Donkey Hot Dog
   members: Bd_HJnOcIwY
 - episode: 13. Terror on Toy Island
   members: JBe4gSqbdus
-- insight: Level 20 Sciss-her Gal-a-them
+- bts: Level 20 Sciss-her Gal-a-them
   members: gRrVFuPMz_M
 - episode: 14. Daughters of the Crown
   members: 6ZBHwl9vsck
-- insight: D-Fuckin'-W
+- bts: D-Fuckin'-W
   members: ZysdG4JKUZw
 - episode: 15. Leap of Faith
   members: LkFCU39jr44
-- insight: They Might Be Giants
+- bts: They Might Be Giants
   members: suJdAuyJGtA
 - episode: 16. In the Land of Giants
   members: zXM4SPVz9w8
-- insight: Save the Goose, Save the World
+- bts: Save the Goose, Save the World
   members: 5hRA8HM1Guk
 - episode: 17. The Last Wish
   members: a5V4LiFWQQI
-- insight: Big Aslan Energy
+- bts: Big Aslan Energy
   members: 1iWVJh8n6Bg
 - episode: 18. The Trials of Baba Yaga
   members: txSRxktXbjo
-- insight: It Happened
+- bts: It Happened
   members: DJjkSQim2K0
 - episode: 19. The Ending of All Things (Part 1)
   members: 4_ZGJc5ZwPQ
-- insight: The Orange Fairy in the Top Hat
+- bts: The Orange Fairy in the Top Hat
   members: AcOJNR4wlqw
 - episode: 20. The Ending of All Things (Part 2)
   members: rW7KlrvS6qY
-- insight: Three Cheers for Jesse Harron
+- bts: Three Cheers for Jesse Harron
   members: Y0LtM5baLUA
-- insight: The Stories Behind the Stories
+- bts: The Stories Behind the Stories
   members: HsoEUyIC8aA
 
 ---
@@ -921,35 +951,36 @@ videos:
   public: c4xTd-NjEj4
 - episode: 1. The Seeds of Conflict
   public: LiBe4WJaLo0
-- insight: That's War Baby
+  members: uWrJuBNjnZA
+- bts: That's War Baby
   members: uN50ixe-BQ0
 - episode: 2. Bloody Harvest
   members: O9G-tVBO3Cw
-- insight: A Fun Dark Seed
+- bts: A Fun Dark Seed
   members: KdfjVw5WYmc
 - episode: 3. Yonder Where the Fruit Do Be Lyin'
   members: bw0-RfAq7d4
-- insight: On the Glucian Road
+- bts: On the Glucian Road
   members: GU5yZsBG_B4
 - episode: 4. The Light and the Shadow
   members: F97JEYPFE5I
-- insight: The Mystic River Episode
+- bts: The Mystic River Episode
   members: 6-bcVOVwXao
 - episode: 5. The Seventh Kingdom
   members: RbG2v-cWFdU
-- insight: Deep in It
+- bts: Deep in It
   members: hadO-IKiSGw
 - episode: 6. The Heart of the World
   members: 8yqzTFQ2FjA
-- insight: Let's Make Mouth Sounds Together
+- bts: Let's Make Mouth Sounds Together
   members: qT6uK0SbtdI
-- insight: A Little More Throat Wattle
+- bts: A Little More Throat Wattle
   members: qGaoLhCZPew
-- insight: "Behind the Scenes: How It Began"
+- bts: "Behind the Scenes: How It Began"
   members: zplZEDC-nj4
-- insight: "Behind the Scenes: The Cast"
+- bts: "Behind the Scenes: The Cast"
   members: c8UfbrcV-X4
-- insight: "Behind the Scenes: The Art Team"
+- bts: "Behind the Scenes: The Art Team"
   members: ZuQbPO9XREs
 
 ---
@@ -962,19 +993,20 @@ videos:
   public: khZVjQL74qE
 - episode: 1. Queens on a Quest
   public: MZhCgp-GRQ8
-- insight: The Illuminati Invented Sandwiches
+  members: 1gq-iJ8eerY
+- bts: The Illuminati Invented Sandwiches
   members: qEzV08PmGEQ
 - episode: 2. Welcome to the Underworld
   members: 37vlzMCTfdg
-- insight: The Bloods and the Crypts
+- bts: The Bloods and the Crypts
   members: J48329Pa-1c
 - episode: 3. The Time Has Come
   members: OrAxFXlvKqc
-- insight: The Dice Tell the Story
+- bts: The Dice Tell the Story
   members: uK4yu48EKa8
 - episode: 4. In the Heart of Death
   members: RT6XwcsQ3Tc
-- insight: The Gaming Super Bowl
+- bts: The Gaming Super Bowl
   members: LDx-pSIAQbw
 
 ---
@@ -989,9 +1021,9 @@ videos:
   public: 9pT1OhH3F1Y
   members: wed7lXpuoSA
   removed members: EYun__yyYnI
-- insight: Key Lime Pie is a Marketing Invention
+- bts: Key Lime Pie is a Marketing Invention
   members: 12-Dxx-UqIs
 - episode: 2. The Scattered Mind
   members: 9T0n9WhLof0
-- insight: In Space No One Can Hear You Cream
+- bts: In Space No One Can Hear You Cream
   members: rDwOmPT9OO0

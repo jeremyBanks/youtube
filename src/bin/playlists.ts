@@ -11,8 +11,8 @@ const campaignData = yaml.load("campaigns.yaml") as Array<{
   videos: Array<{
     trailer?: string;
     episode?: string;
-    animate?: string;
-    insight?: string;
+    animation?: string;
+    bts?: string;
     special?: string;
     public?: string;
     "public parts"?: Array<string>;
@@ -28,7 +28,7 @@ const playlistSpecs = yaml.load("playlists.yaml") as Array<{
     world?: string;
     cast?: string;
     season?: string | Array<string>;
-    type: Array<"episode" | "special" | "trailer" | "insight" | "animate">;
+    type: Array<"episode" | "special" | "trailer" | "bts" | "animation">;
     version: Array<"public" | "members">;
   };
 }>;
@@ -55,14 +55,14 @@ for (const playlist of playlistSpecs) {
 
   for (const campaign of campaignData) {
     for (const video of campaign.videos) {
-      const type = video.animate
-        ? "animate"
+      const type = video.animation
+        ? "animation"
         : video.episode
         ? "episode"
         : video.special
         ? "special"
-        : video.insight
-        ? "insight"
+        : video.bts
+        ? "bts"
         : video.trailer
         ? "trailer"
         : (() => {
@@ -72,9 +72,9 @@ for (const playlist of playlistSpecs) {
           })();
       const title =
         video.episode ??
-        video.animate ??
+        video.animation ??
         video.special ??
-        video.insight ??
+        video.bts ??
         video.trailer ??
         (() => {
           throw new Error(

@@ -1,7 +1,7 @@
 import yaml from "../yaml.ts";
 import { replaceVideos } from "../youtube.ts";
 
-const catalogueData = yaml.load("catalogue.yaml");
+const _catalogueData = yaml.load("catalogue.yaml");
 const campaignData = yaml.load("campaigns.yaml") as Array<{
   season: string;
   from: "Dimension 20";

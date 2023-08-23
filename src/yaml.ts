@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
 import { JsonValue } from "https://deno.land/std@0.198.0/json/mod.ts";
 

@@ -1,3 +1,4 @@
+import { raise } from "../common.ts";
 import yaml from "../yaml.ts";
 import { replaceVideos } from "../youtube.ts";
 
@@ -65,31 +66,19 @@ for (const playlist of playlistSpecs) {
         ? "bts"
         : video.trailer
         ? "trailer"
-        : (() => {
-            throw new Error(
-              "unreachable type from " + JSON.stringify(video, null, 2)
-            );
-          })();
+        : raise("missing type for", video);
       const title =
         video.episode ??
         video.animation ??
         video.special ??
         video.bts ??
         video.trailer ??
-        (() => {
-          throw new Error(
-            "unreachable title from " + JSON.stringify(video, null, 2)
-          );
-        })();
+        raise("missing title for", video);
       const url =
         video.public ??
         video["public parts"] ??
         video.members ??
-        (() => {
-          throw new Error(
-            "unreachable url from " + JSON.stringify(video, null, 2)
-          );
-        })();
+        raise("missing video for", video);
 
       if (
         playlist.include.season &&

@@ -610,6 +610,7 @@
 - [Behind the Scenes: How It Began](https://www.youtube.com/watch?v=zplZEDC-nj4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Behind the Scenes: The Cast](https://www.youtube.com/watch?v=c8UfbrcV-X4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Behind the Scenes: The Art Team](https://www.youtube.com/watch?v=ZuQbPO9XREs&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Brennan Discusses The Ravening War on Screen Rant Plus](https://www.youtube.com/watch?v=R16Eq9K74BM&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Illuminati Invented Sandwiches](https://www.youtube.com/watch?v=qEzV08PmGEQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -621,6 +622,7 @@
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Brennan Discusses Dungeons and Drag Queens on Screen Rant Plus](https://www.youtube.com/watch?v=4wP9PP6irGI&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -628,6 +630,8 @@
 - [In Space No One Can Hear You Cream](https://www.youtube.com/watch?v=rDwOmPT9OO0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 
@@ -805,14 +809,18 @@
 - [1. The Times of Shadow](https://www.youtube.com/watch?v=7GTogwQVmYE&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Ravening War Trailer](https://www.youtube.com/watch?v=c4xTd-NjEj4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. The Seeds of Conflict](https://www.youtube.com/watch?v=LiBe4WJaLo0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Brennan Discusses The Ravening War on Screen Rant Plus](https://www.youtube.com/watch?v=R16Eq9K74BM&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Brennan Discusses Dungeons and Drag Queens on Screen Rant Plus](https://www.youtube.com/watch?v=4wP9PP6irGI&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 
@@ -1416,6 +1424,7 @@
 - [Behind the Scenes: How It Began](https://www.youtube.com/watch?v=zplZEDC-nj4&list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
 - [Behind the Scenes: The Cast](https://www.youtube.com/watch?v=c8UfbrcV-X4&list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
 - [Behind the Scenes: The Art Team](https://www.youtube.com/watch?v=ZuQbPO9XREs&list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
+- [Brennan Discusses The Ravening War on Screen Rant Plus](https://www.youtube.com/watch?v=R16Eq9K74BM&list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
 
 ## [Dimension 20: Pirates of Leviathan (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4)
 
@@ -1692,6 +1701,7 @@
 - [Behind the Scenes: How It Began](https://www.youtube.com/watch?v=zplZEDC-nj4&list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
 - [Behind the Scenes: The Cast](https://www.youtube.com/watch?v=c8UfbrcV-X4&list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
 - [Behind the Scenes: The Art Team](https://www.youtube.com/watch?v=ZuQbPO9XREs&list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
+- [Brennan Discusses The Ravening War on Screen Rant Plus](https://www.youtube.com/watch?v=R16Eq9K74BM&list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
 
 ## [Dimension 20: Dungeons and Drag Queens (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 
@@ -1710,6 +1720,7 @@
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [Brennan Discusses Dungeons and Drag Queens on Screen Rant Plus](https://www.youtube.com/watch?v=4wP9PP6irGI&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 
 ## [Dimension 20: Mentopolis (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
@@ -1724,4 +1735,6 @@
 - [In Space No One Can Hear You Cream](https://www.youtube.com/watch?v=rDwOmPT9OO0&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 

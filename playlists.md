@@ -619,11 +619,15 @@
 - [The Dice Tell the Story](https://www.youtube.com/watch?v=uK4yu48EKa8&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [In Space No One Can Hear You Cream](https://www.youtube.com/watch?v=rDwOmPT9OO0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 
@@ -803,8 +807,12 @@
 - [1. The Seeds of Conflict](https://www.youtube.com/watch?v=LiBe4WJaLo0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 
@@ -1700,6 +1708,8 @@
 - [The Dice Tell the Story](https://www.youtube.com/watch?v=uK4yu48EKa8&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 
 ## [Dimension 20: Mentopolis (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
@@ -1712,4 +1722,6 @@
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [In Space No One Can Hear You Cream](https://www.youtube.com/watch?v=rDwOmPT9OO0&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 

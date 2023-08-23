@@ -108,6 +108,10 @@ for (const playlist of playlistSpecs) {
         continue;
       }
 
+      if (playlist.include.from && playlist.include.from != campaign.from) {
+        continue;
+      }
+
       if (!playlist.include.type.includes(type)) {
         continue;
       }

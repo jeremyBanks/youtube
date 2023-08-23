@@ -16,7 +16,6 @@ export const dump = (path: string, items: Array<JsonValue>) =>
           noArrayIndent: true,
           lineWidth: -1,
           schema: yaml.JSON_SCHEMA,
-          sortKeys: true,
         })
       )
       .join("\n---\n\n")

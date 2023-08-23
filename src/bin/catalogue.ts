@@ -1,17 +1,22 @@
+import { CompactVideo } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/nodes.ts";
 import yaml from "../yaml.ts";
 import { youtubeiDefaultUser as youtubei } from "../youtube.ts";
 
-const catalogue = yaml.load("catalogue.yaml");
-
-for (const channel: {
+const catalogue = yaml.load("catalogue.yaml") as Array<{
   handle: string;
   id: string;
-  videos?: Array<{
-    title: string;
-    type: "public" | "members" | "removed" | "unlisted";
-    duration: number;
-  }>;
-} of catalogue) {
+  videos?: Record<
+    string,
+    {
+      title: string;
+      type: "public" | "members" | "removed" | "unlisted";
+      duration: number;
+      published: string;
+    }
+  >;
+}>;
+
+for (const channel of catalogue) {
   channel.videos ??= {};
 
   console.log("Cataloguing", channel.handle, channel.id);
@@ -20,20 +25,48 @@ for (const channel: {
 
   for (let feed of [
     [await meta.getVideos()],
-    await meta.getShorts().then(
-      (shorts) => [shorts],
-      () => []
-    ),
+    //   await meta.getShorts().then(
+    //     (shorts) => [shorts],
+    //     () => []
+    //   ),
   ].flat()) {
     for (;;) {
       let foundExisting = false;
-      for (const video of feed.videos) {
+      for (const video of feed.videos as Array<CompactVideo>) {
         const existing = channel.videos[video.id];
 
         if (existing) {
           foundExisting = true;
           break;
         }
+
+        const details = await youtubei.getInfo(video.id);
+
+        const publishedHumaneReadable = details.primary_info?.published?.text!;
+        const [month, day, year] =
+          publishedHumaneReadable?.replace("Premiered ", "")?.split(/[ ,]+/g) ??
+          (() => {
+            console.warn(
+              "failed to find publication date for",
+              video.id,
+              details.primary_info,
+              video
+            );
+            return ["00", "00", "0000"];
+          })();
+        const published = `${year}-${month
+          .replace("Jan", "01")
+          .replace("Feb", "02")
+          .replace("Mar", "03")
+          .replace("Apr", "04")
+          .replace("May", "05")
+          .replace("Jun", "06")
+          .replace("Jul", "07")
+          .replace("Aug", "08")
+          .replace("Sep", "09")
+          .replace("Oct", "10")
+          .replace("Nov", "11")
+          .replace("Dec", "12")}-${day.padStart(2, "0")}`;
 
         channel.videos[video.id] = {
           title: video.title.text,
@@ -48,7 +81,33 @@ for (const channel: {
               )?.[1] ??
               60
           ),
+          published,
         };
+      }
+
+      // Now sort channel videos by date descending and ID ascending
+      const entries = Object.entries(channel.videos);
+      entries.sort(
+        (
+          [aId, { published: aPublished }],
+          [bId, { published: bPublished }]
+        ) => {
+          if (aPublished > bPublished) {
+            return -1;
+          } else if (bPublished > aPublished) {
+            return +1;
+          } else if (aId < bId) {
+            return +1;
+          } else if (bId < aId) {
+            return -1;
+          } else {
+            return 0;
+          }
+        }
+      );
+      channel.videos = {};
+      for (const [key, value] of entries) {
+        channel.videos[key] = value;
       }
 
       yaml.dump("catalogue.yaml", catalogue);

@@ -1,4 +1,8 @@
-import { CompactVideo } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/nodes.ts";
+// deno-lint-ignore-file no-explicit-any
+import {
+  MetadataBadge,
+  Video,
+} from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/nodes.ts";
 import yaml from "../yaml.ts";
 import { youtubeiDefaultUser as youtubei } from "../youtube.ts";
 
@@ -25,14 +29,14 @@ for (const channel of catalogue) {
 
   for (let feed of [
     [await meta.getVideos()],
-    //   await meta.getShorts().then(
-    //     (shorts) => [shorts],
-    //     () => []
-    //   ),
+    await meta.getShorts().then(
+      (shorts) => [shorts],
+      () => []
+    ),
   ].flat()) {
     for (;;) {
       let foundExisting = false;
-      for (const video of feed.videos as Array<CompactVideo>) {
+      for (const video of feed.videos as Array<Video>) {
         const existing = channel.videos[video.id];
 
         if (existing) {
@@ -69,14 +73,15 @@ for (const channel of catalogue) {
           .replace("Dec", "12")}-${day.padStart(2, "0")}`;
 
         channel.videos[video.id] = {
-          title: video.title.text,
-          type: video.badges?.filter((badge) => badge.label === "Members only")
-            .length
+          title: video.title.text!,
+          type: video.badges?.filter(
+            (badge: MetadataBadge) => badge.label === "Members only"
+          ).length
             ? "members"
             : "public",
           duration: Number(
             video.duration?.seconds ??
-              video.accessibility_label?.match(
+              (video as any).accessibility_label?.match(
                 /- (\d+) second(s)? - play video$/
               )?.[1] ??
               60
@@ -87,24 +92,19 @@ for (const channel of catalogue) {
 
       // Now sort channel videos by date descending and ID ascending
       const entries = Object.entries(channel.videos);
-      entries.sort(
-        (
-          [aId, { published: aPublished }],
-          [bId, { published: bPublished }]
-        ) => {
-          if (aPublished > bPublished) {
-            return -1;
-          } else if (bPublished > aPublished) {
-            return +1;
-          } else if (aId < bId) {
-            return +1;
-          } else if (bId < aId) {
-            return -1;
-          } else {
-            return 0;
-          }
+      entries.sort(([aId, a], [bId, b]) => {
+        if (a.published > b.published) {
+          return -1;
+        } else if (b.published > a.published) {
+          return +1;
+        } else if (aId < bId) {
+          return +1;
+        } else if (bId < aId) {
+          return -1;
+        } else {
+          return 0;
         }
-      );
+      });
       channel.videos = {};
       for (const [key, value] of entries) {
         channel.videos[key] = value;
@@ -119,7 +119,7 @@ for (const channel of catalogue) {
         break;
       } else if (feed.has_continuation) {
         console.log("Loading another page of videos.");
-        feed = await feed.getContinuation();
+        feed = (await feed.getContinuation()) as any;
         continue;
       } else {
         console.log("Reached end of video list; all videos catalogued.");

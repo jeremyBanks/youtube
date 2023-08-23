@@ -17,8 +17,4 @@ manually editing `campaigns.yaml`.
 
 Calculates the desired contents of each playlist defined in `playlists.yaml`
 from the lists of videos tagged in `campaigns.yaml`, saving the results in
-`playlists.md`.
-
-### `deno task publish`
-
-Runs `deno task playlists` and publishes the results to YouTube.
+`playlists.md` and publishing the results to YouTube.

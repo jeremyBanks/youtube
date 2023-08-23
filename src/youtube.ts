@@ -10,7 +10,7 @@ export const youtubei = await Innertube.create({
     Deno.env.get("ON_BEHALF_OF_USER") ?? localStorage.onBehalfOfUser),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
-    await miliseconds(Math.random() * 2048);
+    await miliseconds(Math.random() * 4_000);
 
     const response = await fetch(req, opts);
 
@@ -25,7 +25,7 @@ export const youtubeiDefaultUser = await Innertube.create({
     Deno.env.get("YOUTUBE_COOKIE") ?? localStorage.youtubeCookie),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
-    await miliseconds(Math.random() * 2048);
+    await miliseconds(Math.random() * 4_000);
 
     const response = await fetch(req, opts);
 

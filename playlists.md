@@ -215,6 +215,7 @@
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
+- [3. F For Freezer](https://www.youtube.com/watch?v=A8VGgGd1zio&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 
 ## [Dimension 20 (All Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
@@ -628,6 +629,7 @@
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [In Space No One Can Hear You Cream](https://www.youtube.com/watch?v=rDwOmPT9OO0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [3. F For Freezer](https://www.youtube.com/watch?v=A8VGgGd1zio&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -1733,6 +1735,7 @@
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [In Space No One Can Hear You Cream](https://www.youtube.com/watch?v=rDwOmPT9OO0&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [3. F For Freezer](https://www.youtube.com/watch?v=A8VGgGd1zio&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)

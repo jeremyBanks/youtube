@@ -9,9 +9,6 @@ include:
   type:
   - episode
   - special
-  version:
-  - public
-  - members
 
 ---
 
@@ -23,9 +20,6 @@ description: |
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   from: Dimension 20
-  version:
-  - public
-  - members
 
 ---
 
@@ -69,9 +63,6 @@ include:
   season:
   - Fantasy High (Chapter 1)
   - Fantasy High (Chapter 2)
-  version:
-  - public
-  - members
 
 ---
 
@@ -85,9 +76,6 @@ include:
   from: Dimension 20
   world:
   - Spyre
-  version:
-  - public
-  - members
 
 ---
 
@@ -99,9 +87,6 @@ description: |
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   cast: Intrepid
-  version:
-  - public
-  - members
 
 ---
 
@@ -114,9 +99,6 @@ description: |
 include:
   from: Dimension 20
   season: Escape from the Bloodkeep
-  version:
-  - public
-  - members
 
 ---
 
@@ -131,9 +113,6 @@ include:
   season:
   - The Unsleeping City (Chapter 1)
   - The Unsleeping City (Chapter 2)
-  version:
-  - public
-  - members
 
 ---
 
@@ -146,9 +125,6 @@ description: |
 include:
   from: Dimension 20
   season: Tiny Heist
-  version:
-  - public
-  - members
 
 ---
 
@@ -161,9 +137,6 @@ description: |
 include:
   from: Dimension 20
   season: A Crown of Candy
-  version:
-  - public
-  - members
 
 ---
 
@@ -177,9 +150,6 @@ include:
   from: Dimension 20
   world:
   - Calorum
-  version:
-  - public
-  - members
 
 ---
 
@@ -193,9 +163,6 @@ description: |
 include:
   from: Dimension 20
   season: Pirates of Leviathan
-  version:
-  - public
-  - members
 
 ---
 
@@ -208,9 +175,6 @@ description: |
 include:
   from: Dimension 20
   season: Mice and Murder
-  version:
-  - public
-  - members
 
 ---
 
@@ -223,9 +187,6 @@ description: |
 include:
   from: Dimension 20
   season: Misfits and Magic
-  version:
-  - public
-  - members
 
 ---
 
@@ -238,9 +199,6 @@ description: |
 include:
   from: Dimension 20
   season: The Seven
-  version:
-  - public
-  - members
 
 ---
 
@@ -253,9 +211,6 @@ description: |
 include:
   from: Dimension 20
   season: Shreik Week
-  version:
-  - public
-  - members
 
 ---
 
@@ -268,9 +223,6 @@ description: |
 include:
   from: Dimension 20
   season: A Starstruck Odyssey
-  version:
-  - public
-  - members
 
 ---
 
@@ -283,9 +235,6 @@ description: |
 include:
   from: Dimension 20
   season: Coffin Run
-  version:
-  - public
-  - members
 
 ---
 
@@ -298,9 +247,6 @@ description: |
 include:
   from: Dimension 20
   season: A Court of Fey and Flowers
-  version:
-  - public
-  - members
 
 ---
 
@@ -313,9 +259,6 @@ description: |
 include:
   from: Dimension 20
   season: Neverafter
-  version:
-  - public
-  - members
 
 ---
 
@@ -328,9 +271,6 @@ description: |
 include:
   from: Dimension 20
   season: The Ravening War
-  version:
-  - public
-  - members
 
 ---
 
@@ -343,9 +283,6 @@ description: |
 include:
   from: Dimension 20
   season: Dungeons and Drag Queens
-  version:
-  - public
-  - members
 
 ---
 
@@ -358,25 +295,12 @@ description: |
 include:
   from: Dimension 20
   season: Mentopolis
-  version:
-  - public
-  - members
-
----
-
-name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One"
-id: 
-description: ''
-include:
-  from: Worlds Beyond Number
-  season: The Wizard, the Witch, and the Wild One
-  version:
-  - public
 
 ---
 
 name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One"
 id: PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_
+description: ''
 include:
   from: Worlds Beyond Number
   season: The Wizard, the Witch, and the Wild One
@@ -385,6 +309,7 @@ include:
 
 name: "Critical Role: Exandria Unlimited: Calamity"
 id: PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
+description: ''
 include:
   from: Critical Role
   season: "Exandria Unlimited: Calamity"

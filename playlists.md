@@ -632,7 +632,7 @@
 - [3. F For Freezer](https://www.youtube.com/watch?v=A8VGgGd1zio&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
-- [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
@@ -821,7 +821,7 @@
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
-- [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
@@ -1738,6 +1738,36 @@
 - [3. F For Freezer](https://www.youtube.com/watch?v=A8VGgGd1zio&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
-- [Hank Green: The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+
+## [Worlds Beyond Number: The Wizard, the Witch, and the Wild One](https://www.youtube.com/playlist?list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+
+> 
+
+- [0. Preludes](https://www.youtube.com/watch?v=RWPmCpKVPS8&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [1. The Open Door](https://www.youtube.com/watch?v=n286y4rhqHw&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [2. The Naming of Things](https://www.youtube.com/watch?v=TQ32G_A3t4I&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [3. The Charter](https://www.youtube.com/watch?v=Q-dYCjrrR1o&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [4. In the Drink](https://www.youtube.com/watch?v=KJBpUDpjRsY&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [5. Water, Water Everywhere](https://www.youtube.com/watch?v=kA-l_btLUzQ&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [6. Fresh Fish](https://www.youtube.com/watch?v=Nupzozzl-nM&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [7. Kahuna](https://www.youtube.com/watch?v=Y5n2V3ACM74&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [8. The Catch](https://www.youtube.com/watch?v=qzwPAeZvxrQ&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [9. The King of Cups](https://www.youtube.com/watch?v=6l4-IqQtYp4&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [10. Of the Reaching Green](https://www.youtube.com/watch?v=VNc_E80TQiE&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [11. Promises Promises](https://www.youtube.com/watch?v=WsZEyPsuKzM&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [12. Prisoner's Dilemma](https://www.youtube.com/watch?v=ypQ7HhznKSg&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+- [13. Of the Gentle Sea](https://www.youtube.com/watch?v=6t683805F44&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+
+## [Critical Role: Exandria Unlimited: Calamity](https://www.youtube.com/playlist?list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+
+> 
+
+- [Exandria Unlimited: Calamity Trailer](https://www.youtube.com/watch?v=9QMiGD2offs&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+- [1. Excelsior](https://www.youtube.com/watch?v=KlIkkeWmVvA&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+- [2. Bitterness and Dread](https://www.youtube.com/watch?v=cLhXA_Hl6LM&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+- [3. Blood and Shadow](https://www.youtube.com/watch?v=YNTP_CckXrM&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+- [4. Fire and Ruin](https://www.youtube.com/watch?v=CrtoyB2fcMI&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+- [Exandria Unlimited: Calamity Wrap-Up](https://www.youtube.com/watch?v=EYK4_eRSSb4&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
 

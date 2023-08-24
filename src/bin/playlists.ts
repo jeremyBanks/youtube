@@ -101,11 +101,12 @@ for (const playlist of playlistSpecs) {
         continue;
       }
 
-      if (!playlist.include.type.includes(type)) {
+      if (playlist.include.type && !playlist.include.type.includes(type)) {
         continue;
       }
 
       if (
+        playlist.include.version &&
         !playlist.include.version.includes("members") &&
         !(video.public || video["public parts"])
       ) {

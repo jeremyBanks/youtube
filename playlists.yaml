@@ -23,12 +23,6 @@ description: |
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   from: Dimension 20
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -59,12 +53,6 @@ description: |
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   from: Dimension 20
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
 
@@ -81,12 +69,6 @@ include:
   season:
   - Fantasy High (Chapter 1)
   - Fantasy High (Chapter 2)
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -103,12 +85,6 @@ include:
   from: Dimension 20
   world:
   - Spyre
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -123,12 +99,6 @@ description: |
   Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 include:
   cast: Intrepid
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -144,12 +114,6 @@ description: |
 include:
   from: Dimension 20
   season: Escape from the Bloodkeep
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -167,12 +131,6 @@ include:
   season:
   - The Unsleeping City (Chapter 1)
   - The Unsleeping City (Chapter 2)
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -188,12 +146,6 @@ description: |
 include:
   from: Dimension 20
   season: Tiny Heist
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -209,12 +161,6 @@ description: |
 include:
   from: Dimension 20
   season: A Crown of Candy
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -231,12 +177,6 @@ include:
   from: Dimension 20
   world:
   - Calorum
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -253,12 +193,6 @@ description: |
 include:
   from: Dimension 20
   season: Pirates of Leviathan
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -274,12 +208,6 @@ description: |
 include:
   from: Dimension 20
   season: Mice and Murder
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -295,12 +223,6 @@ description: |
 include:
   from: Dimension 20
   season: Misfits and Magic
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -316,12 +238,6 @@ description: |
 include:
   from: Dimension 20
   season: The Seven
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -337,12 +253,6 @@ description: |
 include:
   from: Dimension 20
   season: Shreik Week
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -358,12 +268,6 @@ description: |
 include:
   from: Dimension 20
   season: A Starstruck Odyssey
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -379,12 +283,6 @@ description: |
 include:
   from: Dimension 20
   season: Coffin Run
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -400,12 +298,6 @@ description: |
 include:
   from: Dimension 20
   season: A Court of Fey and Flowers
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -421,12 +313,6 @@ description: |
 include:
   from: Dimension 20
   season: Neverafter
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -442,12 +328,6 @@ description: |
 include:
   from: Dimension 20
   season: The Ravening War
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -463,12 +343,6 @@ description: |
 include:
   from: Dimension 20
   season: Dungeons and Drag Queens
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
@@ -484,12 +358,33 @@ description: |
 include:
   from: Dimension 20
   season: Mentopolis
-  type:
-  - episode
-  - special
-  - trailer
-  - bts
-  - animation
   version:
   - public
   - members
+
+---
+
+name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One"
+id: 
+description: ''
+include:
+  from: Worlds Beyond Number
+  season: The Wizard, the Witch, and the Wild One
+  version:
+  - public
+
+---
+
+name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One"
+id: PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_
+include:
+  from: Worlds Beyond Number
+  season: The Wizard, the Witch, and the Wild One
+
+---
+
+name: "Critical Role: Exandria Unlimited: Calamity"
+id: PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
+include:
+  from: Critical Role
+  season: "Exandria Unlimited: Calamity"

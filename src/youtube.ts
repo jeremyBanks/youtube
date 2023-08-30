@@ -57,6 +57,7 @@ export const replaceVideos = async (
 
     try {
       if (all.length) {
+        // XXX: trim common prefix before adding and removing
         await youtubei.playlist.removeVideos(playlistId, all);
       }
       await youtubei.playlist.addVideos(playlistId, videoIds);

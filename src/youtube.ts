@@ -81,7 +81,11 @@ export const setPlaylist = async (
         description.trim() &&
         pi.info.description?.trim() !== description.trim()
       ) {
-        console.log(`Playlist description is out-of-date, updating it (from ${JSON.stringify(pi.info.description) to ${JSON.stringify(description)}})...`);
+        console.log(
+          `Playlist description is out-of-date, updating it (from ${JSON.stringify(
+            pi.info.description
+          )} to ${JSON.stringify(description)}})...`
+        );
         await youtubei.playlist.setDescription(playlistId, description);
       }
     } catch (error) {

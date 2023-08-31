@@ -143,5 +143,4 @@ for (const playlist of playlistSpecs) {
   );
 }
 
-console.log(playlistMd);
 Deno.writeTextFileSync("playlists.md", playlistMd);

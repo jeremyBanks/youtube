@@ -3,30 +3,32 @@
 
 console.log("DOES THIS WORK??");
 
-import * as Constants from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/Constants.ts";
-import EventEmitterLike from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/EventEmitterLike.ts";
-import Actions from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Actions.ts";
-import Player from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Player.ts";
+type DOESTHIS = WORKYET;
 
-import * as Proto from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/proto/index.ts";
-import type { ICache } from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/types/Cache.ts";
-import type { FetchFunction } from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/types/PlatformShim.ts";
-import HTTPClient from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/HTTPClient.ts";
-import type { DeviceCategory } from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/Utils.ts";
+import * as Constants from "../utils/Constants.ts";
+import EventEmitterLike from "../utils/EventEmitterLike.ts";
+import Actions from "./Actions.ts";
+import Player from "./Player.ts";
+
+import * as Proto from "../proto/index.ts";
+import type { ICache } from "../types/Cache.ts";
+import type { FetchFunction } from "../types/PlatformShim.ts";
+import HTTPClient from "../utils/HTTPClient.ts";
+import type { DeviceCategory } from "../utils/Utils.ts";
 import {
   generateRandomString,
   getRandomUserAgent,
   InnertubeError,
   Platform,
   SessionError,
-} from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/Utils.ts";
+} from "../utils/Utils.ts";
 import type {
   Credentials,
   OAuthAuthErrorEventHandler,
   OAuthAuthEventHandler,
   OAuthAuthPendingEventHandler,
-} from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/OAuth.ts";
-import OAuth from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/OAuth.ts";
+} from "./OAuth.ts";
+import OAuth from "./OAuth.ts";
 
 export enum ClientType {
   WEB = "WEB",

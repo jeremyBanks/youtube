@@ -1,5 +1,5 @@
 // deno-lint-ignore-file no-explicit-any
-import { Innertube } from "https://deno.land/x/youtubei@v5.8.0-deno/deno.ts";
+import { Innertube } from "https://deno.land/x/youtubei@v6.2.0-deno/deno.ts";
 import { miliseconds } from "./common.ts";
 
 export const youtubei = await Innertube.create({

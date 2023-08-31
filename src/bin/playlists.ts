@@ -131,9 +131,14 @@ for (const playlist of playlistSpecs) {
 
   playlistMd += "\n";
 
+  // XXX: we need to read the durations from the catalogue if we want to add it.
+  // Maybe use some placeholders like ${duration} and ${count} and ${blurbs.d20}.
+  // const duration = `${(seconds / 60 / 60) | 0} hours`;
+  const description = playlist.description;
+
   await setPlaylist(
     playlist.id,
-    playlist.description,
+    description,
     videos.map((v) => v.id)
   );
 }

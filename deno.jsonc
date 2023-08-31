@@ -2,9 +2,5 @@
   "tasks": {
     "catalogue": "deno run --check --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=catalogue.yaml --allow-write=catalogue.yaml --allow-net=www.youtube.com src/bin/catalogue.ts",
     "playlists": "deno run --check --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=. --allow-write=playlists.md --allow-net=www.youtube.com src/bin/playlists.ts"
-  },
-  "imports": {
-    "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Session.ts": "patch/youtubei/core/Session.ts"
-  },
-  "scopes": {}
+    }
 }

@@ -1,5 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
-import { Innertube } from "https://deno.land/x/youtubei@v5.8.0-deno/deno.ts";
+import { Innertube } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno.ts";
+import PlaylistVideo from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/classes/PlaylistVideo.ts";
 import { miliseconds } from "./common.ts";
 
 export const youtubei = await Innertube.create({

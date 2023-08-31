@@ -19,6 +19,7 @@ export const youtubei = await Innertube.create({
     return response;
   },
 });
+youtubei.setParserErrorHandler(() => {});
 
 export const youtubeiDefaultUser = await Innertube.create({
   cookie: (localStorage.youtubeCookie =

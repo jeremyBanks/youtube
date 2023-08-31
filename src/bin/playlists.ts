@@ -1,6 +1,6 @@
 import { raise } from "../common.ts";
 import yaml from "../yaml.ts";
-import { replaceVideos } from "../youtube.ts";
+import { setPlaylist } from "../youtube.ts";
 
 const _catalogueData = yaml.load("catalogue.yaml");
 const campaignData = yaml.load("campaigns.yaml") as Array<{
@@ -131,8 +131,9 @@ for (const playlist of playlistSpecs) {
 
   playlistMd += "\n";
 
-  await replaceVideos(
+  await setPlaylist(
     playlist.id,
+    playlist.description,
     videos.map((v) => v.id)
   );
 }

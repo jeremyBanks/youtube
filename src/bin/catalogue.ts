@@ -2,7 +2,7 @@
 import {
   MetadataBadge,
   Video,
-} from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/nodes.ts";
+} from "../../../YouTube.js/deno/src/parser/nodes.ts";
 import yaml from "../yaml.ts";
 import { youtubeiDefaultUser as youtubei } from "../youtube.ts";
 

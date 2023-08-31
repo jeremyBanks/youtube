@@ -1,6 +1,6 @@
 // deno-lint-ignore-file no-explicit-any
-import { Innertube } from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno.ts";
-import PlaylistVideo from "https://cdn.jsdelivr.net/gh/jeremyBanks/YouTube.js@b0ed2d4/deno/src/parser/classes/PlaylistVideo.ts";
+import { Innertube } from "../../YouTube.js/deno.ts";
+import PlaylistVideo from "../../YouTube.js/deno/src/parser/classes/PlaylistVideo.ts";
 import { miliseconds } from "./common.ts";
 
 export const youtubei = await Innertube.create({
@@ -35,8 +35,9 @@ export const youtubeiDefaultUser = await Innertube.create({
   },
 });
 
-export const replaceVideos = async (
+export const setPlaylist = async (
   playlistId: string,
+  description: string,
   videoIds: Array<string>
 ) => {
   console.log("Publishing", videoIds.length, "videos to", playlistId);
@@ -56,10 +57,25 @@ export const replaceVideos = async (
     console.log("Replacing with intended playlist contents.");
 
     try {
-      if (all.length) {
-        await youtubei.playlist.removeVideos(playlistId, all);
+      const toRemove = [...all];
+      const toAdd = [...videoIds];
+
+      let leaving = 0;
+      while (toRemove.length > 0 && toRemove[0] === toAdd[0]) {
+        leaving += 1;
+        toRemove.shift();
+        toAdd.shift();
       }
-      await youtubei.playlist.addVideos(playlistId, videoIds);
+      console.log(
+        `Leaving ${leaving} videos in-place, removing ${toRemove.length} and adding ${toAdd.length}.`
+      );
+
+      if (toRemove.length) {
+        await youtubei.playlist.removeVideos(playlistId, toRemove);
+      }
+      if (toAdd.length) {
+        await youtubei.playlist.addVideos(playlistId, toAdd);
+      }
     } catch (error) {
       console.error(error, "\n" + JSON.stringify(videoIds));
     }

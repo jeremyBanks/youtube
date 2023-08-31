@@ -36,7 +36,7 @@ for (const channel of catalogue) {
   ].flat()) {
     for (;;) {
       let foundExisting = false;
-      for (const video of feed.videos as unknown as Array<Video>) {
+      for (const video of feed.videos as Array<Video>) {
         const existing = channel.videos[video.id];
 
         if (existing) {

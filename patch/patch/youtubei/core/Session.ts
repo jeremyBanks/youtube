@@ -1,32 +1,29 @@
-// patch for https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Session.ts
-// adding on_behalf_of_user
+// https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Session.ts
 
-console.log("DOES THIS WORK??");
+import * as Constants from "../utils/Constants.ts";
+import EventEmitterLike from "../utils/EventEmitterLike.ts";
+import Actions from "./Actions.ts";
+import Player from "./Player.ts";
 
-import * as Constants from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/Constants.ts";
-import EventEmitterLike from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/EventEmitterLike.ts";
-import Actions from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Actions.ts";
-import Player from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/Player.ts";
-
-import * as Proto from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/proto/index.ts";
-import type { ICache } from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/types/Cache.ts";
-import type { FetchFunction } from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/types/PlatformShim.ts";
-import HTTPClient from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/HTTPClient.ts";
-import type { DeviceCategory } from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/Utils.ts";
+import * as Proto from "../proto/index.ts";
+import type { ICache } from "../types/Cache.ts";
+import type { FetchFunction } from "../types/PlatformShim.ts";
+import HTTPClient from "../utils/HTTPClient.ts";
+import type { DeviceCategory } from "../utils/Utils.ts";
 import {
   generateRandomString,
   getRandomUserAgent,
   InnertubeError,
   Platform,
   SessionError,
-} from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/utils/Utils.ts";
+} from "../utils/Utils.ts";
 import type {
   Credentials,
   OAuthAuthErrorEventHandler,
   OAuthAuthEventHandler,
   OAuthAuthPendingEventHandler,
-} from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/OAuth.ts";
-import OAuth from "https://deno.land/x/youtubei@v6.2.0-deno/deno/src/core/OAuth.ts";
+} from "./OAuth.ts";
+import OAuth from "./OAuth.ts";
 
 export enum ClientType {
   WEB = "WEB",
@@ -79,7 +76,6 @@ export interface Context {
   user: {
     enableSafetyMode: boolean;
     lockedSafetyMode: boolean;
-    onBehalfOfUser?: string;
   };
   thirdParty?: {
     embedUrl: string;
@@ -101,10 +97,6 @@ export interface SessionOptions {
    * Only works if you are signed in with cookies.
    */
   account_index?: number;
-  /**
-   * The channel to operate as, if multiple are associated with the logged-in account.
-   */
-  on_behalf_of_user?: string;
   /**
    * Specifies whether to retrieve the JS player. Disabling this will make session creation faster.
    * **NOTE:** Deciphering formats is not possible without the JS player.
@@ -224,8 +216,7 @@ export default class Session extends EventEmitterLike {
         options.device_category,
         options.client_type,
         options.timezone,
-        options.fetch,
-        options.on_behalf_of_user
+        options.fetch
       );
 
     return new Session(
@@ -252,8 +243,7 @@ export default class Session extends EventEmitterLike {
     device_category: DeviceCategory = "desktop",
     client_name: ClientType = ClientType.WEB,
     tz: string = Intl.DateTimeFormat().resolvedOptions().timeZone,
-    fetch: FetchFunction = Platform.shim.fetch,
-    on_behalf_of_user?: string
+    fetch: FetchFunction = Platform.shim.fetch
   ) {
     let session_data: SessionData;
 
@@ -265,7 +255,6 @@ export default class Session extends EventEmitterLike {
       client_name,
       enable_safety_mode,
       visitor_data,
-      on_behalf_of_user,
     };
 
     if (generate_session_locally) {
@@ -291,7 +280,6 @@ export default class Session extends EventEmitterLike {
       client_name: string;
       enable_safety_mode: boolean;
       visitor_data: string;
-      on_behalf_of_user?: string;
     },
     fetch: FetchFunction = Platform.shim.fetch
   ): Promise<SessionData> {
@@ -359,7 +347,6 @@ export default class Session extends EventEmitterLike {
       user: {
         enableSafetyMode: options.enable_safety_mode,
         lockedSafetyMode: false,
-        onBehalfOfUser: options.on_behalf_of_user,
       },
     };
 
@@ -374,7 +361,6 @@ export default class Session extends EventEmitterLike {
     client_name: string;
     enable_safety_mode: boolean;
     visitor_data: string;
-    on_behalf_of_user?: string;
   }): SessionData {
     let visitor_id = generateRandomString(11);
 
@@ -413,7 +399,6 @@ export default class Session extends EventEmitterLike {
       user: {
         enableSafetyMode: options.enable_safety_mode,
         lockedSafetyMode: false,
-        onBehalfOfUser: options.on_behalf_of_user,
       },
     };
 

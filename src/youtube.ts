@@ -76,6 +76,14 @@ export const setPlaylist = async (
       if (toAdd.length) {
         await youtubei.playlist.addVideos(playlistId, toAdd);
       }
+
+      if (
+        description.trim() &&
+        pi.info.description?.trim() !== description.trim()
+      ) {
+        console.log(`Playlist description is out-of-date, updating it (from ${JSON.stringify(pi.info.description) to ${JSON.stringify(description)}})...`);
+        await youtubei.playlist.setDescription(playlistId, description);
+      }
     } catch (error) {
       console.error(error, "\n" + JSON.stringify(videoIds));
     }

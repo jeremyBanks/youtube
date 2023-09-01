@@ -298,18 +298,20 @@ include:
 
 ---
 
-name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One"
+name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One (Free Episodes)"
 id: PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_
-description: ''
+description: |
+  Playlist of all episodes from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
 include:
   from: Worlds Beyond Number
   season: The Wizard, the Witch, and the Wild One
 
 ---
 
-name: "Critical Role: Exandria Unlimited: Calamity"
+name: "Critical Role: Exandria Unlimited: Calamity (Free Episodes)"
 id: PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
-description: ''
+description: |
+  Playlist of all episodes from Exandria Unlimited: Calamity, a Critical Role campaign.
 include:
   from: Critical Role
   season: "Exandria Unlimited: Calamity"

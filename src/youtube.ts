@@ -1,7 +1,10 @@
 // deno-lint-ignore-file no-explicit-any
 import { Innertube } from "../../YouTube.js/deno.ts";
+import { setParserErrorHandler } from "../../YouTube.js/deno/src/parser/parser.ts";
 import PlaylistVideo from "../../YouTube.js/deno/src/parser/classes/PlaylistVideo.ts";
 import { miliseconds } from "./common.ts";
+
+setParserErrorHandler(() => {});
 
 export const youtubei = await Innertube.create({
   cookie: (localStorage.youtubeCookie =

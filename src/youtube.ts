@@ -37,6 +37,7 @@ export const youtubeiDefaultUser = await Innertube.create({
 
 export const setPlaylist = async (
   playlistId: string,
+  title: string,
   description: string,
   videoIds: Array<string>
 ) => {
@@ -51,6 +52,16 @@ export const setPlaylist = async (
 
   console.log(`Found ${all.length} existing entries in playlist.`);
 
+  if (pi.info.title?.trim() !== title.trim()) {
+    console.log(
+      `Playlist title / name is out-of-date, updating it (from ${JSON.stringify(
+        pi.info.title
+      )} to ${JSON.stringify(title)}})...`
+    );
+    const response = await youtubei.playlist.setName(playlistId, title);
+    console.debug(response);
+  }
+
   if (
     description.trim() &&
     pi.info.description?.trim() !== description.trim()
@@ -60,7 +71,11 @@ export const setPlaylist = async (
         pi.info.description
       )} to ${JSON.stringify(description)}})...`
     );
-    await youtubei.playlist.setDescription(playlistId, description);
+    const response = await youtubei.playlist.setDescription(
+      playlistId,
+      description
+    );
+    console.debug(response);
   }
 
   if (all.toString() === videoIds.toString()) {

@@ -1770,7 +1770,7 @@
 - [12. Prisoner's Dilemma](https://www.youtube.com/watch?v=ypQ7HhznKSg&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 - [13. Of the Gentle Sea](https://www.youtube.com/watch?v=6t683805F44&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 
-## [Critical Role: Exandria Unlimited: Calamity](https://www.youtube.com/playlist?list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
+## [Critical Role: Exandria Unlimited: Calamity (FREE)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
 
 > Playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
 

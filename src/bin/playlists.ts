@@ -75,8 +75,6 @@ for (const playlist of playlistSpecs) {
 
   for (const campaign of campaignData) {
     for (const video of campaign.videos) {
-      const catalogueInfo = allVideos[video.id];
-
       const type = video.animation
         ? "animation"
         : video.episode
@@ -95,7 +93,7 @@ for (const playlist of playlistSpecs) {
         video.bts ??
         video.trailer ??
         raise("missing title for", video);
-      const url =
+      const id =
         video.public ??
         video["public parts"] ??
         video.members ??
@@ -134,13 +132,19 @@ for (const playlist of playlistSpecs) {
         continue;
       }
 
-      if (typeof url == "string") {
-        const id = url.replace("https://youtu.be/", "");
+      const catalogueInfo = allVideos[typeof id === "string" ? id : id[0]];
+      if (!catalogueInfo) {
+        console.debug(
+          `Campaign includes video not found in catalogue: ${JSON.stringify(
+            video
+          )}`
+        );
+      }
+      if (typeof id == "string") {
         videos.push({ id, title });
       } else {
-        for (const one_url of url) {
-          const id = one_url.replace("https://youtu.be/", "");
-          videos.push({ id, title });
+        for (const one_id of id) {
+          videos.push({ id: one_id, title });
         }
       }
     }

@@ -75,6 +75,8 @@ for (const playlist of playlistSpecs) {
 
   for (const campaign of campaignData) {
     for (const video of campaign.videos) {
+      const catalogueInfo = allVideos[video.id];
+
       const type = video.animation
         ? "animation"
         : video.episode

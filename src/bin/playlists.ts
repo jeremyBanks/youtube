@@ -56,6 +56,8 @@ for (const channel of catalogueData) {
 }
 
 for (const playlist of playlistSpecs) {
+  let seconds = 0;
+
   if (!playlist.id) {
     break;
   }
@@ -139,7 +141,10 @@ for (const playlist of playlistSpecs) {
             video
           )}`
         );
+      } else {
+        seconds += catalogueInfo.duration;
       }
+
       if (typeof id == "string") {
         videos.push({ id, title });
       } else {
@@ -158,15 +163,16 @@ for (const playlist of playlistSpecs) {
 
   // XXX: we need to read the durations from the catalogue if we want to add it.
   // Maybe use some placeholders like ${duration} and ${count} and ${blurbs.d20}.
-  // const duration = `${(seconds / 60 / 60) | 0} hours`;
+  const duration = `${(seconds / 60 / 60) | 0} hours`;
+  console.log(playlist.name, duration);
   const description = playlist.description;
 
-  await setPlaylist(
-    playlist.id,
-    playlist.name,
-    description,
-    videos.map((v) => v.id)
-  );
+  // await setPlaylist(
+  //   playlist.id,
+  //   playlist.name,
+  //   description,
+  //   videos.map((v) => v.id)
+  // );
 }
 
 Deno.writeTextFileSync("playlists.md", playlistMd);

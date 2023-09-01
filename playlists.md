@@ -637,6 +637,7 @@
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 
@@ -825,6 +826,7 @@
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 
@@ -1744,6 +1746,7 @@
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
 ## [Worlds Beyond Number: The Wizard, the Witch, and the Wild One](https://www.youtube.com/playlist?list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 

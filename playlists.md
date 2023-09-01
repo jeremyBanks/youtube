@@ -440,6 +440,7 @@
 - [Evan Kelmp Blasts a Kid into the Underworld](https://www.youtube.com/watch?v=1OH5Kz3uXh8&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [That's the Squad](https://www.youtube.com/watch?v=qYVlar0YboE&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Everybody Put Their Little Stank On It](https://www.youtube.com/watch?v=aYstKw4VHwQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Brennan's Eating!!](https://www.youtube.com/watch?v=1suGx_0pSkI&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Holiday Special Trailer](https://www.youtube.com/watch?v=xf2hV6GmrCk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Holiday Special](https://www.youtube.com/watch?v=DCDpWKEPQzQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Live at GenCon](https://www.youtube.com/watch?v=4c4yMS4Zhlg&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -797,6 +798,7 @@
 - [1. The Chosen Ones](https://www.youtube.com/watch?v=C1VffF1Z5-Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [A Drink at the Questing Beast](https://www.youtube.com/watch?v=ydy-16qo5FY&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Evan Kelmp Blasts a Kid into the Underworld](https://www.youtube.com/watch?v=1OH5Kz3uXh8&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Brennan's Eating!!](https://www.youtube.com/watch?v=1suGx_0pSkI&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Holiday Special Trailer](https://www.youtube.com/watch?v=xf2hV6GmrCk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Seven Trailer](https://www.youtube.com/watch?v=0bJfIZyEP98&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. Party of Seven](https://www.youtube.com/watch?v=9_LkwjqQ_mo&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
@@ -1496,6 +1498,7 @@
 - [Evan Kelmp Blasts a Kid into the Underworld](https://www.youtube.com/watch?v=1OH5Kz3uXh8&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 - [That's the Squad](https://www.youtube.com/watch?v=qYVlar0YboE&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 - [Everybody Put Their Little Stank On It](https://www.youtube.com/watch?v=aYstKw4VHwQ&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
+- [Brennan's Eating!!](https://www.youtube.com/watch?v=1suGx_0pSkI&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 - [Holiday Special Trailer](https://www.youtube.com/watch?v=xf2hV6GmrCk&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 - [Holiday Special](https://www.youtube.com/watch?v=DCDpWKEPQzQ&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 - [Live at GenCon](https://www.youtube.com/watch?v=4c4yMS4Zhlg&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
@@ -1750,7 +1753,7 @@
 
 ## [Worlds Beyond Number: The Wizard, the Witch, and the Wild One](https://www.youtube.com/playlist?list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 
-> 
+> Playlist of all episodes and trailers from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
 
 - [0. Preludes](https://www.youtube.com/watch?v=RWPmCpKVPS8&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 - [1. The Open Door](https://www.youtube.com/watch?v=n286y4rhqHw&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
@@ -1769,7 +1772,7 @@
 
 ## [Critical Role: Exandria Unlimited: Calamity](https://www.youtube.com/playlist?list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
 
-> 
+> Playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
 
 - [Exandria Unlimited: Calamity Trailer](https://www.youtube.com/watch?v=9QMiGD2offs&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
 - [1. Excelsior](https://www.youtube.com/watch?v=KlIkkeWmVvA&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)

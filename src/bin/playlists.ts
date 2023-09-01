@@ -2,7 +2,19 @@ import { raise } from "../common.ts";
 import yaml from "../yaml.ts";
 import { setPlaylist } from "../youtube.ts";
 
-const _catalogueData = yaml.load("catalogue.yaml");
+const catalogueData = yaml.load("catalogue.yaml") as Array<{
+  handle: string;
+  id: string;
+  videos?: Record<
+    string,
+    {
+      title: string;
+      type: "public" | "members" | "removed" | "unlisted";
+      duration: number;
+      published: string;
+    }
+  >;
+}>;
 const campaignData = yaml.load("campaigns.yaml") as Array<{
   season: string;
   from: "Dimension 20";
@@ -35,6 +47,13 @@ const playlistSpecs = yaml.load("playlists.yaml") as Array<{
 }>;
 let playlistMd =
   "# [Playlists](https://www.youtube.com/@actualplaylists/playlists?view=1)\n\n";
+
+const allVideos = ({} as (typeof catalogueData)[0]["videos"])!;
+for (const channel of catalogueData) {
+  for (const [key, value] of Object.entries(channel.videos ?? {})) {
+    allVideos[key] = value;
+  }
+}
 
 for (const playlist of playlistSpecs) {
   if (!playlist.id) {
@@ -138,6 +157,7 @@ for (const playlist of playlistSpecs) {
 
   await setPlaylist(
     playlist.id,
+    playlist.name,
     description,
     videos.map((v) => v.id)
   );

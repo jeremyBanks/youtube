@@ -167,12 +167,12 @@ for (const playlist of playlistSpecs) {
   console.log(playlist.name, duration);
   const description = playlist.description;
 
-  // await setPlaylist(
-  //   playlist.id,
-  //   playlist.name,
-  //   description,
-  //   videos.map((v) => v.id)
-  // );
+  await setPlaylist(
+    playlist.id,
+    playlist.name,
+    description,
+    videos.map((v) => v.id)
+  );
 }
 
 Deno.writeTextFileSync("playlists.md", playlistMd);

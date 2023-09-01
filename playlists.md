@@ -1748,7 +1748,7 @@
 - [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
-## [Worlds Beyond Number: The Wizard, ](https://www.youtube.com/playlist?list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
+## [Worlds Beyond Number: The Wizard, the Witch, and the Wild One](https://www.youtube.com/playlist?list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 
 > 
 

@@ -60,6 +60,8 @@ export const setPlaylist = async (
     );
     const response = await youtubei.playlist.setName(playlistId, title);
     console.debug(response);
+  } else {
+    console.log("Title is still up-to-date");
   }
 
   if (

@@ -2,7 +2,7 @@
 import * as yaml from "https://deno.land/std@0.198.0/yaml/mod.ts";
 import * as json from "https://deno.land/std@0.198.0/json/mod.ts";
 import { youtubei } from "./youtube.ts";
-import { PlaylistVideo } from "../YouTube.js/deno/src/parser/nodes.ts";
+import { PlaylistVideo } from "https://deno.land/x/youtubei@v6.3.0-deno/src/parser/nodes.ts";
 
 const playlistId = "PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG";
 const title = "Dimension 20 (All Full Episodes)";

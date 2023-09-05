@@ -2,9 +2,9 @@
 
 ## [Dimension 20 (All Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 
-> ${hours}-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+> 446-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [2. Clash of the Corn Cuties](https://www.youtube.com/watch?v=DZ5rprmAHhE&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
@@ -220,9 +220,9 @@
 
 ## [Dimension 20 (All Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
-> ${hours}-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+> 571-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Fantasy High Trailer](https://www.youtube.com/watch?v=p-eY2tDgXsY&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -622,6 +622,7 @@
 - [The Dice Tell the Story](https://www.youtube.com/watch?v=uK4yu48EKa8&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -635,13 +636,12 @@
 - [A Random Sequence of Events](https://www.youtube.com/watch?v=wSYhoqYOXto&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
-- [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 
-> ${hours}-hour playlist of all free episodes of Dimension 20.
+> 117-hour playlist of all free episodes of Dimension 20.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 - [2. Clash of the Corn Cuties](https://www.youtube.com/watch?v=DZ5rprmAHhE&list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
@@ -709,9 +709,9 @@
 
 ## [Dimension 20 (Free Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
-> ${hours}-hour mega-playlist of all free episodes of Dimension 20 and all free extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+> 126-hour mega-playlist of all free episodes of Dimension 20 and all free extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Fantasy High Trailer](https://www.youtube.com/watch?v=p-eY2tDgXsY&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
@@ -818,19 +818,19 @@
 - [1. The Seeds of Conflict](https://www.youtube.com/watch?v=LiBe4WJaLo0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
-- [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
+> 85-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Fantasy High Trailer](https://www.youtube.com/watch?v=p-eY2tDgXsY&list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
@@ -886,9 +886,9 @@
 
 ## [Dimension 20: Spyre (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
+> 133-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Fantasy High Trailer](https://www.youtube.com/watch?v=p-eY2tDgXsY&list=PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB)
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB)
@@ -977,9 +977,9 @@
 
 ## [Dimension 20: Intrepid Heroes (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
+> 353-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Fantasy High Trailer](https://www.youtube.com/watch?v=p-eY2tDgXsY&list=PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb)
 - [1. The Beginning Begins](https://www.youtube.com/watch?v=_zZxCVBi7-k&list=PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb)
@@ -1220,9 +1220,9 @@
 
 ## [Dimension 20: Escape from the Bloodkeep (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Escape from the Bloodkeep, a Dimension 20 campaign.
+> 16-hour playlist of all episodes, talkbacks, trailers, and animations from Escape from the Bloodkeep, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Escape from the Bloodkeep Trailer](https://www.youtube.com/watch?v=Ih6ZdHE2kvo&list=PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ)
 - [1. Welcome to the Dark Side](https://www.youtube.com/watch?v=GiEQO77PV9Q&list=PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ)
@@ -1237,9 +1237,9 @@
 
 ## [Dimension 20: The Unsleeping City (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of The Unsleeping City, a series of campaigns from Dimension 20.
+> 102-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of The Unsleeping City, a series of campaigns from Dimension 20.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [The Unsleeping City Trailer](https://www.youtube.com/watch?v=AdJaWHk_HAk&list=PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6)
 - [1. Start Spreading the News](https://www.youtube.com/watch?v=2Kktwa0kqaU&list=PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6)
@@ -1309,9 +1309,9 @@
 
 ## [Dimension 20: Tiny Heist (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU)
 
-> ${hours}-hour playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
+> 12-hour playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Tiny Heist Trailer](https://www.youtube.com/watch?v=kR6vADysaxM&list=PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU)
 - [1. Big Little Crimes](https://www.youtube.com/watch?v=l-y98OYaXu8&list=PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU)
@@ -1324,9 +1324,9 @@
 
 ## [Dimension 20: A Crown of Candy (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Crown of Candy, a Dimension 20 campaign.
+> 63-hour playlist of all episodes, talkbacks, trailers, and animations from A Crown of Candy, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Trailer](https://www.youtube.com/watch?v=zOnnqKPh5RY&list=PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B)
 - [1. There Is Strength in Sweetness](https://www.youtube.com/watch?v=REnc_wXkHnc&list=PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B)
@@ -1369,9 +1369,9 @@
 
 ## [Dimension 20: Calorum (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the two seasons of Dimension 20 set in the world of Calorum.
+> 82-hour playlist of all episodes, talkbacks, trailers, and animations from the two seasons of Dimension 20 set in the world of Calorum.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Trailer](https://www.youtube.com/watch?v=zOnnqKPh5RY&list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
 - [1. There Is Strength in Sweetness](https://www.youtube.com/watch?v=REnc_wXkHnc&list=PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt)
@@ -1432,9 +1432,9 @@
 
 ## [Dimension 20: Pirates of Leviathan (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Pirates of Leviathan, a Dimension 20 campaign.
+> 16-hour playlist of all episodes, talkbacks, trailers, and animations from Pirates of Leviathan, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Pirates of Leviathan Trailer](https://www.youtube.com/watch?v=AdEuH8CYG_k&list=PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4)
 - [1. A Heaping Helping of Trouble](https://www.youtube.com/watch?v=HuMbE1G2O2c&list=PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4)
@@ -1449,9 +1449,9 @@
 
 ## [Dimension 20: Mice and Murder (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mice and Murder, a Dimension 20 campaign.
+> 29-hour playlist of all episodes, talkbacks, trailers, and animations from Mice and Murder, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Mice and Murder Trailer](https://www.youtube.com/watch?v=CokApJchV94&list=PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm)
 - [1. It Was a Dark and Stormy Night](https://www.youtube.com/watch?v=_GX8075fX3k&list=PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm)
@@ -1478,9 +1478,9 @@
 
 ## [Dimension 20: Misfits and Magic (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Misfits and Magic, a Dimension 20 campaign.
+> 19-hour playlist of all episodes, talkbacks, trailers, and animations from Misfits and Magic, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Misfits and Magic Trailer](https://www.youtube.com/watch?v=yKHP2mPv7Ws&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
 - [1. The Chosen Ones](https://www.youtube.com/watch?v=C1VffF1Z5-Y&list=PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz)
@@ -1501,9 +1501,9 @@
 
 ## [Dimension 20: The Seven (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Seven, a Dimension 20 campaign.
+> 31-hour playlist of all episodes, talkbacks, trailers, and animations from The Seven, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [The Seven Trailer](https://www.youtube.com/watch?v=0bJfIZyEP98&list=PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7)
 - [1. Party of Seven](https://www.youtube.com/watch?v=9_LkwjqQ_mo&list=PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7)
@@ -1531,16 +1531,16 @@
 
 ## [Dimension 20: Shreik Week (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Shreik Week, a Dimension 20 campaign.
+> 0-hour playlist of all episodes, talkbacks, trailers, and animations from Shreik Week, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 
 ## [Dimension 20: A Starstruck Odyssey (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Starstruck Odyssey, a Dimension 20 campaign.
+> 49-hour playlist of all episodes, talkbacks, trailers, and animations from A Starstruck Odyssey, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [A Starstruck Odyssey Trailer](https://www.youtube.com/watch?v=oVC-KqAgm38&list=PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4)
 - [1. Welcome To The Spacin' Life, Buddy](https://www.youtube.com/watch?v=6I7cZG_RoWI&list=PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4)
@@ -1585,9 +1585,9 @@
 
 ## [Dimension 20: Coffin Run (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Coffin Run, a Dimension 20 campaign.
+> 14-hour playlist of all episodes, talkbacks, trailers, and animations from Coffin Run, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Coffin Run Trailer](https://www.youtube.com/watch?v=pdji4F1Ax_w&list=PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7)
 - [1. Down For The Count](https://www.youtube.com/watch?v=ul8iK77Cl-k&list=PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7)
@@ -1606,9 +1606,9 @@
 
 ## [Dimension 20: A Court of Fey and Flowers (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Court of Fey and Flowers, a Dimension 20 campaign.
+> 26-hour playlist of all episodes, talkbacks, trailers, and animations from A Court of Fey and Flowers, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [A Court of Fey and Flowers Trailer](https://www.youtube.com/watch?v=VFyHiykk2U4&list=PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF)
 - [1. A Bloom to Remember](https://www.youtube.com/watch?v=hMNzZiN0-P0&list=PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF)
@@ -1636,9 +1636,9 @@
 
 ## [Dimension 20: Neverafter (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Neverafter, a Dimension 20 campaign.
+> 52-hour playlist of all episodes, talkbacks, trailers, and animations from Neverafter, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Neverafter Trailer](https://www.youtube.com/watch?v=nwMxp7mRbx4&list=PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS)
 - [1. The Times of Shadow](https://www.youtube.com/watch?v=7GTogwQVmYE&list=PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS)
@@ -1685,9 +1685,9 @@
 
 ## [Dimension 20: The Ravening War (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Ravening War, a Dimension 20 campaign.
+> 19-hour playlist of all episodes, talkbacks, trailers, and animations from The Ravening War, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [The Ravening War Trailer](https://www.youtube.com/watch?v=c4xTd-NjEj4&list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
 - [1. The Seeds of Conflict](https://www.youtube.com/watch?v=LiBe4WJaLo0&list=PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3)
@@ -1710,9 +1710,9 @@
 
 ## [Dimension 20: Dungeons and Drag Queens (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Dungeons and Drag Queens, a Dimension 20 campaign.
+> 11-hour playlist of all episodes, talkbacks, trailers, and animations from Dungeons and Drag Queens, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
@@ -1723,15 +1723,17 @@
 - [The Dice Tell the Story](https://www.youtube.com/watch?v=uK4yu48EKa8&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [Sibling Rivalry: The One About Dungeons and Drag Queens](https://www.youtube.com/watch?v=I5xKN5ihTeg&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [Brennan Discusses Dungeons and Drag Queens on Screen Rant Plus](https://www.youtube.com/watch?v=4wP9PP6irGI&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 
 ## [Dimension 20: Mentopolis (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
-> ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
+> 9-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
 > 
-> ${d20blurb}
+> Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
@@ -1749,7 +1751,7 @@
 
 ## [Worlds Beyond Number: The Wizard, the Witch, and the Wild One](https://www.youtube.com/playlist?list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 
-> ${hours}-hour playlist of all episodes and trailers from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
+> 23-hour playlist of all episodes and trailers from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
 
 - [0. Preludes](https://www.youtube.com/watch?v=RWPmCpKVPS8&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
 - [1. The Open Door](https://www.youtube.com/watch?v=n286y4rhqHw&list=PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_)
@@ -1768,7 +1770,7 @@
 
 ## [Critical Role: Exandria Unlimited: Calamity](https://www.youtube.com/playlist?list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
 
-> ${hours}-hour playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
+> 22-hour playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
 
 - [Exandria Unlimited: Calamity Trailer](https://www.youtube.com/watch?v=9QMiGD2offs&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)
 - [1. Excelsior](https://www.youtube.com/watch?v=KlIkkeWmVvA&list=PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1)

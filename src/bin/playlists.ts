@@ -66,14 +66,6 @@ for (const playlist of playlistSpecs) {
     break;
   }
 
-  playlistMd += `## [${playlist.name}](https://www.youtube.com/playlist?list=${
-    playlist.id
-  })
-
-> ${playlist.description.trim().replaceAll("\n", "\n> ")}
-
-`;
-
   const videos: Array<{
     id: string;
     title: string;
@@ -162,12 +154,6 @@ for (const playlist of playlistSpecs) {
     }
   }
 
-  for (const video of videos) {
-    playlistMd += `- [${video.title}](https://www.youtube.com/watch?v=${video.id}&list=${playlist.id})\n`;
-  }
-
-  playlistMd += "\n";
-
   const hours = String((seconds / 60 / 60) | 0);
   const minutesPart = String((seconds / 60) % 60 | 0);
   const secondsPart = String(seconds % 60 | 0);
@@ -188,7 +174,21 @@ for (const playlist of playlistSpecs) {
     title = title.replaceAll("${" + key + "}", value);
   }
 
-  console.log(playlist.name, description);
+  console.log(title, description);
+
+  playlistMd += `## [${title}](https://www.youtube.com/playlist?list=${
+    playlist.id
+  })
+
+> ${description.trim().replaceAll("\n", "\n> ")}
+
+`;
+
+  for (const video of videos) {
+    playlistMd += `- [${video.title}](https://www.youtube.com/watch?v=${video.id}&list=${playlist.id})\n`;
+  }
+
+  playlistMd += "\n";
 
   await setPlaylist(
     playlist.id,

@@ -1,7 +1,7 @@
 // deno-lint-ignore-file no-explicit-any
-import { Innertube } from "https://deno.land/x/youtubei@v6.3.0-deno/deno.ts";
-import { setParserErrorHandler } from "https://deno.land/x/youtubei@v6.3.0-deno/deno/src/parser/parser.ts";
-import PlaylistVideo from "https://deno.land/x/youtubei@v6.3.0-deno/deno/src/parser/classes/PlaylistVideo.ts";
+import { Innertube } from "../../YouTube.js/deno.ts";
+import { setParserErrorHandler } from "../../YouTube.js/deno/src/parser/parser.ts";
+import PlaylistVideo from "../../YouTube.js/deno/src/parser/classes/PlaylistVideo.ts";
 import { miliseconds } from "./common.ts";
 
 setParserErrorHandler(() => {});

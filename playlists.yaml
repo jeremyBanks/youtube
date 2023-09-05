@@ -487,7 +487,7 @@ include:
 name: Um, Actually
 id: PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y
 description: |
-  ${hour}-hour laylist of all episodes of Um, Actually, the show where nerds correct nerds.
+  ${hours}-hour playlist of all episodes of Um, Actually, the show where nerds correct nerds.
 
   but just see https://www.youtube.com/playlist?list=PL8DC1DKeftbcTA88UFoN2OdqaoThl0w89 instead, they've already done this and their list is complete.
 include:
@@ -498,6 +498,6 @@ include:
 name: Game Changer
 id: PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS
 description: |
-  ${hour}-hour laylist of all episodes of Game Changer, the only game show where the game changes every show.
+  ${hours}-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
 include:
-  from: Um, Actually
+  from: Game Changer

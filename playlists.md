@@ -1781,7 +1781,7 @@
 
 ## [Um, Actually](https://www.youtube.com/playlist?list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
 
-> ${hour}-hour laylist of all episodes of Um, Actually, the show where nerds correct nerds.
+> 2-hour playlist of all episodes of Um, Actually, the show where nerds correct nerds.
 > 
 > but just see https://www.youtube.com/playlist?list=PL8DC1DKeftbcTA88UFoN2OdqaoThl0w89 instead, they've already done this and their list is complete.
 
@@ -1799,17 +1799,8 @@
 
 ## [Game Changer](https://www.youtube.com/playlist?list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 
-> ${hour}-hour laylist of all episodes of Game Changer, the only game show where the game changes every show.
+> 0-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
 
-- [00x01 Um, Actually](https://www.youtube.com/watch?v=Qam4iiya1q0&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x02 Um, Actually](https://www.youtube.com/watch?v=IETbROVCYJ4&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x03 Um, Actually](https://www.youtube.com/watch?v=gBVRvVMWIA8&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x04 Um, Actually](https://www.youtube.com/watch?v=_1mTP75jVC8&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x05 Um, Actually](https://www.youtube.com/watch?v=-dactFGD2qU&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x06 Monsters, Moogles, and Side Mirrors](https://www.youtube.com/watch?v=6zWTMF7kLSI&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x07 House Crests, House Crushings, and the Kongs](https://www.youtube.com/watch?v=5imeyaGEIdU&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x08 Make-Up, Maps, and Mythical Dragons](https://www.youtube.com/watch?v=AUabsUtAeiw&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [00x09 Star Trek, Schwarzenegger, and Stoker](https://www.youtube.com/watch?v=VpExylE3C9Q&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [Um Actually LIVE! @ Comic Con (NY)](https://www.youtube.com/watch?v=3yQYVRzuP7M&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [01x01 Bigger, Longer, and Wronger](https://www.youtube.com/watch?v=ZsZjFAfJJ3c&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [Game Changer Trailer](https://www.youtube.com/watch?v=FC4ZTM0ou-0&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [Lie Detector](https://www.youtube.com/watch?v=J8x-xoDeJsQ&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 

@@ -27,9 +27,11 @@ const campaignData = yaml.load("campaigns.yaml") as Array<{
     animation?: string;
     bts?: string;
     special?: string;
+    external?: string;
     public?: string;
     "public parts"?: Array<string>;
     members?: string;
+    dropout?: string;
   }>;
 }>;
 const playlistSpecs = yaml.load("playlists.yaml") as Array<{
@@ -87,6 +89,8 @@ for (const playlist of playlistSpecs) {
         ? "bts"
         : video.trailer
         ? "trailer"
+        : video.external
+        ? "external"
         : raise("missing type for", video);
       const title =
         video.episode ??
@@ -94,6 +98,7 @@ for (const playlist of playlistSpecs) {
         video.special ??
         video.bts ??
         video.trailer ??
+        video.external ??
         raise("missing title for", video);
       const id =
         video.public ??

@@ -168,24 +168,31 @@ for (const playlist of playlistSpecs) {
 
   playlistMd += "\n";
 
-  // XXX: we need to read the durations from the catalogue if we want to add it.
-  // Maybe use some placeholders like ${duration} and ${count} and ${blurbs.d20}.
+  const hours = String((seconds / 60 / 60) | 0);
+  const minutesPart = String((seconds / 60) % 60 | 0);
+  const secondsPart = String(seconds % 60 | 0);
+  const duration = `${hours}:${minutesPart}:${secondsPart}`;
 
   const replacements = {
     d20blurb:
       "Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
+    hours,
+    duration,
   };
 
-  const duration = `${(seconds / 60 / 60) | 0} hours`;
-  console.log(playlist.name, duration);
+  let title = playlist.name;
+
   let description = playlist.description;
   for (const [key, value] of Object.entries(replacements)) {
     description = description.replaceAll("${" + key + "}", value);
+    title = title.replaceAll("${" + key + "}", value);
   }
+
+  console.log(playlist.name, description);
 
   await setPlaylist(
     playlist.id,
-    playlist.name,
+    title,
     description,
     videos.map((v) => v.id)
   );

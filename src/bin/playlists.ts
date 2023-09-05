@@ -43,7 +43,9 @@ const playlistSpecs = yaml.load("playlists.yaml") as Array<{
     world?: string;
     cast?: string;
     season?: string | Array<string>;
-    type: Array<"episode" | "special" | "trailer" | "bts" | "animation">;
+    type: Array<
+      "episode" | "special" | "trailer" | "bts" | "animation" | "external"
+    >;
     version: Array<"public" | "members">;
   };
 }>;
@@ -168,9 +170,18 @@ for (const playlist of playlistSpecs) {
 
   // XXX: we need to read the durations from the catalogue if we want to add it.
   // Maybe use some placeholders like ${duration} and ${count} and ${blurbs.d20}.
+
+  const replacements = {
+    d20blurb:
+      "Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
+  };
+
   const duration = `${(seconds / 60 / 60) | 0} hours`;
   console.log(playlist.name, duration);
-  const description = playlist.description;
+  let description = playlist.description;
+  for (const [key, value] of Object.entries(replacements)) {
+    description = description.replaceAll("${" + key + "}", value);
+  }
 
   await setPlaylist(
     playlist.id,

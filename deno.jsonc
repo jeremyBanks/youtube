@@ -2,6 +2,6 @@
   "tasks": {
     "check": "deno check src/bin/*.ts",
     "catalogue": "deno run --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=catalogue.yaml --allow-write=catalogue.yaml --allow-net=www.youtube.com src/bin/catalogue.ts",
-    "playlists": "deno run --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=. --allow-write=playlists.md --allow-net=www.youtube.com src/bin/playlists.ts"
+    "playlists": "deno run --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=. --allow-write=playlists.md,catalogue.yaml,playlist.yaml,campaigns.yaml --allow-net=www.youtube.com src/bin/playlists.ts"
   }
 }

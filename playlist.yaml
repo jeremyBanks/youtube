@@ -1,0 +1,502 @@
+name: Dimension 20 (All Episodes)
+id: PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG
+description: |
+  ${hours}-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+
+---
+
+name: Dimension 20 (All Episodes and Extras)
+id: PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD
+description: |
+  ${hours}-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+
+---
+
+name: Dimension 20 (Free Episodes)
+id: PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO
+description: |
+  ${hours}-hour playlist of all free episodes of Dimension 20.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  version:
+  - public
+
+---
+
+name: Dimension 20 (Free Episodes and Extras)
+id: PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA
+description: |
+  ${hours}-hour mega-playlist of all free episodes of Dimension 20 and all free extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  version:
+  - public
+
+---
+
+name: 'Dimension 20: Fantasy High (Episodes and Extras)'
+id: PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season:
+  - Fantasy High (Chapter 1)
+  - Fantasy High (Chapter 2)
+
+---
+
+name: 'Dimension 20: Spyre (Episodes and Extras)'
+id: PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  world:
+  - Spyre
+
+---
+
+name: 'Dimension 20: Intrepid Heroes (Episodes and Extras)'
+id: PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
+
+  ${d20blurb}
+include:
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  cast: Intrepid
+
+---
+
+name: 'Dimension 20: Escape from the Bloodkeep (Episodes and Extras)'
+id: PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Escape from the Bloodkeep, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Escape from the Bloodkeep
+
+---
+
+name: 'Dimension 20: The Unsleeping City (Episodes and Extras)'
+id: PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of The Unsleeping City, a series of campaigns from Dimension 20.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season:
+  - The Unsleeping City (Chapter 1)
+  - The Unsleeping City (Chapter 2)
+
+---
+
+name: 'Dimension 20: Tiny Heist (Episodes and Extras)'
+id: PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU
+description: |
+  ${hours}-hour playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Tiny Heist
+
+---
+
+name: 'Dimension 20: A Crown of Candy (Episodes and Extras)'
+id: PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Crown of Candy, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: A Crown of Candy
+
+---
+
+name: 'Dimension 20: Calorum (Episodes and Extras)'
+id: PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the two seasons of Dimension 20 set in the world of Calorum.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  world:
+  - Calorum
+
+---
+
+name: 'Dimension 20: Pirates of Leviathan (Episodes and Extras)'
+id: PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Pirates of Leviathan, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Pirates of Leviathan
+
+---
+
+name: 'Dimension 20: Mice and Murder (Episodes and Extras)'
+id: PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mice and Murder, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Mice and Murder
+
+---
+
+name: 'Dimension 20: Misfits and Magic (Episodes and Extras)'
+id: PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Misfits and Magic, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Misfits and Magic
+
+---
+
+name: 'Dimension 20: The Seven (Episodes and Extras)'
+id: PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Seven, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: The Seven
+
+---
+
+name: 'Dimension 20: Shreik Week (Episodes and Extras)'
+id: PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Shreik Week, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Shreik Week
+
+---
+
+name: 'Dimension 20: A Starstruck Odyssey (Episodes and Extras)'
+id: PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Starstruck Odyssey, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: A Starstruck Odyssey
+
+---
+
+name: 'Dimension 20: Coffin Run (Episodes and Extras)'
+id: PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Coffin Run, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Coffin Run
+
+---
+
+name: 'Dimension 20: A Court of Fey and Flowers (Episodes and Extras)'
+id: PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Court of Fey and Flowers, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: A Court of Fey and Flowers
+
+---
+
+name: 'Dimension 20: Neverafter (Episodes and Extras)'
+id: PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Neverafter, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Neverafter
+
+---
+
+name: 'Dimension 20: The Ravening War (Episodes and Extras)'
+id: PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Ravening War, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: The Ravening War
+
+---
+
+name: 'Dimension 20: Dungeons and Drag Queens (Episodes and Extras)'
+id: PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Dungeons and Drag Queens, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Dungeons and Drag Queens
+
+---
+
+name: 'Dimension 20: Mentopolis (Episodes and Extras)'
+id: PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Mentopolis
+
+---
+
+name: 'Worlds Beyond Number: The Wizard, the Witch, and the Wild One'
+id: PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_
+description: |
+  ${hours}-hour playlist of all episodes and trailers from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
+include:
+  from: Worlds Beyond Number
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: 'The Wizard, the Witch, and the Wild One'
+
+---
+
+name: 'Critical Role: Exandria Unlimited: Calamity'
+id: PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
+description: |
+  ${hours}-hour playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
+include:
+  from: Critical Role
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: 'Exandria Unlimited: Calamity'
+
+---
+
+name: 'Um, Actually'
+id: PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y
+description: |
+  ${hours}-hour playlist of all episodes of Um, Actually, the show where nerds correct nerds.
+
+  but just see https://www.youtube.com/playlist?list=PL8DC1DKeftbcTA88UFoN2OdqaoThl0w89 instead, they've already done this and their list is complete.
+include:
+  from: 'Um, Actually'
+
+---
+
+name: Game Changer
+id: PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS
+description: |
+  ${hours}-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
+include:
+  from: Game Changer

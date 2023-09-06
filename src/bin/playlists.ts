@@ -15,6 +15,8 @@ const catalogueData = yaml.load("catalogue.yaml") as Array<{
     }
   >;
 }>;
+yaml.dump("catalogue.yaml", catalogueData);
+
 const campaignData = yaml.load("campaigns.yaml") as Array<{
   season: string;
   from: "Dimension 20";
@@ -34,7 +36,9 @@ const campaignData = yaml.load("campaigns.yaml") as Array<{
     dropout?: string;
   }>;
 }>;
-const playlistSpecs = yaml.load("playlists.yaml") as Array<{
+yaml.dump("campaigns.yaml", campaignData);
+
+const playlistData = yaml.load("playlists.yaml") as Array<{
   name: string;
   id?: string;
   description: string;
@@ -49,6 +53,12 @@ const playlistSpecs = yaml.load("playlists.yaml") as Array<{
     version: Array<"public" | "members">;
   };
 }>;
+yaml.dump("playlist.yaml", playlistData);
+
+if (Math.random()) {
+  Deno.exit(0);
+}
+
 let playlistMd =
   "# [Playlists](https://www.youtube.com/@actualplaylists/playlists?view=1)\n\n";
 
@@ -59,7 +69,7 @@ for (const channel of catalogueData) {
   }
 }
 
-for (const playlist of playlistSpecs) {
+for (const playlist of playlistData) {
   let seconds = 0;
 
   if (!playlist.id) {

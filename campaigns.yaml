@@ -47,10 +47,10 @@ videos:
 - episode: 10. Battle of the Bloodrush Brethren
   public: 2i_yAoWqPJA
   members: CttbCSHBrg8
-- bts: Wally and Gilear in the Morning with Emily, Murph, and Michael
+- bts: 'Wally and Gilear in the Morning with Emily, Murph, and Michael'
   public: VPmwamOA7dg
   members: idvVx0aOOTE
-- episode: 11. Cool Kid, Cold Case
+- episode: '11. Cool Kid, Cold Case'
   public: nJKSJwYhxOw
   members: _GJK9P2LVdU
 - episode: 12. The Sisterly Showdown
@@ -81,10 +81,12 @@ videos:
   public: 2MIPr_Biw8U
   members: jrMPTsPpChI
 - bts: Behind the Scenes
-  public parts: [JnAZ4wc0zeM, O4jDmG3z8Rg]
-  members: -tasYql6FBY
+  public parts:
+  - JnAZ4wc0zeM
+  - O4jDmG3z8Rg
+  members: '-tasYql6FBY'
 - special: Live in Brooklyn
-  members: -ulIYMA0sqg
+  members: '-ulIYMA0sqg'
 - special: Live in Austin
   members: Ekgd2ePymD8
 
@@ -182,20 +184,20 @@ videos:
 - episode: 17. Times Squaremageddon (Part 2)
   public: RcvVO3xd-po
   members: mpQ7hkuTf2A
-- bts: "Behind the Scenes: Brennan"
+- bts: 'Behind the Scenes: Brennan'
   public: 5Gov0t2HOas
   members: Gbr9AGX58pE
-- bts: "Behind the Scenes: Murph"
+- bts: 'Behind the Scenes: Murph'
   members: GtkWIOkOMIw
-- bts: "Behind the Scenes: Ally"
+- bts: 'Behind the Scenes: Ally'
   members: Eb5wey1ZBgA
-- bts: "Behind the Scenes: Zac"
+- bts: 'Behind the Scenes: Zac'
   members: LYo8Tr9K0Eg
-- bts: "Behind the Scenes: Siobhan"
+- bts: 'Behind the Scenes: Siobhan'
   members: Cku2ZO43TaA
-- bts: "Behind the Scenes: Lou"
+- bts: 'Behind the Scenes: Lou'
   members: g2EfECoV2nI
-- bts: "Behind the Scenes: Emily"
+- bts: 'Behind the Scenes: Emily'
   members: BDhea1lB4jk
 - bts: How the Editors Make Dimension 20 Come To Life
   public: kjIorkzxF0s
@@ -216,13 +218,19 @@ videos:
   public: J5D0ij7cv-c
   members: PrkKnvRoLug
 - episode: 2. Mirror Madness
-  public parts: [I5rJSs8QxvY, 3o39rSn-K6o]
+  public parts:
+  - I5rJSs8QxvY
+  - 3o39rSn-K6o
   members: pzUFWFdCe7c
 - episode: 3. Havoc at the Hotel Cavalier
-  public parts: [r8FZ9Tac5M8, 1zQIIYDUdCw]
+  public parts:
+  - r8FZ9Tac5M8
+  - 1zQIIYDUdCw
   members: py0UzCjBLFY
 - episode: 4. Heartache on the Celestine Sea
-  public parts: [GItg7LXFW4M, 5IRQ9s2Y-7U]
+  public parts:
+  - GItg7LXFW4M
+  - 5IRQ9s2Y-7U
   members: 8jlxS6V94KU
 - episode: 5. Leviathan Rock City
   members: Df_mE-oF1OM
@@ -284,7 +292,6 @@ videos:
   members: VesqRsUy7sc
 - episode: 6. The Great Chase
   members: uc0zK0IRMKM
-  
 
 ---
 
@@ -337,7 +344,7 @@ videos:
 - animation: Liam Tries to Flirt
   public: gI2KgJvft90
   members: 4bJ3Hr5bi6s
-- bts: Slammed Down, Big-Style
+- bts: 'Slammed Down, Big-Style'
   members: kZy0mmTLf_g
 - episode: 10. Blood and Bread
   members: XMaGdEKIfiI
@@ -345,7 +352,7 @@ videos:
   members: wD8Gi-AUKkw
 - episode: 11. At the Mountains of Sweetness
   members: l-AUIcjoln4
-- bts: Twinned Down, Big Business-Style
+- bts: 'Twinned Down, Big Business-Style'
   members: ZIP50ZxigK0
 - episode: 12. Rescue at Buzzybrook
   members: KbOetf8U6TY
@@ -357,7 +364,7 @@ videos:
   members: JN2QzaQcpSo
 - episode: 14. Encounter in the Ice Cream Temple
   members: i9OczQ1vCvo
-- bts: Rude Goldberg and Eartha Crit, Explained
+- bts: 'Rude Goldberg and Eartha Crit, Explained'
   members: jUcxLbad31I
 - episode: 15. The Two Balls
   members: u6nBCXfCUVE
@@ -365,7 +372,7 @@ videos:
   members: intsLWmLjxE
 - episode: 16. For Candia! (Part 1)
   members: yPDSSCV02xc
-- bts: Burt From Ohio, Thankyousomuch
+- bts: 'Burt From Ohio, Thankyousomuch'
   members: aqqNBb3-l5c
 - episode: 17. For Candia! (Part 2)
   members: he8QU5a9HfA
@@ -415,7 +422,7 @@ videos:
 - trailer: The Unsleeping City (Chapter 2) Trailer
   public: cbBflJXRZzU
 - episode: 1. The Fall of New York City
-  public: "-Ho5CdsUIQc"
+  public: '-Ho5CdsUIQc'
   members: wfcwB10zZFM
 - animation: Cody Sells His Soul
   public: ZUu0XGoCbUM
@@ -455,7 +462,7 @@ videos:
   members: UO1PWvRFEm4
 - episode: 10. Nulla Dies Umquam Memori Vos Eximet Aevo
   members: Kff_E0jrPxU
-- bts: "#PrefluorideBoomers"
+- bts: '#PrefluorideBoomers'
   members: XmXMMPXolVI
 - episode: 11. Let's Get Tiny
   members: HmSG1F97z1A
@@ -478,7 +485,7 @@ videos:
 - bts: Intrepid Bunnies
   members: a7TWgWVOxyw
 - episode: 16. Treachery At Gramercy
-  members: -Ihu3sOYxGs
+  members: '-Ihu3sOYxGs'
 - bts: The Lou Show
   members: vPZ9MYlSqcQ
 - episode: 17. Two Sides of the Same Coin (Part 1)
@@ -487,7 +494,7 @@ videos:
   members: BxG3LFihVMc
 - episode: 18. Two Sides of the Same Coin (Part 2)
   members: 2CfxlgkapJE
-- bts: Cody, The Kids, and Lorne Michaels
+- bts: 'Cody, The Kids, and Lorne Michaels'
   members: _C43rGbNSfs
 - bts: Crew Edition
   members: 6f5pfudBaGU
@@ -503,7 +510,7 @@ videos:
 - episode: 1. It Was a Dark and Stormy Night
   public: _GX8075fX3k
   members: 3uUfFTNeSLg
-- bts: Say Hi, Sylvan Sleuths!
+- bts: 'Say Hi, Sylvan Sleuths!'
   members: zj8F-GqWaIs
 - animation: Do I Have A Fellow Student of the Stars Here As Well?
   public: lsizZEAw7K8
@@ -542,7 +549,7 @@ videos:
   members: UUtXjkwLUKY
 - episode: 10. Unfinished Business
   members: eeyoMM9Rpt4
-- bts: Farewell, Sylvan Sleuths!
+- bts: 'Farewell, Sylvan Sleuths!'
   members: HdKObIkyoA8
 
 ---
@@ -619,7 +626,7 @@ videos:
   members: hUiAoZh2fkc
 - episode: 6. Belles of The Baronies
   members: C4ZxnN7lTuo
-- bts: You Did a Murder, Girl
+- bts: 'You Did a Murder, Girl'
   members: zqS7qyr7cX4
 - episode: 7. Bloppelganger Blitz
   members: tuDdqACkRp4
@@ -667,7 +674,7 @@ videos:
   members: yb169Rb3UPU
 - bts: I Wish I Had Bitten More People
   members: OyVhJi7hr0g
-- bts: Oh No, I'm In Love With Chupacabra
+- bts: 'Oh No, I''m In Love With Chupacabra'
   members: _BYg4oX3juA
 
 ---
@@ -679,13 +686,13 @@ cast: Intrepid
 videos:
 - trailer: A Starstruck Odyssey Trailer
   public: oVC-KqAgm38
-- episode: 1. Welcome To The Spacin' Life, Buddy
+- episode: '1. Welcome To The Spacin'' Life, Buddy'
   public: 6I7cZG_RoWI
   members: GK7Ud5sqinU
 - bts: Our Tail Was Not Between Our Legs
   members: QFqHarfv_w8
 - episode: 2. Rolling Up The Hill
-  members: -PXnJ25vgec
+  members: '-PXnJ25vgec'
 - bts: Was That the Worst Social Interaction in D20 History?
   members: qfF_IOKBSg8
 - episode: 3. Wrecked on Rec 97
@@ -694,17 +701,17 @@ videos:
   members: UdXqBE0E-R0
 - episode: 4. Every Day is Our Wurst Day
   members: 3rV-tm8OiOU
-- bts: The Chaos, the Chaos of this Episode
+- bts: 'The Chaos, the Chaos of this Episode'
   members: 4ZIVGsbsET0
 - episode: 5. All In the Hot Exit
   members: iiEf2E1kIOM
-- bts: To Me, This Is A Perfect Battle
+- bts: 'To Me, This Is A Perfect Battle'
   members: 5Qr-l3WM_eQ
 - episode: 6. On the Run In the Martini Nebula
   members: XsFcJ8eD9j0
 - bts: Hot Dog Wrapped in Ham
   members: AywIm9xP30g
-- episode: 7. Dying Tomorrow, It's a Pleasure
+- episode: '7. Dying Tomorrow, It''s a Pleasure'
   members: a5Uamf-JeW4
 - bts: We've Never Not Hot Exited
   members: dx7EhwzpAAk
@@ -713,7 +720,7 @@ videos:
 - animation: The Magic of Plug
   public: zQCxwYhhCcI
   members: 4We1ITzYonE
-- bts: Cool, This Is Not Going to Go According to Plan
+- bts: 'Cool, This Is Not Going to Go According to Plan'
   members: cmoj-_F0Jag
 - episode: 9. Baustin Skiffy Limits
   members: FaRQeh41ThQ
@@ -731,7 +738,7 @@ videos:
 - bts: Randomness Lets Something Amazing Happen
   members: b6NS8Y7Jxks
 - episode: 12. Go Big or Go Home
-  members: -wtoiSfr_FU
+  members: '-wtoiSfr_FU'
 - bts: Prelude to the Tight Pony Episode
   members: iwAuC38xNIk
 - episode: 13. Battle of the Brands
@@ -750,24 +757,24 @@ videos:
   members: jCR9JfQo2hE
 - bts: Plug's Butt Ugly Podcast
   members: QRnkGR4NLqk
-- episode: 17. The Luckless, the Abandoned, and the Forsaked (Part 1)
+- episode: '17. The Luckless, the Abandoned, and the Forsaked (Part 1)'
   members: NxJi-1GLa4E
 - bts: Prilbus!
   members: AnNV1XNMli4
-- episode: 18. The Luckless, the Abandoned, and the Forsaked (Part 2)
+- episode: '18. The Luckless, the Abandoned, and the Forsaked (Part 2)'
   members: renBy5RQG4I
-- bts: From Running to Ramming, The Wurst Story
+- bts: 'From Running to Ramming, The Wurst Story'
   members: 2aae_QSoFJU
 - bts: No Middle Sliders
   members: Wxraddz_7Ds
 
 ---
 
-season: "Exandria Unlimited: Calamity"
+season: 'Exandria Unlimited: Calamity'
 from: Critical Role
 debut: 2022-05-26
 videos:
-- trailer: "Exandria Unlimited: Calamity Trailer"
+- trailer: 'Exandria Unlimited: Calamity Trailer'
   public: 9QMiGD2offs
 - episode: 1. Excelsior
   public: KlIkkeWmVvA
@@ -777,7 +784,7 @@ videos:
   public: YNTP_CckXrM
 - episode: 4. Fire and Ruin
   public: CrtoyB2fcMI
-- bts: "Exandria Unlimited: Calamity Wrap-Up"
+- bts: 'Exandria Unlimited: Calamity Wrap-Up'
   public: EYK4_eRSSb4
 
 ---
@@ -807,7 +814,7 @@ videos:
   members: YjhKcQ2h-u8
 - episode: 5. Drac's Moved-In Castle
   members: U9yOg46ZJjc
-- bts: Hideo Kojima Mind, Activate!
+- bts: 'Hideo Kojima Mind, Activate!'
   members: ZH8c3zvpz64
 - episode: 6. Feed the Beast
   members: KXzcNhs8w18
@@ -883,9 +890,9 @@ videos:
 - episode: 1. The Times of Shadow
   public: 7GTogwQVmYE
   members: 0_RiOyVMOCE
-- bts: Royals, Scamps, and Townies
+- bts: 'Royals, Scamps, and Townies'
   members: SAiHzPimhC0
-- episode: 2. Mirror, Mirror
+- episode: '2. Mirror, Mirror'
   members: 9sjFyMxZ8-U
 - bts: Mrs. Potts Will Not Be Appearing
   members: tKZS-b82TxE
@@ -943,7 +950,7 @@ videos:
   members: suJdAuyJGtA
 - episode: 16. In the Land of Giants
   members: zXM4SPVz9w8
-- bts: Save the Goose, Save the World
+- bts: 'Save the Goose, Save the World'
   members: 5hRA8HM1Guk
 - episode: 17. The Last Wish
   members: a5V4LiFWQQI
@@ -966,7 +973,7 @@ videos:
 
 ---
 
-season: The Wizard, the Witch, and the Wild One
+season: 'The Wizard, the Witch, and the Wild One'
 from: Worlds Beyond Number
 debut: 2023-03-01
 videos:
@@ -980,7 +987,7 @@ videos:
   public: Q-dYCjrrR1o
 - episode: 4. In the Drink
   public: KJBpUDpjRsY
-- episode: 5. Water, Water Everywhere
+- episode: '5. Water, Water Everywhere'
   public: kA-l_btLUzQ
 - episode: 6. Fresh Fish
   public: Nupzozzl-nM
@@ -1035,11 +1042,11 @@ videos:
   members: qT6uK0SbtdI
 - bts: A Little More Throat Wattle
   members: qGaoLhCZPew
-- bts: "Behind the Scenes: How It Began"
+- bts: 'Behind the Scenes: How It Began'
   members: zplZEDC-nj4
-- bts: "Behind the Scenes: The Cast"
+- bts: 'Behind the Scenes: The Cast'
   members: c8UfbrcV-X4
-- bts: "Behind the Scenes: The Art Team"
+- bts: 'Behind the Scenes: The Art Team'
   members: ZuQbPO9XREs
 - external: Brennan Discusses The Ravening War on Screen Rant Plus
   public: R16Eq9K74BM
@@ -1069,9 +1076,9 @@ videos:
   members: RT6XwcsQ3Tc
 - bts: The Gaming Super Bowl
   members: LDx-pSIAQbw
-- bts:  Behind-the-Scenes with the Queens
+- bts: Behind-the-Scenes with the Queens
   public: 8oIFPh1CrmQ
-- bts: The Questing Queens Talk Fantasy Night Life 
+- bts: The Questing Queens Talk Fantasy Night Life
   public: bXwntmGo-EM
 - bts: The Queens See the Finale Set For the 1st Time
   public: zOt5Rv33Xv0
@@ -1117,29 +1124,29 @@ videos:
 
 ---
 
-from: Um, Actually
+from: 'Um, Actually'
 videos:
-- episode: 00x01 Um, Actually
+- episode: '00x01 Um, Actually'
   public: Qam4iiya1q0
-- episode: 00x02 Um, Actually
+- episode: '00x02 Um, Actually'
   public: IETbROVCYJ4
-- episode: 00x03 Um, Actually
+- episode: '00x03 Um, Actually'
   public: gBVRvVMWIA8
-- episode: 00x04 Um, Actually
+- episode: '00x04 Um, Actually'
   public: _1mTP75jVC8
-- episode: 00x05 Um, Actually
-  public: -dactFGD2qU
-- episode: 00x06 Monsters, Moogles, and Side Mirrors
+- episode: '00x05 Um, Actually'
+  public: '-dactFGD2qU'
+- episode: '00x06 Monsters, Moogles, and Side Mirrors'
   public: 6zWTMF7kLSI
-- episode: 00x07 House Crests, House Crushings, and the Kongs
+- episode: '00x07 House Crests, House Crushings, and the Kongs'
   public: 5imeyaGEIdU
-- episode: 00x08 Make-Up, Maps, and Mythical Dragons
+- episode: '00x08 Make-Up, Maps, and Mythical Dragons'
   public: AUabsUtAeiw
-- episode: 00x09 Star Trek, Schwarzenegger, and Stoker
+- episode: '00x09 Star Trek, Schwarzenegger, and Stoker'
   public: VpExylE3C9Q
 - special: Um Actually LIVE! @ Comic Con (NY)
   public: 3yQYVRzuP7M
-- episode: 01x01 Bigger, Longer, and Wronger
+- episode: '01x01 Bigger, Longer, and Wronger'
   public: ZsZjFAfJJ3c
 
 ---

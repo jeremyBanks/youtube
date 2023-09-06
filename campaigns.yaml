@@ -1125,6 +1125,7 @@ videos:
 ---
 
 from: 'Um, Actually'
+sort by: oldest
 videos:
 - episode: '00x01 Um, Actually'
   public: Qam4iiya1q0
@@ -1152,9 +1153,10 @@ videos:
 ---
 
 from: Game Changer
+sort by: oldest
 videos:
 - trailer: Game Changer Trailer
-  members: FC4ZTM0ou-0
+  members: FC4ZTM0ou-02
 - episode: Lie Detector
   public: J8x-xoDeJsQ
   members: Qt2gg6GNMes

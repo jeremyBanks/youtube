@@ -55,9 +55,8 @@ const playlistData = yaml.load("playlists.yaml") as Array<{
 }>;
 yaml.dump("playlist.yaml", playlistData);
 
-if (Math.random()) {
-  Deno.exit(0);
-}
+// TODO: apply "sort by" to campaign.yaml data,
+// copy in `date` field if missing but respect modifications
 
 let playlistMd =
   "# [Playlists](https://www.youtube.com/@actualplaylists/playlists?view=1)\n\n";
@@ -209,3 +208,4 @@ for (const playlist of playlistData) {
 }
 
 Deno.writeTextFileSync("playlists.md", playlistMd);
+yaml.dump("campaigns.yaml", campaignData);

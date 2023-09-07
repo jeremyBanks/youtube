@@ -58,6 +58,7 @@ yaml.dump("playlist.yaml", playlistData);
 
 // TODO: apply "sort by" to campaign.yaml data,
 // copy in `date` field if missing but respect modifications
+// TODO: loop over every source video to find the minimum date and use that
 
 let playlistMd =
   "# [Playlists](https://www.youtube.com/@actualplaylists/playlists?view=1)\n\n";
@@ -153,6 +154,8 @@ for (const playlist of playlistData) {
       } else {
         seconds += catalogueInfo.duration;
       }
+
+      video.published = catalogueInfo.published;
 
       if (typeof id == "string") {
         videos.push({ id, title });

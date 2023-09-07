@@ -139,9 +139,15 @@ videos:
 - episode: 2. Mutant Santa Melee
   public: uIxx5ID1BU8
   members: Dw_d4wBqL9c
+  public parts:
+  - maA08gz-Ycs
+  - vVJaFxHneCY
 - episode: 3. Pigeon Plus Ones
   public: zme6xXL1WQ8
   members: jqH9y97Ui3I
+  public parts:
+  - nGWsVXkx09c
+  - guSpRAI3RyY
 - episode: 4. Scramble in the Sewers
   public: k8FPa4KjoUE
   members: Q8JwkP_kSZE
@@ -1156,7 +1162,7 @@ from: Game Changer
 sort by: oldest
 videos:
 - trailer: Game Changer Trailer
-  members: FC4ZTM0ou-02
+  members: FC4ZTM0ou-0
 - episode: Lie Detector
   public: J8x-xoDeJsQ
   members: Qt2gg6GNMes

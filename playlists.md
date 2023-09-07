@@ -2,7 +2,7 @@
 
 ## [Dimension 20 (All Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 
-> 446-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+> 448-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -220,7 +220,7 @@
 
 ## [Dimension 20 (All Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
-> 571-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+> 573-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -828,7 +828,7 @@
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 
-> 85-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
+> 87-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -886,7 +886,7 @@
 
 ## [Dimension 20: Spyre (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB)
 
-> 133-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
+> 136-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -977,7 +977,7 @@
 
 ## [Dimension 20: Intrepid Heroes (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb)
 
-> 353-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
+> 355-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -1801,6 +1801,6 @@
 
 > 0-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
 
-- [Game Changer Trailer](https://www.youtube.com/watch?v=FC4ZTM0ou-02&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [Game Changer Trailer](https://www.youtube.com/watch?v=FC4ZTM0ou-0&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 - [Lie Detector](https://www.youtube.com/watch?v=J8x-xoDeJsQ&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 

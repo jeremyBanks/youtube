@@ -35,6 +35,7 @@ const campaignData = yaml.load("campaigns.yaml") as Array<{
     "public parts"?: Array<string>;
     members?: string;
     dropout?: string;
+    published: string;
   }>;
 }>;
 yaml.dump("campaigns.yaml", campaignData);
@@ -153,9 +154,8 @@ for (const playlist of playlistData) {
         );
       } else {
         seconds += catalogueInfo.duration;
+        video.published ??= catalogueInfo.published;
       }
-
-      video.published = catalogueInfo.published;
 
       if (typeof id == "string") {
         videos.push({ id, title });

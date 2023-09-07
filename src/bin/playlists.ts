@@ -19,7 +19,8 @@ yaml.dump("catalogue.yaml", catalogueData);
 
 const campaignData = yaml.load("campaigns.yaml") as Array<{
   season: string;
-  from: "Dimension 20";
+  from: string;
+  sortBy?: "oldest" | "newest" | `${string}=>${string}`;
   debut: string;
   cast?: string;
   world?: string;

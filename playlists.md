@@ -1801,6 +1801,6 @@
 
 > 0-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
 
-- [Game Changer Trailer](https://www.youtube.com/watch?v=FC4ZTM0ou-0&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [Game Changer Trailer](https://www.youtube.com/watch?v=FC4ZTM0ou-02&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 - [Lie Detector](https://www.youtube.com/watch?v=J8x-xoDeJsQ&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 

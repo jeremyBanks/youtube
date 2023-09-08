@@ -20,7 +20,7 @@ yaml.dump("catalogue.yaml", catalogueData);
 const campaignData = yaml.load("campaigns.yaml") as Array<{
   season: string;
   from: string;
-  "sort by"?: "oldest" | "newest" | `${string}=>${string}`;
+  "sort by"?: "oldest" | `${string}=>${string}`;
   debut: string;
   cast?: string;
   world?: string;
@@ -35,7 +35,8 @@ const campaignData = yaml.load("campaigns.yaml") as Array<{
     "public parts"?: Array<string>;
     members?: string;
     dropout?: string;
-    published: string;
+    published?: string;
+    duration?: number;
   }>;
 }>;
 yaml.dump("campaigns.yaml", campaignData);
@@ -151,6 +152,7 @@ for (const playlist of playlistData) {
       } else {
         seconds += catalogueInfo.duration;
         video.published ??= catalogueInfo.published;
+        video.duration ??= catalogueInfo.duration;
       }
 
       if (typeof id == "string") {
@@ -165,9 +167,13 @@ for (const playlist of playlistData) {
     // TODO: loop over every source video to find the minimum date and use that
     if (campaign["sort by"] === "oldest") {
       campaign.videos?.sort((a, b) => {
-        if (a.published < b.published) {
+        if ((a.published ?? "") < (b.published ?? "")) {
           return -1;
-        } else if (a.published > b.published) {
+        } else if ((a.published ?? "") > (b.published ?? "")) {
+          return +1;
+        } else if ((a.duration ?? 0) > (b.duration ?? 0)) {
+          return -1;
+        } else if ((a.duration ?? 0) < (b.duration ?? 0)) {
           return +1;
         } else {
           return 0;
@@ -214,12 +220,12 @@ for (const playlist of playlistData) {
 
   playlistMd += "\n";
 
-  await setPlaylist(
-    playlist.id,
-    title,
-    description,
-    videos.map((v) => v.id)
-  );
+  // await setPlaylist(
+  //   playlist.id,
+  //   title,
+  //   description,
+  //   videos.map((v) => v.id)
+  // );
 }
 
 Deno.writeTextFileSync("playlists.md", playlistMd);

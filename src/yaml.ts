@@ -12,12 +12,14 @@ export const dump = (path: string, items: Array<JsonValue>) =>
     path,
     items
       .map((x) =>
-        yaml.stringify(x as any, {
-          noCompatMode: true,
-          noArrayIndent: true,
-          lineWidth: -1,
-          schema: yaml.JSON_SCHEMA,
-        })
+        yaml
+          .stringify(x as any, {
+            noCompatMode: true,
+            noArrayIndent: true,
+            lineWidth: -1,
+            schema: yaml.JSON_SCHEMA,
+          })
+          .replaceAll("\n- ", "\n\n- ")
       )
       .join("\n---\n\n")
   );

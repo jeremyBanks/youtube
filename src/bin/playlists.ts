@@ -167,9 +167,11 @@ for (const playlist of playlistData) {
     // TODO: loop over every source video to find the minimum date and use that
     if (campaign["sort by"] === "oldest") {
       campaign.videos?.sort((a, b) => {
-        if ((a.published ?? "") < (b.published ?? "")) {
+        if ((a.published ?? "9999-99-99") < (b.published ?? "9999-99-99")) {
           return -1;
-        } else if ((a.published ?? "") > (b.published ?? "")) {
+        } else if (
+          (a.published ?? "9999-99-99") > (b.published ?? "9999-99-99")
+        ) {
           return +1;
         } else if ((a.duration ?? 0) > (b.duration ?? 0)) {
           return -1;

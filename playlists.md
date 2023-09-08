@@ -210,8 +210,8 @@
 - [5. The Seventh Kingdom](https://www.youtube.com/watch?v=RbG2v-cWFdU&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [6. The Heart of the World](https://www.youtube.com/watch?v=8yqzTFQ2FjA&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
-- [2. Welcome to the Underworld](https://www.youtube.com/watch?v=37vlzMCTfdg&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [3. The Time Has Come](https://www.youtube.com/watch?v=OrAxFXlvKqc&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
+- [2. Welcome to the Underworld](https://www.youtube.com/watch?v=37vlzMCTfdg&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
@@ -614,6 +614,8 @@
 - [Behind the Scenes: The Cast](https://www.youtube.com/watch?v=c8UfbrcV-X4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Behind the Scenes: The Art Team](https://www.youtube.com/watch?v=ZuQbPO9XREs&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Illuminati Invented Sandwiches](https://www.youtube.com/watch?v=qEzV08PmGEQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [2. Welcome to the Underworld](https://www.youtube.com/watch?v=37vlzMCTfdg&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -622,10 +624,10 @@
 - [The Dice Tell the Story](https://www.youtube.com/watch?v=uK4yu48EKa8&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
-- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
-- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
@@ -634,8 +636,6 @@
 - [We Are Feeling Machines That Think](https://www.youtube.com/watch?v=ssw1eJhbEAk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [4. Grappling With Death](https://www.youtube.com/watch?v=slt1R0kjo1M&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [A Random Sequence of Events](https://www.youtube.com/watch?v=wSYhoqYOXto&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
-- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
-- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 
@@ -817,14 +817,14 @@
 - [The Ravening War Trailer](https://www.youtube.com/watch?v=c4xTd-NjEj4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [1. The Seeds of Conflict](https://www.youtube.com/watch?v=LiBe4WJaLo0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
-- [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
-- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
-- [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 - [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
+- [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA)
 
 ## [Dimension 20: Fantasy High (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R)
 
@@ -1715,6 +1715,8 @@
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Dungeons and Drag Queens Trailer](https://www.youtube.com/watch?v=khZVjQL74qE&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
+- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Illuminati Invented Sandwiches](https://www.youtube.com/watch?v=qEzV08PmGEQ&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [2. Welcome to the Underworld](https://www.youtube.com/watch?v=37vlzMCTfdg&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
@@ -1723,8 +1725,6 @@
 - [The Dice Tell the Story](https://www.youtube.com/watch?v=uK4yu48EKa8&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Gaming Super Bowl](https://www.youtube.com/watch?v=LDx-pSIAQbw&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
-- [Behind-the-Scenes with the Queens](https://www.youtube.com/watch?v=8oIFPh1CrmQ&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
-- [The Questing Queens Talk Fantasy Night Life](https://www.youtube.com/watch?v=bXwntmGo-EM&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [The Queens See the Finale Set For the 1st Time](https://www.youtube.com/watch?v=zOt5Rv33Xv0&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [Sibling Rivalry: The One About Dungeons and Drag Queens](https://www.youtube.com/watch?v=I5xKN5ihTeg&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
 - [Brennan Discusses Dungeons and Drag Queens on Screen Rant Plus](https://www.youtube.com/watch?v=4wP9PP6irGI&list=PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr)
@@ -1736,6 +1736,8 @@
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
 - [Mentopolis Trailer](https://www.youtube.com/watch?v=9riE94Kkwq4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Key Lime Pie is a Marketing Invention](https://www.youtube.com/watch?v=12-Dxx-UqIs&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
@@ -1744,8 +1746,6 @@
 - [We Are Feeling Machines That Think](https://www.youtube.com/watch?v=ssw1eJhbEAk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [4. Grappling With Death](https://www.youtube.com/watch?v=slt1R0kjo1M&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [A Random Sequence of Events](https://www.youtube.com/watch?v=wSYhoqYOXto&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
-- [Hank Green Presents Facts He Didn't Get to Use In Mentopolis](https://www.youtube.com/watch?v=39-iLHWm4G4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
-- [Hank and Trapp Have New Science Facts For You](https://www.youtube.com/watch?v=NbPpDyWCPKk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
@@ -1794,8 +1794,8 @@
 - [00x07 House Crests, House Crushings, and the Kongs](https://www.youtube.com/watch?v=5imeyaGEIdU&list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
 - [00x08 Make-Up, Maps, and Mythical Dragons](https://www.youtube.com/watch?v=AUabsUtAeiw&list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
 - [00x09 Star Trek, Schwarzenegger, and Stoker](https://www.youtube.com/watch?v=VpExylE3C9Q&list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
-- [Um Actually LIVE! @ Comic Con (NY)](https://www.youtube.com/watch?v=3yQYVRzuP7M&list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
 - [01x01 Bigger, Longer, and Wronger](https://www.youtube.com/watch?v=ZsZjFAfJJ3c&list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
+- [Um Actually LIVE! @ Comic Con (NY)](https://www.youtube.com/watch?v=3yQYVRzuP7M&list=PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y)
 
 ## [Game Changer](https://www.youtube.com/playlist?list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 

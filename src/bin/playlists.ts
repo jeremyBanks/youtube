@@ -222,12 +222,12 @@ for (const playlist of playlistData) {
 
   playlistMd += "\n";
 
-  // await setPlaylist(
-  //   playlist.id,
-  //   title,
-  //   description,
-  //   videos.map((v) => v.id)
-  // );
+  await setPlaylist(
+    playlist.id,
+    title,
+    description,
+    videos.map((v) => v.id)
+  );
 }
 
 Deno.writeTextFileSync("playlists.md", playlistMd);

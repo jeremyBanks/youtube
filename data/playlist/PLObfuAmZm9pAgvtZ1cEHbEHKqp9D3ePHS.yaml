@@ -1,0 +1,6 @@
+name: Game Changer
+description: >-
+  ${hours}-hour playlist of all episodes of Game Changer,
+  the only game show where the game changes every show.
+include:
+  from: Game Changer

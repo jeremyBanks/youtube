@@ -1222,14 +1222,11 @@ season: Neverafter
 from: Dimension 20
 debut: 2022-11-30
 cast: Intrepid
+sort by: oldest
 videos:
 - trailer: Neverafter Trailer
   public: nwMxp7mRbx4
   published: 2022-10-12
-- episode: 1. The Times of Shadow
-  public: 7GTogwQVmYE
-  members: 0_RiOyVMOCE
-  published: 2022-12-21
 - bts: 'Royals, Scamps, and Townies'
   members: SAiHzPimhC0
   published: 2022-12-01
@@ -1245,6 +1242,10 @@ videos:
 - bts: You Got Episode Three'd
   members: erZWVbM93tQ
   published: 2022-12-15
+- episode: 1. The Times of Shadow
+  public: 7GTogwQVmYE
+  members: 0_RiOyVMOCE
+  published: 2022-12-21
 - episode: 4. Once Upon a Time
   members: DxKgpGDUBAQ
   published: 2022-12-21
@@ -1317,12 +1318,12 @@ videos:
 - bts: They Might Be Giants
   members: suJdAuyJGtA
   published: 2023-03-09
-- episode: 16. In the Land of Giants
-  members: zXM4SPVz9w8
-  published: 2023-03-17
 - bts: 'Save the Goose, Save the World'
   members: 5hRA8HM1Guk
   published: 2023-03-16
+- episode: 16. In the Land of Giants
+  members: zXM4SPVz9w8
+  published: 2023-03-17
 - episode: 17. The Last Wish
   members: a5V4LiFWQQI
   published: 2023-03-22
@@ -1406,17 +1407,21 @@ season: The Ravening War
 from: Dimension 20
 debut: 2023-03-10
 world: Calorum
+sort by: oldest
 videos:
 - trailer: The Ravening War Trailer
   public: c4xTd-NjEj4
   published: 2023-04-19
+- bts: 'Behind the Scenes: How It Began'
+  members: zplZEDC-nj4
+  published: 2023-05-03
+- bts: That's War Baby
+  members: uN50ixe-BQ0
+  published: 2023-05-11
 - episode: 1. The Seeds of Conflict
   public: LiBe4WJaLo0
   members: uWrJuBNjnZA
   published: 2023-05-17
-- bts: That's War Baby
-  members: uN50ixe-BQ0
-  published: 2023-05-11
 - episode: 2. Bloody Harvest
   members: O9G-tVBO3Cw
   published: 2023-05-17
@@ -1447,18 +1452,15 @@ videos:
 - bts: Let's Make Mouth Sounds Together
   members: qT6uK0SbtdI
   published: 2023-06-15
-- bts: A Little More Throat Wattle
-  members: qGaoLhCZPew
-  published: 2023-06-22
-- bts: 'Behind the Scenes: How It Began'
-  members: zplZEDC-nj4
-  published: 2023-05-03
 - bts: 'Behind the Scenes: The Cast'
   members: c8UfbrcV-X4
   published: 2023-06-21
 - bts: 'Behind the Scenes: The Art Team'
   members: ZuQbPO9XREs
   published: 2023-06-21
+- bts: A Little More Throat Wattle
+  members: qGaoLhCZPew
+  published: 2023-06-22
 - external: Brennan Discusses The Ravening War on Screen Rant Plus
   public: R16Eq9K74BM
 
@@ -1467,20 +1469,24 @@ videos:
 season: Dungeons and Drag Queens
 from: Dimension 20
 debut: 2023-06-28
+sort by: oldest
 videos:
 - trailer: Dungeons and Drag Queens Trailer
   public: khZVjQL74qE
   published: 2023-06-15
+- bts: The Questing Queens Talk Fantasy Night Life
+  public: bXwntmGo-EM
+  published: 2023-06-26
+- bts: Behind-the-Scenes with the Queens
+  public: 8oIFPh1CrmQ
+  published: 2023-06-27
+- bts: The Illuminati Invented Sandwiches
+  members: qEzV08PmGEQ
+  published: 2023-06-29
 - episode: 1. Queens on a Quest
   public: MZhCgp-GRQ8
   members: 1gq-iJ8eerY
   published: 2023-07-05
-- bts: The Illuminati Invented Sandwiches
-  members: qEzV08PmGEQ
-  published: 2023-06-29
-- episode: 2. Welcome to the Underworld
-  members: 37vlzMCTfdg
-  published: 2023-07-14
 - bts: The Bloods and the Crypts
   members: J48329Pa-1c
   published: 2023-07-06
@@ -1490,18 +1496,15 @@ videos:
 - bts: The Dice Tell the Story
   members: uK4yu48EKa8
   published: 2023-07-13
+- episode: 2. Welcome to the Underworld
+  members: 37vlzMCTfdg
+  published: 2023-07-14
 - episode: 4. In the Heart of Death
   members: RT6XwcsQ3Tc
   published: 2023-07-19
 - bts: The Gaming Super Bowl
   members: LDx-pSIAQbw
   published: 2023-07-20
-- bts: Behind-the-Scenes with the Queens
-  public: 8oIFPh1CrmQ
-  published: 2023-06-27
-- bts: The Questing Queens Talk Fantasy Night Life
-  public: bXwntmGo-EM
-  published: 2023-06-26
 - bts: The Queens See the Finale Set For the 1st Time
   public: zOt5Rv33Xv0
   published: 2023-07-25
@@ -1515,18 +1518,25 @@ videos:
 season: Mentopolis
 from: Dimension 20
 debut: 2023-08-09
+sort by: oldest
 videos:
 - trailer: Mentopolis Trailer
   public: 9riE94Kkwq4
   published: 2023-07-26
+- bts: Hank Green Presents Facts He Didn't Get to Use In Mentopolis
+  public: 39-iLHWm4G4
+  published: 2023-07-31
+- bts: Hank and Trapp Have New Science Facts For You
+  public: NbPpDyWCPKk
+  published: 2023-08-08
+- bts: Key Lime Pie is a Marketing Invention
+  members: 12-Dxx-UqIs
+  published: 2023-08-10
 - episode: 1. The Big Guy
   public: 9pT1OhH3F1Y
   members: wed7lXpuoSA
   removed members: EYun__yyYnI
   published: 2023-08-16
-- bts: Key Lime Pie is a Marketing Invention
-  members: 12-Dxx-UqIs
-  published: 2023-08-10
 - episode: 2. The Scattered Mind
   members: 9T0n9WhLof0
   published: 2023-08-16
@@ -1545,12 +1555,6 @@ videos:
 - bts: A Random Sequence of Events
   members: wSYhoqYOXto
   published: 2023-08-31
-- bts: Hank Green Presents Facts He Didn't Get to Use In Mentopolis
-  public: 39-iLHWm4G4
-  published: 2023-07-31
-- bts: Hank and Trapp Have New Science Facts For You
-  public: NbPpDyWCPKk
-  published: 2023-08-08
 - external: Hank Green Describes The Worst Part About Being on Dimension 20
   public: FWmEgUxfw5Q
 - external: Brennan Discusses Mentopolis on Screen Rant Plus
@@ -1588,12 +1592,12 @@ videos:
 - episode: '00x09 Star Trek, Schwarzenegger, and Stoker'
   public: VpExylE3C9Q
   published: 2018-09-15
-- special: Um Actually LIVE! @ Comic Con (NY)
-  public: 3yQYVRzuP7M
-  published: 2019-10-04
 - episode: '01x01 Bigger, Longer, and Wronger'
   public: ZsZjFAfJJ3c
   published: 2018-10-04
+- special: Um Actually LIVE! @ Comic Con (NY)
+  public: 3yQYVRzuP7M
+  published: 2019-10-04
 
 ---
 

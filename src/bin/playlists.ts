@@ -20,7 +20,7 @@ yaml.dump("catalogue.yaml", catalogueData);
 const campaignData = yaml.load("campaigns.yaml") as Array<{
   season: string;
   from: string;
-  sortBy?: "oldest" | "newest" | `${string}=>${string}`;
+  "sort by"?: "oldest" | "newest" | `${string}=>${string}`;
   debut: string;
   cast?: string;
   world?: string;
@@ -56,10 +56,6 @@ const playlistData = yaml.load("playlists.yaml") as Array<{
   };
 }>;
 yaml.dump("playlist.yaml", playlistData);
-
-// TODO: apply "sort by" to campaign.yaml data,
-// copy in `date` field if missing but respect modifications
-// TODO: loop over every source video to find the minimum date and use that
 
 let playlistMd =
   "# [Playlists](https://www.youtube.com/@actualplaylists/playlists?view=1)\n\n";
@@ -165,6 +161,21 @@ for (const playlist of playlistData) {
         }
       }
     }
+
+    // TODO: loop over every source video to find the minimum date and use that
+    if (campaign["sort by"] === "oldest") {
+      campaign.videos?.sort((a, b) => {
+        if (a.published < b.published) {
+          return -1;
+        } else if (a.published > b.published) {
+          return +1;
+        } else {
+          return 0;
+        }
+      });
+    }
+
+    yaml.dump("campaigns.yaml", campaignData);
   }
 
   const hours = String((seconds / 60 / 60) | 0);

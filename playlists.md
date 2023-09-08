@@ -2,7 +2,7 @@
 
 ## [Dimension 20 (All Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 
-> 448-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+> 451-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -210,17 +210,18 @@
 - [5. The Seventh Kingdom](https://www.youtube.com/watch?v=RbG2v-cWFdU&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [6. The Heart of the World](https://www.youtube.com/watch?v=8yqzTFQ2FjA&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [1. Queens on a Quest](https://www.youtube.com/watch?v=MZhCgp-GRQ8&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
-- [3. The Time Has Come](https://www.youtube.com/watch?v=OrAxFXlvKqc&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [2. Welcome to the Underworld](https://www.youtube.com/watch?v=37vlzMCTfdg&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
+- [3. The Time Has Come](https://www.youtube.com/watch?v=OrAxFXlvKqc&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [4. In the Heart of Death](https://www.youtube.com/watch?v=RT6XwcsQ3Tc&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [1. The Big Guy](https://www.youtube.com/watch?v=9pT1OhH3F1Y&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [2. The Scattered Mind](https://www.youtube.com/watch?v=9T0n9WhLof0&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [3. F For Freezer](https://www.youtube.com/watch?v=A8VGgGd1zio&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 - [4. Grappling With Death](https://www.youtube.com/watch?v=slt1R0kjo1M&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
+- [5. Emergency Powers](https://www.youtube.com/watch?v=4EnkvrPvT-w&list=PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG)
 
 ## [Dimension 20 (All Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
-> 573-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+> 576-hour mega-playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -636,6 +637,8 @@
 - [We Are Feeling Machines That Think](https://www.youtube.com/watch?v=ssw1eJhbEAk&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [4. Grappling With Death](https://www.youtube.com/watch?v=slt1R0kjo1M&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 - [A Random Sequence of Events](https://www.youtube.com/watch?v=wSYhoqYOXto&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [5. Emergency Powers](https://www.youtube.com/watch?v=4EnkvrPvT-w&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
+- [You Must Know What You Don't Know](https://www.youtube.com/watch?v=seSxC5c-vj4&list=PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD)
 
 ## [Dimension 20 (Free Episodes)](https://www.youtube.com/playlist?list=PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO)
 
@@ -1731,7 +1734,7 @@
 
 ## [Dimension 20: Mentopolis (Episodes and Extras)](https://www.youtube.com/playlist?list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 
-> 9-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
+> 12-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
 > 
 > Dimension 20 is an Actual Play TTRPG series from CollegeHumor/Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -1746,6 +1749,8 @@
 - [We Are Feeling Machines That Think](https://www.youtube.com/watch?v=ssw1eJhbEAk&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [4. Grappling With Death](https://www.youtube.com/watch?v=slt1R0kjo1M&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [A Random Sequence of Events](https://www.youtube.com/watch?v=wSYhoqYOXto&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [5. Emergency Powers](https://www.youtube.com/watch?v=4EnkvrPvT-w&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
+- [You Must Know What You Don't Know](https://www.youtube.com/watch?v=seSxC5c-vj4&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Hank Green Describes The Worst Part About Being on Dimension 20](https://www.youtube.com/watch?v=FWmEgUxfw5Q&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 - [Brennan Discusses Mentopolis on Screen Rant Plus](https://www.youtube.com/watch?v=Yn_iZJdB3pI&list=PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb)
 

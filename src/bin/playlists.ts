@@ -173,9 +173,9 @@ for (const playlist of playlistData) {
           (a.published ?? "9999-99-99") > (b.published ?? "9999-99-99")
         ) {
           return +1;
-        } else if ((a.duration ?? 0) > (b.duration ?? 0)) {
+        } else if ((a.episode ?? "") > (b.episode ?? "")) {
           return -1;
-        } else if ((a.duration ?? 0) < (b.duration ?? 0)) {
+        } else if ((a.episode ?? "") < (b.episode ?? "")) {
           return +1;
         } else {
           return 0;
@@ -222,12 +222,12 @@ for (const playlist of playlistData) {
 
   playlistMd += "\n";
 
-  await setPlaylist(
-    playlist.id,
-    title,
-    description,
-    videos.map((v) => v.id)
-  );
+  // await setPlaylist(
+  //   playlist.id,
+  //   title,
+  //   description,
+  //   videos.map((v) => v.id)
+  // );
 }
 
 Deno.writeTextFileSync("playlists.md", playlistMd);

@@ -1802,12 +1802,20 @@
 
 ## [Game Changer](https://www.youtube.com/playlist?list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 
-> 2-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
+> 5-hour playlist of all episodes of Game Changer, the only game show where the game changes every show.
 
 - [101. Lie Detector](https://www.youtube.com/watch?v=J8x-xoDeJsQ&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 - [Game Changer Trailer](https://www.youtube.com/watch?v=FC4ZTM0ou-0&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 - [102. Make Some Noise](https://www.youtube.com/watch?v=tX_wMAaJB_E&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 - [103. Game of Prizes](https://www.youtube.com/watch?v=XllNsNO5Ies&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
-- [104. Whodunnit](https://www.youtube.com/watch?v=_pzyCSNFRTI&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [104. Whodunnit](https://www.youtube.com/watch?v=Oc4yXge1T-Y&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 - [105. Nom Nom Nom](https://www.youtube.com/watch?v=JWGIu7kwRDc&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [201. Round 4](https://www.youtube.com/watch?v=V-6m0jW0X9E&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [202. Do I Hear $1?](https://www.youtube.com/watch?v=50cLTrOR-Ag&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [203. Sleeper Agents](https://www.youtube.com/watch?v=WvCcR-DMLZc&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [204. A Sponsored Episode](https://www.youtube.com/watch?v=4WS23aWnGgA&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [206. Yes or No](https://www.youtube.com/watch?v=r0c1n35WySE&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [205. The Everything Factory](https://www.youtube.com/watch?v=puT6xVIsCuQ&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [401. Sam Says](https://www.youtube.com/watch?v=vT-zZsjwZKk&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
+- [402. Like My Coffee](https://www.youtube.com/watch?v=9EbvU8OZtqI&list=PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS)
 

@@ -1,0 +1,16 @@
+name: 'Dimension 20: The Seven (Episodes and Extras)'
+id: PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Seven, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: The Seven

@@ -1,0 +1,16 @@
+name: 'Dimension 20: Mice and Murder (Episodes and Extras)'
+id: PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mice and Murder, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Mice and Murder

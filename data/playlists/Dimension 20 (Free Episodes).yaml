@@ -1,0 +1,13 @@
+name: Dimension 20 (Free Episodes)
+id: PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO
+description: |
+  ${hours}-hour playlist of all free episodes of Dimension 20.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  version:
+  - public

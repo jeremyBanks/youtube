@@ -1,0 +1,16 @@
+name: 'Dimension 20: Tiny Heist (Episodes and Extras)'
+id: PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU
+description: |
+  ${hours}-hour playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Tiny Heist

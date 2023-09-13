@@ -1,0 +1,11 @@
+name: Dimension 20 (All Episodes)
+id: PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG
+description: |
+  ${hours}-hour mega-playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special

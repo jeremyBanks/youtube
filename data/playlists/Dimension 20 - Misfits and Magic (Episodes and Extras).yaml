@@ -1,0 +1,16 @@
+name: 'Dimension 20: Misfits and Magic (Episodes and Extras)'
+id: PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Misfits and Magic, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Misfits and Magic

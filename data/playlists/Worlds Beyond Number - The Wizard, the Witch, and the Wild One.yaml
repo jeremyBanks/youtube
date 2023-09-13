@@ -1,0 +1,14 @@
+name: 'Worlds Beyond Number: The Wizard, the Witch, and the Wild One'
+id: PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_
+description: |
+  ${hours}-hour playlist of all episodes and trailers from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
+include:
+  from: Worlds Beyond Number
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: 'The Wizard, the Witch, and the Wild One'

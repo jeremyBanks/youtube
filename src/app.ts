@@ -1,4 +1,4 @@
-import yaml from "./yaml.ts";
+import * as yaml from "./yaml.ts";
 
 /*
 
@@ -94,7 +94,42 @@ export class App {
 
   async save() {
     yaml.dump("catalogue.yaml", this.catalog);
+    await Deno.mkdir("data/catalog", { recursive: true });
+    await yaml.dumpDirectory(
+      "data/catalog",
+      Object.fromEntries(
+        this.catalog.map((entry) => [pathComponent(entry.handle), entry])
+      )
+    );
+
     yaml.dump("campaigns.yaml", this.seasons);
+    await Deno.mkdir("data/seasons", { recursive: true });
+    await yaml.dumpDirectory(
+      "data/seasons",
+      Object.fromEntries(
+        this.seasons.map((entry) => [
+          pathComponent([...new Set([entry.from, entry.season])].join(" - ")),
+          entry,
+        ])
+      )
+    );
+
     yaml.dump("playlists.yaml", this.playlists);
+    await Deno.mkdir("data/playlists", { recursive: true });
+    await yaml.dumpDirectory(
+      "data/playlists",
+      Object.fromEntries(
+        this.playlists.map((entry) => [pathComponent(entry.name), entry])
+      )
+    );
   }
 }
+
+const pathComponent = (s: string): string => {
+  return s
+    .replace(/(\S): /g, "$1 - ")
+    .replace(/[^A-Za-z0-9_()\-+,. ]+/g, "")
+    .trim();
+};
+
+await new App().save();

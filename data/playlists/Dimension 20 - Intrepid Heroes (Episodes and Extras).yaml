@@ -1,0 +1,15 @@
+name: 'Dimension 20: Intrepid Heroes (Episodes and Extras)'
+id: PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
+
+  ${d20blurb}
+include:
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  cast: Intrepid

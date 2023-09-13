@@ -64,7 +64,7 @@ include:
 
 ---
 
-name: "Dimension 20: Fantasy High (Episodes and Extras)"
+name: 'Dimension 20: Fantasy High (Episodes and Extras)'
 id: PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
@@ -85,7 +85,7 @@ include:
 
 ---
 
-name: "Dimension 20: Spyre (Episodes and Extras)"
+name: 'Dimension 20: Spyre (Episodes and Extras)'
 id: PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
@@ -105,7 +105,7 @@ include:
 
 ---
 
-name: "Dimension 20: Intrepid Heroes (Episodes and Extras)"
+name: 'Dimension 20: Intrepid Heroes (Episodes and Extras)'
 id: PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast.
@@ -123,7 +123,7 @@ include:
 
 ---
 
-name: "Dimension 20: Escape from the Bloodkeep (Episodes and Extras)"
+name: 'Dimension 20: Escape from the Bloodkeep (Episodes and Extras)'
 id: PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Escape from the Bloodkeep, a Dimension 20 campaign.
@@ -142,7 +142,7 @@ include:
 
 ---
 
-name: "Dimension 20: The Unsleeping City (Episodes and Extras)"
+name: 'Dimension 20: The Unsleeping City (Episodes and Extras)'
 id: PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of The Unsleeping City, a series of campaigns from Dimension 20.
@@ -163,7 +163,7 @@ include:
 
 ---
 
-name: "Dimension 20: Tiny Heist (Episodes and Extras)"
+name: 'Dimension 20: Tiny Heist (Episodes and Extras)'
 id: PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU
 description: |
   ${hours}-hour playlist of all episodes and trailers from Tiny Heist, a Dimension 20 campaign.
@@ -182,7 +182,7 @@ include:
 
 ---
 
-name: "Dimension 20: A Crown of Candy (Episodes and Extras)"
+name: 'Dimension 20: A Crown of Candy (Episodes and Extras)'
 id: PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Crown of Candy, a Dimension 20 campaign.
@@ -201,7 +201,7 @@ include:
 
 ---
 
-name: "Dimension 20: Calorum (Episodes and Extras)"
+name: 'Dimension 20: Calorum (Episodes and Extras)'
 id: PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the two seasons of Dimension 20 set in the world of Calorum.
@@ -221,8 +221,7 @@ include:
 
 ---
 
-
-name: "Dimension 20: Pirates of Leviathan (Episodes and Extras)"
+name: 'Dimension 20: Pirates of Leviathan (Episodes and Extras)'
 id: PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Pirates of Leviathan, a Dimension 20 campaign.
@@ -241,7 +240,7 @@ include:
 
 ---
 
-name: "Dimension 20: Mice and Murder (Episodes and Extras)"
+name: 'Dimension 20: Mice and Murder (Episodes and Extras)'
 id: PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mice and Murder, a Dimension 20 campaign.
@@ -260,7 +259,7 @@ include:
 
 ---
 
-name: "Dimension 20: Misfits and Magic (Episodes and Extras)"
+name: 'Dimension 20: Misfits and Magic (Episodes and Extras)'
 id: PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Misfits and Magic, a Dimension 20 campaign.
@@ -279,7 +278,7 @@ include:
 
 ---
 
-name: "Dimension 20: The Seven (Episodes and Extras)"
+name: 'Dimension 20: The Seven (Episodes and Extras)'
 id: PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Seven, a Dimension 20 campaign.
@@ -298,7 +297,7 @@ include:
 
 ---
 
-name: "Dimension 20: Shreik Week (Episodes and Extras)"
+name: 'Dimension 20: Shreik Week (Episodes and Extras)'
 id: PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Shreik Week, a Dimension 20 campaign.
@@ -317,7 +316,7 @@ include:
 
 ---
 
-name: "Dimension 20: A Starstruck Odyssey (Episodes and Extras)"
+name: 'Dimension 20: A Starstruck Odyssey (Episodes and Extras)'
 id: PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Starstruck Odyssey, a Dimension 20 campaign.
@@ -336,7 +335,7 @@ include:
 
 ---
 
-name: "Dimension 20: Coffin Run (Episodes and Extras)"
+name: 'Dimension 20: Coffin Run (Episodes and Extras)'
 id: PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Coffin Run, a Dimension 20 campaign.
@@ -355,7 +354,7 @@ include:
 
 ---
 
-name: "Dimension 20: A Court of Fey and Flowers (Episodes and Extras)"
+name: 'Dimension 20: A Court of Fey and Flowers (Episodes and Extras)'
 id: PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Court of Fey and Flowers, a Dimension 20 campaign.
@@ -374,7 +373,7 @@ include:
 
 ---
 
-name: "Dimension 20: Neverafter (Episodes and Extras)"
+name: 'Dimension 20: Neverafter (Episodes and Extras)'
 id: PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Neverafter, a Dimension 20 campaign.
@@ -393,7 +392,7 @@ include:
 
 ---
 
-name: "Dimension 20: The Ravening War (Episodes and Extras)"
+name: 'Dimension 20: The Ravening War (Episodes and Extras)'
 id: PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Ravening War, a Dimension 20 campaign.
@@ -412,7 +411,7 @@ include:
 
 ---
 
-name: "Dimension 20: Dungeons and Drag Queens (Episodes and Extras)"
+name: 'Dimension 20: Dungeons and Drag Queens (Episodes and Extras)'
 id: PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Dungeons and Drag Queens, a Dimension 20 campaign.
@@ -431,7 +430,7 @@ include:
 
 ---
 
-name: "Dimension 20: Mentopolis (Episodes and Extras)"
+name: 'Dimension 20: Mentopolis (Episodes and Extras)'
 id: PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb
 description: |
   ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
@@ -450,7 +449,7 @@ include:
 
 ---
 
-name: "Worlds Beyond Number: The Wizard, the Witch, and the Wild One"
+name: 'Worlds Beyond Number: The Wizard, the Witch, and the Wild One'
 id: PLObfuAmZm9pDQ-dzTv_Dx2dIqhDjF1sr_
 description: |
   ${hours}-hour playlist of all episodes and trailers from The Wizard, the Witch, and the Wild One, a Worlds Beyond Number campaign.
@@ -463,11 +462,11 @@ include:
   - animation
   - trailer
   - external
-  season: The Wizard, the Witch, and the Wild One
+  season: 'The Wizard, the Witch, and the Wild One'
 
 ---
 
-name: "Critical Role: Exandria Unlimited: Calamity"
+name: 'Critical Role: Exandria Unlimited: Calamity'
 id: PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
 description: |
   ${hours}-hour playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
@@ -480,18 +479,18 @@ include:
   - animation
   - trailer
   - external
-  season: "Exandria Unlimited: Calamity"
+  season: 'Exandria Unlimited: Calamity'
 
 ---
 
-name: Um, Actually
+name: 'Um, Actually'
 id: PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y
 description: |
   ${hours}-hour playlist of all episodes of Um, Actually, the show where nerds correct nerds.
 
   but just see https://www.youtube.com/playlist?list=PL8DC1DKeftbcTA88UFoN2OdqaoThl0w89 instead, they've already done this and their list is complete.
 include:
-  from: Um, Actually
+  from: 'Um, Actually'
 
 ---
 

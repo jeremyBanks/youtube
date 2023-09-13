@@ -1,0 +1,17 @@
+name: 'Dimension 20: Calorum (Episodes and Extras)'
+id: PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the two seasons of Dimension 20 set in the world of Calorum.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  world:
+  - Calorum

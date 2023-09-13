@@ -1,0 +1,17 @@
+name: 'Dimension 20: Spyre (Episodes and Extras)'
+id: PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from the four seasons of Dimension 20 set in the world of Spyre.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  world:
+  - Spyre

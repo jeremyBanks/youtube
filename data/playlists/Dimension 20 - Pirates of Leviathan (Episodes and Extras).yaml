@@ -1,0 +1,16 @@
+name: 'Dimension 20: Pirates of Leviathan (Episodes and Extras)'
+id: PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Pirates of Leviathan, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Pirates of Leviathan

@@ -1,0 +1,16 @@
+name: 'Dimension 20: A Starstruck Odyssey (Episodes and Extras)'
+id: PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from A Starstruck Odyssey, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: A Starstruck Odyssey

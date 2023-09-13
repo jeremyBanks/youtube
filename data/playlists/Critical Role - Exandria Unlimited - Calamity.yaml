@@ -1,0 +1,14 @@
+name: 'Critical Role: Exandria Unlimited: Calamity'
+id: PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
+description: |
+  ${hours}-hour playlist of all episodes and trailers from Exandria Unlimited: Calamity, a Critical Role campaign.
+include:
+  from: Critical Role
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: 'Exandria Unlimited: Calamity'

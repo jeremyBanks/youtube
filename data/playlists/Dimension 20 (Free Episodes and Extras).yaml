@@ -1,0 +1,16 @@
+name: Dimension 20 (Free Episodes and Extras)
+id: PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA
+description: |
+  ${hours}-hour mega-playlist of all free episodes of Dimension 20 and all free extra content, such as behind-the-scenes, talkback shows, trailers, and animations. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  version:
+  - public

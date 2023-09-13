@@ -1,0 +1,16 @@
+name: 'Dimension 20: The Ravening War (Episodes and Extras)'
+id: PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from The Ravening War, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: The Ravening War

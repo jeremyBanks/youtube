@@ -1,0 +1,16 @@
+name: 'Dimension 20: Dungeons and Drag Queens (Episodes and Extras)'
+id: PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Dungeons and Drag Queens, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Dungeons and Drag Queens

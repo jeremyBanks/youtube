@@ -1,0 +1,16 @@
+name: 'Dimension 20: Mentopolis (Episodes and Extras)'
+id: PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb
+description: |
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from Mentopolis, a Dimension 20 campaign.
+
+  ${d20blurb}
+include:
+  from: Dimension 20
+  type:
+  - episode
+  - special
+  - bts
+  - animation
+  - trailer
+  - external
+  season: Mentopolis

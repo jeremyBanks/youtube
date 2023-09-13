@@ -25,9 +25,13 @@ but also:
 
 - Or we could even try using https://www.npmjs.com/package/yawn-yaml instead, to
   write our changes on top of the existing data's style, if that makes sense.
+
+- one thing at a time:
+  - first, work on rewriting the catalogue logic, with the additional
+    options you want added.
 */
 
-export type Catalog = Array<{
+export type Catalog = {
   handle: string;
   id: string;
   videos?: Record<
@@ -39,7 +43,7 @@ export type Catalog = Array<{
       published: string;
     }
   >;
-}>;
+};
 
 export type Season = {
   season: string;
@@ -81,27 +85,60 @@ export type Playlist = {
 };
 
 export class App {
-  catalog: Catalog;
+  catalog: Array<Catalog>;
   seasons: Array<Season>;
   playlists: Array<Playlist>;
 
   constructor() {
-    this.catalog = yaml.load("catalogue.yaml") as unknown as Catalog;
-    this.seasons = yaml.load("campaigns.yaml") as unknown as Array<Season>;
-    this.playlists = yaml.load("playlists.yaml") as unknown as Array<Playlist>;
+    this.catalog = [];
+    this.seasons = [];
+    this.playlists = [];
   }
 
-  async updateCatalogue(): Promise<void> {
-    await this.save();
+  async catalogue(
+    opts?: { quick?: "quick"; all?: "all"; exhaustive?: "exhaustive" },
+    ...channels: Array<string>
+  ): Promise<void> {
+    const mode = opts?.exhaustive ?? opts?.all ?? opts?.quick ?? "quick";
+
+    await this.#load();
+
+    // If channel handles or IDs are specified, limit our search to those
+    // channels, otherwise catalog all known channels. If the specified channel
+    // ID doesn't exist in our catalog, raise an error.
+
+    const included = channels.length
+      ? this.catalog.filter(
+          (channel) =>
+            channels.includes(channel.handle) || channels.includes(channel.id)
+        )
+      : this.catalog;
+
+    // if mode is full, then we want to do an exhaustive listing of every video
+    // in the channel, fetching metadata for any we don't have, and using that
+    // listing to classify videos as "unlisted" or "deleted" if appropriate.
+    // we still won't redundantly fetch individual video details for listed videos
+    // we've already catalogued, unless the mode is set to "exhaustive".
+
+    // if mode is quick, we just scan the latest 32 videos, or keep going until
+    // we find a video that we haven't seen before.
+
+    await this.#save();
   }
 
   async rebuildPlaylists(): Promise<void> {
-    await this.save();
+    await this.#save();
   }
 
   async publishPlaylists(): Promise<void> {}
 
-  async save(): Promise<void> {
+  async #load(): Promise<void> {
+    this.catalog = yaml.load("catalogue.yaml") as unknown as Array<Catalog>;
+    this.seasons = yaml.load("campaigns.yaml") as unknown as Array<Season>;
+    this.playlists = yaml.load("playlists.yaml") as unknown as Array<Playlist>;
+  }
+
+  async #save(): Promise<void> {
     yaml.dump("catalogue.yaml", this.catalog);
     await Deno.mkdir("data/catalog", { recursive: true });
     await yaml.dumpDirectory(
@@ -140,5 +177,3 @@ const pathComponent = (s: string): string => {
     .replace(/[^A-Za-z0-9_()\-+,. ]+/g, "")
     .trim();
 };
-
-await new App().save();

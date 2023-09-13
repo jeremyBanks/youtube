@@ -54,12 +54,14 @@ console.log(
 );
 
 try {
+  const before = Date.now();
   const result = await (actualPlaylists as any)[method](...args);
+  const duration = Date.now() - before;
 
   if (result !== undefined) {
     console.log("%c=", "color: green", result);
   } else {
-    console.log("%c= done", "color: green");
+    console.log(`%c= done in ${duration}ms`, "color: green");
   }
   Deno.exit(0);
 } catch (error) {

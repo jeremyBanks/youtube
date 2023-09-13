@@ -19,7 +19,7 @@ but also:
 
 - in a manner as we delete no-longer-existing playlist data files,
   we should accept the existing video ID entires in a playlist file as
-  a starting point, but only really as a default sort order, after which
+  a starting point, but only really as a default/manual sort order, after which
   we remove and append entries based on the playlist definitions, then
   apply the defined sorting order on top of that, if appropriate.
 */

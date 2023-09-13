@@ -91,23 +91,17 @@ export class App {
     this.playlists = yaml.load("playlists.yaml") as unknown as Array<Playlist>;
   }
 
-  async updateCatalogue(): Promise<this> {
+  async updateCatalogue(): Promise<void> {
     await this.save();
-
-    return this;
   }
 
-  async rebuildPlaylists(): Promise<this> {
+  async rebuildPlaylists(): Promise<void> {
     await this.save();
-
-    return this;
   }
 
-  async publishPlaylists(): Promise<this> {
-    return this;
-  }
+  async publishPlaylists(): Promise<void> {}
 
-  async save(): this {
+  async save(): Promise<void> {
     yaml.dump("catalogue.yaml", this.catalog);
     await Deno.mkdir("data/catalog", { recursive: true });
     await yaml.dumpDirectory(
@@ -137,8 +131,6 @@ export class App {
         this.playlists.map((entry) => [pathComponent(entry.name), entry])
       )
     );
-
-    return this;
   }
 }
 

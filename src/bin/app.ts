@@ -5,7 +5,7 @@ const app = new App();
 const src = Deno.args
   .map((src) => {
     if (/^[A-Za-z_$][A-Za-z_$0-9]*$/.test(src)) {
-      return `app.${src}()`;
+      return `app.${src}();`;
     } else if (/^\.[A-Za-z_$]/.test(src)) {
       return `app${src}`;
     } else {

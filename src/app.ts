@@ -22,6 +22,9 @@ but also:
   a starting point, but only really as a default/manual sort order, after which
   we remove and append entries based on the playlist definitions, then
   apply the defined sorting order on top of that, if appropriate.
+
+- Or we could even try using https://www.npmjs.com/package/yawn-yaml instead, to
+  write our changes on top of the existing data's style, if that makes sense.
 */
 
 export type Catalog = Array<{
@@ -88,17 +91,23 @@ export class App {
     this.playlists = yaml.load("playlists.yaml") as unknown as Array<Playlist>;
   }
 
-  async updateCatalogue(): Promise<void> {
+  async updateCatalogue(): Promise<this> {
     await this.save();
+
+    return this;
   }
 
-  async rebuildPlaylists(): Promise<void> {
+  async rebuildPlaylists(): Promise<this> {
     await this.save();
+
+    return this;
   }
 
-  async publishPlaylists(): Promise<void> {}
+  async publishPlaylists(): Promise<this> {
+    return this;
+  }
 
-  async save() {
+  async save(): this {
     yaml.dump("catalogue.yaml", this.catalog);
     await Deno.mkdir("data/catalog", { recursive: true });
     await yaml.dumpDirectory(
@@ -128,6 +137,8 @@ export class App {
         this.playlists.map((entry) => [pathComponent(entry.name), entry])
       )
     );
+
+    return this;
   }
 }
 

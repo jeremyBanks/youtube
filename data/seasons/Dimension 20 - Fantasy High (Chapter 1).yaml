@@ -3,152 +3,128 @@ from: Dimension 20
 cast: Intrepid
 world: Spyre
 videos:
-
 - trailer: Fantasy High Trailer
   public: p-eY2tDgXsY
   published: 2018-10-02
   duration: 67
-
 - episode: 1. The Beginning Begins
   public: _zZxCVBi7-k
   members: 1XkyFEho7qs
   public compilation: TTC_2ANnmng
   published: 2018-10-09
   duration: 6838
-
 - episode: 2. Clash of the Corn Cuties
   public: DZ5rprmAHhE
   members: 25pBWVz1Wss
   public compilation: TTC_2ANnmng
   published: 2018-10-16
   duration: 5294
-
 - animation: The Price Must Be Paid
   public: RuQ3MSscXDE
   members: XvJ6cKf23DY
   published: 2021-11-09
   duration: 165
-
 - episode: 3. After the Afterlife
   public: d2r0NBbJcww
   members: F_g4irmvMrk
   public compilation: TTC_2ANnmng
   published: 2018-10-23
   duration: 6866
-
 - episode: 4. Rumble Road
   public: cet2H3L_Xxk
   members: CZSDdkuXdyc
   public compilation: TTC_2ANnmng
   published: 2018-10-30
   duration: 4655
-
 - episode: 5. The Pixie and the Palimpsest
   public: Uly8iW-oowE
   members: 3EyFDf7x2Ms
   public compilation: TTC_2ANnmng
   published: 2018-11-20
   duration: 6527
-
 - episode: 6. Brawl at the Black Pit
   public: LrUbqcBYx6s
   members: KLYjLBogtVI
   public compilation: TTC_2ANnmng
   published: 2018-11-27
   duration: 4106
-
 - episode: 7. Graveyard of Good and Evil
   public: XJ0SMDQZrCQ
   members: 0MOxhXoQoS4
   public compilation: TTC_2ANnmng
   published: 2018-12-04
   duration: 5473
-
 - episode: 8. Havoc on the Half-Pipe
   public: ZRkL7h1usw8
   members: o81-q6HW5yk
   public compilation: TTC_2ANnmng
   published: 2018-12-20
   duration: 5426
-
 - episode: 9. Dishing with a Demon
   public: DczPnt0YCTg
   members: wBEZ6DjAxxM
   published: 2019-09-19
   duration: 6382
-
 - episode: 10. Battle of the Bloodrush Brethren
   public: 2i_yAoWqPJA
   members: CttbCSHBrg8
   published: 2019-09-19
   duration: 5040
-
 - bts: 'Wally and Gilear in the Morning with Emily, Murph, and Michael'
   public: VPmwamOA7dg
   members: idvVx0aOOTE
   published: 2019-09-27
   duration: 3866
-
 - episode: '11. Cool Kid, Cold Case'
   public: nJKSJwYhxOw
   members: _GJK9P2LVdU
   published: 2019-09-20
   duration: 6588
-
 - episode: 12. The Sisterly Showdown
   public: eZQSVAnW5Yk
   members: 4ZYLxfOw7Dg
   published: 2019-09-20
   duration: 7065
-
 - bts: Parties are Weird but Friendship is Dope with Lou and Rick
   public: 5_zHhugm_28
   members: P12Bh6kIsDo
   published: 2019-09-28
   duration: 4935
-
 - episode: 13. First Kisses and Last Words
   public: DVh_FQnW5eM
   members: TuUMHEZoTuQ
   published: 2019-09-21
   duration: 6948
-
 - episode: 14. Arcade Ambush
   public: C6lnrDGbOag
   members: yuyxI7l97Ds
   published: 2019-09-21
   duration: 6115
-
 - bts: Problem Players and Troublesome Tangents with Ally and Zac
   public: oqvXsPDhIsY
   members: OFzLTt9KvkM
   published: 2019-10-04
   duration: 4651
-
 - episode: 15. Family in Flames
   public: xYZnyhOc4Rw
   members: R-dFwT3n3Rc
   published: 2019-09-22
   duration: 6953
-
 - episode: 16. Prompocalypse (Part 1)
   public: G4bdPAmK4fg
   members: qsKAE8738aw
   published: 2019-09-22
   duration: 7056
-
 - episode: 17. Prompocalypse (Part 2)
   public: _F1gTeuVMb8
   members: ayGtElwiNTo
   published: 2019-09-23
   duration: 4799
-
 - bts: The Greatest Nat 20 of All Time with Siobhan and Lou
   public: 2MIPr_Biw8U
   members: jrMPTsPpChI
   published: 2019-10-05
   duration: 4868
-
 - bts: Behind the Scenes
   public parts:
   - JnAZ4wc0zeM
@@ -156,12 +132,10 @@ videos:
   members: '-tasYql6FBY'
   published: 2018-12-27
   duration: 338
-
 - special: Live in Brooklyn
   members: '-ulIYMA0sqg'
   published: 2019-06-24
   duration: 7832
-
 - special: Live in Austin
   members: Ekgd2ePymD8
   published: 2019-09-18

@@ -1,5 +1,5 @@
 import { raise } from "../common.ts";
-import yaml from "../yaml.ts";
+import * as yaml from "../yaml.ts";
 import { setPlaylist } from "../youtube.ts";
 
 const catalogueData = yaml.load("catalogue.yaml") as Array<{
@@ -55,6 +55,7 @@ const playlistData = yaml.load("playlists.yaml") as Array<{
     >;
     version: Array<"public" | "members">;
   };
+  videos: Array<Record<string, string>>;
 }>;
 yaml.dump("playlist.yaml", playlistData);
 
@@ -185,6 +186,9 @@ for (const playlist of playlistData) {
 
     yaml.dump("campaigns.yaml", campaignData);
   }
+
+  playlist.videos = videos.map(({ id, title }) => ({ [id]: title }));
+  yaml.dump("playlists.yaml", playlistData);
 
   const hours = String((seconds / 60 / 60) | 0);
   const minutesPart = String((seconds / 60) % 60 | 0);

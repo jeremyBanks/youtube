@@ -3,18 +3,15 @@ from: Dimension 20
 cast: Intrepid
 world: The Unsleeping City
 videos:
-
 - trailer: The Unsleeping City Trailer
   public: AdJaWHk_HAk
   published: 2019-07-22
   duration: 91
-
 - episode: 1. Start Spreading the News
   public: 2Kktwa0kqaU
   members: MljQci1IM5E
   published: 2019-07-22
   duration: 7757
-
 - episode: 2. Mutant Santa Melee
   public: uIxx5ID1BU8
   members: Dw_d4wBqL9c
@@ -23,7 +20,6 @@ videos:
   - vVJaFxHneCY
   published: 2020-09-11
   duration: 5293
-
 - episode: 3. Pigeon Plus Ones
   public: zme6xXL1WQ8
   members: jqH9y97Ui3I
@@ -32,133 +28,110 @@ videos:
   - guSpRAI3RyY
   published: 2020-09-18
   duration: 6599
-
 - episode: 4. Scramble in the Sewers
   public: k8FPa4KjoUE
   members: Q8JwkP_kSZE
   published: 2020-09-25
   duration: 5361
-
 - episode: 5. A New York Wedding
   public: uFrZM6A4t44
   members: B_vp3eBd0bY
   published: 2020-10-02
   duration: 6511
-
 - episode: 6. The War of Bugs and Rats
   public: lfCb7uMW8JM
   members: hVepp_ZIsow
   published: 2020-10-09
   duration: 6788
-
 - episode: 7. We Need to Talk About Pete
   public: 8n0PA87sugg
   members: gGAofBHh6xI
   published: 2020-10-16
   duration: 7342
-
 - episode: 8. Subway Skirmish
   public: MeC7Jhnb8cE
   members: xEiV1g47knQ
   published: 2020-10-23
   duration: 6757
-
 - episode: 9. Borough of Dreams
   public: 22jrl5-8tNQ
   members: Wdq0TbScLNY
   published: 2020-10-30
   duration: 7291
-
 - episode: 10. Panic at the Art Show
   public: RsIuqJiZdnY
   members: G7kRjdUier0
   published: 2020-11-06
   duration: 8385
-
 - episode: 11. Home for the Holidays
   public: deJ-bNFYVe4
   members: hFPUKQmWQ3M
   published: 2020-11-13
   duration: 7421
-
 - episode: 12. Broadway Brawl
   public: 54SgvyoOI2I
   members: Bvyhoy10d_k
   published: 2020-11-20
   duration: 7592
-
 - episode: 13. Faeries and Feces
   public: GRjDgEXTrB0
   members: AKly1A7McNA
   published: 2020-11-27
   duration: 8179
-
 - episode: 14. Showdown at the Stock Exchange
   public: 3HzN11pnXdw
   members: YGXoJ7KqXaQ
   published: 2020-12-04
   duration: 9367
-
 - episode: 15. Hall of Heroes
   public: 8rz--KiKHYU
   members: v_N2DfBsdos
   published: 2020-12-11
   duration: 7180
-
 - episode: 16. Times Squaremageddon (Part 1)
   public: WfM1isoVe8U
   members: 6W-m2zmEvvw
   published: 2020-12-18
   duration: 8281
-
 - episode: 17. Times Squaremageddon (Part 2)
   public: RcvVO3xd-po
   members: mpQ7hkuTf2A
   published: 2020-12-25
   duration: 7321
-
 - bts: 'Behind the Scenes: Brennan'
   public: 5Gov0t2HOas
   members: Gbr9AGX58pE
   published: 2019-11-16
   duration: 390
-
 - bts: 'Behind the Scenes: Murph'
   members: GtkWIOkOMIw
   published: 2019-11-14
   duration: 238
-
 - bts: 'Behind the Scenes: Ally'
   members: Eb5wey1ZBgA
   published: 2019-11-14
   duration: 277
-
 - bts: 'Behind the Scenes: Zac'
   members: LYo8Tr9K0Eg
   published: 2019-11-14
   duration: 241
-
 - bts: 'Behind the Scenes: Siobhan'
   members: Cku2ZO43TaA
   published: 2019-11-08
   duration: 224
-
 - bts: 'Behind the Scenes: Lou'
   members: g2EfECoV2nI
   published: 2019-11-08
   duration: 227
-
 - bts: 'Behind the Scenes: Emily'
   members: BDhea1lB4jk
   published: 2019-11-08
   duration: 251
-
 - bts: How the Editors Make Dimension 20 Come To Life
   public: kjIorkzxF0s
   members: BlqP6apErG8
   published: 2019-12-14
   duration: 406
-
 - bts: How the Minis of Dimension 20 Are Made
   public: LIGsNWQ8zEU
   members: SmVgwnO4P28

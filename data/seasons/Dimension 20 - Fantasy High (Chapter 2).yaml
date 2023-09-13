@@ -3,13 +3,11 @@ from: Dimension 20
 cast: Intrepid
 world: Spyre
 videos:
-
 - episode: 1. Sophomores Start
   public: J5D0ij7cv-c
   members: PrkKnvRoLug
   published: 2019-11-20
   duration: 8384
-
 - episode: 2. Mirror Madness
   public parts:
   - I5rJSs8QxvY
@@ -17,7 +15,6 @@ videos:
   members: pzUFWFdCe7c
   published: 2019-12-04
   duration: 4332
-
 - episode: 3. Havoc at the Hotel Cavalier
   public parts:
   - r8FZ9Tac5M8
@@ -25,7 +22,6 @@ videos:
   members: py0UzCjBLFY
   published: 2019-12-18
   duration: 4594
-
 - episode: 4. Heartache on the Celestine Sea
   public parts:
   - GItg7LXFW4M
@@ -33,87 +29,70 @@ videos:
   members: 8jlxS6V94KU
   published: 2020-01-01
   duration: 4517
-
 - episode: 5. Leviathan Rock City
   members: Df_mE-oF1OM
   published: 2019-11-15
   duration: 9095
-
 - episode: 6. Pirate Brawl
   members: Arq-6m91-oQ
   published: 2019-11-22
   duration: 9006
-
 - episode: 7. The Friendship Section
   members: mWjkxC84foM
   published: 2019-12-09
   duration: 7731
-
 - episode: 8. The Row and the Ruction
   members: BRsAaAYdbmQ
   published: 2019-12-13
   duration: 8887
-
 - episode: 9. Fallinel
   members: nXsCz9Hbv8M
   published: 2019-12-20
   duration: 8122
-
 - episode: 10. The Dangerous Mind of Aelwen Abernant
   members: olqzGm7MSzw
   published: 2020-01-17
   duration: 8798
-
 - episode: 12. Crustaceans and Crushes
   members: moICMKn4f1c
   published: 2020-01-30
   duration: 9069
-
 - episode: 13. Hellbound
   members: powei5k8GR0
   published: 2020-02-10
   duration: 9166
-
 - episode: 14. Daddies and Demons
   members: p7x6EzePaeg
   published: 2020-02-18
   duration: 8810
-
 - episode: 15. Blast From the Passed
   members: YmEtDw_M94o
   published: 2020-02-25
   duration: 9075
-
 - episode: 16. My Green Heaven
   members: 9yNsjuMvEoE
   published: 2020-02-28
   duration: 9187
-
 - episode: 17. The Forest of the Nightmare King
   members: La_0tmztgVo
   published: 2020-03-09
   duration: 9006
-
 - episode: 18. Fearful Symmetry
   members: FuCA0JgxFTc
   published: 2020-03-16
   duration: 9020
-
 - episode: 19. Spring Break! I Believe In You! (Part 1)
   members: d43Hl6_hq24
   published: 2020-04-05
   duration: 10884
-
 - episode: 20. Spring Break! I Believe In You! (Part 2)
   members: USDoNZ-Ygdc
   published: 2020-04-07
   duration: 18419
-
 - special: College Visit
   members: Sr0Zi59jpEc
   published: 2020-09-28
   duration: 6551
-
 - special: Boys' Night
   public: 7TaGYFCmVS8
   members: 7rjNgO-YUos

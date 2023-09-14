@@ -127,7 +127,7 @@ export class Catalog {
     await yaml.dumpDirectory(
       "data/catalog",
       Object.fromEntries(
-        catalog.map((entry) => [pathComponent(entry.name), entry])
+        catalog.map((entry) => [pathComponent(entry.handle), entry])
       )
     );
   }

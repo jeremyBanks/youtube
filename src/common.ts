@@ -30,3 +30,33 @@ export { raise as throw };
 /** Wait the specified number of miliseconds. */
 export const miliseconds = (miliseconds: number): Promise<void> =>
   new Promise((resolve) => setTimeout(resolve, miliseconds));
+
+/**
+ * Dynamic async function constructor.
+ *
+ * This defined in the standard, but not directly available in any standard scope.
+ *
+ * @see https://tc39.es/ecma262/#sec-async-function-constructor
+ */
+export const AsyncFunction = async function () {}
+  .constructor as FunctionConstructor;
+
+/**
+ * Dynamic generator function constructor.
+ *
+ * This defined in the standard, but not directly available in any standard scope.
+ *
+ * @see https://tc39.es/ecma262/#sec-generatorfunction-constructor
+ */
+export const GeneratorFunction = function* () {}
+  .constructor as GeneratorFunctionConstructor;
+
+/**
+ * Dynamic async generator function constructor.
+ *
+ * This defined in the standard, but not directly available in any standard scope.
+ *
+ * @see https://tc39.es/ecma262/#sec-asyncgeneratorfunction-constructor
+ */
+export const AsyncGeneratorFunction = async function* () {}
+  .constructor as AsyncGeneratorFunctionConstructor;

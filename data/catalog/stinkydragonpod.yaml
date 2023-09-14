@@ -1,298 +1,544 @@
-handle: stinkydragonpod
 id: UCRgIiwmdDoT_es43LbFxWKQ
+handle: stinkydragonpod
+name: stinkydragonpod
 videos:
-  YJ2GGhloPGU:
-    title: 'Breaking your party INTO D&D Jail #dnd5e #dndmemes #dungeonsanddragons #dndpodcast #stinkydragonpod'
-    type: public
+
+- title: Sphoenix From The Ashes | Karcasuuk Coup | C2 Ep19
+  id: GMm6xulGw1Q
+  details:
+    duration: 4764
+    released: 2023-09-13
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Breaking your party INTO D&D Jail #dnd5e #dndmemes #dungeonsanddragons #dndpodcast #stinkydragonpod'
+  id: YJ2GGhloPGU
+  details:
     duration: 45
-    published: 2023-09-12
-  zfAP3Gukkdk:
-    title: Wight Winter - Music of Arc 3
-    type: public
+    released: 2023-09-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Wight Winter - Music of Arc 3
+  id: zfAP3Gukkdk
+  details:
     duration: 1164
-    published: 2023-09-07
-  Fi-WdoxD9DU:
-    title: 'Critically Failing as a Spider #dnd #dungeonsanddragons #stinkydragonpod #ttrpg #criticalfail'
-    type: public
+    released: 2023-09-07
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Critically Failing as a Spider #dnd #dungeonsanddragons #stinkydragonpod #ttrpg #criticalfail'
+  id: Fi-WdoxD9DU
+  details:
     duration: 58
-    published: 2023-09-07
-  a-mxh-3GWm0:
-    title: Dungeon Crawling Through an Ancient Pyramid?! | Karcasuuk Coup | C2 Ep18
-    type: public
+    released: 2023-09-07
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeon Crawling Through an Ancient Pyramid?! | Karcasuuk Coup | C2 Ep18
+  id: a-mxh-3GWm0
+  details:
     duration: 5740
-    published: 2023-09-06
-  PykecdVdsDM:
-    title: 'Is Draconic a Love Language? #dnd5e #dndmemes #dungeonsanddragons #dndpodcast #stinkydragonpod'
-    type: public
+    released: 2023-09-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Is Draconic a Love Language? #dnd5e #dndmemes #dungeonsanddragons #dndpodcast #stinkydragonpod'
+  id: PykecdVdsDM
+  details:
     duration: 43
-    published: 2023-09-05
-  R6uLd4kxhig:
-    title: 'Intimidation Check Gone Wrong #stinkydragonpod #dnd #dungeonsanddragons #ttrpg #intimidationcheck'
-    type: public
+    released: 2023-09-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Intimidation Check Gone Wrong #stinkydragonpod #dnd #dungeonsanddragons #ttrpg #intimidationcheck'
+  id: R6uLd4kxhig
+  details:
     duration: 59
-    published: 2023-08-31
-  mrCm32oWRVc:
-    title: Muffins are a Monk's Best Friend | Karcasuuk Coup | C2 Ep17
-    type: public
+    released: 2023-08-31
+    audience: public
+    privacy: public
+    type: video
+
+- title: Muffins are a Monk's Best Friend | Karcasuuk Coup | C2 Ep17
+  id: mrCm32oWRVc
+  details:
     duration: 4803
-    published: 2023-08-30
-  EyBrO3R3MX8:
-    title: 'D&D Bard stealing the spotlight #dnd5e #dndmemes #dungeonsanddragons #dndpodcast #stinkydragonpod'
-    type: public
+    released: 2023-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'D&D Bard stealing the spotlight #dnd5e #dndmemes #dungeonsanddragons #dndpodcast #stinkydragonpod'
+  id: EyBrO3R3MX8
+  details:
     duration: 51
-    published: 2023-08-29
-  2sd4ttAdRRM:
-    title: 'How to Catch a Dinosaur in D&D #dnd #dungeonsanddragons #stinkydragonpod #ttrpg #dinosaur'
-    type: public
+    released: 2023-08-29
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'How to Catch a Dinosaur in D&D #dnd #dungeonsanddragons #stinkydragonpod #ttrpg #dinosaur'
+  id: 2sd4ttAdRRM
+  details:
     duration: 56
-    published: 2023-08-24
-  n8IDZdhjr0Q:
-    title: News From Chip's Wife | Karcasuuk Coup | C2 Ep16
-    type: public
+    released: 2023-08-24
+    audience: public
+    privacy: public
+    type: video
+
+- title: News From Chip's Wife | Karcasuuk Coup | C2 Ep16
+  id: n8IDZdhjr0Q
+  details:
     duration: 3986
-    published: 2023-08-23
-  k24X6UD1j90:
-    title: 'When you horribly fail a Charisma check in D&D #dndpodcast #stinkydragonpod #charismacheck #puppets'
-    type: public
+    released: 2023-08-23
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'When you horribly fail a Charisma check in D&D #dndpodcast #stinkydragonpod #charismacheck #puppets'
+  id: k24X6UD1j90
+  details:
     duration: 56
-    published: 2023-08-22
-  VUmGn3_gMys:
-    title: 'Fighters are Stealthy? #dnd #dungeonsanddragons #stinkydragonpod #ttrpg #stealthcheck'
-    type: public
+    released: 2023-08-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Fighters are Stealthy? #dnd #dungeonsanddragons #stinkydragonpod #ttrpg #stealthcheck'
+  id: VUmGn3_gMys
+  details:
     duration: 57
-    published: 2023-08-17
-  PLBhWFkmRwI:
-    title: The Plagues of Karcasuuk | Karcasuuk Coup | C2 Ep15
-    type: public
+    released: 2023-08-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: The Plagues of Karcasuuk | Karcasuuk Coup | C2 Ep15
+  id: PLBhWFkmRwI
+  details:
     duration: 5175
-    published: 2023-08-16
-  jicZ0K_BKtY:
-    title: 'Using a Druid as transport in D&D #stinkydragonpod #dndpodcast  #dungeonsanddragons'
-    type: public
+    released: 2023-08-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Using a Druid as transport in D&D #stinkydragonpod #dndpodcast  #dungeonsanddragons'
+  id: jicZ0K_BKtY
+  details:
     duration: 59
-    published: 2023-08-15
-  J5GVQE5S4f0:
-    title: 'The Most Evil Hamster #dnd #dungeonsanddragons #ttrpg #stinkydragonpod #hamster'
-    type: public
+    released: 2023-08-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'The Most Evil Hamster #dnd #dungeonsanddragons #ttrpg #stinkydragonpod #hamster'
+  id: J5GVQE5S4f0
+  details:
     duration: 57
-    published: 2023-08-10
-  VqKmBQaXI9E:
-    title: The One Where the Ghost Dies...Again | Karcasuuk Coup | C2 Ep14
-    type: public
+    released: 2023-08-10
+    audience: public
+    privacy: public
+    type: video
+
+- title: The One Where the Ghost Dies...Again | Karcasuuk Coup | C2 Ep14
+  id: VqKmBQaXI9E
+  details:
     duration: 3744
-    published: 2023-08-09
-  nlnL0jOq6-E:
-    title: 'Meeting Interesting D&D Criminals #dndpodcast #dnd5e #stinkydragonpod #talesfromthestinkydragon'
-    type: public
+    released: 2023-08-09
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Meeting Interesting D&D Criminals #dndpodcast #dnd5e #stinkydragonpod #talesfromthestinkydragon'
+  id: nlnL0jOq6-E
+  details:
     duration: 58
-    published: 2023-08-08
-  bVy3rE8agd4:
-    title: Deja Urbloom - Music of Arc 2
-    type: public
+    released: 2023-08-08
+    audience: public
+    privacy: public
+    type: video
+
+- title: Deja Urbloom - Music of Arc 2
+  id: bVy3rE8agd4
+  details:
     duration: 2797
-    published: 2023-08-03
-  4CewDsp51ME:
-    title: 'Making Puppets Into Action Heroes! #dnd #dungeonsanddragons #ttrpg #behindthescenes #stinkydragonpod'
-    type: public
+    released: 2023-08-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Making Puppets Into Action Heroes! #dnd #dungeonsanddragons #ttrpg #behindthescenes #stinkydragonpod'
+  id: 4CewDsp51ME
+  details:
     duration: 60
-    published: 2023-08-03
-  gSZg-K1gfVs:
-    title: Mummy? Sorry. Mummy? Sorry. | Karcasuuk Coup | C2 Ep13
-    type: public
+    released: 2023-08-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: Mummy? Sorry. Mummy? Sorry. | Karcasuuk Coup | C2 Ep13
+  id: gSZg-K1gfVs
+  details:
     duration: 4922
-    published: 2023-08-02
-  et8U9JRdn4M:
-    title: 'Using Arrows to heal in D&D  #dndpodcast  #stinkydragonpod #puppets #puppetshow #criticalrole'
-    type: public
+    released: 2023-08-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Using Arrows to heal in D&D  #dndpodcast  #stinkydragonpod #puppets #puppetshow #criticalrole'
+  id: et8U9JRdn4M
+  details:
     duration: 59
-    published: 2023-08-01
-  3wqImxgKyiI:
-    title: 'Burning Building vs A Wood Elf #stinkydragonpod #dnd #dungeonsanddragons #ttrpg #animalrescue'
-    type: public
+    released: 2023-08-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Burning Building vs A Wood Elf #stinkydragonpod #dnd #dungeonsanddragons #ttrpg #animalrescue'
+  id: 3wqImxgKyiI
+  details:
     duration: 59
-    published: 2023-07-27
-  _QbHUr_Gv6k:
-    title: Lost and Leveled Up | Menace of Maschatten | C2 Ep12.5
-    type: public
+    released: 2023-07-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: Lost and Leveled Up | Menace of Maschatten | C2 Ep12.5
+  id: _QbHUr_Gv6k
+  details:
     duration: 4783
-    published: 2023-07-26
-  7aAuQZMJqmE:
-    title: 'Making friends in D&D Jail #dndpodcast #dndtiktok #stinkydragonpod #puppets #podcast #dndmeme'
-    type: public
+    released: 2023-07-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Making friends in D&D Jail #dndpodcast #dndtiktok #stinkydragonpod #puppets #podcast #dndmeme'
+  id: 7aAuQZMJqmE
+  details:
     duration: 60
-    published: 2023-07-25
-  b-0eWNsXXz0:
-    title: 'Critically failing WITH advantage #dnd #dungeonsanddragons #ttrpg #stinkydragonpod #criticalfail'
-    type: public
+    released: 2023-07-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Critically failing WITH advantage #dnd #dungeonsanddragons #ttrpg #stinkydragonpod #criticalfail'
+  id: b-0eWNsXXz0
+  details:
     duration: 56
-    published: 2023-07-20
-  qVXBd96vgnI:
-    title: Are We Getting Buried Alive? | Menace of Maschatten | C2 Ep12
-    type: public
+    released: 2023-07-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: Are We Getting Buried Alive? | Menace of Maschatten | C2 Ep12
+  id: qVXBd96vgnI
+  details:
     duration: 2955
-    published: 2023-07-19
-  6wpkzh_3XbA:
-    title: 'Dumbest Party Member teams up with Smartest NPC  #dndpodcast #dungeonsanddragons #stinkydragonpod'
-    type: public
+    released: 2023-07-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dumbest Party Member teams up with Smartest NPC  #dndpodcast #dungeonsanddragons #stinkydragonpod'
+  id: 6wpkzh_3XbA
+  details:
     duration: 60
-    published: 2023-07-18
-  kfAGKFIFmf4:
-    title: 'New D&D Puppet Show! #dnd #stinkydragonpod #dungeonsanddragons #ttrpg #dndpodcast #puppets'
-    type: public
+    released: 2023-07-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'New D&D Puppet Show! #dnd #stinkydragonpod #dungeonsanddragons #ttrpg #dndpodcast #puppets'
+  id: kfAGKFIFmf4
+  details:
     duration: 60
-    published: 2023-07-13
-  xsrH3Q2kA5I:
-    title: Can We Save Frankenstein?! | Menace of Maschatten | C2 Ep11
-    type: public
+    released: 2023-07-13
+    audience: public
+    privacy: public
+    type: video
+
+- title: Can We Save Frankenstein?! | Menace of Maschatten | C2 Ep11
+  id: xsrH3Q2kA5I
+  details:
     duration: 3700
-    published: 2023-07-12
-  IiP9nmaDiVg:
-    title: 'D&D Stunts gone wrong!!  #backflip #lucky #dungeonsanddragons #dnd #stinkydragonpod #puppets'
-    type: public
+    released: 2023-07-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'D&D Stunts gone wrong!!  #backflip #lucky #dungeonsanddragons #dnd #stinkydragonpod #puppets'
+  id: IiP9nmaDiVg
+  details:
     duration: 60
-    published: 2023-07-11
-  shWHq2_TbUw:
-    title: 'When Your Barbarian Takes Things Literally #dnd #dungeonsanddragons #dndminiatures #ttrpg'
-    type: public
+    released: 2023-07-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'When Your Barbarian Takes Things Literally #dnd #dungeonsanddragons #dndminiatures #ttrpg'
+  id: shWHq2_TbUw
+  details:
     duration: 43
-    published: 2023-07-06
-  2YtgHid8vc0:
-    title: The Last of the Dragons? | Menace of Maschatten | C02 Ep10
-    type: public
+    released: 2023-07-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: The Last of the Dragons? | Menace of Maschatten | C02 Ep10
+  id: 2YtgHid8vc0
+  details:
     duration: 4920
-    published: 2023-07-05
-  ToeUxkiK11s:
-    title: 'Behind the Scenes of Stinky Puppets! #dungeonsanddragons #stinkydragonpodcast #criticalrole #puppets'
-    type: public
+    released: 2023-07-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Behind the Scenes of Stinky Puppets! #dungeonsanddragons #stinkydragonpodcast #criticalrole #puppets'
+  id: ToeUxkiK11s
+  details:
     duration: 60
-    published: 2023-07-04
-  13dj8DipebU:
-    title: 'Making a Miniature D&D World #dnd #dungeonsanddragons #ttrpg #miniatures #bts'
-    type: public
+    released: 2023-07-04
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Making a Miniature D&D World #dnd #dungeonsanddragons #ttrpg #miniatures #bts'
+  id: 13dj8DipebU
+  details:
     duration: 60
-    published: 2023-06-29
-  qPHip4oObR0:
-    title: Total Party Kills vs a Dog | Menace of Maschatten | C02 Ep09
-    type: public
+    released: 2023-06-29
+    audience: public
+    privacy: public
+    type: video
+
+- title: Total Party Kills vs a Dog | Menace of Maschatten | C02 Ep09
+  id: qPHip4oObR0
+  details:
     duration: 4291
-    published: 2023-06-28
-  iHvgH4VFVyQ:
-    title: 'Friendship is the strongest D&D ability #dndpodcast #puppet #stinkydragonpod #wholesomemoments #dnd'
-    type: public
+    released: 2023-06-28
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Friendship is the strongest D&D ability #dndpodcast #puppet #stinkydragonpod #wholesomemoments #dnd'
+  id: iHvgH4VFVyQ
+  details:
     duration: 60
-    published: 2023-06-27
-  z12vu97lO8k:
-    title: Infinight Interns - Music of Arc 1
-    type: public
+    released: 2023-06-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: Infinight Interns - Music of Arc 1
+  id: z12vu97lO8k
+  details:
     duration: 1092
-    published: 2023-06-22
-  fpEY6D43ZvM:
-    title: 'The Best Kept Fishing Secret #dnd #dungronsanddragons #ttrpg #dndminiatures #fishing #sidequest'
-    type: public
+    released: 2023-06-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'The Best Kept Fishing Secret #dnd #dungronsanddragons #ttrpg #dndminiatures #fishing #sidequest'
+  id: fpEY6D43ZvM
+  details:
     duration: 54
-    published: 2023-06-22
-  cw5QIZABpcE:
-    title: What is the Mystery in the Windmill? | Menace of Maschatten | C02 Ep08
-    type: public
+    released: 2023-06-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: What is the Mystery in the Windmill? | Menace of Maschatten | C02 Ep08
+  id: cw5QIZABpcE
+  details:
     duration: 4847
-    published: 2023-06-21
-  WWlQY5tZ-bk:
-    title: 'Bardic Inspiration Freestyle #ttrpg #stinkydragonpod #dndpodcast #bardicinspiration #improvsong'
-    type: public
+    released: 2023-06-21
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Bardic Inspiration Freestyle #ttrpg #stinkydragonpod #dndpodcast #bardicinspiration #improvsong'
+  id: WWlQY5tZ-bk
+  details:
     duration: 60
-    published: 2023-06-20
-  fZcqG7hw0lI:
-    title: 'Best Worst Lawyer Ever #dungeonsanddragons #dnd #ttrpg #miniatures #justice'
-    type: public
+    released: 2023-06-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Best Worst Lawyer Ever #dungeonsanddragons #dnd #ttrpg #miniatures #justice'
+  id: fZcqG7hw0lI
+  details:
     duration: 60
-    published: 2023-06-15
-  Kfv-W9Xg6T4:
-    title: The Truth about Frankenstein | Menace of Maschatten | C02 Ep07
-    type: public
+    released: 2023-06-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: The Truth about Frankenstein | Menace of Maschatten | C02 Ep07
+  id: Kfv-W9Xg6T4
+  details:
     duration: 4221
-    published: 2023-06-14
-  NcxjiZC7PlE:
-    title: 'A Straightforward D&D Interaction #dungeonsanddragons #dnd #criticalrole #Miniatures #ttrpg'
-    type: public
+    released: 2023-06-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'A Straightforward D&D Interaction #dungeonsanddragons #dnd #criticalrole #Miniatures #ttrpg'
+  id: NcxjiZC7PlE
+  details:
     duration: 60
-    published: 2023-06-13
-  uq57wxB7fDA:
-    title: 'That’s One Hot Deception Roll! #dungeonsanddragons #dndpodcast #dnd #ttrpg #deceptioncheck'
-    type: public
+    released: 2023-06-13
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'That’s One Hot Deception Roll! #dungeonsanddragons #dndpodcast #dnd #ttrpg #deceptioncheck'
+  id: uq57wxB7fDA
+  details:
     duration: 55
-    published: 2023-06-08
-  tvia0kZFbX8:
-    title: All Aboard the Grotethe Express | Arrested in Attro City | C02 Ep6.5
-    type: public
+    released: 2023-06-08
+    audience: public
+    privacy: public
+    type: video
+
+- title: All Aboard the Grotethe Express | Arrested in Attro City | C02 Ep6.5
+  id: tvia0kZFbX8
+  details:
     duration: 3990
-    published: 2023-06-07
-  vcg3jp5bshM:
-    title: 'Falling 500ft in D&D #dungeonsanddragons #falldamage #freefall'
-    type: public
+    released: 2023-06-07
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Falling 500ft in D&D #dungeonsanddragons #falldamage #freefall'
+  id: vcg3jp5bshM
+  details:
     duration: 57
-    published: 2023-06-06
-  cUfSAM_QfKQ:
-    title: 'Calling all D&D fans! #dungeonsanddragons #dnd #puppets #stinkydragonpodcast #criticalrole'
-    type: public
+    released: 2023-06-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Calling all D&D fans! #dungeonsanddragons #dnd #puppets #stinkydragonpodcast #criticalrole'
+  id: cUfSAM_QfKQ
+  details:
     duration: 57
-    published: 2023-06-01
-  daz3dNAi5mM:
-    title: The One Where Chip Dies | Arrested in Attro City | C02 Ep06
-    type: public
+    released: 2023-06-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: The One Where Chip Dies | Arrested in Attro City | C02 Ep06
+  id: daz3dNAi5mM
+  details:
     duration: 4879
-    published: 2023-05-31
-  YtZ0hwAl2JA:
-    title: 'Great Fighter, Awful Healer #dungeonsanddragons #dnd  #stinkydragonpodcast #criticalrole #puppets'
-    type: public
+    released: 2023-05-31
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Great Fighter, Awful Healer #dungeonsanddragons #dnd  #stinkydragonpodcast #criticalrole #puppets'
+  id: YtZ0hwAl2JA
+  details:
     duration: 59
-    published: 2023-05-31
-  D8qRWA8aYxY:
-    title: Roll for Breaking & Entering | Arrested in Attro City | C02 Ep05
-    type: public
+    released: 2023-05-31
+    audience: public
+    privacy: public
+    type: video
+
+- title: Roll for Breaking & Entering | Arrested in Attro City | C02 Ep05
+  id: D8qRWA8aYxY
+  details:
     duration: 5419
-    published: 2023-05-24
-  C2mkGxewPDk:
-    title: 'Bard''s prank goes terribly wrong #dungeonsanddragons #dnd #criticalrole #stinkydragonpod #prank'
-    type: public
+    released: 2023-05-24
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Bard''s prank goes terribly wrong #dungeonsanddragons #dnd #criticalrole #stinkydragonpod #prank'
+  id: C2mkGxewPDk
+  details:
     duration: 60
-    published: 2023-05-23
-  wI-685MNxEs:
-    title: Assault On Area 15 | Arrested in Attro City | C02 Ep04
-    type: public
+    released: 2023-05-23
+    audience: public
+    privacy: public
+    type: video
+
+- title: Assault On Area 15 | Arrested in Attro City | C02 Ep04
+  id: wI-685MNxEs
+  details:
     duration: 5675
-    published: 2023-05-19
-  8atZuwAG_vk:
-    title: 'Diagonal Ladders are just stairs #dungeonsanddragons #dnd #criticalrole #StinkyDragonPod #puppets'
-    type: public
+    released: 2023-05-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Diagonal Ladders are just stairs #dungeonsanddragons #dnd #criticalrole #StinkyDragonPod #puppets'
+  id: 8atZuwAG_vk
+  details:
     duration: 53
-    published: 2023-05-18
-  5BxbkJC3Weg:
-    title: A Police Chase Into The Sewers | Arrested in Attro City | C02 Ep03
-    type: public
+    released: 2023-05-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: A Police Chase Into The Sewers | Arrested in Attro City | C02 Ep03
+  id: 5BxbkJC3Weg
+  details:
     duration: 5404
-    published: 2023-05-18
-  FQy1vL1Sgbo:
-    title: Never Meet Your Monsters | Arrested in Attro City | C02 Ep02
-    type: public
+    released: 2023-05-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: Never Meet Your Monsters | Arrested in Attro City | C02 Ep02
+  id: FQy1vL1Sgbo
+  details:
     duration: 4390
-    published: 2023-05-17
-  LNdy60xSLI4:
-    title: Our Entire Party Is In Jail?! | Arrested in Attro City | C02 Ep01
-    type: public
+    released: 2023-05-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: Our Entire Party Is In Jail?! | Arrested in Attro City | C02 Ep01
+  id: LNdy60xSLI4
+  details:
     duration: 3561
-    published: 2023-05-16
-  kble_FV0u_M:
-    title: 'How does "Draconic" actually sound in D&D #dnd #dungeonsanddragons'
-    type: public
+    released: 2023-05-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'How does "Draconic" actually sound in D&D #dnd #dungeonsanddragons'
+  id: kble_FV0u_M
+  details:
     duration: 60
-    published: 2023-05-15
-  ViwVkfyvN1Y:
-    title: The Beginning of the Worst Heroes EVER | Infinight Interns | Ep 01
-    type: public
+    released: 2023-05-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: The Beginning of the Worst Heroes EVER | Infinight Interns | Ep 01
+  id: ViwVkfyvN1Y
+  details:
     duration: 2274
-    published: 2023-05-15
-  oNLGn5pS_3g:
-    title: Welcome to Tales From The Stinky Dragon!
-    type: public
+    released: 2023-05-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: Welcome to Tales From The Stinky Dragon!
+  id: oNLGn5pS_3g
+  details:
     duration: 71
-    published: 2023-05-14
+    released: 2023-05-14
+    audience: public
+    privacy: public
+    type: video

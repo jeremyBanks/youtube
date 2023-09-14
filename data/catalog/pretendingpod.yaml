@@ -1,98 +1,175 @@
-handle: pretendingpod
 id: UCTq7kG1D0-bHntMNCCjtGNg
+handle: pretendingpod
+name: pretendingpod
 videos:
-  xNyGykIrwWA:
-    title: '"Haunted" - Mood Ring Films x Pretending to be People'
-    type: public
+
+- title: '"Haunted" - Mood Ring Films x Pretending to be People'
+  id: xNyGykIrwWA
+  details:
     duration: 160
-    published: 2023-06-30
-  Of5QRsXph18:
-    title: 'PTBP Music : Urgent Winds : RPG Soundtrack Music'
-    type: public
+    released: 2023-06-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music : Urgent Winds : RPG Soundtrack Music'
+  id: Of5QRsXph18
+  details:
     duration: 521
-    published: 2022-05-28
-  XDzMJ9K3RYs:
-    title: 'PTBP TTRPG Music : Somber Dreams'
-    type: public
+    released: 2022-05-28
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP TTRPG Music : Somber Dreams'
+  id: XDzMJ9K3RYs
+  details:
     duration: 356
-    published: 2022-04-19
-  TfznM_1TiF8:
-    title: 'PTBP Music: A Road : Dark Western RPG Music'
-    type: public
+    released: 2022-04-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music: A Road : Dark Western RPG Music'
+  id: TfznM_1TiF8
+  details:
     duration: 308
-    published: 2021-10-15
-  XkOBisXuJ6o:
-    title: 'Pretending to be People : Season 1 Episode 2'
-    type: public
+    released: 2021-10-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Pretending to be People : Season 1 Episode 2'
+  id: XkOBisXuJ6o
+  details:
     duration: 2851
-    published: 2021-09-03
-  6cpbTEE2Y3Y:
-    title: 'Pretending to be People : Season 1 Episode 3'
-    type: public
+    released: 2021-09-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Pretending to be People : Season 1 Episode 3'
+  id: 6cpbTEE2Y3Y
+  details:
     duration: 2249
-    published: 2021-09-03
-  ejS3hiMgjis:
-    title: 'Pretending to be People: Season One Trailer'
-    type: public
+    released: 2021-09-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Pretending to be People: Season One Trailer'
+  id: ejS3hiMgjis
+  details:
     duration: 145
-    published: 2021-08-26
-  IDUOrkT53v8:
-    title: 'Pretending to be People : Season 1 Episode 1'
-    type: public
+    released: 2021-08-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Pretending to be People : Season 1 Episode 1'
+  id: IDUOrkT53v8
+  details:
     duration: 4224
-    published: 2021-08-26
-  XuZ7D5rurho:
-    title: 'PTBP Music: All Must End : Horror RPG Terror'
-    type: public
+    released: 2021-08-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music: All Must End : Horror RPG Terror'
+  id: XuZ7D5rurho
+  details:
     duration: 105
-    published: 2020-12-27
-  5vd244AzLAo:
-    title: 'PTBP Music: "Throw Down" : Action RPB Background Music'
-    type: public
+    released: 2020-12-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music: "Throw Down" : Action RPB Background Music'
+  id: 5vd244AzLAo
+  details:
     duration: 434
-    published: 2020-12-20
-  xwBHKsOpy2I:
-    title: 'PTBP Music : Skies Darken : Tense RPG Background Music'
-    type: public
+    released: 2020-12-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music : Skies Darken : Tense RPG Background Music'
+  id: xwBHKsOpy2I
+  details:
     duration: 721
-    published: 2020-05-27
-  1FtzHF-RWJ0:
-    title: 'PTBP Plays: Kenshi Pt. 1 Welcome Sonic The Hogman'
-    type: public
+    released: 2020-05-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Plays: Kenshi Pt. 1 Welcome Sonic The Hogman'
+  id: 1FtzHF-RWJ0
+  details:
     duration: 13019
-    published: 2020-05-21
-  iVordd-1joA:
-    title: 'PTBP Music : "It''s Near" : Tense RPG Background Music'
-    type: public
+    released: 2020-05-21
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music : "It''s Near" : Tense RPG Background Music'
+  id: iVordd-1joA
+  details:
     duration: 484
-    published: 2020-05-06
-  urQpnbPbtWY:
-    title: 'PTBP Music  : "We''re Not Alone Now" : Spooky RPG Ambient Music'
-    type: public
+    released: 2020-05-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music  : "We''re Not Alone Now" : Spooky RPG Ambient Music'
+  id: urQpnbPbtWY
+  details:
     duration: 603
-    published: 2020-05-02
-  hhr3J9oHBkY:
-    title: 'PTBP Video Games: Joe & Justin; Ashen & Mount Your Friends 3D'
-    type: public
+    released: 2020-05-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Video Games: Joe & Justin; Ashen & Mount Your Friends 3D'
+  id: hhr3J9oHBkY
+  details:
     duration: 6211
-    published: 2020-05-02
-  Sxjp-Q8IJ48:
-    title: 'PTBP Plays: A Frog Detective Game : Complete Playthrough'
-    type: public
+    released: 2020-05-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Plays: A Frog Detective Game : Complete Playthrough'
+  id: Sxjp-Q8IJ48
+  details:
     duration: 4301
-    published: 2020-04-26
-  C8AArW36ksw:
-    title: 'PTBP Music : "Story Time" : Mystery RPG Music'
-    type: public
+    released: 2020-04-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Music : "Story Time" : Mystery RPG Music'
+  id: C8AArW36ksw
+  details:
     duration: 628
-    published: 2020-04-18
-  XqO63A6rS6A:
-    title: 'PTBP Chill Game Stream Pt.1 Apr 14, 2020 : Besiege'
-    type: public
+    released: 2020-04-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'PTBP Chill Game Stream Pt.1 Apr 14, 2020 : Besiege'
+  id: XqO63A6rS6A
+  details:
     duration: 2726
-    published: 2020-04-17
-  h63KT5e8IuE:
-    title: 'Mount Your Friends, Jackbox, and Chat with PtbP'
-    type: public
+    released: 2020-04-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Mount Your Friends, Jackbox, and Chat with PtbP'
+  id: h63KT5e8IuE
+  details:
     duration: 12506
-    published: 2020-02-23
+    released: 2020-02-23
+    audience: public
+    privacy: public
+    type: video

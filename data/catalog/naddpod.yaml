@@ -1,18 +1,31 @@
-handle: naddpod
 id: UCEQb2fBYhkEApCq684-dmVA
+handle: naddpod
+name: naddpod
 videos:
-  lJx6JUr1sNg:
-    title: 'D&D Court: Dungeons, Doggos & DRAMA (w/ Aabria Iyengar)'
-    type: public
+
+- title: 'D&D Court: Dungeons, Doggos & DRAMA (w/ Aabria Iyengar)'
+  id: lJx6JUr1sNg
+  details:
     duration: 3676
-    published: 2022-10-14
-  YeAGFdPQpNk:
-    title: 'D&D Court: The Spelljammer Rebellion'
-    type: public
+    released: 2022-10-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'D&D Court: The Spelljammer Rebellion'
+  id: YeAGFdPQpNk
+  details:
     duration: 3060
-    published: 2022-09-16
-  jXAWFqs2BRg:
-    title: 'D&D Court: The Pooping Cleric'
-    type: public
+    released: 2022-09-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'D&D Court: The Pooping Cleric'
+  id: jXAWFqs2BRg
+  details:
     duration: 3079
-    published: 2022-08-18
+    released: 2022-08-18
+    audience: public
+    privacy: public
+    type: video

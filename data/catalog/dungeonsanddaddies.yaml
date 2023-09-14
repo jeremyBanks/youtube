@@ -1,613 +1,1102 @@
-handle: dungeonsanddaddies
 id: UCk0KIpWaQwMhFSWQhnwb1RQ
+handle: dungeonsanddaddies
+name: dungeonsanddaddies
 videos:
-  KwKV0fhdUPI:
-    title: Dungeons and Daddies - S2E41 - We Need to Talk About Heaven
-    type: public
+
+- title: Dungeons and Daddies - S2E41 - We Need to Talk About Heaven
+  id: KwKV0fhdUPI
+  details:
     duration: 4353
-    published: 2023-09-06
-  yfW-dz-vEvY:
-    title: 'Dungeons and Daddies - S2E40 - The Teenhigh Saga: Break-in Wrong: Part 1'
-    type: public
+    released: 2023-09-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E40 - The Teenhigh Saga: Break-in Wrong: Part 1'
+  id: yfW-dz-vEvY
+  details:
     duration: 4921
-    published: 2023-09-01
-  _E_gGf42pms:
-    title: Dungeons and Daddies - S2E38 - Main Chairacter Syndrome
-    type: public
+    released: 2023-09-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E38 - Main Chairacter Syndrome
+  id: _E_gGf42pms
+  details:
     duration: 4607
-    published: 2023-09-01
-  6KQeitYE22A:
-    title: 'Dungeons and Daddies - S2E39 - Hey, Dude!'
-    type: public
+    released: 2023-09-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E39 - Hey, Dude!'
+  id: 6KQeitYE22A
+  details:
     duration: 3544
-    published: 2023-09-01
-  W9m75ejCwtw:
-    title: "Is Darryl or Henry into it? The lore drops in LA were spicy! \U0001F975 #dungeonsanddaddies #ttrpg"
-    type: public
+    released: 2023-09-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: "Is Darryl or Henry into it? The lore drops in LA were spicy! \U0001F975 #dungeonsanddaddies #ttrpg"
+  id: W9m75ejCwtw
+  details:
     duration: 36
-    published: 2023-08-27
-  Z0SqPc8YzbA:
-    title: "THIS is what rolling with an advantage looks like. \U0001F44F\U0001F3FB\U0001F57A\U0001F3FB"
-    type: public
+    released: 2023-08-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: "THIS is what rolling with an advantage looks like. \U0001F44F\U0001F3FB\U0001F57A\U0001F3FB"
+  id: Z0SqPc8YzbA
+  details:
     duration: 37
-    published: 2023-08-26
-  0qhmWL-jE2g:
-    title: "Glenn rolls for dankness and the weed god's blessing \U0001F64F"
-    type: public
+    released: 2023-08-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: "Glenn rolls for dankness and the weed god's blessing \U0001F64F"
+  id: 0qhmWL-jE2g
+  details:
     duration: 60
-    published: 2023-08-25
-  ua1E7iW2qMk:
-    title: 'Wake up, babe - new Stampler fact just dropped'
-    type: public
+    released: 2023-08-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Wake up, babe - new Stampler fact just dropped'
+  id: ua1E7iW2qMk
+  details:
     duration: 35
-    published: 2023-08-22
-  M3DRu7ejxJk:
-    title: Dungeons and Daddies - S2E37 - Cut My Life Into Pizzas
-    type: public
+    released: 2023-08-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E37 - Cut My Life Into Pizzas
+  id: M3DRu7ejxJk
+  details:
     duration: 3816
-    published: 2023-07-18
-  Zf1k_9DArwg:
-    title: Dungeons and Daddies - S2E36 - When Terry Met Terry
-    type: public
+    released: 2023-07-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E36 - When Terry Met Terry
+  id: Zf1k_9DArwg
+  details:
     duration: 3549
-    published: 2023-06-26
-  RXogu0E04X8:
-    title: Dungeons and Daddies - S2E34 - Finding Tori
-    type: public
+    released: 2023-06-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E34 - Finding Tori
+  id: RXogu0E04X8
+  details:
     duration: 4565
-    published: 2023-06-14
-  3wo1k2WK-u8:
-    title: Dungeons and Daddies - S2E35 - Apollo Four Teens
-    type: public
+    released: 2023-06-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E35 - Apollo Four Teens
+  id: 3wo1k2WK-u8
+  details:
     duration: 5054
-    published: 2023-06-14
-  qAN4Mu-PiQE:
-    title: Dungeons and Daddies - S2E33 - An Extremely Goofy Episode
-    type: public
+    released: 2023-06-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E33 - An Extremely Goofy Episode
+  id: qAN4Mu-PiQE
+  details:
     duration: 3321
-    published: 2023-06-05
-  GpMfraJwwns:
-    title: Dungeons and Daddies - S2E32 - Con Mayor
-    type: public
+    released: 2023-06-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E32 - Con Mayor
+  id: GpMfraJwwns
+  details:
     duration: 3975
-    published: 2023-05-01
-  zpyTkY4FGZk:
-    title: Dungeons and Daddies - S2E31 - Halt and Catch Fireball
-    type: public
+    released: 2023-05-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E31 - Halt and Catch Fireball
+  id: zpyTkY4FGZk
+  details:
     duration: 3952
-    published: 2023-04-16
-  j4aj03UbDfo:
-    title: Dungeons and Daddies - S2E30 - Mrs. Swallows Oak Garcia’s Home for Peculiar Teenagers
-    type: public
+    released: 2023-04-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E30 - Mrs. Swallows Oak Garcia’s Home for Peculiar Teenagers
+  id: j4aj03UbDfo
+  details:
     duration: 3663
-    published: 2023-04-03
-  qYZQEp-psSs:
-    title: 'Dungeons and Daddies - S2E29 - S.O.C.C.E.R.: Shadow Of Scorenogoal'
-    type: public
+    released: 2023-04-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E29 - S.O.C.C.E.R.: Shadow Of Scorenogoal'
+  id: qYZQEp-psSs
+  details:
     duration: 4217
-    published: 2023-03-21
-  04FSAcC_3go:
-    title: Dungeons and Daddies - S2E28 - King of the Hell
-    type: public
+    released: 2023-03-21
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E28 - King of the Hell
+  id: 04FSAcC_3go
+  details:
     duration: 4472
-    published: 2023-03-06
-  oNr86Qx4P9g:
-    title: Dungeons and Daddies - S2E27 - Ei8ht
-    type: public
+    released: 2023-03-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E27 - Ei8ht
+  id: oNr86Qx4P9g
+  details:
     duration: 4730
-    published: 2023-02-20
-  bvZIs3N9zbA:
-    title: Dungeons and Daddies - S2E26 - The Staircase
-    type: public
+    released: 2023-02-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E26 - The Staircase
+  id: bvZIs3N9zbA
+  details:
     duration: 4385
-    published: 2023-02-03
-  B3C8V1wxY8Y:
-    title: Dungeons and Daddies - S2E25 - Stand and Delivery
-    type: public
+    released: 2023-02-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E25 - Stand and Delivery
+  id: B3C8V1wxY8Y
+  details:
     duration: 4530
-    published: 2023-01-21
-  mlWyBJyetUI:
-    title: 'Bonus! Sons and Sonsability: Ep. 1 - The Mothman Progenies'
-    type: public
+    released: 2023-01-21
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Bonus! Sons and Sonsability: Ep. 1 - The Mothman Progenies'
+  id: mlWyBJyetUI
+  details:
     duration: 6911
-    published: 2022-12-30
-  7w56RglAZ2U:
-    title: 'Dungeons and Daddies - S2E24 - Spider-Boyz: Homecoming'
-    type: public
+    released: 2022-12-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E24 - Spider-Boyz: Homecoming'
+  id: 7w56RglAZ2U
+  details:
     duration: 4230
-    published: 2022-12-17
-  gejqs0b3HWc:
-    title: Dungeons and Daddies - S2E23 - Alright
-    type: public
+    released: 2022-12-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E23 - Alright
+  id: gejqs0b3HWc
+  details:
     duration: 5027
-    published: 2022-12-03
-  fPh7WdbGvzQ:
-    title: Dungeons and Daddies - S2E22 - Army of Tree
-    type: public
+    released: 2022-12-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E22 - Army of Tree
+  id: fPh7WdbGvzQ
+  details:
     duration: 4389
-    published: 2022-12-03
-  bcn65AX-DTk:
-    title: Dungeons and Daddies - S2E21 - Finding Forest Her
-    type: public
+    released: 2022-12-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E21 - Finding Forest Her
+  id: bcn65AX-DTk
+  details:
     duration: 3863
-    published: 2022-11-07
-  tCJ7enV94ts:
-    title: 'Dungeons and Daddies - S2E20 - I Brought You My Catbus, You Brought Me Your Love'
-    type: public
+    released: 2022-11-07
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E20 - I Brought You My Catbus, You Brought Me Your Love'
+  id: tCJ7enV94ts
+  details:
     duration: 4119
-    published: 2022-10-22
-  seDAaf10L9w:
-    title: Dungeons and Daddies - S2E17 - OSHA's Eleven
-    type: public
+    released: 2022-10-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E17 - OSHA's Eleven
+  id: seDAaf10L9w
+  details:
     duration: 4879
-    published: 2022-10-12
-  ogf9sMQeagA:
-    title: Dungeons and Daddies - S2E14 - Welcome to Earth
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E14 - Welcome to Earth
+  id: ogf9sMQeagA
+  details:
     duration: 4044
-    published: 2022-10-12
-  jeDWsFtFou4:
-    title: Dungeons and Daddies - S2E19 - Pop Punk
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E19 - Pop Punk
+  id: jeDWsFtFou4
+  details:
     duration: 4218
-    published: 2022-10-12
-  iM76Bo84hlo:
-    title: Dungeons and Daddies - S2E15 - California Pizza Kombat
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E15 - California Pizza Kombat
+  id: iM76Bo84hlo
+  details:
     duration: 5692
-    published: 2022-10-12
-  hzEnM2fd75g:
-    title: Dungeons and Daddies - S2E8 - Slumber Party Mayorssacre
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E8 - Slumber Party Mayorssacre
+  id: hzEnM2fd75g
+  details:
     duration: 3914
-    published: 2022-10-12
-  h_hOZIv7PwY:
-    title: 'Dungeons and Daddies - S2E2 - The Game of Life [Any% WR Speedrun]'
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E2 - The Game of Life [Any% WR Speedrun]'
+  id: h_hOZIv7PwY
+  details:
     duration: 4144
-    published: 2022-10-12
-  c5IHZZQtMqo:
-    title: Dungeons and Daddies - S2E16 - Needlejuice
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E16 - Needlejuice
+  id: c5IHZZQtMqo
+  details:
     duration: 3754
-    published: 2022-10-12
-  boy-SQ-mgtE:
-    title: Dungeons and Daddies - S2E10 - Dad Me To Hell
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E10 - Dad Me To Hell
+  id: boy-SQ-mgtE
+  details:
     duration: 4125
-    published: 2022-10-12
-  Tn1ZnLkM8Xg:
-    title: 'Dungeons and Daddies - S2E9 - Debate Me, Cowards'
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E9 - Debate Me, Cowards'
+  id: Tn1ZnLkM8Xg
+  details:
     duration: 4283
-    published: 2022-10-12
-  SlLTMrKECBU:
-    title: Dungeons and Daddies - S2E18 - Grand Theft Gato
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E18 - Grand Theft Gato
+  id: SlLTMrKECBU
+  details:
     duration: 4860
-    published: 2022-10-12
-  SilTBPSoN8s:
-    title: 'Dungeons and Daddies - S2E11 - That Thing? You, Dude!'
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S2E11 - That Thing? You, Dude!'
+  id: SilTBPSoN8s
+  details:
     duration: 4332
-    published: 2022-10-12
-  RrnxtcJRh2w:
-    title: Dungeons and Daddies - S2E4 - Barf Bum Movie Men (Ft. Elyse Willems)
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E4 - Barf Bum Movie Men (Ft. Elyse Willems)
+  id: RrnxtcJRh2w
+  details:
     duration: 4785
-    published: 2022-10-12
-  PTYJjrbFlBU:
-    title: Dungeons and Daddies - S2E1 - Dungeon and D.A.D.D.I.E.S.
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E1 - Dungeon and D.A.D.D.I.E.S.
+  id: PTYJjrbFlBU
+  details:
     duration: 6781
-    published: 2022-10-12
-  MEJsE4w7zVk:
-    title: Dungeons and Daddies - S2E6 - Dance Dance Revelations 2ndMix Link Version
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E6 - Dance Dance Revelations 2ndMix Link Version
+  id: MEJsE4w7zVk
+  details:
     duration: 4562
-    published: 2022-10-12
-  KY5ReUZk9YY:
-    title: Dungeons and Daddies - S2E3 - The Unbearable Linkness of Peeing
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E3 - The Unbearable Linkness of Peeing
+  id: KY5ReUZk9YY
+  details:
     duration: 3770
-    published: 2022-10-12
-  J-lRwk876mg:
-    title: Dungeons and Daddies - S2E7 - The Gofast Club
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E7 - The Gofast Club
+  id: J-lRwk876mg
+  details:
     duration: 3300
-    published: 2022-10-12
-  IGStX8DE0Ys:
-    title: Dungeons and Daddies - S2E12 - Scary Movie 2
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E12 - Scary Movie 2
+  id: IGStX8DE0Ys
+  details:
     duration: 3750
-    published: 2022-10-12
-  9ur0ykmpmkM:
-    title: Dungeons and Daddies - S2E13 - Children of the Code
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E13 - Children of the Code
+  id: 9ur0ykmpmkM
+  details:
     duration: 4416
-    published: 2022-10-12
-  2y59qGq3woQ:
-    title: Dungeons and Daddies - S2E5 - Dance Dance Revelations
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S2E5 - Dance Dance Revelations
+  id: 2y59qGq3woQ
+  details:
     duration: 3656
-    published: 2022-10-12
-  xR_sup7QB94:
-    title: Dungeons and Daddies - S1E52 - Pap-Papillon
-    type: public
+    released: 2022-10-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E52 - Pap-Papillon
+  id: xR_sup7QB94
+  details:
     duration: 3708
-    published: 2022-08-30
-  x7Fvqx80GIw:
-    title: 'Dungeons and Daddies - S1E20 - Silent, But Dadly'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S1E20 - Silent, But Dadly'
+  id: x7Fvqx80GIw
+  details:
     duration: 3897
-    published: 2022-08-30
-  weblsjWPh4s:
-    title: Dungeons and Daddies - S1E36 - Bowl Movement
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E36 - Bowl Movement
+  id: weblsjWPh4s
+  details:
     duration: 5110
-    published: 2022-08-30
-  wFB5l7NMCGg:
-    title: Dungeons and Daddies - S1E67 - Mortal Wombat
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E67 - Mortal Wombat
+  id: wFB5l7NMCGg
+  details:
     duration: 4836
-    published: 2022-08-30
-  v-Tc9M6cgFY:
-    title: Dungeons and Daddies - S1E28 - The Bridges of Dad and Son County
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E28 - The Bridges of Dad and Son County
+  id: v-Tc9M6cgFY
+  details:
     duration: 3567
-    published: 2022-08-30
-  uqmrRvHsWLw:
-    title: Dungeons and Daddies - S1E03 - The Lord of Chaos
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E03 - The Lord of Chaos
+  id: uqmrRvHsWLw
+  details:
     duration: 3505
-    published: 2022-08-30
-  u9afP0OFcYc:
-    title: Dungeons and Daddies - S1E38 - Clone Tree Hill
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E38 - Clone Tree Hill
+  id: u9afP0OFcYc
+  details:
     duration: 4444
-    published: 2022-08-30
-  snsBJjT8YVc:
-    title: Dungeons and Daddies - S1E41 - oaklore
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E41 - oaklore
+  id: snsBJjT8YVc
+  details:
     duration: 4309
-    published: 2022-08-30
-  sWy2_B4U3Ss:
-    title: Dungeons and Daddies - S1E53 - The Roc
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E53 - The Roc
+  id: sWy2_B4U3Ss
+  details:
     duration: 4815
-    published: 2022-08-30
-  rt1k7q3rejc:
-    title: Dungeons and Daddies - S1E27 - Advanced Dungeons & Dragons
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E27 - Advanced Dungeons & Dragons
+  id: rt1k7q3rejc
+  details:
     duration: 4127
-    published: 2022-08-30
-  rsqNcU87X1Y:
-    title: Dungeons and Daddies - Bonus Episode - Christmas 2020
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - Bonus Episode - Christmas 2020
+  id: rsqNcU87X1Y
+  details:
     duration: 1676
-    published: 2022-08-30
-  rZjAggss8Ik:
-    title: Dungeons and Daddies - S1E42 - Henry's Father and the Chamber of Secrets
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E42 - Henry's Father and the Chamber of Secrets
+  id: rZjAggss8Ik
+  details:
     duration: 3631
-    published: 2022-08-30
-  rI_DSe5Lc7k:
-    title: Dungeons and Daddies - S1E14 - The Tower of Terry
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E14 - The Tower of Terry
+  id: rI_DSe5Lc7k
+  details:
     duration: 4730
-    published: 2022-08-30
-  r0XYT3sEFEk:
-    title: Dungeons and Daddies - S1E35 - The Jellicle Ball
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E35 - The Jellicle Ball
+  id: r0XYT3sEFEk
+  details:
     duration: 6465
-    published: 2022-08-30
-  qydK1xsnAPc:
-    title: Dungeons and Daddies - S1E64 - Mechanics and Heat 101
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E64 - Mechanics and Heat 101
+  id: qydK1xsnAPc
+  details:
     duration: 4127
-    published: 2022-08-30
-  p4D1sy2s6Po:
-    title: Dungeons and Daddies - S1E21 - Connin' the Librarian
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E21 - Connin' the Librarian
+  id: p4D1sy2s6Po
+  details:
     duration: 4441
-    published: 2022-08-30
-  ooxYEiylO2c:
-    title: Dungeons and Daddies - S1E47 - Glenn Close's Damages
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E47 - Glenn Close's Damages
+  id: ooxYEiylO2c
+  details:
     duration: 5041
-    published: 2022-08-30
-  nHgHCltQaSE:
-    title: Dungeons and Daddies - S1E24 - The Sins of the Fathers
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E24 - The Sins of the Fathers
+  id: nHgHCltQaSE
+  details:
     duration: 4367
-    published: 2022-08-30
-  lb4SNgJ30NU:
-    title: Dungeons and Daddies - S1E65 - Frank Conversations
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E65 - Frank Conversations
+  id: lb4SNgJ30NU
+  details:
     duration: 4105
-    published: 2022-08-30
-  kSNUKjrWYiw:
-    title: Dungeons and Daddies - S1E16 - A Tournament for Knights
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E16 - A Tournament for Knights
+  id: kSNUKjrWYiw
+  details:
     duration: 5575
-    published: 2022-08-30
-  kBFdAflEWtI:
-    title: Dungeons and Daddies - S1E50 - Panic Room / Inside Man
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E50 - Panic Room / Inside Man
+  id: kBFdAflEWtI
+  details:
     duration: 5605
-    published: 2022-08-30
-  kBDSUnH02Dc:
-    title: Dungeons and Daddies - S1E54 - A Game of Tomes
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E54 - A Game of Tomes
+  id: kBDSUnH02Dc
+  details:
     duration: 3787
-    published: 2022-08-30
-  kB-AcR6BSGQ:
-    title: Dungeons and Daddies - S1E09 - Punk is Dad
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E09 - Punk is Dad
+  id: kB-AcR6BSGQ
+  details:
     duration: 3734
-    published: 2022-08-30
-  iWDzkhbDgsM:
-    title: Dungeons and Daddies - Bonus Episode - The Witch Is Dead
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - Bonus Episode - The Witch Is Dead
+  id: iWDzkhbDgsM
+  details:
     duration: 2569
-    published: 2022-08-30
-  hgTfJCP4KA0:
-    title: 'Dungeons and Daddies - S1E68, Pt. 2 - Hi "Going Home," I''m Dad!'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S1E68, Pt. 2 - Hi "Going Home," I''m Dad!'
+  id: hgTfJCP4KA0
+  details:
     duration: 5802
-    published: 2022-08-30
-  gDxUTfW4RnQ:
-    title: Dungeons and Daddies - S1E32 - Grilling In the Name Of
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E32 - Grilling In the Name Of
+  id: gDxUTfW4RnQ
+  details:
     duration: 4070
-    published: 2022-08-30
-  fjdtt-QRRWM:
-    title: Dungeons and Daddies - S1E11 - From Dusk 'til Dad
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E11 - From Dusk 'til Dad
+  id: fjdtt-QRRWM
+  details:
     duration: 4741
-    published: 2022-08-30
-  ejtA3LtbTq8:
-    title: Dungeons and Daddies - S1E59 - Retail Therapy
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E59 - Retail Therapy
+  id: ejtA3LtbTq8
+  details:
     duration: 4100
-    published: 2022-08-30
-  ZapAo5WXLaU:
-    title: Dungeons and Daddies - S1E51 - An Escape Plan For That
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E51 - An Escape Plan For That
+  id: ZapAo5WXLaU
+  details:
     duration: 4634
-    published: 2022-08-30
-  ZU8pbXyL7Y4:
-    title: Dungeons and Daddies - S1E34 - Dedicated Involved Loving Fathers (ft. Ashly Burch)
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E34 - Dedicated Involved Loving Fathers (ft. Ashly Burch)
+  id: ZU8pbXyL7Y4
+  details:
     duration: 5327
-    published: 2022-08-30
-  YrIVI5A3Pz0:
-    title: Dungeons and Daddies - S1E10 - Dads Don't Do Other Dads Dirty
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E10 - Dads Don't Do Other Dads Dirty
+  id: YrIVI5A3Pz0
+  details:
     duration: 3669
-    published: 2022-08-30
-  Ymay_t4PyqM:
-    title: Dungeons and Daddies - S1E46 - The People vs. Glenn Close (ft. Jenna Stoeber)
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E46 - The People vs. Glenn Close (ft. Jenna Stoeber)
+  id: Ymay_t4PyqM
+  details:
     duration: 4756
-    published: 2022-08-30
-  YcKXU142Dbc:
-    title: Dungeons and Daddies - S1E40 - Rules for Dadtastic Medieval Wargames
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E40 - Rules for Dadtastic Medieval Wargames
+  id: YcKXU142Dbc
+  details:
     duration: 4276
-    published: 2022-08-30
-  X2Ak2yps3lU:
-    title: Dungeons and Daddies - S1E61 - Death of a Salesman
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E61 - Death of a Salesman
+  id: X2Ak2yps3lU
+  details:
     duration: 5102
-    published: 2022-08-30
-  WafRFo4yUvc:
-    title: Dungeons and Daddies - S1E58 - It Was Inside You All Along
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E58 - It Was Inside You All Along
+  id: WafRFo4yUvc
+  details:
     duration: 4595
-    published: 2022-08-30
-  WPaA9Bdg5GE:
-    title: Dungeons and Daddies - S1E66 - Fender Glennder
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E66 - Fender Glennder
+  id: WPaA9Bdg5GE
+  details:
     duration: 3877
-    published: 2022-08-30
-  WFvpCG__jLo:
-    title: Dungeons and Daddies - S1E08 - The Battle Axe of Hatred Pt. II
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E08 - The Battle Axe of Hatred Pt. II
+  id: WFvpCG__jLo
+  details:
     duration: 4068
-    published: 2022-08-30
-  WBXJevo-MNE:
-    title: 'Dungeons and Daddies - S1E13 - Terry Jr. and the Terrible, Horrible, No Good, Very Bad Dad'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S1E13 - Terry Jr. and the Terrible, Horrible, No Good, Very Bad Dad'
+  id: WBXJevo-MNE
+  details:
     duration: 4696
-    published: 2022-08-30
-  UrUUPedesIE:
-    title: Dungeons and Daddies - S1E62 - Sonscreen
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E62 - Sonscreen
+  id: UrUUPedesIE
+  details:
     duration: 4161
-    published: 2022-08-30
-  Sll-2G490IA:
-    title: Dungeons and Daddies - S1E29 - Big Willy Style
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E29 - Big Willy Style
+  id: Sll-2G490IA
+  details:
     duration: 5230
-    published: 2022-08-30
-  RRKqPXAdItQ:
-    title: 'Dungeons and Daddies - S1E23 - Scammer, No Scamming!'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S1E23 - Scammer, No Scamming!'
+  id: RRKqPXAdItQ
+  details:
     duration: 4177
-    published: 2022-08-30
-  QV-_00TEH1k:
-    title: 'Dungeons and Daddies - Bonus Episode - At the Mountains of Dadness, Ch. 1 - Casting Call of Cthuhlu'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - Bonus Episode - At the Mountains of Dadness, Ch. 1 - Casting Call of Cthuhlu'
+  id: QV-_00TEH1k
+  details:
     duration: 5625
-    published: 2022-08-30
-  PJ6FE2ZbdlA:
-    title: Dungeons and Daddies - S1E45 - Death Comedy Jam
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E45 - Death Comedy Jam
+  id: PJ6FE2ZbdlA
+  details:
     duration: 4034
-    published: 2022-08-30
-  O_Jaf2YTsL0:
-    title: Dungeons and Daddies - S1E17 - FATHERUNKNOWN'S DADDLEGROUNDS
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E17 - FATHERUNKNOWN'S DADDLEGROUNDS
+  id: O_Jaf2YTsL0
+  details:
     duration: 4341
-    published: 2022-08-30
-  O_3pffnckVw:
-    title: 'Dungeons and Daddies - Bonus Episode - Ep. 11.5, The BDSM Bonus Episode'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - Bonus Episode - Ep. 11.5, The BDSM Bonus Episode'
+  id: O_3pffnckVw
+  details:
     duration: 3368
-    published: 2022-08-30
-  OIs4TChPF-0:
-    title: Dungeons and Daddies - S1E63 - Meet the Parents
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E63 - Meet the Parents
+  id: OIs4TChPF-0
+  details:
     duration: 4740
-    published: 2022-08-30
-  O939rIgSqtY:
-    title: 'Dungeons and Daddies - S1E19 - Amazing Grant, How Sweet the Cern'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S1E19 - Amazing Grant, How Sweet the Cern'
+  id: O939rIgSqtY
+  details:
     duration: 4839
-    published: 2022-08-30
-  L-xr-dK7p1Q:
-    title: Dungeons and Daddies - S1E26 - Moms of Future Past
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E26 - Moms of Future Past
+  id: L-xr-dK7p1Q
+  details:
     duration: 3583
-    published: 2022-08-30
-  JcDUTGtoXe8:
-    title: Dungeons and Daddies - S1E68 - I'm Going Home
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E68 - I'm Going Home
+  id: JcDUTGtoXe8
+  details:
     duration: 6744
-    published: 2022-08-30
-  J1MYk_thPU8:
-    title: Dungeons and Daddies - S1E48 - Carry On My Wayward Son
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E48 - Carry On My Wayward Son
+  id: J1MYk_thPU8
+  details:
     duration: 4083
-    published: 2022-08-30
-  IvPn6GId_3Y:
-    title: Dungeons and Daddies - S1E49 - Contact
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E49 - Contact
+  id: IvPn6GId_3Y
+  details:
     duration: 3758
-    published: 2022-08-30
-  IlVo9dEsCAw:
-    title: Dungeons and Daddies - S1E43 - Hardcore Henry
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E43 - Hardcore Henry
+  id: IlVo9dEsCAw
+  details:
     duration: 4224
-    published: 2022-08-30
-  I8xussV3VOA:
-    title: Dungeons and Daddies - S1E60 - Goblin
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E60 - Goblin
+  id: I8xussV3VOA
+  details:
     duration: 4240
-    published: 2022-08-30
-  H2w2mQWeoo8:
-    title: Dungeons and Daddies - S1E44 - Deck Picks
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E44 - Deck Picks
+  id: H2w2mQWeoo8
+  details:
     duration: 3903
-    published: 2022-08-30
-  Gk8bYDHe4xk:
-    title: Dungeons and Daddies - S1E06 - Support Your Local Library
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E06 - Support Your Local Library
+  id: Gk8bYDHe4xk
+  details:
     duration: 3542
-    published: 2022-08-30
-  GdrJNCqBKk8:
-    title: Dungeons and Daddies - S1E01 - A Man and His Handshake
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E01 - A Man and His Handshake
+  id: GdrJNCqBKk8
+  details:
     duration: 6268
-    published: 2022-08-30
-  GPma15OrwmY:
-    title: 'Dungeons and Daddies - S1E22 - Rich Dads, Poor Dads'
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dungeons and Daddies - S1E22 - Rich Dads, Poor Dads'
+  id: GPma15OrwmY
+  details:
     duration: 5038
-    published: 2022-08-30
-  GLugSkT6cUQ:
-    title: Dungeons and Daddies - S1E37 - Talking Sons
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E37 - Talking Sons
+  id: GLugSkT6cUQ
+  details:
     duration: 3374
-    published: 2022-08-30
-  EaoB7LgcKdQ:
-    title: Dungeons and Daddies - S1E05 - The Lord of Chaos Pt. III
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E05 - The Lord of Chaos Pt. III
+  id: EaoB7LgcKdQ
+  details:
     duration: 3446
-    published: 2022-08-30
-  EMbg-Rry8bI:
-    title: Dungeons and Daddies - S1E04 - The Lord of Chaos Pt. II
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E04 - The Lord of Chaos Pt. II
+  id: EMbg-Rry8bI
+  details:
     duration: 3556
-    published: 2022-08-30
-  Cu8RBR5BbiU:
-    title: Dungeons and Daddies - S1E56 - SWAP (SWitched Ass Papas)
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E56 - SWAP (SWitched Ass Papas)
+  id: Cu8RBR5BbiU
+  details:
     duration: 4325
-    published: 2022-08-30
-  CiyrGvgxxF8:
-    title: Dungeons and Daddies - S1E02 - The Ties that Bind
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E02 - The Ties that Bind
+  id: CiyrGvgxxF8
+  details:
     duration: 5784
-    published: 2022-08-30
-  9TvYz93hxVU:
-    title: Dungeons and Daddies - S1E39 - Forgotten Realms
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E39 - Forgotten Realms
+  id: 9TvYz93hxVU
+  details:
     duration: 4150
-    published: 2022-08-30
-  91Hjd-j2ddc:
-    title: Dungeons and Daddies - S1E25 - Mummy Issues
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E25 - Mummy Issues
+  id: 91Hjd-j2ddc
+  details:
     duration: 3790
-    published: 2022-08-30
-  7hxgI4r_TdQ:
-    title: Dungeons and Daddies - S1E30 - Van on the Run
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E30 - Van on the Run
+  id: 7hxgI4r_TdQ
+  details:
     duration: 4243
-    published: 2022-08-30
-  7C1qpvLQq8c:
-    title: Dungeons and Daddies - Bonus Episode -  Flight Risk (Featuring Hey Riddle Riddle)
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - Bonus Episode -  Flight Risk (Featuring Hey Riddle Riddle)
+  id: 7C1qpvLQq8c
+  details:
     duration: 4326
-    published: 2022-08-30
-  5pzGnssFMpw:
-    title: Dungeons and Daddies - S1E15 - 8 Simple Rules for Dadding my Teenage Paeden
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E15 - 8 Simple Rules for Dadding my Teenage Paeden
+  id: 5pzGnssFMpw
+  details:
     duration: 4074
-    published: 2022-08-30
-  5AKuaTAkpbI:
-    title: Dungeons and Daddies - S1E07 - The Battle Axe of Hatred
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E07 - The Battle Axe of Hatred
+  id: 5AKuaTAkpbI
+  details:
     duration: 4111
-    published: 2022-08-30
-  4RyV9xE2KF4:
-    title: Dungeons and Daddies - S1E12 - A Tale of Two Daddies
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E12 - A Tale of Two Daddies
+  id: 4RyV9xE2KF4
+  details:
     duration: 4206
-    published: 2022-08-30
-  4IOFFrTLzG4:
-    title: Dungeons and Daddies - S1E55 - Mark! A Vagrant (ft. Ashly Burch)
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E55 - Mark! A Vagrant (ft. Ashly Burch)
+  id: 4IOFFrTLzG4
+  details:
     duration: 4658
-    published: 2022-08-30
-  2YODBTSfCVs:
-    title: Dungeons and Daddies - S1E31 - Home! Err... the Odyssey!
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E31 - Home! Err... the Odyssey!
+  id: 2YODBTSfCVs
+  details:
     duration: 4303
-    published: 2022-08-30
-  2KIkNYOisv0:
-    title: Dungeons and Daddies - S1E18 - MMMPop!
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E18 - MMMPop!
+  id: 2KIkNYOisv0
+  details:
     duration: 4594
-    published: 2022-08-30
-  1osSpFJhhnA:
-    title: Dungeons and Daddies - S1E33 - Anchor Management
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E33 - Anchor Management
+  id: 1osSpFJhhnA
+  details:
     duration: 4208
-    published: 2022-08-30
-  1W4vVgYvoCY:
-    title: Dungeons and Daddies - S1E57 - Heroes of Moat and Magic
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons and Daddies - S1E57 - Heroes of Moat and Magic
+  id: 1W4vVgYvoCY
+  details:
     duration: 4210
-    published: 2022-08-30
-  ZblcpfrJD3E:
-    title: Will vs. JezzBall (Dungeons and Daddies - Ep. 53 - The Roc)
-    type: public
+    released: 2022-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: Will vs. JezzBall (Dungeons and Daddies - Ep. 53 - The Roc)
+  id: ZblcpfrJD3E
+  details:
     duration: 90
-    published: 2021-03-24
-  MFTUgL2E8AE:
-    title: Rocks Rock!
-    type: public
+    released: 2021-03-24
+    audience: public
+    privacy: public
+    type: video
+
+- title: Rocks Rock!
+  id: MFTUgL2E8AE
+  details:
     duration: 196
-    published: 2020-08-09
+    released: 2020-08-09
+    audience: public
+    privacy: public
+    type: video

@@ -31,144 +31,195 @@ but also:
     options you want added.
 */
 
-export type Catalog = {
-  handle: string;
-  id: string;
-  videos?: Record<
-    string,
-    {
+export class Catalog {
+  #channels?: {
+    id: string;
+    handle: string;
+    name: string;
+    videos: {
+      id: string;
       title: string;
-      type: "public" | "members" | "removed" | "unlisted";
-      duration: number;
-      published: string;
+      details?: {
+        released: string;
+        duration: number;
+        type: "video" | "stream" | "premiere" | "short";
+        audience: "public" | "members" | "premium" | "pay";
+        privacy: "public" | "unlisted" | "private" | "deleted";
+      };
+    }[];
+  }[];
+
+  async refresh(opts?: {
+    mode?: "quick" | "all" | "detailed";
+    channels?: string[];
+  }) {
+    const refreshMode = opts?.mode ?? "quick";
+
+    const channels = await this.channels();
+
+    await this.save();
+  }
+
+  async migrate(opts?: {}) {
+    await this.load({ legacy: true });
+    await this.save();
+  }
+
+  async channels() {
+    if (!this.#channels) {
+      await this.load();
     }
-  >;
-};
-
-export type Season = {
-  season: string;
-  from: string;
-  "sort by"?: "oldest" | `${string}=>${string}`;
-  debut: string;
-  cast?: string;
-  world?: string;
-  videos: Array<{
-    trailer?: string;
-    episode?: string;
-    animation?: string;
-    bts?: string;
-    special?: string;
-    external?: string;
-    public?: string;
-    "public parts"?: Array<string>;
-    members?: string;
-    dropout?: string;
-    published?: string;
-    duration?: number;
-  }>;
-};
-
-export type Playlist = {
-  name: string;
-  id?: string;
-  description: string;
-  include: {
-    from: "Dimension 20";
-    world?: string;
-    cast?: string;
-    season?: string | Array<string>;
-    type: Array<
-      "episode" | "special" | "trailer" | "bts" | "animation" | "external"
-    >;
-    version: Array<"public" | "members">;
-  };
-};
-
-export class App {
-  catalog: Array<Catalog>;
-  seasons: Array<Season>;
-  playlists: Array<Playlist>;
-
-  constructor() {
-    this.catalog = [];
-    this.seasons = [];
-    this.playlists = [];
+    return this.#channels!;
   }
 
-  async catalogue(
-    opts?: { quick?: "quick"; all?: "all"; exhaustive?: "exhaustive" },
-    ...channels: Array<string>
-  ): Promise<void> {
-    const mode = opts?.exhaustive ?? opts?.all ?? opts?.quick ?? "quick";
+  private async load(opts?: { legacy: boolean }) {
+    this.#channels = [];
 
-    await this.#load();
+    if (opts?.legacy) {
+      type LegacyCatalogueEntry = {
+        handle: string;
+        id: string;
+        videos?: Record<
+          string,
+          {
+            title: string;
+            type: "public" | "members";
+            duration: number;
+            published: string;
+          }
+        >;
+      };
+      const legacyCatalog = yaml.load(
+        "catalogue.yaml"
+      ) as unknown as LegacyCatalogueEntry[];
 
-    // If channel handles or IDs are specified, limit our search to those
-    // channels, otherwise catalog all known channels. If the specified channel
-    // ID doesn't exist in our catalog, raise an error.
+      console.log("loading", legacyCatalog.length);
 
-    const included = channels.length
-      ? this.catalog.filter(
-          (channel) =>
-            channels.includes(channel.handle) || channels.includes(channel.id)
-        )
-      : this.catalog;
-
-    // if mode is full, then we want to do an exhaustive listing of every video
-    // in the channel, fetching metadata for any we don't have, and using that
-    // listing to classify videos as "unlisted" or "deleted" if appropriate.
-    // we still won't redundantly fetch individual video details for listed videos
-    // we've already catalogued, unless the mode is set to "exhaustive".
-
-    // if mode is quick, we just scan the latest 32 videos, or keep going until
-    // we find a video that we haven't seen before.
-
-    await this.#save();
+      for (const entry of legacyCatalog) {
+        this.#channels.push({
+          id: entry.id,
+          handle: entry.handle,
+          name:
+            {
+              collegehumor: "CollegeHumor",
+              dimension20show: "Dimension 20",
+              dimension20shorts: "Dimension 20 Shorts",
+            }[entry.handle] ?? entry.handle,
+          videos: Object.entries(entry.videos ?? {}).map(([id, video]) => ({
+            title: video.title,
+            id,
+            details: {
+              duration: video.duration,
+              released: video.published,
+              audience: video.type == "members" ? "members" : "public",
+              privacy: "public",
+              type: "video",
+            },
+          })),
+        });
+      }
+    }
   }
 
-  async rebuildPlaylists(): Promise<void> {
-    await this.#save();
-  }
+  private async save() {
+    const catalog = await this.channels();
 
-  async publishPlaylists(): Promise<void> {}
-
-  async #load(): Promise<void> {
-    this.catalog = yaml.load("catalogue.yaml") as unknown as Array<Catalog>;
-    this.seasons = yaml.load("campaigns.yaml") as unknown as Array<Season>;
-    this.playlists = yaml.load("playlists.yaml") as unknown as Array<Playlist>;
-  }
-
-  async #save(): Promise<void> {
-    yaml.dump("catalogue.yaml", this.catalog);
-    await Deno.mkdir("data/catalog", { recursive: true });
     await yaml.dumpDirectory(
       "data/catalog",
       Object.fromEntries(
-        this.catalog.map((entry) => [pathComponent(entry.handle), entry])
-      )
-    );
-
-    yaml.dump("campaigns.yaml", this.seasons);
-    await Deno.mkdir("data/seasons", { recursive: true });
-    await yaml.dumpDirectory(
-      "data/seasons",
-      Object.fromEntries(
-        this.seasons.map((entry) => [
-          pathComponent([...new Set([entry.from, entry.season])].join(" - ")),
-          entry,
-        ])
-      )
-    );
-
-    yaml.dump("playlists.yaml", this.playlists);
-    await Deno.mkdir("data/playlists", { recursive: true });
-    await yaml.dumpDirectory(
-      "data/playlists",
-      Object.fromEntries(
-        this.playlists.map((entry) => [pathComponent(entry.name), entry])
+        catalog.map((entry) => [pathComponent(entry.name), entry])
       )
     );
   }
+}
+
+export class App {
+  catalog: Catalog;
+
+  constructor() {
+    this.catalog = new Catalog();
+  }
+
+  async migrate() {
+    await this.catalog.migrate();
+  }
+
+  // async catalogue(
+  //   opts?: { quick?: "quick"; all?: "all"; exhaustive?: "exhaustive" },
+  //   ...channels: string[]
+  // ): Promise<void> {
+  //   const mode = opts?.exhaustive ?? opts?.all ?? opts?.quick ?? "quick";
+
+  //   await this.#load();
+
+  //   // If channel handles or IDs are specified, limit our search to those
+  //   // channels, otherwise catalog all known channels. If the specified channel
+  //   // ID doesn't exist in our catalog, raise an error.
+
+  //   const included = channels.length
+  //     ? this.catalog.filter(
+  //         (channel) =>
+  //           channels.includes(channel.handle) || channels.includes(channel.id)
+  //       )
+  //     : this.catalog;
+
+  //   // if mode is full, then we want to do an exhaustive listing of every video
+  //   // in the channel, fetching metadata for any we don't have, and using that
+  //   // listing to classify videos as "unlisted" or "deleted" if appropriate.
+  //   // we still won't redundantly fetch individual video details for listed videos
+  //   // we've already catalogued, unless the mode is set to "exhaustive".
+
+  //   // if mode is quick, we just scan the latest 32 videos, or keep going until
+  //   // we find a video that we haven't seen before.
+
+  //   await this.#save();
+  // }
+
+  // async rebuildPlaylists(): Promise<void> {
+  //   await this.#save();
+  // }
+
+  // async publishPlaylists(): Promise<void> {}
+
+  // async #load(): Promise<void> {
+  //   this.catalog = yaml.load(
+  //     "catalogue.yaml"
+  //   ) as unknown as LegacyCatalogueEntry[];
+  //   this.seasons = yaml.load("campaigns.yaml") as unknown as Season[];
+  //   this.playlists = yaml.load("playlists.yaml") as unknown as Playlist[];
+  // }
+
+  // async #save(): Promise<void> {
+  //   yaml.dump("catalogue.yaml", this.catalog);
+  //   await Deno.mkdir("data/catalog", { recursive: true });
+  //   await yaml.dumpDirectory(
+  //     "data/catalog",
+  //     Object.fromEntries(
+  //       this.catalog.map((entry) => [pathComponent(entry.handle), entry])
+  //     )
+  //   );
+
+  //   yaml.dump("campaigns.yaml", this.seasons);
+  //   await Deno.mkdir("data/seasons", { recursive: true });
+  //   await yaml.dumpDirectory(
+  //     "data/seasons",
+  //     Object.fromEntries(
+  //       this.seasons.map((entry) => [
+  //         pathComponent([...new Set([entry.from, entry.season])].join(" - ")),
+  //         entry,
+  //       ])
+  //     )
+  //   );
+
+  //   yaml.dump("playlists.yaml", this.playlists);
+  //   await Deno.mkdir("data/playlists", { recursive: true });
+  //   await yaml.dumpDirectory(
+  //     "data/playlists",
+  //     Object.fromEntries(
+  //       this.playlists.map((entry) => [pathComponent(entry.name), entry])
+  //     )
+  //   );
+  // }
 }
 
 const pathComponent = (s: string): string => {

@@ -1,568 +1,1021 @@
-handle: umactually
 id: UCVQa3eDp9rFpKw3LZ3AsMCg
+handle: umactually
+name: umactually
 videos:
-  QNgjT0UV-JE:
-    title: 'Um, Actually Season 8 Trailer'
-    public: QNgjT0UV-JE
+
+- title: 'Um, Actually Season 8 Trailer'
+  id: QNgjT0UV-JE
+  details:
     duration: 100
-    published: 2023-03-17
-  o8dnt3jyaoY:
-    title: 'Star Trek, Species, Bionicle'
-    type: public
+    released: 2023-03-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Star Trek, Species, Bionicle'
+  id: o8dnt3jyaoY
+  details:
     duration: 2088
-    published: 2023-03-10
-  Cmc_rJ99afw:
-    title: 'The Nutcracker, The Nightmare Before Christmas, White Christmas'
-    type: public
+    released: 2023-03-10
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'The Nutcracker, The Nightmare Before Christmas, White Christmas'
+  id: Cmc_rJ99afw
+  details:
     duration: 1907
-    published: 2023-02-24
-  DmBUfTtrdwc:
-    title: '1984, Hunter x Hunter, Supernatural'
-    type: public
+    released: 2023-02-24
+    audience: public
+    privacy: public
+    type: video
+
+- title: '1984, Hunter x Hunter, Supernatural'
+  id: DmBUfTtrdwc
+  details:
     duration: 2154
-    published: 2023-02-10
-  1Us1jDjnExI:
-    title: 'Catwoman, Undertale, Clayface'
-    type: public
+    released: 2023-02-10
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Catwoman, Undertale, Clayface'
+  id: 1Us1jDjnExI
+  details:
     duration: 2076
-    published: 2023-01-27
-  7hSo3B58UDc:
-    title: 'Soulcalibur, Dread, The Sims: Livin'' Large'
-    type: public
+    released: 2023-01-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Soulcalibur, Dread, The Sims: Livin'' Large'
+  id: 7hSo3B58UDc
+  details:
     duration: 2119
-    published: 2023-01-13
-  kQoIytS2cLI:
-    title: 'The Haunting of Hill House, Hereditary, The Ring'
-    type: public
+    released: 2023-01-13
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'The Haunting of Hill House, Hereditary, The Ring'
+  id: kQoIytS2cLI
+  details:
     duration: 2216
-    published: 2022-12-30
-  aDArgeRNYTI:
-    title: 'Arrival, Dragon Ball Super, Elf With a Gun'
-    type: public
+    released: 2022-12-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Arrival, Dragon Ball Super, Elf With a Gun'
+  id: aDArgeRNYTI
+  details:
     duration: 2069
-    published: 2022-12-16
-  BAawlPofqR0:
-    title: 'Sunshine, Casper the Friendly Ghost, Sex Criminals'
-    type: public
+    released: 2022-12-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Sunshine, Casper the Friendly Ghost, Sex Criminals'
+  id: BAawlPofqR0
+  details:
     duration: 2144
-    published: 2022-11-18
-  EvvZH3ydJj4:
-    title: 'Um, Anime!'
-    type: public
+    released: 2022-11-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Anime!'
+  id: EvvZH3ydJj4
+  details:
     duration: 2056
-    published: 2022-11-04
-  gQd3ZxLNGFQ:
-    title: 'Alien vs Predator, The Beastmaster, ET'
-    type: public
+    released: 2022-11-04
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Alien vs Predator, The Beastmaster, ET'
+  id: gQd3ZxLNGFQ
+  details:
     duration: 1867
-    published: 2022-10-14
-  DKKb_YE8E8I:
-    title: 'Star Wars Names, HUDs, The Umbrella Academy'
-    type: public
+    released: 2022-10-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Star Wars Names, HUDs, The Umbrella Academy'
+  id: DKKb_YE8E8I
+  details:
     duration: 1710
-    published: 2022-09-30
-  LaO96dGr4yA:
-    title: ActuallyMania
-    type: public
+    released: 2022-09-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: ActuallyMania
+  id: LaO96dGr4yA
+  details:
     duration: 2078
-    published: 2022-09-16
-  0rppUHvUE9Q:
-    title: Battle of the Mods
-    type: public
+    released: 2022-09-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: Battle of the Mods
+  id: 0rppUHvUE9Q
+  details:
     duration: 1797
-    published: 2022-09-02
-  Rjm7R0MeqhA:
-    title: 'Demiliches, Isengard, I Am Legend'
-    type: public
+    released: 2022-09-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Demiliches, Isengard, I Am Legend'
+  id: Rjm7R0MeqhA
+  details:
     duration: 1918
-    published: 2022-08-19
-  JAVPzyt6IFs:
-    title: 'Monsters, Myths, and Folklore'
-    type: public
+    released: 2022-08-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Monsters, Myths, and Folklore'
+  id: JAVPzyt6IFs
+  details:
     duration: 2228
-    published: 2022-08-12
-  76cIF9sCshI:
-    title: The McElroy Melee
-    type: public
+    released: 2022-08-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: The McElroy Melee
+  id: 76cIF9sCshI
+  details:
     duration: 2249
-    published: 2022-07-29
-  t9R9Rq1KYx4:
-    title: Dystopias
-    type: public
+    released: 2022-07-29
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dystopias
+  id: t9R9Rq1KYx4
+  details:
     duration: 2116
-    published: 2022-07-15
-  N1j1evf4I3U:
-    title: 'Kim Possible, The Princess Bride, Sliders'
-    type: public
+    released: 2022-07-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Kim Possible, The Princess Bride, Sliders'
+  id: N1j1evf4I3U
+  details:
     duration: 2400
-    published: 2022-07-01
-  K38j91EiLKk:
-    title: Um Actually Season 7 Trailer
-    type: public
+    released: 2022-07-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: Um Actually Season 7 Trailer
+  id: K38j91EiLKk
+  details:
     duration: 106
-    published: 2022-07-01
-  HCANF0pTmdU:
-    title: Anglophilia
-    type: public
+    released: 2022-07-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: Anglophilia
+  id: HCANF0pTmdU
+  details:
     duration: 2375
-    published: 2022-06-17
-  K2XFuI8Yr_8:
-    title: 'Cabin in the Woods, Deadlands, Spider-Man Villains'
-    type: public
+    released: 2022-06-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Cabin in the Woods, Deadlands, Spider-Man Villains'
+  id: K2XFuI8Yr_8
+  details:
     duration: 2188
-    published: 2022-06-03
-  jd2DbDtZ6iE:
-    title: Nicktoons
-    type: public
+    released: 2022-06-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: Nicktoons
+  id: jd2DbDtZ6iE
+  details:
     duration: 1913
-    published: 2022-05-20
-  mVnuYYEY43Y:
-    title: Crew Battle
-    type: public
+    released: 2022-05-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: Crew Battle
+  id: mVnuYYEY43Y
+  details:
     duration: 2165
-    published: 2022-05-06
-  RnOPEgprI3s:
-    title: 'Return To Love, Actually!'
-    type: public
+    released: 2022-05-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Return To Love, Actually!'
+  id: RnOPEgprI3s
+  details:
     duration: 2212
-    published: 2022-04-22
-  _L6ZTxgVXnE:
-    title: Musicals Encore
-    type: public
+    released: 2022-04-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: Musicals Encore
+  id: _L6ZTxgVXnE
+  details:
     duration: 2295
-    published: 2022-04-08
-  uf_2HRhs8XA:
-    title: 'Magic: The Gathering'
-    type: public
+    released: 2022-04-08
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Magic: The Gathering'
+  id: uf_2HRhs8XA
+  details:
     duration: 2290
-    published: 2022-03-25
-  '-ER8pdzdzak':
-    title: Switcheroo!
-    type: public
+    released: 2022-03-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: Switcheroo!
+  id: '-ER8pdzdzak'
+  details:
     duration: 2331
-    published: 2022-03-11
-  DIQzH5VXnL8:
-    title: Stephen King
-    type: public
+    released: 2022-03-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: Stephen King
+  id: DIQzH5VXnL8
+  details:
     duration: 2314
-    published: 2022-02-25
-  l4PriW398WQ:
-    title: Anime
-    type: public
+    released: 2022-02-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: Anime
+  id: l4PriW398WQ
+  details:
     duration: 2318
-    published: 2022-02-11
-  ogNHJS598a0:
-    title: Disney
-    type: public
+    released: 2022-02-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: Disney
+  id: ogNHJS598a0
+  details:
     duration: 2000
-    published: 2022-01-26
-  ZY345V4HV0Q:
-    title: 'Um, Actually Season 6 Trailer'
-    public: ZY345V4HV0Q
+    released: 2022-01-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually Season 6 Trailer'
+  id: ZY345V4HV0Q
+  details:
     duration: 96
-    published: 2022-01-07
-  T3bnyaKSkLI:
-    title: Pokémon
-    type: public
+    released: 2022-01-07
+    audience: public
+    privacy: public
+    type: video
+
+- title: Pokémon
+  id: T3bnyaKSkLI
+  details:
     duration: 2331
-    published: 2021-12-31
-  GQBV-Px-33w:
-    title: Saturday Morning Cartoons
-    type: public
+    released: 2021-12-31
+    audience: public
+    privacy: public
+    type: video
+
+- title: Saturday Morning Cartoons
+  id: GQBV-Px-33w
+  details:
     duration: 2397
-    published: 2021-12-24
-  JXTZSi6q3xE:
-    title: Dungeons & Dragons All-Stars
-    type: public
+    released: 2021-12-24
+    audience: public
+    privacy: public
+    type: video
+
+- title: Dungeons & Dragons All-Stars
+  id: JXTZSi6q3xE
+  details:
     duration: 2289
-    published: 2021-12-17
-  dYavJ6hYymg:
-    title: All-Stars
-    type: public
+    released: 2021-12-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: All-Stars
+  id: dYavJ6hYymg
+  details:
     duration: 2328
-    published: 2021-12-10
-  BMcaTGl9ka8:
-    title: Marvel
-    type: public
+    released: 2021-12-10
+    audience: public
+    privacy: public
+    type: video
+
+- title: Marvel
+  id: BMcaTGl9ka8
+  details:
     duration: 2107
-    published: 2021-12-03
-  CLABbuM8S2A:
-    title: Muppets & Puppets
-    type: public
+    released: 2021-12-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: Muppets & Puppets
+  id: CLABbuM8S2A
+  details:
     duration: 2293
-    published: 2021-11-26
-  orrCyamsIG8:
-    title: 'Monopoly, My Little Pony, The Witcher'
-    type: public
+    released: 2021-11-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Monopoly, My Little Pony, The Witcher'
+  id: orrCyamsIG8
+  details:
     duration: 1820
-    published: 2021-11-19
-  rUQggtHUVPI:
-    title: 'Supergirl, Elder Scrolls, Sword Art Online'
-    type: public
+    released: 2021-11-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Supergirl, Elder Scrolls, Sword Art Online'
+  id: rUQggtHUVPI
+  details:
     duration: 2082
-    published: 2021-11-12
-  XbAp9tSPTdU:
-    title: 'Um, Academy! A Special Cinematic Episode'
-    type: public
+    released: 2021-11-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Academy! A Special Cinematic Episode'
+  id: XbAp9tSPTdU
+  details:
     duration: 1996
-    published: 2021-11-05
-  FqqiHhXg1_w:
-    title: 'Um, Aaah!ctually: Halloween Edition'
-    type: public
+    released: 2021-11-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Aaah!ctually: Halloween Edition'
+  id: FqqiHhXg1_w
+  details:
     duration: 2240
-    published: 2021-10-29
-  W7UTMYMWx44:
-    title: 'Invader Zim, Dark Souls, Stargate'
-    type: public
+    released: 2021-10-29
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Invader Zim, Dark Souls, Stargate'
+  id: W7UTMYMWx44
+  details:
     duration: 2040
-    published: 2021-10-22
-  pGJpnx5DZQw:
-    title: 'Indiana Jones, Futurama, Starship Troopers'
-    type: public
+    released: 2021-10-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Indiana Jones, Futurama, Starship Troopers'
+  id: pGJpnx5DZQw
+  details:
     duration: 1931
-    published: 2021-10-15
-  MBMAgkGjTcc:
-    title: 'Zelda, Aquaman, Neopets'
-    type: public
+    released: 2021-10-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Zelda, Aquaman, Neopets'
+  id: MBMAgkGjTcc
+  details:
     duration: 2017
-    published: 2021-10-08
-  6RlH27uEwL4:
-    title: 'God of War, Spirited Away, Dance Dance Revolution'
-    type: public
+    released: 2021-10-08
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'God of War, Spirited Away, Dance Dance Revolution'
+  id: 6RlH27uEwL4
+  details:
     duration: 1925
-    published: 2021-10-01
-  sj_Vf_zzuTk:
-    title: 'Legion, Lumberjanes, Nicolas Flamel'
-    type: public
+    released: 2021-10-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Legion, Lumberjanes, Nicolas Flamel'
+  id: sj_Vf_zzuTk
+  details:
     duration: 2068
-    published: 2021-09-24
-  CQEdNzOTK0o:
-    title: 'Doom, A Wizard of Earthsea, Avengers: Endgame'
-    type: public
+    released: 2021-09-24
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Doom, A Wizard of Earthsea, Avengers: Endgame'
+  id: CQEdNzOTK0o
+  details:
     duration: 1960
-    published: 2021-09-17
-  HS6yJHLbhwU:
-    title: 'D''oh! Actually: A Special Simpsons Episode'
-    type: public
+    released: 2021-09-17
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'D''oh! Actually: A Special Simpsons Episode'
+  id: HS6yJHLbhwU
+  details:
     duration: 2127
-    published: 2021-09-10
-  PIhMJ29IXRo:
-    title: 'Thundercats, Animorphs, Metal Wolf Chaos'
-    type: public
+    released: 2021-09-10
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Thundercats, Animorphs, Metal Wolf Chaos'
+  id: PIhMJ29IXRo
+  details:
     duration: 1941
-    published: 2021-09-03
-  dYa0SK_pUdc:
-    title: 'Love, Actually! (Um, Actually: All Love Edition)'
-    public: dYa0SK_pUdc
+    released: 2021-09-03
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Love, Actually! (Um, Actually: All Love Edition)'
+  id: dYa0SK_pUdc
+  details:
     duration: 2051
-    published: 2021-08-27
-  DBwUprEJbOU:
-    title: 'Pokémon, South Park, Discworld (With John Darnielle)'
-    type: public
+    released: 2021-08-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Pokémon, South Park, Discworld (With John Darnielle)'
+  id: DBwUprEJbOU
+  details:
     duration: 1751
-    published: 2021-08-20
-  7lI4xD53DRE:
-    title: 'Ender''s Game, Good Omens, Secret Wars'
-    type: public
+    released: 2021-08-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Ender''s Game, Good Omens, Secret Wars'
+  id: 7lI4xD53DRE
+  details:
     duration: 2025
-    published: 2021-08-13
-  DGEFliHCUW4:
-    title: 'Borderlands, Ticket to Ride, Into the Spider-Verse'
-    type: public
+    released: 2021-08-13
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Borderlands, Ticket to Ride, Into the Spider-Verse'
+  id: DGEFliHCUW4
+  details:
     duration: 2004
-    published: 2021-08-06
-  XMpGeyDMTPY:
-    title: 'Rick & Morty, The Muppets, Superman'
-    type: public
+    released: 2021-08-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Rick & Morty, The Muppets, Superman'
+  id: XMpGeyDMTPY
+  details:
     duration: 2034
-    published: 2021-07-30
-  pvzEaPpLq48:
-    title: The Um Actually Holiday Special
-    type: public
+    released: 2021-07-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: The Um Actually Holiday Special
+  id: pvzEaPpLq48
+  details:
     duration: 1935
-    published: 2021-07-23
-  FBAP8g4G45c:
-    title: 'Buffy the Vampire Slayer, M. Night Shyamalan, Final Fantasy X'
-    type: public
+    released: 2021-07-23
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Buffy the Vampire Slayer, M. Night Shyamalan, Final Fantasy X'
+  id: FBAP8g4G45c
+  details:
     duration: 2072
-    published: 2021-07-16
-  S_OgBiXMjRc:
-    title: 'Venture Brothers, Full Metal Alchemist, Conan the Barbarian'
-    type: public
+    released: 2021-07-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Venture Brothers, Full Metal Alchemist, Conan the Barbarian'
+  id: S_OgBiXMjRc
+  details:
     duration: 1948
-    published: 2021-07-09
-  OAd_jJlC4TY:
-    title: 'E.T., Green Lantern, Robin Hobb'
-    type: public
+    released: 2021-07-09
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'E.T., Green Lantern, Robin Hobb'
+  id: OAd_jJlC4TY
+  details:
     duration: 2177
-    published: 2021-07-02
-  7M9ou72XRe0:
-    title: 'Star Trek, Godzilla Island, Babylon 5'
-    type: public
+    released: 2021-07-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Star Trek, Godzilla Island, Babylon 5'
+  id: 7M9ou72XRe0
+  details:
     duration: 2104
-    published: 2021-06-25
-  LwZ00vkM_Cg:
-    title: 'Ghostbusters, Gateway, Gravity Falls'
-    type: public
+    released: 2021-06-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Ghostbusters, Gateway, Gravity Falls'
+  id: LwZ00vkM_Cg
+  details:
     duration: 2016
-    published: 2021-06-18
-  C51TuAxhUY0:
-    title: 'Sailor Moon, Pacific Rim, Fate/Stay Night'
-    type: public
+    released: 2021-06-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Sailor Moon, Pacific Rim, Fate/Stay Night'
+  id: C51TuAxhUY0
+  details:
     duration: 2137
-    published: 2021-06-11
-  JHdM7aVqfbU:
-    title: 'Stephen King, Warhammer 40,000, Dragon Age'
-    type: public
+    released: 2021-06-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Stephen King, Warhammer 40,000, Dragon Age'
+  id: JHdM7aVqfbU
+  details:
     duration: 1743
-    published: 2021-06-04
-  0_wA2f1ZTd4:
-    title: 'Homestar Runner, Hearthstone, Demolition Man'
-    type: public
+    released: 2021-06-04
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Homestar Runner, Hearthstone, Demolition Man'
+  id: 0_wA2f1ZTd4
+  details:
     duration: 1674
-    published: 2021-05-28
-  TOiOwX8hUmc:
-    title: 'Scott Pilgrim, Highlander, Dr. Doom'
-    type: public
+    released: 2021-05-28
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Scott Pilgrim, Highlander, Dr. Doom'
+  id: TOiOwX8hUmc
+  details:
     duration: 1746
-    published: 2021-05-21
-  bV0cjYLYTjM:
-    title: 'Um, Actually Home Game Kickstarter Announcement'
-    public: bV0cjYLYTjM
+    released: 2021-05-21
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually Home Game Kickstarter Announcement'
+  id: bV0cjYLYTjM
+  details:
     duration: 371
-    published: 2021-05-18
-  '-Akk6Rtt5uQ':
-    title: 'Predator, Mistborn, The Expanse'
-    type: public
+    released: 2021-05-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Predator, Mistborn, The Expanse'
+  id: '-Akk6Rtt5uQ'
+  details:
     duration: 1696
-    published: 2021-05-14
-  QLGc7VL0HUM:
-    title: 'The Dresden Files, Settlers of Catan, Fallout 4'
-    type: public
+    released: 2021-05-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'The Dresden Files, Settlers of Catan, Fallout 4'
+  id: QLGc7VL0HUM
+  details:
     duration: 1834
-    published: 2021-05-07
-  98HzbcRmmHk:
-    title: The Musical Theater Episode!
-    type: public
+    released: 2021-05-07
+    audience: public
+    privacy: public
+    type: video
+
+- title: The Musical Theater Episode!
+  id: 98HzbcRmmHk
+  details:
     duration: 1843
-    published: 2021-04-30
-  bd8-sUQzb7w:
-    title: A Very Special TV-Themed Episode
-    type: public
+    released: 2021-04-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: A Very Special TV-Themed Episode
+  id: bd8-sUQzb7w
+  details:
     duration: 1882
-    published: 2021-04-23
-  Ft6N64pPll0:
-    title: 'Gotham, The Good Place, The Black Cauldron'
-    type: public
+    released: 2021-04-23
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Gotham, The Good Place, The Black Cauldron'
+  id: Ft6N64pPll0
+  details:
     duration: 1925
-    published: 2021-04-16
-  96_HybKIQKs:
-    title: 'Ranma, JoJo''s Bizarre Adventure (Fans vs. Faves Pt. 4)'
-    type: public
+    released: 2021-04-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Ranma, JoJo''s Bizarre Adventure (Fans vs. Faves Pt. 4)'
+  id: 96_HybKIQKs
+  details:
     duration: 2053
-    published: 2021-04-09
-  SD-Z-7Y_KAY:
-    title: 'Kingdom Hearts, My Hero Academia (Fans vs. Faves Pt. 3)'
-    type: public
+    released: 2021-04-09
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Kingdom Hearts, My Hero Academia (Fans vs. Faves Pt. 3)'
+  id: SD-Z-7Y_KAY
+  details:
     duration: 2106
-    published: 2021-04-02
-  ThWOTXmV7Ag:
-    title: 'Stranger Things, Steven Spielberg (Fans vs. Faves Pt. 2)'
-    type: public
+    released: 2021-04-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Stranger Things, Steven Spielberg (Fans vs. Faves Pt. 2)'
+  id: ThWOTXmV7Ag
+  details:
     duration: 2151
-    published: 2021-03-26
-  _9BAc8SffUI:
-    title: 'Bob''s Burgers, Logan''s Run (Fans vs. Faves Pt. 1)'
-    type: public
+    released: 2021-03-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Bob''s Burgers, Logan''s Run (Fans vs. Faves Pt. 1)'
+  id: _9BAc8SffUI
+  details:
     duration: 2269
-    published: 2021-03-19
-  iAzph0s6CbI:
-    title: Tournament of Champions Pt. 4
-    type: public
+    released: 2021-03-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: Tournament of Champions Pt. 4
+  id: iAzph0s6CbI
+  details:
     duration: 2118
-    published: 2021-03-12
-  lXvdTgkboLo:
-    title: Tournament of Champions Pt. 3
-    type: public
+    released: 2021-03-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: Tournament of Champions Pt. 3
+  id: lXvdTgkboLo
+  details:
     duration: 1970
-    published: 2021-03-05
-  VPp3JCVwyAo:
-    title: Tournament of Champions Pt. 2
-    type: public
+    released: 2021-03-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: Tournament of Champions Pt. 2
+  id: VPp3JCVwyAo
+  details:
     duration: 2158
-    published: 2021-02-26
-  9RdNoaeRkYU:
-    title: Tournament of Champions Pt. 1
-    type: public
+    released: 2021-02-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: Tournament of Champions Pt. 1
+  id: 9RdNoaeRkYU
+  details:
     duration: 2362
-    published: 2021-02-19
-  T4p7i6W3XRI:
-    title: 'Jabberwocky, Gelatinous Cubes, Magic: the Gathering'
-    type: public
+    released: 2021-02-19
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Jabberwocky, Gelatinous Cubes, Magic: the Gathering'
+  id: T4p7i6W3XRI
+  details:
     duration: 2195
-    published: 2021-02-12
-  reyJ57SIHhs:
-    title: 'Mortal Kombat, Element Stones, The Matrix: Reloaded'
-    type: public
+    released: 2021-02-12
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Mortal Kombat, Element Stones, The Matrix: Reloaded'
+  id: reyJ57SIHhs
+  details:
     duration: 2206
-    published: 2021-02-05
-  eiPVhsUW47o:
-    title: 'Hodor, Portable Holes, Philip K. Dick (with Kristian Nairn)'
-    type: public
+    released: 2021-02-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Hodor, Portable Holes, Philip K. Dick (with Kristian Nairn)'
+  id: eiPVhsUW47o
+  details:
     duration: 2187
-    published: 2021-01-29
-  jfy8HMiwoig:
-    title: 'Ms. Pac-Man, Mick Foley, Marvel Apes'
-    type: public
+    released: 2021-01-29
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Ms. Pac-Man, Mick Foley, Marvel Apes'
+  id: jfy8HMiwoig
+  details:
     duration: 2350
-    published: 2021-01-22
-  nh2I61z7nQA:
-    title: 'Cyclops, Skeletor, the Dark Crystal'
-    type: public
+    released: 2021-01-22
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Cyclops, Skeletor, the Dark Crystal'
+  id: nh2I61z7nQA
+  details:
     duration: 2190
-    published: 2021-01-15
-  P7vwekQuGls:
-    title: 'Sonic, Shredder, the Sword in the Stone'
-    type: public
+    released: 2021-01-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Sonic, Shredder, the Sword in the Stone'
+  id: P7vwekQuGls
+  details:
     duration: 2154
-    published: 2021-01-08
-  64qDiKBD6i0:
-    title: 'Monty Python, Shōnen Manga, Mr. Burns'
-    type: public
+    released: 2021-01-08
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Monty Python, Shōnen Manga, Mr. Burns'
+  id: 64qDiKBD6i0
+  details:
     duration: 2192
-    published: 2021-01-01
-  MtcdhCXlvvA:
-    title: 'Wario, Winnie the Pooh, A Wrinkle in Time'
-    type: public
+    released: 2021-01-01
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Wario, Winnie the Pooh, A Wrinkle in Time'
+  id: MtcdhCXlvvA
+  details:
     duration: 2074
-    published: 2020-12-25
-  83UOEWKpBeA:
-    title: 'Diablo, Diddy Kong, Dora Milaje'
-    type: public
+    released: 2020-12-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Diablo, Diddy Kong, Dora Milaje'
+  id: 83UOEWKpBeA
+  details:
     duration: 1411
-    published: 2020-12-18
-  xyViPMplguU:
-    title: 'Kill Lists, Charybdis, Cookie Crisp (with Mike Mearls)'
-    type: public
+    released: 2020-12-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Kill Lists, Charybdis, Cookie Crisp (with Mike Mearls)'
+  id: xyViPMplguU
+  details:
     duration: 1153
-    published: 2020-12-11
-  VjIDgX5gWy4:
-    title: 'Robots, Rhydon, Staff of Ra'
-    type: public
+    released: 2020-12-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Robots, Rhydon, Staff of Ra'
+  id: VjIDgX5gWy4
+  details:
     duration: 1167
-    published: 2020-12-04
-  03BEcTxR1rA:
-    title: 'Father Figures, Frog Thor, Fusion Gems'
-    type: public
+    released: 2020-12-04
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Father Figures, Frog Thor, Fusion Gems'
+  id: 03BEcTxR1rA
+  details:
     duration: 1500
-    published: 2020-11-27
-  FRGoLMIifQs:
-    title: 'Mako Stones, Mephisto, Mudbloods (with Jonathan Coulton)'
-    type: public
+    released: 2020-11-27
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Mako Stones, Mephisto, Mudbloods (with Jonathan Coulton)'
+  id: FRGoLMIifQs
+  details:
     duration: 1297
-    published: 2020-11-20
-  DphtFdAoscc:
-    title: 'Skaven, Watchmen, The Neverending Story'
-    type: public
+    released: 2020-11-20
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Skaven, Watchmen, The Neverending Story'
+  id: DphtFdAoscc
+  details:
     duration: 1295
-    published: 2020-11-13
-  9CR7qBcdMjA:
-    title: 'Nothlits, Dust Bunnies, His Dark Materials'
-    type: public
+    released: 2020-11-13
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Nothlits, Dust Bunnies, His Dark Materials'
+  id: 9CR7qBcdMjA
+  details:
     duration: 1205
-    published: 2020-11-06
-  bk8y60W61es:
-    title: 'Bilquis, Black Panther, Battlestar Galactica'
-    type: public
+    released: 2020-11-06
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Bilquis, Black Panther, Battlestar Galactica'
+  id: bk8y60W61es
+  details:
     duration: 1276
-    published: 2020-10-30
-  ppPX9F0kEys:
-    title: 'Jump Man, Folklore, Hounds of Tindalos'
-    type: public
+    released: 2020-10-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Jump Man, Folklore, Hounds of Tindalos'
+  id: ppPX9F0kEys
+  details:
     duration: 1407
-    published: 2020-10-23
-  WKP9XcCEhho:
-    title: 'Mouth of Sauron, Saiyan Tails, Bothan Spies'
-    type: public
+    released: 2020-10-23
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Mouth of Sauron, Saiyan Tails, Bothan Spies'
+  id: WKP9XcCEhho
+  details:
     duration: 1343
-    published: 2020-10-16
-  nMedD6E6BZ8:
-    title: 'Pevensie Reign, Foreign Mutants, Kanto Clones'
-    type: public
+    released: 2020-10-16
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Pevensie Reign, Foreign Mutants, Kanto Clones'
+  id: nMedD6E6BZ8
+  details:
     duration: 1241
-    published: 2020-10-09
-  J8ZuoNkkt88:
-    title: 'Animalities, Maple Street Monsters, Mutagen Ooze'
-    type: public
+    released: 2020-10-09
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Animalities, Maple Street Monsters, Mutagen Ooze'
+  id: J8ZuoNkkt88
+  details:
     duration: 1390
-    published: 2020-10-02
-  aLz9XCAGBSY:
-    title: 'Ganondorf, Gremlins, Geography of Westeros'
-    type: public
+    released: 2020-10-02
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Ganondorf, Gremlins, Geography of Westeros'
+  id: aLz9XCAGBSY
+  details:
     duration: 1238
-    published: 2020-09-25
-  MYklBhWHVQ8:
-    title: 'Cyborg Cops, Shai''Hulud, Sci-Fi Substance Abuse [Full Episode]'
-    type: public
+    released: 2020-09-25
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Cyborg Cops, Shai''Hulud, Sci-Fi Substance Abuse [Full Episode]'
+  id: MYklBhWHVQ8
+  details:
     duration: 1378
-    published: 2020-09-18
-  ZtMM2c__sfw:
-    title: 'C-3PO''s Origins, HP Lovecraft, the Food Album (with Weird Al Yankovic) [Full Episode]'
-    type: public
+    released: 2020-09-18
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'C-3PO''s Origins, HP Lovecraft, the Food Album (with Weird Al Yankovic) [Full Episode]'
+  id: ZtMM2c__sfw
+  details:
     duration: 1312
-    published: 2020-09-11
-  3yQYVRzuP7M:
-    title: Um Actually LIVE! @ Comic Con (NY)
-    type: public
+    released: 2020-09-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: Um Actually LIVE! @ Comic Con (NY)
+  id: 3yQYVRzuP7M
+  details:
     duration: 3194
-    published: 2019-10-04
-  ZsZjFAfJJ3c:
-    title: 'Um, Actually: Bigger, Longer, and Wronger [Full Episode]'
-    public: ZsZjFAfJJ3c
+    released: 2019-10-04
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually: Bigger, Longer, and Wronger [Full Episode]'
+  id: ZsZjFAfJJ3c
+  details:
     duration: 1395
-    published: 2018-10-04
-  VpExylE3C9Q:
-    title: 'Um, Actually: Star Trek, Schwarzenegger, and Stoker'
-    public: VpExylE3C9Q
+    released: 2018-10-04
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually: Star Trek, Schwarzenegger, and Stoker'
+  id: VpExylE3C9Q
+  details:
     duration: 703
-    published: 2018-09-15
-  AUabsUtAeiw:
-    title: 'Um, Actually: Make-Up, Maps, and Mythical Dragons'
-    public: AUabsUtAeiw
+    released: 2018-09-15
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually: Make-Up, Maps, and Mythical Dragons'
+  id: AUabsUtAeiw
+  details:
     duration: 705
-    published: 2018-08-30
-  5imeyaGEIdU:
-    title: 'Um, Actually Ep. 7: House Crests, House Crushings, and the Kongs'
-    public: 5imeyaGEIdU
+    released: 2018-08-30
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually Ep. 7: House Crests, House Crushings, and the Kongs'
+  id: 5imeyaGEIdU
+  details:
     duration: 597
-    published: 2018-07-28
-  6zWTMF7kLSI:
-    title: 'Um, Actually Ep. 6: Monsters, Moogles, and Side Mirrors'
-    public: 6zWTMF7kLSI
+    released: 2018-07-28
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually Ep. 6: Monsters, Moogles, and Side Mirrors'
+  id: 6zWTMF7kLSI
+  details:
     duration: 695
-    published: 2018-06-28
-  '-dactFGD2qU':
-    title: 'Um, Actually: the Game Show of Nerdy Corrections (Ep. 5)'
-    public: '-dactFGD2qU'
+    released: 2018-06-28
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually: the Game Show of Nerdy Corrections (Ep. 5)'
+  id: '-dactFGD2qU'
+  details:
     duration: 557
-    published: 2017-12-11
-  _1mTP75jVC8:
-    title: Um Actually Strikes Back (Ep 4)
-    type: public
+    released: 2017-12-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: Um Actually Strikes Back (Ep 4)
+  id: _1mTP75jVC8
+  details:
     duration: 572
-    published: 2017-07-11
-  gBVRvVMWIA8:
-    title: 'Um Actually: The Game Show Where Nerds Correct Nerds (Episode 3)'
-    type: public
+    released: 2017-07-11
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um Actually: The Game Show Where Nerds Correct Nerds (Episode 3)'
+  id: gBVRvVMWIA8
+  details:
     duration: 387
-    published: 2015-04-21
-  IETbROVCYJ4:
-    title: 'Um Actually: The Game Show Where Nerds Correct Nerds (Episode 2)'
-    type: public
+    released: 2015-04-21
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um Actually: The Game Show Where Nerds Correct Nerds (Episode 2)'
+  id: IETbROVCYJ4
+  details:
     duration: 384
-    published: 2015-03-05
-  Qam4iiya1q0:
-    title: 'Um, Actually: The Game Show Where Nerds Correct Nerds'
-    public: Qam4iiya1q0
+    released: 2015-03-05
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Um, Actually: The Game Show Where Nerds Correct Nerds'
+  id: Qam4iiya1q0
+  details:
     duration: 265
-    published: 2015-01-17
+    released: 2015-01-17
+    audience: public
+    privacy: public
+    type: video

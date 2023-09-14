@@ -9,6 +9,8 @@ setParserErrorHandler(() => {});
 
 const env = await dotenv.load();
 
+console.log(env);
+
 export const youtubei = await Innertube.create({
   cookie: env["YOUTUBE_COOKIE"],
   retrieve_player: false,

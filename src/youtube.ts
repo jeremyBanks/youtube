@@ -3,14 +3,15 @@ import { Innertube } from "../../YouTube.js/deno.ts";
 import { setParserErrorHandler } from "../../YouTube.js/deno/src/parser/parser.ts";
 import PlaylistVideo from "../../YouTube.js/deno/src/parser/classes/PlaylistVideo.ts";
 import { miliseconds } from "./common.ts";
+import * as dotenv from "https://deno.land/std@0.201.0/dotenv/mod.ts";
 
 setParserErrorHandler(() => {});
 
+const env = await dotenv.load();
+
 export const youtubei = await Innertube.create({
-  cookie: (localStorage.youtubeCookie =
-    Deno.env.get("YOUTUBE_COOKIE") ?? localStorage.youtubeCookie),
-  on_behalf_of_user: (localStorage.onBehalfOfUser =
-    Deno.env.get("ON_BEHALF_OF_USER") ?? localStorage.onBehalfOfUser),
+  cookie: env["YOUTUBE_COOKIE"],
+  on_behalf_of_user: env["ON_BEHALF_OF_USER"],
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await miliseconds(Math.random() * 4_000);
@@ -24,8 +25,7 @@ export const youtubei = await Innertube.create({
 });
 
 export const youtubeiDefaultUser = await Innertube.create({
-  cookie: (localStorage.youtubeCookie =
-    Deno.env.get("YOUTUBE_COOKIE") ?? localStorage.youtubeCookie),
+  cookie: env["YOUTUBE_COOKIE"],
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await miliseconds(Math.random() * 4_000);

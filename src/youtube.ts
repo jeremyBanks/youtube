@@ -2,17 +2,15 @@
 import { Innertube } from "../../YouTube.js/deno.ts";
 import { setParserErrorHandler } from "../../YouTube.js/deno/src/parser/parser.ts";
 import PlaylistVideo from "../../YouTube.js/deno/src/parser/classes/PlaylistVideo.ts";
-import { miliseconds } from "./common.ts";
+import { miliseconds, raise } from "./common.ts";
 import * as dotenv from "https://deno.land/std@0.201.0/dotenv/mod.ts";
 
 setParserErrorHandler(() => {});
 
 const env = await dotenv.load();
 
-console.log(env);
-
 export const youtubei = await Innertube.create({
-  cookie: env["YOUTUBE_COOKIE"],
+  cookie: env["YOUTUBE_COOKIE"] || raise("missing YOUTUBE_COOKIE"),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await miliseconds(Math.random() * 4_000);
@@ -26,7 +24,7 @@ export const youtubei = await Innertube.create({
 });
 
 export const youtubeiDefaultUser = await Innertube.create({
-  cookie: env["YOUTUBE_COOKIE"],
+  cookie: env["YOUTUBE_COOKIE"] || raise("missing YOUTUBE_COOKIE"),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await miliseconds(Math.random() * 4_000);

@@ -3,6 +3,15 @@ handle: collegehumor
 name: CollegeHumor
 videos:
 
+- title: Bit City USA
+  id: RQSyTzmsavs
+  details:
+    duration: 2239
+    released: 2023-09-14
+    audience: members
+    privacy: public
+    type: video
+
 - title: 'Case Closed | Dimension 20: Mentopolis Season 1 | Ep. 6'
   id: e_AudUzv2-U
   details:

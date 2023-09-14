@@ -3,6 +3,24 @@ handle: collegehumor
 name: CollegeHumor
 videos:
 
+- title: 'Case Closed | Dimension 20: Mentopolis Season 1 | Ep. 6'
+  id: e_AudUzv2-U
+  details:
+    duration: 6902
+    released: 2023-09-13
+    audience: members
+    privacy: public
+    type: video
+
+- title: Who Threw Pretzels at a Couple Having Sex? | Dirty Laundry Season 3 | Ep. 1
+  id: CjvgyJW3HR0
+  details:
+    duration: 2619
+    released: 2023-09-12
+    audience: members
+    privacy: public
+    type: video
+
 - title: The Speech MLK Really Wanted to Give Instead of 'I Have a Dream' | Make Some Noise Season 2 | Ep. 8
   id: uNNqbSE_QSc
   details:

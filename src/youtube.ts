@@ -11,15 +11,9 @@ const env = await dotenv.load();
 
 export const youtubei = await Innertube.create({
   cookie: env["YOUTUBE_COOKIE"],
-  // https://myaccount.google.com/brandaccounts
-  on_behalf_of_user: env["ON_BEHALF_OF_USER"],
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     await miliseconds(Math.random() * 4_000);
-
-    // opts = (opts ?? {}).headers = { "X-Goog-Pageid": env["ON_BEHALF_OF_USER"] };
-
-    // XXX: I need X-Goog-Pageid now?!
 
     const response = await fetch(req, opts);
 

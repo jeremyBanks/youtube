@@ -3,6 +3,24 @@ handle: criticalrole
 name: criticalrole
 videos:
 
+- title: 'Not Made To Be Quiet | Critical Role Campaign 3, Episode 71'
+  id: cBpLo3Zf31o
+  details:
+    duration: 24
+    released: 2023-09-14
+    audience: public
+    privacy: public
+    type: video
+
+- title: Let's Play Queen by Midnight!
+  id: ODcL1mrNCmo
+  details:
+    duration: 10624
+    released: 2023-09-14
+    audience: public
+    privacy: public
+    type: video
+
 - title: MIDST | Weather | Season 2 Episode 4
   id: xFUa0lCgfFY
   details:

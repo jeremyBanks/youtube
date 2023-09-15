@@ -4,7 +4,7 @@ import {
   Video,
 } from "../../../YouTube.js/deno/src/parser/nodes.ts";
 import * as yaml from "../yaml.ts";
-import { youtubeiDefaultUser as youtubei } from "../youtube.ts";
+import { youtubei } from "../youtube.ts";
 
 const catalogue = yaml.load("catalogue.yaml") as Array<{
   handle: string;

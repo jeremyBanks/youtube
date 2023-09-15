@@ -13,25 +13,22 @@ export const youtubei = await Innertube.create({
   cookie: env["YOUTUBE_COOKIE"] || raise("missing YOUTUBE_COOKIE"),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
-    await miliseconds(Math.random() * 4_000);
+    let sleep = Math.round(
+      1000 +
+        15000 *
+          (Math.random() +
+            Math.random());
+    await miliseconds(sleep);
 
+    const before = Date.now();
     const response = await fetch(req, opts);
+    const duration = Date.now() - before;
 
-    console.log(response.status, response.url);
-
-    return response;
-  },
-});
-
-export const youtubeiDefaultUser = await Innertube.create({
-  cookie: env["YOUTUBE_COOKIE"] || raise("missing YOUTUBE_COOKIE"),
-  retrieve_player: false,
-  fetch: async (req: any, opts: any) => {
-    await miliseconds(Math.random() * 4_000);
-
-    const response = await fetch(req, opts);
-
-    console.log(response.status, response.url);
+    console.log(
+      response.status,
+      response.url,
+      `${duration}ms after sleeping ${sleep}ms`
+    );
 
     return response;
   },

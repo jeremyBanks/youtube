@@ -2,7 +2,7 @@
   "tasks": {
     "check": "deno check src/bin/*.ts",
     "app": "deno run --allow-read=. --allow-write=. src/bin/app.ts",
-    "catalogue": "deno run --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=. --allow-write=. --allow-net=www.youtube.com src/bin/catalogue.ts",
-    "playlists": "deno run --allow-env=YOUTUBE_COOKIE,ON_BEHALF_OF_USER --allow-read=. --allow-write=. --allow-net=www.youtube.com src/bin/playlists.ts"
+    "catalogue": "deno run --allow-env=YOUTUBE_COOKIE --allow-read=. --allow-write=. --allow-net=www.youtube.com src/bin/catalogue.ts",
+    "playlists": "deno run --allow-env=YOUTUBE_COOKIE --allow-read=. --allow-write=. --allow-net=www.youtube.com src/bin/playlists.ts"
   }
 }

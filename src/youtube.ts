@@ -13,11 +13,7 @@ export const youtubei = await Innertube.create({
   cookie: env["YOUTUBE_COOKIE"] || raise("missing YOUTUBE_COOKIE"),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
-    let sleep = Math.round(
-      1000 +
-        15000 *
-          (Math.random() +
-            Math.random());
+    let sleep = Math.round(1000 + 7500 * (Math.random() + Math.random()));
     await miliseconds(sleep);
 
     const before = Date.now();

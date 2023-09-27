@@ -3,6 +3,60 @@ handle: collegehumor
 name: CollegeHumor
 videos:
 
+- title: Dropout's 5th Anniversary (and What's Coming Next)
+  id: bvX3oinPTCg
+  details:
+    duration: 307
+    released: 2023-09-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: Who Got High and Reenacted a Concert Using Eggs? | Dirty Laundry Season 3 | Ep. 2
+  id: OD57m2YVfyI
+  details:
+    duration: 2830
+    released: 2023-09-26
+    audience: members
+    privacy: public
+    type: video
+
+- title: The Wicked Switch of the West | Make Some Noise Season 2 | Ep. 9
+  id: KZzju4QrPMo
+  details:
+    duration: 2216
+    released: 2023-09-25
+    audience: members
+    privacy: public
+    type: video
+
+- title: Grant Likes to Smoke | Dirty Laundry Cocktail Recipes
+  id: VqLFDCriJ7U
+  details:
+    duration: 167
+    released: 2023-09-19
+    audience: members
+    privacy: public
+    type: video
+
+- title: Elevator Pitch | Play It By Ear Season 2 | Ep. 9
+  id: 2587_TRmR4M
+  details:
+    duration: 2062
+    released: 2023-09-19
+    audience: members
+    privacy: public
+    type: video
+
+- title: 'Breaking News: The Musical | Breaking News Season 6 | Ep. 8'
+  id: VAOwllo9fIU
+  details:
+    duration: 521
+    released: 2023-09-18
+    audience: members
+    privacy: public
+    type: video
+
 - title: Bit City USA
   id: RQSyTzmsavs
   details:

@@ -3,6 +3,24 @@ handle: dimension20show
 name: Dimension 20
 videos:
 
+- title: 'Fantasy High: Junior Year Teaser'
+  id: XvDk6C1zvuI
+  details:
+    duration: 34
+    released: 2023-09-26
+    audience: public
+    privacy: public
+    type: video
+
+- title: 'Dimension 20: Burrow''s End Trailer'
+  id: 77sEmjobpjg
+  details:
+    duration: 143
+    released: 2023-09-20
+    audience: public
+    privacy: public
+    type: video
+
 - title: 'The Big Guy | Dimension 20: Mentopolis [Full Episode]'
   id: 9pT1OhH3F1Y
   details:

@@ -1285,6 +1285,8 @@ videos:
 
 - e_AudUzv2-U: 6. Case Closed
 
+- RQSyTzmsavs: Bit City USA
+
 ---
 
 name: Dimension 20 (Free Episodes)
@@ -1677,7 +1679,7 @@ videos:
 name: 'Dimension 20: Fantasy High (Episodes and Extras)'
 id: PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R
 description: |
-  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from both seasons of Fantasy High, a series of campaigns from Dimension 20.
+  ${hours}-hour playlist of all episodes, talkbacks, trailers, and animations from all seasons of Fantasy High, a series of campaigns from Dimension 20.
 
   ${d20blurb}
 include:
@@ -1692,6 +1694,7 @@ include:
   season:
   - Fantasy High (Chapter 1)
   - Fantasy High (Chapter 2)
+  - Fantasy High (Chapter 3)
 videos:
 
 - p-eY2tDgXsY: Fantasy High Trailer

@@ -97,12 +97,19 @@ class List {
 
 for (
   const [input, output, name] of [
-    ["abcdefghij", "abcdefghij", "unchanged"],
-    ["abcdefghij", "jabcdefghi", "tail to head"],
-    ["abcdefghij", "bcdefghija", "head to tail"],
-    ["abcdefghij", "edcbafghij", "head half reversal"],
-    ["abcdefghij", "abcdejihgf", "tail half reversal"],
-    ["abcdefghij", "jihgfedcba", "reversal"],
+    // only re-orderings
+    ["abcdefghij", "abcdefghij", "0 unchanged"],
+    ["abcdefghij", "jabcdefghi", "1 tail to head"],
+    ["abcdefghij", "bcdefghija", "1 head to tail"],
+    ["abcdefghij", "edcbafghij", "4 head half reversal"],
+    ["abcdefghij", "abcdejihgf", "4 tail half reversal"],
+    ["abcdefghij", "jihgfedcba", "9 reversal"],
+    // with insertions
+    ["abcdefghij", "abcdefghijk", "1 append"],
+    ["abcdefghij", "zabcdefghij", "1 unshift"],
+    // with removals
+    ["abcdefghij", "abcdefghi", "1 pop"],
+    ["abcdefghij", "bcdefghij", "1 shift"],
   ].map(
     ([input, output, name]) =>
       [new List(input), new List(output), name] as const,
@@ -144,8 +151,16 @@ for (
     const state = input.clone();
     sorter(state, output);
     console.log(
-      " ",
-      state.modifications.toString().padStart(3).padEnd(4),
+      `  %c${state.modifications.toString().padStart(3).padEnd(4)}`,
+      state.modifications == 0
+        ? "color: cyan;"
+        : state.modifications <= 5
+        ? "color: green;"
+        : state.modifications <= 10
+        ? "color: yellow;"
+        : state.modifications <= 15
+        ? "color: orange;"
+        : "color: red;",
       sorter.name,
     );
     if (!state.equals) {

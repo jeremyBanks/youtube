@@ -9,8 +9,8 @@ setParserErrorHandler(() => {});
 
 const env = await dotenv.load();
 
-export const youtubei = await Innertube.create({
-  cookie: env["YOUTUBE_COOKIE"] || raise("missing YOUTUBE_COOKIE"),
+export const youtubeiReader = await Innertube.create({
+  cookie: env["READER_COOKIE"] || raise("missing READER_COOKIE"),
   retrieve_player: false,
   fetch: async (req: any, opts: any) => {
     let sleep = Math.round(1000 + 7500 * (Math.random() + Math.random()));
@@ -23,7 +23,28 @@ export const youtubei = await Innertube.create({
     console.log(
       response.status,
       response.url,
-      `${duration}ms after sleeping ${sleep}ms`
+      `${duration}ms after sleeping ${sleep}ms`,
+    );
+
+    return response;
+  },
+});
+
+export const youtubeiWriter = await Innertube.create({
+  cookie: env["WRITER_COOKIE"] || raise("missing WRITER_COOKIE"),
+  retrieve_player: false,
+  fetch: async (req: any, opts: any) => {
+    let sleep = Math.round(1000 + 7500 * (Math.random() + Math.random()));
+    await miliseconds(sleep);
+
+    const before = Date.now();
+    const response = await fetch(req, opts);
+    const duration = Date.now() - before;
+
+    console.log(
+      response.status,
+      response.url,
+      `${duration}ms after sleeping ${sleep}ms`,
     );
 
     return response;
@@ -34,11 +55,11 @@ export const setPlaylist = async (
   playlistId: string,
   title: string,
   description: string,
-  videoIds: Array<string>
+  videoIds: Array<string>,
 ) => {
   console.log("Publishing", videoIds.length, "videos to", playlistId);
 
-  let pi = await youtubei.getPlaylist(playlistId);
+  let pi = await youtubeiWriter.getPlaylist(playlistId);
   const all = pi.items.map((item) => (item as PlaylistVideo).id);
   while (pi.has_continuation) {
     pi = await pi.getContinuation();
@@ -49,11 +70,13 @@ export const setPlaylist = async (
 
   if (pi.info.title?.trim() !== title.trim()) {
     console.log(
-      `Playlist title / name is out-of-date, updating it (from ${JSON.stringify(
-        pi.info.title
-      )} to ${JSON.stringify(title)}})...`
+      `Playlist title / name is out-of-date, updating it (from ${
+        JSON.stringify(
+          pi.info.title,
+        )
+      } to ${JSON.stringify(title)}})...`,
     );
-    const response = await youtubei.playlist.setName(playlistId, title);
+    const response = await youtubeiWriter.playlist.setName(playlistId, title);
     console.debug(response);
   } else {
     console.log("Title is still up-to-date");
@@ -64,13 +87,15 @@ export const setPlaylist = async (
     pi.info.description?.trim() !== description.trim()
   ) {
     console.log(
-      `Playlist description is out-of-date, updating it (from ${JSON.stringify(
-        pi.info.description
-      )} to ${JSON.stringify(description)}})...`
+      `Playlist description is out-of-date, updating it (from ${
+        JSON.stringify(
+          pi.info.description,
+        )
+      } to ${JSON.stringify(description)}})...`,
     );
-    const response = await youtubei.playlist.setDescription(
+    const response = await youtubeiWriter.playlist.setDescription(
       playlistId,
-      description
+      description,
     );
     console.debug(response);
   }
@@ -91,14 +116,14 @@ export const setPlaylist = async (
         toAdd.shift();
       }
       console.log(
-        `Leaving ${leaving} videos in-place, removing ${toRemove.length} and adding ${toAdd.length}.`
+        `Leaving ${leaving} videos in-place, removing ${toRemove.length} and adding ${toAdd.length}.`,
       );
 
       if (toRemove.length) {
-        await youtubei.playlist.removeVideos(playlistId, toRemove);
+        await youtubeiWriter.playlist.removeVideos(playlistId, toRemove);
       }
       if (toAdd.length) {
-        await youtubei.playlist.addVideos(playlistId, toAdd);
+        await youtubeiWriter.playlist.addVideos(playlistId, toAdd);
       }
     } catch (error) {
       console.error(error, "\n" + JSON.stringify(videoIds));

@@ -4,7 +4,7 @@ import {
   Video,
 } from "../../../YouTube.js/deno/src/parser/nodes.ts";
 import * as yaml from "../yaml.ts";
-import { youtubei } from "../youtube.ts";
+import { youtubeiReader } from "../youtube.ts";
 
 const catalogue = yaml.load("catalogue.yaml") as Array<{
   handle: string;
@@ -25,15 +25,17 @@ for (const channel of catalogue) {
 
   console.log("Cataloguing", channel.handle, channel.id);
 
-  const meta = await youtubei.getChannel(channel.id);
+  const meta = await youtubeiReader.getChannel(channel.id);
 
-  for (let feed of [
-    [await meta.getVideos()],
-    await meta.getShorts().then(
-      (shorts) => [shorts],
-      () => []
-    ),
-  ].flat()) {
+  for (
+    let feed of [
+      [await meta.getVideos()],
+      await meta.getShorts().then(
+        (shorts) => [shorts],
+        () => [],
+      ),
+    ].flat()
+  ) {
     for (;;) {
       let foundExisting = false;
       for (const video of feed.videos as Array<Video>) {
@@ -44,47 +46,49 @@ for (const channel of catalogue) {
           break;
         }
 
-        const details = await youtubei.getInfo(video.id);
+        const details = await youtubeiReader.getInfo(video.id);
 
         const publishedHumaneReadable = details.primary_info?.published?.text!;
         const [month, day, year] =
           publishedHumaneReadable?.replace("Premiered ", "")?.split(/[ ,]+/g) ??
-          (() => {
-            console.warn(
-              "failed to find publication date for",
-              video.id,
-              details.primary_info,
-              video
-            );
-            return ["00", "00", "0000"];
-          })();
-        const published = `${year}-${month
-          .replace("Jan", "01")
-          .replace("Feb", "02")
-          .replace("Mar", "03")
-          .replace("Apr", "04")
-          .replace("May", "05")
-          .replace("Jun", "06")
-          .replace("Jul", "07")
-          .replace("Aug", "08")
-          .replace("Sep", "09")
-          .replace("Oct", "10")
-          .replace("Nov", "11")
-          .replace("Dec", "12")}-${day.padStart(2, "0")}`;
+            (() => {
+              console.warn(
+                "failed to find publication date for",
+                video.id,
+                details.primary_info,
+                video,
+              );
+              return ["00", "00", "0000"];
+            })();
+        const published = `${year}-${
+          month
+            .replace("Jan", "01")
+            .replace("Feb", "02")
+            .replace("Mar", "03")
+            .replace("Apr", "04")
+            .replace("May", "05")
+            .replace("Jun", "06")
+            .replace("Jul", "07")
+            .replace("Aug", "08")
+            .replace("Sep", "09")
+            .replace("Oct", "10")
+            .replace("Nov", "11")
+            .replace("Dec", "12")
+        }-${day.padStart(2, "0")}`;
 
         channel.videos[video.id] = {
           title: video.title.text!,
           type: video.badges?.filter(
-            (badge: MetadataBadge) => badge.label === "Members only"
-          ).length
+              (badge: MetadataBadge) => badge.label === "Members only",
+            ).length
             ? "members"
             : "public",
           duration: Number(
             video.duration?.seconds ??
               (video as any).accessibility_label?.match(
-                /- (\d+) second(s)? - play video$/
+                /- (\d+) second(s)? - play video$/,
               )?.[1] ??
-              60
+              60,
           ),
           published,
         };
@@ -114,7 +118,7 @@ for (const channel of catalogue) {
 
       if (foundExisting) {
         console.info(
-          "Assuming all videos are catalogued because we've encountered one that's already catalogued."
+          "Assuming all videos are catalogued because we've encountered one that's already catalogued.",
         );
         break;
       } else if (feed.has_continuation) {

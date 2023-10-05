@@ -79,7 +79,7 @@ class List {
   }
 
   toString(): string {
-    return this.toArray().join(",");
+    return `[ ${this.toArray().join(", ")} ]`;
   }
 
   [Symbol.for("Deno.customInspect")]() {
@@ -96,27 +96,36 @@ class List {
 }
 
 for (
-  const [input, output, name] of [
+  const [input, output, optimum, name] of ([
     // only re-orderings
-    ["abcdefghij", "abcdefghij", "0 unchanged"],
-    ["abcdefghij", "jabcdefghi", "1 tail to head"],
-    ["abcdefghij", "bcdefghija", "1 head to tail"],
-    ["abcdefghij", "edcbafghij", "4 head half reversal"],
-    ["abcdefghij", "abcdejihgf", "4 tail half reversal"],
-    ["abcdefghij", "jihgfedcba", "9 reversal"],
+    ["abcdefghij", "abcdefghij", 0, "unchanged"],
+    ["abcdefghij", "jabcdefghi", 1, "tail to head"],
+    ["abcdefghij", "bcdefghija", 1, "head to tail"],
+    ["abcdefghij", "edcbafghij", 4, "head half reversal"],
+    ["abcdefghij", "abcdejihgf", 4, "tail half reversal"],
+    ["abcdefghij", "jihgfedcba", 9, "reversal"],
     // with insertions
-    ["abcdefghij", "abcdefghijk", "1 append"],
-    ["abcdefghij", "zabcdefghij", "1 unshift"],
+    ["abcdefghij", "abcdefghijk", 1, "append"],
+    ["abcdefghij", "zabcdefghij", 1, "unshift"],
     // with removals
-    ["abcdefghij", "abcdefghi", "1 pop"],
-    ["abcdefghij", "bcdefghij", "1 shift"],
-  ].map(
-    ([input, output, name]) =>
-      [new List(input), new List(output), name] as const,
+    ["abcdefghij", "abcdefghi", 1, "pop"],
+    ["abcdefghij", "bcdefghij", 1, "shift"],
+    ["abcdefghij", "abxdeyghzj", 6, "replacements"],
+  ] as const).map(
+    ([input, output, optimum, name]) =>
+      [new List(input), new List(output), optimum, name] as const,
   )
 ) {
-  console.log(name.padEnd(20), `(from ${input} to ${output})`);
-  console.log();
+  console.log(
+    `   %c${name.padEnd(20)}`,
+    "font-weight: bold",
+    `from ${input}`,
+  );
+  console.log(
+    `  %c${optimum.toString().padStart(3).padEnd(4)} optimum`,
+    "color: cyan",
+    `           to ${output}`,
+  );
   for (
     const sorter of [
       function clear_and_rebuild(state: List, target: List): void {
@@ -151,20 +160,24 @@ for (
     const state = input.clone();
     sorter(state, output);
     console.log(
-      `  %c${state.modifications.toString().padStart(3).padEnd(4)}`,
-      state.modifications == 0
+      `  %c${
+        state.modifications.toString().padStart(3).padEnd(4)
+      } ${sorter.name}`,
+      state.modifications == optimum
         ? "color: cyan;"
-        : state.modifications <= 5
+        : state.modifications <= optimum + 5
         ? "color: green;"
-        : state.modifications <= 10
+        : state.modifications <= optimum + 10
         ? "color: yellow;"
-        : state.modifications <= 15
+        : state.modifications <= optimum + 15
         ? "color: orange;"
         : "color: red;",
-      sorter.name,
     );
-    if (!state.equals) {
-      console.error(" ", " ", "but the result is wrong!", state);
+    if (!state.equals(output)) {
+      console.error(
+        `   %c!!  result is incorrect:  ${state}`,
+        "color: red; font-weight: bold;",
+      );
     }
   }
   console.log();

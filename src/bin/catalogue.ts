@@ -16,12 +16,14 @@ const catalogue = yaml.load("catalogue.yaml") as Array<{
       type: "public" | "members" | "removed" | "unlisted";
       duration: number;
       published: string;
-      scan?: string;
+      scan: string;
     }
   >;
 }>;
 
-const scan = `sc_${Date.now().toString(36)}`;
+const scan = `s${Date.now().toString(36).slice(0, 2)}${
+  Date.now().toString(36).slice(0, 11)
+}`;
 
 for (const channel of catalogue) {
   channel.videos ??= {};
@@ -47,7 +49,7 @@ for (const channel of catalogue) {
       for (const video of feed.videos as Array<Video>) {
         const existing = channel.videos[video.id];
 
-        if (existing) {
+        if (existing && existing.scan) {
           foundExisting = true;
           break;
         }

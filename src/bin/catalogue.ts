@@ -16,9 +16,12 @@ const catalogue = yaml.load("catalogue.yaml") as Array<{
       type: "public" | "members" | "removed" | "unlisted";
       duration: number;
       published: string;
+      scan?: string;
     }
   >;
 }>;
+
+const scan = `sc_${Date.now().toString(36)}`;
 
 for (const channel of catalogue) {
   channel.videos ??= {};
@@ -29,7 +32,10 @@ for (const channel of catalogue) {
 
   for (
     let feed of [
-      [await meta.getVideos()],
+      await meta.getVideos().then(
+        (videos) => [videos],
+        () => [],
+      ),
       await meta.getShorts().then(
         (shorts) => [shorts],
         () => [],
@@ -91,6 +97,7 @@ for (const channel of catalogue) {
               60,
           ),
           published,
+          scan,
         };
       }
 

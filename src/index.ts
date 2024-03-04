@@ -6,7 +6,6 @@ import { Spinner } from "@std/cli";
 import { crypto } from "@std/crypto";
 import { delay } from "@std/async";
 import { google } from "googleapis";
-import cloudquotas from "npm:@google-cloud/cloudquotas";
 import { join as pathJoin } from "@std/path";
 
 import { raise, unwrap, spinning } from "./common.ts";
@@ -20,26 +19,6 @@ export async function main() {
   await dotenv.load({ export: true });
 
   const youtube = google.youtube("v3");
-
-  const { CloudQuotasClient } = cloudquotas.v1;
-  const quotas = new CloudQuotasClient({
-    credentials: {
-      project_id: Deno.env.get("QUOTAS_PROJECT_ID"),
-      private_key_id: Deno.env.get("QUOTAS_PRIVATE_KEY_ID"),
-      private_key: Deno.env.get("QUOTAS_PRIVATE_KEY"),
-      client_email: Deno.env.get("QUOTAS_CLIENT_EMAIL"),
-    },
-  });
-
-  console.log("Listing quotas...");
-  console.log(
-    "quota!",
-    await quotas.getQuotaInfo({
-      name: "projects/jeremy-ca/locations/global/services/youtube.googleapis.com/quotaInfos/defaultPerDayPerProject",
-    })
-  );
-
-  Deno.exit();
 
   const auth = new google.auth.OAuth2({
     clientId: unwrap(
@@ -139,14 +118,41 @@ export async function main() {
     "missing YOUTUBE_API_KEY"
   );
 
+  let pageToken: undefined | string = undefined;
+
   const items = await youtube.playlistItems.list({
     playlistId: "UUMVPDXXXJj9nax0fr0Wfc048g",
-    part: ["snippet", "contentDetails", "status"],
+    part: ["snippet"],
     key,
     maxResults: 50,
+    pageToken,
   });
 
-  console.log(JSON.stringify(items, null, 2));
+  pageToken = items.data.nextPageToken ?? undefined;
+
+  for (const item of items.data.items!.slice(-2)) {
+    // Do we actually want any of these details?
+    const details = (
+      await youtube.videos.list({
+        part: [
+          "contentDetails",
+          "id",
+          "liveStreamingDetails",
+          "localizations",
+          "player",
+          "recordingDetails",
+          "snippet",
+          "statistics",
+          "status",
+          "topicDetails",
+        ],
+        id: [item.snippet?.resourceId?.videoId!],
+        key,
+      })
+    ).data.items![0]!;
+
+    console.log(JSON.stringify({ item, details }, null, 2));
+  }
 }
 
 /** YouTube video ID */

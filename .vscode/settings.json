@@ -5,9 +5,8 @@
   },
   "deno.lint": true,
   "deno.cacheOnSave": true,
-  "deno.codeLens.references": true,
-  "deno.codeLens.referencesAllFunctions": true,
-  "deno.codeLens.test": true,
-  "deno.codeLens.implementations": true,
-  "deno.enable": true
+  "deno.enable": true,
+  "cSpell.enableFiletypes": [
+    "!yaml"
+  ]
 }

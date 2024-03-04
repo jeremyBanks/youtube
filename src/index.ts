@@ -1,15 +1,9 @@
-// deno-lint-ignore-file no-unused-vars
-
 import * as dotenv from "@std/dotenv";
-import * as yaml from "@std/yaml";
-import z from "zod";
-import { Spinner } from "@std/cli";
-import { crypto } from "@std/crypto";
+import z from "npm:zod";
+import { google } from "npm:googleapis";
 import { delay } from "@std/async";
-import { google } from "googleapis";
 
-import { raise, spinning, truthy } from "./common.ts";
-import { dump, load } from "./yaml.ts";
+import { spinning, truthy } from "./common.ts";
 
 if (import.meta.main) {
   await main();
@@ -17,11 +11,6 @@ if (import.meta.main) {
 
 /** Command-line entry point. */
 export async function main() {
-  dump("data/test.yaml", [{ x: new Date() }]);
-  console.log(load("data/test.yaml"));
-
-  return;
-
   await dotenv.load({ export: true });
 
   const youtube = google.youtube("v3");
@@ -64,7 +53,7 @@ export async function main() {
           (request) => {
             const url = new URL(request.url);
             resolve(url.searchParams.get("code")!);
-            abort.abort();
+            delay(1024).then(() => abort.abort());
             return new Response("Got it, thanks! You can close this window.");
           }
         );
@@ -101,6 +90,32 @@ export async function main() {
     });
   });
 
+  const result = await youtube.channels.list({
+    auth,
+    forHandle: "dropout",
+    part: [
+      "brandingSettings",
+      "contentDetails",
+      "contentOwnerDetails",
+      "id",
+      "localizations",
+      "snippet",
+      "statistics",
+      "status",
+      "topicDetails",
+    ],
+  });
+
+  console.log(
+    Deno.inspect(result, {
+      depth: 8,
+      iterableLimit: 32,
+      colors: true,
+    })
+  );
+
+  return;
+
   const scan = `${Date.now()
     .toString(36)
     .replaceAll(/\d/g, "")
@@ -118,10 +133,7 @@ export async function main() {
     `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`
   );
 
-  const key = truthy(
-    Deno.env.get("YOUTUBE_API_KEY"),
-    "missing YOUTUBE_API_KEY"
-  );
+  const key = Deno.env.get("YOUTUBE_API_KEY");
 
   let pageToken: undefined | string = undefined;
 
@@ -165,7 +177,7 @@ const VideoId = z.string().regex(/^[0-9A-Za-z_\-]{11}$/);
 type VideoId = z.TypeOf<typeof VideoId>;
 
 /** YouTube channel ID */
-const ChannelId = z.string().regex(/^[A-Z]C[0-9A-Za-z_\-]{22}$/);
+const ChannelId = z.string().regex(/^UC[0-9A-Za-z_\-]{22}$/);
 type ChannelId = z.TypeOf<typeof ChannelId>;
 
 /** Timestamp in milliseconds */

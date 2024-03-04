@@ -1,4 +1,4 @@
-import * as z from "zod";
+import * as z from "npm:zod";
 import * as yaml from "@std/yaml";
 import { join as pathJoin } from "@std/path";
 

@@ -11,12 +11,11 @@
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",
     "@std/cli": "jsr:@std/cli@^0.218.2",
-    "@std/crypto": "jsr:@std/crypto@^0.218.2",
     "@std/dotenv": "jsr:@std/dotenv@^0.218.2",
     "@std/json": "jsr:@std/json@^0.218.2",
     "@std/path": "jsr:@std/path@^0.218.2",
     "@std/yaml": "jsr:@std/yaml@^0.218.2",
-    "googleapis": "npm:googleapis@^133.0.0",
-    "zod": "npm:zod@^3.22.4"
+    "npm:googleapis": "npm:googleapis@^133.0.0",
+    "npm:zod": "npm:zod@^3.22.4"
   }
 }

@@ -5,7 +5,7 @@
     "./index": "./src/index.ts"
   },
   "tasks": {
-    "check": "deno check src/index.ts",
+    "check": "deno check src/index.ts && deno lint && deno fmt --check",
     "index": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/index.ts"
   },
   "imports": {

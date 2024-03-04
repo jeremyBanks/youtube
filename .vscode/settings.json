@@ -1,4 +1,13 @@
 {
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "denoland.vscode-deno"
+  "[javascript][typescript][javascriptreact][typescriptreact][markdown][json][jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "deno.lint": true,
+  "deno.cacheOnSave": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.test": true,
+  "deno.codeLens.implementations": true,
+  "deno.enable": true
 }

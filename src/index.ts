@@ -1,14 +1,15 @@
+// deno-lint-ignore-file no-unused-vars
+
 import * as dotenv from "@std/dotenv";
 import * as yaml from "@std/yaml";
 import z from "zod";
-import { JsonValue } from "@std/json";
 import { Spinner } from "@std/cli";
 import { crypto } from "@std/crypto";
 import { delay } from "@std/async";
 import { google } from "googleapis";
-import { join as pathJoin } from "@std/path";
 
-import { raise, unwrap, spinning } from "./common.ts";
+import { raise, spinning, truthy } from "./common.ts";
+import { dump, load } from "./yaml.ts";
 
 if (import.meta.main) {
   await main();
@@ -16,19 +17,18 @@ if (import.meta.main) {
 
 /** Command-line entry point. */
 export async function main() {
+  dump("data/test.yaml", [{ x: new Date() }]);
+  console.log(load("data/test.yaml"));
+
+  return;
+
   await dotenv.load({ export: true });
 
   const youtube = google.youtube("v3");
 
   const auth = new google.auth.OAuth2({
-    clientId: unwrap(
-      Deno.env.get("YOUTUBE_CLIENT_ID"),
-      "missing YOUTUBE_CLIENT_ID"
-    ),
-    clientSecret: unwrap(
-      Deno.env.get("YOUTUBE_CLIENT_SECRET"),
-      "missing YOUTUBE_CLIENT_SECRET"
-    ),
+    clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
+    clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
     redirectUri: "http://localhost:8783",
   });
 
@@ -101,6 +101,11 @@ export async function main() {
     });
   });
 
+  const scan = `${Date.now()
+    .toString(36)
+    .replaceAll(/\d/g, "")
+    .slice(-3)}${Date.now().toString(36).slice(0, 8)}`;
+
   const channel = await youtube.channels
     .list({
       auth,
@@ -113,7 +118,7 @@ export async function main() {
     `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`
   );
 
-  const key = unwrap(
+  const key = truthy(
     Deno.env.get("YOUTUBE_API_KEY"),
     "missing YOUTUBE_API_KEY"
   );
@@ -199,10 +204,8 @@ const Video = z.object({
   videoId: VideoId,
   title: z.string().min(1),
   description: z.string(),
-  publishedAt: Timestamp,
+  publishedAt: z.date(),
   duration: Duration,
-  embeddable: z.boolean(),
-  unlisted: z.boolean().default(false),
   // Oh, right: the official API doesn't let you know if something is a members-only video. And other limitations too. Google neglects all their products so much. Can it even see members-only videos? I think so, but I guess we'll have to see...
   // Okay, but we can use the associated members-only playlist (see UUMOPDXXXJj9nax0fr0Wfc048g) to find members-only videos specifically... and this even works if we aren't authenticated! Okay! That's a very good workaround!
   // And unlike the very-similar UUMF playlist, this one also includes unlisted videos! Like ndTplebrzs8! Weird! Okay, they're not delisted, they're live streams? As are listed in the UUMV playlist. weird but okay. So we'll use UU (all public videos + shorts + live) and UUMO (all members only videos + shorts(?) + live)

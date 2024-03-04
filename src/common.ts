@@ -26,15 +26,6 @@ export const raise = (
   throw new Error(message);
 };
 
-/** Returns a value or throws a TypeError if it's null or undefined. */
-export const unwrap = <T>(value: T | undefined | null, message?: string): T => {
-  if (value !== undefined && value !== null) {
-    return value;
-  } else {
-    throw new TypeError(message ?? `attempted to unwrapping missing value`);
-  }
-};
-
 /** Wraps an async function to display a spinner until it completes. */
 export const spinning = async <T>(
   message: string,
@@ -46,3 +37,65 @@ export const spinning = async <T>(
   spinner.stop();
   return x;
 };
+
+/** Returns a value or throws a TypeError if it's null or undefined. */
+export const unwrap = <T>(value: T | undefined | null, message?: string): T => {
+  if (value !== undefined && value !== null) {
+    return value;
+  } else {
+    throw new TypeError(
+      message ?? `attempted to unwrap missing value ({$value})`
+    );
+  }
+};
+
+/** Returns a value or throws a TypeError if it's falsey. */
+export const truthy = <T>(value: T | undefined | null, message?: string): T => {
+  if (value) {
+    return value;
+  } else {
+    throw new TypeError(
+      message ?? `attempted to unwrap falsey value (${value})`
+    );
+  }
+};
+
+/** Returns the first value of an iterable or throws a TypeError if it's empty. */
+export const first = <T>(value: Iterable<T>, message?: string): T => {
+  for (const first of value) {
+    return first;
+  }
+  throw new TypeError(
+    message ?? `attempted to get first value from an empty iterator`
+  );
+};
+
+/**
+ * Dynamic async function constructor.
+ *
+ * This defined in the standard, but not directly available in any standard scope.
+ *
+ * @see https://tc39.es/ecma262/#sec-async-function-constructor
+ */
+export const AsyncFunction = async function () {}
+  .constructor as FunctionConstructor;
+
+/**
+ * Dynamic generator function constructor.
+ *
+ * This defined in the standard, but not directly available in any standard scope.
+ *
+ * @see https://tc39.es/ecma262/#sec-generatorfunction-constructor
+ */
+export const GeneratorFunction = function* () {}
+  .constructor as GeneratorFunctionConstructor;
+
+/**
+ * Dynamic async generator function constructor.
+ *
+ * This defined in the standard, but not directly available in any standard scope.
+ *
+ * @see https://tc39.es/ecma262/#sec-asyncgeneratorfunction-constructor
+ */
+export const AsyncGeneratorFunction = async function* () {}
+  .constructor as AsyncGeneratorFunctionConstructor;

@@ -10,8 +10,6 @@ if (import.meta.main) {
   await main();
 }
 
-export type { Channel } from "./stored_types.ts";
-
 /** Command-line entry point. */
 export async function main() {
   const { youtube, auth, key } = await getClientAuthAndKey();
@@ -24,6 +22,7 @@ export async function main() {
       "umactually",
       "gamechangershorts",
       "makesomenoisedo",
+      "dirtylaundryshorts",
       "actualplaylists",
     ]
   ) {
@@ -91,7 +90,7 @@ export async function main() {
 }
 
 /** Retrieves the metadata for a given channel by ID. */
-export async function channelMetadata(handle: string): Promise<Channel> {
+async function channelMetadata(handle: string): Promise<Channel> {
   const { youtube, auth, key } = await getClientAuthAndKey();
 
   let channels = tryCatch(() => load("data/channels.yaml"), () => []);
@@ -133,11 +132,10 @@ export async function channelMetadata(handle: string): Promise<Channel> {
     handle: resultData.snippet!.customUrl!.replace(/^@/, ""),
     refreshed,
     videoCount: Number(unwrap(resultData.statistics!.videoCount)),
-    subscriberCount: mapOptional(
+    subscriberCount: Number(unwrap(
       resultData.statistics?.subscriberCount,
-      Number,
-    ),
-    viewCount: mapOptional(resultData.statistics?.viewCount, Number),
+    )),
+    viewCount: Number(unwrap(resultData.statistics?.viewCount)),
   };
 
   channels.push(Channel.parse(retrieved));

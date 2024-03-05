@@ -4,15 +4,17 @@ import { delay } from "@std/async";
 
 import { spinning, truthy } from "./common.ts";
 
+type AuthenticatedClient = {
+  youtube: googleapis.youtube_v3.Youtube;
+  auth: googleapis.Auth.OAuth2Client;
+  key: string;
+};
+
 let authenticatedClient:
   | undefined
-  | Promise<{
-    youtube: googleapis.youtube_v3.Youtube;
-    auth: googleapis.Auth.OAuth2Client;
-    key: string;
-  }>;
+  | Promise<AuthenticatedClient>;
 
-export const getClientAuthAndKey = async () => {
+export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   return await (authenticatedClient ??= (async () => {
     await dotenv.load({ export: true });
 

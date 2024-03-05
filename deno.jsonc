@@ -2,7 +2,8 @@
   "name": "@jeb/youtube",
   "version": "0.0.0-testing-jsr-2",
   "exports": {
-    "./index": "./src/index.ts"
+    "./index": "./src/index.ts",
+    "./client": "./src/client.ts"
   },
   "tasks": {
     "check": "deno check src/index.ts && deno lint && deno fmt --check",

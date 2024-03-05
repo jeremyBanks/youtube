@@ -21,11 +21,11 @@ export const Channel = z.object({
   /** The channel's handle, excluding the leading `@`. This corresponds to `customUrl` in the API. */
   handle: z.string(),
   /** The channel's creation datetime. This corresponds to `publishedAt` in the API. */
-  created: z.date(),
+  createdAt: z.date(),
   /** The channel's ID, including the leading `UC`. */
   channelId: ChannelId,
   /** The datetime at which this metadata was last refreshed. */
-  refreshed: z.date(),
+  refreshedAt: z.date(),
   /** The channel's count of publicly-visible videos. */
   videoCount: z.number(),
   /** The channel's subscriber count, to three digits of precision. */
@@ -41,12 +41,12 @@ export type Duration = z.TypeOf<typeof Duration>;
 
 /** A scan of a channel for new content */
 export const Scan = z.object({
+  /** the timestamp at which this scan initiated. assumed to uniquely identify this scan */
+  scannedAt: z.date(),
   /** the channel ID being scanned */
   channelId: ChannelId,
-  /** the timestamp at which this scan initiated. */
-  timestamp: z.date(),
   /** what is the minimum timestamp we're interested in including in this scan? if null, we want to include all videos with no minimum. */
-  minTimestamp: z.date().nullable(),
+  stopAt: z.date().nullable(),
   /** how was this scan completed? */
   completion: z.union([
     /** the scan was interrupted before completion, or is still in progress */
@@ -69,10 +69,6 @@ export const Video = z.object({
   description: z.string(),
   publishedAt: z.date(),
   duration: Duration,
-  // Oh, right: the official API doesn't let you know if something is a members-only video. And other limitations too. Google neglects all their products so much. Can it even see members-only videos? I think so, but I guess we'll have to see...
-  // Okay, but we can use the associated members-only playlist (see UUMOPDXXXJj9nax0fr0Wfc048g) to find members-only videos specifically... and this even works if we aren't authenticated! Okay! That's a very good workaround!
-  // And unlike the very-similar UUMF playlist, this one also includes unlisted videos! Like ndTplebrzs8! Weird! Okay, they're not delisted, they're live streams? As are listed in the UUMV playlist. weird but okay. So we'll use UU (all public videos + shorts + live) and UUMO (all members only videos + shorts(?) + live)
-  // I guess to make this sensible we may want to separate out discovery of video IDs from fetching their details. But maybe the API doesn't even make that make sense. We'll see!
-  // I guess we need to confirm whether the API even works with these playlists.
-  membersOnly: z.boolean().default(false),
+  membersOnly: z.boolean(),
 });
+export type Video = z.TypeOf<typeof Video>;

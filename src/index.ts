@@ -2,7 +2,7 @@ import { sortBy } from "@std/collections";
 
 import { dump, load } from "./yaml.ts";
 import { getClientAuthAndKey } from "./client.ts";
-import { Channel } from "./stored_types.ts";
+import { Channel, Scan, Video } from "./stored_types.ts";
 import { mapOptional, only, tryCatch } from "./common.ts";
 import { unwrap } from "./common.ts";
 
@@ -26,74 +26,19 @@ export async function main() {
       "actualplaylists",
     ]
   ) {
-    const channel = await channelMetadata(handle);
+    await scanChannel(handle);
 
-    console.log(channel);
-  }
-
-  return;
-
-  const scan = `${
-    Date.now()
-      .toString(36)
-      .replaceAll(/\d/g, "")
-      .slice(-3)
-  }${Date.now().toString(36).slice(0, 8)}`;
-
-  const channel = await youtube.channels
-    .list({
-      auth,
-      mine: true,
-      part: ["brandingSettings", "id"],
-    })
-    .then(({ data }) => data.items?.[0]!);
-
-  console.log(
-    `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`,
-  );
-
-  let pageToken: undefined | string = undefined;
-
-  const items = await youtube.playlistItems.list({
-    playlistId: "UUMVPDXXXJj9nax0fr0Wfc048g",
-    part: ["snippet"],
-    key,
-    maxResults: 50,
-    pageToken,
-  });
-
-  pageToken = items.data.nextPageToken ?? undefined;
-
-  for (const item of items.data.items!.slice(-2)) {
-    // Do we actually want any of these details?
-    const details = (
-      await youtube.videos.list({
-        part: [
-          "contentDetails",
-          "id",
-          "liveStreamingDetails",
-          "localizations",
-          "player",
-          "recordingDetails",
-          "snippet",
-          "statistics",
-          "status",
-          "topicDetails",
-        ],
-        id: [item.snippet?.resourceId?.videoId!],
-        key,
-      })
-    ).data.items![0]!;
-
-    console.log(JSON.stringify({ item, details }, null, 2));
+    break;
   }
 }
 
-/** Retrieves the metadata for a given channel by ID. */
+/** Retrieves the metadata for a given channel. */
 async function channelMetadata(handle: string): Promise<Channel> {
-  const { youtube, auth, key } = await getClientAuthAndKey();
+  const { youtube, auth } = await getClientAuthAndKey();
 
-  let channels = tryCatch(() => load("data/channels.yaml"), () => []);
+  let channels = tryCatch(() => load("data/channels.yaml"), () => []).map((c) =>
+    Channel.parse(c)
+  );
 
   // Unfortunately, the API converts handles to lowercase even if the URLs and UI use mixed-case,
   // so we need to normalize to that for case matching.
@@ -105,7 +50,7 @@ async function channelMetadata(handle: string): Promise<Channel> {
     return Channel.parse(existing);
   }
 
-  const refreshed = new Date();
+  const refreshedAt = new Date();
 
   const result = await youtube.channels.list({
     auth,
@@ -125,27 +70,90 @@ async function channelMetadata(handle: string): Promise<Channel> {
 
   const resultData = only(result.data.items!);
 
-  const retrieved: Channel = {
-    channelId: resultData.id!,
-    name: resultData.snippet!.title!,
-    created: new Date(resultData.snippet!.publishedAt!),
-    handle: resultData.snippet!.customUrl!.replace(/^@/, ""),
-    refreshed,
-    videoCount: Number(unwrap(resultData.statistics!.videoCount)),
-    subscriberCount: Number(unwrap(
-      resultData.statistics?.subscriberCount,
-    )),
-    viewCount: Number(unwrap(resultData.statistics?.viewCount)),
-  };
+  const retrieved = Channel.parse(
+    {
+      channelId: resultData.id!,
+      name: resultData.snippet!.title!,
+      createdAt: new Date(resultData.snippet!.publishedAt!),
+      handle: resultData.snippet!.customUrl!.replace(/^@/, ""),
+      refreshedAt,
+      videoCount: Number(unwrap(resultData.statistics!.videoCount)),
+      subscriberCount: Number(unwrap(
+        resultData.statistics?.subscriberCount,
+      )),
+      viewCount: Number(unwrap(resultData.statistics?.viewCount)),
+    } satisfies Channel,
+  );
 
-  channels.push(Channel.parse(retrieved));
-
-  channels = channels.map((c) => Channel.parse(c));
+  channels.push(retrieved);
 
   dump(
     "./data/channels.yaml",
-    sortBy(channels, (channel) => (channel as Channel).created),
+    sortBy(channels, (channel) => channel.createdAt),
   );
 
   return retrieved;
+}
+
+/** Retrieves video metadata for a given channel. */
+async function scanChannel(handle: string) {
+  let scans = tryCatch(() => load("data/scans.yaml"), () => []).map((s) =>
+    Scan.parse(s)
+  );
+
+  const channel = await channelMetadata(handle);
+
+  const stopAt = new Date("2024-01-01");
+
+  const scannedAt = new Date();
+
+  let scan = Scan.parse(
+    {
+      scannedAt,
+      channelId: channel.channelId,
+      stopAt,
+      completion: "incomplete",
+    } satisfies Scan,
+  );
+
+  scans.unshift(scan);
+
+  let pageToken: undefined | string = undefined;
+
+  // Oh, right: the official API doesn't let you know if something is a members-only video. And other limitations too. Google neglects all their products so much. Can it even see members-only videos? I think so, but I guess we'll have to see...
+  // Okay, but we can use the associated members-only playlist (see UUMOPDXXXJj9nax0fr0Wfc048g) to find members-only videos specifically... and this even works if we aren't authenticated! Okay! That's a very good workaround!
+  // And unlike the very-similar UUMF playlist, this one also includes unlisted videos! Like ndTplebrzs8! Weird! Okay, they're not delisted, they're live streams? As are listed in the UUMV playlist. weird but okay. So we'll use UU (all public videos + shorts + live) and UUMO (all members only videos + shorts(?) + live)
+  // I guess to make this sensible we may want to separate out discovery of video IDs from fetching their details. But maybe the API doesn't even make that make sense. We'll see!
+  // I guess we need to confirm whether the API even works with these playlists.
+
+  dump(
+    "./data/scans.yaml",
+    sortBy(scans, (scan) => (scan as Scan).scannedAt, { order: "desc" }),
+  );
+}
+
+async function* playlistVideos(playlistId: string) {
+  const { youtube, auth, key } = await getClientAuthAndKey();
+
+  let pageToken: string | undefined = undefined;
+
+  do {
+    const response = await youtube.playlistItems.list({
+      playlistId,
+      part: ["snippet"],
+      key,
+      maxResults: 50,
+      pageToken,
+    });
+
+    yield* response.data.items ?? [];
+
+    // This cast is neccessary due to a TypeScript limitation that breaks the inference
+    // of `response` above if we don't explicitly type this, but it's still easier to
+    // type this than to type that.
+    // https://github.com/microsoft/TypeScript/issues/36687#issuecomment-593660244
+    pageToken = (response.data.nextPageToken ?? undefined) as
+      | string
+      | undefined;
+  } while (pageToken);
 }

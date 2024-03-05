@@ -18,9 +18,7 @@ export const raise = (
   if (rest.length > 0) {
     message = [
       message,
-      ...rest.map((o) =>
-        typeof o == "string" ? o : JSON.stringify(o, null, 2)
-      ),
+      ...rest.map((o) => typeof o == "string" ? o : JSON.stringify(o, null, 2)),
     ].join(" ");
   }
   throw new Error(message);
@@ -29,7 +27,7 @@ export const raise = (
 /** Wraps an async function to display a spinner until it completes. */
 export const spinning = async <T>(
   message: string,
-  f: () => Promise<T>
+  f: () => Promise<T>,
 ): Promise<T> => {
   const spinner = new Spinner({ message });
   spinner.start();
@@ -44,7 +42,7 @@ export const unwrap = <T>(value: T | undefined | null, message?: string): T => {
     return value;
   } else {
     throw new TypeError(
-      message ?? `attempted to unwrap missing value ({$value})`
+      message ?? `attempted to unwrap missing value ({$value})`,
     );
   }
 };
@@ -55,7 +53,7 @@ export const truthy = <T>(value: T | undefined | null, message?: string): T => {
     return value;
   } else {
     throw new TypeError(
-      message ?? `attempted to unwrap falsey value (${value})`
+      message ?? `attempted to unwrap falsey value (${value})`,
     );
   }
 };
@@ -66,7 +64,7 @@ export const first = <T>(value: Iterable<T>, message?: string): T => {
     return first;
   }
   throw new TypeError(
-    message ?? `attempted to get first value from an empty iterator`
+    message ?? `attempted to get first value from an empty iterator`,
   );
 };
 

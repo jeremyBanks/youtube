@@ -1,12 +1,30 @@
 {
   "editor.formatOnSave": true,
-  "[javascript][typescript][javascriptreact][typescriptreact][markdown][json][jsonc]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
-  },
   "deno.lint": true,
   "deno.cacheOnSave": true,
   "deno.enable": true,
   "cSpell.enableFiletypes": [
     "!yaml"
-  ]
+  ],
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
 }

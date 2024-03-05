@@ -22,24 +22,11 @@ jobs:
         with:
           deno-version: v1.x
 
+      - name: Run tests
+        run: deno test --allow-none --allow-all
+
       - name: Verify formatting
         run: deno fmt --check
 
       - name: Run linter
         run: deno lint
-
-      - name: Run tests
-        run: deno test --allow-none --allow-all
-
-  publish:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      id-token: write
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Publish package
-        run: npx jsr publish

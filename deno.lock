@@ -5,6 +5,7 @@
       "jsr:@std/assert@^0.218.2": "jsr:@std/assert@0.218.2",
       "jsr:@std/async@^0.218.2": "jsr:@std/async@0.218.2",
       "jsr:@std/cli@^0.218.2": "jsr:@std/cli@0.218.2",
+      "jsr:@std/collections@^0.218.2": "jsr:@std/collections@0.218.2",
       "jsr:@std/dotenv@^0.218.2": "jsr:@std/dotenv@0.218.2",
       "jsr:@std/json@^0.218.2": "jsr:@std/json@0.218.2",
       "jsr:@std/path@^0.218.2": "jsr:@std/path@0.218.2",
@@ -29,6 +30,9 @@
         "dependencies": [
           "jsr:@std/assert@^0.218.2"
         ]
+      },
+      "@std/collections@0.218.2": {
+        "integrity": "95e863da51e390a546a9b25ccc35808859240be29ecbd025ff5edb407d80662e"
       },
       "@std/dotenv@0.218.2": {
         "integrity": "b1d6749c6ae394355502a001266701b36cf659090dd19abcf3275f3f6a9fd7de"
@@ -699,6 +703,7 @@
     "dependencies": [
       "jsr:@std/async@^0.218.2",
       "jsr:@std/cli@^0.218.2",
+      "jsr:@std/collections@^0.218.2",
       "jsr:@std/dotenv@^0.218.2",
       "jsr:@std/json@^0.218.2",
       "jsr:@std/path@^0.218.2",

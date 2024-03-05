@@ -24,6 +24,18 @@ export const raise = (
   throw new Error(message);
 };
 
+/** Synchronous try-catch for use in an expression context. */
+export const tryCatch = <T>(
+  tryBlock: () => T,
+  catchBlock: (error: unknown) => T,
+): T => {
+  try {
+    return tryBlock();
+  } catch (error) {
+    return catchBlock(error);
+  }
+};
+
 /** Wraps an async function to display a spinner until it completes. */
 export const spinning = async <T>(
   message: string,
@@ -65,6 +77,32 @@ export const first = <T>(value: Iterable<T>, message?: string): T => {
   }
   throw new TypeError(
     message ?? `attempted to get first value from an empty iterator`,
+  );
+};
+
+/** Returns the only value of an iterable or throws a TypeError if it has multiple or no items. */
+export const only = <T>(value: Iterable<T>, message?: string): T => {
+  let first: T | undefined;
+  let hasAny = false;
+
+  for (const item of value) {
+    if (!hasAny) {
+      first = item;
+      hasAny = true;
+    } else {
+      throw new TypeError(
+        message ??
+          `attempted to get only value from an iterator with multiple items`,
+      );
+    }
+  }
+
+  if (hasAny) {
+    return first as T;
+  }
+
+  throw new TypeError(
+    message ?? `attempted to get only value from an empty iterator`,
   );
 };
 

@@ -10,9 +10,24 @@ import z from "npm:zod";
 export const VideoId = z.string().regex(/^[0-9A-Za-z_\-]{11}$/);
 export type VideoId = z.TypeOf<typeof VideoId>;
 
-/** YouTube channel ID */
+/** YouTube channel ID, including the leading `UC`. */
 export const ChannelId = z.string().regex(/^UC[0-9A-Za-z_\-]{22}$/);
 export type ChannelId = z.TypeOf<typeof ChannelId>;
+
+/** YouTube channel metadata */
+export const Channel = z.object({
+  /** The channel's name. This corresponds to `title` in the API. */
+  name: z.string(),
+  /** The channel's handle, excluding the leading `@`. This corresponds to `customUrl` in the API. */
+  handle: z.string(),
+  /** The channel's creation datetime. This corresponds to `publishedAt` in the API. */
+  created: z.date(),
+  /** The channel's ID, including the leading `UC`. */
+  channelId: ChannelId,
+  /** The datetime at which this metadata was last refreshed. */
+  refreshed: z.date(),
+});
+export type Channel = z.TypeOf<typeof Channel>;
 
 /** Duration in seconds */
 export const Duration = z.number().positive().finite();

@@ -3,9 +3,6 @@
   "deno.lint": true,
   "deno.cacheOnSave": true,
   "deno.enable": true,
-  "cSpell.enableFiletypes": [
-    "!yaml"
-  ],
   "[javascript]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
@@ -26,5 +23,11 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
-  }
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false
+  },
+  "cSpell.enableFiletypes": [
+    "!yaml"
+  ]
 }

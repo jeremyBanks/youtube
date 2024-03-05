@@ -13,22 +13,37 @@ export const load = (path: string): Array<Record<string, unknown>> =>
   );
 
 /** Dumps an array of objects from a multi-document YAML file path. */
-export const dump = (path: string, items: Array<Record<string, unknown>>) =>
+export const dump = (path: string, items: Array<Record<string, unknown>>) => {
+  let data = items
+    .map((x) =>
+      yaml
+        .stringify(x, {
+          noCompatMode: true,
+          noArrayIndent: true,
+          lineWidth: -1,
+          schema: yaml.DEFAULT_SCHEMA,
+        })
+        .replaceAll("\n- ", "\n\n- ")
+    )
+    .join("\n---\n\n");
+
+  let maxLeadingKeyLength = 0;
+  for (const leadingKey of data.matchAll(/^\w+:/mg)) {
+    if (leadingKey[0].length > maxLeadingKeyLength) {
+      maxLeadingKeyLength = leadingKey[0].length;
+    }
+  }
+
+  data = data.replaceAll(
+    /^\w+:/mg,
+    (leadingKey) => leadingKey.padEnd(maxLeadingKeyLength),
+  );
+
   Deno.writeTextFileSync(
     path,
-    items
-      .map((x) =>
-        yaml
-          .stringify(x, {
-            noCompatMode: true,
-            noArrayIndent: true,
-            lineWidth: -1,
-            schema: yaml.DEFAULT_SCHEMA,
-          })
-          .replaceAll("\n- ", "\n\n- ")
-      )
-      .join("\n---\n\n"),
+    data,
   );
+};
 
 const extension = ".yaml";
 

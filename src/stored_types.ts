@@ -26,6 +26,12 @@ export const Channel = z.object({
   channelId: ChannelId,
   /** The datetime at which this metadata was last refreshed. */
   refreshed: z.date(),
+  /** The channel's count of publicly-visible videos. */
+  videoCount: z.number(),
+  /** The channel's subscriber count, to three digits of precision. */
+  subscriberCount: z.number().optional(),
+  /** The channel's total view count, if visible. */
+  viewCount: z.number().optional(),
 });
 export type Channel = z.TypeOf<typeof Channel>;
 

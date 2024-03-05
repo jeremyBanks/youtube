@@ -3,11 +3,14 @@ import { sortBy } from "@std/collections";
 import { dump, load } from "./yaml.ts";
 import { getClientAuthAndKey } from "./client.ts";
 import { Channel } from "./stored_types.ts";
-import { only, tryCatch } from "./common.ts";
+import { mapOptional, only, tryCatch } from "./common.ts";
+import { unwrap } from "./common.ts";
 
 if (import.meta.main) {
   await main();
 }
+
+export type { Channel } from "./stored_types.ts";
 
 /** Command-line entry point. */
 export async function main() {
@@ -16,10 +19,11 @@ export async function main() {
   for (
     const handle of [
       "dropout",
-      "dimension20shorts",
       "dimension20show",
-      "MakeSomeNoiseDO",
+      "dimension20shorts",
       "umactually",
+      "gamechangershorts",
+      "makesomenoisedo",
       "actualplaylists",
     ]
   ) {
@@ -90,10 +94,11 @@ export async function main() {
 export async function channelMetadata(handle: string): Promise<Channel> {
   const { youtube, auth, key } = await getClientAuthAndKey();
 
-  const channels = tryCatch(() => load("data/channels.yaml"), () => []);
+  let channels = tryCatch(() => load("data/channels.yaml"), () => []);
 
-  // unfortunately, the API converts handles to lowercase even if the URLs and UI use mixed-case.
-  handle = handle.toLowerCase();
+  // Unfortunately, the API converts handles to lowercase even if the URLs and UI use mixed-case,
+  // so we need to normalize to that for case matching.
+  handle = handle.toLowerCase().replace(/^@/, "");
 
   const existing = channels.find((channel) => channel.handle === handle);
 
@@ -127,13 +132,21 @@ export async function channelMetadata(handle: string): Promise<Channel> {
     created: new Date(resultData.snippet!.publishedAt!),
     handle: resultData.snippet!.customUrl!.replace(/^@/, ""),
     refreshed,
+    videoCount: Number(unwrap(resultData.statistics!.videoCount)),
+    subscriberCount: mapOptional(
+      resultData.statistics?.subscriberCount,
+      Number,
+    ),
+    viewCount: mapOptional(resultData.statistics?.viewCount, Number),
   };
 
   channels.push(Channel.parse(retrieved));
 
+  channels = channels.map((c) => Channel.parse(c));
+
   dump(
     "./data/channels.yaml",
-    sortBy(channels, (channel) => Channel.parse(channel).created),
+    sortBy(channels, (channel) => (channel as Channel).created),
   );
 
   return retrieved;

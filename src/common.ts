@@ -106,6 +106,27 @@ export const only = <T>(value: Iterable<T>, message?: string): T => {
   );
 };
 
+/** Maps a value through a function unless it's null or undefined, otherwise returns undefined. */
+export const mapOptional = <T, U>(
+  value: T | undefined | null,
+  f: (value: T) => U,
+): U | undefined => {
+  if (value === null || value === undefined) {
+    return undefined;
+  } else {
+    return f(value);
+  }
+};
+
+/** Logs to console with alternate Deno.inspect options that prefer object depth over length. */
+export const logDeep = (t: unknown) => {
+  console.log(Deno.inspect(t, {
+    depth: 16,
+    iterableLimit: 8,
+    colors: true,
+  }));
+};
+
 /**
  * Dynamic async function constructor.
  *

@@ -1,4 +1,4 @@
-import { google, youtube_v3 } from "npm:googleapis";
+import * as googleapis from "npm:googleapis";
 import * as dotenv from "@std/dotenv";
 import { delay } from "@std/async";
 
@@ -7,20 +7,20 @@ import { spinning, truthy } from "./common.ts";
 let authenticatedClient:
   | undefined
   | Promise<{
-      youtube: youtube_v3.Youtube;
-      auth: google.auth.OAuth2;
-      key: string;
-    }>;
+    youtube: googleapis.youtube_v3.Youtube;
+    auth: googleapis.Auth.OAuth2Client;
+    key: string;
+  }>;
 
 export const getClientAuthAndKey = async () => {
   return await (authenticatedClient ??= (async () => {
     await dotenv.load({ export: true });
 
-    const youtube = google.youtube("v3");
+    const youtube = googleapis.google.youtube("v3");
 
     const key = truthy(Deno.env.get("YOUTUBE_API_KEY"));
 
-    const auth = new google.auth.OAuth2({
+    const auth = new googleapis.google.auth.OAuth2({
       clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
       clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
       redirectUri: "http://localhost:8783",
@@ -40,7 +40,7 @@ export const getClientAuthAndKey = async () => {
       if (
         await auth.getAccessToken().then(
           () => false,
-          () => true
+          () => true,
         )
       ) {
         const authUrl = auth.generateAuthUrl({
@@ -60,7 +60,7 @@ export const getClientAuthAndKey = async () => {
               resolve(url.searchParams.get("code")!);
               delay(1024).then(() => abort.abort());
               return new Response("Got it, thanks! You can close this window.");
-            }
+            },
           );
         });
 

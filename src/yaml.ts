@@ -9,7 +9,7 @@ export const load = (path: string): Array<Record<string, unknown>> =>
   ArrayOfRecords.parse(
     yaml.parseAll(Deno.readTextFileSync(path), {
       schema: yaml.DEFAULT_SCHEMA,
-    })
+    }),
   );
 
 /** Dumps an array of objects from a multi-document YAML file path. */
@@ -27,21 +27,21 @@ export const dump = (path: string, items: Array<Record<string, unknown>>) =>
           })
           .replaceAll("\n- ", "\n\n- ")
       )
-      .join("\n---\n\n")
+      .join("\n---\n\n"),
   );
 
 const extension = ".yaml";
 
 /** Loads a record of arrays of objects from a directory path of multi-document YAML files. */
 export const loadDirectory = async (
-  path: string
+  path: string,
 ): Promise<Record<string, Array<Record<string, unknown>>>> => {
   const contents: Record<string, Array<Record<string, unknown>>> = {};
 
   for await (const entry of Deno.readDir(path)) {
     if (entry.isFile && entry.name.endsWith(extension)) {
       contents[entry.name.slice(0, -extension.length)] = load(
-        pathJoin(path, entry.name)
+        pathJoin(path, entry.name),
       );
     }
   }
@@ -52,7 +52,7 @@ export const loadDirectory = async (
 /** Dumps a record of arrays of objects from a directory path of multi-document YAML files. */
 export const dumpDirectory = async (
   path: string,
-  data: Record<string, Array<Record<string, unknown>>>
+  data: Record<string, Array<Record<string, unknown>>>,
 ): Promise<void> => {
   const removedNames = [];
   for await (const entry of Deno.readDir(path)) {

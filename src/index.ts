@@ -29,13 +29,15 @@ export async function main() {
       depth: 8,
       iterableLimit: 32,
       colors: true,
-    })
+    }),
   );
 
-  const scan = `${Date.now()
-    .toString(36)
-    .replaceAll(/\d/g, "")
-    .slice(-3)}${Date.now().toString(36).slice(0, 8)}`;
+  const scan = `${
+    Date.now()
+      .toString(36)
+      .replaceAll(/\d/g, "")
+      .slice(-3)
+  }${Date.now().toString(36).slice(0, 8)}`;
 
   const channel = await youtube.channels
     .list({
@@ -46,7 +48,7 @@ export async function main() {
     .then(({ data }) => data.items?.[0]!);
 
   console.log(
-    `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`
+    `Authenticated to channel: ${channel.brandingSettings?.channel?.title} (${channel.id})`,
   );
 
   let pageToken: undefined | string = undefined;

@@ -10,6 +10,7 @@
       "jsr:@std/json@^0.218.2": "jsr:@std/json@0.218.2",
       "jsr:@std/path@^0.218.2": "jsr:@std/path@0.218.2",
       "jsr:@std/streams@^0.218.2": "jsr:@std/streams@0.218.2",
+      "jsr:@std/toml@^0.218.2": "jsr:@std/toml@0.218.2",
       "jsr:@std/yaml@^0.218.2": "jsr:@std/yaml@0.218.2",
       "npm:@google-cloud/cloudquotas": "npm:@google-cloud/cloudquotas@0.2.0",
       "npm:googleapis@^133.0.0": "npm:googleapis@133.0.0",
@@ -51,6 +52,12 @@
       },
       "@std/streams@0.218.2": {
         "integrity": "2af3cab7bb4364575e8616fd36e8df69c5b2ff49b25c5b865c26178e7da2c096"
+      },
+      "@std/toml@0.218.2": {
+        "integrity": "32d73371efb72c3c910ac69faefe161758a2cc26f97f7b9f6ae3f30557f76fa0",
+        "dependencies": [
+          "jsr:@std/collections@^0.218.2"
+        ]
       },
       "@std/yaml@0.218.2": {
         "integrity": "82278eb3ce7491e2c3280d926973a8c3f71d25dd3f187c133b33f5c83ea17a5a"
@@ -707,6 +714,7 @@
       "jsr:@std/dotenv@^0.218.2",
       "jsr:@std/json@^0.218.2",
       "jsr:@std/path@^0.218.2",
+      "jsr:@std/toml@^0.218.2",
       "jsr:@std/yaml@^0.218.2",
       "npm:googleapis@^133.0.0",
       "npm:zod@^3.22.4"

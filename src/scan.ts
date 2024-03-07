@@ -12,8 +12,6 @@ if (import.meta.main) {
 
 /** Command-line entry point. */
 export async function main() {
-  const { youtube, auth, key } = await getClientAuthAndKey();
-
   for (
     const handle of [
       "dropout",
@@ -24,12 +22,9 @@ export async function main() {
       "makesomenoisedo",
       "dirtylaundryshorts",
       "veryimportantpeopleshow",
-      "actualplaylists",
     ]
   ) {
-    logDeep(await scanChannel(handle));
-    -
-    break;
+    logDeep(await channelMetadata(handle));
   }
 }
 

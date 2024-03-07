@@ -2,12 +2,13 @@
   "name": "@jeb/youtube",
   "version": "0.0.0-testing-jsr-2",
   "exports": {
-    "./index": "./src/index.ts",
+    "./scan": "./src/scan.ts",
     "./client": "./src/client.ts"
   },
+  "unstable": ["temporal"],
   "tasks": {
-    "check": "deno check src/index.ts && deno lint && deno fmt --check",
-    "index": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/index.ts"
+    "check": "deno check src/scan.ts && deno lint && deno fmt --check",
+    "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/scan.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",
@@ -16,6 +17,7 @@
     "@std/dotenv": "jsr:@std/dotenv@^0.218.2",
     "@std/json": "jsr:@std/json@^0.218.2",
     "@std/path": "jsr:@std/path@^0.218.2",
+    "@std/toml": "jsr:@std/toml@^0.218.2",
     "@std/yaml": "jsr:@std/yaml@^0.218.2",
     "npm:googleapis": "npm:googleapis@^133.0.0",
     "npm:zod": "npm:zod@^3.22.4"

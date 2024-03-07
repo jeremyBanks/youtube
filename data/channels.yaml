@@ -53,6 +53,17 @@ viewCount:       136574538
 
 ---
 
+name:            potterpuppetpals
+handle:          potterpuppetpals
+createdAt:       2006-06-22T19:53:33.000Z
+channelId:       UCEr0CtoODV2mCMjjMHooLWQ
+refreshedAt:     2024-03-07T01:37:10.401Z
+videoCount:      30
+subscriberCount: 646000
+viewCount:       87726095
+
+---
+
 name:            Pete Holmes
 handle:          peteholmes
 createdAt:       2006-07-14T21:01:37.000Z
@@ -394,14 +405,14 @@ viewCount:       175876369
 
 ---
 
-name:            cypheroftyr
-handle:          cypheroftyr
-createdAt:       2011-10-11T12:06:20.000Z
-channelId:       UCpEa-boVKzPeZ6g8L9SkQRw
-refreshedAt:     2024-03-05T15:08:03.356Z
-videoCount:      1302
-subscriberCount: 3630
-viewCount:       175500
+name:            Jordon Brown
+handle:          thejordonbrown
+createdAt:       2011-10-05T18:08:08.000Z
+channelId:       UCyWej6I3n3696DJh3_WYiIw
+refreshedAt:     2024-03-07T01:26:54.847Z
+videoCount:      48
+subscriberCount: 421
+viewCount:       74703
 
 ---
 
@@ -416,17 +427,6 @@ viewCount:       248392822
 
 ---
 
-name:            D. Shazzbaa Bennett
-handle:          d.shazzbaa
-createdAt:       2011-10-13T03:25:02.000Z
-channelId:       UCBSUtCAoklzUm1vXtotqYVQ
-refreshedAt:     2024-03-05T15:08:03.532Z
-videoCount:      4
-subscriberCount: 470
-viewCount:       70978
-
----
-
 name:            the DM Lair
 handle:          thedmlair
 createdAt:       2011-10-18T08:23:51.000Z
@@ -438,17 +438,6 @@ viewCount:       25593061
 
 ---
 
-name:            Robodad1
-handle:          robodad1
-createdAt:       2011-12-27T20:34:10.000Z
-channelId:       UCA0i422JOVIRkqjAmO9wF9w
-refreshedAt:     2024-03-05T15:26:05.906Z
-videoCount:      1238
-subscriberCount: 1200
-viewCount:       357374
-
----
-
 name:            Matthew Mercer
 handle:          matthewmercervo
 createdAt:       2012-01-11T23:38:29.000Z
@@ -457,6 +446,17 @@ refreshedAt:     2024-03-05T12:34:58.776Z
 videoCount:      6
 subscriberCount: 62900
 viewCount:       3580723
+
+---
+
+name:            Private Street Comedy
+handle:          privatestreetcomedy
+createdAt:       2012-02-15T01:16:27.000Z
+channelId:       UCQP2tEV0SEDuNYhWNf2kypg
+refreshedAt:     2024-03-07T01:16:57.629Z
+videoCount:      128
+subscriberCount: 310
+viewCount:       34297
 
 ---
 
@@ -691,17 +691,6 @@ viewCount:       61600854
 
 ---
 
-name:            Eric Vulgaris
-handle:          ericvulgaris
-createdAt:       2015-04-22T02:50:06.000Z
-channelId:       UCMSWjShnzzmaeAWVI0MWn5Q
-refreshedAt:     2024-03-05T15:26:04.342Z
-videoCount:      1024
-subscriberCount: 3070
-viewCount:       569419
-
----
-
 name:            Kanekuo
 handle:          kanekuo
 createdAt:       2015-08-11T01:57:36.000Z
@@ -798,6 +787,17 @@ refreshedAt:     2024-03-05T15:26:05.785Z
 videoCount:      506
 subscriberCount: 55100
 viewCount:       8485958
+
+---
+
+name:            In Deep Geek
+handle:          indeepgeek
+createdAt:       2016-11-22T19:27:17.000Z
+channelId:       UCVg2AVe6eTCTVoWQ9AwrIHg
+refreshedAt:     2024-03-07T01:16:57.976Z
+videoCount:      735
+subscriberCount: 688000
+viewCount:       122754142
 
 ---
 
@@ -933,6 +933,17 @@ viewCount:       639841
 
 ---
 
+name:            The Well Told Tale
+handle:          thewelltoldtale
+createdAt:       2018-05-23T13:34:38.000Z
+channelId:       UCai6yu-x3x1cMGPbaOi5nSg
+refreshedAt:     2024-03-07T01:16:58.132Z
+videoCount:      225
+subscriberCount: 25100
+viewCount:       825356
+
+---
+
 name:            Critical Role
 handle:          criticalrole
 createdAt:       2018-05-23T17:03:19.000Z
@@ -963,6 +974,17 @@ refreshedAt:     2024-03-05T15:26:03.250Z
 videoCount:      578
 subscriberCount: 167000
 viewCount:       30481872
+
+---
+
+name:            Three Princes
+handle:          threeprincesx
+createdAt:       2018-10-01T20:04:26.000Z
+channelId:       UC2blvxEY9RwQlWLNd5FJKoA
+refreshedAt:     2024-03-07T01:16:57.813Z
+videoCount:      3
+subscriberCount: 1740
+viewCount:       43849
 
 ---
 
@@ -1076,39 +1098,6 @@ viewCount:       672280
 
 ---
 
-name:            Cardinal Adventures
-handle:          cardinaladventures
-createdAt:       2020-07-18T01:25:39.154Z
-channelId:       UCFhswzYUjDZr9O-Mqck6uvw
-refreshedAt:     2024-03-05T15:08:02.754Z
-videoCount:      317
-subscriberCount: 1370
-viewCount:       88865
-
----
-
-name:            Hijinks
-handle:          hijinks
-createdAt:       2020-07-19T02:45:02.213Z
-channelId:       UC5t7LIzSjYgEHKCIPfAqvsA
-refreshedAt:     2024-03-05T15:08:04.547Z
-videoCount:      47
-subscriberCount: 3030
-viewCount:       135163
-
----
-
-name:            'Catflur '
-handle:          catflur
-createdAt:       2020-07-25T16:48:03.456Z
-channelId:       UC9kxMbJB_cxbiqefFl6u_AA
-refreshedAt:     2024-03-05T15:08:03.055Z
-videoCount:      71
-subscriberCount: 7730
-viewCount:       1820744
-
----
-
 name:            PixelCircus
 handle:          pixelcircus
 createdAt:       2020-08-05T21:30:59.850Z
@@ -1128,28 +1117,6 @@ refreshedAt:     2024-03-05T12:35:00.357Z
 videoCount:      240
 subscriberCount: 7090
 viewCount:       1721321
-
----
-
-name:            Elimenop3
-handle:          elimenop3
-createdAt:       2020-09-29T23:50:50.518Z
-channelId:       UC9SzJm2DhonwTWuN-2wuF4Q
-refreshedAt:     2024-03-05T15:08:04.127Z
-videoCount:      691
-subscriberCount: 3070
-viewCount:       1037234
-
----
-
-name:            Deno
-handle:          deno_land
-createdAt:       2020-10-30T14:03:58.541Z
-channelId:       UCqC2G2M-rg4fzg1esKFLFIw
-refreshedAt:     2024-03-05T12:35:02.772Z
-videoCount:      129
-subscriberCount: 8650
-viewCount:       465999
 
 ---
 
@@ -1337,6 +1304,17 @@ refreshedAt:     2024-03-05T15:08:02.892Z
 videoCount:      43
 subscriberCount: 61900
 viewCount:       22023293
+
+---
+
+name:            IDG Live
+handle:          idglive
+createdAt:       2022-12-23T14:43:04.223Z
+channelId:       UC3i06kSL6LiEkucUn8vcRxA
+refreshedAt:     2024-03-07T01:16:58.277Z
+videoCount:      125
+subscriberCount: 9420
+viewCount:       804671
 
 ---
 

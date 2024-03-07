@@ -1,0 +1,101 @@
+# Duration indicating absolute minimum time interval between scans.
+# Only relevant if the previous scan was completed and covers at least the same time period
+# as the new scan is intended to.
+min-interval = "PT16H"
+
+# Duration or timestamp indicating the range of time for which we want to always include in a scan.
+scan-all-since = "never"
+
+# Duration or timestamp indicating the range of time for which we want to scan if data is stale or missing.
+scan-stale-since = "forever"
+
+# Duration indicating the time after which a scan's results are considered stale.
+stale-after = "forever"
+
+# Scan configuration for Dropout channels we're most interested in frequently updating.
+# (Those which include Dimension 20 content.)
+[template.dropout-primary]
+min-interval = "PT32M"
+scan-all-since = "P16D"
+stale-after = "P128D"
+
+# Scan configuration for other Dropout channels.
+[template.dropout-secondary]
+min-interval = "PT8H"
+
+# Scan configuration for non-Dropout channels that interview Dropout folks.
+[template.dropout-interviewers]
+min-interval = "P4D"
+
+# Scan configuration for non-Dropout channels that produce fan animations of Dropout content.
+[template.dropout-animators]
+min-interval = "P4D"
+
+# Scan configuration for non-Dropout channels featuring Dropout cast members.
+[template.dropout-extended-universe]
+min-interval = "P8D"
+
+# Scan configuration for channels we want to scan occasionally.
+[template.occasionally]
+min-interval = "P32D"
+
+# Scan configuration for channels we want to scan rarely.
+[template.rarely]
+min-interval = "P256D"
+
+[dropout]
+template = "dropout-primary"
+
+[dimension20show]
+template = "dropout-primary"
+
+[dimension20shorts]
+template = "dropout-primary"
+
+[umactually]
+template = "dropout-secondary"
+
+[gamechangershorts]
+template = "dropout-secondary"
+
+[makesomenoisedo]
+template = "dropout-secondary"
+
+[dirtylaundryshorts]
+template = "dropout-secondary"
+
+[veryimportantpeopleshow]
+template = "dropout-secondary"
+
+[worldsbeyondnumber]
+template = "dropout-extended-universe"
+
+[samreich]
+template = "dropout-extended-universe"
+
+[screenrantplus]
+template = "dropout-interviewers"
+
+[geek_peek]
+template = "dropout-interviewers"
+
+[thejordonbrown]
+template = "dropout-interviewers"
+
+[deepblueink]
+template = "dropout-animators"
+
+[blueyofficialchannel]
+template = "occasionally"
+
+[blueyfrancais]
+template = "occasionally"
+
+[thewelltoldtale]
+template = "occasionally"
+
+[rickastleyyt]
+template = "rarely"
+
+[naddpod]
+template = "rarely"

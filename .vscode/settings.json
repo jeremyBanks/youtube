@@ -28,6 +28,7 @@
     "editor.formatOnSave": false
   },
   "cSpell.enableFiletypes": [
-    "!yaml"
+    "!yaml",
+    "toml"
   ]
 }

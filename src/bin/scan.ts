@@ -1,10 +1,10 @@
 import { sortBy } from "@std/collections";
 
-import { dump, load } from "./yaml.ts";
-import { getClientAuthAndKey } from "./client.ts";
-import { Channel, Scan, Video } from "./stored_types.ts";
-import { logDeep, mapOptional, only, tryCatch } from "./common.ts";
-import { unwrap } from "./common.ts";
+import { dump, load } from "../yaml.ts";
+import { getClientAuthAndKey } from "../client.ts";
+import { Channel, Scan, Video } from "../stored_types.ts";
+import { logDeep, mapOptional, only, tryCatch } from "../common.ts";
+import { unwrap } from "../common.ts";
 
 if (import.meta.main) {
   await main();

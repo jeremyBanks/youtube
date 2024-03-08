@@ -2,13 +2,17 @@
   "name": "@jeb/youtube",
   "version": "0.0.0-testing-jsr-2",
   "exports": {
-    "./scan": "./src/scan.ts",
-    "./client": "./src/client.ts"
+    "./scan": "./src/bin/scan.ts",
+    "./aggregate": "./src/bin/aggregate.ts",
+    "./publish": "./src/bin/publish.ts",
+    "./scan-playlists": "./src/bin/scan-playlists.ts"
   },
   "unstable": ["temporal"],
   "tasks": {
-    "check": "deno check src/scan.ts && deno lint && deno fmt --check",
-    "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/scan.ts"
+    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts && deno lint && deno fmt --check",
+    "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
+    "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
+    "publish": "deno run --allow-read --allow-env --allow-net ./src/bin/publish.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",

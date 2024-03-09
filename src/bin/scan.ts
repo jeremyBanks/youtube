@@ -3,7 +3,7 @@ import { sortBy } from "@std/collections";
 import { dump, load } from "../yaml.ts";
 import { getClientAuthAndKey } from "../client.ts";
 import { Channel, openChannelStorage, Scan, Video } from "../storage.ts";
-import { logDeep, mapOptional, only, tryCatch } from "../common.ts";
+import { logDeep, mapOptional, only, tryCatch, upsert } from "../common.ts";
 import { unwrap } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
@@ -24,11 +24,9 @@ export async function main() {
       "makesomenoisedo",
       "dirtylaundryshorts",
       "veryimportantpeopleshow",
-      //
-      "GuaranteedVideo",
     ]
   ) {
-    logDeep(await channelMetadata(handle));
+    await scanChannel(handle);
   }
 }
 
@@ -94,49 +92,69 @@ async function scanChannel(handle: string) {
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
 
-  const channel = await channelMetadata(handle);
+  const { channelId } = await channelMetadata(handle);
 
-  const stopAt = new Date("2024-01-01");
+  const stopAt = new Date("2000-01-01");
 
   const scannedAt = new Date();
 
-  let scan = Scan.parse(
-    {
-      scannedAt,
-      channelId: channel.channelId,
-      stopAt,
-      completion: "incomplete",
-    } satisfies Scan,
-  );
+  const publicPlaylistId = `UU${channelId.slice(2)}`;
+  let publicVideosExhaustive = true;
+  for await (const playlistItem of playlistVideos(publicPlaylistId)) {
+    const video: Video = {
+      channelId: playlistItem.snippet?.channelId!,
+      membersOnly: false,
+      publishedAt: new Date(playlistItem.snippet?.publishedAt!),
+      title: playlistItem.snippet?.title!,
+      videoId: playlistItem.snippet?.resourceId?.videoId!,
+    };
 
-  scans.unshift(scan);
+    if (stopAt && (video.publishedAt >= stopAt)) {
+      upsert(videos, video, (a, b) => a.videoId === b.videoId);
+    } else {
+      publicVideosExhaustive = false;
+      break;
+    }
+  }
 
-  let pageToken: undefined | string = undefined;
+  const membersPlaylistId = `UUMO${channelId.slice(2)}`;
+  let membersVideosExhaustive = true;
+  try {
+    for await (const playlistItem of playlistVideos(membersPlaylistId)) {
+      const video: Video = {
+        channelId: playlistItem.snippet?.channelId!,
+        membersOnly: true,
+        publishedAt: new Date(playlistItem.snippet?.publishedAt!),
+        title: playlistItem.snippet?.title!,
+        videoId: playlistItem.snippet?.resourceId?.videoId!,
+      };
 
-  // Set time range (inclusive lower bound)
-  // Insert new scan as incomplete
-  // Load existing videos in that range
-  // Fetch members only videos in that range
-  // Fetch public videos in that range
-  // Subtract fetched videos from loaded videos to identify non listed videos
-  // Fetch non listed videos by ID to determine whether they’re removed (deleted/private) or unlisted
-  // Replace loaded videos with new video data, with members and unlisted videos marked as such, implicitly removing removed videos from storage. Mark all videos with the current scan id.
-  // Mark scan as completed
+      if (stopAt && (video.publishedAt >= stopAt)) {
+        upsert(videos, video, (a, b) => a.videoId === b.videoId);
+      } else {
+        membersVideosExhaustive = false;
+        break;
+      }
+    }
+  } catch (response) {
+    if (
+      response?.errors?.[0]?.reason === "playlistNotFound"
+    ) {
+      // that's okay. no members-only videos for this channel.
+    } else {
+      throw response;
+    }
+  }
 
-  // This doesn’t actually make use of scans ids for partial completion, though. Need to extend logic for that
+  const scan: Scan = {
+    scannedAt,
+    channelId,
+    scannedTo: publicVideosExhaustive && membersVideosExhaustive
+      ? null
+      : stopAt,
+  };
 
-  // If we ignore unlisted then we can do members and public in parallel by timestamp in order so that even if it’s interrupted we can still mark it as complete back to a know time. Or we could be less efficient with our handling of unlisted videos and fetch them immediate after they’ve missed to accommodate that too.
-
-  // Oh, right: the official API doesn't let you know if something is a members-only video. And other limitations too. Google neglects all their products so much. Can it even see members-only videos? I think so, but I guess we'll have to see...
-  // Okay, but we can use the associated members-only playlist (see UUMOPDXXXJj9nax0fr0Wfc048g) to find members-only videos specifically... and this even works if we aren't authenticated! Okay! That's a very good workaround!
-  // And unlike the very-similar UUMF playlist, this one also includes unlisted videos! Like ndTplebrzs8! Weird! Okay, they're not delisted, they're live streams? As are listed in the UUMV playlist. weird but okay. So we'll use UU (all public videos + shorts + live) and UUMO (all members only videos + shorts(?) + live)
-  // I guess to make this sensible we may want to separate out discovery of video IDs from fetching their details. But maybe the API doesn't even make that make sense. We'll see!
-  // I guess we need to confirm whether the API even works with these playlists.
-
-  dump(
-    "./data/scans.yaml",
-    sortBy(scans, (scan) => (scan as Scan).scannedAt, { order: "desc" }),
-  );
+  scans.push(scan);
 }
 
 async function* playlistVideos(playlistId: string) {
@@ -147,7 +165,7 @@ async function* playlistVideos(playlistId: string) {
   do {
     const response = await youtube.playlistItems.list({
       playlistId,
-      part: ["snippet"],
+      part: ["snippet", "contentDetails"],
       key,
       maxResults: 50,
       pageToken,

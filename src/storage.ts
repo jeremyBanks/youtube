@@ -50,10 +50,8 @@ export const openChannelStorage = () =>
 export const Video = z.object({
   videoId: VideoId,
   channelId: ChannelId,
-  title: z.string().min(1),
-  description: z.string(),
   publishedAt: DateTime,
-  duration: Duration,
+  title: z.string().min(1),
   membersOnly: z.boolean(),
 });
 export type Video = z.TypeOf<typeof Video>;
@@ -75,7 +73,7 @@ export const Scan = z.object({
   /** the timestamp at which this scan initiated. assumed to uniquely identify this scan */
   scannedAt: z.date(),
   /** what is the minimum timestamp this scan included? undefined if it exhausted all videos. */
-  scannedTo: z.date(),
+  scannedTo: z.date().nullable(),
 });
 export type Scan = z.TypeOf<typeof Scan>;
 
@@ -84,4 +82,4 @@ let scanStorage:
   | Promise<Array<Scan>> = undefined;
 
 export const openScanStorage = () =>
-  scanStorage ??= open("data/scans.yaml", Scan, ["channelId", "scannedAt"]);
+  scanStorage ??= open("data/scans.yaml", Scan, ["channelId", "-scannedAt"]);

@@ -11,11 +11,11 @@ const ArrayOfRecords = z.array(z.record(z.string(), z.unknown()));
  */
 export const open = async <
   Schema extends z.ZodTypeAny,
-  SortKey extends keyof z.TypeOf<Schema>,
+  SortKey extends string & keyof z.TypeOf<Schema>,
 >(
   path: string,
   schema: Schema,
-  sortKeys: Array<SortKey>,
+  sortKeys: Array<SortKey | `-${SortKey}`>,
 ): Promise<Array<z.TypeOf<Schema>>> => {
   const arraySchema = schema.array();
 
@@ -23,15 +23,28 @@ export const open = async <
 
   const dumpThis = async () => {
     for (const sortKey of sortKeys.toReversed()) {
-      root.sort((a, b) => {
-        if (a[sortKey] < b[sortKey]) {
-          return -1;
-        } else if (a[sortKey] > b[sortKey]) {
-          return +1;
-        } else {
-          return 0;
-        }
-      });
+      if (!sortKey.startsWith("-")) {
+        root.sort((a, b) => {
+          if (a[sortKey] < b[sortKey]) {
+            return -1;
+          } else if (a[sortKey] > b[sortKey]) {
+            return +1;
+          } else {
+            return 0;
+          }
+        });
+      } else {
+        const reverseKey = sortKey.slice(1);
+        root.sort((a, b) => {
+          if (a[reverseKey] > b[reverseKey]) {
+            return -1;
+          } else if (a[reverseKey] < b[reverseKey]) {
+            return +1;
+          } else {
+            return 0;
+          }
+        });
+      }
     }
     await dump(path, arraySchema.parse(root));
   };
@@ -39,10 +52,20 @@ export const open = async <
   const onBeforeUnload = (event: Event) => {
     event.preventDefault();
 
-    console.debug(`Dumping ${path} before unload.`);
+    console.debug(`Dumping ${path} before clean shutdown.`);
     dumpThis();
   };
   addEventListener("beforeunload", onBeforeUnload, { once: true });
+
+  const onUnhandledRejection = (event: PromiseRejectionEvent) => {
+    event.preventDefault();
+
+    console.debug(
+      `Dumping ${path} before shutdown due to unhandled error: ${event.reason}.`,
+    );
+    dumpThis();
+  };
+  addEventListener("unhandledrejection", onUnhandledRejection, { once: true });
 
   (async () => {
     while (true) {

@@ -127,6 +127,20 @@ export const logDeep = (t: unknown) => {
   }));
 };
 
+export const upsert = <T>(
+  array: Array<T>,
+  record: T,
+  filter: (existing: T, updated: T) => boolean,
+) => {
+  for (const [i, item] of array.entries()) {
+    if (filter(item, record)) {
+      array[i] = record;
+      return;
+    }
+  }
+  array.push(record);
+};
+
 /**
  * Dynamic async function constructor.
  *

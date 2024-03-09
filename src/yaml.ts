@@ -1,19 +1,78 @@
 import * as z from "npm:zod";
 import * as yaml from "@std/yaml";
-import { join as pathJoin } from "@std/path";
+import { delay } from "@std/async";
 
 const ArrayOfRecords = z.array(z.record(z.string(), z.unknown()));
 
+/**
+ * Opens an array of objects from a multi-document YAML file path,
+ * automatically writing changes back to disk periodically and before
+ * the process exits. The array will never be garbage-collected.
+ */
+export const open = async <
+  Schema extends z.ZodTypeAny,
+  SortKey extends keyof z.TypeOf<Schema>,
+>(
+  path: string,
+  schema: Schema,
+  sortKeys: Array<SortKey>,
+): Promise<Array<z.TypeOf<Schema>>> => {
+  const arraySchema = schema.array();
+
+  const root = await load(path).then(arraySchema.parse, () => []);
+
+  const dumpThis = async () => {
+    for (const sortKey of sortKeys.toReversed()) {
+      root.sort((a, b) => {
+        if (a[sortKey] < b[sortKey]) {
+          return -1;
+        } else if (a[sortKey] > b[sortKey]) {
+          return +1;
+        } else {
+          return 0;
+        }
+      });
+    }
+    await dump(path, arraySchema.parse(root));
+  };
+
+  const onBeforeUnload = (event: Event) => {
+    event.preventDefault();
+
+    console.debug(`Dumping ${path} before unload.`);
+    dumpThis();
+  };
+  addEventListener("beforeunload", onBeforeUnload, { once: true });
+
+  (async () => {
+    while (true) {
+      console.debug(`Dumping ${path} periodically.`);
+      await dumpThis();
+
+      await delay(128_000, {
+        persistent: false,
+      });
+    }
+  })();
+
+  return root;
+};
+
 /** Loads an array of objects from a multi-document YAML file path. */
-export const load = (path: string): Array<Record<string, unknown>> =>
+export const load = async (
+  path: string,
+): Promise<Array<Record<string, unknown>>> =>
   ArrayOfRecords.parse(
-    yaml.parseAll(Deno.readTextFileSync(path), {
+    yaml.parseAll(await Deno.readTextFile(path), {
       schema: yaml.DEFAULT_SCHEMA,
     }),
   );
 
 /** Dumps an array of objects from a multi-document YAML file path. */
-export const dump = (path: string, items: Array<Record<string, unknown>>) => {
+export const dump = async (
+  path: string,
+  items: Array<Record<string, unknown>>,
+) => {
   let data = items
     .map((x) =>
       yaml
@@ -39,51 +98,8 @@ export const dump = (path: string, items: Array<Record<string, unknown>>) => {
     (leadingKey) => leadingKey.padEnd(maxLeadingKeyLength),
   );
 
-  Deno.writeTextFileSync(
+  await Deno.writeTextFile(
     path,
     data,
   );
-};
-
-const extension = ".yaml";
-
-/** Loads a record of arrays of objects from a directory path of multi-document YAML files. */
-export const loadDirectory = async (
-  path: string,
-): Promise<Record<string, Array<Record<string, unknown>>>> => {
-  const contents: Record<string, Array<Record<string, unknown>>> = {};
-
-  for await (const entry of Deno.readDir(path)) {
-    if (entry.isFile && entry.name.endsWith(extension)) {
-      contents[entry.name.slice(0, -extension.length)] = load(
-        pathJoin(path, entry.name),
-      );
-    }
-  }
-
-  return contents;
-};
-
-/** Dumps a record of arrays of objects from a directory path of multi-document YAML files. */
-export const dumpDirectory = async (
-  path: string,
-  data: Record<string, Array<Record<string, unknown>>>,
-): Promise<void> => {
-  const removedNames = [];
-  for await (const entry of Deno.readDir(path)) {
-    if (entry.isFile && entry.name.endsWith(extension)) {
-      const name = entry.name.slice(0, -extension.length);
-      if (data[name] === undefined) {
-        removedNames.push(name);
-      }
-    }
-  }
-
-  for (const [name, value] of Object.entries(data)) {
-    dump(pathJoin(path, name + extension), value);
-  }
-
-  for (const name of removedNames) {
-    await Deno.remove(pathJoin(path, name + extension));
-  }
 };

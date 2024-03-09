@@ -2,9 +2,11 @@ import { sortBy } from "@std/collections";
 
 import { dump, load } from "../yaml.ts";
 import { getClientAuthAndKey } from "../client.ts";
-import { Channel, Scan, Video } from "../stored_types.ts";
+import { Channel, openChannelStorage, Scan, Video } from "../storage.ts";
 import { logDeep, mapOptional, only, tryCatch } from "../common.ts";
 import { unwrap } from "../common.ts";
+import { openVideoStorage } from "../storage.ts";
+import { openScanStorage } from "../storage.ts";
 
 if (import.meta.main) {
   await main();
@@ -22,6 +24,8 @@ export async function main() {
       "makesomenoisedo",
       "dirtylaundryshorts",
       "veryimportantpeopleshow",
+      //
+      "GuaranteedVideo",
     ]
   ) {
     logDeep(await channelMetadata(handle));
@@ -32,9 +36,7 @@ export async function main() {
 async function channelMetadata(handle: string): Promise<Channel> {
   const { youtube, auth } = await getClientAuthAndKey();
 
-  let channels = tryCatch(() => load("data/channels.yaml"), () => []).map((c) =>
-    Channel.parse(c)
-  );
+  const channels = await openChannelStorage();
 
   // Unfortunately, the API converts handles to lowercase even if the URLs and UI use mixed-case,
   // so we need to normalize to that for case matching.
@@ -84,19 +86,13 @@ async function channelMetadata(handle: string): Promise<Channel> {
 
   channels.push(retrieved);
 
-  dump(
-    "./data/channels.yaml",
-    sortBy(channels, (channel) => channel.createdAt),
-  );
-
   return retrieved;
 }
 
 /** Retrieves video metadata for a given channel. */
 async function scanChannel(handle: string) {
-  let scans = tryCatch(() => load("data/scans.yaml"), () => []).map((s) =>
-    Scan.parse(s)
-  );
+  const scans = await openScanStorage();
+  const videos = await openVideoStorage();
 
   const channel = await channelMetadata(handle);
 

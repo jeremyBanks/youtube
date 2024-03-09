@@ -18,7 +18,7 @@ descriptions of what it actually does yet)
       videos for a channel).
 
 - [ ] `deno task aggregate` (`deno run @jeb/youtube/aggregate`) uses the
-      contents of `curation/seasons.yaml` and `config/playlists.toml` to
+      contents of `curation/seasons.yaml` and `config/aggregate.toml` to
       generate an updated list of videos that should be included in each
       playlist, saving the generated results in `data/playlists.yaml`.
 
@@ -34,7 +34,7 @@ descriptions of what it actually does yet)
       multiple days.
 
 - [ ] `deno task scan-playlists` (`deno run @jeb/youtube/scan-playlists`) takes
-      the playlist IDs specified in `config/playlists.toml`, fetches their
+      the playlist IDs specified in `config/aggregate.toml`, fetches their
       current descriptions and contents from the YouTube API, and updates
       `data/playlists.yaml` with that information. Typically, we publish from
       that file instead of scanning into it, so this isn't meant as part of the

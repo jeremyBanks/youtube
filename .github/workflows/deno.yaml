@@ -30,18 +30,18 @@ jobs:
       - name: Run linter
         run: deno lint
 
-  publish:
-    needs: test
-    if: github.ref == 'refs/heads/trunk'
+  # publish:
+  #   needs: test
+  #   if: github.ref == 'refs/heads/trunk'
 
-    runs-on: ubuntu-latest
+  #   runs-on: ubuntu-latest
 
-    permissions:
-      contents: read
-      id-token: write
+  #   permissions:
+  #     contents: read
+  #     id-token: write
 
-    steps:
-      - uses: actions/checkout@v4
+  #   steps:
+  #     - uses: actions/checkout@v4
 
-      - name: Publish package
-        run: npx jsr publish
+  #     - name: Publish package
+  #       run: npx jsr publish

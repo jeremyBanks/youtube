@@ -53,6 +53,7 @@ export const Video = z.object({
   publishedAt: DateTime,
   title: z.string().min(1),
   membersOnly: z.boolean(),
+  duration: z.number(),
 });
 export type Video = z.TypeOf<typeof Video>;
 

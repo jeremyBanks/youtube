@@ -20,10 +20,14 @@ async function main() {
     let duration = 0;
 
     for await (const { entry, video } of playlistVideos(config.playlistId)) {
-      videos[entry.contentDetails?.videoId!] = `${entry.snippet?.title!} (${
-        Temporal.Duration.from(video?.contentDetails?.duration ?? "PT0M")
-          .seconds
-      }s)`;
+      let title = entry.snippet?.title! ?? "unknown";
+      if (video?.contentDetails?.duration) {
+        title += ` (${
+          Temporal.Duration.from(video?.contentDetails?.duration ?? "PT0M")
+            .total("seconds")
+        }s)`;
+      }
+      videos[entry.contentDetails?.videoId!] = title;
     }
 
     playlists.push({

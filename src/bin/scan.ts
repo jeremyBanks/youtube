@@ -36,13 +36,15 @@ export async function main() {
 
     const publicPlaylistId = `UU${channelId.slice(2)}`;
     let publicVideosExhaustive = true;
-    for await (const playlistItem of playlistVideos(publicPlaylistId)) {
+    for await (const {item, video} of playlistVideos(publicPlaylistId)) {
       const video: Video = {
-        channelId: playlistItem.snippet?.channelId!,
+        channelId: item.snippet?.channelId!,
         membersOnly: false,
-        publishedAt: new Date(playlistItem.snippet?.publishedAt!),
-        title: playlistItem.snippet?.title!,
-        videoId: playlistItem.snippet?.resourceId?.videoId!,
+        duration: Temporal.Duration.from(video?.contentDetails?.duration ?? "PT0M")
+        .seconds,
+        publishedAt: new Date(item.snippet?.publishedAt!),
+        title: item.snippet?.title!,
+        videoId: item.snippet?.resourceId?.videoId!,
       };
 
       if (stopAt && (video.publishedAt >= stopAt)) {

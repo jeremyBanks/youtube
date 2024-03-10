@@ -108,6 +108,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
 export async function playlistMetadata(playlistId: string) {
   const { youtube, key } = await getClientAuthAndKey();
 
+  console.debug(`youtube.playlists.list...`);
   const response = await youtube.playlists.list({
     id: [playlistId],
     part: ["snippet", "contentDetails"],
@@ -117,12 +118,15 @@ export async function playlistMetadata(playlistId: string) {
   return only(response.data?.items!);
 }
 
-export async function* playlistVideos(playlistId: string) {
+export async function* playlistVideos(playlistId: string, opts: {
+  getDetails?: boolean;
+} = {}) {
   const { youtube, key } = await getClientAuthAndKey();
 
   let pageToken: string | undefined = undefined;
 
   do {
+    console.debug(`youtube.playlistItems.list...`);
     const response = await youtube.playlistItems.list({
       playlistId,
       part: ["snippet", "contentDetails"],
@@ -135,14 +139,17 @@ export async function* playlistVideos(playlistId: string) {
       string,
       googleapis.youtube_v3.Schema$Video | undefined
     > = {};
-    const detailResponse = await youtube.videos.list({
-      id: response.data.items?.map((item) => item.contentDetails?.videoId!),
-      part: ["snippet", "contentDetails"],
-      key,
-      maxResults: 50,
-    });
-    for (const detailItem of detailResponse.data?.items ?? []) {
-      details[detailItem.id!] = detailItem;
+    if (opts.getDetails) {
+      console.debug(`youtube.videos.list...`);
+      const detailResponse = await youtube.videos.list({
+        id: response.data.items?.map((item) => item.contentDetails?.videoId!),
+        part: ["snippet", "contentDetails", "statistics"],
+        key,
+        maxResults: 50,
+      });
+      for (const detailItem of detailResponse.data?.items ?? []) {
+        details[detailItem.id!] = detailItem;
+      }
     }
 
     for (const entry of response.data.items ?? []) {
@@ -179,6 +186,7 @@ export async function channelMetadata(handle: string): Promise<Channel> {
 
   const refreshedAt = new Date();
 
+  console.debug(`youtube.channels.list...`);
   const result = await youtube.channels.list({
     auth,
     forHandle: handle,

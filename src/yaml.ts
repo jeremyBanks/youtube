@@ -106,6 +106,7 @@ export const dump = async (
           noArrayIndent: true,
           lineWidth: -1,
           schema: yaml.DEFAULT_SCHEMA,
+          skipInvalid: true,
         })
         .replaceAll("\n- ", "\n\n- ")
     )

@@ -1,6 +1,6 @@
 import { channelMetadata, playlistVideos } from "../client.ts";
 import { Scan, Video } from "../storage.ts";
-import { upsert } from "../common.ts";
+import { mapOptional, upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
@@ -14,41 +14,41 @@ export async function main() {
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
 
+  videos.length = 0;
+
   for (const config of await getScanConfig()) {
     const { channelHandle } = config;
     console.info(`Scanning ${channelHandle}...`);
 
     const { channelId } = await channelMetadata(channelHandle);
 
-    const staleBefore = new Date(config.staleAfter.epochMilliseconds);
-    const stopAt = new Date(config.scanStaleSince.epochMilliseconds);
-
-    const existingScan = scans.find((scan) => (
-      scan.channelId === channelId &&
-      scan.scannedAt <= staleBefore
-    ));
-
-    if (existingScan) {
-      console.log(`...skipping, covered by existing scan`);
-    }
-
     const scannedAt = new Date();
+
+    const stopAt = new Date("2000-01-01");
 
     const publicPlaylistId = `UU${channelId.slice(2)}`;
     let publicVideosExhaustive = true;
-    for await (const {item, video} of playlistVideos(publicPlaylistId)) {
-      const video: Video = {
-        channelId: item.snippet?.channelId!,
-        membersOnly: false,
-        duration: Temporal.Duration.from(video?.contentDetails?.duration ?? "PT0M")
-        .seconds,
-        publishedAt: new Date(item.snippet?.publishedAt!),
-        title: item.snippet?.title!,
-        videoId: item.snippet?.resourceId?.videoId!,
+    for await (
+      const { entry, video } of playlistVideos(publicPlaylistId, {
+        getDetails: true,
+      })
+    ) {
+      const record: Video = {
+        channelId: entry.snippet?.channelId!,
+        publishedAt: new Date(entry.snippet?.publishedAt!),
+        title: entry.snippet?.title!,
+        videoId: entry.snippet?.resourceId?.videoId!,
+        duration: mapOptional(
+          video?.contentDetails?.duration,
+          Temporal.Duration.from,
+        )?.total("seconds")!,
+        viewCount: mapOptional(video?.statistics?.viewCount, Number)!,
+        likeCount: mapOptional(video?.statistics?.likeCount, Number)!,
+        commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
       };
 
-      if (stopAt && (video.publishedAt >= stopAt)) {
-        upsert(videos, video, (a, b) => a.videoId === b.videoId);
+      if (stopAt && (record.publishedAt >= stopAt)) {
+        upsert(videos, record, (a, b) => a.videoId === b.videoId);
       } else {
         publicVideosExhaustive = false;
         break;
@@ -58,17 +58,28 @@ export async function main() {
     const membersPlaylistId = `UUMO${channelId.slice(2)}`;
     let membersVideosExhaustive = true;
     try {
-      for await (const playlistItem of playlistVideos(membersPlaylistId)) {
-        const video: Video = {
-          channelId: playlistItem.snippet?.channelId!,
+      for await (
+        const { entry, video } of playlistVideos(membersPlaylistId, {
+          getDetails: true,
+        })
+      ) {
+        const record: Video = {
+          channelId: entry.snippet?.channelId!,
           membersOnly: true,
-          publishedAt: new Date(playlistItem.snippet?.publishedAt!),
-          title: playlistItem.snippet?.title!,
-          videoId: playlistItem.snippet?.resourceId?.videoId!,
+          publishedAt: new Date(entry.snippet?.publishedAt!),
+          title: entry.snippet?.title!,
+          videoId: entry.snippet?.resourceId?.videoId!,
+          duration: mapOptional(
+            video?.contentDetails?.duration,
+            Temporal.Duration.from,
+          )?.total("seconds")!,
+          viewCount: mapOptional(video?.statistics?.viewCount, Number)!,
+          likeCount: mapOptional(video?.statistics?.likeCount, Number)!,
+          commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
         };
 
-        if (stopAt && (video.publishedAt >= stopAt)) {
-          upsert(videos, video, (a, b) => a.videoId === b.videoId);
+        if (stopAt && (record.publishedAt >= stopAt)) {
+          upsert(videos, record, (a, b) => a.videoId === b.videoId);
         } else {
           membersVideosExhaustive = false;
           break;
@@ -85,8 +96,8 @@ export async function main() {
     }
 
     const scan: Scan = {
-      scannedAt,
       channelId,
+      scannedAt,
       scannedTo: publicVideosExhaustive && membersVideosExhaustive
         ? null
         : stopAt,

@@ -9,24 +9,16 @@ const Duration = z.string().regex(
 const ScanConfigToml = z.record(
   z.string(),
   z.object({
-    "min-interval": Duration,
-    "scan-all-since": Duration,
-    "scan-stale-since": Duration,
-    "stale-after": Duration,
+    "incremental-interval": Duration,
+    "complete-interval": Duration,
   })
     .strict(),
 );
 
 type ScanConfig = Array<{
   channelHandle: string;
-  /** don't scan if we've already completed a scan since this instant */
-  minInterval?: Temporal.Instant;
-  /** scans all videos since this instant */
-  scanAllSince: Temporal.Instant;
-  /** scan videos since this instant if they're stale or missing */
-  scanStaleSince: Temporal.Instant;
-  /** consider results stale if they're from before this instant */
-  staleAfter: Temporal.Instant;
+  maxIncrementalAge?: Temporal.Instant;
+  maxCompleteAge: Temporal.Instant;
 }>;
 
 let scanConfig: undefined | Promise<ScanConfig> = undefined;
@@ -40,10 +32,12 @@ export async function getScanConfig(): Promise<ScanConfig> {
     for (const [channelHandle, channelConfig] of Object.entries(parsed)) {
       config.push({
         channelHandle,
-        minInterval: now.subtract(channelConfig["min-interval"]),
-        scanAllSince: now.subtract(channelConfig["scan-all-since"]),
-        scanStaleSince: now.subtract(channelConfig["scan-stale-since"]),
-        staleAfter: now.subtract(channelConfig["stale-after"]),
+        maxIncrementalAge: now.toZonedDateTimeISO("UTC").subtract(
+          channelConfig["incremental-interval"],
+        ).toInstant(),
+        maxCompleteAge: now.toZonedDateTimeISO("UTC").subtract(
+          channelConfig["complete-interval"],
+        ).toInstant(),
       });
     }
     return config;

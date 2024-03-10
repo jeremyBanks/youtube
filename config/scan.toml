@@ -1,56 +1,75 @@
 [dropout]
-min-interval = "PT32M"
+incremental-interval = "PT4M"
+complete-interval = "P16D"
 
 [dimension20show]
-min-interval = "PT32M"
+incremental-interval = "PT8M"
+complete-interval = "P24D"
 
 [dimension20shorts]
-min-interval = "PT32M"
+incremental-interval = "PT8M"
+complete-interval = "P24D"
 
 [umactually]
-min-interval = "PT8H"
+incremental-interval = "PT8H"
+complete-interval = "P24D"
 
 [gamechangershorts]
-min-interval = "PT8H"
+incremental-interval = "PT8H"
+complete-interval = "P24D"
 
 [makesomenoisedo]
-min-interval = "PT8H"
+incremental-interval = "PT8H"
+complete-interval = "P24D"
 
 [dirtylaundryshorts]
-min-interval = "PT8H"
+incremental-interval = "PT8H"
+complete-interval = "P24D"
 
 [veryimportantpeopleshow]
-min-interval = "PT8H"
+incremental-interval = "PT8H"
+complete-interval = "P24D"
 
 [deepblueink]
-template = "P2D"
+incremental-interval = "P2D"
+complete-interval = "P128D"
 
 [screenrantplus]
-template = "P4D"
+incremental-interval = "P4D"
+complete-interval = "P128D"
 
 [geek_peek]
-template = "P4D"
+incremental-interval = "P4D"
+complete-interval = "P128D"
 
 [thejordonbrown]
-template = "P4D"
+incremental-interval = "P4D"
+complete-interval = "P128D"
 
 [worldsbeyondnumber]
-min-interval = "P12D"
+incremental-interval = "P12D"
+complete-interval = "P128D"
 
 [samreich]
-min-interval = "P12D"
+incremental-interval = "P12D"
+complete-interval = "P128D"
 
 [blueyofficialchannel]
-min-interval = "P16D"
+incremental-interval = "P16D"
+complete-interval = "P128D"
 
 [blueyfrancais]
-min-interval = "P16D"
+incremental-interval = "P16D"
+complete-interval = "P128D"
 
 [thewelltoldtale]
-min-interval = "P16D"
+incremental-interval = "P16D"
+complete-interval = "P128D"
 
 [naddpod]
-min-interval = "P32D"
+incremental-interval = "P32D"
+complete-interval = "P128D"
 
 [rickastleyyt]
-min-interval = "P128D"
+incremental-interval = "P128D"
+complete-interval = "P128D"

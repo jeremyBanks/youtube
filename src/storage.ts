@@ -52,8 +52,11 @@ export const Video = z.object({
   channelId: ChannelId,
   publishedAt: DateTime,
   title: z.string().min(1),
-  membersOnly: z.boolean(),
   duration: z.number(),
+  membersOnly: z.literal(true).optional(),
+  viewCount: z.number().optional(),
+  likeCount: z.number().optional(),
+  commentCount: z.number().optional(),
 });
 export type Video = z.TypeOf<typeof Video>;
 
@@ -63,7 +66,6 @@ let videoStorage:
 
 export const openVideoStorage = () =>
   videoStorage ??= open("data/videos.yaml", Video, [
-    "channelId",
     "publishedAt",
   ]);
 

@@ -131,7 +131,24 @@ export async function* playlistVideos(playlistId: string) {
       pageToken,
     });
 
-    yield* response.data.items ?? [];
+    const details: Record<
+      string,
+      googleapis.youtube_v3.Schema$Video | undefined
+    > = {};
+    const detailResponse = await youtube.videos.list({
+      id: response.data.items?.map((item) => item.contentDetails?.videoId!),
+      part: ["snippet", "contentDetails"],
+      key,
+      maxResults: 50,
+    });
+    for (const detailItem of detailResponse.data?.items ?? []) {
+      details[detailItem.id!] = detailItem;
+    }
+
+    for (const entry of response.data.items ?? []) {
+      const video = details[entry.contentDetails?.videoId!];
+      yield { entry, video };
+    }
 
     // This cast is neccessary due to a TypeScript limitation that breaks the inference
     // of `response` above if we don't explicitly type this, but it's still easier to

@@ -17,9 +17,13 @@ async function main() {
     const videos: Record<string, string> = {};
 
     const meta = await playlistMetadata(config.playlistId);
+    let duration = 0;
 
-    for await (const entry of playlistVideos(config.playlistId)) {
-      videos[entry.contentDetails?.videoId!] = entry.snippet?.title!;
+    for await (const { entry, video } of playlistVideos(config.playlistId)) {
+      videos[entry.contentDetails?.videoId!] = `${entry.snippet?.title!} (${
+        Temporal.Duration.from(video?.contentDetails?.duration ?? "PT0M")
+          .seconds
+      }s)`;
     }
 
     playlists.push({

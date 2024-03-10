@@ -9,7 +9,7 @@
   },
   "unstable": ["temporal"],
   "tasks": {
-    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts && deno lint && deno fmt --check",
+    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/scan-playlists.ts && deno lint && deno fmt --check",
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
     "publish": "deno run --allow-read --allow-env --allow-net ./src/bin/publish.ts"
@@ -25,5 +25,10 @@
     "@std/yaml": "jsr:@std/yaml@^0.218.2",
     "npm:googleapis": "npm:googleapis@^133.0.0",
     "npm:zod": "npm:zod@^3.22.4"
+  },
+  "lint": {
+    "rules": {
+      "exclude": ["require-await"]
+    }
   }
 }

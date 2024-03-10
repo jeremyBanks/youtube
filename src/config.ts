@@ -13,7 +13,7 @@ const ScanTime = z.union([
   z.string().regex(/^P(\d+Y)?(\d+M)?(\d+D)?(T(\d+H)?(\d+M)?(\d+S)?)?$/),
 ]);
 
-const ChannelConfig = z.object({
+const ScanConfigToml = z.object({
   "min-interval": ScanTime,
   "scan-all-since": ScanTime,
   "scan-stale-since": ScanTime,
@@ -33,14 +33,16 @@ type ScanConfig = Record<string, {
 
 let scanConfig: undefined | Promise<ScanConfig> = undefined;
 
-async function getScanConfig(): Promise<ScanConfig> {
+export async function getScanConfig(): Promise<ScanConfig> {
   return await (scanConfig ??= (async () => {
-    const text = await Deno.readTextFile("./config/scan.toml");
-    const parsed = toml.parse(text);
-    console.log({ parsed });
-    // TODO: parse and merge config into this
-    return parsed as unknown as ScanConfig;
+    throw new Error("not implemented!");
+    // const text = await Deno.readTextFile("./config/scan.toml");
+    // const parsed = ScanConfigToml.parse(toml.parse(text));
+    // console.log({ parsed });
+    // // TODO: parse and merge config into this
+    // return parsed as unknown as ScanConfig;
   })());
 }
 
-console.log(await getScanConfig());
+export async function getAggregateConfig(): Promise<AggregateConfig> {
+}

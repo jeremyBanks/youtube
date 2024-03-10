@@ -10,7 +10,7 @@ scan-all-since = "never"
 scan-stale-since = "forever"
 
 # Duration indicating the time after which a scan's results are considered stale.
-stale-after = "forever"
+stale-after = "P32D"
 
 # Scan configuration for Dropout channels we're most interested in frequently updating.
 # (Those which include Dimension 20 content.)

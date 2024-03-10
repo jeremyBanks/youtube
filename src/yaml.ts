@@ -15,35 +15,37 @@ export const open = async <
 >(
   path: string,
   schema: Schema,
-  sortKeys: Array<SortKey | `-${SortKey}`>,
+  sortKeys?: Array<SortKey | `-${SortKey}`>,
 ): Promise<Array<z.TypeOf<Schema>>> => {
   const arraySchema = schema.array();
 
   const root = await load(path).then(arraySchema.parse, () => []);
 
   const dumpThis = async () => {
-    for (const sortKey of sortKeys.toReversed()) {
-      if (!sortKey.startsWith("-")) {
-        root.sort((a, b) => {
-          if (a[sortKey] < b[sortKey]) {
-            return -1;
-          } else if (a[sortKey] > b[sortKey]) {
-            return +1;
-          } else {
-            return 0;
-          }
-        });
-      } else {
-        const reverseKey = sortKey.slice(1);
-        root.sort((a, b) => {
-          if (a[reverseKey] > b[reverseKey]) {
-            return -1;
-          } else if (a[reverseKey] < b[reverseKey]) {
-            return +1;
-          } else {
-            return 0;
-          }
-        });
+    if (sortKeys) {
+      for (const sortKey of sortKeys.toReversed()) {
+        if (!sortKey.startsWith("-")) {
+          root.sort((a, b) => {
+            if (a[sortKey] < b[sortKey]) {
+              return -1;
+            } else if (a[sortKey] > b[sortKey]) {
+              return +1;
+            } else {
+              return 0;
+            }
+          });
+        } else {
+          const reverseKey = sortKey.slice(1);
+          root.sort((a, b) => {
+            if (a[reverseKey] > b[reverseKey]) {
+              return -1;
+            } else if (a[reverseKey] < b[reverseKey]) {
+              return +1;
+            } else {
+              return 0;
+            }
+          });
+        }
       }
     }
     await dump(path, arraySchema.parse(root));

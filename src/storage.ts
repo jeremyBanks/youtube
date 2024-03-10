@@ -97,4 +97,4 @@ let playlistStorage:
   | Promise<Array<Playlist>> = undefined;
 
 export const openPlaylistsStorage = () =>
-  playlistStorage ??= open("data/playlists.yaml", Playlist, []);
+  playlistStorage ??= open("data/playlists.yaml", Playlist);

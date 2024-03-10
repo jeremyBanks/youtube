@@ -11,6 +11,7 @@
   "tasks": {
     "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/scan-playlists.ts && deno lint && deno fmt --check",
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
+    "scan-playlists": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan-playlists.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
     "publish": "deno run --allow-read --allow-env --allow-net ./src/bin/publish.ts"
   },

@@ -274,7 +274,7 @@ Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original cam
 """
 
 [PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
-name = "Game Changer"
+name = "Game Changer (Episodes and Extras)"
 show = "Game Changer"
 description = """
 Playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
@@ -287,7 +287,3 @@ season = "Exandria Unlimited: Calamity"
 description = """
 Playlist of all episodes, trailers, and behind-the-scenes videos from Exandria Unlimited: Calamity, a campaign from Critical Role.
 """
-
-[PLObfuAmZm9pAZZqI4S1i8jj2fvmLQgh9Y]
-name = "[dropped] Um, Actually"
-show = "Um, Actually"

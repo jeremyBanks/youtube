@@ -105,6 +105,18 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   })());
 };
 
+export async function playlistMetadata(playlistId: string) {
+  const { youtube, key } = await getClientAuthAndKey();
+
+  const response = await youtube.playlists.list({
+    id: [playlistId],
+    part: ["snippet", "contentDetails"],
+    key,
+  });
+
+  return only(response.data?.items!);
+}
+
 export async function* playlistVideos(playlistId: string) {
   const { youtube, key } = await getClientAuthAndKey();
 

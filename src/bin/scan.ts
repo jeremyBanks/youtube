@@ -3,6 +3,7 @@ import { Scan, Video } from "../storage.ts";
 import { upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
+import { getScanConfig } from "../config.ts";
 
 if (import.meta.main) {
   await main();
@@ -10,59 +11,35 @@ if (import.meta.main) {
 
 /** Command-line entry point. */
 export async function main() {
-  for (
-    const handle of [
-      "dropout",
-      "dimension20show",
-      "dimension20shorts",
-      "umactually",
-      "gamechangershorts",
-      "makesomenoisedo",
-      "dirtylaundryshorts",
-      "veryimportantpeopleshow",
-    ]
-  ) {
-    await scanChannel(handle);
-  }
-}
-
-/** Retrieves video metadata for a given channel. */
-async function scanChannel(handle: string) {
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
 
-  const { channelId } = await channelMetadata(handle);
+  for (const config of await getScanConfig()) {
+    const { channelHandle } = config;
+    console.info(`Scanning ${channelHandle}...`);
 
-  const stopAt = new Date("2000-01-01");
+    const { channelId } = await channelMetadata(channelHandle);
 
-  const scannedAt = new Date();
+    const staleBefore = new Date(config.staleAfter.epochMilliseconds);
+    const stopAt = new Date(config.scanStaleSince.epochMilliseconds);
 
-  const publicPlaylistId = `UU${channelId.slice(2)}`;
-  let publicVideosExhaustive = true;
-  for await (const playlistItem of playlistVideos(publicPlaylistId)) {
-    const video: Video = {
-      channelId: playlistItem.snippet?.channelId!,
-      membersOnly: false,
-      publishedAt: new Date(playlistItem.snippet?.publishedAt!),
-      title: playlistItem.snippet?.title!,
-      videoId: playlistItem.snippet?.resourceId?.videoId!,
-    };
+    const existingScan = scans.find((scan) => (
+      scan.channelId === channelId &&
+      scan.scannedAt <= staleBefore
+    ));
 
-    if (stopAt && (video.publishedAt >= stopAt)) {
-      upsert(videos, video, (a, b) => a.videoId === b.videoId);
-    } else {
-      publicVideosExhaustive = false;
-      break;
+    if (existingScan) {
+      console.log(`...skipping, covered by existing scan`);
     }
-  }
 
-  const membersPlaylistId = `UUMO${channelId.slice(2)}`;
-  let membersVideosExhaustive = true;
-  try {
-    for await (const playlistItem of playlistVideos(membersPlaylistId)) {
+    const scannedAt = new Date();
+
+    const publicPlaylistId = `UU${channelId.slice(2)}`;
+    let publicVideosExhaustive = true;
+    for await (const playlistItem of playlistVideos(publicPlaylistId)) {
       const video: Video = {
         channelId: playlistItem.snippet?.channelId!,
-        membersOnly: true,
+        membersOnly: false,
         publishedAt: new Date(playlistItem.snippet?.publishedAt!),
         title: playlistItem.snippet?.title!,
         videoId: playlistItem.snippet?.resourceId?.videoId!,
@@ -71,27 +48,48 @@ async function scanChannel(handle: string) {
       if (stopAt && (video.publishedAt >= stopAt)) {
         upsert(videos, video, (a, b) => a.videoId === b.videoId);
       } else {
-        membersVideosExhaustive = false;
+        publicVideosExhaustive = false;
         break;
       }
     }
-  } catch (response) {
-    if (
-      response?.errors?.[0]?.reason === "playlistNotFound"
-    ) {
-      // that's okay. no members-only videos for this channel.
-    } else {
-      throw response;
+
+    const membersPlaylistId = `UUMO${channelId.slice(2)}`;
+    let membersVideosExhaustive = true;
+    try {
+      for await (const playlistItem of playlistVideos(membersPlaylistId)) {
+        const video: Video = {
+          channelId: playlistItem.snippet?.channelId!,
+          membersOnly: true,
+          publishedAt: new Date(playlistItem.snippet?.publishedAt!),
+          title: playlistItem.snippet?.title!,
+          videoId: playlistItem.snippet?.resourceId?.videoId!,
+        };
+
+        if (stopAt && (video.publishedAt >= stopAt)) {
+          upsert(videos, video, (a, b) => a.videoId === b.videoId);
+        } else {
+          membersVideosExhaustive = false;
+          break;
+        }
+      }
+    } catch (response) {
+      if (
+        response?.errors?.[0]?.reason === "playlistNotFound"
+      ) {
+        // that's okay. no members-only videos for this channel.
+      } else {
+        throw response;
+      }
     }
+
+    const scan: Scan = {
+      scannedAt,
+      channelId,
+      scannedTo: publicVideosExhaustive && membersVideosExhaustive
+        ? null
+        : stopAt,
+    };
+
+    scans.push(scan);
   }
-
-  const scan: Scan = {
-    scannedAt,
-    channelId,
-    scannedTo: publicVideosExhaustive && membersVideosExhaustive
-      ? null
-      : stopAt,
-  };
-
-  scans.push(scan);
 }

@@ -83,3 +83,18 @@ let scanStorage:
 
 export const openScanStorage = () =>
   scanStorage ??= open("data/scans.yaml", Scan, ["channelId", "-scannedAt"]);
+
+export const Playlist = z.object({
+  name: z.string(),
+  description: z.string(),
+  playlistId: z.string(),
+  videos: z.record(VideoId, z.string()),
+});
+export type Playlist = z.TypeOf<typeof Playlist>;
+
+let playlistStorage:
+  | undefined
+  | Promise<Array<Playlist>> = undefined;
+
+export const openPlaylistsStorage = () =>
+  playlistStorage ??= open("data/playlists.yaml", Playlist, []);

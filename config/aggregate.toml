@@ -44,9 +44,9 @@ ${D20_PLUG}
 name = "Dimension 20: Intrepid Heroes (Episodes and Extras)"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
-type = ["episode", "special", "bts", "animation", "trailer", "external"]
+type = ["episode", "special", "bts", "animation", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes, animations, and third-party interviews from all seasons of Dimension 20 which star the core Intrepid Heroes cast. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes, and animations from all seasons of Dimension 20 which star the core Intrepid Heroes cast. Free videos are used where possible, and member-only videos used for the rest.
 
 ${D20_PLUG}
 """
@@ -55,9 +55,9 @@ ${D20_PLUG}
 name = "Dimension 20: Spyre (Episodes and Extras)"
 show = "Dimension 20"
 world = "Spyre"
-type = ["episode", "special", "bts", "animation", "trailer", "external"]
+type = ["episode", "special", "bts", "animation", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes, animations, and third-party interviews from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes, and animations from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
 
 ${D20_PLUG}
 """
@@ -66,9 +66,9 @@ ${D20_PLUG}
 name = "Dimension 20: Calorum (Episodes and Extras)"
 show = "Dimension 20"
 world = "Calorum"
-type = ["episode", "special", "bts", "animation", "trailer", "external"]
+type = ["episode", "special", "bts", "animation", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes, animations, and third-party interviews from all seasons of Dimension 20 set in the world of Calorum. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes, and animations from all seasons of Dimension 20 set in the world of Calorum. Free videos are used where possible, and member-only videos used for the rest.
 
 ${D20_PLUG}
 """

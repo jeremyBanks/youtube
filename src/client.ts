@@ -238,8 +238,9 @@ export async function updatePlaylist(
     existingMetadata.snippet?.description !== description;
 
   if (titleChanged || descriptionChanged) {
-    console.info("Updating title and/or description.");
+    console.info("Updating metadata.");
 
+    console.debug(`youtube.playlists.update id: ${playlistId}`);
     await youtube.playlists.update({
       auth,
       key,
@@ -254,13 +255,37 @@ export async function updatePlaylist(
     });
   }
 
+  const entryIdsToRemove: Array<string> = [];
   const existingVideoIds: Array<string> = [];
+  let lastMatchedVideoIndex = -1;
 
   for await (const { entry } of playlistVideos(playlistId)) {
-    existingVideoIds.push(unwrap(entry.snippet?.resourceId?.videoId));
+    const videoId = unwrap(entry.snippet?.resourceId?.videoId);
+    const entryId = unwrap(entry.id);
+
+    const existingIndex = videoIds.indexOf(videoId);
+    if (existingIndex > lastMatchedVideoIndex) {
+      existingVideoIds.push(videoId);
+      lastMatchedVideoIndex = existingIndex;
+    } else {
+      entryIdsToRemove.push(entryId);
+    }
   }
 
-  // first: remove video IDs that don't belong, or are in the wrong order relative to previous entries.
+  const missingVideoCount = videoIds.length - existingVideoIds.length;
+
+  console.info(
+    `${existingVideoIds.length} entries okay, ${entryIdsToRemove.length} entries to remove, ${missingVideoCount} entries to insert.`,
+  );
+
+  for (const entryId of entryIdsToRemove) {
+    console.debug(`youtube.playlistItems.delete id: ${entryId}`);
+    await youtube.playlistItems.delete({
+      id: entryId,
+      auth,
+      key,
+    });
+  }
 
   // insert video IDs
 }

@@ -62,8 +62,9 @@ export const open = async <
   const onUnhandledRejection = (event: PromiseRejectionEvent) => {
     event.preventDefault();
 
-    console.debug(
-      `Dumping ${path} before shutdown due to unhandled error: ${event.reason}.`,
+    console.error(
+      `Dumping ${path} before shutdown due to unhandled error:`,
+      event.reason,
     );
     dumpThis();
   };

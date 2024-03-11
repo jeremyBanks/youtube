@@ -280,10 +280,16 @@ description = """
 ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
 """
 
-
 [PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
 name = "Make Some Noise (All Episodes and Extras)"
 show = "Make Some Noise"
 description = """
 ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
+"""
+
+[PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
+name = "Play It By Ear (All Episodes and Extras)"
+show = "Play It By Ear"
+description = """
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
 """

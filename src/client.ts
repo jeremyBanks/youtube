@@ -222,3 +222,45 @@ export async function channelMetadata(handle: string): Promise<Channel> {
 
   return retrieved;
 }
+
+export async function updatePlaylist(
+  playlistId: string,
+  title: string,
+  description: string,
+  videoIds: Array<string>,
+) {
+  const { youtube, auth, key } = await getClientAuthAndKey();
+
+  const existingMetadata = await playlistMetadata(playlistId);
+
+  const titleChanged = existingMetadata.snippet?.title !== title;
+  const descriptionChanged =
+    existingMetadata.snippet?.description !== description;
+
+  if (titleChanged || descriptionChanged) {
+    console.info("Updating title and/or description.");
+
+    await youtube.playlists.update({
+      auth,
+      key,
+      part: ["snippet"],
+      requestBody: {
+        id: playlistId,
+        snippet: {
+          title,
+          description,
+        },
+      },
+    });
+  }
+
+  const existingVideoIds: Array<string> = [];
+
+  for await (const { entry } of playlistVideos(playlistId)) {
+    existingVideoIds.push(unwrap(entry.snippet?.resourceId?.videoId));
+  }
+
+  // first: remove video IDs that don't belong, or are in the wrong order relative to previous entries.
+
+  // insert video IDs
+}

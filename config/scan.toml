@@ -70,6 +70,18 @@ complete-interval = "P128D"
 incremental-interval = "P32D"
 complete-interval = "P128D"
 
+[Roll20App]
+incremental-interval = "P128D"
+complete-interval = "P128D"
+
+[siblingrivalrypodcast]
+incremental-interval = "P128D"
+complete-interval = "P128D"
+
+[hankschannel]
+incremental-interval = "P128D"
+complete-interval = "P128D"
+
 [rickastleyyt]
 incremental-interval = "P128D"
 complete-interval = "P128D"

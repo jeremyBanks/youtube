@@ -101,3 +101,6 @@ let playlistStorage:
 
 export const openPlaylistsStorage = () =>
   playlistStorage ??= open("data/playlists.yaml", Playlist);
+
+export const openActualPlaylistsStorage = () =>
+  playlistStorage ??= open("data/actual-playlists.yaml", Playlist);

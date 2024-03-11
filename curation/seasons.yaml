@@ -1871,6 +1871,8 @@ videos:
 
 - external: Brennan Discusses The Ravening War on Screen Rant Plus
   public: R16Eq9K74BM
+  published: 2023-05-16
+
 
 ---
 
@@ -1929,9 +1931,11 @@ videos:
 
 - external: 'Sibling Rivalry: The One About Dungeons and Drag Queens'
   public: I5xKN5ihTeg
+  published: 2023-08-30
 
 - external: Brennan Discusses Dungeons and Drag Queens on Screen Rant Plus
   public: 4wP9PP6irGI
+  published: 2023-07-05
 
 ---
 
@@ -2004,9 +2008,11 @@ videos:
 
 - external: Hank Green Describes The Worst Part About Being on Dimension 20
   public: FWmEgUxfw5Q
+  published: 2023-08-09
 
 - external: Brennan Discusses Mentopolis on Screen Rant Plus
   public: Yn_iZJdB3pI
+  published: 2023-08-21
 
 
 ---
@@ -2102,9 +2108,11 @@ videos:
 
 - external: Brennan Discusses Burrow's End on Screen Rant Plus
   public: FyjMmhoSmlo
+  published: 2023-10-19
 
 - external: Aabria Discuses Burrow's End on Screen Rant Plus
   public: DmJdg4XNzC8
+  published: 2023-11-30
 
 ---
 
@@ -2120,6 +2128,7 @@ videos:
 
 - special: Fantasy High Seasons 1 and 2 Full Recap
   public: HgGZvg8gbBM
+  published: 2023-12-27
 
 - episode: 1. Summer Scaries
   public: G4o_mJKAJxY
@@ -2200,11 +2209,6 @@ videos:
 
 ---
 
-description: |
-  
-  https://en.wikipedia.org/wiki/Game_Changer_(game_show)#Episodes
-
-  start with https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 show: Game Changer
 videos:
 
@@ -2266,64 +2270,64 @@ videos:
 
 - episode: 302. Sell Outs (A Sponsored Episode 2)
   members: BFFy78gMPp8
-  published: October 5, 2020
+  published: 2020-10-05
 
 - episode: 303. ChangerCon
   members: 0nhC4M3zyCE
-  published: October 30, 2020
+  published: 2020-10-30
 
 - episode: 304. Is This Thing On?
   members: XjtVoiYY3ZE
-  published: October 30, 2020
+  published: 2020-10-30
 
 - episode: 305. Ham It Up
   members: eqzle9-HsTY
-  published: 11 13, 2020
+  published: 2020-11-13
 
 - episode: 306. Never Have I Ever
   members: LMZrjxRAJ88
-  published: 11 27, 2020
+  published: 2020-11-27
 
 - episode: 307. Jeopardy!
   members: 5cT1jXyEBLQ
-  published: 12 12, 2020
+  published: 2020-12-12
 
 - episode: 308. Secret Samta
   members: H70jwTyuXnc
-  published: 12 26, 2020
+  published: 2020-12-26
 
 - episode: 309. 20/20 Vision
   members: Isln_OT9Juc
-  published: 01 8, 2021
+  published: 2021-01-08
 
 - episode: 310. The Substitute (Make Some Noise 3)
   members: MSncX42YAq4
-  published: 01 22, 2021
+  published: 2021-01-22
 
 - episode: 311. Three For the Price of One (A Sponsored Episode 3)
   members: fm_4oznYJlg
-  published: 02 20, 2021
+  published: 2021-02-20
 
 - episode: 312. Next Slide Please
   members: zkUDUdZ5BqI
-  published: 03 5, 2021
+  published: 2021-03-05
 
 - episode: 313. Make It Fashion (ChangerCon 2)
   members: seSgDW0qSAM
-  published: 03 9, 2021
+  published: 2021-03-09
 
 - episode: 314. Tome of Terror
   members: OfLq9_q8_Ws
-  published: 04 3, 2021
+  published: 2021-04-03
 
 - episode: "315. Secret Samta 2: The Samta Clause"
   members: lmG6Q7CfT98
-  published: 04 16, 2021
+  published: 2021-04-16
 
 - trailer: Game Changer Season 4 Trailer
   public: 3btMi1TNP2s
   members: _LqBgzF_W3g
-  released: 2021-10-25
+  published: 2021-10-25
 
 - episode: 401. Sam Says
   public: vT-zZsjwZKk
@@ -2373,6 +2377,7 @@ videos:
 
 - trailer: Game Changer Season 5 Trailer
   public: kuhWCCvcO6Q
+  published: 2022-10-31
 
 - episode: 501. Sam Says 2
   members: KMfHWKFC4os
@@ -2435,7 +2440,7 @@ videos:
   published: 2023-02-28
 
 - episode: 509. Escape the Greenroom
-  members: YYY
+  members: 2boUvSEqGtA
   published: 2023-03-06
 
 - bts: Escape The Greenroom BTS

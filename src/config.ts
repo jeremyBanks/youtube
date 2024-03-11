@@ -1,6 +1,8 @@
 import * as toml from "@std/toml";
+import * as yaml from "./yaml.ts";
 
 import z from "npm:zod";
+import { VideoId } from "./storage.ts";
 
 const Duration = z.string().regex(
   /^P(\d+Y)?(\d+M)?(\d+D)?(T(\d+H)?(\d+M)?(\d+S)?)?$/,
@@ -104,5 +106,42 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
       });
     }
     return config;
+  })());
+}
+
+const SeasonsCurationYaml = z.array(
+  z.object({
+    show: z.string(),
+    season: z.string().optional(),
+    cast: z.string().optional(),
+    world: z.string().optional(),
+    videos: z.array(
+      z.object({
+        published: z.date(),
+        trailer: z.string().optional(),
+        episode: z.string().optional(),
+        special: z.string().optional(),
+        bts: z.string().optional(),
+        animation: z.string().optional(),
+        external: z.string().optional(),
+        members: VideoId.optional(),
+        "removed members": VideoId.optional(),
+        "members deleted": VideoId.optional(),
+        public: VideoId.optional(),
+        "public compilation": VideoId.optional(),
+        "public parts": VideoId.or(VideoId.array()).optional(),
+      }).strict(),
+    ),
+  }).strict(),
+);
+type SeasonsCuration = z.TypeOf<typeof SeasonsCurationYaml>;
+
+let seasonsCuration: undefined | Promise<SeasonsCuration> = undefined;
+export async function getSeasonsCuration(): Promise<SeasonsCuration> {
+  return await (seasonsCuration ??= (async () => {
+    const parsed = SeasonsCurationYaml.parse(
+      await yaml.load("./curation/seasons.yaml"),
+    );
+    return parsed;
   })());
 }

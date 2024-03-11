@@ -14,7 +14,7 @@ export async function main() {
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
 
-  videos.length = 0;
+  // videos.length = 0;
 
   for (const config of await getScanConfig()) {
     const { channelHandle } = config;

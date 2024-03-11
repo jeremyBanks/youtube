@@ -1,5 +1,5 @@
 import { getAggregateConfig } from "../config.ts";
-import { openPlaylistsStorage } from "../storage.ts";
+import { openActualPlaylistsStorage } from "../storage.ts";
 import { playlistMetadata, playlistVideos } from "../client.ts";
 
 if (import.meta.main) {
@@ -9,7 +9,7 @@ if (import.meta.main) {
 async function main() {
   const aggregateConfig = await getAggregateConfig();
 
-  const playlists = await openPlaylistsStorage();
+  const playlists = await openActualPlaylistsStorage();
   playlists.length = 0;
 
   for (const config of aggregateConfig) {

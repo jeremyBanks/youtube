@@ -284,6 +284,17 @@ viewCount:       46423486
 
 ---
 
+name:            hankschannel
+handle:          hankschannel
+createdAt:       2009-11-07T08:55:35.000Z
+channelId:       UCOT2iLov0V7Re7ku_3UBtcQ
+refreshedAt:     2024-03-11T04:05:28.864Z
+videoCount:      784
+subscriberCount: 1740000
+viewCount:       814446046
+
+---
+
 name:            Dungeons & Dragons
 handle:          dndwizards
 createdAt:       2010-02-05T01:04:29.000Z
@@ -765,6 +776,17 @@ refreshedAt:     2024-03-05T15:08:05.239Z
 videoCount:      120
 subscriberCount: 161000
 viewCount:       9391110
+
+---
+
+name:            Sibling Rivalry
+handle:          siblingrivalrypodcast
+createdAt:       2016-09-20T04:13:34.000Z
+channelId:       UCO24uYfXkWFWF9a8xOzlmRw
+refreshedAt:     2024-03-11T04:05:24.731Z
+videoCount:      427
+subscriberCount: 216000
+viewCount:       44804843
 
 ---
 

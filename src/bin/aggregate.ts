@@ -1,6 +1,5 @@
 import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
 import { openPlaylistsStorage, openVideoStorage } from "../storage.ts";
-import { load } from "../yaml.ts";
 
 if (import.meta.main) {
   await main();
@@ -92,7 +91,7 @@ async function main() {
     let description = config.description;
     description = description.replace(
       "${D20_PLUG}",
-      "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
+      "Dimension 20 is an Actual Play TTRPG series from @Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
     );
     description = description.replace(
       "${HOURS}",

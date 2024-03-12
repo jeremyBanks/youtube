@@ -287,5 +287,24 @@ export async function updatePlaylist(
     });
   }
 
-  // insert video IDs
+  for (const [position, videoId] of videoIds.entries()) {
+    if (existingVideoIds.includes(videoId)) {
+      continue;
+    } else {
+      console.debug(`youtube.playlistItems.insert videoId: ${videoId}`);
+      await youtube.playlistItems.insert({
+        requestBody: {
+          snippet: {
+            playlistId,
+            resourceId: {
+              videoId,
+            },
+            position,
+          },
+        },
+        auth,
+        key,
+      });
+    }
+  }
 }

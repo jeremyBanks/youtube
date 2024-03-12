@@ -131,6 +131,7 @@ const SeasonsCurationYaml = z.array(
         "members deleted": VideoId.optional(),
         public: VideoId.optional(),
         "public compilation": VideoId.optional(),
+        "public copy": VideoId.optional(),
         "public parts": VideoId.or(VideoId.array()).optional(),
         "deleted public parts": VideoId.or(VideoId.array()).optional(),
       }).strict(),

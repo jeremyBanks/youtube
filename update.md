@@ -16,6 +16,9 @@ few updates:
    episode order from Dropout.tv, while on YouTube some of the early seasons
    were released with different episode or no number at all. This also includes
    the pre-Dropout episodes of Um, Actually at the beginning like a Season 0.
+   Note that the free episodes often include mid-roll advertisements that the
+   paid ones would not, but we still prefer the free episodes for compatibility
+   with YouTube Premium's background and offline playback capabilities.
 5. New playlist for "Make Some Noise":
    https://www.youtube.com/playlist?list=PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM.
    This includes the pre-spin-off Game Changer episodes of Make Some Noise at

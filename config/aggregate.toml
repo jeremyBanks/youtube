@@ -298,7 +298,7 @@ ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos f
 name = "Um, Actually (All Episodes and Extras)"
 show = "Um, Actually"
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um, Actually, the game show where nerds correct nerds.
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from @UmActually, the game show where nerds correct nerds.
 """
 
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]

@@ -284,12 +284,20 @@ ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos f
 name = "Make Some Noise (All Episodes and Extras)"
 show = "Make Some Noise"
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
+${HOURS}-hour playlist of all episodes and trailers from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
 """
 
 [PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
 name = "Play It By Ear (All Episodes and Extras)"
 show = "Play It By Ear"
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
+${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
+"""
+
+[PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
+skip = true
+name = "Um, Actually (All Episodes and Extras)"
+show = "Um, Actually"
+description = """
+${HOURS}-hour playlist of all episodes and trailers from Um, Actually, the game show where nerds correct nerds.
 """

@@ -71,6 +71,7 @@ type AggregateConfig = Array<{
   seasons?: Array<string>;
   casts?: Array<string>;
   free?: boolean;
+  skip?: boolean;
 }>;
 
 let aggregateConfig: undefined | Promise<AggregateConfig> = undefined;
@@ -103,6 +104,7 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
           ? [aggregateConfig.season].flat(2)
           : undefined,
         free: aggregateConfig.free,
+        skip: aggregateConfig.skip,
       });
     }
     return config;

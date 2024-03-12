@@ -18,6 +18,10 @@ async function main() {
   playlists.length = 0;
 
   for (const config of aggregateConfig) {
+    if (config.skip) {
+      continue;
+    }
+
     const videoIds: Array<string> = [];
 
     for (const season of seasons) {

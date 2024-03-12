@@ -2762,44 +2762,564 @@ videos:
 - episode: '001. Firefly, Star Wars Jizz Bands, Daenerys Targaryen''s Dragons'
   public: Qam4iiya1q0
   published: 2015-01-17
-  duration: 265
 
 - episode: '002. Return of the Jedi, Hodor, Quidditch'
   public: IETbROVCYJ4
   published: 2015-03-05
-  duration: 384
 
 - episode: '003. Fellowship of the Ring, Mortal Kombat, Bowser''s Children'
   public: gBVRvVMWIA8
   published: 2015-04-21
-  duration: 387
 
 - episode: '004. Watto''s Beard, D&D, Deathly Hallows'
   public: _1mTP75jVC8
   published: 2017-07-11
-  duration: 572
 
 - episode: '005. Slytherin, Star Wars, Scarecrow'
   public: '-dactFGD2qU'
   published: 2017-12-11
-  duration: 557
 
 - episode: '006. Monsters, Moogles, and Side Mirrors'
   public: 6zWTMF7kLSI
   published: 2018-06-28
-  duration: 695
 
 - episode: '007. House Crests, House Crushings, and the Kongs'
   public: 5imeyaGEIdU
   published: 2018-07-28
-  duration: 597
 
 - episode: '008. Make-Up, Maps, and Mythical Dragons'
   public: AUabsUtAeiw
   published: 2018-08-30
-  duration: 705
 
 - episode: '009. Star Trek, Schwarzenegger, and Stoker'
   public: VpExylE3C9Q
   published: 2018-09-15
-  duration: 703
+
+- trailer: Um, Actually Trailer
+  public: Hpr57s-oil4
+  published: 2018-09-27
+
+- episode: 101. C-3PO's Origins, HP Lovecraft, the Food Album (with Weird Al Yankovic)
+  public: ZtMM2c__sfw
+  members: s56r-cp2gcA
+  published: 2018-09-27
+
+- episode: 102. Cyborg Cops, Shai'Hulud, Sci-Fi Substance Abuse
+  public: MYklBhWHVQ8
+  members: P7gK9_alUfk
+  published: 2018-09-25
+
+- episode: 103. Incantations, Immortans, Vulcans in Heat
+  public: ZsZjFAfJJ3c
+  published: 2018-09-25
+
+- episode: 104. Ganondorf, Gremlins, Geography of Westeros
+  public: aLz9XCAGBSY
+  members: YIXoIiZ5m80
+  published: 2018-10-04
+
+- episode: 105. Animalities, Maple Street Monsters, Mutagen Ooze
+  public: J8ZuoNkkt88
+  members: twqpBL8EoyE
+  published: 2018-10-11
+
+- episode: 106. Pevensie Reign, Foreign Mutants, Kanto Clones
+  public: nMedD6E6BZ8
+  members: yxQ1K20PyS4
+  published: 2018-10-18
+
+- episode: 107. Mouth of Sauron, Saiyan Tails, Bothan Spies
+  public: WKP9XcCEhho
+  members: bUMWjAXJq4o
+  published: 2018-10-25
+
+- episode: 108. Jump Man, Folklore, Hounds of Tindalos
+  public: ppPX9F0kEys
+  members: ZUqERbgXYMc
+  published: 2018-11-01
+
+- episode: 109. Bilquis, Black Panther, Battlestar Galactica
+  public: bk8y60W61es
+  members: 8lHjxgNKKME
+  published: 2018-11-08
+
+- episode: 110. Nothlits, Dust Bunnies, His Dark Materials
+  public: 9CR7qBcdMjA
+  members: 9zmOSqhWy_U
+  published: 2018-11-15
+
+- episode: 111. Skaven, Watchmen, The Neverending Story
+  public: DphtFdAoscc
+  members: WbR8eb2Nl1M
+  published: 2018-11-22
+
+- episode: 112. Mako, Mudbloods, Mephisto (with Jonathan Coulton)
+  public: FRGoLMIifQs
+  members: d8RUaKpyp40
+  published: 2018-11-29
+
+- episode: 113. Father Figures, Frog Thor, Fusion Gems
+  public: 03BEcTxR1rA
+  members: f0xbWbx5i6E
+  published: 2018-12-06
+
+- episode: 114. Robots, Rhydon, Staff of Ra
+  public: VjIDgX5gWy4
+  members: 2B_4tqI4kkY
+  published: 2018-12-13
+
+- episode: 115. Charybdis, Kill Lists, and Cookie Crisp (with Mike Mearls)
+  public: xyViPMplguU
+  members: H_tes5vHn2M
+  published: 2018-12-20
+
+- episode: 116. Diablo, Diddy Kong, Dora Milaje
+  public: 83UOEWKpBeA
+  members: nDd92cxeI-c
+  published: 2018-12-27
+
+- episode: 117. Wario, Winnie the Pooh, A Wrinkle in Time
+  public: MtcdhCXlvvA
+  members: TovNMQcuqsA
+  published: 2019-01-03
+
+- episode: 118. Monty Python, Shōnen Manga, Mr. Burns
+  public: 64qDiKBD6i0
+  members: JkUXGPWBm7c
+  published: 2019-01-10
+
+- episode: 119. Sonic, Shredder, the Sword in the Stone
+  public: P7vwekQuGls
+  members: N4ylDRgHVN8
+  published: 2019-01-17
+
+- episode: 120. Cyclops, Skeletor, the Dark Crystal
+  public: nh2I61z7nQA
+  members: N_I96EWvRjo
+  published: 2019-01-24
+
+- episode: 121. Ms Pac-Man, Mick Foley, Marvel Apes
+  ublic: jfy8HMiwoig
+  members: X7Zb3jgMhiE
+  published: 2019-01-31
+
+- episode: 122. Hodor, Portable Holes, Philip K. Dick (with Kristian Nairn)
+  public: eiPVhsUW47o
+  members: tybKiEvVIco
+  published: 2019-02-07
+
+- episode: "123. Mortal Kombat,Element Stones, The Matrix: Reloaded"
+  public: reyJ57SIHhs
+  members: '-4Q7dgLxSgg'
+  published: 2019-02-21
+
+- episode: "124. Jabberwocky,Gelatinous Cubes, Magic: the Gathering"
+  public: T4p7i6W3XRI
+  members: NsBj3uKX6lA
+  published: 2019-03-07
+
+- episode: 125. Tournament of Champions Pt. 1
+  public: 9RdNoaeRkYU
+  members: qWRD67aays4
+  published: 2019-03-14
+
+- episode: 126. Tournament of Champions Pt. 2
+  public: VPp3JCVwyAo
+  members: FCd4122_OZY
+  published: 2019-03-21
+
+- episode: 127. Tournament of Champions Pt. 3
+  public: lXvdTgkboLo
+  members: UDlXmqWpxhQ
+  published: 2019-03-28
+
+- episode: 128. Tournament of Champions Pt. 4
+  public: iAzph0s6CbI
+  members: p7DMY2Uwse0
+  published: 2019-04-04
+
+- episode: 129. Bob's Burgers,Logan's Run (Fans vs. Faves Pt. 1)
+  public: _9BAc8SffUI
+  members: YKI8rj7PfrQ
+  published: 2019-05-24
+
+- episode: 130. Stranger Things, Steven Spielberg (Fans vs. Faves Pt. 2)
+  public: ThWOTXmV7Ag
+  members: f0XRRCHMPSg
+  published: 2019-05-31
+
+- episode: 131. Kingdom Hearts, My Hero Academia (Fans vs. Faves Pt. 3)
+  public: SD-Z-7Y_KAY
+  members: rDmUXsltUYE
+  published: 2019-06-07
+
+- episode: 132. Ranma, Jojo's Bizarre Adventure (Fans vs. Faves Pt. 4)
+  public: 96_HybKIQKs
+  members: IYR5M5Rk92E
+  published: 2019-06-14
+
+- trailer: Um, Actually Season 2 Trailer
+  public: eVwX-GJR190
+  published: 2019-07-20
+
+- episode: 201. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- episode: 207. The Musical Theater Episode!
+  members: 1gWa96jCU4M
+  published: 2019-08-30
+
+- episode: 301. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- episode: 401. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- episode: 501. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- trailer: Um, Actually Season 6 Trailer
+  public: ZY345V4HV0Q
+  members: K-Bl0DflP7I
+  published: 2022-01-07
+
+- episode: 601. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- trailer: Um, Actually Season 7 Trailer
+  public: K38j91EiLKk
+  members: wGnlZ69wnQU
+  published: 2022-07-01
+
+- episode: 701. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- trailer: Um, Actually Season 8 Trailer
+  public: QNgjT0UV-JE
+  members: EsH7ib2SDts
+  published: 2023-03-17
+
+- episode: 801. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+- trailer: Um, Actually Season 9 Trailer
+  public: pe6lnxZ9QbI
+  public copy: jRB-Kz3TAZc
+  published: 2024-02-06
+
+- episode: 801. XXXXX
+  public: PPPPP
+  members: MMMMM
+  published: DDDDDDD
+
+
+- episode: Um Actually LIVE! @ Comic Con (NY)
+  public: 3yQYVRzuP7M
+  published: 2019-10-05
+
+
+
+
+
+
+- episode: 'Gotham, The Good Place, The Black Cauldron'
+  public: Ft6N64pPll0
+  published: 2021-04-16
+
+- episode: A Very Special TV-Themed Episode
+  public: bd8-sUQzb7w
+  published: 2021-04-23
+
+- episode: The Musical Theater Episode!
+  public: 98HzbcRmmHk
+  published: 2021-04-30
+
+- episode: 'The Dresden Files, Settlers of Catan, Fallout 4'
+  public: QLGc7VL0HUM
+  published: 2021-05-07
+
+- episode: 'Predator, Mistborn, The Expanse'
+  public: '-Akk6Rtt5uQ'
+  published: 2021-05-14
+
+- episode: 'Um, Actually Home Game Kickstarter Announcement'
+  public: bV0cjYLYTjM
+  published: 2021-05-18
+
+- episode: 'Scott Pilgrim, Highlander, Dr. Doom'
+  public: TOiOwX8hUmc
+  published: 2021-05-21
+
+- episode: 'Homestar Runner, Hearthstone, Demolition Man'
+  public: 0_wA2f1ZTd4
+  published: 2021-05-28
+
+- episode: 'Stephen King, Warhammer 40,000, Dragon Age'
+  public: JHdM7aVqfbU
+  published: 2021-06-04
+
+- episode: 'Sailor Moon, Pacific Rim, Fate/Stay Night'
+  public: C51TuAxhUY0
+  published: 2021-06-11
+
+- episode: 'Ghostbusters, Gateway, Gravity Falls'
+  public: LwZ00vkM_Cg
+  published: 2021-06-18
+
+- episode: 'Star Trek, Godzilla Island, Babylon 5'
+  public: 7M9ou72XRe0
+  published: 2021-06-25
+
+- episode: 'E.T., Green Lantern, Robin Hobb'
+  public: OAd_jJlC4TY
+  published: 2021-07-02
+
+- episode: 'Venture Brothers, Full Metal Alchemist, Conan the Barbarian'
+  public: S_OgBiXMjRc
+  published: 2021-07-09
+
+- episode: 'Buffy the Vampire Slayer, M. Night Shyamalan, Final Fantasy X'
+  public: FBAP8g4G45c
+  published: 2021-07-16
+
+- episode: The Um Actually Holiday Special
+  public: pvzEaPpLq48
+  published: 2021-07-23
+
+- episode: 'Rick & Morty, The Muppets, Superman'
+  public: XMpGeyDMTPY
+  published: 2021-07-30
+
+- episode: 'Borderlands, Ticket to Ride, Into the Spider-Verse'
+  public: DGEFliHCUW4
+  published: 2021-08-06
+
+- episode: 'Ender''s Game, Good Omens, Secret Wars'
+  public: 7lI4xD53DRE
+  published: 2021-08-13
+
+- episode: 'Pokémon, South Park, Discworld (With John Darnielle)'
+  public: DBwUprEJbOU
+  published: 2021-08-20
+
+- episode: 'Love, Actually! (Um, Actually: All Love Edition)'
+  public: dYa0SK_pUdc
+  published: 2021-08-27
+
+- episode: 'Thundercats, Animorphs, Metal Wolf Chaos'
+  public: PIhMJ29IXRo
+  published: 2021-09-03
+
+- episode: 'D''oh! Actually: A Special Simpsons Episode'
+  public: HS6yJHLbhwU
+  published: 2021-09-10
+
+- episode: 'Doom, A Wizard of Earthsea, Avengers: Endgame'
+  public: CQEdNzOTK0o
+  published: 2021-09-17
+
+- episode: 'Legion, Lumberjanes, Nicolas Flamel'
+  public: sj_Vf_zzuTk
+  published: 2021-09-24
+
+- episode: 'God of War, Spirited Away, Dance Dance Revolution'
+  public: 6RlH27uEwL4
+  published: 2021-10-01
+
+- episode: 'Zelda, Aquaman, Neopets'
+  public: MBMAgkGjTcc
+  published: 2021-10-08
+
+- episode: 'Indiana Jones, Futurama, Starship Troopers'
+  public: pGJpnx5DZQw
+  published: 2021-10-15
+
+- episode: 'Invader Zim, Dark Souls, Stargate'
+  public: W7UTMYMWx44
+  published: 2021-10-22
+
+- episode: 'Um, Aaah!ctually: Halloween Edition'
+  public: FqqiHhXg1_w
+  published: 2021-10-29
+
+- episode: 'Um, Academy! A Special Cinematic Episode'
+  public: XbAp9tSPTdU
+  published: 2021-11-05
+
+- episode: 'Supergirl, Elder Scrolls, Sword Art Online'
+  public: rUQggtHUVPI
+  published: 2021-11-12
+
+- episode: 'Monopoly, My Little Pony, The Witcher'
+  public: orrCyamsIG8
+  published: 2021-11-19
+
+- episode: Muppets & Puppets
+  public: CLABbuM8S2A
+  published: 2021-11-26
+
+- episode: Marvel
+  public: BMcaTGl9ka8
+  published: 2021-12-03
+
+- episode: All-Stars
+  public: dYavJ6hYymg
+  published: 2021-12-10
+
+- episode: Dungeons & Dragons All-Stars
+  public: JXTZSi6q3xE
+  published: 2021-12-17
+
+- episode: Saturday Morning Cartoons
+  public: GQBV-Px-33w
+  published: 2021-12-24
+
+- episode: Pokémon
+  public: T3bnyaKSkLI
+  published: 2021-12-31
+
+- episode: 'Um, Actually Season 6 Trailer'
+  public: ZY345V4HV0Q
+  published: 2022-01-07
+
+- episode: Disney
+  public: ogNHJS598a0
+  published: 2022-01-26
+
+- episode: Anime
+  public: l4PriW398WQ
+  published: 2022-02-11
+
+- episode: Stephen King
+  public: DIQzH5VXnL8
+  published: 2022-02-25
+
+- episode: Switcheroo!
+  public: '-ER8pdzdzak'
+  published: 2022-03-11
+
+- episode: 'Magic: The Gathering'
+  public: uf_2HRhs8XA
+  published: 2022-03-25
+
+- episode: Musicals Encore
+  public: _L6ZTxgVXnE
+  published: 2022-04-08
+
+- episode: 'Return To Love, Actually!'
+  public: RnOPEgprI3s
+  published: 2022-04-22
+
+- episode: Crew Battle
+  public: mVnuYYEY43Y
+  published: 2022-05-06
+
+- episode: Nicktoons
+  public: jd2DbDtZ6iE
+  published: 2022-05-20
+
+- episode: 'Cabin in the Woods, Deadlands, Spider-Man Villains'
+  public: K2XFuI8Yr_8
+  published: 2022-06-03
+
+- episode: Anglophilia
+  public: HCANF0pTmdU
+  published: 2022-06-17
+
+- episode: Um Actually Season 7 Trailer
+  public: K38j91EiLKk
+  published: 2022-07-01
+
+- episode: 'Kim Possible, The Princess Bride, Sliders'
+  public: N1j1evf4I3U
+  published: 2022-07-01
+
+- episode: Dystopias
+  public: t9R9Rq1KYx4
+  published: 2022-07-15
+
+- episode: The McElroy Melee
+  public: 76cIF9sCshI
+  published: 2022-07-29
+
+- episode: 'Monsters, Myths, and Folklore'
+  public: JAVPzyt6IFs
+  published: 2022-08-12
+
+- episode: 'Demiliches, Isengard, I Am Legend'
+  public: Rjm7R0MeqhA
+  published: 2022-08-19
+
+- episode: Battle of the Mods
+  public: 0rppUHvUE9Q
+  published: 2022-09-02
+
+- episode: ActuallyMania
+  public: LaO96dGr4yA
+  published: 2022-09-16
+
+- episode: 'Star Wars Names, HUDs, The Umbrella Academy'
+  public: DKKb_YE8E8I
+  published: 2022-09-30
+
+- episode: 'Alien vs Predator, The Beastmaster, ET'
+  public: gQd3ZxLNGFQ
+  published: 2022-10-14
+
+- episode: 'Um, Anime!'
+  public: EvvZH3ydJj4
+  published: 2022-11-04
+
+- episode: 'Sunshine, Casper the Friendly Ghost, Sex Criminals'
+  public: BAawlPofqR0
+  published: 2022-11-18
+
+- episode: 'Arrival, Dragon Ball Super, Elf With a Gun'
+  public: aDArgeRNYTI
+  published: 2022-12-16
+
+- episode: 'The Haunting of Hill House, Hereditary, The Ring'
+  public: kQoIytS2cLI
+  published: 2022-12-30
+
+- episode: 'Soulcalibur, Dread, The Sims: Livin'' Large'
+  public: 7hSo3B58UDc
+  published: 2023-01-13
+
+- episode: 'Catwoman, Undertale, Clayface'
+  public: 1Us1jDjnExI
+  published: 2023-01-27
+
+- episode: '1984, Hunter x Hunter, Supernatural'
+  public: DmBUfTtrdwc
+  published: 2023-02-10
+
+- episode: 'The Nutcracker, The Nightmare Before Christmas, White Christmas'
+  public: Cmc_rJ99afw
+  published: 2023-02-24
+
+- episode: 'Star Trek, Species, Bionicle'
+  public: o8dnt3jyaoY
+  published: 2023-03-10
+
+- episode: 'Um, Actually Season 8 Trailer'
+  public: QNgjT0UV-JE
+  published: 2023-03-17
+
+- episode: 'Um, Actually Season 9 Trailer'
+  public: jRB-Kz3TAZc
+  published: 2024-02-06

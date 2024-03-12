@@ -1,0 +1,32 @@
+This software is exclusively for internal/private use in order to generate and update the playlists published at https://www.youtube.com/@actualplaylists/playlists. I will be the only one using this software for the forseeable future. I am using it to curate playlists with seasons and series of content from other YouTube channels, when those channels do not organize their own content into playlists, and it can be hard to find everything in a series you want to watch.
+
+This software will use the YouTube Data API v3 in the following ways:
+
+- It will be authenticated with my YouTube account using OAuth, never anyone else's.
+
+- The software will providing a local index of all videos available in specified channels, gathered using the `channels.list`, `playlistItems.list`, and `videos.list` API methods. This is is used to help precisely search for related videos across multiple channels of interest, and to validate that local playlist files are referring to video IDs which exist and make sense. This only includes publicly-available data. This data is only used locally, and will be deleted within 30 days, after which it may be refreshed it needed again.
+
+- The software will take playlists that have been manually defined in local text files (using data from the index mentioned above), and publish them to YouTube, typically by updating an existing playlist to reflect more recent changes, using the `playlist.update`, `playlistItems.list`, `playlistItems.delete`, and `playlistItems.insert` API methods. 
+
+This is non-commercial. I'm just going to be creating playlists and sharing them with other fans.
+
+I have tried to maintain these playlists manually in the past, but the process is time-consuming and error prone, so I've been using this script. However, many of the series I'd like to include have dozens or sometimes even hundreds of episodes. The default quota allows a maximum of 200 write operations per day (assuming zero reads), which is prohibitively low to even publish a single playlist in some cases, and I'd like to be able to publish or update multiple. 
+
+---
+
+Justification for requesting additional quota? *
+Largest playlist I've created to date is 213 items. To upload this alone would require 50 * (213 + 1) = 10700 quota plus any required read operations, which exceeds the existing quota. I'd like to be able to prepare several playlists locally at once, and publish them all at once, which would require occasional daily spikes in the high tens of thousands of quota, so I'm rounding up to 100k total quota.
+
+Peak QPS = 1.0
+Daily usage = typically 0-20 requests, spikes of up to 2000 requests once or twice a month.
+
+---
+
+What functionality would your API client be lacking without more quota? *
+It won't be able to publish new playlists in a single quota day, so I'll need to run the script in batches over multiple days, leaving the playlists in an incomplete or inconsistent state in the meanwhile.
+
+---
+
+What potential workarounds would you use to compensate for less quota? (ex. decreased feature set, estimations, smaller sampling)
+
+There are no possible workarounds, except for doing everything manually. I am already using the minimum number of API requests and caching any data for a long time, but there's a strict lower bound on the number of requests I can make in order to make a given number of playlist modifications.

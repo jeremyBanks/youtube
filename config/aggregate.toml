@@ -273,13 +273,6 @@ ${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes v
 ${D20_PLUG}
 """
 
-[PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
-name = "Game Changer (All Episodes and Extras)"
-show = "Game Changer"
-description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
-"""
-
 [PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
 name = "Make Some Noise (All Episodes and Extras)"
 show = "Make Some Noise"
@@ -294,8 +287,14 @@ description = """
 ${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
 """
 
+[PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
+name = "Game Changer (All Episodes and Extras)"
+show = "Game Changer"
+description = """
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
+"""
+
 [PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
-skip = true
 name = "Um, Actually (All Episodes and Extras)"
 show = "Um, Actually"
 description = """

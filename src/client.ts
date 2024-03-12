@@ -233,9 +233,9 @@ export async function updatePlaylist(
 
   const existingMetadata = await playlistMetadata(playlistId);
 
-  const titleChanged = existingMetadata.snippet?.title !== title;
+  const titleChanged = existingMetadata.snippet?.title?.trim() !== title.trim();
   const descriptionChanged =
-    existingMetadata.snippet?.description !== description;
+    existingMetadata.snippet?.description?.trim() !== description?.trim();
 
   if (titleChanged || descriptionChanged) {
     console.info("Updating metadata.");
@@ -293,10 +293,12 @@ export async function updatePlaylist(
     } else {
       console.debug(`youtube.playlistItems.insert videoId: ${videoId}`);
       await youtube.playlistItems.insert({
+        part: ["snippet"],
         requestBody: {
           snippet: {
             playlistId,
             resourceId: {
+              "kind": "youtube#video",
               videoId,
             },
             position,

@@ -2212,12 +2212,12 @@ videos:
 - episode: 9. Vulture Clash
   members: Z7-0FL5NzK4
   published: 2024-03-07
-  
+
 
 - bts: Emo People Meet at Panera
   members: 0FgNuAblz3I
   published: 2024-03-08
-  
+
 - external: Zac Discusses Fantasy High Junior Year on Screen Rant Plus
   public: GVbFYlgMwaM
   published: 2024-02-15
@@ -2738,25 +2738,7 @@ videos:
 
 ---
 
-NOTE: |
-  There are a lot of episodes, eh?
-
-  Consult with 
-  https://antifandom.com/um-actually/wiki/Um_Actually_Episodes
-  to help pair up public and members-only videos, and give them the propery titles.
-
-  https://www.dropout.tv/um-actually
-
-  https://www.dropout.tv/um-actually-the-web-series
-
-  Maybe re-build this list using that as the foundation?
-
-  Maybe first collect all of the free videos, and categorize them, THEN merge in the 
-  much-largest but already better-organized list of all real episodes, and use that.
-
-season: 'Um, Actually'
-from: 'Um, Actually'
-sort by: oldest
+show: 'Um, Actually'
 videos:
 
 - episode: '001. Firefly, Star Wars Jizz Bands, Daenerys Targaryen''s Dragons'
@@ -2899,7 +2881,7 @@ videos:
   published: 2019-01-24
 
 - episode: 121. Ms Pac-Man, Mick Foley, Marvel Apes
-  ublic: jfy8HMiwoig
+  public: jfy8HMiwoig
   members: X7Zb3jgMhiE
   published: 2019-01-31
 
@@ -3040,289 +3022,288 @@ videos:
 
 
 
-- episode: 201. Gotham, The Good Place, The Black Cauldron	
+- episode: 201. Gotham, The Good Place, The Black Cauldron
   published: 2019-07-19
 
-- episode: 202. A Very Special TV Themed Episode	
+- episode: 202. A Very Special TV Themed Episode
   published: 2019-07-26
 
-- episode: 203. Homestar Runner, Hearthstone, Demolition Man	
+- episode: 203. Homestar Runner, Hearthstone, Demolition Man
   published: 2019-08-02
 
-- episode: 204. The Dresden Files, Settlers of Catan, Fallout 4	
+- episode: 204. The Dresden Files, Settlers of Catan, Fallout 4
   published: 2019-08-09
 
-- episode: 205. Predator, Mistborn, The Expanse	
+- episode: 205. Predator, Mistborn, The Expanse
   published: 2019-08-16
 
-- episode: 206. Scott Pilgrim, Highlander, Dr. Doom	
+- episode: 206. Scott Pilgrim, Highlander, Dr. Doom
   published: 2019-08-23
 
-- episode: 207. The Musical Theater Episode!	
+- episode: 207. The Musical Theater Episode!
   published: 2019-08-30
 
-- episode: 208. Stephen King, Warhammer 40000, Dragon Age	
+- episode: 208. Stephen King, Warhammer 40000, Dragon Age
   published: 2019-09-06
 
-- episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night	
+- episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night
   published: 2019-09-13
 
-- episode: 210. Ghostbusters, Gateway, Gravity Falls	
+- episode: 210. Ghostbusters, Gateway, Gravity Falls
   published: 2019-09-20
 
-- episode: 211. Um, Actually LIVE @ NYCC	
+- episode: 211. Um, Actually LIVE @ NYCC
   published: 2019-10-11
 
-- episode: 212. Star Trek, Godzilla Island, Babylon 5	
+- episode: 212. Star Trek, Godzilla Island, Babylon 5
   published: 2019-10-18
 
-- episode: 213. Um, Aaah!ctually: Halloween Edition	
+- episode: "213. Um, Aaah!ctually: Halloween Edition"
   published: 2019-10-25
 
-- episode: 214. E.T., Green Lantern, Robin Hobb	
+- episode: 214. E.T., Green Lantern, Robin Hobb
   published: 2019-11-01
 
-- episode: 215. Venture Brothers, Full Metal Alchemist, Conan the Barbarian	
+- episode: 215. Venture Brothers, Full Metal Alchemist, Conan the Barbarian
   published: 2019-11-08
 
-- episode: 216. Buffy the Vampire Slayer, M. Night Shymalan, Final Fantasy X	
+- episode: 216. Buffy the Vampire Slayer, M. Night Shymalan, Final Fantasy X
   published: 2019-11-15
 
-- episode: 217. Borderlands, Ticket to Ride, Into the Spider-Verse	
+- episode: 217. Borderlands, Ticket to Ride, Into the Spider-Verse
   published: 2019-11-22
 
-- episode: 218. Rick & Morty, The Muppets, Superman	
+- episode: 218. Rick & Morty, The Muppets, Superman
   published: 2019-11-29
 
-- episode: 219. Ho Ho Ho, Actually: The Holiday Special	
+- episode: "219. Ho Ho Ho, Actually: The Holiday Special"
   published: 2019-12-07
 
-- episode: 220. Ender's Game, Good Omens, Secret Wars	
+- episode: 220. Ender's Game, Good Omens, Secret Wars
   published: 2019-12-13
 
-- episode: 221. Pokémon, South Park, Discworld (With John Darnielle)	
+- episode: 221. Pokémon, South Park, Discworld (With John Darnielle)
   published: 2019-12-20
 
-- episode: 301. Thundercats, Animorphs, Metal Wolf Chaos	
+- episode: 301. Thundercats, Animorphs, Metal Wolf Chaos
   published: 2020-01-31
 
-- episode: 302. Love, Actually!: A SpecialValentine's Episode	
+- episode: "302. Love, Actually!: A Special Valentine's Episode"
   published: 2020-02-07
 
-- episode: 303. Um, Academy! A SpecialCinematic Episode	
+- episode: 303. Um, Academy! A SpecialCinematic Episode
   published: 2020-02-21
 
-- episode: 304. Legion, Lumberjacks, Nicolas Flamel	
+- episode: 304. Legion, Lumberjacks, Nicolas Flamel
   published: 2020-03-06
 
-- episode: 305. Doom, A Wizard of Earthsea, Avengers: Endgame	
+- episode: "305. Doom, A Wizard of Earthsea, Avengers: Endgame"
   published: 2020-03-20
 
-- episode: 306. Zelda, Aquaman, Neopets	
+- episode: 306. Zelda, Aquaman, Neopets
   published: 2020-04-03
 
-- episode: 307. D'oh! Actually: A SpecialSimpsons Episode	
+- episode: "307. D'oh! Actually: A Special Simpsons Episode"
   published: 2020-04-17
 
-- episode: 308. God of War, Spirited Away, Dance Dance Revolution	
+- episode: 308. God of War, Spirited Away, Dance Dance Revolution
   published: 2020-05-04
 
-- episode: 309. Indiana Jones, Futurama, Starship Troopers	
+- episode: 309. Indiana Jones, Futurama, Starship Troopers
   published: 2020-05-18
 
-- episode: 310. Invader Zim, Dark Souls, Stargate	
+- episode: 310. Invader Zim, Dark Souls, Stargate
   published: 2020-05-30
 
-- episode: 311. Supergirl, Elder Scrolls, Sword Art Online	
+- episode: 311. Supergirl, Elder Scrolls, Sword Art Online
   published: 2020-06-13
 
-- episode: 312. Monopoly, My Little Pony, The Witcher	
+- episode: 312. Monopoly, My Little Pony, The Witcher
   published: 2020-07-10
 
-- episode: 401. Muppets & Puppets	
+- episode: 401. Muppets & Puppets
   published: 2020-08-23
 
-- episode: 402. Marvel	
+- episode: 402. Marvel
   published: 2020-08-30
 
-- episode: 403. Disney	
+- episode: 403. Disney
   published: 2020-09-06
 
-- episode: 404. Anime	
+- episode: 404. Anime
   published: 2020-09-25
 
-- episode: 405. Dungeons & Dragons All-Stars	
+- episode: 405. Dungeons & Dragons All-Stars
   published: 2020-10-11
 
-- episode: 406. Stephen King	
+- episode: 406. Stephen King
   published: 2020-10-25
 
-- episode: 407. Saturday Morning Cartoons	
+- episode: 407. Saturday Morning Cartoons
   published: 2020-11-06
 
-- episode: 408. Pokémon	
+- episode: 408. Pokémon
   published: 2020-11-28
 
-- episode: 409. Switcheroo!	
+- episode: 409. Switcheroo!
   published: 2020-12-04
 
-- episode: 410. Magic: The Gathering	
+- episode: 410. Magic: The Gathering
   published: 2020-12-19
 
-- episode: 411. Musicals Encore!	
+- episode: 411. Musicals Encore!
   published: 2021-01-02
 
-- episode: 412. All-Stars	
+- episode: 412. All-Stars
   published: 2021-01-15
 
-- episode: 501. Return to Love, Actually	
+- episode: 501. Return to Love, Actually
   published: 2021-02-12
 
-- episode: 502. Crew Battle	
+- episode: 502. Crew Battle
   published: 2021-02-26
 
-- episode: 503. Nicktoons	
+- episode: 503. Nicktoons
   published: 2021-03-13
 
-- episode: 504. Cabin in the Woods, Deadlands, Spider-Man Villains	
+- episode: 504. Cabin in the Woods, Deadlands, Spider-Man Villains
   published: 2021-03-26
 
-- episode: 505. Anglophilia	
+- episode: 505. Anglophilia
   published: 2021-04-09
 
-- episode: 506. Kim Possible, Princess Bride, Sliders	
+- episode: 506. Kim Possible, Princess Bride, Sliders
   published: 2021-04-23
 
-- episode: 507. Dystopias	
+- episode: 507. Dystopias
   published: 2021-05-08
 
-- episode: 508. The McElroy Melee	
+- episode: 508. The McElroy Melee
   published: 2021-05-21
 
-- episode: 509. Monsters, Myths, and Folklore	
+- episode: 509. Monsters, Myths, and Folklore
   published: 2021-06-04
 
-- episode: 510. Demiliches, Isengard, I Am Legend	
+- episode: 510. Demiliches, Isengard, I Am Legend
   published: 2021-06-19
 
-- episode: 511. Battle of the Mods	
+- episode: 511. Battle of the Mods
   published: 2021-07-03
 
-- episode: 512. ActuallyMania	
+- episode: 512. ActuallyMania
   published: 2021-07-16
 
-- episode: 513. Star Wars Names, HUDs, The Umbrella Academy	
+- episode: 513. Star Wars Names, HUDs, The Umbrella Academy
   published: 2021-07-30
 
-- episode: 514. Hades, Herlock Sholmes, The Stormlight Archives	
+- episode: 514. Hades, Herlock Sholmes, The Stormlight Archives
   published: 2021-08-13
 
-- episode: 515. Alien vs Predator, The Beastmaster, ET	
+- episode: 515. Alien vs Predator, The Beastmaster, ET
   published: 2021-08-27
 
-- episode: 516. Um, Anime!	
+- episode: 516. Um, Anime!
   published: 2021-09-10
 
-- episode: 517. Sunshine, Casper the Friendly Ghost, Sex Criminals	
+- episode: 517. Sunshine, Casper the Friendly Ghost, Sex Criminals
   published: 2021-09-24
 
-- episode: 518. Arrival, Dragon Ball Super, Elf With a Gun	
+- episode: 518. Arrival, Dragon Ball Super, Elf With a Gun
   published: 2021-10-08
 
-- episode: 519. The Haunting of Hill House, Hereditary, The Ring	
+- episode: 519. The Haunting of Hill House, Hereditary, The Ring
   published: 2021-10-22
 
-- episode: 520. Soulcalibur, Dread, The Sims: Livin' Large	
+- episode: "520. Soulcalibur, Dread, The Sims: Livin' Large"
   published: 2021-11-05
 
-- episode: 521. Catwoman, Undertale, Clayface	
+- episode: 521. Catwoman, Undertale, Clayface
   published: 2021-11-19
 
-- episode: 522. 1984, Hunter x Hunter, Supernatural	
+- episode: 522. 1984, Hunter x Hunter, Supernatural
   published: 2021-12-03
 
-- episode: 523. The Nutcracker, The Nightmare Before Christmas, White Christmas	
+- episode: 523. The Nutcracker, The Nightmare Before Christmas, White Christmas
   published: 2021-12-17
 
-- episode: 524. Star Trek, Species, Bionicle	
+- episode: 524. Star Trek, Species, Bionicle
   published: 2021-12-31
 
-- episode: 601. Um Actually Smackdown	
+- episode: 601. Um Actually Smackdown
   published: 2022-01-14
 
-- episode: 602. Beauty and The Beast, Birdbox, Timecop	
+- episode: 602. Beauty and The Beast, Birdbox, Timecop
   published: 2022-01-28
 
-- episode: 603. Tolkien, Gotham, Scrooge McDuck	
+- episode: 603. Tolkien, Gotham, Scrooge McDuck
   published: 2022-02-11
 
-- episode: 604. X-Men, The Warriors, The Mummy	
+- episode: 604. X-Men, The Warriors, The Mummy
   published: 2022-02-25
 
-- episode: 605. Community, It's Always Sunny, Scrubs	
+- episode: 605. Community, It's Always Sunny, Scrubs
   published: 2022-03-11
 
-- episode: 606. Edward Scissorhands, Metroidvanias, Diablo	
+- episode: 606. Edward Scissorhands, Metroidvanias, Diablo
   published: 1899-12-30
 
-- episode: 607. Journey, Freakazoid!, Seaman	
+- episode: 607. Journey, Freakazoid!, Seaman
   published: 2022-04-08
 
-- episode: 608. Porco Rosso, Super Mario Odyssey, The Wonder Twins	
+- episode: 608. Porco Rosso, Super Mario Odyssey, The Wonder Twins
   published: 2022-04-22
 
-- episode: 609. Cartoons	
+- episode: 609. Cartoons
   published: 2022-05-06
 
-- episode: 610. Kool Aid Man, Over The Garden Wall, Jumanji	
+- episode: 610. Kool Aid Man, Over The Garden Wall, Jumanji
   published: 2022-05-20
 
-- episode: 611. My Hero Academia, Pokemon, The Simpsons	
+- episode: 611. My Hero Academia, Pokemon, The Simpsons
   published: 2022-06-03
 
-- episode: 612. The Invisible Man, Crash Bandicoot, Katamari Damacy	
+- episode: 612. The Invisible Man, Crash Bandicoot, Katamari Damacy
   published: 2022-06-17
 
-- episode: 701. Spongebob, Lord of the Rings, The Twilight Zone	
+- episode: 701. Spongebob, Lord of the Rings, The Twilight Zone
   published: 2022-07-15
 
-- episode: 702. Reality TV	
+- episode: 702. Reality TV
   published: 2022-07-29
 
-- episode: 703. Loki, Gargoyles, Avenue 5	
+- episode: 703. Loki, Gargoyles, Avenue 5
   published: 2022-08-12
 
-- episode: 704. Preschool Television	
+- episode: 704. Preschool Television
   published: 2022-08-26
 
-- episode: 705. Naruto, Wanderhome, Doom	
+- episode: 705. Naruto, Wanderhome, Doom
   published: 2022-09-09
 
-- episode: 706. Elden Ring, Chrono Trigger, Mobile Fighter G Gundam	
+- episode: 706. Elden Ring, Chrono Trigger, Mobile Fighter G Gundam
   published: 2022-09-23
 
-- episode: 707. Aqua Teen Hunger Force, Disco Elysium, Haikyuu!!	
+- episode: 707. Aqua Teen Hunger Force, Disco Elysium, Haikyuu!!
   published: 2022-10-07
 
-- episode: 708. Scream, Uzumaki, Train To Busan	
+- episode: 708. Scream, Uzumaki, Train To Busan
   published: 2022-10-21
 
-- episode: 709. Primal, Ewoks, Detective Mike Trapp	
+- episode: 709. Primal, Ewoks, Detective Mike Trapp
   published: 2022-11-04
 
-- episode: 701. Station Eleven, Marvin the Martian, Phantom of the Opera	
+- episode: 701. Station Eleven, Marvin the Martian, Phantom of the Opera
   published: 2022-11-18
 
-- episode: 711. Arcane, H.A.M.M.E.R., Sekiro	
+- episode: 711. Arcane, H.A.M.M.E.R., Sekiro
   published: 2022-12-02
 
-- episode: 712. Our Flag Means Death, Marvel Swimsuit Issue, Corrupted Blood	
+- episode: 712. Our Flag Means Death, Marvel Swimsuit Issue, Corrupted Blood
   published: 2022-12-16
 
 
 - episode: A Very Special TV-Themed Episode
   public: bd8-sUQzb7w
-
 
 - episode: The Musical Theater Episode!
   public: 98HzbcRmmHk

@@ -2953,12 +2953,79 @@ videos:
   members: 3VDoedv3J6U
   published: 2019-07-19
 
+- episode: 202. A Very Special TV Themed Episode
+  public: bd8-sUQzb7w
+  members: I4g4OhcP6sg
+  published: 2019-07-26
 
+- episode: 203. Homestar Runner, Hearthstone, Demolition Man
+  public: 0_wA2f1ZTd4
+  members: '-9eEtN8OJRM'
+  published: 2019-08-02
+
+- episode: 204. The Dresden Files, Settlers of Catan, Fallout 4
+  public: QLGc7VL0HUM
+  members: RtSXMdAGr8E
+  published: 2019-08-09
+
+- episode: 205. Predator, Mistborn, The Expanse
+  public: '-Akk6Rtt5uQ'
+  members: 0oiu6bbaPDg
+  published: 2019-08-16
+
+- episode: 206. Scott Pilgrim, Highlander, Dr. Doom
+  public: TOiOwX8hUmc
+  members: MPpNQKRuS5o
+  published: 2019-08-23
 
 - episode: 207. The Musical Theater Episode!
   public: 98HzbcRmmHk
   members: 1gWa96jCU4M
   published: 2019-08-30
+
+- episode: 208. Stephen King, Warhammer 40000, Dragon Age
+  published: 2019-09-06
+
+- episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night
+  published: 2019-09-13
+
+- episode: 210. Ghostbusters, Gateway, Gravity Falls
+  published: 2019-09-20
+
+- episode: 211. Um, Actually LIVE @ NYCC
+  published: 2019-10-11
+
+- episode: 212. Star Trek, Godzilla Island, Babylon 5
+  published: 2019-10-18
+
+- episode: "213. Um, Aaah!ctually: Halloween Edition"
+  published: 2019-10-25
+
+- episode: 214. E.T., Green Lantern, Robin Hobb
+  published: 2019-11-01
+
+- episode: 215. Venture Brothers, Full Metal Alchemist, Conan the Barbarian
+  published: 2019-11-08
+
+- episode: 216. Buffy the Vampire Slayer, M. Night Shymalan, Final Fantasy X
+  published: 2019-11-15
+
+- episode: 217. Borderlands, Ticket to Ride, Into the Spider-Verse
+  published: 2019-11-22
+
+- episode: 218. Rick & Morty, The Muppets, Superman
+  published: 2019-11-29
+
+- episode: "219. Ho Ho Ho, Actually: The Holiday Special"
+  published: 2019-12-07
+
+- episode: 220. Ender's Game, Good Omens, Secret Wars
+  published: 2019-12-13
+
+- episode: 221. Pokémon, South Park, Discworld (With John Darnielle)
+  published: 2019-12-20
+
+
 
 - episode: 301. XXXXX
   public: PPPPP
@@ -3021,69 +3088,6 @@ videos:
   published: 2019-10-05
 
 # https://www.dropout.tv/um-actually/season:2
-
-- episode: 201. Gotham, The Good Place, The Black Cauldron
-  published: 2019-07-19
-
-- episode: 202. A Very Special TV Themed Episode
-  published: 2019-07-26
-
-- episode: 203. Homestar Runner, Hearthstone, Demolition Man
-  published: 2019-08-02
-
-- episode: 204. The Dresden Files, Settlers of Catan, Fallout 4
-  published: 2019-08-09
-
-- episode: 205. Predator, Mistborn, The Expanse
-  published: 2019-08-16
-
-- episode: 206. Scott Pilgrim, Highlander, Dr. Doom
-  published: 2019-08-23
-
-- episode: 207. The Musical Theater Episode!
-  published: 2019-08-30
-
-- episode: 208. Stephen King, Warhammer 40000, Dragon Age
-  published: 2019-09-06
-
-- episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night
-  published: 2019-09-13
-
-- episode: 210. Ghostbusters, Gateway, Gravity Falls
-  published: 2019-09-20
-
-- episode: 211. Um, Actually LIVE @ NYCC
-  published: 2019-10-11
-
-- episode: 212. Star Trek, Godzilla Island, Babylon 5
-  published: 2019-10-18
-
-- episode: "213. Um, Aaah!ctually: Halloween Edition"
-  published: 2019-10-25
-
-- episode: 214. E.T., Green Lantern, Robin Hobb
-  published: 2019-11-01
-
-- episode: 215. Venture Brothers, Full Metal Alchemist, Conan the Barbarian
-  published: 2019-11-08
-
-- episode: 216. Buffy the Vampire Slayer, M. Night Shymalan, Final Fantasy X
-  published: 2019-11-15
-
-- episode: 217. Borderlands, Ticket to Ride, Into the Spider-Verse
-  published: 2019-11-22
-
-- episode: 218. Rick & Morty, The Muppets, Superman
-  published: 2019-11-29
-
-- episode: "219. Ho Ho Ho, Actually: The Holiday Special"
-  published: 2019-12-07
-
-- episode: 220. Ender's Game, Good Omens, Secret Wars
-  published: 2019-12-13
-
-- episode: 221. Pokémon, South Park, Discworld (With John Darnielle)
-  published: 2019-12-20
 
 - episode: 301. Thundercats, Animorphs, Metal Wolf Chaos
   published: 2020-01-31
@@ -3302,26 +3306,12 @@ videos:
   published: 2022-12-16
 
 
-- episode: A Very Special TV-Themed Episode
-  public: bd8-sUQzb7w
 
 - episode: The Musical Theater Episode!
   public: 98HzbcRmmHk
 
-- episode: 'The Dresden Files, Settlers of Catan, Fallout 4'
-  public: QLGc7VL0HUM
-
-- episode: 'Predator, Mistborn, The Expanse'
-  public: '-Akk6Rtt5uQ'
-
 - episode: 'Um, Actually Home Game Kickstarter Announcement'
   public: bV0cjYLYTjM
-
-- episode: 'Scott Pilgrim, Highlander, Dr. Doom'
-  public: TOiOwX8hUmc
-
-- episode: 'Homestar Runner, Hearthstone, Demolition Man'
-  public: 0_wA2f1ZTd4
 
 - episode: 'Stephen King, Warhammer 40,000, Dragon Age'
   public: JHdM7aVqfbU

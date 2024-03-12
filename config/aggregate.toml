@@ -302,6 +302,7 @@ ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos f
 """
 
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
+skip = true
 name = "Breaking News (All Episodes and Extras)"
 show = "Breaking News"
 description = """

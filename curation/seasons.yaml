@@ -3020,7 +3020,7 @@ videos:
   public: 3yQYVRzuP7M
   published: 2019-10-05
 
-
+# https://www.dropout.tv/um-actually/season:2
 
 - episode: 201. Gotham, The Good Place, The Black Cauldron
   published: 2019-07-19
@@ -3148,7 +3148,7 @@ videos:
 - episode: 409. Switcheroo!
   published: 2020-12-04
 
-- episode: 410. Magic: The Gathering
+- episode: "410. Magic: The Gathering"
   published: 2020-12-19
 
 - episode: 411. Musicals Encore!
@@ -3514,3 +3514,14 @@ videos:
 
 - episode: 'Um, Actually Season 9 Trailer'
   public: jRB-Kz3TAZc
+
+---
+
+# https://www.dropout.tv/breaking-news-no-laugh-newsroom/season:1
+
+show: Breaking News
+videos:
+
+- trailer: Breaking News Season 6 Trailer
+  public: 8_SYzil1e-Y
+  published: 2023-05-29

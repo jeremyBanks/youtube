@@ -300,3 +300,10 @@ show = "Um, Actually"
 description = """
 ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um, Actually, the game show where nerds correct nerds.
 """
+
+[PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
+name = "Breaking News (All Episodes and Extras)"
+show = "Breaking News"
+description = """
+${HOURS}-hour playlist of all episodes and trailers videos from Breaking News: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
+"""

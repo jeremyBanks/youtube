@@ -95,7 +95,7 @@ async function main() {
     let description = config.description;
     description = description.replace(
       "${D20_PLUG}",
-      "Dimension 20 is an Actual Play TTRPG series from @Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
+      "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
     );
     description = description.replace(
       "${HOURS}",

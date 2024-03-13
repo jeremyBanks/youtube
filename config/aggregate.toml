@@ -63,6 +63,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt]
+skip = true
 name = "Dimension 20: Calorum (Episodes and Extras)"
 show = "Dimension 20"
 world = "Calorum"
@@ -86,6 +87,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6]
+skip = true
 name = "Dimension 20: The Unsleeping City (Episodes and Extras)"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
@@ -98,6 +100,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ]
+skip = true
 name = "Dimension 20: Escape from the Bloodkeep (Episodes and Extras)"
 show = "Dimension 20"
 season = "Escape from the Bloodkeep"
@@ -109,6 +112,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU]
+skip = true
 name = "Dimension 20: Tiny Heist (Episodes and Extras)"
 show = "Dimension 20"
 season = "Tiny Heist"
@@ -120,6 +124,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B]
+skip = true
 name = "Dimension 20: A Crown of Candy (Episodes and Extras)"
 show = "Dimension 20"
 season = "A Crown of Candy"
@@ -131,6 +136,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4]
+skip = true
 name = "Dimension 20: Pirates of Leviathan (Episodes and Extras)"
 show = "Dimension 20"
 season = "Pirates of Leviathan"
@@ -142,6 +148,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm]
+skip = true
 name = "Dimension 20: Mice and Murder (Episodes and Extras)"
 show = "Dimension 20"
 season = "Mice and Murder"
@@ -153,6 +160,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz]
+skip = true
 name = "Dimension 20: Misfits and Magic (Episodes and Extras)"
 show = "Dimension 20"
 season = "Misfits and Magic"
@@ -164,6 +172,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7]
+skip = true
 name = "Dimension 20: The Seven (Episodes and Extras)"
 show = "Dimension 20"
 season = "The Seven"
@@ -186,6 +195,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4]
+skip = true
 name = "Dimension 20: A Starstruck Odyssey (Episodes and Extras)"
 show = "Dimension 20"
 season = "A Starstruck Odyssey"
@@ -197,6 +207,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7]
+skip = true
 name = "Dimension 20: Coffin Run (Episodes and Extras)"
 show = "Dimension 20"
 season = "Coffin Run"
@@ -208,6 +219,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF]
+skip = true
 name = "Dimension 20: A Court of Fey and Flowers (Episodes and Extras)"
 show = "Dimension 20"
 season = "A Court of Fey and Flowers"
@@ -219,6 +231,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS]
+skip = true
 name = "Dimension 20: Neverafter (Episodes and Extras)"
 show = "Dimension 20"
 season = "Neverafter"
@@ -230,6 +243,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3]
+skip = true
 name = "Dimension 20: The Ravening War (Episodes and Extras)"
 show = "Dimension 20"
 season = "The Ravening War"
@@ -241,6 +255,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr]
+skip = true
 name = "Dimension 20: Dungeons and Drag Queens (Episodes and Extras)"
 show = "Dimension 20"
 season = "Dungeons and Drag Queens"
@@ -252,6 +267,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb]
+skip = true
 name = "Dimension 20: Mentopolis (Episodes and Extras)"
 show = "Dimension 20"
 season = "Mentopolis"
@@ -273,6 +289,20 @@ ${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes v
 ${D20_PLUG}
 """
 
+[PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
+name = "Game Changer (All Episodes and Extras)"
+show = "Game Changer"
+description = """
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
+"""
+
+[PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
+name = "Um, Actually (All Episodes and Extras)"
+show = "Um, Actually"
+description = """
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um Actually, the game show where nerds correct nerds.
+"""
+
 [PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
 name = "Make Some Noise (All Episodes and Extras)"
 show = "Make Some Noise"
@@ -287,24 +317,19 @@ description = """
 ${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
 """
 
-[PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
-name = "Game Changer (All Episodes and Extras)"
-show = "Game Changer"
-description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
-"""
-
-[PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
-name = "Um, Actually (All Episodes and Extras)"
-show = "Um, Actually"
-description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from @UmActually, the game show where nerds correct nerds.
-"""
-
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
 skip = true
 name = "Breaking News (All Episodes and Extras)"
 show = "Breaking News"
 description = """
 ${HOURS}-hour playlist of all episodes and trailers videos from Breaking News: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
+"""
+
+[PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
+skip = true
+name = "Critical Role: Exandria Unlimited: Calamity (Episodes and Extras)"
+show = "Critical Role"
+season = "Exandria Unlimited: Calamity"
+description = """
+${HOURS}-hour playlist of all episodes and extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """

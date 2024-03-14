@@ -1,19 +1,79 @@
+[PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
+name = "Game Changer (All 6 Seasons)"
+show = "Game Changer"
+description = """
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
+"""
+
+[PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
+name = "Um, Actually (All 9 Seasons)"
+show = "Um, Actually"
+description = """
+${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um Actually, the game show where nerds correct nerds.
+"""
+
+[PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
+skip = true
+name = "Breaking News (All 6 Seasons)"
+show = "Breaking News"
+description = """
+${HOURS}-hour playlist of all episodes and trailers videos from Breaking News: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
+"""
+
+[PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
+name = "Make Some Noise (All 2 Seasons)"
+show = "Make Some Noise"
+description = """
+${HOURS}-hour playlist of all episodes and trailers from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
+"""
+
+[PLObfuAmZm9pDfejgejY4h6r06blOLedPl]
+skip = true
+name = "Dirty Laundry (All 4 Seasons)"
+show = "Dirty Laundry"
+description = """
+${HOURS}-hour playlist of all episodes and trailers videos from Dirty Laundry.
+"""
+
+[PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
+name = "Play It By Ear (All 2 Seasons)"
+show = "Play It By Ear"
+description = """
+${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
+"""
+
+[PLObfuAmZm9pCDFLc4eTkdFoMy5qW5pqW9]
+skip = true
+name = "Very Important People (All Episodes and Extras)"
+show = "Very Important People"
+description = """
+${HOURS}-hour playlist of all episodes and trailers videos from Very Important People.
+"""
+
+[PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
+skip = true
+name = "Adventuring Academy (All Seasons)"
+show = "Adventuring Academy"
+description = """
+${HOURS}-hour playlist of all episodes and trailers videos from Adventuring Academy.
+"""
+
+[PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD]
+name = "Dimension 20 (All 21 Seasons)"
+show = "Dimension 20"
+type = ["episode", "special", "bts", "trailer"]
+description = """
+${HOURS}-hour playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes videos, talkback shows, and trailers. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+
+${D20_PLUG}
+"""
+
 [PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG]
 name = "Dimension 20 (All Episodes)"
 show = "Dimension 20"
 type = ["episode", "special"]
 description = """
 ${HOURS}-hour playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
-
-${D20_PLUG}
-"""
-
-[PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD]
-name = "Dimension 20 (All Episodes and Extras)"
-show = "Dimension 20"
-type = ["episode", "special", "bts", "trailer"]
-description = """
-${HOURS}-hour playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes videos, talkback shows, and trailers. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
 
 ${D20_PLUG}
 """
@@ -40,42 +100,9 @@ ${HOURS}-hour playlist of all free episodes of Dimension 20 and all free extra c
 ${D20_PLUG}
 """
 
-[PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb]
-name = "Dimension 20: Intrepid Heroes (Episodes and Extras)"
-show = "Dimension 20"
-cast = "Intrepid Heroes"
-type = ["episode", "special", "bts", "trailer"]
-description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 which star the core Intrepid Heroes cast. Free videos are used where possible, and member-only videos used for the rest.
-
-${D20_PLUG}
-"""
-
-[PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB]
-name = "Dimension 20: Spyre (Episodes and Extras)"
-show = "Dimension 20"
-world = "Spyre"
-type = ["episode", "special", "bts", "trailer"]
-description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
-
-${D20_PLUG}
-"""
-
-[PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt]
-skip = true
-name = "Dimension 20: Calorum (Episodes and Extras)"
-show = "Dimension 20"
-world = "Calorum"
-type = ["episode", "special", "bts", "trailer"]
-description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 set in the world of Calorum. Free videos are used where possible, and member-only videos used for the rest.
-
-${D20_PLUG}
-"""
 
 [PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R]
-name = "Dimension 20: Fantasy High (Episodes and Extras)"
+name = "Dimension 20: Fantasy High (All 3 Seasons)"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 world = "Spyre"
@@ -87,8 +114,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6]
-skip = true
-name = "Dimension 20: The Unsleeping City (Episodes and Extras)"
+name = "Dimension 20: The Unsleeping City (All 2 Seasons)"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 world = "The Unsleeping City"
@@ -184,6 +210,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY]
+skip = true
 name = "Dimension 20: Shriek Week (Episodes and Extras)"
 show = "Dimension 20"
 season = "Shriek Week"
@@ -289,41 +316,40 @@ ${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes v
 ${D20_PLUG}
 """
 
-[PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
-name = "Game Changer (All Episodes and Extras)"
-show = "Game Changer"
+
+[PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb]
+name = "Dimension 20: Intrepid Heroes (All 8 Seasons)"
+show = "Dimension 20"
+cast = "Intrepid Heroes"
+type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
+${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 which star the core Intrepid Heroes cast. Free videos are used where possible, and member-only videos used for the rest.
+
+${D20_PLUG}
 """
 
-[PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
-name = "Um, Actually (All Episodes and Extras)"
-show = "Um, Actually"
+[PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB]
+name = "Dimension 20: Spyre (All 5 Seasons)"
+show = "Dimension 20"
+world = "Spyre"
+type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um Actually, the game show where nerds correct nerds.
+${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
+
+${D20_PLUG}
 """
 
-[PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
-name = "Make Some Noise (All Episodes and Extras)"
-show = "Make Some Noise"
+[PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt]
+name = "Dimension 20: Calorum (All 2 Seasons)"
+show = "Dimension 20"
+world = "Calorum"
+type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes and trailers from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
+${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 set in the world of Calorum. Free videos are used where possible, and member-only videos used for the rest.
+
+${D20_PLUG}
 """
 
-[PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
-name = "Play It By Ear (All Episodes and Extras)"
-show = "Play It By Ear"
-description = """
-${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
-"""
-
-[PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
-skip = true
-name = "Breaking News (All Episodes and Extras)"
-show = "Breaking News"
-description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Breaking News: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
-"""
 
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
 skip = true

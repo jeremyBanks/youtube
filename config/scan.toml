@@ -3,11 +3,11 @@ incremental-interval = "PT4M"
 complete-interval = "P16D"
 
 [dimension20show]
-incremental-interval = "PT8M"
+incremental-interval = "PT32M"
 complete-interval = "P24D"
 
 [dimension20shorts]
-incremental-interval = "PT8M"
+incremental-interval = "PT32M"
 complete-interval = "P24D"
 
 [umactually]
@@ -71,17 +71,17 @@ incremental-interval = "P32D"
 complete-interval = "P128D"
 
 [Roll20App]
-incremental-interval = "P128D"
-complete-interval = "P128D"
+incremental-interval = "P128Y"
+complete-interval = "P128Y"
 
 [siblingrivalrypodcast]
-incremental-interval = "P128D"
-complete-interval = "P128D"
+incremental-interval = "P128Y"
+complete-interval = "P128Y"
 
 [hankschannel]
-incremental-interval = "P128D"
-complete-interval = "P128D"
+incremental-interval = "P128Y"
+complete-interval = "P128Y"
 
 [rickastleyyt]
-incremental-interval = "P128D"
-complete-interval = "P128D"
+incremental-interval = "P128Y"
+complete-interval = "P128Y"

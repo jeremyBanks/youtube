@@ -42,7 +42,3 @@ I might add Breaking News and some other Dropout shows in the future. Breaking
 News is a bit of a weird case because lots of the episodes have free versions...
 but they're not the complete episode, just ~half of it. So I'm not sure if/how
 that would make sense.
-
----
-
-comment: @adriann4495 @fel293 hopefully the issues you saw are now resolved. 🙂

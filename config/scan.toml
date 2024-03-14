@@ -74,6 +74,10 @@ complete-interval = "P128D"
 incremental-interval = "P128Y"
 complete-interval = "P128Y"
 
+[criticalrole]
+incremental-interval = "P128Y"
+complete-interval = "P128Y"
+
 [siblingrivalrypodcast]
 incremental-interval = "P128Y"
 complete-interval = "P128Y"

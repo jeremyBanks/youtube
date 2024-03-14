@@ -67,7 +67,13 @@ let videoStorage:
 export const openVideoStorage = () =>
   videoStorage ??= open("data/videos.yaml", Video, [
     "publishedAt",
-  ]);
+  ], async (video) => {
+    const channels = await openChannelStorage();
+    const handle = channels.find((channel) =>
+      channel.channelId === video.channelId
+    )?.handle;
+    return handle ?? video.channelId;
+  });
 
 /** A scan of a channel for new content */
 export const Scan = z.object({

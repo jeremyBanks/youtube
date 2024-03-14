@@ -1,6 +1,7 @@
 import * as z from "npm:zod";
 import * as yaml from "@std/yaml";
 import { delay } from "@std/async";
+import { dirname } from "@std/path";
 
 const ArrayOfRecords = z.array(z.record(z.string(), z.unknown()));
 
@@ -16,6 +17,7 @@ export const open = async <
   path: string,
   schema: Schema,
   sortKeys?: Array<SortKey | `-${SortKey}`>,
+  shardKey?: (item: z.TypeOf<Schema>) => Promise<string>,
 ): Promise<Array<z.TypeOf<Schema>>> => {
   const arraySchema = schema.array();
 
@@ -49,6 +51,21 @@ export const open = async <
       }
     }
     await dump(path, arraySchema.parse(root));
+
+    if (shardKey) {
+      const shards: Map<string, Array<z.TypeOf<Schema>>> = new Map();
+      for (const item of root) {
+        const key = await shardKey(item);
+        if (shards.has(key)) {
+          shards.get(key)!.push(item);
+        } else {
+          shards.set(key, [item]);
+        }
+      }
+      for (const [name, items] of shards) {
+        await dump(path.replace(".yaml", `/${name}.yaml`), items);
+      }
+    }
   };
 
   const onBeforeUnload = (event: Event) => {
@@ -114,16 +131,22 @@ export const dump = async (
     .join("\n---\n\n");
 
   let maxLeadingKeyLength = 0;
-  for (const leadingKey of data.matchAll(/^\w+:/mg)) {
+  for (const leadingKey of data.matchAll(/^\w+: \S/mg)) {
     if (leadingKey[0].length > maxLeadingKeyLength) {
       maxLeadingKeyLength = leadingKey[0].length;
     }
   }
 
   data = data.replaceAll(
-    /^\w+:/mg,
-    (leadingKey) => leadingKey.padEnd(maxLeadingKeyLength),
+    /^\w+: \S/mg,
+    (leadingKey) =>
+      leadingKey.slice(0, -1).padEnd(maxLeadingKeyLength - 1) +
+      leadingKey.slice(-1),
   );
+
+  await Deno.mkdir(dirname(path), {
+    recursive: true,
+  });
 
   await Deno.writeTextFile(
     path,

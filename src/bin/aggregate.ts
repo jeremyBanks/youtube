@@ -24,6 +24,9 @@ async function main() {
 
     const videoIds: Array<string> = [];
 
+    let seasonCount = 0;
+    let episodeCount = 0;
+
     for (const season of seasons) {
       if (
         config.shows && !(season.show && config.shows.includes(season.show))
@@ -47,6 +50,10 @@ async function main() {
         continue;
       }
 
+      if (season.season) {
+        seasonCount += 1;
+      }
+
       for (const episode of season.videos) {
         if (
           config.types &&
@@ -60,11 +67,20 @@ async function main() {
         }
         if (episode.public) {
           videoIds.push(episode.public);
+          if (episode.episode) {
+            episodeCount += 1;
+          }
         } else if (episode["public parts"]) {
           videoIds.push(...episode["public parts"]);
+          if (episode.episode) {
+            episodeCount += 1;
+          }
         } else if (episode.members) {
           if (!config.free) {
             videoIds.push(episode.members);
+            if (episode.episode) {
+              episodeCount += 1;
+            }
           }
         } else {
           console.error(`no video ID specified for ${JSON.stringify(episode)}`);
@@ -92,19 +108,29 @@ async function main() {
       }
     }
 
-    let description = config.description;
-    description = description.replace(
-      "${D20_PLUG}",
-      "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
-    );
-    description = description.replace(
-      "${HOURS}",
-      String(Math.floor(durationSeconds / 60 / 60)),
-    );
+    const applyTemplates = (s: string) =>
+      s.replace(
+        "${D20_PLUG}",
+        "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
+      ).replace(
+        "${HOURS}",
+        String(Math.floor(durationSeconds / 60 / 60)),
+      ).replace(
+        "${EPISODES}",
+        String(episodeCount),
+      ).replace(
+        "${SEASONS}",
+        String(seasonCount),
+      ).replace(
+        "${ALL_SEASONS_AND_EXTRAS}",
+        seasonCount > 1
+          ? `All ${seasonCount} Seasons`
+          : `All ${episodeCount} Episodes and Extras`,
+      );
 
     playlists.push({
-      name: config.name,
-      description: description,
+      name: applyTemplates(config.name),
+      description: applyTemplates(config.description ?? ""),
       playlistId: config.playlistId,
       videos: Object.fromEntries(
         videoIds.map((id) => [id, videosById.get(id)?.title ?? "unknown"]),

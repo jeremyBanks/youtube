@@ -1,65 +1,61 @@
 [PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
-name = "Game Changer (${ALL_SEASONS_AND_EXTRAS})"
+name = "Game Changer (${ALL_SEASONS})"
 show = "Game Changer"
 description = """
 ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
 """
 
 [PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
-name = "Um, Actually (${ALL_SEASONS_AND_EXTRAS})"
+name = "Um, Actually (${ALL_SEASONS})"
 show = "Um, Actually"
 description = """
 ${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um Actually, the game show where nerds correct nerds.
 """
 
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
-skip = true
-name = "Breaking News (${ALL_SEASONS_AND_EXTRAS})"
+name = "Breaking News / No Laugh Newsroom (${ALL_SEASONS})"
 show = "Breaking News"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Breaking News: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
+${HOURS}-hour playlist of all episodes and trailers videos from Breaking News / No Laugh Newsroom: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
 """
 
 [PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
-name = "Make Some Noise (${ALL_SEASONS_AND_EXTRAS})"
+name = "Make Some Noise (${ALL_SEASONS})"
 show = "Make Some Noise"
 description = """
 ${HOURS}-hour playlist of all episodes and trailers from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
 """
 
 [PLObfuAmZm9pDfejgejY4h6r06blOLedPl]
-skip = true
-name = "Dirty Laundry (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dirty Laundry (${ALL_SEASONS})"
 show = "Dirty Laundry"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Dirty Laundry.
+${HOURS}-hour playlist of all episodes and trailers from Dirty Laundry, a show where guests tell secrets, guess who they belong to, and enjoy a few drinks.
 """
 
 [PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
-name = "Play It By Ear (${ALL_SEASONS_AND_EXTRAS})"
+name = "Play It By Ear (${ALL_SEASONS})"
 show = "Play It By Ear"
 description = """
 ${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
 """
 
 [PLObfuAmZm9pCDFLc4eTkdFoMy5qW5pqW9]
-skip = true
-name = "Very Important People  (${ALL_SEASONS_AND_EXTRAS})"
+name = "Very Important People (${ALL_SEASONS})"
 show = "Very Important People"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Very Important People.
+${HOURS}-hour playlist of all episodes and trailers videos from Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis.
 """
 
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
-skip = true
-name = "Adventuring Academy (${ALL_SEASONS_AND_EXTRAS})"
+name = "Adventuring Academy (${ALL_SEASONS})"
 show = "Adventuring Academy"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Adventuring Academy.
+${HOURS}-hour playlist of all episodes and trailers videos from Adventuring Academy, a show where veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros.
 """
 
 [PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD]
-name = "Dimension 20 (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20 (${ALL_SEASONS})"
 show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 description = """
@@ -69,7 +65,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG]
-name = "Dimension 20 (All ${EPISODES} Episodes)"
+name = "Dimension 20 (${ALL_EPISODES})"
 show = "Dimension 20"
 type = ["episode", "special"]
 description = """
@@ -90,7 +86,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA]
-name = "Dimension 20 (All ${EPISODES} Free Episodes and Extras)"
+name = "Dimension 20 (All ${EPISODES} Free Episodes and ${EXTRAS} Free Extras)"
 show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 free = true
@@ -102,7 +98,7 @@ ${D20_PLUG}
 
 
 [PLObfuAmZm9pBUEjI0SyuAQnSWKvcUI62R]
-name = "Dimension 20: Fantasy High (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Fantasy High (${ALL_SEASONS})"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 world = "Spyre"
@@ -114,7 +110,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6]
-name = "Dimension 20: The Unsleeping City (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: The Unsleeping City (${ALL_SEASONS})"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 world = "The Unsleeping City"
@@ -126,7 +122,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ]
-name = "Dimension 20: Escape from the Bloodkeep (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Escape from the Bloodkeep (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Escape from the Bloodkeep"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -137,7 +133,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU]
-name = "Dimension 20: Tiny Heist (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Tiny Heist (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Tiny Heist"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -148,7 +144,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B]
-name = "Dimension 20: A Crown of Candy (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: A Crown of Candy (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Crown of Candy"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -159,7 +155,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4]
-name = "Dimension 20: Pirates of Leviathan (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Pirates of Leviathan (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Pirates of Leviathan"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -170,7 +166,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm]
-name = "Dimension 20: Mice and Murder (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Mice and Murder (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Mice and Murder"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -181,7 +177,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz]
-name = "Dimension 20: Misfits and Magic (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Misfits and Magic (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Misfits and Magic"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -192,7 +188,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7]
-name = "Dimension 20: The Seven (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: The Seven (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "The Seven"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -203,7 +199,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY]
-name = "Dimension 20: Shriek Week (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Shriek Week (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Shriek Week"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -214,7 +210,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4]
-name = "Dimension 20: A Starstruck Odyssey (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: A Starstruck Odyssey (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Starstruck Odyssey"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -225,7 +221,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7]
-name = "Dimension 20: Coffin Run (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Coffin Run (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Coffin Run"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -236,7 +232,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF]
-name = "Dimension 20: A Court of Fey and Flowers (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: A Court of Fey and Flowers (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Court of Fey and Flowers"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -247,7 +243,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS]
-name = "Dimension 20: Neverafter (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Neverafter (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Neverafter"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -258,7 +254,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3]
-name = "Dimension 20: The Ravening War (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: The Ravening War (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "The Ravening War"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -269,7 +265,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr]
-name = "Dimension 20: Dungeons and Drag Queens (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Dungeons and Drag Queens (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Dungeons and Drag Queens"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -280,7 +276,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb]
-name = "Dimension 20: Mentopolis (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Mentopolis (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Mentopolis"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -291,7 +287,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCXX8ABGmvnd9oWo3JXrCUS]
-name = "Dimension 20: Burrow's End (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Burrow's End (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Burrow's End"
 type = ["episode", "special", "bts", "trailer", "external"]
@@ -302,7 +298,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb]
-name = "Dimension 20: Intrepid Heroes (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Intrepid Heroes (${ALL_SEASONS})"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 type = ["episode", "special", "bts", "trailer"]
@@ -313,7 +309,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pANHp2gvo0ZVsEhJtdcbccB]
-name = "Dimension 20: Spyre (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Spyre (${ALL_SEASONS})"
 show = "Dimension 20"
 world = "Spyre"
 type = ["episode", "special", "bts", "trailer"]
@@ -324,7 +320,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt]
-name = "Dimension 20: Calorum (${ALL_SEASONS_AND_EXTRAS})"
+name = "Dimension 20: Calorum (${ALL_SEASONS})"
 show = "Dimension 20"
 world = "Calorum"
 type = ["episode", "special", "bts", "trailer"]
@@ -336,7 +332,7 @@ ${D20_PLUG}
 
 
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
-name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS_AND_EXTRAS})"
+name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS})"
 show = "Critical Role"
 season = "Exandria Unlimited: Calamity"
 description = """

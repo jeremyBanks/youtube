@@ -1,3 +1,4 @@
+import { upsert } from "../common.ts";
 import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
 import { openPlaylistsStorage, openVideoStorage } from "../storage.ts";
 
@@ -26,6 +27,7 @@ async function main() {
 
     let seasonCount = 0;
     let episodeCount = 0;
+    let extrasCount = 0;
 
     for (const season of seasons) {
       if (
@@ -67,19 +69,25 @@ async function main() {
         }
         if (episode.public) {
           videoIds.push(episode.public);
-          if (episode.episode) {
+          if (episode.episode || episode.special) {
             episodeCount += 1;
+          } else {
+            extrasCount += 1;
           }
         } else if (episode["public parts"]) {
           videoIds.push(...episode["public parts"]);
-          if (episode.episode) {
+          if (episode.episode || episode.special) {
             episodeCount += 1;
+          } else {
+            extrasCount += 1;
           }
         } else if (episode.members) {
           if (!config.free) {
             videoIds.push(episode.members);
-            if (episode.episode) {
+            if (episode.episode || episode.special) {
               episodeCount += 1;
+            } else {
+              extrasCount += 1;
             }
           }
         } else {
@@ -109,32 +117,45 @@ async function main() {
     }
 
     const applyTemplates = (s: string) =>
-      s.replace(
+      s.replaceAll(
         "${D20_PLUG}",
         "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
-      ).replace(
+      ).replaceAll(
         "${HOURS}",
         String(Math.floor(durationSeconds / 60 / 60)),
-      ).replace(
+      ).replaceAll(
         "${EPISODES}",
         String(episodeCount),
-      ).replace(
+      ).replaceAll(
+        "${EXTRAS}",
+        String(extrasCount),
+      ).replaceAll(
         "${SEASONS}",
         String(seasonCount),
-      ).replace(
-        "${ALL_SEASONS_AND_EXTRAS}",
+      ).replaceAll(
+        "${ALL_EPISODES}",
+        extrasCount > 0
+          ? `All ${episodeCount} Episodes and ${extrasCount} Extras`
+          : `All ${episodeCount} Episodes`,
+      ).replaceAll(
+        "${ALL_SEASONS}",
         seasonCount > 1
           ? `All ${seasonCount} Seasons`
-          : `All ${episodeCount} Episodes and Extras`,
-      );
+          : extrasCount > 0
+          ? `All ${episodeCount} Episodes and ${extrasCount} Extras`
+          : `All ${episodeCount} Episodes`,
+      )
+        .replaceAll(/\b1 Extras\b/g, "1 Extra")
+        .replaceAll(/\b1 Episodes\b/g, "1 Episode")
+        .replaceAll(/\b1 Seasons\b/g, "1 Season");
 
-    playlists.push({
+    upsert(playlists, {
       name: applyTemplates(config.name),
       description: applyTemplates(config.description ?? ""),
       playlistId: config.playlistId,
       videos: Object.fromEntries(
         videoIds.map((id) => [id, videosById.get(id)?.title ?? "unknown"]),
       ),
-    });
+    }, (record) => record.playlistId === config.playlistId);
   }
 }

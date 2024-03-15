@@ -201,6 +201,9 @@ videos:
   published: 2020-09-25
 - episode: 5. A New York Wedding
   public: uFrZM6A4t44
+  public parts:
+  - JscoTxAyOKM
+  - vNpHE6rTz_s
   members: B_vp3eBd0bY
   published: 2020-10-02
 - episode: 6. The War of Bugs and Rats
@@ -376,6 +379,12 @@ videos:
   public: MnJI_KQhkR8
   members: USDoNZ-Ygdc
   published: 2020-04-07
+- bts: Fireside Chat with Brennan & Friends (Part 1)
+  members: 6xcd7vfjo0o
+  published: 2020-03-24
+- bts: Fireside Chat with Brennan & Friends (Part 2)
+  members: '-OcNWYpthsM'
+  published: 2020-03-29
 - special: College Visit
   members: Sr0Zi59jpEc
   published: 2020-09-28
@@ -391,6 +400,7 @@ show: Dimension 20
 videos:
 - trailer: Tiny Heist Trailer
   public: kR6vADysaxM
+  members: WUNnrvZNJyk
   published: 2019-11-27
 - episode: 1. Big Little Crimes
   public: l-y98OYaXu8
@@ -1622,109 +1632,6 @@ videos:
 
 ---
 
-season: Fantasy High (Chapter 3)
-show: Dimension 20
-cast: Intrepid Heroes
-world: Spyre
-videos:
-- trailer: Fantasy High Junior Year Teaser
-  public: XvDk6C1zvuI
-  published: 2023-09-26
-- trailer: Fantasy High Junior Year Trailer
-  public: 8Jr7dyVCmFM
-  published: 2023-12-13
-- trailer: Fantasy High Seasons 1 and 2 Full Recap
-  public: HgGZvg8gbBM
-  published: 2023-12-27
-- episode: 1. Summer Scaries
-  public: G4o_mJKAJxY
-  members: hGC6SnNAwC0
-  published: 2024-01-11
-- bts: Yaaath Queen
-  members: 40hE083Ly9Y
-  published: 2024-01-12
-- episode: 2. Summer Breakdown
-  members: 1KEyu8OKKGs
-  published: 2024-01-18
-- bts: Fs Get Defgrees
-  members: OxK8D6NhMHY
-  published: 2024-01-19
-- episode: 3. Not All Who Wanda Are Lost
-  members: 8aXfZrmDSrg
-  published: 2024-01-25
-- bts: I Wanda'd In
-  members: KS3_IOju2HA
-  published: 2024-01-26
-- episode: 4. Under Pressure
-  members: Wq2Drxoa71s
-  published: 2024-02-01
-- bts: A Sea of Effluvia
-  members: m5g-CCmm8ys
-  published: 2024-02-02
-- episode: 5. Mall Madness
-  members: yXv4C4_aZvE
-  published: 2024-02-08
-- bts: Can I Offer You a Nice Shrimp in This Trying Time?
-  members: Rlxj-tUYsaM
-  published: 2024-02-09
-- episode: 6. Party Politics
-  members: lviNn1XG5W0
-  published: 2024-02-15
-- bts: You Are the Chosen None
-  members: YGP8YvfBZ1A
-  published: 2024-02-16
-- episode: 7. Stress Tested
-  members: 0bXhR2zLCEI
-  published: 2024-02-22
-- bts: A Negroni and a Bowl of Spinach
-  members: MDKejBcRPPI
-  published: 2024-02-23
-- episode: 8. Fracas at the Frostyfaire Folk Festival
-  members: ojesrO8BKsc
-  published: 2024-02-29
-- bts: I See Your Butt Plug and I Raise You a Fist
-  members: IKojoZrSX7A
-  published: 2024-02-30
-- episode: 9. Vulture Clash
-  members: Z7-0FL5NzK4
-  published: 2024-03-07
-- bts: Emo People Meet at Panera
-  members: 0FgNuAblz3I
-  published: 2024-03-08
-- episode: 10. Cursed Out
-  members: xIOsqw6amno
-  published: 2024-03-13
-
-- bts: with Emily Axford
-  members: bqbxzQi1GZ0
-  published: 2024-01-03
-- bts: with Ally Beardsley
-  members: fp8xmNuUFJQ
-  published: 2024-01-04
-- bts: with Brian Murphy
-  members: ZiGCowSL1wc
-  published: 2024-01-05
-- bts: with Zac Oyama
-  members: 0N_cc60DP10
-  published: 2024-01-06
-- bts: with Siobhan Thompson
-  members: E6NL9AjoGPM
-  published: 2024-01-07
-- bts: with Lou Wilson
-  members: Gl3uIEk7aq0
-  published: 2024-01-08
-- bts: with Brennan Lee Mulligan
-  members: g722RMM-OsA
-  published: 2024-01-09
-- external: Zac Discusses Fantasy High Junior Year on Screen Rant Plus
-  public: GVbFYlgMwaM
-  published: 2024-02-15
-- bts: Teenage Rebellion (Theme Song) Music Video
-  public: D46t1vdcoSM
-  published: 2024-01-10
-
----
-
 show: Game Changer
 season: Season 1
 videos:
@@ -1755,7 +1662,6 @@ videos:
 show: Game Changer
 season: Season 2
 videos:
-
 - episode: 201. Round 4 (Make Some Noise 2)
   members: wZcyv12V5ME
   published: 2019-02-25
@@ -1780,7 +1686,6 @@ videos:
 show: Game Changer
 season: Season 3
 videos:
-
 - episode: 301. Tell Us About Yourself
   public: xg1ShXqTNkg
   members: eanRlRK0N8o
@@ -1833,7 +1738,6 @@ videos:
 show: Game Changer
 season: Season 4
 videos:
-
 - trailer: Game Changer Season 4 Trailer
   public: 3btMi1TNP2s
   members: _LqBgzF_W3g
@@ -1879,7 +1783,6 @@ videos:
 show: Game Changer
 season: Season 5
 videos:
-
 - trailer: Game Changer Season 5 Trailer
   public: kuhWCCvcO6Q
   published: 2022-10-31
@@ -1958,7 +1861,6 @@ videos:
 show: Game Changer
 season: Season 6
 videos:
-
 - trailer: Game Changer Season 6 Trailer
   public: IaZSmxmxWl4
   published: 2023-12-11
@@ -2045,7 +1947,6 @@ videos:
 show: Make Some Noise
 season: Season 2
 videos:
-
 - trailer: Make Some Noise Season 2
   public: iJQ93UuhkLA
   published: 2023-05-22
@@ -2350,7 +2251,6 @@ videos:
 show: "Um, Actually"
 season: Season 2
 videos:
-
 - trailer: Um, Actually Season 2 Trailer
   public: eVwX-GJR190
   published: 2019-07-20
@@ -2443,7 +2343,6 @@ videos:
 show: "Um, Actually"
 season: Season 3
 videos:
-
 - episode: 301. Thundercats, Animorphs, Metal Wolf Chaos
   public: PIhMJ29IXRo
   members: AXIzBSwJcsM
@@ -2499,7 +2398,6 @@ videos:
 show: "Um, Actually"
 season: Season 4
 videos:
-
 - episode: 401. Muppets & Puppets
   public: CLABbuM8S2A
   members: zX_J9vMdaSk
@@ -2558,7 +2456,6 @@ videos:
 show: "Um, Actually"
 season: Season 5
 videos:
-
 - episode: 501. Return to Love, Actually
   public: RnOPEgprI3s
   members: ejvxvkF-xFA
@@ -2660,7 +2557,6 @@ videos:
 show: "Um, Actually"
 season: Season 6
 videos:
-
 - trailer: Um, Actually Season 6 Trailer
   public: ZY345V4HV0Q
   members: K-Bl0DflP7I
@@ -2707,7 +2603,6 @@ videos:
 show: "Um, Actually"
 season: Season 7
 videos:
-
 - trailer: Um, Actually Season 7 Trailer
   public: K38j91EiLKk
   members: wGnlZ69wnQU
@@ -2754,7 +2649,6 @@ videos:
 show: "Um, Actually"
 season: Season 8
 videos:
-
 - trailer: Um, Actually Season 8 Trailer
   public: QNgjT0UV-JE
   members: EsH7ib2SDts
@@ -2798,10 +2692,813 @@ videos:
 
 ---
 
+show: Dirty Laundry
+videos:
+- episode: 001. Never Have I Ever on Game Changer
+  members: LMZrjxRAJ88
+  published: 2020-11-27
+
+---
+
+show: Dirty Laundry
+season: Season 1
+videos:
+- trailer: Dirty Laundry Trailer
+  public: HIcSICD43ZI
+  published: 2022-03-14
+- episode: 101. Who Shot a Softcore Porn?
+  public: xzhhbvUIWEs
+  members: I54xXZhF_m0
+  published: 2022-04-04
+- episode: 102. Who Used To Regularly Poop on the Roof?
+  members: vcX_jbprOKg
+  published: 2022-04-12
+- episode: 103. Who Drank Breast Milk as an Adult?
+  members: bt-jpOty1AE
+  published: 2022-05-05
+- episode: 104. Who Stayed Up for 81 Hours?
+  members: 8GTll-BqgLY
+  published: 2022-05-17
+- episode: 105. Who Hid $20,000 Inside a Bowflex?
+  members: UH_dsMvqeXA
+  published: 2022-06-01
+- episode: 106. Who Got Railed on The Hood Of Their Car In Front of a Police Station?
+  members: C_lAK4vivoY
+  published: 2022-06-20
+- episode: 107. Cut For Time
+  members: '-2sX3Wf9g8Y'
+  published: 2023-05-23
+
+
+---
+
+show: Dirty Laundry
+season: Season 2
+videos: 
+- trailer: Dirty Laundry Season 2 Trailer
+  public: uDIvjDQVNk8
+  published: 2022-11-22
+- episode: 201. Who Committed Libel Against Reese Witherspoon?
+  members: hvIFF0c6Ls0
+  public: 7MbEyGRooBU
+  published: 2022-12-07
+- episode: 202. Who Used to Sell Drugs?
+  members: 0kz8CPOUg8w
+  published: 2022-12-21
+- episode: 203. Whose Family Van Got Stolen and Blown Up?
+  members: dxx4RZ_ze5Q
+  published: 2023-01-04
+- episode: 204. Who Had Covid-Compliant Sex?
+  members: APrIymO7P2o
+  published: 2023-01-18
+- episode: 205. Who Was Almost Institutionalized for Claiming to See Angels?
+  members: ibZJCvBS7Fs
+  published: 2023-02-01
+- episode: 206. Who Threw a Solo Wedding for Themselves?
+  members: QhU3V_HrqIo
+  published: 2023-02-15
+- episode: 207. Who Got Arrested in the Middle of Their English Class?
+  members: VjVWgNOCbiA
+  published: 2023-03-01
+- episode: 208. Who Fully Pissed Themselves Onstage?
+  members: BEN3Obn85Uc
+  published: 2023-03-14
+- episode: 209. Who Was Almost Attacked By a Mob of Middle-Aged British People?
+  members: YZEMqs0vSS8
+  published: 2023-03-28
+- episode: 210. Who Called in a Favor From a Sitting Governor?
+  members: ADr446xAmHk
+  published: 2023-04-11
+- episode: 211. Who Ate an Entire Container of Makeup?
+  members: fdaGAcC97tg
+  published: 2023-04-25
+- episode: 212. Who Had to Join a Union Because of Their Ass?
+  members: PxrRoco9iSY
+  published: 2023-05-09
+
+---
+
+show: Dirty Laundry
+season: Season 3
+videos: 
+- trailer: Dirty Laundry Season 3 Trailer
+  public: oglws2QISVk
+  published: 2023-08-15
+- episode: 301. Who Threw Pretzels at a Couple Having Sex?
+  public: ywkkTeP_obY
+  members: CjvgyJW3HR0
+  published: 2023-09-12
+- episode: 302. Who Got High and Reenacted a Concert Using Eggs?
+  members: OD57m2YVfyI
+  published: 2023-09-26
+- episode: 303. Who Came Out to Their High School Girlfriend Via Jesus Christ?
+  members: 6BIy8Ed8JTo
+  published: 2023-10-10
+- episode: 304. Who Got Stung in the Crotch by a Jellyfish?
+  members: P_OL3XN2ODY
+  published: 2023-10-24
+- episode: 305. Who Watched a Woman Pump Breast Milk While Snorting Cocaine?
+  members: CwBcmpWL2Z8
+  published: 2023-11-08
+- episode: 306. Who Was Found Naked in a Hallway by a Drug Dealer?
+  members: HWO3Md3lJxs
+  published: 2023-11-22
+- episode: 307. Who Is an Honorary Member at a Sex Club?
+  members: EedWrBRr2Rk
+  published: 2023-12-06
+- episode: 308. Who Went to a War Criminal's Birthday?
+  members: WIRyQvs0R-I
+  published: 2023-12-20
+- episode: 309. Who Blamed Their Sex Noises on a Videogame?
+  members: H9_D9aPsoXc
+  published: 2024-01-03
+- episode: 310. Who Bugged Someone's Car to Catch Them Cheating?
+  members: SxCXpe7s5go
+  published: 2024-01-17
+- episode: 311. Who Sent a Mean Email to a Famous Comedian as a Middle Schooler?
+  members: yJTkMwRL06Y
+  published: 2024-01-31
+- episode: 312. Who Has an Active Warrant Out For Their Arrest?
+  members: 8I4qiHshFvQ
+  published: 2024-02-14
+
+---
+
+show: Adventuring Academy
+season: Season 1
+videos:
+- episode: 101. Creating Rounded Characters (with Lou Wilson)
+  public: pURrup121Xk
+  published: 2019-01-09
+- episode: 102. Keeping a Game Going (with Amy Vorpahl)
+  public: 99LdpMvIDQ8
+  published: 2019-01-09
+- episode: 103. Raising the Stakes (with Brian Murphy)
+  public: AY8VqiswElI
+  published: 2019-02-06
+- episode: 104. Playing in a Safe Space (with Erika Ishii)
+  public: In5nQnYXeVg
+  published: 2019-02-20
+- episode: 105. Being the Mean GM (with Noah Diamond)
+  public: xn9wwrs-JXU
+  published: 2019-03-06
+- episode: 106. Finishing a Campaign (with Molly Ostertag)
+  public: 2PsUg2RWiA4
+  published: 2019-03-20
+- episode: 107. Building Your Own Campaign Setting (with Matthew Mercer)
+  public: sig8X_kojco
+  published: 2019-04-03
+- episode: 108. Leveling Up (with Satine Phoenix)
+  public: Ckox3W4zRHc
+  published: 2019-04-17
+- episode: 109. What to Do With a Nat 20 (with B. Dave Walters)
+  public: sCtIeSyWFn8
+  published: 2019-05-01
+- episode: 110. Giving Yourself Permission to Feel (with Marisha Ray)
+  public: BTIG9oydjGQ
+  published: 2019-05-15
+- episode: 111. Playing a Cooperative Game (with Nick Marini)
+  public: P8U22JoOyUQ
+  published: 2019-05-29
+- episode: 112. Healing Through D&D (with Krystina Arielle)
+  public: upuuZk6QlV8
+  published: 2019-06-12
+- episode: 113. Reunion with the Cast of Escape From the Bloodkeep
+  public: RGb2VYNd4ws
+  published: 2019-06-26
+- episode: 114. Reunion with the Cast of Escape From the Bloodkeep Pt. 2
+  public: 63tcD2_hhHU
+  published: 2019-07-10
+- episode: 115. Introducing Horror to a Game (with Ivan Van Norman)
+  public: 6qnmkuz8H9s
+  published: 2019-07-24
+- episode: 116. Finding Fun in Failure (with Siobhan Thompson)
+  public: ML5m4NL8meE
+  public copy: Yu3W2E7MDWc
+  published: 2019-08-07
+- episode: 117. Killing Off Characters (with Jack Covell)
+  public: ozQa0im0C5I
+  published: 2019-08-21
+- episode: 118. Storytelling As a Game Master (with Peter Warren)
+  public: FnXSQiR8ayU
+  published: 2019-09-04
+- special: How To Prep For DMing a Campaign Session (Office Hours)
+  public: VuxPLNb4eA4
+  published: 2019-11-14
+- special: How to Build Compelling Characters (Office Hours)
+  public: Pbx-CSwU6rI
+  published: 2019-11-20
+- special: How To Plan For Encounters (Office Hours)
+  public: 7NyGLheozCE
+  published: 2019-12-04
+- special: How To Bring the Party Together (Office Hours)
+  public: GC1Fwjb0mvM
+  published: 2019-12-18
+
+---
+
+show: Adventuring Academy
+season: Season 2
+videos:
+- episode: 201. Balancing Comedy and Drama (with Freddie Wong)
+  members: iqTDCtdlNMo
+  published: 2020-09-03
+- episode: 202. See Me In Six Months (with Aabria Iyengar)
+  members: '-GNVSwHWJc8'
+  published: 2020-09-13
+- episode: 203. Bardic Inspiration (with Omega Jones)
+  members: A-BSfeTI8BA
+  published: 2020-09-15
+- episode: 204. The Joy of Mistakes (with Kelly Lynne D'Angelo)
+  members: YBhnty635_w
+  published: 2020-09-23
+- episode: 205. Fantasy Shapes Reality (with Jennifer Kretchmer)
+  members: ZM2ZjWEdouY
+  published: 2020-09-23
+- episode: 206. There Are Gray Areas In Life (with Orion Black)
+  members: viTB0mEtaVE
+  published: 2020-10-06
+- episode: 207. I''m Gonna Have To Prod You, Sparta-Style (with Alicia Marie)
+  members: fYu3uWw6pfo
+  published: 2020-10-06
+- episode: 208. Murph and Emily's Friend (with Caldwell Tanner)
+  members: 0RynvIgcD4U
+  published: 2020-10-06
+- episode: 209. No Introduction Needed (with Emily Axford)
+  members: 8KmkcEygPg4
+  published: 2020-10-06
+- episode: 210. Leave the Table Better Than You Found It (with Honey and Dice)
+  members: Svhca-2Wj8o
+  published: 2020-11-07
+- episode: 211. Story Pirates Reunited (with Branson Reese)
+  members: LS9peXFUTPM
+  published: 2020-11-16
+- episode: 212. An IRL Paladin (with Tanya DePass)
+  members: FVb3mVHJNXk
+  published: 2020-11-21
+- episode: 213. The Story of Now (with Deborah Ann Woll)
+  members: IYRSabJu7zg
+  published: 2020-11-21
+- episode: 214. Control the Narrative (with Jasmine Bhullar)
+  members: Sp8NzvrHKFI
+  published: 2020-12-04
+- episode: 215. Chasing Noises (with Becca Scott)
+  members: WW_Aac-EM9c
+  published: 2020-12-04
+- episode: 216. Animating Your Table (with Benjamin Scott)
+  members: eY8AYOHsDh0
+  published: 2020-12-17
+- episode: 217. Grand Design (with Gabriel Hicks)
+  members: wmPZYEJHFiw
+  published: 2020-12-17
+- episode: 218. Shout Out To Fluff (with Griffin McElroy)
+  members: PPVe4E6_DG4
+  published: 2020-12-17
+- episode: 219. Sincerity Is the Key (with Travis McElroy)
+  members: f2dkDAt2XzY
+  published: 2020-12-17
+- episode: 220. You've Been Called (with Dael Kingsmill)
+  members: 7n30-QLxmzI
+  published: 2020-12-17
+
+---
+
+show: Adventuring Academy
+season: Season 3
+videos:
+- episode: 301. Artwork is 360 Degrees (with Carlos Luna)
+  members: PNLyY_8D9Rc
+  published: 2021-02-04
+- episode: 302. What Does 'Ready' Mean? (with Zac Oyama)
+  members: bdOE5LiB_2M
+  published: 2021-02-04
+- episode: 303. Represent (with Daniel Kwan)
+  members: H_Hbri0XVq8
+  published: 2021-02-04
+- episode: 304. Conflict Resolution (with LaTia Jacquise)
+  members: JqzjxFlK20U
+  published: 2021-02-12
+- episode: 305. Give People More Room (with Diana Gaeta)
+  members: 2R7Ntkq81QQ
+  published: 2021-02-24
+- episode: 306. Making Dinner For Friends (with Eric Silver)
+  members: tr_WjEk1nrc
+  published: 2021-05-03
+
+---
+
+show: Adventuring Academy
+season: Season 4
+videos:
+- episode: 401. Let's Poke the Lich (with Persephone Valentine)
+  members: yPfKdPaB5rA
+  published: 2022-10-18
+- episode: 402. For the Price of a Dream (with Ross Bryant)
+  members: _I10vck9xhI
+  published: 2022-11-01
+- episode: 403. The Braid of Character, Plot, and World (with Connie Chang)
+  members: 9Karf0fUkhc
+  published: 2022-11-16
+- episode: 404. The Mythological Meets the Logistical (with Matthew Mercer)
+  members: 04Lm2WmDUYw
+  published: 2022-12-02
+- episode: 405. The New Mr. Peanut (with Lou Wilson)
+  members: FcHef-Qk4VI
+  published: 2022-12-14
+- episode: 406. Sneak A-Snack (with Sam de Leve)
+  members: 8qPqVq93AYg
+  published: 2023-02-08
+- episode: 407. Blight, Plants, Birds, and Almonds (with Aabria Iyengar)
+  members: XWaAX_RNXWk
+  published: 2023-02-22
+- episode: 408. Studying and Training (with Johnny Stanton)
+  members: cvnf6p-4DBg
+  published: 2023-03-09
+- episode: 409. Honor the Absurd (with Jasmine Bhullar)
+  members: ODaBAzc3d7A
+  published: 2023-03-21
+
+---
+
+show: Breaking News
+season: Season 1
+videos:
+- episode: 101. The Don't Laugh Newsroom Challenge
+  public: 12HXd74txLw
+  published: 2018-07-07
+- episode: "102. The Don't Laugh Newsroom Challenge: Episode 2"
+  public: ehpmyxH3PLA
+  published: 2018-08-02
+- episode: "103. Don't Laugh News: Bed Bug Alert!"
+  public: Br9bUTdKu0U
+  published: 2018-09-04
+- episode: "104. No Laugh Newsroom: Birthday Cake Bird Birth"
+  public: lfv2slVWSRs
+  published: 2018-10-08
+
+---
+
+show: Breaking News
+season: Season 2
+videos:
+- episode: 201. Bummer Tornado Destroys Cool Jail
+  members: ehJ41l_XiO0
+  published: 2019-09-12
+- episode: 202. Freaky Lobsters Form Fashion Fad
+  members: lR5LuUKGxUo
+  published: 2019-09-09
+- episode: 203. Unimpressive Colleges Join Cheating Scandal
+  members: bImZop3N59k
+  published: 2019-09-12
+- episode: 204. You Missed My Soccer Games, Dad
+  members: KzUW7-oB6V0
+  published: 2019-09-12
+- episode: 205. Climbing Gym Opens On Disappointing Riverwalk
+  members: Ri7euyhgpmk
+  published: 2019-09-19
+- episode: 206. Disgruntled Sewer Men Demand to Meet Ninja Turtles
+  members: G-kfZEkjsQk
+  public: a6q9677q2xM
+  published: 2019-09-25
+- episode: "207. On-Set Hijinks: George Clooney Refuses to Leave Trailer"
+  members: xyqkkBW81aM
+  published: 2019-09-25
+- episode: 208. Man Turns Home into Home Depot
+  public: MVhKdGcL_Z0
+  members: vzF_xvB-E4Q
+  published: 2019-09-25
+- episode: 209. "Jazzy Taint" Sweeps the Nation
+  members: 2amhAZIjVz4
+  published: 2019-10-02
+- episode: 210. Webster's Adds New Word for Friend-Zoning Dermatologist
+  public: 1hEECLG_ZWA
+  members: TuftYFqb8k8
+  published: 2019-10-02
+- episode: 211. Weatherman Confuses El Niño with La Llorona
+  members: My7RqBFzdlA
+  published: 2019-10-09
+- episode: 212. Super Long Diner Menu Sets New, Stupid Record
+  members: NkFh7d-mdJo
+  published: 2019-10-09
+- episode: 213. We're Here, We're Queer, We're Deer
+  members: JTHuCR5tC8E
+  published: 2019-12-11
+- episode: 214. One in Four Americans Attracted to Their Sexy Cars
+  public: 12bkWtxHrvQ
+  members: AgrmGxQ1MYs
+  published: 2019-12-11
+- episode: 215. True Facts About Grant Anthony O'Brien
+  public: DcX_lXP977g
+  members: lzsW2KpJ5a8
+  published: 2019-12-18
+- episode: 216. Inspector Gadget's Death Sparks Oscar Buzz
+  public: 88Na-u0aFBI
+  members: HsizMndkQig
+  published: 2019-12-18
+- episode: 217. Song of the Summer Offers Hard Spankings for the Boys
+  public: 6F1UHDl09Rc
+  members: BEHlsxgrbjw
+  published: 2020-01-02
+- episode: 218. Spaghetti Shack Shakes Up Galleria
+  public: fUiiJPq5SLY
+  members: Eb4GF49HHwY
+  published: 2020-01-09
+- episode: 219. Dinosaurs Were Technically Birds
+  public: rkqfxTqIOds
+  members: gpLN8pHZJg8
+  published: 2020-01-09
+- episode: 22. Which of Your Friends Has Their Amber Alerts Turned Off?
+  public: qmqI_jV-KZE
+  members: z7xj5g6RiLM
+  published: 2020-01-14
+- episode: 221. Big Brother's Little Sister Cannot Be Turned Off
+  public: l68A8oNR5Rk
+  members: OHMKZdy0_Ao
+  published: 2020-01-15
+- episode: 222. Moose Running Loose Through the Mall of America
+  public: 3oBeO3tg1To
+  members: uavl-DaIGaA
+  published: 2020-01-15
+- episode: 223. Delicious Kitchen Fire Caramelizes Dozens of People
+  public: ix5MyWZWA2M
+  members: LNsuH2xSrQ8
+  published: 2020-01-15
+
+---
+
+show: Breaking News
+season: Season 3
+videos:
+- episode: 301. YMCA Water Is Only 1% Water (99% Old People Hair)
+  public: X4w6E3MuWUA
+  members: ZG_13GfhTnE
+  published: 2020-01-22
+- episode: 302. News Anchor Wants to Sell You His Smelly Car
+  members: SwJ7ElHstto
+  published: 2020-01-22
+- episode: 303. "I Hate My Kids" Says Most Moms
+  public: 0KoKzyqyUIw
+  members: Jmm2OQy2oac
+  published: 2020-01-30
+- episode: 304. Conservative Man Accidentally Donates $1 Million to Redtube
+  members: G8hbr7Iejqs
+  published: 2020-01-30
+- episode: 305. Announcing Frozen 3, Based on the Novel "Push" by Sapphire
+  public: 9PkU0I21zkk
+  members: qMQR_ez7lyE
+  published: 2020-01-30
+- episode: 306. BTK Killer Gives a Foreboding Weather Forecast
+  public: 3nfvjwQ2BhY
+  members: 40aicHJaCAQ
+  published: 2020-01-30
+- episode: 307. News Crew Plans Terrible Trip to the Beach
+  public: yyDxwwn12Ds
+  members: PC-bAvWw2RY
+  published: 2020-01-30
+- episode: 308. Special Musical Broadcast Really Wails
+  public: l55WFSDc71Y
+  members: 8v31H7xse5Q
+  published: 2020-01-30
+- episode: 309. A Report From the CollegeHumor Office
+  public: -g8DQSjFasE
+  published: 2020-04-20
+- episode: 310. U2 Gets Me Too'd At a Scooby Doo Read-Through
+  public: bJnp6mroWU0
+  members: 7SxJsbN64sQ
+  published: 2020-01-31
+- episode: 311. Millennials Are Ruining Our Trash
+  public: onNaQtnDM6Y
+  members: SFUjVYTIZVY
+  published: 2020-05-06
+- episode: 312. Mom Disappointed In Son... Again
+  public: ReGERSthF-U
+  members: jXEm_oJGdgI
+  published: 2020-01-31
+- episode: 313. God Does a Really Mean Impression of John Lithgow
+  public: 765samey6MQ
+  members: 4SoHQSNfOuI
+  published: 2020-05-19
+- episode: 314. My Weekend Was the Plot of Mrs. Doubtfire
+  public: CZhARwkwag8
+  members: gnLYLy1EwCQ
+  published: 2020-06-01
+- episode: 315. Hot Dogs Are Made From People (But Still Tasty)
+  public: t0xELMdGYeU
+  members: E4ofpttqMms
+  published: 2020-05-12
+- episode: 316. Good Morning, River View High!
+  public: fz3ayyI1kiU
+  members: H3xttOAMzt4
+  published: 2020-06-01
+- episode: 317. Welcome to Bug News
+  members: DmjlVs_25_o
+  published: 2020-06-01
+- episode: 318. Brian Hitler Is One of the 10 Worst Brians
+  public: L7vkadQZbeE
+  published: 2020-06-01
+- episode: 319. I'm Getting a FaceTime From a Greasy Little Puppet
+  public: N66TQDa7ym0
+  members: 5qG1x1zOcW0
+  published: 2020-06-01
+- episode: 320. Handshakes For Men, Hugs For Women
+  public: pG8gl7q_ohk
+  members: v_o1BNUAl0M
+  published: 2020-06-01
+- episode: 321. All Hail Cello Chigglers!
+  members: dWqZzDKPe6I
+  published: 2020-06-01
+- episode: 322. Spit In Your Hand To Honor the Troops
+  public: guUXnvUws5g
+  members: vfrRKA2-OJo
+  published: 2020-06-01
+- episode: 323. True Confessions of Real Newscasters
+  public: eBLaqloc6so
+  members: HnsKu2E3_Xw
+  published: 2020-06-01
+- episode: 324. Making Peanut Butter Sandwiches With a Bowling Ball
+  public: XzqPGm0wVzE
+  members: Mu9WENJ2zqo
+  published: 2020-06-01
+- episode: 325. Huge Idiot Climbs Mount Everest
+  public: h2BBTH9ZPJU
+  members: MSOy6Sp24k4
+  published: 2020-06-01
+
+
+---
+
+show: Breaking News
+season: Season 4
+videos:
+- episode: 401. A Cavalcade of Carreys
+  public: p_OGX8BJok8
+  members: 4R4Mz90erUc
+  published: 2021-04-28
+- episode: 402. Grant Anthony O'Brien Has a Mouthful of Water
+  public: 3kDdr8HBX8U
+  members: 6G1f5PJjq6o
+  published: 2021-05-12
+- episode: 403. Bartending, Improv, and Other Trends of 2011
+  public: xHqPgMzPXkg
+  members: 2m0s-NIFlKg
+  published: 2021-05-21
+- episode: 404. Old Rude Donkey's Flamin' Anus Hot Sauce
+  public: 9Nzkwl19KYE
+  members: QccqjclDuZ0
+  published: 2021-06-09
+- episode: 405. The Italian Backstreet Boys' Biggest Hits
+  public: k7tws4a7HLE
+  members: 80_YAh3X2As
+  published: 2021-06-19
+- episode: 406. Return of Streep Alert
+  public: d_K5nk_UJFQ
+  members: jmQe3a25xaQ
+  published: 2021-07-06
+- episode: 407. Sorry That's My Genitals. They're Exploding
+  members: T5sOfpVy2qM
+  published: 2021-07-21
+- episode: 408. Grant Uses Others as Puppets To Voice His Opinions
+  members: LMu9CVHWPXo
+  published: 2021-07-21
+
+---
+
+show: Breaking News
+season: Season 5
+videos:
+- episode: 501. I'm Horny For Every Fictional Car
+  public: Bj5rRevy7Ys
+  members: xh7efYLhvFo
+  published: 2021-08-20
+- episode: 502. Sam Reich Launches Dropout America
+  public: JzFuJDLd3cg
+  members: Hu0MT9cY1fc
+  published: 2021-09-01
+- episode: 503. It's A Classic Virgin Tradition
+  public: Wjb_bHXIFDk
+  members: 2PRDeTaWlGM
+  published: 2021-09-15
+- episode: 504. We've Actually Met Before
+  public: mPsmNFI5ZPM
+  members: DjxRBZtnabc
+  published: 2021-09-28
+- episode: 505. Amy Vorpahl Simply Loses Her Mind
+  public: jKwrYS2a8zA
+  members: 7_rGOP4tHUw
+  published: 2021-10-12
+- episode: 506. I'm Here Outside of Gene Hackman's Movie Trailer
+  public: XNjwTXvfXxQ
+  members: vW4se3pWmI0
+  published: 2021-10-26
+- episode: 507. Why Did You Give a Wedgie to Malala?
+  public: ehTeymh1xgg
+  members: lWu8yPMjObY
+  published: 2021-11-10
+- episode: 508. Honestly You Liking It Made Me Like It
+  public: FMGWVdmRSpA
+  members: Ypw6Vpydh0Y
+  published: 2021-11-24
+- episode: 509. True Facts About Grant Anthony O'Brien (Part 2)
+  members: ZrmCF9GOAOU
+  published: 2021-12-15
+- episode: 510. Gengar Could Run A Train Through Me
+  public: oDRdYa-WWAc
+  members: GnTkMy53Yj0
+  published: 2021-12-22
+- episode: 511. Gilchrest Savoy, The Wealthiest Man of 1906
+  public: E-Hu3jsFw_I
+  members: h9su_DIj4wE
+  published: 2022-01-04
+- episode: 512. I Don't Have Fingernails Because I Actually Know How to Finger a Woman
+  public: MJlVAIKb6o8
+  members: Cw2khnL_V78
+  published: 2022-01-19
+- episode: 513. Mi Scusi
+  public: Q9s7Ac3ZehA
+  members: c5HClC8nAUQ
+  published: 2022-02-02
+- episode: 514. Cap'n Jim's Boating Tips
+  public: j8Ttyz7DoKM
+  members: L3K--m-vgco
+  published: 2022-02-15
+- episode: 515. Fuck Austin Texas
+  members: 3W11L8xCGSY
+  published: 2022-03-03
+- episode: 516. Magic, Love, and Coldplay
+  public: 0Cm-cyNJGlg
+  members: fAukKlwGzks
+  published: 2022-03-17
+
+---
+
+show: Breaking News
+season: Season 6
+videos:
+- trailer: Breaking News Season 6 Trailer
+  public: 8_SYzil1e-Y
+  published: 2023-05-29
+- episode: 601. Dropout America 2
+  members: 5yPEoAhZKvE
+  published: 2023-06-12
+- episode: 602. Who is the Real Raphael Chestang?
+  members: LzzmFH7slpY
+  published: 2023-06-26
+- episode: 603. You're Gonna Need a Quenelle-ing Spoon for That
+  members: 9aF8FMzbJ-I
+  published: 2023-07-10
+- episode: 604. The Unbreakable Katie Marovitch
+  members: qHIX2LRWEtM
+  published: 2023-07-24
+- episode: 605. Grant O'Brien Does the One Chip Challenge
+  members: PZzxu9dtSZ0
+  published: 2023-08-07
+- episode: 606. Win Sam Reich's Money
+  members: gBMoFzkZzgc
+  published: 2023-08-21
+- episode: 607. Multigenerational Talent
+  members: 8dIK609VJ6c
+  published: 2023-09-04
+- episode: "608. Breaking News: The Musical"
+  members: VAOwllo9fIU
+  published: 2023-09-18
+- episode: 609. The Confrontation at Simone's House
+  members: GXuoSg5wXrg
+  published: 2023-10-02
+- episode: 610. This Episode Is Brought to You by Bing.com
+  members: DZuY4vSv_SU
+  published: 2023-10-16
+- episode: 611. The Rise of Count Dancula
+  members: 2w88J-qYFkM
+  published: 2023-10-30
+- episode: 612. No News Party
+  members: gRPO9U8fBBg
+  published: 2023-11-14
+- episode: 613. Make Katie Laugh
+  members: tNAEZIltiTc
+  published: 2023-11-28
+- episode: 614. The Wealthiest Man of 1906 Returns
+  members: hxi4fGfwO7A
+  published: 2023-12-12
+- episode: 615. Puff, Puff, Pass
+  members: WkrZAc4uJV0
+  published: 2024-01-03
+- episode: 616. True Facts About Grant Anthony O'Brien (Part 3)
+  members: mzQjbHvBHZ0
+  published: 2024-01-09
+- episode: 617. I Want to Play a Game
+  members: GEferBdVBE0
+  published: 2024-01-23
+
+---
+
+season: Fantasy High (Chapter 3)
+show: Dimension 20
+cast: Intrepid Heroes
+world: Spyre
+videos:
+- trailer: Fantasy High Junior Year Teaser
+  public: XvDk6C1zvuI
+  published: 2023-09-26
+- trailer: Fantasy High Junior Year Trailer
+  public: 8Jr7dyVCmFM
+  published: 2023-12-13
+- trailer: Fantasy High Seasons 1 and 2 Full Recap
+  public: HgGZvg8gbBM
+  published: 2023-12-27
+- episode: 1. Summer Scaries
+  public: G4o_mJKAJxY
+  members: hGC6SnNAwC0
+  published: 2024-01-11
+- bts: Yaaath Queen
+  members: 40hE083Ly9Y
+  published: 2024-01-12
+- episode: 2. Summer Breakdown
+  members: 1KEyu8OKKGs
+  published: 2024-01-18
+- bts: Fs Get Defgrees
+  members: OxK8D6NhMHY
+  published: 2024-01-19
+- episode: 3. Not All Who Wanda Are Lost
+  members: 8aXfZrmDSrg
+  published: 2024-01-25
+- bts: I Wanda'd In
+  members: KS3_IOju2HA
+  published: 2024-01-26
+- episode: 4. Under Pressure
+  members: Wq2Drxoa71s
+  published: 2024-02-01
+- bts: A Sea of Effluvia
+  members: m5g-CCmm8ys
+  published: 2024-02-02
+- episode: 5. Mall Madness
+  members: yXv4C4_aZvE
+  published: 2024-02-08
+- bts: Can I Offer You a Nice Shrimp in This Trying Time?
+  members: Rlxj-tUYsaM
+  published: 2024-02-09
+- episode: 6. Party Politics
+  members: lviNn1XG5W0
+  published: 2024-02-15
+- bts: You Are the Chosen None
+  members: YGP8YvfBZ1A
+  published: 2024-02-16
+- episode: 7. Stress Tested
+  members: 0bXhR2zLCEI
+  published: 2024-02-22
+- bts: A Negroni and a Bowl of Spinach
+  members: MDKejBcRPPI
+  published: 2024-02-23
+- episode: 8. Fracas at the Frostyfaire Folk Festival
+  members: ojesrO8BKsc
+  published: 2024-02-29
+- bts: I See Your Butt Plug and I Raise You a Fist
+  members: IKojoZrSX7A
+  published: 2024-02-30
+- episode: 9. Vulture Clash
+  members: Z7-0FL5NzK4
+  published: 2024-03-07
+- bts: Emo People Meet at Panera
+  members: 0FgNuAblz3I
+  published: 2024-03-08
+- episode: 10. Cursed Out
+  members: xIOsqw6amno
+  published: 2024-03-13
+- bts: Cool Ranch Communion
+  members: QN85JKB0Cr8
+  published: 2024-03-14
+- bts: with Emily Axford
+  members: bqbxzQi1GZ0
+  published: 2024-01-03
+- bts: with Ally Beardsley
+  members: fp8xmNuUFJQ
+  published: 2024-01-04
+- bts: with Brian Murphy
+  members: ZiGCowSL1wc
+  published: 2024-01-05
+- bts: with Zac Oyama
+  members: 0N_cc60DP10
+  published: 2024-01-06
+- bts: with Siobhan Thompson
+  members: E6NL9AjoGPM
+  published: 2024-01-07
+- bts: with Lou Wilson
+  members: Gl3uIEk7aq0
+  published: 2024-01-08
+- bts: with Brennan Lee Mulligan
+  members: g722RMM-OsA
+  published: 2024-01-09
+- external: Zac Discusses Fantasy High Junior Year on Screen Rant Plus
+  public: GVbFYlgMwaM
+  published: 2024-02-15
+- bts: Teenage Rebellion (Theme Song) Music Video
+  public: D46t1vdcoSM
+  published: 2024-01-10
+
+---
+
 show: "Um, Actually"
 season: Season 9
 videos:
-
 - trailer: Um, Actually Season 9 Trailer
   public: pe6lnxZ9QbI
   public copy: jRB-Kz3TAZc
@@ -2826,34 +3523,38 @@ videos:
   members: hvqxMBXhcNE
   published: 2023-12-15
 - bts: Princess Emily
-  public: l5UW76dMdbE
   members: GRc3Zq421aQ
   published: 2023-12-22
-
----
-
-show: Dirty Laundry
-videos:
-- trailer: Dirty Laundry Trailer
-  public: HIcSICD43ZI
-  published: 2022-03-14
-- episode: 101. Who Shot a Softcore Porn?
-  public: xzhhbvUIWEs
-  members: I54xXZhF_m0
-  published: 2022-04-04
-- trailer: Dirty Laundry Season 2 Trailer
-  public: uDIvjDQVNk8
-  published: 2022-11-22
-- trailer: Dirty Laundry Season 3 Trailer
-  public: oglws2QISVk
-  published: 2023-08-15
-
----
-
-show: Breaking News
-videos: []
-
----
-
-show: Adventuring Academy
-videos: []
+- episode: 102. Denzel
+  members: J6XTXIZQNPs
+  published: 2023-12-30
+- bts: Denzel
+  members: Fh8V6vkp0-U
+  published: 2024-01-05
+- episode: 103. Vic's Ex Step-Grandmother
+  members: IqCKbc5Wl2c
+  published: 2024-01-13
+- bts: Vic's Ex Step-Grandmother
+  members: 6fE4lxa_6rY
+  published: 2024-01-20
+- episode: 104. Marionette Conqui and Zonton de la Doll
+  members: _eJULrtRYn4
+  published: 2024-01-27
+- bts: Marionette Conqui and Zonton de la Doll
+  members: EAThBVYo1TE
+  published: 2024-02-02
+- episode: 105. Kepl and Dr. Milk
+  members: 4uAcB43RHls
+  published: 2024-02-10
+- bts: Kepl and Dr. Milk
+  members: De05yC7sy8Y
+  published: 2024-02-16
+- episode: 106. Tommy Shriggly
+  members: ERwmKBmLdX0
+  published: 2024-02-24
+- bts: Tommy Shriggly
+  members: 6ktl9VaQw3I
+  published: 2024-03-01
+- episode: 107. Professor Avery Goodman
+  members: JYEe74Dv9Hg
+  published: 2024-03-09

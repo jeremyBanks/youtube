@@ -23,12 +23,30 @@ export async function main() {
     const { channelId } = await channelMetadata(channelHandle);
 
     const lastScan = scans.find((scan) => scan.channelId === channelId);
+    const lastCompleteScan = scans.find((scan) =>
+      scan.channelId === channelId && scan.scannedTo === null
+    );
 
     const scannedAt = new Date();
 
-    // TODO: scan interval logic, right now we're always doing an incremental scan
-    // and never doing a full scan.
-    const stopAt = lastScan?.scannedAt ?? new Date("2000-01-01");
+    let stopAt: Date;
+
+    if (
+      !lastCompleteScan || !lastScan ||
+      (new Date(config.maxCompleteAge.epochMilliseconds) >
+        lastCompleteScan.scannedAt)
+    ) {
+      console.log("Performing complete scan.");
+      stopAt = new Date("2000-01-01");
+    } else if (
+      new Date(config.maxIncrementalAge.epochMilliseconds) > lastScan!.scannedAt
+    ) {
+      console.log("Performing incremental scan.");
+      stopAt = lastScan.scannedAt;
+    } else {
+      console.log("Skipping, scan not due.");
+      continue;
+    }
 
     const publicPlaylistId = `UU${channelId.slice(2)}`;
     let publicVideosExhaustive = true;

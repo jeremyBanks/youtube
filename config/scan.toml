@@ -4,31 +4,31 @@ complete-interval = "P16D"
 
 [dimension20show]
 incremental-interval = "PT32M"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [dimension20shorts]
 incremental-interval = "PT32M"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [umactually]
 incremental-interval = "PT8H"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [gamechangershorts]
 incremental-interval = "PT8H"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [makesomenoisedo]
 incremental-interval = "PT8H"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [dirtylaundryshorts]
 incremental-interval = "PT8H"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [veryimportantpeopleshow]
 incremental-interval = "PT8H"
-complete-interval = "P24D"
+complete-interval = "P64D"
 
 [deepblueink]
 incremental-interval = "P2D"
@@ -70,22 +70,34 @@ complete-interval = "P128D"
 incremental-interval = "P32D"
 complete-interval = "P128D"
 
-[Roll20App]
-incremental-interval = "P128Y"
-complete-interval = "P128Y"
+[characterswelcome]
+incremental-interval = "P128D"
+complete-interval = "P256D"
+
+[roll20app]
+incremental-interval = "P128D"
+complete-interval = "P256D"
 
 [criticalrole]
-incremental-interval = "P128Y"
-complete-interval = "P128Y"
+incremental-interval = "P128D"
+complete-interval = "P256D"
 
 [siblingrivalrypodcast]
-incremental-interval = "P128Y"
-complete-interval = "P128Y"
+incremental-interval = "P128D"
+complete-interval = "P256D"
 
 [hankschannel]
-incremental-interval = "P128Y"
-complete-interval = "P128Y"
+incremental-interval = "P128D"
+complete-interval = "P256D"
 
 [rickastleyyt]
-incremental-interval = "P128Y"
-complete-interval = "P128Y"
+incremental-interval = "P128D"
+complete-interval = "P256D"
+
+[geekandsundry]
+incremental-interval = "P128D"
+complete-interval = "P256D"
+
+[themcelroyfamily]
+incremental-interval = "P128D"
+complete-interval = "P256D"

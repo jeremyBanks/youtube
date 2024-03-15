@@ -19,7 +19,7 @@ const ScanConfigToml = z.record(
 
 type ScanConfig = Array<{
   channelHandle: string;
-  maxIncrementalAge?: Temporal.Instant;
+  maxIncrementalAge: Temporal.Instant;
   maxCompleteAge: Temporal.Instant;
 }>;
 

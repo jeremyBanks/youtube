@@ -63,7 +63,10 @@ export const open = async <
         }
       }
       for (const [name, items] of shards) {
-        await dump(path.replace(".yaml", `/${name}.yaml`), items);
+        await dump(
+          path.replace(".yaml", `/${name}.yaml`),
+          arraySchema.parse(items),
+        );
       }
     }
   };

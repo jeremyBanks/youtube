@@ -3517,14 +3517,23 @@ show: Bluey
 season: Volume 9
 videos:
 - episode: Fancy Restaurant
+  paid: VhDfdMZWnbc
 - episode: Piggyback
+  paid: 8ZyA-7mtGYY
 - episode: The Show
+  paid: _yBmpFbyObg
 - episode: Tickle Crabs
+  paid: MKC6x2nmaqI
 - episode: Escape
+  paid: eglgAcmW1u4
 - episode: Bus
+  paid: 6SfisKaCuCg
 - episode: Queens
+  paid: wYataAV_nUc
 - episode: Flat Pack
+  paid: OLc6y4aDAcs
 - episode: Helicopter
+  paid: wU-4iOVlbjI
 - special: Green Bottles (Short)
   public: jw3HUsWhjSQ
 - special: Highball (Short)
@@ -3537,16 +3546,25 @@ show: Bluey
 season: Volume 10
 videos:
 - episode: Sleepytime
+  paid: YBcZSxXu2wk
 - episode: Seesaw
   public: ewekkT49lsM
+  paid: dc3FmdaNrj4
 - episode: Movies
   public: FCeGAAo6WbM
+  paid: c2WKzAc_crs
 - episode: Library
+  paid: k8pevEp-dnE
 - episode: Barky Boats
+  paid: lCjbL9-4IQo
 - episode: Burger Shop
+  paid: pmITvkLsYLw
 - episode: Circus
+  paid: qlnOt-dcB6Y
 - episode: Swim School
+  paid: REfHV-W6A0w
 - episode: Cafe
+  paid: ncUoUYfUKi0
 - special: Old MacDonald (Short)
   public: 8vTVadx8L08
 - special: Pea Pod Sausages (Short)
@@ -3561,14 +3579,22 @@ season: Volume 11
 videos:
 - episode: Postman
 - episode: The Quiet Game
+  paid: qqO9P5owXNs
 - episode: Mr Monkeyjocks
+  paid: QEsGZHLcPsg
 - episode: Double Babysitter
   public: di11R4LgJRg
+  paid: Ulfo-22YIrI
 - episode: Bad Mood
+  paid: f5I1zD7h4Kk
 - episode: Octopus
+  paid: pkLUfnJ0pUQ
 - episode: Bin Night
+  paid: 6jlaOE3DxHQ
 - episode: Muffin Cone
+  paid: dqfJAK1sFzQ
 - episode: Duck Cake
+  paid: 295fmA1H0g4
 - special: Mower (Short)
   public: ps7vEs-Svvk
 - special: Flying Saucer (Short)
@@ -3580,17 +3606,26 @@ show: Bluey
 season: Volume 12
 videos:
 - episode: Handstand
+  paid: 9QtCYuOt85s
 - episode: Road Trip
+  paid: vMhPYKcBVN4
 - episode: Ice Cream
   public: kWN6ktuf65U
+  paid: U5zER8eB4X4
 - episode: Dunny
+  paid: VIV7zo1k7u0
 - episode: Typewriter
+  paid: yTyUb8g1fuA
 - episode: Grandad
+  paid: wXYHVN-9fJo
 - episode: Baby Race
   public: xmkCmJtK6X8
+  paid: dsaNZi-TmMw
 - episode: Christmas Swim
   public: JcinTAfwdVw
+  paid: tTgK5xVMImg
 - episode: Easter
+  paid: OcjXCPuBmmY
 - special: Jingle Bells (Short)
   public: AQA9Y_UmR9s
 - special: Make Mum Laugh (Short)
@@ -3602,15 +3637,23 @@ show: Bluey
 season: Volume 13
 videos:
 - episode: Bedroom
+  paid: zOPdxsrK984
 - episode: Obstacle Course
+  paid: YfXHNpffxWo
 - episode: Promises
+  paid: JBqPN5F3XXY
 - episode: Omelette
+  paid: Vhah7fkRNfE
 - episode: Born Yesterday
+  paid: ck-8sLbBhb4
 - episode: Mini Bluey
   public: 1NLyCCrNncs
+  paid: xZLC3hzZYsM
 - episode: Unicorse
   public: gvaeBYeN70g
+  paid: 29cAOf5PiDo
 - episode: Curry Quest
+  paid: Erp7Rmd59yk
 - special: Cinderella
   public: 4PHAHYCfnPE
 - special: K9 News
@@ -3623,15 +3666,24 @@ season: Volume 14
 videos:
 - episode: Magic
   public: uOIcFF6RQag
+  paid: jE8m7smMbAs
 - episode: Chest
+  paid: WFcilRuxAYs
 - episode: Sheepdog
+  paid: PDw3XGy7kbY
 - episode: Housework
+  paid: E9SlfU98chQ
 - episode: Pass the Parcel
   public: h7sBLY6vXLU
+  paid: '-PhzkKN_q6M'
 - episode: Perfect
+  paid: _l_QGL1FcKE
 - episode: Explorers
+  paid: o3fWBs7qY6A
 - episode: Phones
+  paid: XdiSfTWUic8
 - episode: Pavlova
+  paid: '-t6rz9ywqZE'
 - special: Honk
   public: 6bOqlDvfWgY
 - special: Humpty Dumpty
@@ -3642,7 +3694,7 @@ videos:
 ---
 
 show: Bluey
-season: Volumes Yet To Be Released
+season: Volume 15
 videos:
 - episode: Rain
 - episode: Pizza Girls
@@ -3655,27 +3707,65 @@ videos:
   public: kx8_wF9HOX8
 - episode: Ragdoll
 - episode: Fairytale
+
+---
+
+show: Bluey
+season: Volume 16
+videos:
 - episode: Musical Statues
+  paid: k4BgZx7MU2k
 - episode: Stories
+  paid: klmyxLyFfcg
 - episode: Puppets
+  paid: TxV1PK9FW2g
 - episode: Turtleboy
+  paid: 7MkpEEBrySs
 - episode: Onesies
+  paid: DRMLButYluY
 - episode: Tradies
+  paid: OGHOkAKMGXg
 - episode: Granny Mobile
+  paid: 4iLX399dqV0
 - episode: Space
+  paid: fC-JGyBebT8
 - episode: Smoochy Kiss
+  paid: 56Oe3mdm1XI
 - episode: Dirt
+  paid: Oe0ZOzpyZ3s
 - episode: The Decider
+  paid: Pyq8-GFfa7c
+
+---
+
+show: Bluey
+season: Volume 17
+videos:
 - episode: Cubby
+  paid: IzlyLOUnQ-M
 - episode: Exercise
+  paid: Zc1x0SlLheM
 - episode: Relax
+  paid: Z2GVMV3gDbQ
 - episode: Stickbird
+  paid: 4fSU3Oggltg
 - episode: Show and Tell
+  paid: am0Vy7hfq4I
 - episode: Dragon
+  paid: YsplC9j-7VU
 - episode: Wild Girls
+  paid: t0uGyrWNrUY
 - episode: TV Shop
+  paid: dN0JaCkT9zs
 - episode: Slide
+  paid: 8z6SD8xLHyU
 - episode: Cricket
+  paid: dgnJzTRAt7w
+
+---
+
+show: Bluey
+videos:
 - episode: Ghostbasket
 - episode: The Sign
 - special: One Man Went To Mow

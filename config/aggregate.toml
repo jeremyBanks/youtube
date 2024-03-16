@@ -2,56 +2,56 @@
 name = "Game Changer (${ALL_SEASONS})"
 show = "Game Changer"
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Game Changer, the only game show where the game changes every show.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (trailers and behind-the-scenes videos) from all ${SEASONS} seasons of Game Changer, the only game show where the game changes every show. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS]
 name = "Um, Actually (${ALL_SEASONS})"
 show = "Um, Actually"
 description = """
-${HOURS}-hour playlist of all episodes, trailers, and behind-the-scenes videos from Um Actually, the game show where nerds correct nerds.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (trailers and behind-the-scenes videos) from all ${SEASONS} seasons of Um Actually, the game show where nerds correct nerds. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
 name = "Breaking News / No Laugh Newsroom (${ALL_SEASONS})"
 show = "Breaking News"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Breaking News / No Laugh Newsroom: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} trailers from all ${SEASONS} seasons of Breaking News / No Laugh Newsroom: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM]
 name = "Make Some Noise (${ALL_SEASONS})"
 show = "Make Some Noise"
 description = """
-${HOURS}-hour playlist of all episodes and trailers from Make Some Noise, a game show where talented contestants compete to bring to life silly prompts.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} trailers from all ${SEASONS} seasons of Make Some Noise, a game show where talented contestants compete to bring to life silly prompts. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDfejgejY4h6r06blOLedPl]
 name = "Dirty Laundry (${ALL_SEASONS})"
 show = "Dirty Laundry"
 description = """
-${HOURS}-hour playlist of all episodes and trailers from Dirty Laundry, a show where guests tell secrets, guess who they belong to, and enjoy a few drinks.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} trailers from all ${SEASONS} seasons of Dirty Laundry, a show where guests tell secrets, guess who they belong to, and enjoy a few drinks. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
 name = "Play It By Ear (${ALL_SEASONS})"
 show = "Play It By Ear"
 description = """
-${HOURS}-hour playlist of all episodes and trailers from Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} trailers from all ${SEASONS} seasons of Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pCDFLc4eTkdFoMy5qW5pqW9]
 name = "Very Important People (${ALL_SEASONS})"
 show = "Very Important People"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} trailers from Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
 name = "Adventuring Academy (${ALL_SEASONS})"
 show = "Adventuring Academy"
 description = """
-${HOURS}-hour playlist of all episodes and trailers videos from Adventuring Academy, a show where veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros.
+${HOURS}-hour playlist of all ${EPISODES} episodes from all ${SEASONS} seasons of Adventuring Academy, a show where veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD]
@@ -59,7 +59,7 @@ name = "Dimension 20 (${ALL_SEASONS})"
 show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of every episode of Dimension 20 and all associated extra content, such as behind-the-scenes videos, talkback shows, and trailers. Free videos are used where possible, and member-only videos used for the rest. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (behind-the-scenes videos, talkback shows, and trailers) from all ${SEASONS} seasons of Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -69,7 +69,7 @@ name = "Dimension 20 (${ALL_EPISODES})"
 show = "Dimension 20"
 type = ["episode", "special"]
 description = """
-${HOURS}-hour playlist of every episode of Dimension 20 in order. Free videos are used where possible, and member-only videos used for the rest. Episodes are all in chronological release order, except for special live episodes, with are grouped with their associated seasons even if they occurred a bit later.
+${HOURS}-hour playlist of all ${EPISODES} episodes of from all ${SEASONS} seasons of Dimension 20 in order. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -91,7 +91,7 @@ show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 free = true
 description = """
-${HOURS}-hour playlist of all free episodes of Dimension 20 and all free extra content, such as behind-the-scenes videos, talkback shows, and trailers. Episodes are grouped by seasons, with trailers coming first and extra content coming after the episode or season it refers to.
+${HOURS}-hour playlist all free ${EPISODES} episodes of Dimension 20 and ${EXTRAS} free extras (behind-the-scenes videos, talkback shows, and trailers).
 
 ${D20_PLUG}
 """
@@ -104,7 +104,7 @@ cast = "Intrepid Heroes"
 world = "Spyre"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from all seasons of Fantasy High, a series of campaigns from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from all ${SEASONS} seasons of Fantasy High, a series of campaigns from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -116,7 +116,7 @@ cast = "Intrepid Heroes"
 world = "The Unsleeping City"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from all seasons of The Unsleeping City, a series of campaigns from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from all ${SEASONS} seasons of The Unsleeping City, a series of campaigns from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -127,7 +127,7 @@ show = "Dimension 20"
 season = "Escape from the Bloodkeep"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Escape from the Bloodkeep, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Escape from the Bloodkeep, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -138,7 +138,7 @@ show = "Dimension 20"
 season = "Tiny Heist"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Tiny Heist, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Tiny Heist, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -149,7 +149,7 @@ show = "Dimension 20"
 season = "A Crown of Candy"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from A Crown of Candy, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Crown of Candy, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -160,7 +160,7 @@ show = "Dimension 20"
 season = "Pirates of Leviathan"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Pirates of Leviathan, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Pirates of Leviathan, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -171,7 +171,7 @@ show = "Dimension 20"
 season = "Mice and Murder"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Mice and Murder, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Mice and Murder, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -182,7 +182,7 @@ show = "Dimension 20"
 season = "Misfits and Magic"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Misfits and Magic, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Misfits and Magic, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -193,7 +193,7 @@ show = "Dimension 20"
 season = "The Seven"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from The Seven, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from The Seven, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -204,7 +204,7 @@ show = "Dimension 20"
 season = "Shriek Week"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Shriek Week, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Shriek Week, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -215,7 +215,7 @@ show = "Dimension 20"
 season = "A Starstruck Odyssey"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from A Starstruck Odyssey, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Starstruck Odyssey, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -226,7 +226,7 @@ show = "Dimension 20"
 season = "Coffin Run"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Coffin Run, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Coffin Run, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -237,7 +237,7 @@ show = "Dimension 20"
 season = "A Court of Fey and Flowers"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from A Court of Fey and Flowers, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Court of Fey and Flowers, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -248,7 +248,7 @@ show = "Dimension 20"
 season = "Neverafter"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Neverafter, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Neverafter, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -259,7 +259,7 @@ show = "Dimension 20"
 season = "The Ravening War"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from The Ravening War, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from The Ravening War, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -270,7 +270,7 @@ show = "Dimension 20"
 season = "Dungeons and Drag Queens"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Dungeons and Drag Queens, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Dungeons and Drag Queens, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -281,7 +281,7 @@ show = "Dimension 20"
 season = "Mentopolis"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Mentopolis, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Mentopolis, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -292,7 +292,7 @@ show = "Dimension 20"
 season = "Burrow's End"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, behind-the-scenes videos, and third-party interviews from Burrow's End, a campaign from Dimension 20. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Burrow's End, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -303,7 +303,7 @@ show = "Dimension 20"
 cast = "Intrepid Heroes"
 type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 which star the core Intrepid Heroes cast. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, and behind-the-scenes videos) from all ${SEASONS} seasons of Dimension 20 which feature the Intrepid Heroes cast. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -314,7 +314,7 @@ show = "Dimension 20"
 world = "Spyre"
 type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all ${EPISODES} episodes, and ${extras} extras (talkbacks, trailers, and behind-the-scenes videos) from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, and behind-the-scenes videos) from all ${SEASONS} seasons of Dimension 20 set in the world of Spyre. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -325,16 +325,16 @@ show = "Dimension 20"
 world = "Calorum"
 type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 set in the world of Calorum. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, and behind-the-scenes videos) from all ${SEASONS} seasons of Dimension 20 set in the world of Calorum. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
 
-
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
+skip = true
 name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS})"
 show = "Critical Role"
 season = "Exandria Unlimited: Calamity"
 description = """
-${HOURS}-hour playlist of all episodes and extras from Exandria Unlimited: Calamity, a Critical Role campaign.
+${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """

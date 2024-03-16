@@ -2,7 +2,7 @@
 name = "Bluey"
 show = "Bluey"
 description = """
-${HOURS}-hour playlist with ${EPISODES} episodes of Bluey.
+${HOURS}-hour playlist of episodes and shorts from Bluey.
 """
 
 [PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]

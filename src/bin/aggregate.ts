@@ -30,6 +30,7 @@ async function main() {
     let extrasCount = 0;
     let freeCount = 0;
     let membersCount = 0;
+    let paidCount = 0;
 
     for (const season of seasons) {
       if (
@@ -95,6 +96,16 @@ async function main() {
               extrasCount += 1;
             }
           }
+        } else if (episode.paid) {
+          if (!config.free) {
+            videoIds.push(episode.paid);
+            paidCount += 1;
+            if (episode.episode || episode.special) {
+              episodeCount += 1;
+            } else {
+              extrasCount += 1;
+            }
+          }
         } else {
           console.error(`no video ID specified for ${JSON.stringify(episode)}`);
         }
@@ -143,6 +154,9 @@ async function main() {
       ).replaceAll(
         "${MEMBERS}",
         String(membersCount),
+      ).replaceAll(
+        "${PAID}",
+        String(paidCount),
       ).replaceAll(
         "${SEASONS}",
         String(seasonCount),

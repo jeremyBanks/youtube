@@ -91,7 +91,7 @@ show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 free = true
 description = """
-${HOURS}-hour playlist all free ${EPISODES} episodes of Dimension 20 and ${EXTRAS} free extras (behind-the-scenes videos, talkback shows, and trailers).
+${HOURS}-hour playlist all ${EPISODES} free episodes of Dimension 20 and ${EXTRAS} free extras (behind-the-scenes videos, talkback shows, and trailers).
 
 ${D20_PLUG}
 """

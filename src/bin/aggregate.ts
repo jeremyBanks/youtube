@@ -28,6 +28,8 @@ async function main() {
     let seasonCount = 0;
     let episodeCount = 0;
     let extrasCount = 0;
+    let freeCount = 0;
+    let membersCount = 0;
 
     for (const season of seasons) {
       if (
@@ -69,12 +71,14 @@ async function main() {
         }
         if (episode.public) {
           videoIds.push(episode.public);
+          freeCount += 1;
           if (episode.episode || episode.special) {
             episodeCount += 1;
           } else {
             extrasCount += 1;
           }
         } else if (episode["public parts"]) {
+          freeCount += 1;
           videoIds.push(...episode["public parts"]);
           if (episode.episode || episode.special) {
             episodeCount += 1;
@@ -84,6 +88,7 @@ async function main() {
         } else if (episode.members) {
           if (!config.free) {
             videoIds.push(episode.members);
+            membersCount += 1;
             if (episode.episode || episode.special) {
               episodeCount += 1;
             } else {
@@ -122,7 +127,7 @@ async function main() {
         "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
       ).replaceAll(
         "${MAYBE_MEMBERS_ONLY}",
-        "Free videos are used when available, but others require a @Dropout membership on YouTube.",
+        "${FREE} videos are free and ${MEMBERS} require a @Dropout membership on YouTube.",
       ).replaceAll(
         "${HOURS}",
         String(Math.floor(durationSeconds / 60 / 60)),
@@ -132,6 +137,12 @@ async function main() {
       ).replaceAll(
         "${EXTRAS}",
         String(extrasCount),
+      ).replaceAll(
+        "${FREE}",
+        String(freeCount),
+      ).replaceAll(
+        "${MEMBERS}",
+        String(membersCount),
       ).replaceAll(
         "${SEASONS}",
         String(seasonCount),
@@ -150,7 +161,12 @@ async function main() {
       )
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")
-        .replaceAll(/\b1 Seasons\b/g, "1 Season");
+        .replaceAll(/\b1 Seasons\b/g, "1 Season")
+        .replaceAll(/\b1 Videos\b/g, "1 Video")
+        .replaceAll(/\b1 videos\b/g, "1 video")
+        .replaceAll(/\b1 Video are\b/g, "1 Video is")
+        .replaceAll(/\b1 video are\b/g, "1 video is")
+        .replaceAll(/\b1 require \b/g, "1 requires ");
 
     upsert(playlists, {
       name: applyTemplates(config.name),

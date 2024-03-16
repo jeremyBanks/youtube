@@ -2,7 +2,7 @@ import * as googleapis from "npm:googleapis";
 import * as dotenv from "@std/dotenv";
 import { delay } from "@std/async";
 
-import { spinning, truthy } from "./common.ts";
+import { logDeep, spinning, truthy } from "./common.ts";
 import { openChannelStorage } from "./storage.ts";
 import { Channel } from "./storage.ts";
 import { only } from "./common.ts";
@@ -218,6 +218,7 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
       ],
     });
   } else {
+    // XXX: this doesn't work for certain non-user channels like UCbwnaOxVtqUWmeJsdKTlqfg
     result = await youtube.channels.list({
       auth,
       id: [channelId!],
@@ -235,6 +236,7 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
     });
   }
 
+  logDeep(result);
   const resultData = only(result.data.items!);
 
   const retrieved: Channel = {

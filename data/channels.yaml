@@ -1373,6 +1373,16 @@ viewCount:       361345
 
 ---
 
+name:            Bluey
+createdAt:       2023-01-23T01:01:01.001Z
+channelId:       UCbwnaOxVtqUWmeJsdKTlqfg
+refreshedAt:     2000-01-01T01:01:01.001Z
+videoCount:      1
+subscriberCount: 1
+viewCount:       1
+
+---
+
 name:            Pitch Meeting Shorts
 handle:          pitchmeetingshorts
 createdAt:       2023-03-30T12:01:04.360Z

@@ -119,7 +119,7 @@ const SeasonsCurationYaml = z.array(
     world: z.string().optional(),
     videos: z.array(
       z.object({
-        published: z.date(),
+        published: z.date().optional(), // XXX: should this be optional?
         trailer: z.string().optional(),
         episode: z.string().optional(),
         special: z.string().optional(),
@@ -134,6 +134,7 @@ const SeasonsCurationYaml = z.array(
         "public copy": VideoId.optional(),
         "public parts": VideoId.or(VideoId.array()).optional(),
         "deleted public parts": VideoId.or(VideoId.array()).optional(),
+        paid: VideoId.optional(),
       }).strict(),
     ),
   }).strict(),

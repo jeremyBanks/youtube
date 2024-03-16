@@ -127,7 +127,7 @@ async function main() {
         "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
       ).replaceAll(
         "${MAYBE_MEMBERS_ONLY}",
-        "${FREE} videos are free and ${MEMBERS} require a @Dropout membership on YouTube.",
+        "${FREE} videos are free and ${MEMBERS} require a @Dropout channel membership on YouTube.",
       ).replaceAll(
         "${HOURS}",
         String(Math.floor(durationSeconds / 60 / 60)),

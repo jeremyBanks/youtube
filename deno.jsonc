@@ -2,6 +2,7 @@
   "name": "@jeb/youtube",
   "version": "0.0.0-testing-jsr-2",
   "exports": {
+    "./youtube": "./src/youtube.ts",
     "./scan": "./src/bin/scan.ts",
     "./aggregate": "./src/bin/aggregate.ts",
     "./publish": "./src/bin/publish.ts",

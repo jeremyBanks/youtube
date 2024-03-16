@@ -101,3 +101,7 @@ complete-interval = "P256D"
 [themcelroyfamily]
 incremental-interval = "P128D"
 complete-interval = "P256D"
+
+["channel/UCbwnaOxVtqUWmeJsdKTlqfg"]
+incremental-interval = "P128D"
+complete-interval = "P256D"

@@ -23,7 +23,7 @@ export const Channel = z.object({
   /** The channel's name. This corresponds to `title` in the API. */
   name: z.string(),
   /** The channel's handle, excluding the leading `@`. This corresponds to `customUrl` in the API. */
-  handle: z.string(),
+  handle: z.string().optional(),
   /** The channel's creation datetime. This corresponds to `publishedAt` in the API. */
   createdAt: DateTime,
   /** The channel's ID, including the leading `UC`. */

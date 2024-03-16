@@ -168,17 +168,29 @@ export async function* playlistVideos(playlistId: string, opts: {
 }
 
 /** Retrieves the metadata for a given channel. */
-export async function channelMetadata(handle: string): Promise<Channel> {
+export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
   const { youtube, auth } = await getClientAuthAndKey();
 
   const channels = await openChannelStorage();
 
   // Unfortunately, the API converts handles to lowercase even if the URLs and UI use mixed-case,
   // so we need to normalize to that for case matching.
-  handle = handle.toLowerCase().replace(/^(https?:\/\/youtube\.com\/)?@/, "")
-    .replace(/\?si=\w+$/, "");
+  handleOrUrl = handleOrUrl.replace(
+    /^(https?:\/\/youtube\.com\/)?(\/)?(@)?/,
+    "",
+  ).replace(/\?si=\w+$/, "");
 
-  const existing = channels.find((channel) => channel.handle === handle);
+  let handle: undefined | string;
+  let channelId: undefined | string;
+  let existing: undefined | Channel;
+
+  if (handleOrUrl.startsWith("channel/")) {
+    channelId = handleOrUrl.slice("channel/".length);
+    existing = channels.find((channel) => channel.channelId === channelId);
+  } else {
+    handle = handleOrUrl.toLowerCase();
+    existing = channels.find((channel) => channel.handle === handle);
+  }
 
   if (existing) {
     return existing;
@@ -186,22 +198,42 @@ export async function channelMetadata(handle: string): Promise<Channel> {
 
   const refreshedAt = new Date();
 
+  let result;
+
   console.debug(`youtube.channels.list...`);
-  const result = await youtube.channels.list({
-    auth,
-    forHandle: handle,
-    part: [
-      "brandingSettings",
-      "contentDetails",
-      "contentOwnerDetails",
-      "id",
-      "localizations",
-      "snippet",
-      "statistics",
-      "status",
-      "topicDetails",
-    ],
-  });
+  if (handle) {
+    result = await youtube.channels.list({
+      auth,
+      forHandle: handle,
+      part: [
+        "brandingSettings",
+        "contentDetails",
+        "contentOwnerDetails",
+        "id",
+        "localizations",
+        "snippet",
+        "statistics",
+        "status",
+        "topicDetails",
+      ],
+    });
+  } else {
+    result = await youtube.channels.list({
+      auth,
+      id: [channelId!],
+      part: [
+        "brandingSettings",
+        "contentDetails",
+        "contentOwnerDetails",
+        "id",
+        "localizations",
+        "snippet",
+        "statistics",
+        "status",
+        "topicDetails",
+      ],
+    });
+  }
 
   const resultData = only(result.data.items!);
 

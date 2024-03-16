@@ -14,8 +14,6 @@ export async function main() {
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
 
-  // videos.length = 0;
-
   for (const config of await getScanConfig()) {
     const { channelHandle } = config;
     console.info(`Scanning ${channelHandle}...`);
@@ -69,7 +67,7 @@ export async function main() {
         commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
       };
 
-      if (stopAt && (record.publishedAt >= stopAt)) {
+      if (record.publishedAt >= stopAt) {
         upsert(videos, record, (a, b) => a.videoId === b.videoId);
       } else {
         publicVideosExhaustive = false;
@@ -100,7 +98,7 @@ export async function main() {
           commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
         };
 
-        if (stopAt && (record.publishedAt >= stopAt)) {
+        if (record.publishedAt >= stopAt) {
           upsert(videos, record, (a, b) => a.videoId === b.videoId);
         } else {
           membersVideosExhaustive = false;

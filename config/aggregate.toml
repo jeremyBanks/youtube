@@ -314,7 +314,7 @@ show = "Dimension 20"
 world = "Spyre"
 type = ["episode", "special", "bts", "trailer"]
 description = """
-${HOURS}-hour playlist of all episodes, talkbacks, trailers, and behind-the-scenes from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
+${HOURS}-hour playlist of all ${EPISODES} episodes, and ${extras} extras (talkbacks, trailers, and behind-the-scenes videos) from all seasons of Dimension 20 set in the world of Spyre. Free videos are used where possible, and member-only videos used for the rest.
 
 ${D20_PLUG}
 """

@@ -3392,6 +3392,13 @@ videos:
 ---
 
 show: Bluey
+videos:
+- trailer: Extended Theme Song
+  public: JXOTmWl5t3A
+
+---
+
+show: Bluey
 season: Volume 1
 videos:
 - episode: The Magic Xylophone
@@ -3654,9 +3661,9 @@ videos:
   paid: 29cAOf5PiDo
 - episode: Curry Quest
   paid: Erp7Rmd59yk
-- special: Cinderella
+- special: Cinderella (Short)
   public: 4PHAHYCfnPE
-- special: K9 News
+- special: K9 News (Short)
   public: MSPx4PjlQno
 
 ---
@@ -3684,11 +3691,11 @@ videos:
   paid: XdiSfTWUic8
 - episode: Pavlova
   paid: '-t6rz9ywqZE'
-- special: Honk
+- special: Honk (Short)
   public: 6bOqlDvfWgY
-- special: Humpty Dumpty
+- special: Humpty Dumpty (Short)
   public: a_2kM0cOssc
-- special: Lollipop Song
+- special: Lollipop Song (Short)
   public: GOwb9qsztyc
 
 ---
@@ -3768,7 +3775,7 @@ show: Bluey
 videos:
 - episode: Ghostbasket
 - episode: The Sign
-- special: One Man Went To Mow
+- special: One Man Went To Mow (Short)
   public: FdvhEaV0xLw
 
 ---

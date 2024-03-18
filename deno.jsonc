@@ -5,17 +5,14 @@
     "./youtube": "./src/youtube.ts",
     "./scan": "./src/bin/scan.ts",
     "./aggregate": "./src/bin/aggregate.ts",
-    "./publish": "./src/bin/publish.ts",
-    "./scan-playlists": "./src/bin/scan-playlists.ts"
+    "./publish": "./src/bin/publish.ts"
   },
   "unstable": ["temporal"],
   "tasks": {
     "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/scan-playlists.ts && deno lint && deno fmt --check",
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
-    "scan-playlists": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan-playlists.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
-    "publish": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/publish.ts",
-    "diff-playlists": "git diff --no-index --color=always --word-diff --color-words data/actual-playlists.yaml data/playlists.yaml"
+    "publish": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/publish.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",

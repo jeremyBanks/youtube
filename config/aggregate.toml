@@ -1,10 +1,3 @@
-[PLObfuAmZm9pAtGx3ED2spFfabR30tKcSq]
-name = "Bluey (for Canadians)"
-show = "Bluey"
-description = """
-${HOURS}-hour playlist of episodes and shorts from Bluey. ${FREE} videos are free and ${PAID} can be purchased in Canada.
-"""
-
 [PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS]
 name = "Game Changer (${ALL_SEASONS})"
 show = "Game Changer"
@@ -366,4 +359,12 @@ show = "Critical Role"
 season = "Exandria Unlimited: Calamity"
 description = """
 ${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
+"""
+
+[PLObfuAmZm9pAtGx3ED2spFfabR30tKcSq]
+skip = true
+name = "Bluey (for Canadians)"
+show = "Bluey"
+description = """
+${HOURS}-hour playlist of episodes and shorts from Bluey. ${FREE} videos are free and ${PAID} can be purchased in Canada.
 """

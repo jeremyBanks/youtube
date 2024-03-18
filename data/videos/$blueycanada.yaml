@@ -5,6 +5,12 @@ title:        Omelette
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -15,6 +21,12 @@ title:        Sheepdog
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -25,6 +37,12 @@ title:        Unicorse
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -35,6 +53,12 @@ title:        Mini Bluey
 duration:     422
 likeCount:    6
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -45,6 +69,12 @@ title:        Housework
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -55,6 +85,12 @@ title:        Chest
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -65,6 +101,12 @@ title:        Curry Quest
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -75,6 +117,12 @@ title:        Born Yesterday
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -85,6 +133,12 @@ title:        Phones
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -95,6 +149,12 @@ title:        Promises
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -105,6 +165,12 @@ title:        Pavlova
 duration:     422
 likeCount:    5
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -115,6 +181,12 @@ title:        Obstacle Course
 duration:     422
 likeCount:    5
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -125,6 +197,12 @@ title:        Bedroom
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -135,6 +213,12 @@ title:        Perfect
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -145,6 +229,12 @@ title:        Pass the Parcel
 duration:     482
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -155,6 +245,12 @@ title:        Explorers
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -165,6 +261,12 @@ title:        Magic
 duration:     422
 likeCount:    7
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -175,6 +277,12 @@ title:        Seesaw
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -185,6 +293,12 @@ title:        Circus
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -195,6 +309,12 @@ title:        Sleepytime
 duration:     452
 likeCount:    6
 commentCount: 5
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -205,6 +325,12 @@ title:        Library
 duration:     422
 likeCount:    5
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -215,6 +341,12 @@ title:        Barky Boats
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -225,6 +357,12 @@ title:        Swim School
 duration:     422
 likeCount:    2
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -235,6 +373,12 @@ title:        Burger Shop
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -245,6 +389,12 @@ title:        Cafe
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -255,6 +405,12 @@ title:        Movies
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -265,6 +421,12 @@ title:        Tickle Crabs
 duration:     422
 likeCount:    7
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -275,6 +437,12 @@ title:        Queens
 duration:     422
 likeCount:    10
 commentCount: 3
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -285,6 +453,12 @@ title:        Escape
 duration:     422
 likeCount:    11
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -295,6 +469,12 @@ title:        The Show
 duration:     422
 likeCount:    12
 commentCount: 3
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -305,6 +485,12 @@ title:        Piggyback
 duration:     422
 likeCount:    10
 commentCount: 3
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -315,6 +501,12 @@ title:        Flatpack
 duration:     422
 likeCount:    8
 commentCount: 4
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -325,6 +517,12 @@ title:        Fancy Restaurant
 duration:     422
 likeCount:    16
 commentCount: 5
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -335,6 +533,12 @@ title:        Helicopter
 duration:     422
 likeCount:    9
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -345,6 +549,12 @@ title:        Bus
 duration:     422
 likeCount:    8
 commentCount: 4
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -355,6 +565,12 @@ title:        Bin Night
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -365,6 +581,12 @@ title:        Double Babysitter
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -375,6 +597,12 @@ title:        Mr Monkeyjocks
 duration:     422
 likeCount:    2
 commentCount: 2
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -385,6 +613,12 @@ title:        Postman
 duration:     422
 likeCount:    4
 commentCount: 2
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -395,6 +629,12 @@ title:        Duck Cake
 duration:     422
 likeCount:    5
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -405,6 +645,12 @@ title:        Octopus
 duration:     422
 likeCount:    3
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -415,6 +661,12 @@ title:        The Quiet Game
 duration:     422
 likeCount:    3
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -425,6 +677,12 @@ title:        Bad Mood
 duration:     422
 likeCount:    7
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -435,6 +693,12 @@ title:        Muffin Cone
 duration:     422
 likeCount:    4
 commentCount: 2
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -445,6 +709,12 @@ title:        Typewriter
 duration:     422
 likeCount:    0
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -455,6 +725,12 @@ title:        Ice Cream
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -465,6 +741,12 @@ title:        Dunny
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -475,6 +757,12 @@ title:        Easter
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -485,6 +773,12 @@ title:        Christmas Swim
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -495,6 +789,12 @@ title:        Grandad
 duration:     422
 likeCount:    1
 commentCount: 1
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -505,6 +805,12 @@ title:        Handstand
 duration:     422
 likeCount:    5
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -515,6 +821,12 @@ title:        Road Trip
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -525,6 +837,12 @@ title:        Baby Race
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -535,6 +853,12 @@ title:        Musical Statues
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -545,6 +869,12 @@ title:        Space
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -555,6 +885,12 @@ title:        Smoochy Kiss
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -565,6 +901,12 @@ title:        The Decider
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -575,6 +917,12 @@ title:        Tradies
 duration:     482
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -585,6 +933,12 @@ title:        Onesies
 duration:     422
 likeCount:    6
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -595,6 +949,12 @@ title:        Dirt
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -605,6 +965,12 @@ title:        Puppets
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -615,6 +981,12 @@ title:        Turtle Boy
 duration:     422
 likeCount:    1
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -625,6 +997,12 @@ title:        Stories
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -635,6 +1013,12 @@ title:        Granny Mobile
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -645,6 +1029,12 @@ title:        Cubby
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -655,6 +1045,12 @@ title:        Exercise
 duration:     373
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -665,6 +1061,12 @@ title:        Wild Girls
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -675,6 +1077,12 @@ title:        Slide
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -685,6 +1093,12 @@ title:        Cricket
 duration:     422
 likeCount:    4
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -695,6 +1109,12 @@ title:        TV Shop
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -705,6 +1125,12 @@ title:        Show and Tell
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -715,6 +1141,12 @@ title:        Relax
 duration:     422
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -725,6 +1157,12 @@ title:        Stickbird
 duration:     422
 likeCount:    2
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA
 
 ---
 
@@ -735,3 +1173,9 @@ title:        Dragon
 duration:     452
 likeCount:    0
 commentCount: 0
+regionsAllowed:
+
+- CA
+regionsBlocked:
+
+- CA

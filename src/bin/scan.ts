@@ -4,6 +4,7 @@ import { mapOptional, upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
+import { ConcatenatedJsonParseStream } from "@std/json";
 
 if (import.meta.main) {
   await main();
@@ -65,6 +66,10 @@ export async function main() {
         viewCount: mapOptional(video?.statistics?.viewCount, Number)!,
         likeCount: mapOptional(video?.statistics?.likeCount, Number)!,
         commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
+        regionsAllowed: video?.contentDetails?.regionRestriction?.allowed ??
+          undefined,
+        regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??
+          undefined,
       };
 
       if (record.publishedAt >= stopAt) {
@@ -96,6 +101,10 @@ export async function main() {
           viewCount: mapOptional(video?.statistics?.viewCount, Number)!,
           likeCount: mapOptional(video?.statistics?.likeCount, Number)!,
           commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
+          regionsAllowed: video?.contentDetails?.regionRestriction?.allowed ??
+            undefined,
+          regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??
+            undefined,
         };
 
         if (record.publishedAt >= stopAt) {

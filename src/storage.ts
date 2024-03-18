@@ -57,6 +57,10 @@ export const Video = z.object({
   viewCount: z.number().optional(),
   likeCount: z.number().optional(),
   commentCount: z.number().optional(),
+  /** Region codes where this video is allowed. If absent, it's allowed in all regions. */
+  regionsAllowed: z.string().array().optional(),
+  /** Region codes where this video is blocked. If absent, it's blocked in no regions. */
+  regionsBlocked: z.string().array().optional(),
 });
 export type Video = z.TypeOf<typeof Video>;
 

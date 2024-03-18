@@ -129,7 +129,6 @@ export const dump = async (
           schema: yaml.DEFAULT_SCHEMA,
           skipInvalid: true,
         })
-        .replaceAll("\n- ", "\n\n- ")
     )
     .join("\n---\n\n");
 

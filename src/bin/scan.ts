@@ -4,7 +4,6 @@ import { mapOptional, upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
-import { ConcatenatedJsonParseStream } from "@std/json";
 
 if (import.meta.main) {
   await main();

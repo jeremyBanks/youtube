@@ -362,7 +362,6 @@ ${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras from Exa
 """
 
 [PLObfuAmZm9pAtGx3ED2spFfabR30tKcSq]
-skip = true
 name = "Bluey (for Canadians)"
 show = "Bluey"
 description = """

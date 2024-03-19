@@ -1789,37 +1789,37 @@ videos:
 - episode: 501. Sam Says 2
   members: KMfHWKFC4os
   published: 2022-11-14
-- bts: Same Says 2 BTS
+- bts: Same Says 2
   members: yJeeU5KNT8s
   published: 2022-11-22
 - episode: 502. Karaoke Night
   members: qqB60y4WuS8
   published: 2022-11-28
-- bts: Karaoke Night BTS
+- bts: Karaoke Night
   members: gRCg9_dy0QA
   published: 2022-12-06
 - episode: 503. Like My Coffee 2
   members: _EIVhwqOmp4
   published: 2022-12-12
-- bts: Like My Coffee 2 BTS
+- bts: Like My Coffee 2
   members: Q8BwW-zRbqg
   published: 2022-12-20
 - episode: 504. Name a Number
   members: UUJWDZdyQZ0
   published: 2022-12-26
-- bts: Name a Number BTS
+- bts: Name a Number
   members: MpBPrHTCQbk
   published: 2023-01-03
 - episode: 505. A Game Most Changed
   members: WcepHeSHN2E
   published: 2023-01-09
-- bts: A Game Most Changed BTS
+- bts: A Game Most Changed
   members: c00FGuoK8qM
   published: 2023-01-17
 - episode: 506. As a Cucumber
   members: XDvF2KtG2W0
   published: 2023-01-23
-- bts: As A Cucumber BTS
+- bts: As A Cucumber
   members: TsQzmyqn0V8
   published: 2023-01-31
 - episode: "507. The Bachelor: Part 1"
@@ -1828,13 +1828,13 @@ videos:
 - episode: "508. The Bachelor: Part 2"
   members: uAgmB8Es_Tc
   published: 2023-02-20
-- bts: The Bachelor BTS
+- bts: The Bachelor
   members: RW_6guIh-Rw
   published: 2023-02-28
 - episode: 509. Escape the Greenroom
   members: 2boUvSEqGtA
   published: 2023-03-06
-- bts: Escape The Greenroom BTS
+- bts: Escape The Greenroom
   members: dCbmKCJV4L8
   published: 2023-03-13
 - trailer: "Game Changer: Battle Royale Trailer"
@@ -1867,18 +1867,21 @@ videos:
 - episode: 601. Second Place
   members: '-Quz2jtBnlA'
   published: 2024-02-12
-- bts: Second Place BTS
+- bts: Second Place
   members: 56nTZXaLXwA
   published: 2024-02-19
 - episode: 602. The Newlyweb Game
   members: RecHnhX9KNM
   published: 2024-02-26
-- bts: The Newlyweb Game BTS
+- bts: The Newlyweb Game
   members: iFuL6mRpTu4
   published: 2024-03-04
 - episode: 603. Sam Says 3
   members: wVqGhouh1v8
   published: 2024-03-11
+- bts: Sam Says 3
+  members: LBCtuKb1ZN4
+  published: 2024-03-18
 
 ---
 
@@ -3590,7 +3593,6 @@ videos:
 - episode: Mr Monkeyjocks
   paid: QEsGZHLcPsg
 - episode: Double Babysitter
-  public: di11R4LgJRg
   paid: Ulfo-22YIrI
 - episode: Bad Mood
   paid: f5I1zD7h4Kk
@@ -3855,6 +3857,11 @@ videos:
 - bts: Cool Ranch Communion
   members: QN85JKB0Cr8
   published: 2024-03-14
+- trailer: Fantasy High Junior Year Mid Season Recap
+  public: 3C9Ktjl4rwA
+  members: qmRyK1xrlI4
+  published: 2024-03-18
+
 - bts: with Emily Axford
   members: bqbxzQi1GZ0
   published: 2024-01-03
@@ -3882,6 +3889,7 @@ videos:
 - bts: Teenage Rebellion (Theme Song) Music Video
   public: D46t1vdcoSM
   published: 2024-01-10
+
 
 ---
 

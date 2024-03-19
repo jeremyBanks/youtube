@@ -51,6 +51,8 @@ export const Video = z.object({
   videoId: VideoId,
   channelId: ChannelId,
   publishedAt: DateTime,
+  /** The date at which this video was observed to have been removed. */
+  removedBefore: z.date().optional(),
   title: z.string().min(1),
   duration: z.number(),
   membersOnly: z.literal(true).optional(),
@@ -83,6 +85,8 @@ export const openVideoStorage = () =>
 export const Scan = z.object({
   /** the channel ID being scanned */
   channelId: ChannelId,
+  /** the channel handle being scanned */
+  channelHandle: z.string().optional(),
   /** the timestamp at which this scan initiated. assumed to uniquely identify this scan */
   scannedAt: z.date(),
   /** what is the minimum timestamp this scan included? undefined if it exhausted all videos. */

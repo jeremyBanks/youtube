@@ -15,10 +15,12 @@ export async function main() {
   const videos = await openVideoStorage();
 
   for (const config of await getScanConfig()) {
-    const { channelHandle } = config;
+    let { channelHandle } = config;
     console.info(`Scanning ${channelHandle}...`);
 
-    const { channelId } = await channelMetadata(channelHandle);
+    const { channelId, handle } = await channelMetadata(channelHandle);
+
+    channelHandle = handle ?? channelHandle;
 
     const lastScan = scans.find((scan) => scan.channelId === channelId);
     const lastCompleteScan = scans.find((scan) =>
@@ -46,6 +48,16 @@ export async function main() {
       continue;
     }
 
+    const deletedIds: Set<string> = new Set();
+    for (const video of videos) {
+      if (video.channelId === channelId && video.publishedAt >= stopAt) {
+        deletedIds.add(video.videoId);
+      }
+    }
+
+    // TODO: find all videos after stopAt, remove from set as we see them again,
+    // then mark as removedBefore the current scan date.
+
     const publicPlaylistId = `UU${channelId.slice(2)}`;
     let publicVideosExhaustive = true;
     for await (
@@ -70,6 +82,8 @@ export async function main() {
         regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??
           undefined,
       };
+
+      deletedIds.delete(record.videoId);
 
       if (record.publishedAt >= stopAt) {
         upsert(videos, record, (a, b) => a.videoId === b.videoId);
@@ -106,6 +120,8 @@ export async function main() {
             undefined,
         };
 
+        deletedIds.delete(record.videoId);
+
         if (record.publishedAt >= stopAt) {
           upsert(videos, record, (a, b) => a.videoId === b.videoId);
         } else {
@@ -123,8 +139,14 @@ export async function main() {
       }
     }
 
+    for (const videoId of deletedIds) {
+      videos.find((video) => video.videoId === videoId)!.removedBefore ??=
+        scannedAt;
+    }
+
     const scan: Scan = {
       channelId,
+      channelHandle,
       scannedAt,
       scannedTo: publicVideosExhaustive && membersVideosExhaustive
         ? null

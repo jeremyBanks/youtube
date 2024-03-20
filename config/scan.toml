@@ -62,10 +62,6 @@ complete-interval = "P128D"
 incremental-interval = "P16D"
 complete-interval = "P128D"
 
-[thewelltoldtale]
-incremental-interval = "P16D"
-complete-interval = "P128D"
-
 ["channel/UCbwnaOxVtqUWmeJsdKTlqfg"]
 incremental-interval = "P32D"
 complete-interval = "P32D"
@@ -74,34 +70,134 @@ complete-interval = "P32D"
 incremental-interval = "P32D"
 complete-interval = "P128D"
 
+[loadingreadyrun]
+incremental-interval = "P60D"
+complete-interval = "P260D"
+
 [characterswelcome]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P61D"
+complete-interval = "P261D"
+
+[dorkly]
+incremental-interval = "P62D"
+complete-interval = "P262D"
+
+[thewelltoldtale]
+incremental-interval = "P63D"
+complete-interval = "P263D"
+
+[drawfee]
+incremental-interval = "P64D"
+complete-interval = "P264D"
 
 [roll20app]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P65D"
+complete-interval = "P265D"
 
 [criticalrole]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P66D"
+complete-interval = "P266D"
 
 [siblingrivalrypodcast]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P67D"
+complete-interval = "P267D"
 
 [hankschannel]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P68D"
+complete-interval = "P268D"
 
 [rickastleyyt]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P69D"
+complete-interval = "P269D"
 
 [geekandsundry]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P70D"
+complete-interval = "P270D"
 
 [themcelroyfamily]
-incremental-interval = "P128D"
-complete-interval = "P256D"
+incremental-interval = "P71D"
+complete-interval = "P271D"
+
+[ryangeorge]
+incremental-interval = "P72D"
+complete-interval = "P272D"
+
+[joel-haver]
+incremental-interval = "P73D"
+complete-interval = "P273D"
+
+[genericallyentertaining]
+incremental-interval = "P74D"
+complete-interval = "P274D"
+
+[blumineck]
+incremental-interval = "P75D"
+complete-interval = "P275D"
+
+[briandavidgilbert]
+incremental-interval = "P76D"
+complete-interval = "P276D"
+
+[dndwizards]
+incremental-interval = "P77D"
+complete-interval = "P277D"
+
+[mancarryingthing]
+incremental-interval = "P78D"
+complete-interval = "P278D"
+
+[indeepgeek]
+incremental-interval = "P79D"
+complete-interval = "P279D"
+
+[highrollersdnd]
+incremental-interval = "P80D"
+complete-interval = "P280D"
+
+[arcanearcade]
+incremental-interval = "P81D"
+complete-interval = "P281D"
+
+[dndbeyond]
+incremental-interval = "P82D"
+complete-interval = "P282D"
+
+[dungeonsanddaddies]
+incremental-interval = "P83D"
+complete-interval = "P283D"
+
+[stinkydragonpod]
+incremental-interval = "P84D"
+complete-interval = "P284D"
+
+[pitchmeetings]
+incremental-interval = "P85D"
+complete-interval = "P285D"
+
+[pulpcomedy]
+incremental-interval = "P86D"
+complete-interval = "P286D"
+
+[julienolke]
+incremental-interval = "P87D"
+complete-interval = "P287D"
+
+[zacoyama]
+incremental-interval = "P88D"
+complete-interval = "P288D"
+
+[pitchmeetingshorts]
+incremental-interval = "P89D"
+complete-interval = "P289D"
+
+[ryangeorgeplus]
+incremental-interval = "P90D"
+complete-interval = "P290D"
+
+[idglive]
+incremental-interval = "P91D"
+complete-interval = "P291D"
+
+[acquisitionsincorporated]
+incremental-interval = "P92D"
+complete-interval = "P292D"

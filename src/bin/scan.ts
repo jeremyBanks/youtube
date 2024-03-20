@@ -16,7 +16,6 @@ export async function main() {
 
   for (const config of await getScanConfig()) {
     let { channelHandle } = config;
-    console.info(`Scanning ${channelHandle}...`);
 
     const { channelId, handle } = await channelMetadata(channelHandle);
 
@@ -36,17 +35,16 @@ export async function main() {
       (new Date(config.maxCompleteAge.epochMilliseconds) >
         lastCompleteScan.scannedAt)
     ) {
-      console.log("Performing complete scan.");
       stopAt = new Date("2000-01-01");
     } else if (
       new Date(config.maxIncrementalAge.epochMilliseconds) > lastScan!.scannedAt
     ) {
-      console.log("Performing incremental scan.");
       stopAt = lastScan.scannedAt;
     } else {
-      console.log("Skipping, scan not due.");
       continue;
     }
+
+    console.info(`Scanning ${channelHandle} back to ${stopAt}...`);
 
     const deletedIds: Set<string> = new Set();
     for (const video of videos) {

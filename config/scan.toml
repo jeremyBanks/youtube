@@ -62,7 +62,7 @@ complete-interval = "P128D"
 incremental-interval = "P16D"
 complete-interval = "P128D"
 
-["channel/UCbwnaOxVtqUWmeJsdKTlqfg"]
+["channel/ucbwnaoxvtquwmejsdktlqfg"]
 incremental-interval = "P32D"
 complete-interval = "P32D"
 
@@ -201,3 +201,7 @@ complete-interval = "P291D"
 [acquisitionsincorporated]
 incremental-interval = "P92D"
 complete-interval = "P292D"
+
+[legomastersfox]
+incremental-interval = "P93D"
+complete-interval = "P293D"

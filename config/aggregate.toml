@@ -13,7 +13,6 @@ ${HOURS}-hour playlist of all ${EPISODES} episodes and ${EXTRAS} extras (trailer
 """
 
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
-skip = true
 name = "Breaking News / No Laugh Newsroom (${ALL_SEASONS})"
 show = "Breaking News"
 description = """

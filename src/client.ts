@@ -236,7 +236,6 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
     });
   }
 
-  logDeep(result);
   const resultData = only(result.data.items!);
 
   const retrieved: Channel = {

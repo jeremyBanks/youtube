@@ -31,8 +31,8 @@ incremental-interval = "PT8H"
 complete-interval = "P64D"
 
 [blueyofficialchannel]
-incremental-interval = "P4D"
-complete-interval = "P128D"
+incremental-interval = "P1D"
+complete-interval = "P8D"
 
 [deepblueink]
 incremental-interval = "P4D"

@@ -62,7 +62,7 @@ complete-interval = "P128D"
 incremental-interval = "P16D"
 complete-interval = "P128D"
 
-["channel/ucbwnaoxvtquwmejsdktlqfg"]
+["$blueycanada"]
 incremental-interval = "P32D"
 complete-interval = "P32D"
 

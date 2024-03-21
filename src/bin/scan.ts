@@ -53,9 +53,6 @@ export async function main() {
       }
     }
 
-    // TODO: find all videos after stopAt, remove from set as we see them again,
-    // then mark as removedBefore the current scan date.
-
     const publicPlaylistId = `UU${channelId.slice(2)}`;
     let publicVideosExhaustive = true;
     for await (

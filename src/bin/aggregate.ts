@@ -163,15 +163,15 @@ async function main() {
       ).replaceAll(
         "${ALL_EPISODES}",
         extrasCount > 0
-          ? `All ${episodeCount} Episodes and ${extrasCount} Extras`
-          : `All ${episodeCount} Episodes`,
+          ? `${episodeCount} Episodes and ${extrasCount} Extras`
+          : `${episodeCount} Episodes`,
       ).replaceAll(
         "${ALL_SEASONS}",
         seasonCount > 1
-          ? `All ${seasonCount} Seasons`
+          ? `${seasonCount} Seasons`
           : extrasCount > 0
-          ? `All ${episodeCount} Episodes and ${extrasCount} Extras`
-          : `All ${episodeCount} Episodes`,
+          ? `${episodeCount} Episodes and ${extrasCount} Extras`
+          : `${episodeCount} Episodes`,
       )
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")

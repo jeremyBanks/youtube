@@ -1,6 +1,7 @@
 import { upsert } from "../common.ts";
 import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
 import { openPlaylistsStorage, openVideoStorage } from "../storage.ts";
+import { sortBy } from "@std/collections";
 
 if (import.meta.main) {
   await main();
@@ -33,6 +34,11 @@ async function main() {
     let paidCount = 0;
 
     for (const season of seasons) {
+      // ATTEMPTING THIS EXPOSES DATA ERRORS
+      // season.videos?.sort((left, right) => {
+      //   return (+(left?.published ?? 0) - +(right?.published ?? 0));
+      // });
+
       if (
         config.shows && !(season.show && config.shows.includes(season.show))
       ) {

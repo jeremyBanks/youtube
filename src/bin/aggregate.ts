@@ -35,9 +35,10 @@ async function main() {
 
     for (const season of seasons) {
       // ATTEMPTING THIS EXPOSES DATA ERRORS
-      // season.videos?.sort((left, right) => {
-      //   return (+(left?.published ?? 0) - +(right?.published ?? 0));
-      // });
+      // THis should be a separate script cleaning up seasons.yaml in-place, not here!
+      season.videos?.sort((left, right) => {
+        return (+(left?.published ?? 0) - +(right?.published ?? 0));
+      });
 
       if (
         config.shows && !(season.show && config.shows.includes(season.show))

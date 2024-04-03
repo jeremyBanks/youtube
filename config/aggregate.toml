@@ -48,6 +48,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLObfuAmZm9pC4WERMgeEPlWLuLXIidDjr]
+name = "Smartypants (${ALL_SEASONS})"
+show = "Smartypants"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Smartypants. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
 skip = false
 name = "Adventuring Academy (${ALL_SEASONS})"

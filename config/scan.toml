@@ -34,19 +34,15 @@ complete-interval = "P64D"
 incremental-interval = "P1D"
 complete-interval = "P8D"
 
+[rarran]
+incremental-interval = "P2D"
+complete-interval = "P32D"
+
+[covertgoblue]
+incremental-interval = "P2D"
+complete-interval = "P32D"
+
 [deepblueink]
-incremental-interval = "P4D"
-complete-interval = "P128D"
-
-[screenrantplus]
-incremental-interval = "P4D"
-complete-interval = "P128D"
-
-[geek_peek]
-incremental-interval = "P4D"
-complete-interval = "P128D"
-
-[thejordonbrown]
 incremental-interval = "P4D"
 complete-interval = "P128D"
 
@@ -68,6 +64,18 @@ complete-interval = "P32D"
 
 [naddpod]
 incremental-interval = "P32D"
+complete-interval = "P128D"
+
+[screenrantplus]
+incremental-interval = "P57D"
+complete-interval = "P128D"
+
+[geek_peek]
+incremental-interval = "P58D"
+complete-interval = "P128D"
+
+[thejordonbrown]
+incremental-interval = "P59D"
 complete-interval = "P128D"
 
 [loadingreadyrun]

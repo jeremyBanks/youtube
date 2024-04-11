@@ -9381,18 +9381,6 @@ regionsBlocked:
 
 ---
 
-videoId:       0Zs8CzowMsg
-channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
-publishedAt:   2024-04-10T11:33:31.000Z
-title:         "\U0001F534LIVE: Best Bluey Episodes from Series 3! | Unicorse, Mini Bluey, Pizza Girls, and More! | Bluey"
-duration:      0
-viewCount:     0
-likeCount:     76
-regionsBlocked:
-- AU
-
----
-
 videoId:       2tfLNxJwHKc
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-04-10T15:00:05.000Z
@@ -9400,5 +9388,17 @@ title:         "Bluey The Grannies Chalk Art \U0001F3A8 | Bluey #ytshorts"
 duration:      31
 viewCount:     1113
 likeCount:     225
+regionsBlocked:
+- AU
+
+---
+
+videoId:       0Zs8CzowMsg
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-04-11T15:53:46.000Z
+title:         "\U0001F534LIVE: Best Bluey Episodes from Series 3! | Unicorse, Mini Bluey, Pizza Girls, and More! | Bluey"
+duration:      2579
+viewCount:     56102
+likeCount:     776
 regionsBlocked:
 - AU

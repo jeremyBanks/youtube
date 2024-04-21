@@ -1,34 +1,34 @@
 [dropout]
 incremental-interval = "PT4M"
-complete-interval = "P16D"
+complete-interval = "P128D"
 
 [dimension20show]
 incremental-interval = "PT32M"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [dimension20shorts]
 incremental-interval = "PT32M"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [umactually]
 incremental-interval = "PT8H"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [gamechangershorts]
 incremental-interval = "PT8H"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [makesomenoisedo]
 incremental-interval = "PT8H"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [dirtylaundryshorts]
 incremental-interval = "PT8H"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [veryimportantpeopleshow]
 incremental-interval = "PT8H"
-complete-interval = "P64D"
+complete-interval = "P128D"
 
 [blueyofficialchannel]
 incremental-interval = "P1D"
@@ -36,11 +36,11 @@ complete-interval = "P8D"
 
 [rarran]
 incremental-interval = "P2D"
-complete-interval = "P32D"
+complete-interval = "P128D"
 
 [covertgoblue]
 incremental-interval = "P2D"
-complete-interval = "P32D"
+complete-interval = "P128D"
 
 [deepblueink]
 incremental-interval = "P4D"

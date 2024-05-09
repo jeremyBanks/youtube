@@ -1901,9 +1901,16 @@ videos:
 - bts: Bingo
   members: 8vevs12I8ao
   published: 2024-04-15
-- episode: 607. Deja Vu
-  members: IX5iZs1c5PM
+- episode: 606. Deja Vu
+  members: rIMUxP4UMic
+  members removed: IX5iZs1c5PM
   published: 2024-04-22
+- bts: Deja Vu
+  members: W3OaT0NRFgw
+  published: 2024-04-30
+- episode: 607. Beat the Buzzer
+  members: 0vmTPsTxcmw
+  published: 2024-05-06
 
 ---
 
@@ -3947,6 +3954,15 @@ videos:
 - bts: Honor the Cock
   members: O0gcUGsWT8w
   published: 2024-04-25
+- episode: 17. The Name
+  members: tN7yE6AfgQc
+  published: 2024-05-01
+- bts: Five Years in the Making
+  members: ijKApeu0CLc
+  published: 2024-05-02
+- episode: 18. Rock the Boat
+  members: htGXHSXtpgk
+  published: 2024-05-08
 
 - external: Zac Discusses Fantasy High Junior Year on Screen Rant Plus
   public: GVbFYlgMwaM
@@ -3976,6 +3992,9 @@ videos:
 - episode: 905. The Baby Bracket
   members: QNqP14bTKiU
   published: 2024-04-23
+- episode: 906. Yellowjackets, Metal Gear Solid, Castle in the Sky
+  members: MMktWbBo7MM
+  published: 2024-05-07
 
 ---
 
@@ -4054,6 +4073,9 @@ videos:
 - bts: "Pig #2"
   members: KxlqeZ3bwJg
   published: 2024-04-26
+- episode: 111. Martha Tops and Lucian Azathoth
+  members: QMPqrp_xID0
+  published: 2024-05-03
 
 ---
 
@@ -4069,6 +4091,9 @@ videos:
 - episode: 702. Have You Seen My Pa?
   members: FZ28rDpsWYA
   published: 2024-04-16
+- episode: 703. You Can Be Kinky and Play Basketball
+  members: C2zeS59PcEs
+  published: 2024-04-30
 
 ---
 
@@ -4081,3 +4106,22 @@ videos:
 - episode: 101. Birthdays, The Cookout, Vegetables
   members: daX5xvGexDw
   published: 2024-04-25
+
+---
+
+show: Thousandaires
+season: Season 1
+videos:
+- trailer: Thousandaires Trailer
+  public: 2CmuH045oo8
+  published: 2024-05-03
+
+
+---
+
+show: Dropout Presents
+season: Season 1
+videos:
+- trailer: Dropout Presents Trailer
+  public: ih6_YisTqas
+  published: 2024-05-08

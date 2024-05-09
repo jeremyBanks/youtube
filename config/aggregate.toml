@@ -55,6 +55,20 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Smartypants. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLObfuAmZm9pCDwDKLDD8-UBsNRXKEOFHu]
+name = "Thousandaires (${ALL_SEASONS})"
+show = "Thousandaires"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Thousandaires. ${MAYBE_MEMBERS_ONLY}
+"""
+
+[PLObfuAmZm9pDZr7wOZPq0eCDbOIyD1IU2]
+name = "Dropout Presents (${ALL_SEASONS})"
+show = "Dropout Presents"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Dropout Presents. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
 skip = false
 name = "Adventuring Academy (${ALL_SEASONS})"

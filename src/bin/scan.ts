@@ -69,9 +69,6 @@ export async function main() {
           video?.contentDetails?.duration,
           Temporal.Duration.from,
         )?.total("seconds")!,
-        viewCount: mapOptional(video?.statistics?.viewCount, Number)!,
-        likeCount: mapOptional(video?.statistics?.likeCount, Number)!,
-        commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
         regionsAllowed: video?.contentDetails?.regionRestriction?.allowed ??
           undefined,
         regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??
@@ -106,9 +103,6 @@ export async function main() {
             video?.contentDetails?.duration,
             Temporal.Duration.from,
           )?.total("seconds")!,
-          viewCount: mapOptional(video?.statistics?.viewCount, Number)!,
-          likeCount: mapOptional(video?.statistics?.likeCount, Number)!,
-          commentCount: mapOptional(video?.statistics?.commentCount, Number)!,
           regionsAllowed: video?.contentDetails?.regionRestriction?.allowed ??
             undefined,
           regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??

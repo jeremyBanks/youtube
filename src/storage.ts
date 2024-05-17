@@ -56,9 +56,6 @@ export const Video = z.object({
   title: z.string().min(1),
   duration: z.number(),
   membersOnly: z.literal(true).optional(),
-  viewCount: z.number().optional(),
-  likeCount: z.number().optional(),
-  commentCount: z.number().optional(),
   /** Region codes where this video is allowed. If absent, it's allowed in all regions. */
   regionsAllowed: z.string().array().optional(),
   /** Region codes where this video is blocked. If absent, it's blocked in no regions. */

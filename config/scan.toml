@@ -1,219 +1,219 @@
 [dropout]
 incremental-interval = "PT4M"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [dimension20show]
 incremental-interval = "PT32M"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [dimension20shorts]
 incremental-interval = "PT32M"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [umactually]
 incremental-interval = "PT8H"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [gamechangershorts]
 incremental-interval = "PT8H"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [makesomenoisedo]
 incremental-interval = "PT8H"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [dirtylaundryshorts]
 incremental-interval = "PT8H"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [veryimportantpeopleshow]
 incremental-interval = "PT8H"
-complete-interval = "P128D"
+complete-interval = "P32D"
 
 [blueyofficialchannel]
 incremental-interval = "P1D"
 complete-interval = "P8D"
 
 [rarran]
-incremental-interval = "P2000D"
-complete-interval = "P128000D"
+incremental-interval = "P20D"
+complete-interval = "P128D"
 
 [covertgoblue]
-incremental-interval = "P2000D"
-complete-interval = "P128000D"
+incremental-interval = "P20D"
+complete-interval = "P128D"
 
 [deepblueink]
-incremental-interval = "P4000D"
-complete-interval = "P128000D"
+incremental-interval = "P40D"
+complete-interval = "P128D"
 
 [worldsbeyondnumber]
-incremental-interval = "P12000D"
-complete-interval = "P128000D"
+incremental-interval = "P120D"
+complete-interval = "P128D"
 
 [samreich]
-incremental-interval = "P12000D"
-complete-interval = "P128000D"
+incremental-interval = "P120D"
+complete-interval = "P128D"
 
 [blueyfrancais]
-incremental-interval = "P16000D"
-complete-interval = "P128000D"
+incremental-interval = "P160D"
+complete-interval = "P128D"
 
 ["$blueycanada"]
-incremental-interval = "P32000D"
-complete-interval = "P32000D"
+incremental-interval = "P320D"
+complete-interval = "P320D"
 
 [naddpod]
-incremental-interval = "P32000D"
-complete-interval = "P128000D"
+incremental-interval = "P320D"
+complete-interval = "P128D"
 
 [screenrantplus]
-incremental-interval = "P57000D"
-complete-interval = "P128000D"
+incremental-interval = "P570D"
+complete-interval = "P128D"
 
 [geek_peek]
-incremental-interval = "P58000D"
-complete-interval = "P128000D"
+incremental-interval = "P580D"
+complete-interval = "P128D"
 
 [thejordonbrown]
-incremental-interval = "P59000D"
-complete-interval = "P128000D"
+incremental-interval = "P590D"
+complete-interval = "P128D"
 
 [loadingreadyrun]
-incremental-interval = "P60000D"
-complete-interval = "P260000D"
+incremental-interval = "P600D"
+complete-interval = "P2600D"
 
 [characterswelcome]
-incremental-interval = "P61000D"
-complete-interval = "P261000D"
+incremental-interval = "P610D"
+complete-interval = "P2610D"
 
 [dorkly]
-incremental-interval = "P62000D"
-complete-interval = "P262000D"
+incremental-interval = "P620D"
+complete-interval = "P2620D"
 
 [thewelltoldtale]
-incremental-interval = "P63000D"
-complete-interval = "P263000D"
+incremental-interval = "P630D"
+complete-interval = "P2630D"
 
 [drawfee]
-incremental-interval = "P64000D"
-complete-interval = "P264000D"
+incremental-interval = "P640D"
+complete-interval = "P2640D"
 
 [roll20app]
-incremental-interval = "P65000D"
-complete-interval = "P265000D"
+incremental-interval = "P650D"
+complete-interval = "P2650D"
 
 [criticalrole]
-incremental-interval = "P66000D"
-complete-interval = "P266000D"
+incremental-interval = "P660D"
+complete-interval = "P2660D"
 
 [siblingrivalrypodcast]
-incremental-interval = "P67000D"
-complete-interval = "P267000D"
+incremental-interval = "P670D"
+complete-interval = "P2670D"
 
 [hankschannel]
-incremental-interval = "P68000D"
-complete-interval = "P268000D"
+incremental-interval = "P680D"
+complete-interval = "P2680D"
 
 [rickastleyyt]
-incremental-interval = "P69000D"
-complete-interval = "P269000D"
+incremental-interval = "P690D"
+complete-interval = "P2690D"
 
 [geekandsundry]
-incremental-interval = "P70000D"
-complete-interval = "P270000D"
+incremental-interval = "P700D"
+complete-interval = "P2700D"
 
 [themcelroyfamily]
-incremental-interval = "P71000D"
-complete-interval = "P271000D"
+incremental-interval = "P710D"
+complete-interval = "P2710D"
 
 [ryangeorge]
-incremental-interval = "P72000D"
-complete-interval = "P272000D"
+incremental-interval = "P720D"
+complete-interval = "P2720D"
 
 [joel-haver]
-incremental-interval = "P73000D"
-complete-interval = "P273000D"
+incremental-interval = "P730D"
+complete-interval = "P2730D"
 
 [genericallyentertaining]
-incremental-interval = "P74000D"
-complete-interval = "P274000D"
+incremental-interval = "P740D"
+complete-interval = "P2740D"
 
 [blumineck]
-incremental-interval = "P75000D"
-complete-interval = "P275000D"
+incremental-interval = "P750D"
+complete-interval = "P2750D"
 
 [briandavidgilbert]
-incremental-interval = "P76000D"
-complete-interval = "P276000D"
+incremental-interval = "P760D"
+complete-interval = "P2760D"
 
 [dndwizards]
-incremental-interval = "P77000D"
-complete-interval = "P277000D"
+incremental-interval = "P770D"
+complete-interval = "P2770D"
 
 [mancarryingthing]
-incremental-interval = "P78000D"
-complete-interval = "P278000D"
+incremental-interval = "P780D"
+complete-interval = "P2780D"
 
 [indeepgeek]
-incremental-interval = "P79000D"
-complete-interval = "P279000D"
+incremental-interval = "P790D"
+complete-interval = "P2790D"
 
 [highrollersdnd]
-incremental-interval = "P80000D"
-complete-interval = "P280000D"
+incremental-interval = "P800D"
+complete-interval = "P2800D"
 
 [arcanearcade]
-incremental-interval = "P81000D"
-complete-interval = "P281000D"
+incremental-interval = "P810D"
+complete-interval = "P2810D"
 
 [dndbeyond]
-incremental-interval = "P82000D"
-complete-interval = "P282000D"
+incremental-interval = "P820D"
+complete-interval = "P2820D"
 
 [dungeonsanddaddies]
-incremental-interval = "P83000D"
-complete-interval = "P283000D"
+incremental-interval = "P830D"
+complete-interval = "P2830D"
 
 [stinkydragonpod]
-incremental-interval = "P84000D"
-complete-interval = "P284000D"
+incremental-interval = "P840D"
+complete-interval = "P2840D"
 
 [pitchmeetings]
-incremental-interval = "P85000D"
-complete-interval = "P285000D"
+incremental-interval = "P850D"
+complete-interval = "P2850D"
 
 [pulpcomedy]
-incremental-interval = "P86000D"
-complete-interval = "P286000D"
+incremental-interval = "P860D"
+complete-interval = "P2860D"
 
 [julienolke]
-incremental-interval = "P87000D"
-complete-interval = "P287000D"
+incremental-interval = "P870D"
+complete-interval = "P2870D"
 
 [zacoyama]
-incremental-interval = "P88000D"
-complete-interval = "P288000D"
+incremental-interval = "P880D"
+complete-interval = "P2880D"
 
 [pitchmeetingshorts]
-incremental-interval = "P89000D"
-complete-interval = "P289000D"
+incremental-interval = "P890D"
+complete-interval = "P2890D"
 
 [ryangeorgeplus]
-incremental-interval = "P90000D"
-complete-interval = "P290000D"
+incremental-interval = "P900D"
+complete-interval = "P2900D"
 
 [idglive]
-incremental-interval = "P91000D"
-complete-interval = "P291000D"
+incremental-interval = "P910D"
+complete-interval = "P2910D"
 
 [acquisitionsincorporated]
-incremental-interval = "P92000D"
-complete-interval = "P292000D"
+incremental-interval = "P920D"
+complete-interval = "P2920D"
 
 [legomastersfox]
-incremental-interval = "P93000D"
-complete-interval = "P293000D"
+incremental-interval = "P930D"
+complete-interval = "P2930D"
 
 [taylortomlinsoncomedy]
-incremental-interval = "P94000D"
-complete-interval = "P294000D"
+incremental-interval = "P940D"
+complete-interval = "P2940D"

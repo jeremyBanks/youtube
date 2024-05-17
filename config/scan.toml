@@ -30,6 +30,10 @@ complete-interval = "P32D"
 incremental-interval = "PT8H"
 complete-interval = "P32D"
 
+[smartypantsdropout]
+incremental-interval = "PT8H"
+complete-interval = "P32D"
+
 [blueyofficialchannel]
 incremental-interval = "P1D"
 complete-interval = "P8D"

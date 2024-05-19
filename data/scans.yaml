@@ -763,6 +763,13 @@ scannedTo:     null
 
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 channelHandle: dropout
+scannedAt:     2024-05-17T21:39:26.478Z
+scannedTo:     2024-05-17T21:26:20.145Z
+
+---
+
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+channelHandle: dropout
 scannedAt:     2024-05-17T21:26:20.145Z
 scannedTo:     2024-05-17T21:22:06.152Z
 
@@ -2528,6 +2535,13 @@ scannedTo:     null
 channelId:     UCoal_hpPIPAnWlG-kWHLheA
 channelHandle: drawfee
 scannedAt:     2024-03-20T04:12:02.310Z
+scannedTo:     null
+
+---
+
+channelId:     UCpIUcvK7fZMbhFOU13AtVqQ
+channelHandle: smartypantsdropout
+scannedAt:     2024-05-17T21:39:28.536Z
 scannedTo:     null
 
 ---

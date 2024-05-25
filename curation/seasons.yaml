@@ -3969,12 +3969,18 @@ videos:
 - bts: Blimey
   members: anvwpUpHNN4
   published: 2024-05-09
-- episode: Ragenarok (Part 1)
+- episode: 19. Ragenarok (Part 1)
   members: 29lnaIZg1k4
   published: 2024-05-15
 - bts: Only Cowgirls Get the Blues
   members: 9Yz3j_489F8
   published: 2024-05-16
+- episode: 20. Ragenarok (Part 2)
+  members: 2h7UiPED-vQ
+  published: 2024-05-22
+- bts: Gotta Wrap It Up
+  members: jynHrNfc478
+  published: 2024-05-23
 
 - external: Zac Discusses Fantasy High Junior Year on Screen Rant Plus
   public: GVbFYlgMwaM
@@ -3990,7 +3996,8 @@ videos:
   public copy: jRB-Kz3TAZc
   published: 2024-02-06
 - episode: 901. Curse of Strahd, The Holocron, Blaseball
-  members: 2wUtKlpg1r0
+  members: QZ3ofVGpw_c
+  deleted members: 2wUtKlpg1r0
   published: 2024-02-28
 - episode: 902. Pan-Galactic Gargle Blaster, Bubbling Bobbs, Blue Milk
   members: FNJixsC962g
@@ -4007,6 +4014,9 @@ videos:
 - episode: 906. Yellowjackets, Metal Gear Solid, Castle in the Sky
   members: MMktWbBo7MM
   published: 2024-05-07
+- episode: 907. Preschool Television Volume 2
+  members: yBqmvsIilnI
+  published: 2024-05-21
 
 ---
 
@@ -4095,8 +4105,8 @@ videos:
   members: W9z51A9YTNk
   published: 2024-05-17
 - bts: Augbert
-  members: 
-  published: 
+  members: 6PpoS9nzWJk
+  published: 2024-05-24
 
 ---
 
@@ -4133,6 +4143,9 @@ videos:
 - episode: 102. Wrestling & Drag, Cryptids, Eggs
   members: Od6DQ9x7pqg
   published: 2024-05-09
+- episode: 103. Swing Music, Emails, The Moon
+  members: P9ok2GoB7mU
+  published: 2024-05-24
 
 ---
 
@@ -4152,3 +4165,12 @@ videos:
 - trailer: Dropout Presents Trailer
   public: ih6_YisTqas
   published: 2024-05-08
+
+---
+
+show: Make Some Noise
+season: Season 3
+videos:
+- trailer: Make Some Noise Season 3
+  public: yMFzjVP17RQ
+  published: 2024-05-20

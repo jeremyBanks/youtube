@@ -1918,7 +1918,7 @@ videos:
 ---
 
 show: Make Some Noise
-season: Season 1
+season: Season 0
 videos:
 - episode: 001. Make Some Noise on Game Changer
   public: V-6m0jW0X9E
@@ -3997,7 +3997,7 @@ videos:
   published: 2024-02-06
 - episode: 901. Curse of Strahd, The Holocron, Blaseball
   members: QZ3ofVGpw_c
-  deleted members: 2wUtKlpg1r0
+  removed members: 2wUtKlpg1r0
   published: 2024-02-28
 - episode: 902. Pan-Galactic Gargle Blaster, Bubbling Bobbs, Blue Milk
   members: FNJixsC962g

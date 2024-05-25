@@ -8257,16 +8257,6 @@ regionsBlocked:
 
 ---
 
-videoId:       19ju0PsExC0
-channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
-publishedAt:   2024-05-17T10:13:57.000Z
-title:         "\U0001F534LIVE: Exciting Family Fun! \U0001F929 \U0001F499 | 8 HOURS | Bluey and Bingo Playtime | Bluey"
-duration:      0
-regionsBlocked:
-- AU
-
----
-
 videoId:       SlkcO5Du69k
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-17T10:22:43.000Z
@@ -8301,6 +8291,26 @@ videoId:       vGTinHEEAU4
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-17T17:00:30.000Z
 title:         "\U0001F534LIVE: Bluey Surprising Moments! \U0001F499 | 8 HOURS | Bluey and Bingo Playtime | Bluey"
+duration:      0
+regionsBlocked:
+- AU
+
+---
+
+videoId:       0wiZ8gqhZLo
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-05-18T15:00:02.000Z
+title:         Backyard Games with Bluey ⭐️ | Bluey and Bingo Outdoor Fun | Bluey
+duration:      837
+regionsBlocked:
+- AU
+
+---
+
+videoId:       19ju0PsExC0
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-05-18T17:00:38.000Z
+title:         "\U0001F534LIVE: Exciting Family Fun! \U0001F929 \U0001F499 | 8 HOURS | Bluey and Bingo Playtime | Bluey"
 duration:      0
 regionsBlocked:
 - AU

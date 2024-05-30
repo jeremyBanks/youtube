@@ -39,11 +39,11 @@ incremental-interval = "P1D"
 complete-interval = "P8D"
 
 [rarran]
-incremental-interval = "P20D"
+incremental-interval = "P2D"
 complete-interval = "P128D"
 
 [covertgoblue]
-incremental-interval = "P20D"
+incremental-interval = "P2D"
 complete-interval = "P128D"
 
 [deepblueink]

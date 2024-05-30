@@ -8250,6 +8250,7 @@ regionsBlocked:
 videoId:       Fqfl2jV6Ibk
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-17T10:00:00.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: It's Bingo Time! \U0001F9E1 |  7 HOURS+ | Fun with Bingo and Bluey | Bluey"
 duration:      0
 regionsBlocked:
@@ -8260,6 +8261,7 @@ regionsBlocked:
 videoId:       SlkcO5Du69k
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-17T10:22:43.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Silly Fun with Bingo! \U0001F9E1 |  7 HOURS+ | Playtime with Bingo | Bluey"
 duration:      0
 regionsBlocked:
@@ -8270,6 +8272,7 @@ regionsBlocked:
 videoId:       Vlll10bMrdQ
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-17T10:28:46.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Amazing Games with Bluey! \U0001F62E | 8 HOURS | Fun and Games with Bluey and Bingo | Bluey"
 duration:      0
 regionsBlocked:
@@ -8290,6 +8293,7 @@ regionsBlocked:
 videoId:       vGTinHEEAU4
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-17T17:00:30.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Bluey Surprising Moments! \U0001F499 | 8 HOURS | Bluey and Bingo Playtime | Bluey"
 duration:      0
 regionsBlocked:
@@ -8310,6 +8314,7 @@ regionsBlocked:
 videoId:       19ju0PsExC0
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-18T17:00:38.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Exciting Family Fun! \U0001F929 \U0001F499 | 8 HOURS | Bluey and Bingo Playtime | Bluey"
 duration:      0
 regionsBlocked:
@@ -8370,6 +8375,7 @@ regionsBlocked:
 videoId:       Noo8NCHcfB0
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-24T08:51:22.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Funny Mum and Dad Moments \U0001F606 | 8 HOURS | Best of Bandit and Chilli | Bluey"
 duration:      0
 regionsBlocked:
@@ -8380,6 +8386,7 @@ regionsBlocked:
 videoId:       Fpt00LXI40I
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-24T08:58:22.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Dance with Bluey \U0001F499 \U0001F3B6 | 8 HOURS | Time to Dance with Bluey and Bingo | Bluey"
 duration:      0
 regionsBlocked:
@@ -8390,6 +8397,7 @@ regionsBlocked:
 videoId:       CyRcHiTDsJY
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-24T09:05:41.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Games to Play with Mum and Dad ✨\U0001F499 | 8 HOURS | Best Bandit and Chilli Moments | Bluey"
 duration:      0
 regionsBlocked:
@@ -8400,6 +8408,7 @@ regionsBlocked:
 videoId:       ZQ-Hkssky0E
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-24T09:11:37.000Z
+removedBefore: 2024-05-30T21:57:48.862Z
 title:         "\U0001F534LIVE: Boogie with Bingo and Bluey! \U0001F499 \U0001F3B6 | 8 HOURS | Dance with Bluey | Bluey"
 duration:      0
 regionsBlocked:
@@ -8417,10 +8426,40 @@ regionsBlocked:
 
 ---
 
+videoId:       dGmcHDfu8bg
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-05-26T15:00:21.000Z
+title:         "Cost n' Mayor Bluey Dance in the Heeler House! \U0001F499\U0001F9E1 | Bluey  #ytshorts"
+duration:      31
+regionsBlocked:
+- AU
+
+---
+
 videoId:       Ibo0DGcgo0w
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
-publishedAt:   2024-05-24T15:48:59.000Z
+publishedAt:   2024-05-27T15:54:31.000Z
 title:         "\U0001F534LIVE: Friendship Moments | Best of Winton, Jean-Luc, and More!"
-duration:      0
+duration:      2366
+regionsBlocked:
+- AU
+
+---
+
+videoId:       ystHXFlaUTw
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-05-28T15:00:50.000Z
+title:         "Jetpack Bingo Saves the Day! \U0001F680 | Season 2 Highlight - Favourite Thing | Bluey"
+duration:      123
+regionsBlocked:
+- AU
+
+---
+
+videoId:       zN4QsgBTPVU
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-05-30T17:41:38.000Z
+title:         "\U0001F534LIVE: Cutest Bluey and Bingo Moments \U0001F499\U0001F9E1 | 1 HOUR of Playtime | Bluey"
+duration:      4453
 regionsBlocked:
 - AU

@@ -337,6 +337,17 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
+[PLObfuAmZm9pBjNu14Cp6kX1E0JmUHmoaS]
+name = "Dimension 20: Never Stop Blowing Up (${ALL_SEASONS})"
+show = "Dimension 20"
+season = "Never Stop Blowing Up"
+type = ["episode", "special", "bts", "trailer", "external"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Never Stop Blowing Up, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
 [PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb]
 name = "Dimension 20: Intrepid Heroes (${ALL_SEASONS})"
 show = "Dimension 20"

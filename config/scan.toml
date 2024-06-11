@@ -1,6 +1,6 @@
 [dropout]
 incremental-interval = "PT4M"
-complete-interval = "P32D"
+complete-interval = "P7D"
 
 [dimension20show]
 incremental-interval = "PT32M"

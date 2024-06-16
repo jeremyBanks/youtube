@@ -3965,6 +3965,8 @@ channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2023-02-13T16:00:11.000Z
 title:         Let's Make Chilli Cookies | Baking with Bluey | Bluey
 duration:      83
+regionsBlocked:
+- AU
 
 ---
 
@@ -7909,6 +7911,8 @@ channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-04-13T07:00:21.000Z
 title:         "Previously on Bluey... \U0001F98B | The Sign | Bluey"
 duration:      119
+regionsBlocked:
+- AU
 
 ---
 
@@ -8529,6 +8533,7 @@ regionsBlocked:
 videoId:       rUSkpzgTGwI
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-07T10:13:25.000Z
+removedBefore: 2024-06-16T00:50:44.623Z
 title:         "\U0001F534LIVE: Families Who Play Together Stay Together \U0001F499\U0001F9E1 | Best Bluey Family Moments | Bluey"
 duration:      0
 regionsBlocked:
@@ -8539,6 +8544,7 @@ regionsBlocked:
 videoId:       8lKgpJ-_tWs
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-07T10:18:10.000Z
+removedBefore: 2024-06-16T00:50:44.623Z
 title:         "\U0001F534LIVE: It's Time to Activate Dance Mode! \U0001F499\U0001F3B6 | Bluey Music Moments | 8 HOURS | Bluey"
 duration:      0
 regionsBlocked:
@@ -8549,6 +8555,7 @@ regionsBlocked:
 videoId:       rBLflCOvT60
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-07T10:23:16.000Z
+removedBefore: 2024-06-16T00:50:44.623Z
 title:         "\U0001F534LIVE: ESCAPE from the Kiddos! \U0001F965 | Best of Bandit and Chilli | 8 HOURS | Bluey"
 duration:      0
 regionsBlocked:
@@ -8559,6 +8566,7 @@ regionsBlocked:
 videoId:       K-WHLvvgQso
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-07T10:32:16.000Z
+removedBefore: 2024-06-16T00:50:44.623Z
 title:         "\U0001F534LIVE: Play Musical Statues with the Heelers \U0001FAA9 | Bluey Dance Compilation | Bluey"
 duration:      0
 regionsBlocked:
@@ -8579,6 +8587,7 @@ regionsBlocked:
 videoId:       UPj4OtNfWPo
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-07T17:01:19.000Z
+removedBefore: 2024-06-16T00:50:44.623Z
 title:         "\U0001F534LIVE: Jump and Play with Bluey! \U0001F499\U0001F3B6 | 8 HOURS | Bluey"
 duration:      0
 regionsBlocked:
@@ -8611,5 +8620,65 @@ channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-10T18:00:07.000Z
 title:         "Bluey Meets The Simpsons \U0001F499 | Bluey"
 duration:      56
+regionsBlocked:
+- AU
+
+---
+
+videoId:       09ViluCHOt4
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-11T15:00:00.000Z
+title:         "Bingo Learns to Play By Herself \U0001FAD0 | Season 2 Highlight - Bingo | Bluey"
+duration:      125
+regionsBlocked:
+- AU
+
+---
+
+videoId:       L-7xY2EYgD4
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-13T15:42:11.000Z
+title:         "\U0001F534LIVE: Road Trip Games with Bluey, Bingo, Winton and more! \U0001F6E3️ \U0001F697 | 30+ Minutes |  Bluey"
+duration:      2252
+regionsBlocked:
+- AU
+
+---
+
+videoId:       sdr8sUoSZN0
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-14T09:21:31.000Z
+title:         "\U0001F534LIVE: Best Moments with Bluey's Friends \U0001F499 | 8 HOURS | Games with Friends | Bluey"
+duration:      0
+regionsBlocked:
+- AU
+
+---
+
+videoId:       IWGrORxFWkQ
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-14T09:32:46.000Z
+title:         "\U0001F534LIVE: Travel Adventure with Bluey \U0001F30D ✨ | 8 HOURS | Vacation Games with Bluey and Bingo | Bluey"
+duration:      0
+regionsBlocked:
+- AU
+
+---
+
+videoId:       7IVPXdSR-Tc
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-14T15:00:06.000Z
+title:         "Daddy Putdown \U0001F4A4 Read by Rob Delaney | Bluey Book Reads | Bluey"
+duration:      350
+regionsBlocked:
+- AU
+
+---
+
+videoId:       gr_4LAJ08Ag
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-15T15:00:40.000Z
+title:         "Travel Adventures \U0001F60E ☀️ | Vacation Games with Bluey and Bingo | Bluey"
+duration:      723
 regionsBlocked:
 - AU

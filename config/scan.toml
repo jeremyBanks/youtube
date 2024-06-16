@@ -30,6 +30,14 @@ complete-interval = "P32D"
 incremental-interval = "PT8H"
 complete-interval = "P32D"
 
+[thousandairesdo]
+incremental-interval = "PT8H"
+complete-interval = "P32D"
+
+[DropoutPresents]
+incremental-interval = "PT8H"
+complete-interval = "P32D"
+
 [smartypantsdropout]
 incremental-interval = "PT8H"
 complete-interval = "P32D"

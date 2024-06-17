@@ -34,7 +34,7 @@ complete-interval = "P32D"
 incremental-interval = "PT8H"
 complete-interval = "P32D"
 
-[DropoutPresents]
+[dropoutpresents]
 incremental-interval = "PT8H"
 complete-interval = "P32D"
 

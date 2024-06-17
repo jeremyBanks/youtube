@@ -70,7 +70,6 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Dropo
 """
 
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
-skip = true
 name = "Adventuring Academy (${ALL_SEASONS})"
 show = "Adventuring Academy"
 description = """

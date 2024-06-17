@@ -4207,7 +4207,7 @@ videos:
 - trailer: Dropout Presents Trailer
   public: ih6_YisTqas
   published: 2024-05-08
-- trailer: Get Your Act Together with Hank Green Trailer
+- bts: Get Your Act Together with Hank Green Trailer
   members: OsMisAQ74Q0
   public: yZHqx2UuQOo
   published: 2024-06-12
@@ -4229,3 +4229,12 @@ videos:
 - trailer: "Dimension 20: Never Stop Blowing Up Trailer"
   public: xYeXpbHnGEM
   published: 2024-06-05
+
+---
+
+show: Adventuring Academy
+season: Season 5
+videos:
+- trailer: Adventuring Academy Season 5 Teaser
+  public: iCKfN_gEcuI
+  published: 2024-06-17

@@ -7484,6 +7484,7 @@ duration:      101
 videoId:       H2ecihqk4kQ
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2011-04-27T15:45:41.000Z
+removedBefore: 2024-06-20T23:48:18.493Z
 title:         We Ruin Your Bar (Ke$ha Parody)
 duration:      148
 
@@ -32972,7 +32973,7 @@ videoId:       2ptobkLeBEc
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2021-12-01T23:32:03.000Z
 title:         '1984, Hunter x Hunter, Supernatural | Um, Actually Season 5 | Ep. 22'
-duration:      2154
+duration:      2155
 membersOnly:   true
 
 ---
@@ -38757,4 +38758,39 @@ channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2024-06-14T23:00:35.000Z
 title:         'Be Humble, Keep It Vague, and Repeat | Thousandaires Season 1 | Ep. 2'
 duration:      1989
+membersOnly:   true
+
+---
+
+videoId:       4u78DVLEnvw
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-06-17T23:00:25.000Z
+title:         Ratfish (Part 2) | Game Changer Season 6 | Ep. 9
+duration:      2574
+membersOnly:   true
+
+---
+
+videoId:       7G4m4WYhbAI
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-06-18T23:00:39.000Z
+title:         'Boo, Actually! | Um, Actually Season 9 | Ep. 9'
+duration:      1696
+membersOnly:   true
+
+---
+
+videoId:       vQogc3HWU6E
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-06-19T17:30:06.000Z
+title:         'We Spent $1,000 on a 5-Person Dress | Thousandaires [Dropout Exclusive]'
+duration:      294
+
+---
+
+videoId:       fXW9cmwRyls
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-06-20T23:00:40.000Z
+title:         'Groundhog Day, WNBA, The Ocean | Smartypants Season 1 | Ep. 5'
+duration:      2012
 membersOnly:   true

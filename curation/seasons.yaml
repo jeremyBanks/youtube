@@ -1906,7 +1906,8 @@ videos:
   members deleted: IX5iZs1c5PM
   published: 2024-04-22
 - bts: Deja Vu
-  members: W3OaT0NRFgw
+  members: jWZE2tXcCiM
+  members deleted: W3OaT0NRFgw
   published: 2024-04-30
 - episode: 607. Beat the Buzzer
   members: 0vmTPsTxcmw
@@ -4207,7 +4208,6 @@ videos:
   members: jYUFitWy0n0
   published: 2024-06-14
 
-
 ---
 
 show: Dropout Presents
@@ -4216,10 +4216,13 @@ videos:
 - trailer: Dropout Presents Trailer
   public: ih6_YisTqas
   published: 2024-05-08
-- bts: Get Your Act Together with Hank Green Trailer
+- trailer: Get Your Act Together with Hank Green
   members: OsMisAQ74Q0
   public: yZHqx2UuQOo
   published: 2024-06-12
+- episode: "Hank Green: Pissing Out Cancer"
+  members: 0RKtX6u4DnM
+  published: 2024-06-21
 
 ---
 

@@ -8745,20 +8745,30 @@ regionsBlocked:
 
 ---
 
-videoId:       k8dmsOTe5aE
-channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
-publishedAt:   2024-06-21T10:28:48.000Z
-title:         "\U0001F534LIVE: Cutest Bluey and Bingo Moments \U0001F499\U0001F9E1 | Bluey and Bingo Playtime | Bluey"
-duration:      0
-regionsBlocked:
-- AU
-
----
-
 videoId:       SFD56WnYi5A
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-21T15:00:33.000Z
 title:         "Road Trip Moments \U0001F697 \U0001F4A8 | Travel Fun with Bluey and Bingo | Bluey"
 duration:      899
+regionsBlocked:
+- AU
+
+---
+
+videoId:       SOU_qZwOUHM
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-23T13:00:31.000Z
+title:         "Bluey Bobo Cookie \U0001F697 Biscuit Decorating \U0001F36A | Bluey  #ytshorts"
+duration:      32
+regionsBlocked:
+- AU
+
+---
+
+videoId:       k8dmsOTe5aE
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-23T17:00:25.000Z
+title:         "\U0001F534LIVE: Cutest Bluey and Bingo Moments \U0001F499\U0001F9E1 | Bluey and Bingo Playtime | Bluey"
+duration:      0
 regionsBlocked:
 - AU

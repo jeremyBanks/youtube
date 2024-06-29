@@ -69,6 +69,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Dropout Presents. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLObfuAmZm9pArudk1FiNVZhEE9iNiUJny]
+name = "Monét's Slumber Party (${ALL_SEASONS})"
+show = "Monét's Slumber Party"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Monét's Slumber Party. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
 name = "Adventuring Academy (${ALL_SEASONS})"
 show = "Adventuring Academy"

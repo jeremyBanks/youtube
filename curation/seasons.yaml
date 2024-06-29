@@ -4171,6 +4171,9 @@ videos:
 - episode: 706. Queen Elizabeth Get Outta Here It's Snowing You Old Hag
   members: O8H0cLU4uyY
   published: 2024-06-11
+- episode: 707. Sam Reich Launches Burning Sam
+  members: 2a9fowAxGRE
+  published: 2024-06-26
 
 ---
 
@@ -4211,6 +4214,9 @@ videos:
 - episode: 102. Be Humble, Keep It Vague, and Repeat
   members: jYUFitWy0n0
   published: 2024-06-14
+- episode: 103. In This House We Love Mushrooms and Dumpers
+  members: gMzyRrbt9MA
+  published: 2024-06-29
 
 ---
 
@@ -4225,7 +4231,7 @@ videos:
   public: yZHqx2UuQOo
   published: 2024-06-12
 - episode: "Hank Green: Pissing Out Cancer"
-  members: 0RKtX6u4DnM
+  members: "0RKtX6u4DnM"
   published: 2024-06-21
 
 ---
@@ -4248,6 +4254,12 @@ videos:
 - trailer: "Dimension 20: Never Stop Blowing Up Trailer"
   public: xYeXpbHnGEM
   published: 2024-06-05
+- episode: 1. Be Kind, Rewind
+  members: gJ5sa-O5dJk
+  published: 2024-06-26
+- bts: Yoshi Thicc
+  members: LeFTX8n_SzA
+  published: 2024-06-27
 
 ---
 
@@ -4257,3 +4269,20 @@ videos:
 - trailer: Adventuring Academy Season 5 Teaser
   public: iCKfN_gEcuI
   published: 2024-06-17
+
+---
+
+show: Adventuring Academy
+season: Season 5
+videos:
+- trailer: Adventuring Academy Season 5 Teaser
+  public: iCKfN_gEcuI
+  published: 2024-06-17
+
+---
+
+show: Monets Slumber Party
+videos:
+- trailer: 'Monét''s Slumber Party Trailer'
+  public: gMzyRrbt9MA
+  published: 2024-06-29

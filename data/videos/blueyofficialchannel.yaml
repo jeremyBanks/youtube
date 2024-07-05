@@ -8814,6 +8814,7 @@ regionsBlocked:
 videoId:       _SjzyNUaSHc
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-28T09:50:09.000Z
+removedBefore: 2024-07-05T03:37:56.284Z
 title:         "\U0001F534LIVE: Bluey's Springtime Adventures! \U0001F338 \U0001F499 | Outdoor Games | Bluey"
 duration:      0
 regionsBlocked:
@@ -8824,6 +8825,7 @@ regionsBlocked:
 videoId:       6Mim1vVK4fY
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-28T10:00:54.000Z
+removedBefore: 2024-07-05T03:37:56.284Z
 title:         "\U0001F534LIVE: Surprising Moments! \U0001F3BE | Learn to Have Fun with Bluey and Bingo | Bluey"
 duration:      0
 regionsBlocked:
@@ -8834,6 +8836,7 @@ regionsBlocked:
 videoId:       k3t0eJVZhLE
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-28T10:10:54.000Z
+removedBefore: 2024-07-05T03:37:56.284Z
 title:         "\U0001F534LIVE: Let's Go on a Bingo Adventure! ✨ \U0001F9E1  | Learn About the World with Bingo | Bluey"
 duration:      0
 regionsBlocked:
@@ -8844,6 +8847,7 @@ regionsBlocked:
 videoId:       w0EGFvB4evs
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-28T10:17:54.000Z
+removedBefore: 2024-07-05T03:37:56.284Z
 title:         "\U0001F534LIVE: Bluey's Funniest Moments \U0001F606 | Laugh with Bluey and Bingo | Bluey"
 duration:      0
 regionsBlocked:
@@ -8856,5 +8860,55 @@ channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-06-28T15:00:16.000Z
 title:         "Big Bluey Journey \U0001F499 ✨ | Exploring the World with the Heelers | Bluey"
 duration:      785
+regionsBlocked:
+- AU
+
+---
+
+videoId:       ZxQt963wctw
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-06-30T13:00:38.000Z
+title:         "Bluey Theme on Toy Instruments \U0001F941\U0001F3B7 | Bluey  #ytshorts"
+duration:      28
+regionsBlocked:
+- AU
+
+---
+
+videoId:       dAlBTRwfHUM
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-01T16:14:41.000Z
+title:         "\U0001F534LIVE: Summer Fun! \U0001F60E | Fun in the Sun with Bluey and Bingo | Bluey"
+duration:      3523
+regionsBlocked:
+- AU
+
+---
+
+videoId:       nQV-C0q0yLk
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-02T15:00:53.000Z
+title:         "Bandit Escapes the Ticklecrabs \U0001F917 \U0001F980 | Season 2 Highlight - Ticklecrabs | Bluey"
+duration:      125
+regionsBlocked:
+- AU
+
+---
+
+videoId:       vhXLcM9fIM8
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-03T15:01:02.000Z
+title:         "Bluey Book Reads: Series 1 \U0001F4DA | 1 HOUR of Bedtime Stories Read by Celebs! | Bluey"
+duration:      3305
+regionsBlocked:
+- AU
+
+---
+
+videoId:       HnbEI-SJjDY
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-04T16:02:35.000Z
+title:         "\U0001F534LIVE: Holiday with Friends | Best of Bluey's Friends! | Bluey"
+duration:      3088
 regionsBlocked:
 - AU

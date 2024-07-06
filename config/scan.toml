@@ -42,10 +42,6 @@ complete-interval = "P32D"
 incremental-interval = "PT8H"
 complete-interval = "P32D"
 
-[blueyofficialchannel]
-incremental-interval = "P1D"
-complete-interval = "P8D"
-
 [rarran]
 incremental-interval = "P2D"
 complete-interval = "P128D"
@@ -53,6 +49,10 @@ complete-interval = "P128D"
 [covertgoblue]
 incremental-interval = "P2D"
 complete-interval = "P128D"
+
+[blueyofficialchannel]
+incremental-interval = "P32D"
+complete-interval = "P8D"
 
 [deepblueink]
 incremental-interval = "P40D"
@@ -138,22 +138,6 @@ complete-interval = "P2700D"
 incremental-interval = "P710D"
 complete-interval = "P2710D"
 
-[ryangeorge]
-incremental-interval = "P720D"
-complete-interval = "P2720D"
-
-[joel-haver]
-incremental-interval = "P730D"
-complete-interval = "P2730D"
-
-[genericallyentertaining]
-incremental-interval = "P740D"
-complete-interval = "P2740D"
-
-[blumineck]
-incremental-interval = "P750D"
-complete-interval = "P2750D"
-
 [briandavidgilbert]
 incremental-interval = "P760D"
 complete-interval = "P2760D"
@@ -161,10 +145,6 @@ complete-interval = "P2760D"
 [dndwizards]
 incremental-interval = "P770D"
 complete-interval = "P2770D"
-
-[mancarryingthing]
-incremental-interval = "P780D"
-complete-interval = "P2780D"
 
 [indeepgeek]
 incremental-interval = "P790D"
@@ -221,10 +201,6 @@ complete-interval = "P2910D"
 [acquisitionsincorporated]
 incremental-interval = "P920D"
 complete-interval = "P2920D"
-
-[legomastersfox]
-incremental-interval = "P930D"
-complete-interval = "P2930D"
 
 [taylortomlinsoncomedy]
 incremental-interval = "P940D"

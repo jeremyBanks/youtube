@@ -2402,7 +2402,7 @@ regionsBlocked:
 videoId:       5t9Rvrtc-Xc
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2022-03-30T15:00:11.000Z
-title:         Bluey Full Episodes Compilation | Bluey
+title:         "Bluey Full Episodes Compilation | Hotel \U0001F3E8 & Asparagus \U0001F331 | Bluey \U0001F499"
 duration:      762
 regionsBlocked:
 - AU
@@ -2482,6 +2482,7 @@ regionsBlocked:
 videoId:       kWN6ktuf65U
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2022-04-27T15:00:15.000Z
+removedBefore: 2024-08-05T17:33:31.356Z
 title:         Ice Cream | Full Episode Season 2 | Bluey
 duration:      420
 regionsBlocked:
@@ -2492,6 +2493,7 @@ regionsBlocked:
 videoId:       dv6bxcfFhhc
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2022-04-29T15:00:12.000Z
+removedBefore: 2024-08-05T17:33:31.356Z
 title:         Baby Race and Ice Cream | Season 2 Full Episodes Compilation | Bluey
 duration:      789
 regionsBlocked:
@@ -6543,7 +6545,7 @@ regionsBlocked:
 videoId:       e-qFb6Q1IcY
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2023-12-16T13:00:26.000Z
-title:         "Bluey Seasons 1 and 2 FULL EPISODES \U0001F499 Baby Race, Movies, Ice Cream and more! | Bluey"
+title:         "Bluey Seasons 1 and 2 FULL EPISODES \U0001F499 Baby Race, Movies, Seesaw and more! | Bluey"
 duration:      4214
 regionsBlocked:
 - AU
@@ -6943,7 +6945,7 @@ regionsBlocked:
 videoId:       AMppfY8aF6M
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-01-24T16:00:12.000Z
-title:         "Bluey Seasons 1, 2, and 3 FULL EPISODES \U0001F499 | Unicorse, Mini Bluey, Pass the Parcel, and More! | Bluey"
+title:         "Bluey Seasons 1, 2, and 3 FULL EPISODES \U0001F499 | Unicorse, Faceytalk, Pass the Parcel, and More! | Bluey"
 duration:      6560
 regionsBlocked:
 - AU
@@ -7844,7 +7846,7 @@ regionsBlocked:
 videoId:       0Zs8CzowMsg
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-04-11T15:53:46.000Z
-title:         "\U0001F534LIVE: Best Bluey Episodes from Series 3! | Unicorse, Mini Bluey, Pizza Girls, and More! | Bluey"
+title:         "\U0001F534LIVE: Best Bluey Episodes from Series 3! | Unicorse, Pizza Girls, and More! | Bluey"
 duration:      2579
 regionsBlocked:
 - AU
@@ -8464,7 +8466,7 @@ videoId:       zN4QsgBTPVU
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-05-30T17:41:38.000Z
 title:         "\U0001F534LIVE: Cutest Bluey and Bingo Moments \U0001F499\U0001F9E1 | 1 HOUR of Playtime | Bluey"
-duration:      4453
+duration:      4452
 regionsBlocked:
 - AU
 
@@ -9052,7 +9054,7 @@ regionsBlocked:
 videoId:       cBti7aQBMk4
 channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-07-17T15:00:41.000Z
-title:         'Bluey''s Sunny Adventure Full Episodes ☀️ | Featuring Ice Cream, The Beach, and More! | Bluey'
+title:         'Bluey''s Sunny Adventure Full Episodes ☀️ | Featuring The Pool, The Beach, and More! | Bluey'
 duration:      1559
 regionsBlocked:
 - AU
@@ -9154,5 +9156,125 @@ channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
 publishedAt:   2024-07-25T16:59:06.000Z
 title:         "\U0001F534LIVE: Sporty Games to Play with Bingo and Bluey | Outdoor Activities with Bluey | Bluey"
 duration:      3315
+regionsBlocked:
+- AU
+
+---
+
+videoId:       NdmoDr5bh4A
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-26T04:00:14.000Z
+title:         "Hungry \U0001F60B | FULL BLUEY MINISODE | Bluey"
+duration:      92
+regionsAllowed:
+- NZ
+
+---
+
+videoId:       PMtkzHZOkOM
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-26T15:00:24.000Z
+title:         Games to Play Outside ✨ | Fun Outside with Bluey and Bingo | Bluey
+duration:      775
+regionsBlocked:
+- AU
+
+---
+
+videoId:       U1e9-vkWtS8
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-27T04:00:27.000Z
+title:         "Three Pigs \U0001F437 ✨ | FULL BLUEY MINISODE | Bluey"
+duration:      161
+regionsAllowed:
+- NZ
+
+---
+
+videoId:       CpgyBVWl7w8
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-28T04:00:14.000Z
+title:         "Animals \U0001F406 \U0001F9E1 | FULL BLUEY MINISODE | Bluey"
+duration:      88
+regionsAllowed:
+- NZ
+
+---
+
+videoId:       EIiXdGAf9N0
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-28T13:00:14.000Z
+title:         "Bluey for real life! \U0001F43E A day in the life of Bella the Australian Cattle Dog \U0001F499 | Bluey  #ytshorts"
+duration:      21
+regionsBlocked:
+- AU
+
+---
+
+videoId:       mm3AbWA13P4
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-29T17:37:51.000Z
+title:         "\U0001F534 LIVE: Unwind with the Heelers \U0001F499 | Wholesome Family Moments with Bluey | Bluey"
+duration:      8128
+regionsBlocked:
+- AU
+
+---
+
+videoId:       b-A9H3AhD_I
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-30T15:00:38.000Z
+title:         "You Can't Catch Bingo! \U0001F4A8 | Season 2 Highlight - Piggyback | Bluey"
+duration:      117
+regionsBlocked:
+- AU
+
+---
+
+videoId:       xzz6dwKtbqI
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-07-31T15:01:06.000Z
+title:         "Heeler Family Time \U0001F499 \U0001F9E1 | Full Episodes | Baby Race, Asparagus, and More! | Bluey \U0001F499"
+duration:      1560
+regionsBlocked:
+- AU
+
+---
+
+videoId:       098olxHrZXA
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-08-01T18:17:00.000Z
+title:         "\U0001F534LIVE: EVERY BEST MOMENT from Bluey Season 1! \U0001F499 | Bluey Best Moments | Bluey"
+duration:      6078
+regionsBlocked:
+- AU
+
+---
+
+videoId:       mvpe6k_Wk-8
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-08-02T15:00:50.000Z
+title:         Fantasy Games with Bluey ✨ | Pretend Play Moments | Bluey
+duration:      881
+regionsBlocked:
+- AU
+
+---
+
+videoId:       TXE9iz03emI
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-08-04T13:00:22.000Z
+title:         "The Chilli Stare \U0001F440 | Bluey #ytshorts"
+duration:      50
+regionsBlocked:
+- AU
+
+---
+
+videoId:       rzrWE2fg2sg
+channelId:     UCVzLLZkDuFGAE2BGdBuBNBg
+publishedAt:   2024-08-05T16:44:50.000Z
+title:         "\U0001F534LIVE: Best Moments from Bluey Season 2! \U0001F499 | Funny Bluey Moments | Bluey"
+duration:      6217
 regionsBlocked:
 - AU

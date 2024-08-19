@@ -34,7 +34,6 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEA
 """
 
 [PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_]
-skip = false
 name = "Play It By Ear (${ALL_SEASONS})"
 show = "Play It By Ear"
 description = """
@@ -74,6 +73,13 @@ name = "Monét's Slumber Party (${ALL_SEASONS})"
 show = "Monét's Slumber Party"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Monét's Slumber Party. ${MAYBE_MEMBERS_ONLY}
+"""
+
+[PLObfuAmZm9pBkN8f2QDbVcfRpjaOdPLwY]
+name = "Gastronauts (${ALL_SEASONS})"
+show = "Gastronauts"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Gastronauts. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
@@ -138,7 +144,6 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCvvl_cPBxZZ1l0XHWHgez6]
-skip = false
 name = "Dimension 20: The Unsleeping City (${ALL_SEASONS})"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
@@ -376,7 +381,6 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDew7JTMNzlRYE-gwEo5WYt]
-skip = false
 name = "Dimension 20: Calorum (${ALL_SEASONS})"
 show = "Dimension 20"
 world = "Calorum"

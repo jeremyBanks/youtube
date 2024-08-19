@@ -42,6 +42,10 @@ complete-interval = "P32D"
 incremental-interval = "PT8H"
 complete-interval = "P32D"
 
+[monetsslumberparty]
+incremental-interval = "PT8H"
+complete-interval = "P32D"
+
 [rarran]
 incremental-interval = "P2D"
 complete-interval = "P128D"
@@ -51,7 +55,7 @@ incremental-interval = "P2D"
 complete-interval = "P128D"
 
 [blueyofficialchannel]
-incremental-interval = "P32D"
+incremental-interval = "P320D"
 complete-interval = "P8D"
 
 [deepblueink]

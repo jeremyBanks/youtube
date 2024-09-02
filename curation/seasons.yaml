@@ -3256,6 +3256,7 @@ videos:
   members: v_o1BNUAl0M
   published: 2020-06-01
 - episode: 321. All Hail Cello Chigglers!
+  public: uezjefMYRNg
   members: dWqZzDKPe6I
   published: 2020-06-01
 - episode: 322. Spit In Your Hand To Honor the Troops
@@ -4286,6 +4287,9 @@ videos:
 - trailer: Get Your Act Together with Chris Grace
   public: MJrH7UVhd78
   published: 2024-08-16
+- episode: "Chris Grace: As Scarlett Johansson"
+  members: 4b6FkhZxVSk
+  published: 2024-08-23
 
 ---
 
@@ -4371,6 +4375,18 @@ videos:
 - bts: Truly Truly So So Fun
   members: eh1DA9Y1s7E
   published: 2024-08-15
+- episode: 9. Without Our Siblings
+  members: HwbaHikc4gM
+  published: 2024-08-21
+- bts: Bean Appétit
+  members: 2t8Y908I4u8
+  published: 2024-08-22
+- episode: 10. Superbomb
+  members: gMxJDsksuEs
+  published: 2024-08-28
+- bts: An Evil Guided Meditation
+  members: M1T461XnJjA
+  published: 2024-08-29
 
 ---
 
@@ -4386,6 +4402,9 @@ videos:
 - episode: 502. Six Out of Six (with Rekha Shankar)
   members: Cvde7dqrEWg
   published: 2024-07-29
+- episode: 503. Shinji and Batman (with Ify Nwadiwe)
+  members: WQ_vCJ6yNLE
+  published: 2024-08-26
 
 ---
 
@@ -4404,6 +4423,9 @@ videos:
 - episode: 103. It Was a Crumbvulet
   members: LtUZcpA_IR8
   published: 2024-08-16
+- episode: 104. Either Nothing or Ube
+  members: zU3GsAIHloQ
+  published: 2024-08-30
 
 ---
 
@@ -4416,6 +4438,9 @@ videos:
 - episode: 401. Who Had Standing Permission to Steal From a Store?
   members: juLFRUv-OV0
   published: 2024-08-13
+- episode: 402. Who Was Part of a Ritual to Ward Off Evil Spirits?
+  members: N26rObVwAgI
+  published: 2024-08-27
 
 ---
 
@@ -4425,3 +4450,12 @@ videos:
 - trailer: Gastronauts Trailer
   public: MQOd_hlDilE
   published: 2024-08-19
+
+---
+show: Dimension 20
+season: Time Quangle
+cast: Intrepid Heroes
+videos: 
+- trailer: "Dimension 20: Time Quangle Trailer"
+  public: fi9jQrvdAuY
+  published: 2024-08-29

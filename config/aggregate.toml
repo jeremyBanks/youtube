@@ -358,6 +358,17 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
+[PLObfuAmZm9pDYZqodZU5WxXrH_eSwcwIH]
+name = "Dimension 20: Time Quangle (${ALL_SEASONS})"
+show = "Dimension 20"
+season = "Time Quangle"
+type = ["episode", "special", "bts", "trailer", "external"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Time Quangle, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
 [PLObfuAmZm9pByRsqyhiiNqjUCeJYSejZb]
 name = "Dimension 20: Intrepid Heroes (${ALL_SEASONS})"
 show = "Dimension 20"

@@ -156,7 +156,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCkRpIn_Z8BgV4h06DSgvOQ]
-skip = true
+skip = false
 name = "Dimension 20: Escape from the Bloodkeep (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Escape from the Bloodkeep"
@@ -168,7 +168,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCn84dZNnZcJTgnCoWtnteU]
-skip = true
+skip = false
 name = "Dimension 20: Tiny Heist (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Tiny Heist"
@@ -180,7 +180,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pD_zyHeSfr-PtYJ31lW0k0B]
-skip = true
+skip = false
 name = "Dimension 20: A Crown of Candy (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Crown of Candy"
@@ -192,7 +192,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pC6DqGsIuQQhNCyeTMlHMu4]
-skip = true
+skip = false
 name = "Dimension 20: Pirates of Leviathan (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Pirates of Leviathan"
@@ -204,7 +204,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCWF7V_iu5LZVZEs1UUyiPm]
-skip = true
+skip = false
 name = "Dimension 20: Mice and Murder (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Mice and Murder"
@@ -216,7 +216,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pAB72I23WBd5L3WVkR38cnz]
-skip = true
+skip = false
 name = "Dimension 20: Misfits and Magic (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Misfits and Magic"
@@ -228,7 +228,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA3CGZsq0i1cWWHcC-2mYp7]
-skip = true
+skip = false
 name = "Dimension 20: The Seven (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "The Seven"
@@ -240,7 +240,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDLiMGbBWJtqXV9Z7o6TrxY]
-skip = true
+skip = false
 name = "Dimension 20: Shriek Week (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Shriek Week"
@@ -252,7 +252,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4]
-skip = true
+skip = false
 name = "Dimension 20: A Starstruck Odyssey (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Starstruck Odyssey"
@@ -264,7 +264,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDuTXqGVHBjky_s9Je5F1t7]
-skip = true
+skip = false
 name = "Dimension 20: Coffin Run (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Coffin Run"
@@ -276,7 +276,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCWj6M5fxATywmOeAg4zlTF]
-skip = true
+skip = false
 name = "Dimension 20: A Court of Fey and Flowers (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Court of Fey and Flowers"
@@ -288,7 +288,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDkoJ-w4PJ6KOroEFTVQVvS]
-skip = true
+skip = false
 name = "Dimension 20: Neverafter (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Neverafter"
@@ -300,7 +300,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pATr-wPPLwMGFCLdMb74ID3]
-skip = true
+skip = false
 name = "Dimension 20: The Ravening War (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "The Ravening War"
@@ -312,7 +312,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr]
-skip = true
+skip = false
 name = "Dimension 20: Dungeons and Drag Queens (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Dungeons and Drag Queens"
@@ -324,7 +324,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pC-aZMoB4n8QrySHWncIiLb]
-skip = true
+skip = false
 name = "Dimension 20: Mentopolis (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Mentopolis"
@@ -336,7 +336,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCXX8ABGmvnd9oWo3JXrCUS]
-skip = true
+skip = false
 name = "Dimension 20: Burrow's End (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Burrow's End"
@@ -403,7 +403,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
-skip = true
+skip = false
 name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS})"
 show = "Critical Role"
 season = "Exandria Unlimited: Calamity"
@@ -412,7 +412,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandri
 """
 
 [PLObfuAmZm9pAtGx3ED2spFfabR30tKcSq]
-skip = true
+skip = false
 name = "Bluey (for Canadians)"
 show = "Bluey"
 description = """

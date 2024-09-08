@@ -410,11 +410,3 @@ season = "Exandria Unlimited: Calamity"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """
-
-[PLObfuAmZm9pAtGx3ED2spFfabR30tKcSq]
-skip = false
-name = "Bluey (for Canadians)"
-show = "Bluey"
-description = """
-${HOURS}-hour playlist of episodes and shorts from Bluey. ${FREE} videos are free and ${PAID} can be purchased in Canada.
-"""

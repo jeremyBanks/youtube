@@ -403,7 +403,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
-skip = false
+skip = true
 name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS})"
 show = "Critical Role"
 season = "Exandria Unlimited: Calamity"

@@ -31898,7 +31898,7 @@ videoId:       KLuAA_qeWRs
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2021-04-28T22:44:54.000Z
 title:         'Busted | Dimension 20: Mice & Murder | Ep. 6'
-duration:      8618
+duration:      8619
 membersOnly:   true
 
 ---
@@ -33629,7 +33629,7 @@ videoId:       2acQ6-gb2tE
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2022-03-31T22:36:21.000Z
 title:         'Journey, Freakazoid!, Seaman'
-duration:      2078
+duration:      2079
 membersOnly:   true
 
 ---
@@ -34769,7 +34769,7 @@ videoId:       SAiHzPimhC0
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2022-12-02T00:00:15.000Z
 title:         'Royals, Scamps, and Townies | Adventuring Party Season 11 | Ep. 1'
-duration:      1030
+duration:      1031
 membersOnly:   true
 
 ---
@@ -39403,6 +39403,7 @@ membersOnly:   true
 videoId:       4b6FkhZxVSk
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2024-08-23T23:02:11.000Z
+removedBefore: 2024-09-16T20:59:36.448Z
 title:         'Chris Grace: As Scarlett Johansson | Dropout Presents'
 duration:      3822
 membersOnly:   true
@@ -39499,6 +39500,7 @@ membersOnly:   true
 videoId:       SDwMbbUV6D0
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:   2024-09-03T23:00:31.000Z
+removedBefore: 2024-09-16T20:59:36.448Z
 title:         One News to Break | Breaking News Season 7 | Ep. 12
 duration:      425
 membersOnly:   true
@@ -39529,3 +39531,46 @@ publishedAt:   2024-09-06T18:58:36.000Z
 title:         'Chris Grace: As Scarlett Johansson | Dropout Presents'
 duration:      3817
 membersOnly:   true
+
+---
+
+videoId:       C_sU3hMvEQY
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-09-09T15:00:11.000Z
+title:         'Smosh, Time Quangle, and Monét''s Slumber Party - This Week on Dropout!'
+duration:      60
+
+---
+
+videoId:       xX22wktS08U
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-09-10T23:00:47.000Z
+title:         Who Wrote a Short Story That Seriously Disturbed a Teacher? | Dirty Laundry Season 3 | Ep. 3
+duration:      2625
+membersOnly:   true
+
+---
+
+videoId:       Agd9-pmlC1U
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-09-12T23:00:50.000Z
+title:         'Quangle in Queal Quife | Dimension 20: Time Quangle | Ep. 1'
+duration:      7025
+membersOnly:   true
+
+---
+
+videoId:       7RCz5dBLnaU
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-09-13T23:00:46.000Z
+title:         I Contain Multitudes | Monét's Slumber Party Season 1 | Ep. 5
+duration:      2363
+membersOnly:   true
+
+---
+
+videoId:       r7eenTIifZg
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+publishedAt:   2024-09-16T15:00:51.000Z
+title:         'Make Some Noise, Adam Conover Stand-Up, more Time Quangle - This Week on Dropout!'
+duration:      59

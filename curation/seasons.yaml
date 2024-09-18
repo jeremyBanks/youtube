@@ -794,8 +794,9 @@ videos:
 
 ---
 
-season: Misfits and Magic
+season: Misfits and Magic (Chapter 1)
 show: Dimension 20
+world: Misfits and Magic
 videos:
 - trailer: Misfits and Magic Trailer
   public: yKHP2mPv7Ws
@@ -4205,6 +4206,9 @@ videos:
   members: WwT6DNiR6vk
   removed members: SDwMbbUV6D0
   published: 2024-09-03
+- episode: 713. The Swing of Things
+  members: HW18coizPmQ
+  published: 2024-09-17
 
 ---
 
@@ -4331,6 +4335,9 @@ videos:
 - episode: 306. Sober You Discusses Last Night's Receipts With Drunk You
   members: tWLJH3MvcNg
   published: 2024-09-02
+- episode: 307. A Bear Who Just Hibernated Through Like 250 Commitments
+  members: 0ABB7DGW0hY
+  published: 2024-09-17
 
 ---
 
@@ -4485,3 +4492,19 @@ videos:
 - episode: 1. Quangle in Queal Quife
   members: Agd9-pmlC1U
   published: 2024-09-12
+
+---
+
+season: Misfits and Magic (Chapter 2)
+show: Dimension 20
+world: Misfits and Magic
+videos:
+- trailer: Misfits and Magic Season 2 Trailer
+  public: s02byVayinI
+  published: 2024-09-04
+- trailer: Misfits and Magic Season 1 Recap
+  public: 4nnkns2w8tU
+  published: 2024-09-11
+- bts: "Behind the Scenes: Brennan Lee Mulligan"
+  members: P373-rjCxUM
+  published: 2024-09-18

@@ -110,7 +110,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pA-p-uZkuEdt-xqzVMCqSGO]
-name = "Dimension 20 (${EPISODES} Free Episodes)"
+name = "Dimension 20 (All Free Episodes)"
 show = "Dimension 20"
 type = ["episode", "special"]
 free = true
@@ -121,7 +121,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA]
-name = "Dimension 20 (${EPISODES} Free Episodes and ${EXTRAS} Free Extras)"
+name = "Dimension 20 (All Free Episodes and Extras)"
 show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 free = true

@@ -1,4 +1,4 @@
-name:        Game Changer (All Episodes)
+name:        Game Changer (All Episodes and Extras)
 description: |
   32-hour playlist of 60 episodes and 22 extras (trailers and behind-the-scenes videos) from 6 seasons of Game Changer, the only game show where the game changes every show. 11 videos are free and 71 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS
@@ -88,7 +88,7 @@ videos:
 
 ---
 
-name:        'Um, Actually (All Episodes)'
+name:        'Um, Actually (All Episodes and Extras)'
 description: |
   83-hour playlist of 160 episodes and 7 extras (trailers and behind-the-scenes videos) from 9 seasons of Um Actually, the game show where nerds correct nerds. 117 videos are free and 50 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS
@@ -263,7 +263,7 @@ videos:
 
 ---
 
-name:        Breaking News / No Laugh Newsroom (All Episodes)
+name:        Breaking News / No Laugh Newsroom (All Episodes and Extras)
 description: |
   12-hour playlist of 107 episodes and 2 trailers from 7 seasons of Breaking News / No Laugh Newsroom: in this newsroom, breaking means losing. Our reporters don't know what's about to be on the teleprompter, and every laugh is a point against them. 67 videos are free and 42 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ
@@ -380,7 +380,7 @@ videos:
 
 ---
 
-name:        Make Some Noise (All Episodes)
+name:        Make Some Noise (All Episodes and Extras)
 description: |
   20-hour playlist of 39 episodes and 3 trailers from 4 seasons of Make Some Noise, a game show where talented contestants compete to bring to life silly prompts. 6 videos are free and 36 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM
@@ -430,7 +430,7 @@ videos:
 
 ---
 
-name:        Dirty Laundry (All Episodes)
+name:        Dirty Laundry (All Episodes and Extras)
 description: |
   25-hour playlist of 37 episodes and 4 trailers from 4 seasons of Dirty Laundry, a show where guests tell secrets, guess who they belong to, and enjoy a few drinks. 7 videos are free and 34 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pDfejgejY4h6r06blOLedPl
@@ -479,7 +479,7 @@ videos:
 
 ---
 
-name:        Play It By Ear (All Episodes)
+name:        Play It By Ear (All Episodes and Extras)
 description: |
   10-hour playlist of 17 episodes and 2 trailers from 2 seasons of Play It By Ear, a musical improv show where players craft an original musical out of thin air and silly prompts. 3 videos are free and 16 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pCsCC1Vkjb6hV6Vvew3z-Z_
@@ -506,7 +506,7 @@ videos:
 
 ---
 
-name:        Very Important People (All Episodes)
+name:        Very Important People (All Episodes and Extras)
 description: |
   5-hour playlist of 12 episodes and 14 trailers from Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis. 2 videos are free and 24 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pCDFLc4eTkdFoMy5qW5pqW9
@@ -540,7 +540,7 @@ videos:
 
 ---
 
-name:        Smartypants (All Episodes)
+name:        Smartypants (All Episodes and Extras)
 description: |
   5-hour playlist of 9 episodes and 1 trailers from Smartypants. 1 video is free and 9 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pC4WERMgeEPlWLuLXIidDjr
@@ -558,7 +558,7 @@ videos:
 
 ---
 
-name:        Thousandaires (All Episodes)
+name:        Thousandaires (All Episodes and Extras)
 description: |
   3-hour playlist of 6 episodes and 1 trailers from Thousandaires. 1 video is free and 6 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pCDwDKLDD8-UBsNRXKEOFHu
@@ -573,7 +573,7 @@ videos:
 
 ---
 
-name:        Dropout Presents (All Episodes)
+name:        Dropout Presents (All Episodes and Extras)
 description: |
   5-hour playlist of 4 episodes and 7 trailers from Dropout Presents. 7 videos are free and 4 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pDZr7wOZPq0eCDbOIyD1IU2
@@ -591,7 +591,7 @@ videos:
 
 ---
 
-name:        Monét's Slumber Party (All Episodes)
+name:        Monét's Slumber Party (All Episodes and Extras)
 description: |
   3-hour playlist of 6 episodes and 1 trailers from Monét's Slumber Party. 1 video is free and 6 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pArudk1FiNVZhEE9iNiUJny
@@ -606,7 +606,7 @@ videos:
 
 ---
 
-name:        Gastronauts (All Episodes)
+name:        Gastronauts (All Episodes and Extras)
 description: |
   0-hour playlist of 1 episodes and 1 trailers from Gastronauts. 1 video is free and 1 requires a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pBkN8f2QDbVcfRpjaOdPLwY
@@ -616,7 +616,7 @@ videos:
 
 ---
 
-name:        Adventuring Academy (All Episodes)
+name:        Adventuring Academy (All Episodes and Extras)
 description: |
   78-hour playlist of 61 episodes from 5 seasons of Adventuring Academy, a show where veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros. 23 videos are free and 39 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r
@@ -1721,7 +1721,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Fantasy High (All Episodes)'
+name:        'Dimension 20: Fantasy High (All Episodes and Extras)'
 description: |
   152-hour playlist of 61 episodes and 41 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from 3 seasons of Fantasy High, a series of campaigns from Dimension 20. 50 videos are free and 52 require a @Dropout channel membership on YouTube.
 
@@ -1836,7 +1836,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: The Unsleeping City (All Episodes)'
+name:        'Dimension 20: The Unsleeping City (All Episodes and Extras)'
 description: |
   102-hour playlist of 35 episodes and 29 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from 2 seasons of The Unsleeping City, a series of campaigns from Dimension 20. 24 videos are free and 40 require a @Dropout channel membership on YouTube.
 
@@ -1910,7 +1910,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Escape from the Bloodkeep (All Episodes)'
+name:        'Dimension 20: Escape from the Bloodkeep (All Episodes and Extras)'
 description: |
   16-hour playlist of 6 episodes and 4 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Escape from the Bloodkeep, a campaign from Dimension 20. 9 videos are free and 1 requires a @Dropout channel membership on YouTube.
 
@@ -1930,7 +1930,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Tiny Heist (All Episodes)'
+name:        'Dimension 20: Tiny Heist (All Episodes and Extras)'
 description: |
   12-hour playlist of 6 episodes and 1 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Tiny Heist, a campaign from Dimension 20. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
 
@@ -1947,7 +1947,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: A Crown of Candy (All Episodes)'
+name:        'Dimension 20: A Crown of Candy (All Episodes and Extras)'
 description: |
   63-hour playlist of 17 episodes and 19 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Crown of Candy, a campaign from Dimension 20. 2 videos are free and 34 require a @Dropout channel membership on YouTube.
 
@@ -1993,7 +1993,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Pirates of Leviathan (All Episodes)'
+name:        'Dimension 20: Pirates of Leviathan (All Episodes and Extras)'
 description: |
   16-hour playlist of 6 episodes and 3 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Pirates of Leviathan, a campaign from Dimension 20. 2 videos are free and 7 require a @Dropout channel membership on YouTube.
 
@@ -2012,7 +2012,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Mice and Murder (All Episodes)'
+name:        'Dimension 20: Mice and Murder (All Episodes and Extras)'
 description: |
   29-hour playlist of 10 episodes and 11 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Mice and Murder, a campaign from Dimension 20. 2 videos are free and 19 require a @Dropout channel membership on YouTube.
 
@@ -2043,7 +2043,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Misfits and Magic (All Episodes)'
+name:        'Dimension 20: Misfits and Magic (All Episodes and Extras)'
 description: |
   27-hour playlist of 9 episodes and 18 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Misfits and Magic, a campaign from Dimension 20. 7 videos are free and 20 require a @Dropout channel membership on YouTube.
 
@@ -2080,7 +2080,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: The Seven (All Episodes)'
+name:        'Dimension 20: The Seven (All Episodes and Extras)'
 description: |
   31-hour playlist of 10 episodes and 13 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from The Seven, a campaign from Dimension 20. 2 videos are free and 21 require a @Dropout channel membership on YouTube.
 
@@ -2113,7 +2113,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Shriek Week (All Episodes)'
+name:        'Dimension 20: Shriek Week (All Episodes and Extras)'
 description: |
   10-hour playlist of 4 episodes and 6 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Shriek Week, a campaign from Dimension 20. 2 videos are free and 8 require a @Dropout channel membership on YouTube.
 
@@ -2133,7 +2133,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: A Starstruck Odyssey (All Episodes)'
+name:        'Dimension 20: A Starstruck Odyssey (All Episodes and Extras)'
 description: |
   49-hour playlist of 18 episodes and 21 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Starstruck Odyssey, a campaign from Dimension 20. 2 videos are free and 37 require a @Dropout channel membership on YouTube.
 
@@ -2182,7 +2182,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Coffin Run (All Episodes)'
+name:        'Dimension 20: Coffin Run (All Episodes and Extras)'
 description: |
   14-hour playlist of 6 episodes and 8 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Coffin Run, a campaign from Dimension 20. 2 videos are free and 12 require a @Dropout channel membership on YouTube.
 
@@ -2206,7 +2206,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: A Court of Fey and Flowers (All Episodes)'
+name:        'Dimension 20: A Court of Fey and Flowers (All Episodes and Extras)'
 description: |
   26-hour playlist of 10 episodes and 13 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Court of Fey and Flowers, a campaign from Dimension 20. 3 videos are free and 20 require a @Dropout channel membership on YouTube.
 
@@ -2239,7 +2239,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Neverafter (All Episodes)'
+name:        'Dimension 20: Neverafter (All Episodes and Extras)'
 description: |
   52-hour playlist of 20 episodes and 22 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Neverafter, a campaign from Dimension 20. 2 videos are free and 40 require a @Dropout channel membership on YouTube.
 
@@ -2291,7 +2291,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: The Ravening War (All Episodes)'
+name:        'Dimension 20: The Ravening War (All Episodes and Extras)'
 description: |
   19-hour playlist of 6 episodes and 11 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from The Ravening War, a campaign from Dimension 20. 3 videos are free and 14 require a @Dropout channel membership on YouTube.
 
@@ -2318,7 +2318,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Dungeons and Drag Queens (All Episodes)'
+name:        'Dimension 20: Dungeons and Drag Queens (All Episodes and Extras)'
 description: |
   12-hour playlist of 4 episodes and 9 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Dungeons and Drag Queens, a campaign from Dimension 20. 6 videos are free and 7 require a @Dropout channel membership on YouTube.
 
@@ -2341,7 +2341,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Mentopolis (All Episodes)'
+name:        'Dimension 20: Mentopolis (All Episodes and Extras)'
 description: |
   15-hour playlist of 6 episodes and 10 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Mentopolis, a campaign from Dimension 20. 5 videos are free and 11 require a @Dropout channel membership on YouTube.
 
@@ -2367,7 +2367,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Burrow''s End (All Episodes)'
+name:        'Dimension 20: Burrow''s End (All Episodes and Extras)'
 description: |
   23-hour playlist of 11 episodes and 10 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Burrow's End, a campaign from Dimension 20. 2 videos are free and 19 require a @Dropout channel membership on YouTube.
 
@@ -2398,7 +2398,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Never Stop Blowing Up (All Episodes)'
+name:        'Dimension 20: Never Stop Blowing Up (All Episodes and Extras)'
 description: |
   22-hour playlist of 10 episodes and 12 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Never Stop Blowing Up, a campaign from Dimension 20. 3 videos are free and 19 require a @Dropout channel membership on YouTube.
 
@@ -2430,7 +2430,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Time Quangle (All Episodes)'
+name:        'Dimension 20: Time Quangle (All Episodes and Extras)'
 description: |
   3-hour playlist of 2 episodes and 1 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Time Quangle, a campaign from Dimension 20. 1 video is free and 2 require a @Dropout channel membership on YouTube.
 
@@ -2443,7 +2443,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Intrepid Heroes (All Episodes)'
+name:        'Dimension 20: Intrepid Heroes (All Episodes and Extras)'
 description: |
   424-hour playlist of 153 episodes and 133 extras (talkbacks, trailers, and behind-the-scenes videos) from 9 seasons of Dimension 20 which feature the Intrepid Heroes cast. 81 videos are free and 205 require a @Dropout channel membership on YouTube.
 
@@ -2742,7 +2742,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Spyre (All Episodes)'
+name:        'Dimension 20: Spyre (All Episodes and Extras)'
 description: |
   200-hour playlist of 77 episodes and 57 extras (talkbacks, trailers, and behind-the-scenes videos) from 5 seasons of Dimension 20 set in the world of Spyre. 54 videos are free and 80 require a @Dropout channel membership on YouTube.
 
@@ -2889,7 +2889,7 @@ videos:
 
 ---
 
-name:        'Dimension 20: Calorum (All Episodes)'
+name:        'Dimension 20: Calorum (All Episodes and Extras)'
 description: |
   82-hour playlist of 23 episodes and 30 extras (talkbacks, trailers, and behind-the-scenes videos) from 2 seasons of Dimension 20 set in the world of Calorum. 5 videos are free and 48 require a @Dropout channel membership on YouTube.
 
@@ -2949,3 +2949,17 @@ videos:
   c8UfbrcV-X4: 'Behind the Scenes: The Cast | Dimension 20: The Ravening War (Bonus Content)'
   ZuQbPO9XREs: 'Behind the Scenes: The Art Team | Dimension 20: The Ravening War (Bonus Content)'
   qGaoLhCZPew: A Little More Throat Wattle | Adventuring Party Season 12 | Ep. 7
+
+---
+
+name:        'Critical Role: Exandria Unlimited: Calamity (All Episodes and Extras)'
+description: |
+  22-hour playlist of 4 episodes and 2 extras from Exandria Unlimited: Calamity, a Critical Role campaign.
+playlistId:  PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
+videos:
+  9QMiGD2offs: 'Exandria Unlimited: Calamity Premieres Thursday, May 26th! | Trailer'
+  KlIkkeWmVvA: 'Excelsior | Exandria Unlimited: Calamity | Episode 1'
+  cLhXA_Hl6LM: 'Bitterness and Dread | Exandria Unlimited: Calamity | Episode 2'
+  YNTP_CckXrM: 'Blood and Shadow | Exandria Unlimited: Calamity | Episode 3'
+  CrtoyB2fcMI: 'Fire and Ruin | Exandria Unlimited: Calamity | Episode 4'
+  EYK4_eRSSb4: 'Exandria Unlimited: Calamity Wrap-Up'

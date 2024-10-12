@@ -90,7 +90,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Advent
 """
 
 [PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD]
-name = "Dimension 20 (${ALL_SEASONS})"
+name = "Dimension 20 (All Episodes and Extras)"
 show = "Dimension 20"
 type = ["episode", "special", "bts", "trailer"]
 description = """
@@ -100,7 +100,7 @@ ${D20_PLUG}
 """
 
 [PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG]
-name = "Dimension 20 (${ALL_EPISODES})"
+name = "Dimension 20 (All Episodes)"
 show = "Dimension 20"
 type = ["episode", "special"]
 description = """

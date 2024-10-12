@@ -33,7 +33,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
     });
 
     await spinning("authenticating...", async () => {
-      if (localStorage.clientAccessToken) {
+      if (false && localStorage.clientAccessToken) {
         auth.setCredentials({
           token_type: "Bearer",
           scope: "https://www.googleapis.com/auth/youtube",

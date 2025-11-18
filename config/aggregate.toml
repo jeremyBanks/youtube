@@ -394,17 +394,6 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """
 
-[todo-gauntlet-at-the-garden]
-name = "Dimension 20: Gauntlet at the Garden (${ALL_SEASONS})"
-show = "Dimension 20"
-season = "Gauntlet at the Garden"
-type = ["episode", "special", "bts", "trailer", "external"]
-description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Gauntlet at the Garden, a live Dimension 20 performance at Madison Square Garden continuing The Unsleeping City. ${MAYBE_MEMBERS_ONLY}
-
-${D20_PLUG}
-"""
-
 [todo-titan-takedown]
 name = "Dimension 20: Titan Takedown (${ALL_SEASONS})"
 show = "Dimension 20"

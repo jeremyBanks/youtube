@@ -1,6 +1,6 @@
 // import { delay } from "@std/async";
 
-import * as googleapis from "npm:googleapis";
+import * as googleapis from "googleapis";
 
 // import { only, unwrap } from "./common.ts";
 

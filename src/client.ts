@@ -1,10 +1,10 @@
-import * as googleapis from "npm:googleapis";
+import * as googleapis from "googleapis";
 import * as dotenv from "@std/dotenv";
 import { delay } from "@std/async";
 
-import { logDeep, spinning, truthy } from "./common.ts";
+import { spinning, truthy } from "./common.ts";
 import { openChannelStorage } from "./storage.ts";
-import { Channel } from "./storage.ts";
+import type { Channel } from "./storage.ts";
 import { only } from "./common.ts";
 import { unwrap } from "./common.ts";
 
@@ -44,16 +44,6 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
     });
 
     await spinning("authenticating...", async () => {
-      if (false && localStorage.clientAccessToken) {
-        auth.setCredentials({
-          token_type: "Bearer",
-          scope: "https://www.googleapis.com/auth/youtube",
-          access_token: localStorage.clientAccessToken,
-          refresh_token: localStorage.clientRefreshToken,
-          expiry_date: localStorage.clientExpiryDate,
-        });
-      }
-
       if (
         await auth.getAccessToken().then(
           () => false,
@@ -72,8 +62,12 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           console.log("\n=== AUTHENTICATION REQUIRED ===");
           console.log("Please open this URL in your browser to authenticate:");
           console.log(authUrl);
-          console.log("\nAfter authenticating, you'll be redirected to a URL that won't load.");
-          console.log("Copy the full URL from your browser's address bar and run:");
+          console.log(
+            "\nAfter authenticating, you'll be redirected to a URL that won't load.",
+          );
+          console.log(
+            "Copy the full URL from your browser's address bar and run:",
+          );
           console.log(`  deno task scan --auth-url="<paste-url-here>"\n`);
           Deno.exit(0);
         } else if (authMode.mode === "complete-with-url") {
@@ -86,7 +80,9 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
             );
           }
           userAuthCode = code;
-          console.log("✓ Authorization code received, completing authentication...");
+          console.log(
+            "✓ Authorization code received, completing authentication...",
+          );
         } else {
           // Interactive mode: local server
           console.log("Please open this URL to authenticate:", authUrl);

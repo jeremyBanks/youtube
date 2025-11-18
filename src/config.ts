@@ -1,7 +1,7 @@
 import * as toml from "@std/toml";
 import * as yaml from "./yaml.ts";
 
-import z from "npm:zod";
+import z from "zod";
 import { VideoId } from "./storage.ts";
 
 const Duration = z.string().regex(
@@ -85,9 +85,10 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
         continue;
       }
       // Allow empty string or special markers to indicate no playlist ID
-      const normalizedPlaylistId = (!playlistId || playlistId === "null" || playlistId === "none")
-        ? null
-        : playlistId;
+      const normalizedPlaylistId =
+        (!playlistId || playlistId === "null" || playlistId === "none")
+          ? null
+          : playlistId;
 
       config.push({
         playlistId: normalizedPlaylistId,

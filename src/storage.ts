@@ -1,6 +1,6 @@
 import { open } from "./yaml.ts";
 
-import z from "npm:zod";
+import z from "zod";
 
 /** YouTube video ID */
 export const VideoId = z.string().regex(/^[0-9A-Za-z_\-]{11}$/);

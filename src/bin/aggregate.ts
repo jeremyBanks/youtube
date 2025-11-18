@@ -1,7 +1,6 @@
 import { upsert } from "../common.ts";
 import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
 import { openPlaylistsStorage, openVideoStorage } from "../storage.ts";
-import { sortBy } from "@std/collections";
 
 if (import.meta.main) {
   await main();

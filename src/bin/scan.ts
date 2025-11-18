@@ -1,6 +1,6 @@
 import { parseArgs } from "@std/cli";
 import { channelMetadata, playlistVideos, setAuthMode } from "../client.ts";
-import { Scan, Video } from "../storage.ts";
+import type { Scan, Video } from "../storage.ts";
 import { mapOptional, upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
@@ -134,9 +134,12 @@ export async function main() {
           break;
         }
       }
-    } catch (response) {
+    } catch (response: unknown) {
       if (
-        response?.errors?.[0]?.reason === "playlistNotFound"
+        typeof response === "object" && response !== null &&
+        "errors" in response &&
+        Array.isArray(response.errors) &&
+        response.errors[0]?.reason === "playlistNotFound"
       ) {
         // that's okay. no members-only videos for this channel.
       } else {

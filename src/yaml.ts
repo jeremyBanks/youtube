@@ -1,4 +1,4 @@
-import * as z from "npm:zod";
+import * as z from "zod";
 import * as yaml from "@std/yaml";
 import { delay } from "@std/async";
 import { dirname } from "@std/path";

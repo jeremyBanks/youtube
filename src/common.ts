@@ -1,4 +1,4 @@
-import { JsonValue } from "@std/json";
+import type { JsonValue } from "@std/json";
 import { Spinner } from "@std/cli";
 
 /** Wrapper around the `throw` statement for use in an expression context. */

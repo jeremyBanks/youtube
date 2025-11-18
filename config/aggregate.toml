@@ -386,6 +386,17 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
+[todo-d20-live-shows]
+name = "Dimension 20: Live Shows (${ALL_SEASONS})"
+show = "Dimension 20"
+live = true
+type = ["episode", "special", "bts", "trailer"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, and behind-the-scenes videos) from ${SEASONS} live performances of Dimension 20. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
 name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS})"
 show = "Critical Role"

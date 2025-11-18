@@ -2952,6 +2952,19 @@ videos:
 
 ---
 
+name:        'Dimension 20: Live Shows (All Episodes and Extras)'
+description: |
+  3-hour playlist of 2 episodes and 1 extras (talkbacks, trailers, and behind-the-scenes videos) from 2 live performances of Dimension 20. 1 video is free and 2 require a @Dropout channel membership on YouTube.
+
+  Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+playlistId:  todo-d20-live-shows
+videos:
+  fi9jQrvdAuY: 'Dimension 20: Time Quangle Trailer'
+  Agd9-pmlC1U: 'Quangle in Queal Quife | Dimension 20: Time Quangle | Ep. 1'
+  s3XsXjWo2qs: 'Betrayed by Live Theatre | Dimension 20: Time Quangle | Ep. 2'
+
+---
+
 name:        'Critical Role: Exandria Unlimited: Calamity (All Episodes and Extras)'
 description: |
   22-hour playlist of 4 episodes and 2 extras from Exandria Unlimited: Calamity, a Critical Role campaign.

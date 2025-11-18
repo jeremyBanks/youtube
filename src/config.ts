@@ -56,6 +56,7 @@ const AggregateConfigToml = z.record(
     world: z.string().array().or(z.string()).optional(),
     cast: z.string().array().or(z.string()).optional(),
     season: z.string().array().or(z.string()).optional(),
+    live: z.boolean().optional(),
     free: z.boolean().optional(),
     skip: z.boolean().optional(),
   })
@@ -70,6 +71,7 @@ type AggregateConfig = Array<{
   worlds?: Array<string>;
   seasons?: Array<string>;
   casts?: Array<string>;
+  live?: boolean;
   free?: boolean;
   skip?: boolean;
 }>;
@@ -109,6 +111,7 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
         seasons: aggregateConfig.season
           ? [aggregateConfig.season].flat(2)
           : undefined,
+        live: aggregateConfig.live,
         free: aggregateConfig.free,
         skip: aggregateConfig.skip,
       });
@@ -123,6 +126,7 @@ const SeasonsCurationYaml = z.array(
     season: z.string().optional(),
     cast: z.string().optional(),
     world: z.string().optional(),
+    live: z.boolean().optional(),
     videos: z.array(
       z.object({
         published: z.date().optional(), // XXX: should this be optional?

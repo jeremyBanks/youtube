@@ -60,6 +60,11 @@ async function main() {
       ) {
         continue;
       }
+      if (
+        config.live !== undefined && season.live !== config.live
+      ) {
+        continue;
+      }
 
       if (season.season) {
         seasonCount += 1;

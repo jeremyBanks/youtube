@@ -4508,6 +4508,7 @@ videos:
 show: Dimension 20
 season: Time Quangle
 cast: Intrepid Heroes
+live: true
 videos:
   - trailer: "Dimension 20: Time Quangle Trailer"
     public: fi9jQrvdAuY
@@ -4573,6 +4574,7 @@ season: Gauntlet at the Garden
 show: Dimension 20
 cast: Intrepid Heroes
 world: The Unsleeping City
+live: true
 videos: []
 # TODO: Add episode when video IDs are available from scan
 # - episode: Gauntlet at the Garden (Live From Madison Square Garden)

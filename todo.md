@@ -46,6 +46,11 @@ This branch: `claude/add-channel-list-012G76JY5jin6bVLGsqS6EPp`
 - [ ] Create interactive tools for semi-automated curation in `curation/seasons.yaml`
 - [ ] Build validation to ensure curation data quality
 
+### 5. Support Playlists Without Playlist IDs
+- [ ] Allow playlists to be defined in config without a playlist ID
+- [ ] Skip these playlists when running `deno task publish`
+- [ ] Consider: Auto-create playlists via API and insert generated playlist ID back into config
+
 ## Completed
 - [x] Set up Deno and verify project runs
 - [x] Implement headless OAuth flow (`--headless` and `--auth-url` flags)

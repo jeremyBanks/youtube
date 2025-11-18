@@ -394,7 +394,7 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """
 
-[""]
+[todo-gauntlet-at-the-garden]
 name = "Dimension 20: Gauntlet at the Garden (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Gauntlet at the Garden"
@@ -405,18 +405,18 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Gauntle
 ${D20_PLUG}
 """
 
-[none]
+[todo-titan-takedown]
 name = "Dimension 20: Titan Takedown (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Titan Takedown"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Titan Takedown, a WWE crossover campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Titan Takedown, a Dimension 20 campaign featuring WWE Superstars Bayley, Chelsea Green, Xavier Woods, and Kofi Kingston. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
 
-[null-cloudward]
+[todo-cloudward-ho]
 name = "Dimension 20: Cloudward, Ho! (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Cloudward, Ho!"
@@ -428,21 +428,21 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Cloudwa
 ${D20_PLUG}
 """
 
-[null-nobody-asked]
+[todo-nobody-asked]
 name = "Nobody Asked (${ALL_SEASONS})"
 show = "Nobody Asked"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Nobody Asked, a mock investigative reporting series where comedians tackle absurd questions with real science. ${MAYBE_MEMBERS_ONLY}
 """
 
-[null-parlor-room]
+[todo-parlor-room]
 name = "Parlor Room (${ALL_SEASONS})"
 show = "Parlor Room"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Parlor Room, where host Becca Scott and guests play board games and tabletop games. ${MAYBE_MEMBERS_ONLY}
 """
 
-[null-crowd-control]
+[todo-crowd-control]
 name = "Crowd Control (${ALL_SEASONS})"
 show = "Crowd Control"
 description = """

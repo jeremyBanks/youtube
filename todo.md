@@ -16,11 +16,12 @@ This branch: `claude/add-channel-list-012G76JY5jin6bVLGsqS6EPp`
 ### 2. Track Video Changes Between Scans
 - [ ] Design `changes.yaml` (or `updates.yaml`) format to track video additions/removals/modifications
 - [ ] Structure as YAML array where each scan appends a batch of changes
-- [ ] Each change entry should include:
-  - `added`: Videos that appeared since last publish
-  - `removed`: Videos that disappeared since last publish
-  - `modified`: Videos with updated metadata (treat as removal + addition)
-- [ ] Sort changes within each batch by video publication date (ascending)
+- [ ] Within each batch, group by video (not by operation type)
+- [ ] Each video entry can contain:
+  - `added`: The new version of the video data (for new or modified videos)
+  - `removed`: The old version of the video data (for deleted or modified videos)
+  - Modified videos have both `removed` (old version) and `added` (new version)
+- [ ] Sort videos within each batch by video publication date (ascending)
 - [ ] Append new batches to end of file (preserves chronological order of scans)
 - [ ] Clear/reset changes file when `deno task publish` runs successfully
 - [ ] Modify `scan.ts` to generate change tracking data

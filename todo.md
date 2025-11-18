@@ -47,8 +47,8 @@ This branch: `claude/add-channel-list-012G76JY5jin6bVLGsqS6EPp`
 - [ ] Build validation to ensure curation data quality
 
 ### 5. Support Playlists Without Playlist IDs
-- [ ] Allow playlists to be defined in config without a playlist ID
-- [ ] Skip these playlists when running `deno task publish`
+- [x] Allow playlists to be defined in config without a playlist ID
+- [x] Skip these playlists when running `deno task publish`
 - [ ] Consider: Auto-create playlists via API and insert generated playlist ID back into config
 
 ## Completed

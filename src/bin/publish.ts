@@ -9,6 +9,11 @@ async function main() {
   const playlists = await openPlaylistsStorage();
 
   for (const playlist of playlists) {
+    if (!playlist.playlistId) {
+      console.info(`Skipping ${playlist.name} (no playlist ID)`);
+      continue;
+    }
+
     console.info(`Publishing ${playlist.name} (${playlist.playlistId})`);
 
     const videoIds = Object.keys(playlist.videos);

@@ -62,7 +62,7 @@ const AggregateConfigToml = z.record(
     .strict(),
 );
 type AggregateConfig = Array<{
-  playlistId: string;
+  playlistId: string | null;
   name: string;
   description: string;
   shows?: Array<string>;
@@ -84,8 +84,13 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
       if (aggregateConfig.skip) {
         continue;
       }
+      // Allow empty string or special markers to indicate no playlist ID
+      const normalizedPlaylistId = (!playlistId || playlistId === "null" || playlistId === "none")
+        ? null
+        : playlistId;
+
       config.push({
-        playlistId,
+        playlistId: normalizedPlaylistId,
         name: aggregateConfig.name,
         description: aggregateConfig.description,
         shows: aggregateConfig.show

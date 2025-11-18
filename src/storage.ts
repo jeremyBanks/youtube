@@ -101,7 +101,7 @@ export const openScanStorage = () =>
 export const Playlist = z.object({
   name: z.string(),
   description: z.string(),
-  playlistId: z.string(),
+  playlistId: z.string().nullable(),
   videos: z.record(VideoId, z.string()),
 });
 export type Playlist = z.TypeOf<typeof Playlist>;

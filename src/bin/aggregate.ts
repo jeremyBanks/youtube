@@ -169,16 +169,10 @@ async function main() {
         String(seasonCount),
       ).replaceAll(
         "${ALL_EPISODES}",
-        extrasCount > 0
-          ? `${episodeCount} Episodes and ${extrasCount} Extras`
-          : `${episodeCount} Episodes`,
+        "All Episodes and Extras",
       ).replaceAll(
         "${ALL_SEASONS}",
-        seasonCount > 1
-          ? `${seasonCount} Seasons`
-          : extrasCount > 0
-          ? `${episodeCount} Episodes and ${extrasCount} Extras`
-          : `${episodeCount} Episodes`,
+        "All Episodes and Extras",
       )
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")

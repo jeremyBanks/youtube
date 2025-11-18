@@ -1,0 +1,52 @@
+# YouTube Playlist Manager - TODO
+
+This branch: `claude/add-channel-list-012G76JY5jin6bVLGsqS6EPp`
+
+## Immediate Tasks
+
+### 1. Run Initial Scan with Credentials
+- [ ] Transfer YouTube API credentials from local PC to Claude Code environment
+- [ ] Set up `.env` file with credentials (CLIENT_ID, PROJECT_ID, CLIENT_SECRET, API_KEY)
+- [ ] Run `deno task scan --headless` to get OAuth URL
+- [ ] Complete authentication with `--auth-url` parameter
+- [ ] Execute full channel scan to update video metadata (data hasn't been refreshed since March 2024)
+
+## Feature Development
+
+### 2. Track Video Changes Between Scans
+- [ ] Design `changes.yaml` (or `updates.yaml`) format to track video additions/removals/modifications
+- [ ] Structure as YAML array where each scan appends a batch of changes
+- [ ] Each change entry should include:
+  - `added`: Videos that appeared since last publish
+  - `removed`: Videos that disappeared since last publish
+  - `modified`: Videos with updated metadata (treat as removal + addition)
+- [ ] Sort changes within each batch by video publication date (ascending)
+- [ ] Append new batches to end of file (preserves chronological order of scans)
+- [ ] Clear/reset changes file when `deno task publish` runs successfully
+- [ ] Modify `scan.ts` to generate change tracking data
+- [ ] Modify `publish.ts` to clear changes after successful publish
+
+### 3. Automated Daily Scans
+- [ ] Create GitHub Actions workflow for daily cron job
+- [ ] Set up GitHub Secrets for YouTube API credentials
+- [ ] Implement headless authentication strategy for CI environment
+- [ ] Configure workflow to commit changes back to repository
+- [ ] Add error handling and notifications for failed scans
+- [ ] Consider rate limiting and quota management for YouTube API
+- **Note:** More complex due to OAuth requirements in headless environment - defer until after manual workflow is stable
+
+### 4. AI-Assisted Video Curation
+- [ ] Integrate Claude Code SDK for intelligent video categorization
+- [ ] Develop prompts/workflows to:
+  - Automatically categorize videos into seasons based on titles/descriptions
+  - Identify free vs members-only content equivalents
+  - Detect related videos across different playlists
+  - Suggest episode numbering and ordering
+- [ ] Create interactive tools for semi-automated curation in `curation/seasons.yaml`
+- [ ] Build validation to ensure curation data quality
+
+## Completed
+- [x] Set up Deno and verify project runs
+- [x] Implement headless OAuth flow (`--headless` and `--auth-url` flags)
+- [x] Run `aggregate` task successfully
+- [x] Update playlist templates to use "All Episodes and Extras" consistently

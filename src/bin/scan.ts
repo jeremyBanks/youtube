@@ -1,4 +1,5 @@
-import { channelMetadata, playlistVideos } from "../client.ts";
+import { parseArgs } from "@std/cli";
+import { channelMetadata, playlistVideos, setAuthMode } from "../client.ts";
 import { Scan, Video } from "../storage.ts";
 import { mapOptional, upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
@@ -11,6 +12,21 @@ if (import.meta.main) {
 
 /** Command-line entry point. */
 export async function main() {
+  const args = parseArgs(Deno.args, {
+    string: ["auth-url"],
+    boolean: ["headless"],
+    default: {
+      headless: false,
+    },
+  });
+
+  // Set authentication mode based on command-line arguments
+  if (args.headless) {
+    setAuthMode({ mode: "print-url-and-exit" });
+  } else if (args["auth-url"]) {
+    setAuthMode({ mode: "complete-with-url", redirectUrl: args["auth-url"] });
+  }
+
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
 

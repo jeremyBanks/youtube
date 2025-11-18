@@ -14,6 +14,17 @@ type AuthenticatedClient = {
   key: string;
 };
 
+type AuthMode =
+  | { mode: "interactive" } // Default: local server on localhost:8783
+  | { mode: "print-url-and-exit" } // Print auth URL and exit
+  | { mode: "complete-with-url"; redirectUrl: string }; // Complete auth with redirect URL
+
+let authMode: AuthMode = { mode: "interactive" };
+
+export function setAuthMode(mode: AuthMode) {
+  authMode = mode;
+}
+
 let authenticatedClient:
   | undefined
   | Promise<AuthenticatedClient>;
@@ -55,20 +66,46 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           redirect_uri: "http://localhost:8783",
         });
 
-        console.log("Please open this URL to authenticate:", authUrl);
+        let userAuthCode: string;
 
-        const userAuthCode: string = await new Promise((resolve) => {
-          const abort = new AbortController();
-          Deno.serve(
-            { signal: abort.signal, port: 8783, hostname: "localhost" },
-            (request) => {
-              const url = new URL(request.url);
-              resolve(url.searchParams.get("code")!);
-              delay(1024).then(() => abort.abort());
-              return new Response("Got it, thanks! You can close this window.");
-            },
-          );
-        });
+        if (authMode.mode === "print-url-and-exit") {
+          console.log("\n=== AUTHENTICATION REQUIRED ===");
+          console.log("Please open this URL in your browser to authenticate:");
+          console.log(authUrl);
+          console.log("\nAfter authenticating, you'll be redirected to a URL that won't load.");
+          console.log("Copy the full URL from your browser's address bar and run:");
+          console.log(`  deno task scan --auth-url="<paste-url-here>"\n`);
+          Deno.exit(0);
+        } else if (authMode.mode === "complete-with-url") {
+          const redirectUrl = authMode.redirectUrl;
+          const url = new URL(redirectUrl);
+          const code = url.searchParams.get("code");
+          if (!code) {
+            throw new Error(
+              `No authorization code found in URL. Expected URL with ?code=... parameter.\nReceived: ${redirectUrl}`,
+            );
+          }
+          userAuthCode = code;
+          console.log("✓ Authorization code received, completing authentication...");
+        } else {
+          // Interactive mode: local server
+          console.log("Please open this URL to authenticate:", authUrl);
+
+          userAuthCode = await new Promise((resolve) => {
+            const abort = new AbortController();
+            Deno.serve(
+              { signal: abort.signal, port: 8783, hostname: "localhost" },
+              (request) => {
+                const url = new URL(request.url);
+                resolve(url.searchParams.get("code")!);
+                delay(1024).then(() => abort.abort());
+                return new Response(
+                  "Got it, thanks! You can close this window.",
+                );
+              },
+            );
+          });
+        }
 
         const { tokens } = await auth.getToken(userAuthCode);
 

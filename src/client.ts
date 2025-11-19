@@ -43,6 +43,17 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
       redirectUri: "http://localhost:8783",
     });
 
+    // Load stored tokens from localStorage if they exist
+    if (localStorage.clientAccessToken && localStorage.clientRefreshToken) {
+      auth.setCredentials({
+        token_type: "Bearer",
+        scope: "https://www.googleapis.com/auth/youtube",
+        access_token: localStorage.clientAccessToken,
+        refresh_token: localStorage.clientRefreshToken,
+        expiry_date: localStorage.clientExpiryDate,
+      });
+    }
+
     await spinning("authenticating...", async () => {
       if (
         await auth.getAccessToken().then(
@@ -126,9 +137,14 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
 
         const tokens = await tokenResponse.json();
 
+        // Calculate expiry date from expires_in (seconds)
+        const expiryDate = tokens.expires_in
+          ? Date.now() + (tokens.expires_in * 1000)
+          : undefined;
+
         localStorage.clientAccessToken = tokens.access_token;
         localStorage.clientRefreshToken = tokens.refresh_token;
-        localStorage.clientExpiryDate = tokens.expiry_date;
+        localStorage.clientExpiryDate = expiryDate;
 
         auth.setCredentials({
           token_type: "Bearer",
@@ -189,7 +205,7 @@ export async function playlistMetadata(
 export async function* playlistVideos(playlistId: string, opts: {
   getDetails?: boolean;
 } = {}) {
-  const { youtube, key } = await getClientAuthAndKey();
+  const { youtube, key, auth } = await getClientAuthAndKey();
 
   let pageToken: string | undefined = undefined;
 
@@ -203,8 +219,14 @@ export async function* playlistVideos(playlistId: string, opts: {
       maxResults: "50",
       ...(pageToken ? { pageToken } : {}),
     });
+    const accessToken = await auth.getAccessToken();
     const playlistResponse = await fetch(
       `https://youtube.googleapis.com/youtube/v3/playlistItems?${params}`,
+      {
+        headers: {
+          "Authorization": `Bearer ${accessToken.token}`,
+        },
+      },
     );
     if (!playlistResponse.ok) {
       const errorText = await playlistResponse.text();
@@ -231,8 +253,14 @@ export async function* playlistVideos(playlistId: string, opts: {
           key,
           maxResults: "50",
         });
+        const accessToken = await auth.getAccessToken();
         const videosResponse = await fetch(
           `https://youtube.googleapis.com/youtube/v3/videos?${videoParams}`,
+          {
+            headers: {
+              "Authorization": `Bearer ${accessToken.token}`,
+            },
+          },
         );
         if (!videosResponse.ok) {
           const errorText = await videosResponse.text();

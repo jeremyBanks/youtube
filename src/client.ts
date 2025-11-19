@@ -103,7 +103,28 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           });
         }
 
-        const { tokens } = await auth.getToken(userAuthCode);
+        // Use Deno's native fetch instead of googleapis OAuth client
+        // because the npm package's node-fetch doesn't work in this environment
+        const tokenResponse = await fetch("https://oauth2.googleapis.com/token", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({
+            code: userAuthCode,
+            client_id: Deno.env.get("YOUTUBE_CLIENT_ID")!,
+            client_secret: Deno.env.get("YOUTUBE_CLIENT_SECRET")!,
+            redirect_uri: "http://localhost:8783",
+            grant_type: "authorization_code",
+          }),
+        });
+
+        if (!tokenResponse.ok) {
+          const errorText = await tokenResponse.text();
+          throw new Error(
+            `OAuth token exchange failed: ${tokenResponse.status} ${tokenResponse.statusText}\n${errorText}`,
+          );
+        }
+
+        const tokens = await tokenResponse.json();
 
         localStorage.clientAccessToken = tokens.access_token;
         localStorage.clientRefreshToken = tokens.refresh_token;

@@ -31,8 +31,8 @@ This branch: `claude/add-channel-list-012G76JY5jin6bVLGsqS6EPp`
 - [ ] Append new batches to end of file (preserves chronological order of scans)
 - [ ] Modify `scan.ts` to generate change tracking data
 - [ ] Modify `publish.ts` to clear changes file ONLY after successful completion
-  - **Important:** Clear changes at the END of publish after all playlists update
-    successfully, not at the start
+  - **Important:** Clear changes at the END of publish after all playlists
+    update successfully, not at the start
   - If publish fails partway through, changes should be preserved for next run
 
 ### 3. Automated Daily Scans

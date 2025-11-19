@@ -30,5 +30,8 @@
     "rules": {
       "exclude": ["require-await"]
     }
+  },
+  "fmt": {
+    "exclude": ["data/"]
   }
 }

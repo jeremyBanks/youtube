@@ -14,9 +14,10 @@ if (import.meta.main) {
 export async function main() {
   const args = parseArgs(Deno.args, {
     string: ["auth-url"],
-    boolean: ["headless"],
+    boolean: ["headless", "incremental-only"],
     default: {
       headless: false,
+      "incremental-only": false,
     },
   });
 
@@ -46,7 +47,22 @@ export async function main() {
 
     let stopAt: Date;
 
-    if (
+    if (args["incremental-only"]) {
+      // Incremental-only mode: skip channels never scanned, only scan back to last scan
+      if (!lastScan) {
+        console.info(
+          `Skipping ${channelHandle} (never scanned, use without --incremental-only for initial scan)`,
+        );
+        continue;
+      }
+      if (
+        new Date(config.maxIncrementalAge.epochMilliseconds) <=
+          lastScan.scannedAt
+      ) {
+        continue; // Skip if incremental scan not needed yet
+      }
+      stopAt = lastScan.scannedAt;
+    } else if (
       !lastCompleteScan || !lastScan ||
       (new Date(config.maxCompleteAge.epochMilliseconds) >
         lastCompleteScan.scannedAt)

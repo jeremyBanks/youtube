@@ -159,15 +159,29 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   })());
 };
 
-export async function playlistMetadata(playlistId: string) {
+export async function playlistMetadata(
+  playlistId: string,
+): Promise<googleapis.youtube_v3.Schema$Playlist> {
   const { youtube, key } = await getClientAuthAndKey();
 
   console.debug(`youtube.playlists.list...`);
-  const response = await youtube.playlists.list({
-    id: [playlistId],
-    part: ["snippet", "contentDetails"],
+  // Use native fetch instead of googleapis library due to node-fetch DNS issues
+  const params = new URLSearchParams({
+    id: playlistId,
+    part: "snippet,contentDetails",
     key,
   });
+  const playlistResponse = await fetch(
+    `https://youtube.googleapis.com/youtube/v3/playlists?${params}`,
+  );
+  if (!playlistResponse.ok) {
+    const errorText = await playlistResponse.text();
+    throw new Error(
+      `YouTube API playlists.list failed: ${playlistResponse.status} ${playlistResponse.statusText}\n${errorText}`,
+    );
+  }
+  const response: { data: googleapis.youtube_v3.Schema$PlaylistListResponse } =
+    { data: await playlistResponse.json() };
 
   return only(response.data?.items!);
 }
@@ -181,13 +195,24 @@ export async function* playlistVideos(playlistId: string, opts: {
 
   do {
     console.debug(`youtube.playlistItems.list...`);
-    const response = await youtube.playlistItems.list({
+    // Use native fetch instead of googleapis library due to node-fetch DNS issues
+    const params = new URLSearchParams({
       playlistId,
-      part: ["snippet", "contentDetails"],
+      part: "snippet,contentDetails",
       key,
-      maxResults: 50,
-      pageToken,
+      maxResults: "50",
+      ...(pageToken ? { pageToken } : {}),
     });
+    const playlistResponse = await fetch(
+      `https://youtube.googleapis.com/youtube/v3/playlistItems?${params}`,
+    );
+    if (!playlistResponse.ok) {
+      const errorText = await playlistResponse.text();
+      throw new Error(
+        `YouTube API playlistItems.list failed: ${playlistResponse.status} ${playlistResponse.statusText}\n${errorText}`,
+      );
+    }
+    const response = { data: await playlistResponse.json() };
 
     const details: Record<
       string,
@@ -195,14 +220,30 @@ export async function* playlistVideos(playlistId: string, opts: {
     > = {};
     if (opts.getDetails) {
       console.debug(`youtube.videos.list...`);
-      const detailResponse = await youtube.videos.list({
-        id: response.data.items?.map((item) => item.contentDetails?.videoId!),
-        part: ["snippet", "contentDetails", "statistics"],
-        key,
-        maxResults: 50,
-      });
-      for (const detailItem of detailResponse.data?.items ?? []) {
-        details[detailItem.id!] = detailItem;
+      // Use native fetch instead of googleapis library due to node-fetch DNS issues
+      const videoIds = response.data.items?.map((
+        item: googleapis.youtube_v3.Schema$PlaylistItem,
+      ) => item.contentDetails?.videoId!);
+      if (videoIds && videoIds.length > 0) {
+        const videoParams = new URLSearchParams({
+          id: videoIds.join(","),
+          part: "snippet,contentDetails,statistics",
+          key,
+          maxResults: "50",
+        });
+        const videosResponse = await fetch(
+          `https://youtube.googleapis.com/youtube/v3/videos?${videoParams}`,
+        );
+        if (!videosResponse.ok) {
+          const errorText = await videosResponse.text();
+          throw new Error(
+            `YouTube API videos.list failed: ${videosResponse.status} ${videosResponse.statusText}\n${errorText}`,
+          );
+        }
+        const detailResponse = { data: await videosResponse.json() };
+        for (const detailItem of detailResponse.data?.items ?? []) {
+          details[detailItem.id!] = detailItem;
+        }
       }
     }
 
@@ -252,42 +293,54 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
 
   const refreshedAt = new Date();
 
-  let result;
-
   console.debug(`youtube.channels.list...`);
+  // Use native fetch instead of googleapis library due to node-fetch DNS issues
+  let result: { data: googleapis.youtube_v3.Schema$ChannelListResponse };
+  const parts =
+    "brandingSettings,contentDetails,contentOwnerDetails,id,localizations,snippet,statistics,status,topicDetails";
   if (handle) {
-    result = await youtube.channels.list({
-      auth,
+    const channelParams = new URLSearchParams({
       forHandle: handle,
-      part: [
-        "brandingSettings",
-        "contentDetails",
-        "contentOwnerDetails",
-        "id",
-        "localizations",
-        "snippet",
-        "statistics",
-        "status",
-        "topicDetails",
-      ],
+      part: parts,
     });
+    const accessToken = await auth.getAccessToken();
+    const channelResponse = await fetch(
+      `https://youtube.googleapis.com/youtube/v3/channels?${channelParams}`,
+      {
+        headers: {
+          "Authorization": `Bearer ${accessToken.token}`,
+        },
+      },
+    );
+    if (!channelResponse.ok) {
+      const errorText = await channelResponse.text();
+      throw new Error(
+        `YouTube API channels.list failed: ${channelResponse.status} ${channelResponse.statusText}\n${errorText}`,
+      );
+    }
+    result = { data: await channelResponse.json() };
   } else {
     // XXX: this doesn't work for certain non-user channels like UCbwnaOxVtqUWmeJsdKTlqfg
-    result = await youtube.channels.list({
-      auth,
-      id: [channelId!],
-      part: [
-        "brandingSettings",
-        "contentDetails",
-        "contentOwnerDetails",
-        "id",
-        "localizations",
-        "snippet",
-        "statistics",
-        "status",
-        "topicDetails",
-      ],
+    const channelParams = new URLSearchParams({
+      id: channelId!,
+      part: parts,
     });
+    const accessToken = await auth.getAccessToken();
+    const channelResponse = await fetch(
+      `https://youtube.googleapis.com/youtube/v3/channels?${channelParams}`,
+      {
+        headers: {
+          "Authorization": `Bearer ${accessToken.token}`,
+        },
+      },
+    );
+    if (!channelResponse.ok) {
+      const errorText = await channelResponse.text();
+      throw new Error(
+        `YouTube API channels.list failed: ${channelResponse.status} ${channelResponse.statusText}\n${errorText}`,
+      );
+    }
+    result = { data: await channelResponse.json() };
   }
 
   const resultData = only(result.data.items!);

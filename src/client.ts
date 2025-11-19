@@ -114,37 +114,11 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           });
         }
 
-        // Use Deno's native fetch instead of googleapis OAuth client
-        // because the npm package's node-fetch doesn't work in this environment
-        const tokenResponse = await fetch("https://oauth2.googleapis.com/token", {
-          method: "POST",
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams({
-            code: userAuthCode,
-            client_id: Deno.env.get("YOUTUBE_CLIENT_ID")!,
-            client_secret: Deno.env.get("YOUTUBE_CLIENT_SECRET")!,
-            redirect_uri: "http://localhost:8783",
-            grant_type: "authorization_code",
-          }),
-        });
-
-        if (!tokenResponse.ok) {
-          const errorText = await tokenResponse.text();
-          throw new Error(
-            `OAuth token exchange failed: ${tokenResponse.status} ${tokenResponse.statusText}\n${errorText}`,
-          );
-        }
-
-        const tokens = await tokenResponse.json();
-
-        // Calculate expiry date from expires_in (seconds)
-        const expiryDate = tokens.expires_in
-          ? Date.now() + (tokens.expires_in * 1000)
-          : undefined;
+        const { tokens } = await auth.getToken(userAuthCode);
 
         localStorage.clientAccessToken = tokens.access_token;
         localStorage.clientRefreshToken = tokens.refresh_token;
-        localStorage.clientExpiryDate = expiryDate;
+        localStorage.clientExpiryDate = tokens.expiry_date;
 
         auth.setCredentials({
           token_type: "Bearer",
@@ -175,29 +149,15 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   })());
 };
 
-export async function playlistMetadata(
-  playlistId: string,
-): Promise<googleapis.youtube_v3.Schema$Playlist> {
+export async function playlistMetadata(playlistId: string) {
   const { youtube, key } = await getClientAuthAndKey();
 
   console.debug(`youtube.playlists.list...`);
-  // Use native fetch instead of googleapis library due to node-fetch DNS issues
-  const params = new URLSearchParams({
-    id: playlistId,
-    part: "snippet,contentDetails",
+  const response = await youtube.playlists.list({
+    id: [playlistId],
+    part: ["snippet", "contentDetails"],
     key,
   });
-  const playlistResponse = await fetch(
-    `https://youtube.googleapis.com/youtube/v3/playlists?${params}`,
-  );
-  if (!playlistResponse.ok) {
-    const errorText = await playlistResponse.text();
-    throw new Error(
-      `YouTube API playlists.list failed: ${playlistResponse.status} ${playlistResponse.statusText}\n${errorText}`,
-    );
-  }
-  const response: { data: googleapis.youtube_v3.Schema$PlaylistListResponse } =
-    { data: await playlistResponse.json() };
 
   return only(response.data?.items!);
 }
@@ -205,36 +165,19 @@ export async function playlistMetadata(
 export async function* playlistVideos(playlistId: string, opts: {
   getDetails?: boolean;
 } = {}) {
-  const { youtube, key, auth } = await getClientAuthAndKey();
+  const { youtube, key } = await getClientAuthAndKey();
 
   let pageToken: string | undefined = undefined;
 
   do {
     console.debug(`youtube.playlistItems.list...`);
-    // Use native fetch instead of googleapis library due to node-fetch DNS issues
-    const params = new URLSearchParams({
+    const response = await youtube.playlistItems.list({
       playlistId,
-      part: "snippet,contentDetails",
+      part: ["snippet", "contentDetails"],
       key,
-      maxResults: "50",
-      ...(pageToken ? { pageToken } : {}),
+      maxResults: 50,
+      pageToken,
     });
-    const accessToken = await auth.getAccessToken();
-    const playlistResponse = await fetch(
-      `https://youtube.googleapis.com/youtube/v3/playlistItems?${params}`,
-      {
-        headers: {
-          "Authorization": `Bearer ${accessToken.token}`,
-        },
-      },
-    );
-    if (!playlistResponse.ok) {
-      const errorText = await playlistResponse.text();
-      throw new Error(
-        `YouTube API playlistItems.list failed: ${playlistResponse.status} ${playlistResponse.statusText}\n${errorText}`,
-      );
-    }
-    const response = { data: await playlistResponse.json() };
 
     const details: Record<
       string,
@@ -242,36 +185,14 @@ export async function* playlistVideos(playlistId: string, opts: {
     > = {};
     if (opts.getDetails) {
       console.debug(`youtube.videos.list...`);
-      // Use native fetch instead of googleapis library due to node-fetch DNS issues
-      const videoIds = response.data.items?.map((
-        item: googleapis.youtube_v3.Schema$PlaylistItem,
-      ) => item.contentDetails?.videoId!);
-      if (videoIds && videoIds.length > 0) {
-        const videoParams = new URLSearchParams({
-          id: videoIds.join(","),
-          part: "snippet,contentDetails,statistics",
-          key,
-          maxResults: "50",
-        });
-        const accessToken = await auth.getAccessToken();
-        const videosResponse = await fetch(
-          `https://youtube.googleapis.com/youtube/v3/videos?${videoParams}`,
-          {
-            headers: {
-              "Authorization": `Bearer ${accessToken.token}`,
-            },
-          },
-        );
-        if (!videosResponse.ok) {
-          const errorText = await videosResponse.text();
-          throw new Error(
-            `YouTube API videos.list failed: ${videosResponse.status} ${videosResponse.statusText}\n${errorText}`,
-          );
-        }
-        const detailResponse = { data: await videosResponse.json() };
-        for (const detailItem of detailResponse.data?.items ?? []) {
-          details[detailItem.id!] = detailItem;
-        }
+      const detailResponse = await youtube.videos.list({
+        id: response.data.items?.map((item) => item.contentDetails?.videoId!),
+        part: ["snippet", "contentDetails", "statistics"],
+        key,
+        maxResults: 50,
+      });
+      for (const detailItem of detailResponse.data?.items ?? []) {
+        details[detailItem.id!] = detailItem;
       }
     }
 
@@ -321,54 +242,42 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
 
   const refreshedAt = new Date();
 
+  let result;
+
   console.debug(`youtube.channels.list...`);
-  // Use native fetch instead of googleapis library due to node-fetch DNS issues
-  let result: { data: googleapis.youtube_v3.Schema$ChannelListResponse };
-  const parts =
-    "brandingSettings,contentDetails,contentOwnerDetails,id,localizations,snippet,statistics,status,topicDetails";
   if (handle) {
-    const channelParams = new URLSearchParams({
+    result = await youtube.channels.list({
+      auth,
       forHandle: handle,
-      part: parts,
+      part: [
+        "brandingSettings",
+        "contentDetails",
+        "contentOwnerDetails",
+        "id",
+        "localizations",
+        "snippet",
+        "statistics",
+        "status",
+        "topicDetails",
+      ],
     });
-    const accessToken = await auth.getAccessToken();
-    const channelResponse = await fetch(
-      `https://youtube.googleapis.com/youtube/v3/channels?${channelParams}`,
-      {
-        headers: {
-          "Authorization": `Bearer ${accessToken.token}`,
-        },
-      },
-    );
-    if (!channelResponse.ok) {
-      const errorText = await channelResponse.text();
-      throw new Error(
-        `YouTube API channels.list failed: ${channelResponse.status} ${channelResponse.statusText}\n${errorText}`,
-      );
-    }
-    result = { data: await channelResponse.json() };
   } else {
     // XXX: this doesn't work for certain non-user channels like UCbwnaOxVtqUWmeJsdKTlqfg
-    const channelParams = new URLSearchParams({
-      id: channelId!,
-      part: parts,
+    result = await youtube.channels.list({
+      auth,
+      id: [channelId!],
+      part: [
+        "brandingSettings",
+        "contentDetails",
+        "contentOwnerDetails",
+        "id",
+        "localizations",
+        "snippet",
+        "statistics",
+        "status",
+        "topicDetails",
+      ],
     });
-    const accessToken = await auth.getAccessToken();
-    const channelResponse = await fetch(
-      `https://youtube.googleapis.com/youtube/v3/channels?${channelParams}`,
-      {
-        headers: {
-          "Authorization": `Bearer ${accessToken.token}`,
-        },
-      },
-    );
-    if (!channelResponse.ok) {
-      const errorText = await channelResponse.text();
-      throw new Error(
-        `YouTube API channels.list failed: ${channelResponse.status} ${channelResponse.statusText}\n${errorText}`,
-      );
-    }
-    result = { data: await channelResponse.json() };
   }
 
   const resultData = only(result.data.items!);

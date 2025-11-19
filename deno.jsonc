@@ -10,9 +10,9 @@
   "unstable": ["temporal"],
   "tasks": {
     "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts && deno lint && deno fmt --check",
-    "scan": "deno run --unsafely-ignore-certificate-errors --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
+    "scan": "DENO_TLS_CA_STORE=system deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
-    "publish": "deno run --unsafely-ignore-certificate-errors --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/publish.ts"
+    "publish": "DENO_TLS_CA_STORE=system deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/publish.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",

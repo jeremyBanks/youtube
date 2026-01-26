@@ -134,9 +134,16 @@ include = [{ show = "New Show" }]
 ```
 2. Run `deno task aggregate && deno task publish --create-missing`
 
+## Git Conventions
+
+Use `save` instead of `git commit` for committing changes:
+```bash
+save -m "Commit message here"
+```
+This automatically adds the Co-Authored-By tag. Commit frequently to checkpoint progress.
+
 ## Tips
 
-- Always commit frequently when making changes
 - Run `deno task aggregate` after editing seasons.yaml to verify changes
 - The `--no-fetch` flag on curate skips fetching video descriptions (faster)
 - Shorts channels have thousands of clips - focus on main channels for episodes

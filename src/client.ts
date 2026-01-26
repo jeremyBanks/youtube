@@ -300,6 +300,36 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
   return retrieved;
 }
 
+export async function createPlaylist(
+  title: string,
+  description: string,
+): Promise<string> {
+  const { youtube, auth, key } = await getClientAuthAndKey();
+
+  console.debug(`youtube.playlists.insert title: ${title}`);
+  const response = await youtube.playlists.insert({
+    auth,
+    key,
+    part: ["snippet", "status"],
+    requestBody: {
+      snippet: {
+        title,
+        description,
+      },
+      status: {
+        privacyStatus: "public",
+      },
+    },
+  });
+
+  const playlistId = response.data.id;
+  if (!playlistId) {
+    throw new Error("Failed to create playlist: no ID returned");
+  }
+
+  return playlistId;
+}
+
 export async function updatePlaylist(
   playlistId: string,
   title: string,
@@ -386,4 +416,40 @@ export async function updatePlaylist(
       });
     }
   }
+}
+
+export type VideoDetails = {
+  description: string;
+  tags?: string[];
+};
+
+export async function getVideoDetails(
+  videoIds: string[],
+): Promise<Map<string, VideoDetails>> {
+  const { youtube, key } = await getClientAuthAndKey();
+  const results = new Map<string, VideoDetails>();
+
+  // Process in batches of 50 (API limit)
+  for (let i = 0; i < videoIds.length; i += 50) {
+    const batch = videoIds.slice(i, i + 50);
+
+    console.debug(`youtube.videos.list (${batch.length} videos)...`);
+    const response = await youtube.videos.list({
+      id: batch,
+      part: ["snippet"],
+      key,
+      maxResults: 50,
+    });
+
+    for (const item of response.data?.items ?? []) {
+      if (item.id && item.snippet) {
+        results.set(item.id, {
+          description: item.snippet.description ?? "",
+          tags: item.snippet.tags ?? undefined,
+        });
+      }
+    }
+  }
+
+  return results;
 }

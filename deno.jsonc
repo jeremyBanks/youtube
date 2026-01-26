@@ -5,14 +5,16 @@
     "./youtube": "./src/youtube.ts",
     "./scan": "./src/bin/scan.ts",
     "./aggregate": "./src/bin/aggregate.ts",
-    "./publish": "./src/bin/publish.ts"
+    "./publish": "./src/bin/publish.ts",
+    "./curate": "./src/bin/seasoning.ts"
   },
   "unstable": ["temporal"],
   "tasks": {
-    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts && deno lint && deno fmt --check",
+    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/seasoning.ts && deno lint && deno fmt --check",
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
-    "publish": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/publish.ts"
+    "publish": "deno run --allow-read --allow-write=./data,./config --allow-env --allow-net ./src/bin/publish.ts",
+    "curate": "deno run --allow-read --allow-env --allow-net ./src/bin/seasoning.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",

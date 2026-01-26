@@ -33,12 +33,49 @@ function escapeRegExp(string: string): string {
 
 async function main() {
   const args = parseArgs(Deno.args, {
-    boolean: ["create-missing"],
-    default: { "create-missing": false },
+    boolean: ["create-missing", "help", "dry-run"],
+    string: ["playlist"],
+    default: { "create-missing": false, "dry-run": false },
   });
 
+  if (args.help) {
+    console.log(`Usage: deno task publish [options]
+
+Options:
+  --playlist=NAME    Only publish a specific playlist (by name or ID)
+  --create-missing   Create playlists that have no ID or start with 'todo-'
+  --dry-run          Show what would be done without making changes
+  --help             Show this help message
+`);
+    Deno.exit(0);
+  }
+
   const createMissing = args["create-missing"];
-  const playlists = await openPlaylistsStorage();
+  const dryRun = args["dry-run"];
+  const playlistFilter = args.playlist?.toLowerCase();
+  const allPlaylists = await openPlaylistsStorage();
+
+  // Filter to specific playlist if requested
+  const playlists = playlistFilter
+    ? allPlaylists.filter(
+        (p) =>
+          p.name.toLowerCase().includes(playlistFilter) ||
+          p.playlistId?.toLowerCase().includes(playlistFilter),
+      )
+    : allPlaylists;
+
+  if (playlistFilter && playlists.length === 0) {
+    console.error(`No playlist found matching: ${args.playlist}`);
+    console.error("Available playlists:");
+    for (const p of allPlaylists) {
+      console.error(`  - ${p.name} (${p.playlistId ?? "no ID"})`);
+    }
+    Deno.exit(1);
+  }
+
+  if (playlistFilter) {
+    console.info(`Filtered to ${playlists.length} playlist(s) matching "${args.playlist}"`);
+  }
 
   for (const playlist of playlists) {
     const isTodoPlaylist = playlist.playlistId?.startsWith("todo-");
@@ -47,6 +84,11 @@ async function main() {
     if (needsCreation) {
       if (!createMissing) {
         console.info(`Skipping ${playlist.name} (no playlist ID)`);
+        continue;
+      }
+
+      if (dryRun) {
+        console.info(`[DRY RUN] Would create playlist: ${playlist.name}`);
         continue;
       }
 
@@ -65,9 +107,14 @@ async function main() {
       playlist.playlistId = newPlaylistId;
     }
 
-    console.info(`Publishing ${playlist.name} (${playlist.playlistId})`);
-
     const videoIds = Object.keys(playlist.videos);
+
+    if (dryRun) {
+      console.info(`[DRY RUN] Would publish ${playlist.name} (${playlist.playlistId}) with ${videoIds.length} videos`);
+      continue;
+    }
+
+    console.info(`Publishing ${playlist.name} (${playlist.playlistId})`);
 
     await updatePlaylist(
       playlist.playlistId!,

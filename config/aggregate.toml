@@ -386,7 +386,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
-[todo-d20-live-shows]
+[PLObfuAmZm9pA67NSG335i9C82oN2mOeuc]
 name = "Dimension 20: Live Shows (${ALL_SEASONS})"
 show = "Dimension 20"
 live = true
@@ -405,7 +405,7 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """
 
-[todo-titan-takedown]
+[PLObfuAmZm9pBkqeNiz1HTbsg3r5cwiZzG]
 name = "Dimension 20: Titan Takedown (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Titan Takedown"
@@ -416,7 +416,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Titan T
 ${D20_PLUG}
 """
 
-[todo-cloudward-ho]
+[PLObfuAmZm9pDyJXm8ZSzke2hco8LTcH3a]
 name = "Dimension 20: Cloudward, Ho! (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Cloudward, Ho!"
@@ -428,21 +428,21 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Cloudwa
 ${D20_PLUG}
 """
 
-[todo-nobody-asked]
+[PLObfuAmZm9pCHD32Lg3ZYNL0NGEwRjH-A]
 name = "Nobody Asked (${ALL_SEASONS})"
 show = "Nobody Asked"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Nobody Asked, a mock investigative reporting series where comedians tackle absurd questions with real science. ${MAYBE_MEMBERS_ONLY}
 """
 
-[todo-parlor-room]
+[PLObfuAmZm9pCKmzmqJaEkRUfbUZnY1Kll]
 name = "Parlor Room (${ALL_SEASONS})"
 show = "Parlor Room"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Parlor Room, where host Becca Scott and guests play board games and tabletop games. ${MAYBE_MEMBERS_ONLY}
 """
 
-[todo-crowd-control]
+[PLObfuAmZm9pDYbAk-b98mrGHIq8HvTBQw]
 name = "Crowd Control (${ALL_SEASONS})"
 show = "Crowd Control"
 description = """

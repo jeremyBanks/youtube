@@ -170,3 +170,31 @@ export const GeneratorFunction = function* () {}
  */
 export const AsyncGeneratorFunction = async function* () {}
   .constructor as AsyncGeneratorFunctionConstructor;
+
+/** Retries an async function with exponential backoff. */
+export const retryWithBackoff = async <T>(
+  fn: () => Promise<T>,
+  options: {
+    maxRetries?: number;
+    initialDelayMs?: number;
+    onRetry?: (attempt: number, error: unknown) => void;
+  } = {},
+): Promise<T> => {
+  const { maxRetries = 4, initialDelayMs = 20000, onRetry } = options;
+
+  let lastError: unknown;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error;
+      if (attempt < maxRetries) {
+        const delayMs = initialDelayMs * (attempt + 1);
+        onRetry?.(attempt + 1, error);
+        console.info(`Retry ${attempt + 1}/${maxRetries} in ${delayMs / 1000}s...`);
+        await new Promise((resolve) => setTimeout(resolve, delayMs));
+      }
+    }
+  }
+  throw lastError;
+};

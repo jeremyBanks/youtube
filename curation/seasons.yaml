@@ -4500,7 +4500,7 @@ videos:
   - trailer: Gastronauts Trailer
     public: MQOd_hlDilE
     published: 2024-08-19
-  - episode: 1. "Make Love, Not S'mores"
+  - episode: 101. "Make Love, Not S'mores"
     members: "-KeU-wLqIfs"
     published: 2024-10-11
 
@@ -4584,47 +4584,921 @@ videos: []
 
 season: Titan Takedown
 show: Dimension 20
-videos: []
-# TODO: Add episodes when video IDs are available from scan
-# 4 episodes released Apr 2-23, 2025
+videos:
+  - episode: 1. Party Animals
+    members: v8gSKBWcgeQ
+    published: 2025-04-02
+  - episode: 2. Bouts and Boogies
+    members: 2zutzcnfnVI
+    published: 2025-04-09
+  - episode: 3. A Bird in the Hand
+    members: SXJxgrr9OC0
+    published: 2025-04-16
+  - episode: 4. Hope and Heroism
+    members: bUwrI1e-6-I
+    published: 2025-04-23
 
 ---
 
 season: Cloudward, Ho!
 show: Dimension 20
 cast: Intrepid Heroes
-videos: []
-# TODO: Add episodes when video IDs are available from scan
-# 10+ episodes starting Jun 4, 2025
+videos:
+  - episode: 1. On High We Go
+    members: tvtNhxKo--c
+    published: 2025-06-04
+  - episode: 2. The Path Out of Gath
+    members: w4nJTt_gGQc
+    published: 2025-06-11
+  - episode: 3. Secrets at the South Pole Station
+    members: ktDe8CU7LHs
+    published: 2025-06-18
+  - episode: 4. Beyond the Biangle
+    members: D8g5EFJHsmg
+    published: 2025-06-25
+  - episode: 5. A Tussle in Tabira City
+    members: bfSM22EFIWQ
+    published: 2025-07-02
+  - episode: 6. Raptors at Ramansu
+    members: db5yJ6R99R0
+    published: 2025-07-09
+  - episode: 7. Melee Among the Magnamensa
+    members: QSPcXVudLR8
+    published: 2025-07-16
+  - episode: 8. Mysteries and The Metal Man
+    members: XIYXjIwnx1M
+    published: 2025-07-23
+  - episode: 9. A Clockwork Crew Rendezvous
+    members: LMBO9KyfSz0
+    published: 2025-07-30
+  - episode: 10. Skirmish Above the Swirling Sea
+    members: JWVXdR2rkQs
+    published: 2025-08-06
+  - episode: 11. Enigmas at the Ectic Station
+    members: nEad-xwNHFQ
+    published: 2025-08-20
+  - episode: 12. An Odious Occurrence in Oda
+    members: 5wtuyAEMPpg
+    published: 2025-08-27
+  - episode: 13. Eyeless Crisis at Katur
+    members: RZxec3jSPlg
+    published: 2025-09-03
+  - episode: 14. Mounting Mysteries at Mount Charuk
+    members: jgb5dPuXo7w
+    published: 2025-09-10
+  - episode: 15. Run-in with the Ruinous Queen
+    members: mRJg6D-6rIY
+    published: 2025-09-17
+  - episode: 16. A Fraught Forge in Zern
+    members: zRyHuRNl6Lg
+    published: 2025-09-24
+  - episode: 17. Revelations in the Ruins
+    members: HO0YolgLU9w
+    published: 2025-10-01
+  - episode: 18. A Curious Conclave in Zumhara
+    members: FEkMpVGQM7I
+    published: 2025-10-08
+  - episode: 19. The Straka Strikes
+    members: 4Xh6sUaxQw0
+    published: 2025-10-15
+  - episode: 20. Outward Past Beyond
+    members: Z5TQPQvt-Ik
+    published: 2025-10-22
 
 ---
 
 show: Very Important People
 season: Season 2
-videos: []
-# TODO: Add episodes when video IDs are available from scan
-# 16 episodes from Nov 7, 2024 through Jun 5, 2025
+videos:
+  - episode: 201. Zeke Aaron McKinley
+    members: BSGUZzqE4nY
+    published: 2024-11-08
+  - episode: 202. Hayes Steele
+    members: z4gOthfqCWk
+    published: 2024-11-23
+  - episode: 203. Jukebox
+    members: g4PHthu4SAY
+    published: 2024-12-06
+  - episode: 204. Fourth Witch
+    members: uG4kNSQXhlE
+    published: 2024-12-20
+  - episode: 205. Barbara and Bill
+    members: E7v8rNXM06Y
+    published: 2025-01-03
+  - episode: 206. Ta'Tania Jackson
+    members: wNQGE6lKtRg
+    published: 2025-01-17
+  - episode: 207. Phoenix
+    members: _WZrmFhy0fc
+    published: 2025-01-31
+  - episode: 208. David Hoyle Jr.
+    members: ZbRBEsrkheU
+    published: 2025-02-14
+  - episode: 209. Steffi Pops
+    members: L34s9gXm5oQ
+    published: 2025-02-28
+  - episode: 210. Dan Wesley Sharron
+    members: hJkD4X5-kyA
+    published: 2025-03-13
+  - episode: 211. Skyler DeMarco
+    members: XyXEGfaSa8g
+    published: 2025-03-27
+  - episode: 212. Jordache
+    members: gXLaRZss7Pc
+    published: 2025-04-10
+  - episode: 213. Claude McCaw
+    members: AKRok4Yn0ws
+    published: 2025-04-24
+  - episode: 214. Greg and Charlotte Excitement
+    members: O4nsy1djsE0
+    published: 2025-05-08
+  - episode: 215. Candice
+    members: 3t1nQxTCsFk
+    published: 2025-05-22
+  - episode: 216. Spencer
+    members: ZjQu_eFTnaU
+    published: 2025-06-05
+  - bts: Very Important Bonus Content (Season 2)
+    members: Z9Ral3wVDaY
+    published: 2025-06-19
 
 ---
 
 show: Nobody Asked
 season: Season 1
-videos: []
-# TODO: Add episodes when video IDs are available from scan
-# Started Nov 29, 2024, biweekly releases
+videos:
+  - episode: 101. Technically a Tenor, Comedians vs. Pro Athletes, Inflatable Jazz
+    members: k_twaN9Vjfo
+    published: 2024-12-20
+  - episode: 102. Paintball Picasso, Comedians vs. Pro Athletes 2, Dissecting the S
+    members: c00W3TBtimg
+    published: 2024-12-20
+  - episode: 103. Robocopulation, Comedians vs. Pro Athletes 3, Doomsday Wine
+    members: z9FTOnTf4pI
+    published: 2025-01-13
+  - episode: 104. Kink Outside the Box, Data Dash, Monochromo Sapiens
+    members: x8nYc39NMos
+    published: 2025-01-11
+  - episode: 105. Not So Fast, Comedians vs. Pro Athletes 4, Drink in Sync
+    members: Lb2NCC8lFY0
+    published: 2025-01-25
 
 ---
 
 show: Parlor Room
 season: Season 1
-videos: []
-# TODO: Add episodes when video IDs are available from scan
-# 11 episodes starting Apr 18, 2025
+videos:
+  - episode: 101. Wavelength
+    members: xaC_A2eEAIY
+    published: 2025-04-18
+  - episode: 102. Cash 'N Guns
+    members: w-XGl-C6_Nw
+    published: 2025-05-02
+  - episode: 103. Monikers
+    members: zN6n-JKPvhM
+    published: 2025-05-16
+  - episode: 104. Betrayal at House on the Hill
+    members: hS4w8XyTmEM
+    published: 2025-05-30
+  - episode: 105. Taboo
+    members: ldVrCqN9hrY
+    published: 2025-06-13
+  - episode: 106. Thirsty Sword Lesbians
+    members: IVpM_znQQgQ
+    published: 2025-06-27
+  - episode: 107. Beyond Balderdash
+    members: QWd1ZrsmyAQ
+    published: 2025-07-11
+  - episode: 108. Cosmic Encounter
+    members: xuljNkdZBiU
+    published: 2025-07-25
+  - episode: 109. Liar's Dice and Farkle
+    members: 4zqGuZ9JsCs
+    published: 2025-08-08
+  - episode: 110. Blood on the Clocktower (Part 1)
+    members: AFwTHnZRBek
+    published: 2025-08-22
+  - episode: 111. Blood on the Clocktower (Part 2)
+    members: arBlyHXufLM
+    published: 2025-08-29
 
 ---
 
 show: Crowd Control
 season: Season 1
-videos: []
-# TODO: Add episodes when video IDs are available from scan
-# Started Sep 8, 2025
+videos:
+  - episode: 101. Dangerous Hot Chocolate
+    members: IE4avw7DE9A
+    published: 2025-09-08
+  - episode: 102. Tiny Celebrity
+    members: lA1DQ2vKbB4
+    published: 2025-09-22
+  - episode: 103. This Bush Loves Bush
+    members: 9K5_-Q9aoGo
+    published: 2025-10-06
+  - episode: 104. Octopus Fight Club
+    members: ukdqLwTMKK0
+    published: 2025-10-20
+  - episode: 105. Writing "Partners"
+    members: BS-K4eR5e6I
+    published: 2025-11-04
+  - episode: 106. Have You Been Bad?
+    members: AbHYkc0CLhw
+    published: 2025-11-18
+
+---
+
+show: Game Changer
+season: Season 7
+videos:
+  - trailer: Game Changer Season 7 Teaser
+    public: D6vlxIwNHOo
+    published: 2025-01-20
+  - trailer: Game Changer Season 7 Trailer
+    public: 1eu0nZh9rfw
+    published: 2025-02-03
+  - episode: 701. One Year Later
+    members: SRGxg0tE1Oo
+    published: 2025-02-17
+  - episode: 702. You-lympics
+    members: wmxWsQmwuWY
+    published: 2025-02-24
+  - episode: 703. Earnest-est
+    members: cWzefwxs0sI
+    published: 2025-03-03
+  - episode: 704. Crowd Control
+    members: yHJ42w2Gllk
+    published: 2025-03-10
+  - episode: 705. The Drinking Game
+    members: "-OrTSllpPk0"
+    published: 2025-03-17
+  - episode: 706. One and Done
+    members: vibRAubBIMs
+    published: 2025-03-24
+  - episode: 707. Rulette
+    members: 1VDoyBxUZ0U
+    published: 2025-03-31
+  - episode: 708. Fool's Gold
+    members: YrJZjAae1WM
+    published: 2025-04-07
+  - episode: 709. Who Wants to Be Jacob Wysocki?
+    members: CgIoTygQoY4
+    published: 2025-04-14
+  - episode: 710. Outvoted
+    members: r1gxAM6IWis
+    published: 2025-04-28
+  - episode: 711. Samalamadingdong
+    members: OxPaVj1pXVA
+    published: 2025-05-12
+
+---
+
+show: Dirty Laundry
+season: Season 5
+videos:
+  - trailer: Dirty Laundry Season 5 Trailer
+    public: HHoGMR_qNpI
+    published: 2025-06-17
+  - episode: 501. Who Got Yelled at by a Real Housewife?
+    members: H_ItBC-NdO8
+    published: 2025-06-24
+  - episode: 502. Who Hooked Up with Someone They Met on the Plane?
+    members: HCTb7QP4D7Y
+    published: 2025-07-08
+  - episode: 503. Who Got Sued by McDonald's?
+    members: aL0oHk98SYs
+    published: 2025-07-22
+  - episode: 504. Who Stole Fire Extinguishers From a Hotel?
+    members: vE1PuqWHVNM
+    published: 2025-08-05
+  - episode: 505. Who Got Detained in a Foreign Country?
+    members: s4wf442wM8w
+    published: 2025-08-19
+  - episode: 506. Who Got Walked In on with Their Hair on Fire?
+    members: dGXM421HCok
+    published: 2025-09-02
+  - episode: 507. Whose Mom Outshined Them at a Dance Party?
+    members: 6W1ffB3Q_Cg
+    published: 2025-09-16
+  - episode: 508. Who Passed Out at a Movie Theater?
+    members: TKBPbjo2bkc
+    published: 2025-10-21
+  - episode: 509. Who Won a Stand-Off with a Popstar?
+    members: 3ZMszEGg3Sw
+    published: 2025-11-05
+  - episode: 510. Whose Mom Was an Accomplice to Armed Robbery?
+    members: v8OfBLjk2Bw
+    published: 2025-11-19
+  - episode: 511. Who Ended a Relationship Using Sorcery?
+    members: 0PZGdDOrfbQ
+    published: 2025-12-03
+  - episode: 512. Who Joined an Ex on Their Honeymoon?
+    members: V7NcBbTAQFY
+    published: 2025-12-17
+
+---
+
+show: Make Some Noise
+season: Season 4
+videos:
+  - episode: 401. The Noise Boys Ride Again
+    members: scIVn4N2u8E
+    published: 2025-10-13
+  - episode: 402. Lou, Ross, and Jiavani Drink Your Milkshake
+    members: ROV0NVBourk
+    published: 2025-10-27
+  - episode: 403. The Sneaky Girl Shuffle
+    members: T7gbx0f2eIM
+    published: 2025-11-11
+  - episode: 404. Zunk, Junk, and Dunk
+    members: 3F-Fv4Q2c5A
+    published: 2025-11-25
+  - episode: 405. Caitlin, Nick, and Geoff Take You to Church
+    members: QcjBI3Z5Wdw
+    published: 2025-12-09
+  - episode: 406. Josh, Anna, and Jiavani Make a Day Rate
+    members: ZTqTkd8hf58
+    published: 2025-12-23
+  - episode: 407. Ross, Echo, and Corin Try to Recruit You
+    members: zalg4Ul4__g
+    published: 2026-01-06
+  - episode: 408. Jacob, Kurt, and Angela Have Fun with Filters
+    members: q4O795J9O6A
+    published: 2026-01-20
+
+---
+
+show: Um, Actually
+season: Season 10
+videos:
+  - trailer: Um, Actually Season 10 Trailer
+    public: P3iP_an2bkU
+    published: 2025-01-07
+  - episode: 1001. Planet of the Apes, Deadpool, Alien
+    members: jCPgjWx1Dy0
+    published: 2025-02-05
+  - episode: 1002. R2D2, Dennis the Menace, Teenage Mutant Ninja Turtles
+    members: MwHHA50K04s
+    published: 2025-02-12
+  - episode: 1003. Gilmore Girls, Bratz, Totally Spies
+    members: Sz-fYGZvgUA
+    published: 2025-02-26
+  - episode: 1004. The Baby Bracket Volume 2
+    members: UewYDpB1UEU
+    published: 2025-03-11
+  - episode: 1005. Bowsette, Akira, Gen Con
+    members: 2CgIJrsPENU
+    published: 2025-03-25
+  - episode: 1006. Reality TV Volume 3
+    members: zu5f7fC4eUY
+    published: 2025-04-08
+  - episode: 1007. Wingspan, Matterhorn Bobsleds, Avatar The Way of Water
+    members: IhYN9WdDe1A
+    published: 2025-04-22
+  - episode: 1008. Delicious in Dungeon, X-Men '97, Fallout
+    members: ptnf_-lbYz0
+    published: 2025-05-06
+  - episode: 1009. SlayerFest '25
+    members: XinITDz3A6o
+    published: 2025-05-22
+  - episode: 1010. 90s Television
+    members: VFArmmbeMpU
+    published: 2025-06-03
+  - episode: 1011. House of the Dragon, Xena Warrior Princess, Cardcaptor Sakura
+    members: RN5hySibBjM
+    published: 2025-06-17
+  - episode: 1012. Terminally Online
+    members: Bv_vxfaxVPc
+    published: 2025-07-01
+
+---
+
+show: Um, Actually
+season: Season 11
+videos:
+  - trailer: Um, Actually Season 11 Trailer
+    public: JWXQSmB3Rso
+    published: 2026-01-06
+  - episode: 1101. Zig, Garrick, and Thundercat Weeb Out
+    members: "-gbKsTOGuh0"
+    published: 2026-01-21
+
+---
+
+show: Very Important People
+season: Season 3
+videos:
+  - trailer: Very Important People Season 3 Teaser
+    public: eXyEyWEt4uw
+    published: 2025-11-06
+  - trailer: Very Important People Season 3 Trailer
+    public: kvjWaYi9tMQ
+    published: 2025-11-20
+  - episode: 301. Mother Hot Dog
+    members: zFNTdKaOCqQ
+    published: 2025-12-05
+  - episode: 302. Boris Tarshkokan
+    members: cxV7NiFAMDU
+    published: 2025-12-19
+  - episode: 303. Archimedes and Ollie
+    members: pUhcWQPb57I
+    published: 2026-01-02
+  - episode: 304. Fanoli
+    members: KD1Mk7Obz0Q
+    published: 2026-01-16
+
+---
+
+show: Gastronauts
+season: Season 2
+videos:
+  - trailer: Gastronauts Season 2 Trailer
+    public: t8ggBrRrFS4
+    published: 2025-08-01
+  - episode: 201. Too Goo to Be True
+    members: 4hlzZ7v3_xM
+    published: 2025-08-15
+  - episode: 202. A Bone-afide Delight
+    members: XgaTaC6kqOI
+    published: 2025-08-29
+  - episode: 203. Let's Get Physical
+    members: Zegfz3eGfuk
+    published: 2025-09-12
+  - episode: 204. I'll Know It When I Taste It
+    members: HFfFqsy_xXU
+    published: 2025-09-26
+  - episode: 205. Car-Rib-Bean
+    members: jmUvRDv_eQI
+    published: 2025-10-10
+  - episode: 206. Now That's a Good Chef, Yum!
+    members: qrq4QnVpbec
+    published: 2025-10-24
+  - episode: 207. Business in the Front, Party in the Back
+    members: 0mD2tK6OREI
+    published: 2025-11-08
+  - episode: 208. Doggone Good
+    members: zciZWIACiS8
+    published: 2025-11-22
+  - episode: 209. The World Is Your Beard
+    members: CaY4HvMgyOY
+    published: 2025-12-06
+  - episode: 210. Incog-Eato
+    members: kuxUMFYsuvg
+    published: 2025-12-20
+
+---
+
+show: Smartypants
+season: Season 2
+videos:
+  - episode: 201. Standardization, Dogs, Procrastination
+    members: mmTsctlhj9E
+    published: 2025-03-07
+  - episode: 202. Food Captain, Names, Action Star
+    members: NLz-ZXTKNEs
+    published: 2025-03-20
+  - episode: 203. Hip Hop, Intimacy, Hot Dogs
+    members: bjfqAa4Txxc
+    published: 2025-04-03
+  - episode: 204. February, Concerts, Monsters
+    members: 5qzJXQmavNM
+    published: 2025-04-17
+  - episode: 205. Grocery Stores, Society, Parents
+    members: NlS4TPTgD1s
+    published: 2025-05-01
+  - episode: 206. Crows, Anime, Parties
+    members: yPXOLCoIRhU
+    published: 2025-05-15
+  - episode: 207. Bullying, Bedbugs, Kissing
+    members: qBO5tKNSvoQ
+    published: 2025-05-29
+  - episode: 208. Second Families, Sacagawea, Linda Hamilton
+    members: touXq4M3g8c
+    published: 2025-06-17
+  - episode: 209. Uniforms, Therapy, Reboots
+    members: X8woaGtAL8I
+    published: 2025-06-26
+  - episode: 210. Smoking, Movies, Cooking
+    members: N9FRpq-Hz8I
+    published: 2025-07-10
+  - episode: 211. Outer Space, Child Labor, The Alphabet
+    members: lVNqvnt2mNY
+    published: 2025-07-24
+  - episode: 212. Cereal Mascots, Categorization, Cult Classics
+    members: 5Q3v28x5h3s
+    published: 2025-08-07
+  - episode: 213. Dinner Parties, Variants, Men
+    members: fbxbuLmgoZs
+    published: 2025-08-21
+  - episode: 214. Stereotypes, Tardiness, Reality TV
+    members: exxeaZfFQa8
+    published: 2025-09-04
+  - episode: 215. Puzzles, Siblings, Mysteries
+    members: ADazo8yYDjc
+    published: 2025-09-18
+
+---
+
+show: Adventuring Academy
+season: Season 6
+videos:
+  - episode: 601. Hindsight Is Rose-Colored Glasses (with Izzy Roland)
+    members: 1yqCQ2F1HKo
+    published: 2025-04-29
+  - episode: 602. All Games Are Beautiful (with Erika Ishii)
+    members: 0TKghSOwFUc
+    published: 2025-05-27
+  - episode: 603. Normal People Worry Me (with Jacob Wysocki)
+    members: qfATfKjN5l8
+    published: 2025-06-20
+  - episode: 604. Geek Out a Living (with Danielle Radford)
+    members: "-bGgVwOEvGg"
+    published: 2025-08-01
+  - episode: 605. Finding Heroes in Each Other (with Luis Carazo)
+    members: RQh6ioELnTE
+    published: 2025-10-03
+  - episode: 606. Be Yourself Everyone Else Is Taken (with Ally Beardsley)
+    members: hsWbL9xEJ94
+    published: 2025-11-07
+
+---
+
+show: Dimension 20
+season: Gladlands
+videos:
+  - episode: 1. Welcome to the Wastes
+    members: Qa3jfjkJ7d4
+    published: 2026-01-08
+  - episode: 2. Fake It Till You Fake It
+    members: UJk8cjr7p7o
+    published: 2026-01-15
+  - episode: 3. Collabotage
+    members: _1dyX19xFzU
+    published: 2026-01-22
+
+---
+
+show: Adventuring Party
+season: Season 18
+videos:
+  - episode: 1804. The Funny Season
+    members: bgRkzG6leLo
+    published: 2024-10-17
+  - episode: 1805. How to Save a Life
+    members: 4jGybt88qeI
+    published: 2024-10-24
+  - episode: 1806. I'm a Good Boy
+    members: 3TdkMbwYcOk
+    published: 2024-10-31
+  - episode: 1807. Pigeon Lord Ishii
+    members: PxXQarS_uao
+    published: 2024-11-07
+  - episode: 1808. Fighting for Bottom, Baby
+    members: "-NoT_XXz0CQ"
+    published: 2024-11-14
+  - episode: 1809. Evan Kelmp Smells Like Cocoa Butter
+    members: dQohfWQRkeA
+    published: 2024-11-21
+  - episode: 1810. Making the Magic
+    members: NY-91_BTBE4
+    published: 2024-11-28
+  - episode: 1811. The Casablanca of It All
+    members: j_26Lp7JGok
+    published: 2024-12-05
+
+---
+
+show: Adventuring Party
+season: Season 19
+videos:
+  - episode: 1901. She is the Tower of Babel
+    members: xA5R4-Mge_A
+    published: 2025-01-09
+  - episode: 1902. Fae-by, Fae-by, Fae-by, Oh
+    members: XiD9fiJSibg
+    published: 2025-01-16
+  - episode: 1903. She's a Brick Orc
+    members: BRkD4_959zo
+    published: 2025-01-23
+  - episode: 1904. Monét Will Say Anything
+    members: Awmu_wYx9dM
+    published: 2025-01-30
+  - episode: 1905. Twyla's Twine Time
+    members: b81h_4rCB04
+    published: 2025-02-06
+  - episode: 1906. Just in the Nick of Twine
+    members: MAyxzxU0LSw
+    published: 2025-02-13
+
+---
+
+show: Adventuring Party
+season: Season 20
+videos:
+  - episode: 2001. Cat's Out of the Bag
+    members: YDdcI7bMa9E
+    published: 2025-04-03
+  - episode: 2002. A Dry January Rube Goldberg Machine
+    members: Vw01tekQROU
+    published: 2025-04-10
+  - episode: 2003. A Cheeseburger Intimidation Check
+    members: mO2JYe8A2TE
+    published: 2025-04-17
+  - episode: 2004. Hotties and Hot Hearts
+    members: CO673qHVxYE
+    published: 2025-04-24
+
+---
+
+show: Adventuring Party
+season: Season 21
+videos:
+  - episode: 2101. Pure Whimsy
+    members: LgapHYvZLZE
+    published: 2025-06-05
+  - episode: 2102. Meaty, Meaty Combat
+    members: "-6zzI34knAg"
+    published: 2025-06-12
+  - episode: 2103. Wonder Awaits
+    members: 4kWwsu-XE4E
+    published: 2025-06-19
+  - episode: 2104. Rachael Ray Ramantsu
+    members: xHeYGuMXhN4
+    published: 2025-06-26
+  - episode: 2105. Two Guys and a Brachiosaurus
+    members: mmNiyIn-fn4
+    published: 2025-07-03
+  - episode: 2106. Skanking in Crocs
+    members: p0W_aeZFxmo
+    published: 2025-07-10
+  - episode: 2107. When the Aioli Hits
+    members: G7jbcjoFVGc
+    published: 2025-07-17
+  - episode: 2108. My Britches Are Normal Sized
+    members: Iv4QtyYM6Go
+    published: 2025-07-24
+  - episode: 2109. Robot Equal Sexy or No?
+    members: q2eUv9pjIMw
+    published: 2025-07-31
+  - episode: 2110. Hashtag Wealwell Challenge
+    members: FHen45OvF1U
+    published: 2025-08-07
+  - episode: 2111. This is Aioli Energy
+    members: 2gK-uN0Y9cU
+    published: 2025-08-21
+  - episode: 2112. No Shirt, No Panties
+    members: 9kXDyW2EyZg
+    published: 2025-08-28
+  - episode: 2113. Embrace the Tentacle
+    members: um-5uCyKyBQ
+    published: 2025-09-04
+  - episode: 2114. A Moment of Smilence
+    members: pDbCV2bzBI8
+    published: 2025-09-11
+  - episode: 2115. The Sheet of Your Pants
+    members: tm4SYeB7JLQ
+    published: 2025-09-18
+  - episode: 2116. The Good Boy Adventuring Party
+    members: eAS6ebpi_GM
+    published: 2025-09-25
+  - episode: 2117. This One's for Daddy
+    members: 7PZGi0Plke0
+    published: 2025-10-02
+  - episode: 2118. Style Watch 2025
+    members: K9LhmpzM2sY
+    published: 2025-10-09
+  - episode: 2119. A Dirty Way to Say Biscuits
+    members: AmplBkzq2Yw
+    published: 2025-10-16
+  - episode: 2120. Santa the Whole Time
+    members: N_A0GcevULo
+    published: 2025-10-23
+  - episode: 2121. The Cloudward Crew Confers
+    members: Upip6gZ6mns
+    published: 2025-10-30
+
+---
+
+show: Adventuring Party
+season: Season 22
+videos:
+  - episode: 2201. A Bouquet of Teeth
+    members: VGzg8w_f5WU
+    published: 2026-01-08
+  - episode: 2202. I Will Try to Fix You
+    members: z_gtsGYNWDM
+    published: 2026-01-15
+  - episode: 2203. Right Past Titty Town
+    members: mZSaM3GaHOM
+    published: 2026-01-22
+
+---
+
+show: Fatal Decision
+season: Season 1
+videos:
+  - episode: 1. Operation Birthday Cake
+    members: iX6RGPjnfUY
+    published: 2024-11-11
+  - episode: 2. Extreme Interrogation (with Christina Hendricks)
+    members: Q9xD2DW3FMQ
+    published: 2024-11-11
+  - episode: 3. Perfect Partners... Until Death
+    members: NQ60whPO1O8
+    published: 2024-11-11
+  - episode: 4. Art Heist
+    members: 0EYjON-ev6A
+    published: 2024-11-11
+  - episode: 5. Get Ratchet
+    members: fbgsSiI7-V4
+    published: 2024-11-11
+  - episode: 6. Death by Pizza
+    members: gWk1lRhwY1s
+    published: 2024-11-18
+  - episode: 7. Captured
+    members: eLCN6Kmf7I0
+    published: 2024-11-18
+  - episode: 8. Bad Guy Bank
+    members: vjOlPDUG0_E
+    published: 2024-11-18
+  - episode: 9. Illegal Street Racing
+    members: tn6D7MBoKKo
+    published: 2024-11-18
+  - episode: 10. I'm Too Old for This Sh*t
+    members: oHyI7qZV3jM
+    published: 2024-11-18
+  - episode: 11. Ghost Kid
+    members: hojoRmzBQKY
+    published: 2024-11-25
+  - episode: 12. K-9 Witness
+    members: aUDQ23cI_k0
+    published: 2024-11-25
+  - episode: 13. Mr. Bombastic
+    members: cUJ9ND9aVvU
+    published: 2024-11-25
+  - episode: 14. License to Kill Renewal
+    members: qdmpNMGKEsE
+    published: 2024-11-25
+  - episode: 15. Miss Most Beautiful
+    members: DJxUoTp_R6k
+    published: 2024-11-25
+  - episode: 16. Vent Horizon
+    members: ghx8LNA8fyI
+    published: 2024-12-02
+  - episode: 17. Office Outbreak
+    members: DPPAQZvpqG8
+    published: 2024-12-02
+  - episode: 18. Suicide Vest
+    members: ITW0r6WmNOg
+    published: 2024-12-02
+  - episode: 19. One Shot
+    members: 3gv3W2ewZM0
+    published: 2024-12-02
+  - episode: 20. Party Bus One
+    members: F_5eQh-M3dU
+    published: 2024-12-02
+  - episode: 21. Substitute Jack
+    members: Tt5asuL9yuE
+    published: 2024-12-09
+  - episode: 22. How to Out a Rat
+    members: mmK6dRYa1Jg
+    published: 2024-12-09
+  - episode: 23. Hope Diamond
+    members: qHFjDxLUqEE
+    published: 2024-12-09
+  - episode: 24. Lost in Gangland
+    members: PvYcXF5I_LA
+    published: 2024-12-09
+  - episode: 25. War Stories
+    members: 17cZqmw1h3k
+    published: 2024-12-09
+  - episode: 26. Jack in the Computer
+    members: 8g2EpCVjdD0
+    published: 2024-12-16
+  - episode: 27. Hostage Situation
+    members: 4Vyfn3SvN7E
+    published: 2024-12-16
+  - episode: 28. The Great Jack Hunt
+    members: moNj5mF8Oa4
+    published: 2024-12-16
+  - episode: 29. Hot Licks and Cool Kicks
+    members: xzmT0qyHRM4
+    published: 2024-12-16
+  - episode: 30. Raging Jack
+    members: NFS3V9XYHx8
+    published: 2024-12-16
+  - episode: 31. Robot Training Day
+    members: isACND7ftAI
+    published: 2024-12-23
+  - episode: 32. Internal Affairs
+    members: VOASkpLITto
+    published: 2024-12-23
+  - episode: 33. Jack on Trial
+    members: qzozd5r1Nuc
+    published: 2024-12-23
+  - episode: 34. Freefall
+    members: kL68UxVNroc
+    published: 2024-12-23
+  - episode: 35. Undercover Family
+    members: GcdHsatooAY
+    published: 2024-12-23
+  - episode: 36. Space Gladiator
+    members: 7-HL9bAnF8Y
+    published: 2024-12-30
+  - episode: 37. Taylor Unlocked
+    members: UqYOF8dr1Og
+    published: 2024-12-30
+  - episode: 38. Christmas Special
+    members: z1ScS3YpSmU
+    published: 2024-12-30
+  - episode: 39. Scientifically Accurate Episode
+    members: UmB4ibVh5hY
+    published: 2024-12-30
+  - episode: 40. Colt Maxwell
+    members: iOOCbvem2e8
+    published: 2024-12-30
+  - episode: 41. Faces Off
+    members: GFH2ZyKIRDo
+    published: 2025-01-06
+  - episode: 42. Villain's Roost
+    members: 5G6gBLs2XxE
+    published: 2025-01-06
+  - episode: 43. Jack Gone Rogue
+    members: BM6DvYR0tYA
+    published: 2025-01-06
+  - episode: 44. Fatal Hospital
+    members: mR-8Kgdfaqc
+    published: 2025-01-06
+  - episode: 45. Copter Down
+    members: nDmp9R2LdBg
+    published: 2025-01-06
+  - episode: 46. Jack vs. The Asteroid
+    members: rYuPv2V-3aQ
+    published: 2025-01-13
+  - episode: 47. Jack Goes to Hell
+    members: Muz7b6fgJMg
+    published: 2025-01-13
+  - episode: 48. Vengeance Reborn
+    members: SPWtRqnwG_E
+    published: 2025-01-13
+  - episode: 49. Remembering Fatal Decision
+    members: Ooi8275f_58
+    published: 2025-01-13
+
+---
+
+show: Dimension 20
+season: Dungeons and Drag Queens (Chapter 2)
+videos:
+  - episode: 1. Princess and the Paramours
+    members: 0hKLieB6Di0
+    published: 2025-01-08
+  - episode: 2. Through the Venomlands
+    members: TM_8NyHC60Q
+    published: 2025-01-15
+  - episode: 3. Ice, Ice, Fae-by
+    members: l0zGy25NeTs
+    published: 2025-01-22
+  - episode: 4. Shady by the Sea
+    members: izDDp3pZI5k
+    published: 2025-01-29
+  - episode: 5. The Queens Take Matali
+    members: bZqDjr5I4_I
+    published: 2025-02-05
+  - episode: 6. The Battle for Darktide
+    members: Znmog0DLUSc
+    published: 2025-02-12
+
+---
+
+show: Game Changer Animated
+videos:
+  - episode: 3. Welcome to Mountport
+    members: 3FxTy9GsntY
+    published: 2025-03-14
+  - episode: 4. I'm Hungie
+    members: AbX7LOzYUpo
+    published: 2025-05-09
+  - episode: 5. Name That Bird
+    members: aGftn6ftdzI
+    published: 2025-07-18
+  - episode: 6. I'm a Professional
+    members: 5d8F7LsxzI0
+    published: 2025-10-15
+
+---
+
+show: Dimension 20 Animated
+videos:
+  - episode: 16. Barry Syx Confronts Barry Nyne
+    members: bI-JhKt_FK0
+    published: 2025-12-02
+  - episode: 17. Handy Andi CEO Crashes Out
+    members: 8vxb318J13A
+    published: 2025-12-16
+  - episode: 18. Proldier's License
+    members: JfJIblyX4Ks
+    published: 2025-12-30
+  - episode: 19. Operation Slippery Puppet
+    members: 9d9lEHoRr5c
+    published: 2026-01-13

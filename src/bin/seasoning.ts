@@ -13,16 +13,19 @@ if (import.meta.main) {
 
 async function main() {
   const args = parseArgs(Deno.args, {
-    string: ["channel", "since", "limit"],
+    string: ["since", "limit"],
     boolean: ["no-fetch", "help"],
-    default: { channel: undefined, since: undefined, limit: undefined },
+    collect: ["channel"],
+    default: { channel: [], since: undefined, limit: undefined },
   });
 
   if (args.help) {
     console.log(`Usage: deno task curate [options]
 
 Options:
-  --channel=HANDLE   Filter to specific channel (e.g., --channel=dropout)
+  --channel=HANDLE   Filter to specific channel(s). Can be repeated or comma-separated.
+                     e.g., --channel=dropout --channel=dimension20show
+                     e.g., --channel=dropout,dimension20show,umactually
   --since=DATE       Only show videos published after this date (e.g., --since=2024-01-01)
   --limit=N          Limit number of videos (default: no limit)
   --no-fetch         Skip fetching descriptions from YouTube API
@@ -34,7 +37,11 @@ Output is designed to give Claude all context needed to suggest categorizations.
   }
 
   const limit = args.limit ? parseInt(args.limit, 10) : undefined;
-  const channelFilter = args.channel?.toLowerCase();
+  // Support both repeated --channel flags and comma-separated values
+  const channelFilters = (args.channel as string[])
+    .flatMap((c) => c.split(","))
+    .map((c) => c.trim().toLowerCase())
+    .filter((c) => c.length > 0);
   const sinceFilter = args.since ? new Date(args.since) : undefined;
   const skipFetch = args["no-fetch"];
 
@@ -90,17 +97,20 @@ Output is designed to give Claude all context needed to suggest categorizations.
     }
   }
 
-  // Filter to target channel if specified
-  let targetChannelId: string | undefined;
-  if (channelFilter) {
-    targetChannelId = channelIdByHandle.get(channelFilter);
-    if (!targetChannelId) {
-      console.error(`Unknown channel: ${channelFilter}`);
-      console.error(
-        "Available channels:",
-        [...channelIdByHandle.keys()].filter(Boolean).sort().join(", "),
-      );
-      Deno.exit(1);
+  // Filter to target channels if specified
+  const targetChannelIds = new Set<string>();
+  if (channelFilters.length > 0) {
+    for (const channelFilter of channelFilters) {
+      const channelId = channelIdByHandle.get(channelFilter);
+      if (!channelId) {
+        console.error(`Unknown channel: ${channelFilter}`);
+        console.error(
+          "Available channels:",
+          [...channelIdByHandle.keys()].filter(Boolean).sort().join(", "),
+        );
+        Deno.exit(1);
+      }
+      targetChannelIds.add(channelId);
     }
   }
 
@@ -108,7 +118,9 @@ Output is designed to give Claude all context needed to suggest categorizations.
   let uncuratedVideos = allVideos.filter((video) => {
     if (curatedVideoIds.has(video.videoId)) return false;
     if (video.removedBefore) return false;
-    if (targetChannelId && video.channelId !== targetChannelId) return false;
+    if (targetChannelIds.size > 0 && !targetChannelIds.has(video.channelId)) {
+      return false;
+    }
     if (sinceFilter && video.publishedAt < sinceFilter) return false;
     return true;
   });
@@ -196,7 +208,9 @@ Output is designed to give Claude all context needed to suggest categorizations.
   console.log(`# ============================================================`);
   console.log(`# UNCURATED VIDEOS`);
   console.log(`# Total: ${uncuratedVideos.length} videos need categorization`);
-  if (channelFilter) console.log(`# Channel filter: ${channelFilter}`);
+  if (channelFilters.length > 0) {
+    console.log(`# Channel filter: ${channelFilters.join(", ")}`);
+  }
   if (sinceFilter) {
     console.log(`# Since: ${sinceFilter.toISOString().split("T")[0]}`);
   }

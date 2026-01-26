@@ -14,7 +14,7 @@
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
     "publish": "deno run --allow-read --allow-write=./data,./config --allow-env --allow-net ./src/bin/publish.ts",
-    "curate": "deno run --allow-read --allow-env --allow-net ./src/bin/seasoning.ts"
+    "curate": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/seasoning.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",

@@ -2,7 +2,7 @@ import * as googleapis from "googleapis";
 import * as dotenv from "@std/dotenv";
 import { delay } from "@std/async";
 
-import { spinning, truthy } from "./common.ts";
+import { retryWithBackoff, spinning, truthy } from "./common.ts";
 import { openChannelStorage } from "./storage.ts";
 import type { Channel } from "./storage.ts";
 import { only } from "./common.ts";
@@ -338,7 +338,16 @@ export async function updatePlaylist(
 ) {
   const { youtube, auth, key } = await getClientAuthAndKey();
 
-  const existingMetadata = await playlistMetadata(playlistId);
+  const existingMetadata = await retryWithBackoff(
+    () => playlistMetadata(playlistId),
+    {
+      maxRetries: 4,
+      initialDelayMs: 20000,
+      onRetry: (attempt, error) => {
+        console.warn(`Failed to fetch playlist metadata (attempt ${attempt}): ${error}`);
+      },
+    },
+  );
 
   const titleChanged = existingMetadata.snippet?.title?.trim() !== title.trim();
   const descriptionChanged =

@@ -191,7 +191,9 @@ export const retryWithBackoff = async <T>(
       if (attempt < maxRetries) {
         const delayMs = initialDelayMs * (attempt + 1);
         onRetry?.(attempt + 1, error);
-        console.info(`Retry ${attempt + 1}/${maxRetries} in ${delayMs / 1000}s...`);
+        console.info(
+          `Retry ${attempt + 1}/${maxRetries} in ${delayMs / 1000}s...`,
+        );
         await new Promise((resolve) => setTimeout(resolve, delayMs));
       }
     }

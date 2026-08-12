@@ -344,7 +344,9 @@ export async function updatePlaylist(
       maxRetries: 4,
       initialDelayMs: 20000,
       onRetry: (attempt, error) => {
-        console.warn(`Failed to fetch playlist metadata (attempt ${attempt}): ${error}`);
+        console.warn(
+          `Failed to fetch playlist metadata (attempt ${attempt}): ${error}`,
+        );
       },
     },
   );

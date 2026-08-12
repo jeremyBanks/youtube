@@ -58,10 +58,10 @@ Options:
   // Filter to specific playlist if requested
   const playlists = playlistFilter
     ? allPlaylists.filter(
-        (p) =>
-          p.name.toLowerCase().includes(playlistFilter) ||
-          p.playlistId?.toLowerCase().includes(playlistFilter),
-      )
+      (p) =>
+        p.name.toLowerCase().includes(playlistFilter) ||
+        p.playlistId?.toLowerCase().includes(playlistFilter),
+    )
     : allPlaylists;
 
   if (playlistFilter && playlists.length === 0) {
@@ -74,7 +74,9 @@ Options:
   }
 
   if (playlistFilter) {
-    console.info(`Filtered to ${playlists.length} playlist(s) matching "${args.playlist}"`);
+    console.info(
+      `Filtered to ${playlists.length} playlist(s) matching "${args.playlist}"`,
+    );
   }
 
   for (const playlist of playlists) {
@@ -110,7 +112,9 @@ Options:
     const videoIds = Object.keys(playlist.videos);
 
     if (dryRun) {
-      console.info(`[DRY RUN] Would publish ${playlist.name} (${playlist.playlistId}) with ${videoIds.length} videos`);
+      console.info(
+        `[DRY RUN] Would publish ${playlist.name} (${playlist.playlistId}) with ${videoIds.length} videos`,
+      );
       continue;
     }
 

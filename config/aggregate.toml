@@ -448,3 +448,39 @@ show = "Crowd Control"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Crowd Control, a stand-up crowd work competition series. ${MAYBE_MEMBERS_ONLY}
 """
+
+[todo-d20-city-council-of-darkness]
+name = "Dimension 20: City Council of Darkness (${ALL_SEASONS})"
+show = "Dimension 20"
+season = "City Council of Darkness"
+type = ["episode", "special", "bts", "trailer", "external"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from City Council of Darkness, a Vampire: The Masquerade campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
+[todo-d20-gladlands]
+name = "Dimension 20: Gladlands (${ALL_SEASONS})"
+show = "Dimension 20"
+season = "Gladlands"
+type = ["episode", "special", "bts", "trailer", "external"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Gladlands, a post-apocalyptic campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
+[todo-dont-hug-me-im-scared]
+name = "Don't Hug Me I'm Scared (${ALL_SEASONS})"
+show = "Don't Hug Me I'm Scared"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Don't Hug Me I'm Scared, the surreal puppet series. ${MAYBE_MEMBERS_ONLY}
+"""
+
+[todo-don-hertzfeldt-collection]
+name = "The Don Hertzfeldt Collection (${ALL_SEASONS})"
+show = "The Don Hertzfeldt Collection"
+description = """
+${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don Hertzfeldt Collection, spanning the animator's student shorts through World of Tomorrow and ME. ${MAYBE_MEMBERS_ONLY}
+"""

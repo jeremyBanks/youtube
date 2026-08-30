@@ -2471,7 +2471,7 @@ videos:
     published: 2020-10-25
   - episode: 407. Saturday Morning Cartoons
     public: GQBV-Px-33w
-    members: RYGtlkG0Jds
+    members: dYWPgYd-RBY
     published: 2020-11-06
   - episode: 408. Pokémon
     public: T3bnyaKSkLI
@@ -2625,7 +2625,7 @@ videos:
     published: 2022-03-11
   - episode: 606. Edward Scissorhands, Metroidvanias, Diablo
     members: kuXtyBbxoYU
-    published: 1899-12-30
+    published: 2022-03-25
   - episode: 607. Journey, Freakazoid!, Seaman
     members: 2acQ6-gb2tE
     published: 2022-04-08
@@ -2681,7 +2681,7 @@ videos:
   - episode: 709. Primal, Ewoks, Detective Mike Trapp
     members: MNnI9eCHE4M
     published: 2022-11-04
-  - episode: 701. Station Eleven, Marvin the Martian, Phantom of the Opera
+  - episode: 710. Station Eleven, Marvin the Martian, Phantom of the Opera
     members: oMG_1v2e-Ys
     published: 2022-11-18
   - episode: 711. Arcane, H.A.M.M.E.R., Sekiro
@@ -3155,7 +3155,7 @@ videos:
     public: rkqfxTqIOds
     members: gpLN8pHZJg8
     published: 2020-01-09
-  - episode: 22. Which of Your Friends Has Their Amber Alerts Turned Off?
+  - episode: 220. Which of Your Friends Has Their Amber Alerts Turned Off?
     public: qmqI_jV-KZE
     members: z7xj5g6RiLM
     published: 2020-01-14
@@ -3920,7 +3920,7 @@ videos:
     published: 2024-02-29
   - bts: I See Your Butt Plug and I Raise You a Fist
     members: IKojoZrSX7A
-    published: 2024-02-30
+    published: 2024-03-01
   - episode: 9. Vulture Clash
     members: Z7-0FL5NzK4
     published: 2024-03-07
@@ -4305,7 +4305,7 @@ videos:
     removed members: 4b6FkhZxVSk
     published: 2024-08-23
   - trailer: Get Your Act Together with Adam Conover
-    public: hwGXwcz3TDI
+    members: OMgdC8HDOZ0
     published: 2024-09-06
   - episode: "Adam Conover: Unmedicated"
     members: n77kSA7rNa8
@@ -4316,6 +4316,9 @@ videos:
   - episode: "Courtney Pauroso: Vanessa 5000"
     members: TDIl5e_0jYk
     published: 2024-10-18
+  - trailer: Get Your Act Together with Ally Beardsley and Zac Oyama
+    public: yrbnquezFYA
+    published: 2024-11-01
   - episode: From Ally to Zacky
     members: uMTGOlQ8FNY
     published: 2024-11-16
@@ -4334,16 +4337,25 @@ videos:
   - bts: Getting a Tattoo on Friday the 13th
     public: bB1ESv06hkI
     published: 2025-02-26
+  - trailer: Get Your Act Together with Cameron Esposito
+    public: q3AgIZwrcwE
+    published: 2025-04-04
   - episode: "Cameron Esposito: Four Pills"
     members: c38FM75jOwI
     published: 2025-04-11
+  - trailer: Get Your Act Together with Demi Adejuyigbe
+    members: SG8Mjdk9h_8
+    published: 2025-11-12
   - episode: "Demi Adejuyigbe: Is Going to Do One (1) Backflip"
     members: r8W2Y_L-tRU
     published: 2025-11-20
+  - trailer: Get Your Act Together with Aparna Nancherla
+    members: hPidcIFWNR8
+    published: 2025-12-08
   - episode: "Aparna Nancherla: Hopeful Potato"
     members: 6XfzLMFTaMQ
     published: 2025-12-16
-  - bts: Get Your Act Together with Mark Vigeant
+  - trailer: Get Your Act Together with Mark Vigeant
     members: lHmkcY2pG04
     published: 2026-02-18
   - episode: "Mark Vigeant: The Best Man Show"
@@ -5225,6 +5237,7 @@ videos:
     members: zFNTdKaOCqQ
     published: 2025-12-05
   - episode: 302. Boris Tarshkokan
+    public: fUdDXJw5wok
     members: cxV7NiFAMDU
     published: 2025-12-19
   - episode: 303. Archimedes and Ollie
@@ -5717,6 +5730,15 @@ videos:
   - episode: 2206. Spinch Party Kill
     members: SLx2BuQXcJk
     published: 2026-02-12
+
+---
+
+show: Adventuring Party
+season: Season 23
+videos:
+  - episode: 2301. Here's Come the Water
+    members: "-PYbqEgXYGM"
+    published: 2026-04-02
 
 ---
 

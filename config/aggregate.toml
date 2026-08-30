@@ -484,3 +484,23 @@ show = "The Don Hertzfeldt Collection"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don Hertzfeldt Collection, spanning the animator's student shorts through World of Tomorrow and ME. ${MAYBE_MEMBERS_ONLY}
 """
+
+[PLZQz_bbjUbkE]
+name = "Adventuring Party (${ALL_SEASONS})"
+show = "Adventuring Party"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Adventuring Party, the Dimension 20 talkback show where the cast unpacks each episode. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
+[PLQS8225KRyrc]
+name = "Dimension 20: Toylight (${ALL_SEASONS})"
+show = "Dimension 20"
+season = "Toylight"
+type = ["episode", "special", "bts", "trailer", "external"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Toylight, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""

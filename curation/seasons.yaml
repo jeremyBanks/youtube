@@ -5152,8 +5152,14 @@ videos:
 
 show: Dimension 20
 season: Gladlands
+cast: Dusty Do-gooders
 videos:
+  - trailer: "Dimension 20: Gladlands Trailer"
+    public: gczIk6MGl-o
+    public copy: FFan7no-0MI
+    published: 2025-12-17
   - episode: 1. Welcome to the Wastes
+    public: W63ILhEsvGY
     members: Qa3jfjkJ7d4
     published: 2026-01-08
   - episode: 2. Fake It Till You Fake It
@@ -5162,6 +5168,102 @@ videos:
   - episode: 3. Collabotage
     members: _1dyX19xFzU
     published: 2026-01-22
+  - episode: 4. Poppy Persona Non Grata
+    members: JkZdlf4Jj28
+    published: 2026-01-29
+  - episode: 5. A Hugi Minute
+    members: Lm2y8dB9S0Y
+    published: 2026-02-05
+  - episode: 6. Good Vibrations
+    members: bqSFhyZOCw4
+    published: 2026-02-12
+
+---
+
+show: Dimension 20
+season: City Council of Darkness
+cast: Intrepid Heroes
+videos:
+  - trailer: "Dimension 20: City Council of Darkness Trailer"
+    public: XmciPZKJ78A
+    public copy: beCy18i1LX8
+    published: 2026-03-25
+  - episode: 1. Mishaps, A Maw, and the Masquerade
+    public: KW3erx7NBsA
+    members: 2Pi0G6IqL-g
+    published: 2026-04-08
+  - episode: 2. Blood, Business, and Beth's Husband
+    members: JsprO4vndV4
+    published: 2026-04-15
+  - episode: 3. Life Begins at Night
+    members: KN_tP0MGNKQ
+    published: 2026-04-22
+  - episode: 4. The Silo, a Specter, and the Student Body
+    members: OVB-nktrcZc
+    published: 2026-04-29
+  - episode: 5. Origins and Adversaries
+    members: 3YO_5Jv7gtw
+    published: 2026-05-06
+  - episode: 6. The Sunday Scoop and Spiteful Spirits
+    members: udfFnuXOOek
+    published: 2026-05-13
+  - episode: 7. A Co-op and a Caretaker
+    members: D02r3OgXljE
+    published: 2026-05-20
+  - episode: 8. A Fraternal Order and an Author of Horror
+    members: wIgeq5f7vCc
+    published: 2026-05-27
+  - episode: 9. A Bid, a Banksy, & the Bird in the Basement
+    members: egPW5pLJ4qI
+    published: 2026-06-03
+  - episode: 10. Zaeth's Sire and a Bear on Fire
+    members: 4Oy-0QUPU8s
+    published: 2026-06-10
+  - episode: 11. A Coterie, Cracked
+    members: Pmq6-LAA3FE
+    published: 2026-06-17
+  - episode: 12. The Prince and the Primogen
+    members: 3awh40DXmsU
+    published: 2026-06-24
+  - episode: 13. A Symposium and a Song
+    members: MaPqmOxWhLI
+    published: 2026-07-01
+  - episode: 14. An Undead Denouement
+    members: mVG3cnnMmIw
+    published: 2026-07-08
+
+---
+
+show: Dimension 20
+season: "Live: Viva Más Vegas"
+cast: Intrepid Heroes
+live: true
+videos:
+  - trailer: "Dimension 20 Live: Viva Más Vegas Trailer"
+    public: J7IIB3fx-T4
+    published: 2026-03-04
+  - episode: "1. Dimension 20 Live: Viva Más Vegas"
+    members: LLBeQRTrZWY
+    published: 2026-03-11
+
+---
+
+show: Dimension 20
+season: On a Bus (Season 2)
+videos:
+  - episode: "1. D20 on a Bus: Season 2"
+    members: HMK7QO1KgM8
+    published: 2026-04-01
+
+---
+
+show: Dimension 20
+season: Toylight
+videos:
+  - trailer: "Dimension 20: Toylight Trailer"
+    public: MNPykW1n5nc
+    public copy: 84kZcc5TEzY
+    published: 2026-08-12
 
 ---
 

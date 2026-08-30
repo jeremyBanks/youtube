@@ -449,7 +449,7 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Crowd Control, a stand-up crowd work competition series. ${MAYBE_MEMBERS_ONLY}
 """
 
-[todo-d20-city-council-of-darkness]
+[PLUpEMC5JYQXE]
 name = "Dimension 20: City Council of Darkness (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "City Council of Darkness"
@@ -460,7 +460,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
-[todo-d20-gladlands]
+[PLa-nFAzKp0Os]
 name = "Dimension 20: Gladlands (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Gladlands"
@@ -471,14 +471,14 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
-[todo-dont-hug-me-im-scared]
+[PLCGfO9fEuZSQ]
 name = "Don't Hug Me I'm Scared (${ALL_SEASONS})"
 show = "Don't Hug Me I'm Scared"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Don't Hug Me I'm Scared, the surreal puppet series. ${MAYBE_MEMBERS_ONLY}
 """
 
-[todo-don-hertzfeldt-collection]
+[PLFtKt3RGcMyM]
 name = "The Don Hertzfeldt Collection (${ALL_SEASONS})"
 show = "The Don Hertzfeldt Collection"
 description = """

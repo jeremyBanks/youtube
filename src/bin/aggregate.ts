@@ -81,6 +81,12 @@ async function main() {
         ) {
           continue;
         }
+        if (
+          config.talkback !== undefined &&
+          (episode.talkback ?? false) !== config.talkback
+        ) {
+          continue;
+        }
         if (episode.public) {
           videoIds.push(episode.public);
           freeCount += 1;

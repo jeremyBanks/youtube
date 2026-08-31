@@ -58,6 +58,7 @@ const AggregateConfigToml = z.record(
     season: z.string().array().or(z.string()).optional(),
     live: z.boolean().optional(),
     free: z.boolean().optional(),
+    talkback: z.boolean().optional(),
     skip: z.boolean().optional(),
   })
     .strict(),
@@ -73,6 +74,7 @@ type AggregateConfig = Array<{
   casts?: Array<string>;
   live?: boolean;
   free?: boolean;
+  talkback?: boolean;
   skip?: boolean;
 }>;
 
@@ -113,6 +115,7 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
           : undefined,
         live: aggregateConfig.live,
         free: aggregateConfig.free,
+        talkback: aggregateConfig.talkback,
         skip: aggregateConfig.skip,
       });
     }
@@ -130,6 +133,11 @@ const SeasonsCurationYaml = z.array(
     videos: z.array(
       z.object({
         published: z.date().optional(), // XXX: should this be optional?
+        // Marks an Adventuring Party talkback. These live as `bts` entries
+        // interleaved into the campaign they accompany, which makes them
+        // indistinguishable from any other extra; this flag is what lets a
+        // playlist select them without disturbing that placement.
+        talkback: z.boolean().optional(),
         trailer: z.string().optional(),
         episode: z.string().optional(),
         special: z.string().optional(),

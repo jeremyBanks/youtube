@@ -485,11 +485,17 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don Hertzfeldt Collection, spanning the animator's student shorts through World of Tomorrow and ME. ${MAYBE_MEMBERS_ONLY}
 """
 
-# The Adventuring Party playlist (PLZQz_bbjUbkE) is defined in phase 2, once
-# talkbacks carry a field that distinguishes them from other behind-the-scenes
-# content. Selecting on `show` cannot work: talkbacks live as bts entries inside
-# their campaign document, indistinguishable from any other extra. Left
-# undefined here so publish does not empty the existing playlist in the interim.
+# Talkbacks live as bts entries interleaved into the campaign they accompany,
+# so they cannot be selected by `show` or `season`. The `talkback` flag on the
+# entry is what distinguishes them from every other kind of extra.
+[PLZQz_bbjUbkE]
+name = "Adventuring Party (${ALL_SEASONS})"
+talkback = true
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
 
 [PLQS8225KRyrc]
 name = "Dimension 20: Toylight (${ALL_SEASONS})"

@@ -403,7 +403,7 @@ export async function main() {
   const config = await getDropoutConfig();
   const args = parseArgs(Deno.args, {
     string: ["budget", "only"],
-    boolean: ["collections"],
+    boolean: ["collections", "complete-collections"],
   });
   const budget = args.budget ? Number(args.budget) : config.budget;
   // Restrict the detail pass to slugs or collections matching a pattern.
@@ -569,6 +569,43 @@ export async function main() {
   // episode of a show outside the priority list queues behind the entire
   // unscraped back catalogue - months of waiting at a daily budget.
   const newEpisode = newArrivals(episodes);
+  // Finishing whole collections rather than spreading a budget thinly
+  // across many. Coverage is all-or-nothing per collection — a description
+  // links a collection only when every episode of it is present — so a
+  // budget spread evenly can leave dozens of collections nearly done and
+  // nothing to show. Most recently updated first, then smallest first, so
+  // the cheapest recent wins land soonest.
+  const completionRank = new Map<string, number>();
+  if (args["complete-collections"]) {
+    const ranked = collections
+      .filter((c) => !c.removedBefore)
+      .map((c) => {
+        const season = `${c.slug}-season-`;
+        const members = episodes.filter((e) =>
+          !e.removedBefore &&
+          e.collections.some((x) => x === c.slug || x.startsWith(season))
+        );
+        const lastmod = Math.max(
+          0,
+          ...members.map((e) => e.lastmod?.getTime() ?? 0),
+        );
+        return { slug: c.slug, season, members, lastmod };
+      })
+      .filter((c) => c.members.some((e) => !e.scrapedAt || !e.url))
+      .sort((a, b) =>
+        b.lastmod - a.lastmod || a.members.length - b.members.length ||
+        a.slug.localeCompare(b.slug)
+      );
+    for (const [rank, collection] of ranked.entries()) {
+      for (const episode of collection.members) {
+        const seen = completionRank.get(episode.slug);
+        if (seen === undefined || rank < seen) {
+          completionRank.set(episode.slug, rank);
+        }
+      }
+    }
+  }
+
   const collectionTitles = new Set(
     collections.map((c) => c.title).filter((t): t is string => !!t),
   );
@@ -577,9 +614,14 @@ export async function main() {
     // `url` is set by every successful parse, so its absence marks a record
     // scraped before the richer fields existed, and requeues it.
     .filter((e) => (!e.scrapedAt || !e.url) && !e.removedBefore)
-    .filter((e) => !only || only.test(e.slug) || only.test(e.collection))
+    .filter((e) =>
+      !only || only.test(e.slug) || only.test(e.collection) ||
+      e.collections.some((c) => only.test(c))
+    )
     .sort((a, b) =>
       Number(newEpisode(b)) - Number(newEpisode(a)) ||
+      (completionRank.get(a.slug) ?? Infinity) -
+        (completionRank.get(b.slug) ?? Infinity) ||
       tier(a.collection) - tier(b.collection) ||
       (b.lastmod?.getTime() ?? 0) - (a.lastmod?.getTime() ?? 0) ||
       a.slug.localeCompare(b.slug)

@@ -124,3 +124,34 @@ export const openPlaylistsStorage = () =>
 
 export const openActualPlaylistsStorage = () =>
   playlistStorage ??= open("data/actual-playlists.yaml", Playlist);
+
+/** An item on watch.dropout.tv, indexed from the sitemap. */
+export const DropoutEpisode = z.object({
+  /** the item's URL slug, unique across the site */
+  slug: z.string().min(1),
+  /** the collection it canonically belongs to */
+  collection: z.string().min(1),
+  /** every collection the sitemap lists it under */
+  collections: z.string().array(),
+  /** the sitemap's lastmod; a cheap recency proxy until details are fetched */
+  lastmod: z.date().optional(),
+  title: z.string().optional(),
+  seasonNumber: z.number().int().optional(),
+  episodeNumber: z.number().int().optional(),
+  /** the official release date shown on the episode page */
+  releaseDate: z.date().optional(),
+  /** when this slug first appeared in the sitemap */
+  firstSeen: DateTime,
+  /** when the episode page was fetched for details */
+  scrapedAt: z.date().optional(),
+  /** when this slug was first observed missing from the sitemap */
+  removedBefore: z.date().optional(),
+});
+export type DropoutEpisode = z.TypeOf<typeof DropoutEpisode>;
+
+let dropoutStorage:
+  | undefined
+  | Promise<Array<DropoutEpisode>> = undefined;
+
+export const openDropoutStorage = () =>
+  dropoutStorage ??= open("data/dropout.yaml", DropoutEpisode, ["slug"]);

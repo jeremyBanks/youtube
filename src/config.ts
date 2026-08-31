@@ -189,3 +189,33 @@ export async function getSeasonsCuration(): Promise<SeasonsCuration> {
     return parsed;
   })());
 }
+
+const DropoutConfigToml = z.object({
+  "delay-seconds": z.number().positive(),
+  "budget": z.number().int().positive(),
+  /** collection-slug prefixes whose episode details are fetched first */
+  "priority": z.string().array().optional(),
+  /** curation show name -> collection-slug prefix, for cross-referencing */
+  "shows": z.record(z.string(), z.string()).optional(),
+}).strict();
+
+export type DropoutConfig = {
+  delaySeconds: number;
+  budget: number;
+  priority: Array<string>;
+  shows: Record<string, string>;
+};
+
+let dropoutConfig: undefined | Promise<DropoutConfig> = undefined;
+export async function getDropoutConfig(): Promise<DropoutConfig> {
+  return await (dropoutConfig ??= (async () => {
+    const text = await Deno.readTextFile("./config/dropout.toml");
+    const parsed = DropoutConfigToml.parse(toml.parse(text));
+    return {
+      delaySeconds: parsed["delay-seconds"],
+      budget: parsed["budget"],
+      priority: parsed["priority"] ?? [],
+      shows: parsed["shows"] ?? {},
+    };
+  })());
+}

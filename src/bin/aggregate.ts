@@ -86,8 +86,14 @@ function coveredCollectionUrls(
     ![...covered].some(([other, otherEpisodes]) =>
       other !== slug &&
       [...episodes].every((e) => otherEpisodes.has(e)) &&
-      // On an exact tie keep one of them, chosen deterministically.
-      (episodes.size < otherEpisodes.size || other < slug)
+      (episodes.size < otherEpisodes.size ||
+        // Identical collections do exist — Dropout carries game-changer and
+        // game-changer-new, make-some-noise and make-some-noise-new — so on
+        // an exact tie keep the shorter name, which is the canonical one,
+        // falling back to alphabetical for a genuine draw.
+        (episodes.size === otherEpisodes.size &&
+          (other.length < slug.length ||
+            (other.length === slug.length && other < slug))))
     )
   );
   return maximal.map(([slug]) => `https://watch.dropout.tv/${slug}`).sort();

@@ -3,6 +3,55 @@
 This project manages curated YouTube playlists for Dropout content (Dimension
 20, Game Changer, Um Actually, etc.).
 
+## When the user asks to "update"
+
+If the user says update, refresh, sync, synchronize, catch up, or anything else
+that vague, they mean the whole pipeline: find out what is new on YouTube and
+Dropout, file it in the curation, and push the playlists live. Do not ask which
+part they meant — run the sequence below and report what changed at each step.
+The work is the same every time; only the curation step needs judgement.
+
+**First pull.** Two GitHub Actions commit to `trunk` on their own schedule
+(`scan.yaml` Mondays, `scan-dropout.yaml` Thursdays), so the remote is usually
+ahead. `git checkout trunk && git pull origin trunk` before anything else, or
+the scans will fight with bot commits at push time.
+
+**Then scan, in either order.** `deno task scan` reads the YouTube channels in
+`config/scan.toml` into `data/videos.yaml`; it needs `YOUTUBE_API_KEY` in `.env`
+and can exhaust the daily quota on a complete scan, in which case it fails
+loudly and is safe to resume the next day. `deno task scan-dropout` updates
+`data/dropout.yaml` from watch.dropout.tv; it needs no credentials but waits 12
+seconds between requests, so a default run takes about half an hour. Commit the
+data changes on their own before curating, so that a scraping result is never
+entangled with an editorial decision.
+
+**Then curate, which is the part that needs a person.** List the videos that no
+curation entry accounts for:
+
+```bash
+deno task curate --channel=dropout,dimension20show --since=2026-01-01
+```
+
+Add them to `curation/seasons.yaml` by hand, following the numbering conventions
+below, and check season and episode names against the Dimension 20 wiki or
+watch.dropout.tv rather than guessing from YouTube titles.
+`deno task verify-dates` cross-checks the `published:` dates you just wrote
+against the official Dropout release dates. New shows need a playlist definition
+in `config/aggregate.toml`.
+
+**Then publish.** `deno task aggregate` regenerates `data/playlists.yaml`; read
+the diff, since it is the last chance to catch a mistake before it reaches
+subscribers. `deno task publish --dry-run` reports what would change on YouTube,
+and `deno task publish` applies it (`--create-missing` for new playlists).
+Publishing needs OAuth, not just the API key, and writes to a channel with real
+subscribers, so never publish a diff you have not read.
+
+**Then push to `trunk`.** If everything above succeeded, commit and push
+directly to `trunk` — this is routine catalogue maintenance, not a change that
+wants review. If any step failed, push what did succeed (scan data is always
+worth keeping, since a video pulled between scans is unrecoverable) and say
+plainly which steps did not run.
+
 ## Project Structure
 
 ```

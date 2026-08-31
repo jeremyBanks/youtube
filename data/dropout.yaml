@@ -13700,7 +13700,21 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Dare
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/dare-1'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   'Crime doesn''t pay, and neither do they.'
+itemId:        534194
+collectionId:  108792
+upNextIds:
+- 540283
+- 541680
+- 545171
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:24:08.932Z
 
 ---
 
@@ -24375,7 +24389,17 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         How Are You Going to Spend the Money?
+seasonNumber:  1
+episodeNumber: 7
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/how-are-you-going-to-spend-the-money'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   Cheryl purchases her perfect pet.
+itemId:        556694
+collectionId:  108792
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:24:21.225Z
 
 ---
 
@@ -32465,7 +32489,19 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Menu Pictures
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/menu-pictures'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   'She ordered this, so this is what she wants.'
+itemId:        555414
+collectionId:  108792
+upNextIds:
+- 556694
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:24:33.478Z
 
 ---
 
@@ -42203,7 +42239,21 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Should You Handle That?
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/should-you-handle-that'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   'Would you rather protect and serve, or have some pie?'
+itemId:        545171
+collectionId:  108792
+upNextIds:
+- 548704
+- 555414
+- 556694
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:24:45.739Z
 
 ---
 
@@ -42518,7 +42568,21 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Sketch Ideas
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/sketch-ideas'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   Cheryl pitches quality material for Katie to use in one of her skits.
+itemId:        541680
+collectionId:  108792
+upNextIds:
+- 545171
+- 548704
+- 555414
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:24:58.038Z
 
 ---
 
@@ -60837,7 +60901,20 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Wobbly Table
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/wobbly-table'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   'If you break it, you buy it.'
+itemId:        548704
+collectionId:  108792
+upNextIds:
+- 555414
+- 556694
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:25:10.294Z
 
 ---
 
@@ -61161,7 +61238,21 @@ collection:    kingpin-katie-the-web-series-season-1
 collections:
 - kingpin-katie-the-web-series-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Wrongful Arrest
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/kingpin-katie-the-web-series/season:1/videos/wrongful-arrest'
+showTitle:     'Kingpin Katie: The Web Series'
+showSlug:      kingpin-katie-the-web-series
+description:   Cheryl spots a problematic person from her past.
+itemId:        540283
+collectionId:  108792
+upNextIds:
+- 541680
+- 545171
+- 548704
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:25:22.598Z
 
 ---
 

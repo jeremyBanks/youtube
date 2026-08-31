@@ -5,8 +5,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        a-crown-of-candy-the-complete-experience
+title:       'Dimension 20: A Crown of Candy (The Complete Experience)'
+description: 'Every episode of A Crown of Candy with every respective talkback episode of Adventuring Party - finally, in one place!'
+episodes:
+- there-is-strength-in-sweetness
+- are-the-dice-scripted
+- ambush-on-the-sucrosi-road
+- for-the-corn-cuties
+- keep-sharp
+- choices-voices
+- the-grand-tournament
+- zac-s-big-day
+- lapin-s-big-day
+- the-jeff-goldblum-episode
+- chaos-in-the-cathedral
+- welcome-to-denny-s
+- escape-from-the-bulb-creeps
+- we-ve-got-ink-on-our-hands
+- deep-bleu-sea
+- war-crimes-good-times
+- safe-harbor
+- slammed-down-big-style
+- blood-bread
+- soft-hugs
+- at-the-mountains-of-sweetness
+- twinned-down-big-business-style
+- rescue-at-buzzybrook
+- choppy-skullduggery
+itemIds:
+- 754146
+- 809906
+- 755203
+- 827380
+- 832846
+- 837784
+- 789688
+- 851798
+- 795287
+- 861274
+- 860416
+- 874829
+- 877002
+- 881569
+- 878428
+- 893412
+- 889206
+- 912707
+- 893268
+- 928850
+- 894146
+- 939530
+- 924475
+- 945882
 size:        35
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:13:21.373Z
 
 ---
 
@@ -17,8 +70,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        a-starstruck-odyssey-the-complete-experience-1
+title:       'Dimension 20: A Starstruck Odyssey (The Complete Experience)'
+description: Every episode of A Starstruck Odyssey and Adventuring Party - in order!
+episodes:
+- starstruck-origins-with-elaine-lee-part-1
+- starstruck-origins-with-elaine-lee-part-2
+- welcome-to-the-spacin-life-buddy
+- our-tail-was-not-between-our-legs
+- rolling-up-the-hill
+- was-that-the-worst-social-interaction-in-d20-history
+- wrecked-on-rec-97
+- the-ball-continues-rolling-up
+- every-day-is-our-wurst-day
+- the-chaos-the-chaos-of-this-episode
+- all-in-the-hot-exit
+- to-me-this-is-a-perfect-battle
+- on-the-run-in-the-martini-nebula
+- hot-dog-wrapped-in-ham
+- dying-tomorrow-it-s-a-pleasure
+- we-ve-never-not-hot-exited
+- wallops-at-swallop-s
+- cool-this-is-not-going-to-go-according-to-plan
+- baustin-skiffy-limits
+- no-heroes
+- it-s-a-griivarr-world-after-all
+- that-s-when-the-slapping-and-kissing-starts
+- flee-from-fantanimalland
+- randomness-lets-something-amazing-happen
+itemIds:
+- 1941670
+- 1949924
+- 1954464
+- 1958807
+- 1966346
+- 1967665
+- 1977097
+- 1979362
+- 1985978
+- 1986687
+- 1997765
+- 1995155
+- 2005352
+- 1997214
+- 2004800
+- 2004799
+- 2032921
+- 2037001
+- 2047776
+- 2049103
+- 2049373
+- 2057580
+- 2049575
+- 2070320
 size:        40
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:12:44.107Z
 
 ---
 
@@ -29,8 +135,57 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        adventuring-academy
+title:       Adventuring Academy
+description: 'Adventurers, alight! Veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros. New episodes every month.'
+seasons:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+episodes:
+- creating-rounded-characters-with-lou-wilson
+- keeping-a-game-going-with-amy-vorpahl
+- raising-the-stakes-with-brian-murphy
+- playing-in-a-safe-space-with-erika-ishii
+- being-the-mean-gm-with-noah-diamond
+- finishing-a-campaign-with-molly-ostertag
+- building-your-own-campaign-setting-with-matthew-mercer
+- leveling-up-with-satine-phoenix
+- what-to-do-with-a-nat-20-with-b-dave-walters
+- giving-yourself-permission-to-feel-with-marisha-ray
+- playing-a-cooperative-game-with-nick-mancini
+- healing-through-d-d-with-krystina-arielle
+- reunion-with-the-cast-of-escape-from-the-bloodkeep
+- reunion-with-the-cast-of-escape-from-the-bloodkeep-pt-2
+- introducing-horror-to-a-game-with-ivan-van-norman
+- finding-fun-in-failure-with-siobhan-thompson
+- killing-off-characters-with-jack-covell
+- storytelling-as-a-game-master-with-peter-warren
+itemIds:
+- 406407
+- 412355
+- 416594
+- 431752
+- 438550
+- 444454
+- 454434
+- 468257
+- 472825
+- 497861
+- 504420
+- 510872
+- 518360
+- 538040
+- 544642
+- 551265
+- 560155
+- 584597
 size:        72
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:11:54.476Z
 
 ---
 
@@ -83,14 +238,87 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        breaking-news
+title:       Breaking News
+episodes:
+- i-bow-to-you
+- i-m-a-goldmember-but-for-diamonds
+- the-swing-of-things
+- one-news-to-break
+- newscast-at-bernie-s
+- you-look-like-patrick-stewart-getting-electrocuted
+- celebrity-sleaze
+- grant-o-brien-explains-dungeons-and-dragons
+- sam-reich-launches-burning-sam
+- queen-elizabeth-get-outta-here-it-s-snowing-you-old-hag
+- daughters-love-to-rustle-and-tussle-and-royal-rumble
+- smooth-as-a-dolphin-s-dick
+- you-can-be-kinky-and-play-basketball
+- have-you-seen-my-pa
+- dropout-america-3
+- i-want-to-play-a-game
+- true-facts-about-grant-anthony-o-brien-part-3
+- puff-puff-pass
+- the-wealthiest-man-of-1906-returns
+- make-katie-laugh
+- no-news-party
+- the-rise-of-count-dancula
+- this-episode-is-brought-to-you-by-bing-com
+- the-confrontation-at-simone-s-house
+itemIds:
+- 3386090
+- 3368835
+- 3355356
+- 3320846
+- 3320839
+- 3310346
+- 3293399
+- 3280213
+- 3260819
+- 3242663
+- 3216519
+- 3201487
+- 3180541
+- 3166843
+- 3126707
+- 2922512
+- 2922503
+- 2922492
+- 2922481
+- 2922470
+- 2922457
+- 2796659
+- 2819932
+- 2796652
 size:        106
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:11:29.704Z
 
 ---
 
 slug:        breaking-news-no-laugh-newsroom
+title:       'Breaking News: No Laugh Newsroom'
+description: 'In this newsroom, breaking means losing. Our reporters don''t know what''s about to be on the teleprompter, and every laugh is a point against them.'
+seasons:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+episodes:
+- the-don-t-laugh-newsroom-challenge
+- the-don-t-laugh-newsroom-challenge-episode-2
+- don-t-laugh-news-bed-bug-alert
+- no-laugh-newsroom-birthday-cake-bird-birth
+itemIds:
+- 355544
+- 355592
+- 355594
+- 361417
 size:        108
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:11:17.287Z
 
 ---
 
@@ -131,8 +359,64 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        cartoon-hell
+title:       Cartoon Hell
+description: Drawfee's Caldwell Tanner and Nathan Yaffe must spend eternity in Hell unless they make killer cartoons from viewers' suggestions.
+seasons:
+- 1
+- 2
+episodes:
+- weed-anime
+- swankiest-space-bugs
+- fruits-vs-vegetables
+- elliot
+- elderly-assassins
+- cute-monsters
+- cyborg-band
+- combined-animals
+- knock-off-norse-gods
+- lizards-with-careers
+- the-worst-thing
+- wheely-the-muse
+- sexy-boy-skeletons
+- weed-anime-2-the-reboot
+- ugly-babies
+- triple-a-game
+- a-very-special-potato
+- noggin
+- what-s-under-the-bed
+- fancy-dads
+- rejected-toys
+- pompaduels
+- 123-tbd
+- 124-tbd
+itemIds:
+- 236405
+- 238361
+- 268393
+- 268395
+- 280411
+- 285898
+- 369406
+- 370192
+- 377235
+- 377668
+- 377904
+- 388673
+- 388680
+- 388694
+- 403627
+- 412774
+- 412784
+- 420270
+- 421569
+- 428553
+- 432755
+- 438617
+- 438619
+- 438665
 size:        36
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:13:08.957Z
 
 ---
 
@@ -167,8 +451,77 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        ch-shorts
+title:       CH Shorts
+description: 'Original sketches, music videos, and pop culture parodies spanning the last CollegeHumor decade.'
+seasons:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+episodes:
+- post-apocalyptic-dane-cook
+- cup-chicks-reaction-two-and-a-half-men
+- all-r-a-floor
+- gps-voices
+- viral-video-pet-store
+- really-really-light-beer
+- super-intense-er-promo
+- the-dark-knight-1960s-version
+- adopt-a-graduate
+- tweetlejuice
+- the-infinisphereb
+- fart-spelling-bee
+- the-sims-horror-movie
+- saw-shaming
+- geico-commercial-parody
+- a-complaint-to-mario-bros-plumbing
+- marco-polo-submarine
+- the-matrix-pill
+- the-large-hadron-collider-s-secret
+- back-to-the-future-sex-scenes
+- google-wave-cyber-sex
+- nazi-zombies
+- iron-man-2-alternate-takes
+- grammar-nazis
+itemIds:
+- 449042
+- 461870
+- 449046
+- 449047
+- 449048
+- 449049
+- 449050
+- 449051
+- 449052
+- 449053
+- 449054
+- 449055
+- 449056
+- 449057
+- 449058
+- 449059
+- 449060
+- 449061
+- 449062
+- 449063
+- 449064
+- 449065
+- 449066
+- 233634
 size:        453
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:10:52.681Z
 
 ---
 
@@ -2239,20 +2592,151 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dirty-laundry
+title:       Dirty Laundry
+description: 'Host Lily Du gathers together four guests to tell secrets, guess who they belong to, and enjoy a few drinks.'
+seasons:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 69
+episodes:
+- who-shot-a-softcore-porn
+- who-used-to-regularly-poop-on-the-roof
+- who-drank-breast-milk-as-an-adult
+- who-stayed-up-for-81-hours
+- who-hid-20-000-inside-a-bowflex
+- who-got-railed-on-the-hood-of-their-car-in-front-of-a-police-station
+- dirty-laundry-season-1-cut-for-time
+itemIds:
+- 2086929
+- 2098544
+- 2132525
+- 2146929
+- 2172862
+- 2200652
+- 2722823
 size:        122
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:11:04.973Z
 
 ---
 
 slug:        dirty-laundry-new
+title:       Dirty Laundry
+description: 'Host Lily Du gathers together four guests to tell secrets, guess who they belong to, and enjoy a few drinks.'
+episodes:
+- who-joined-an-ex-on-their-honeymoon
+- who-ended-a-relationship-using-sorcery
+- whose-mom-was-an-accomplice-to-armed-robbery
+- who-won-a-stand-off-with-a-popstar
+- who-passed-out-at-a-movie-theater
+- whose-mom-outshined-them-at-a-dance-party
+- who-got-walked-in-on-with-their-hair-on-fire
+- who-got-detained-in-a-foreign-country
+- who-stole-fire-extinguishers-from-a-hotel
+- who-got-sued-by-mcdonald-s
+- who-hooked-up-with-someone-they-met-on-the-plane
+- who-got-yelled-at-by-a-real-housewife
+- who-almost-killed-harrison-ford
+- who-was-implicated-in-a-prank-call-scandal
+- who-got-arrested-and-detained-at-disneyland
+- who-almost-went-to-jail-because-of-a-forgetful-woman
+- whose-family-punished-them-with-a-scary-mask
+- whose-suitcase-exploded
+- whose-house-was-raided-on-suspicions-of-terrorism
+- who-got-hit-by-a-collegehumor-fan
+- who-missed-a-flight-because-they-were-at-an-orgy
+- who-wrote-a-short-story-that-seriously-disturbed-a-teacher
+- who-was-part-of-a-ritual-to-ward-off-evil-spirits
+- who-had-standing-permission-to-steal-from-a-store
+itemIds:
+- 3896871
+- 3881432
+- 3866784
+- 3850357
+- 3832933
+- 3817933
+- 3797813
+- 3772498
+- 3752011
+- 3742342
+- 3719144
+- 3699620
+- 3481535
+- 3467432
+- 3458103
+- 3443154
+- 3426256
+- 3411956
+- 3398319
+- 3377684
+- 3360946
+- 3346257
+- 3327074
+- 3317198
 size:        56
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:12:19.300Z
 
 ---
 
 slug:        dirty-laundry-presents-grant-what-are-we-drinking
+title:       'Dirty Laundry Presents: Grant, What Are We Drinking?'
+episodes:
+- jack-rose
+- ruby-shrub
+- hot-buttered-rum
+- three-dots-and-a-dash
+- cucumber-mint-agua-fresca
+- blue-lagoon
+- toasted-rice-washed-boulevardier
+- non-alcoholic-spagett
+- gimlet
+- grasshopper
+- grant-s-peach
+- coconut-espresso-martini
+- algonquin
+- batida-de-milho-verde
+- porn-star-martini
+- hibiscus-and-tonic
+- pink-squirrel
+- 20th-century
+- remember-the-maine
+- vanilla-cashew-horchata
+- garibaldi
+- blackthorn-no-1
+- ramos-gin-fizz
+- in-a-jam
+itemIds:
+- 3903205
+- 3859827
+- 3855963
+- 3832920
+- 3829087
+- 3825896
+- 3803801
+- 3795155
+- 3781417
+- 3751990
+- 3749297
+- 3733468
+- 3709376
+- 3487489
+- 3465058
+- 3464663
+- 3464637
+- 3449878
+- 3434165
+- 3421601
+- 3413083
+- 3403331
+- 3386071
+- 3371074
 size:        67
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:12:06.904Z
 
 ---
 
@@ -2305,8 +2789,63 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        fatal-decision
+title:       Fatal Decision
+description: 'Zach Reino plays IT guy Josh Mullens playing Special Ops Agent Jack Maxwell on an action-gun-packed mission to save pizza, America, and your ass, on company time.'
+seasons:
+- 1
+episodes:
+- operation-birthday-cake
+- extreme-interrogation-with-christina-hendricks
+- perfect-partners-until-death
+- art-heist
+- get-ratchet
+- death-by-pizza
+- captured
+- bad-guy-bank
+- illegal-street-racing
+- i-m-too-old-for-this-sh-t
+- ghost-kid
+- k-9-witness
+- mr-bombastic
+- license-to-kill-renewal
+- miss-most-beautiful
+- vent-horizon
+- office-outbreak
+- suicide-vest
+- one-shot
+- party-bus-one
+- substitute-jack
+- how-to-out-a-rat
+- hope-diamond
+- lost-in-gangland
+itemIds:
+- 3704859
+- 3704849
+- 3704851
+- 3704861
+- 3704858
+- 3708267
+- 3704853
+- 3704855
+- 3704857
+- 3704862
+- 3704863
+- 3704848
+- 3704847
+- 3704850
+- 3704854
+- 3704860
+- 3704852
+- 3704846
+- 3704864
+- 3708229
+- 3708239
+- 3708230
+- 3708243
+- 3708254
 size:        49
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:12:31.723Z
 
 ---
 
@@ -2569,8 +3108,78 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        hardly-working
+title:       Hardly Working
+description: 'What really goes on in CollegeHumor offices may surprise you, unless you''re already familiar with unprofessional, inappropriate slackoffs getting nothing done.'
+seasons:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+episodes:
+- ace-ventura
+- streeter-theeter-secret-santa
+- pet-peeves
+- technical-difficulties
+- streeter-theeter-overgrown-guy-girlfriend-pt-1
+- business-time-pt-1
+- crazy-night
+- cool-english-teacher-pt-1
+- streeter-theeter-overgrown-guy-girlfriend-pt-2
+- daydream
+- office-casanova
+- you-ll-never-guess
+- trilogies-pt-1
+- american-psychos
+- agreements
+- superheroes
+- vegetarian
+- new-editor
+- conga-line
+- brainstorming
+- parents-game
+- nerd-scars
+- mugging
+- girlfriend
+itemIds:
+- 449825
+- 233743
+- 233744
+- 233745
+- 263469
+- 462251
+- 233746
+- 233747
+- 449827
+- 233748
+- 233750
+- 449828
+- 449829
+- 449830
+- 449831
+- 449832
+- 233751
+- 233752
+- 233753
+- 233754
+- 449833
+- 233756
+- 233757
+- 233758
 size:        473
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:10:39.776Z
 
 ---
 
@@ -2641,14 +3250,99 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        make-some-noise
+title:       Make Some Noise
+description: A game show where talented contestants compete to bring to life silly prompts.
+seasons:
+- 1
+- 2
+- 3
+- 4
+episodes:
+- hbo-s-a-game-of-rock-paper-scissors
+- shakespeare-s-dude-where-s-my-car
+- a-monster-truck-voiceover-for-a-peaceful-sunday
+- the-cut-plunger-s-song-from-beauty-and-the-beast
+- jennifer-coolidge-the-air-traffic-controller
+- the-hostage-negotiator-knows-the-hostage-taker-from-way-back
+- a-villain-and-their-real-estate-agent-tour-volcano-lairs
+- brennan-s-wario-wennan-wee-wulligan
+- things-jimmy-stewart-would-give-to-mary-in-addition-to-the-moon
+- the-long-awaited-meeting-between-times-new-roman-and-comic-sans
+- cut-for-time-season-1
+itemIds:
+- 2192276
+- 2206938
+- 2243622
+- 2266098
+- 2278068
+- 2278064
+- 2278072
+- 2294955
+- 2362171
+- 2374979
+- 2409262
 size:        63
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:09:50.031Z
 
 ---
 
 slug:        make-some-noise-new
+title:       Make Some Noise
+description: A game show where talented contestants compete to bring to life silly prompts.
+episodes:
+- make-some-noise-season-4-cut-for-time
+- the-noise-boys-hype-each-other-up
+- eat-an-animal-before-it-eats-you-show
+- jacob-kimia-and-jeremy-impersonate-each-other
+- ben-lisa-and-colton-have-a-party
+- ally-brennan-and-talia-try-to-get-through-lunch
+- anna-geoff-and-jeremy-act-out-kids-prompts
+- different-language-office
+- jacob-kurt-and-angela-have-fun-with-filters
+- ross-echo-and-corin-try-to-recruit-you
+- josh-anna-and-jiavani-make-a-day-rate
+- caitlin-nick-and-geoff-take-you-to-church
+- zunk-junk-and-dunk
+- the-sneaky-girl-shuffle
+- lou-ross-and-jiavani-drink-your-milkshake
+- the-noise-boys-ride-again
+- make-some-noise-season-3-cut-for-time
+- a-takedown-of-billionaires-rihanna-beyonce-and-oprah
+- a-date-that-is-only-red-flags
+- a-singing-telegram-serving-you-for-property-encroachment
+- the-black-version-of-romeo-juliet
+- this-dream-is-too-messed-up-even-for-freddy-krueger
+- two-wife-guys-try-to-out-wife-guy-each-other
+- an-obituary-for-someone-who-definitely-faked-their-own-death
+itemIds:
+- 4035712
+- 4004333
+- 3997175
+- 3986110
+- 3970239
+- 3959118
+- 3946279
+- 3934924
+- 3924527
+- 3905875
+- 3901683
+- 3886270
+- 3872703
+- 3854831
+- 3836609
+- 3824859
+- 3554313
+- 3533293
+- 3521385
+- 3502388
+- 3487472
+- 3466256
+- 3463811
+- 3449873
 size:        63
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:10:02.444Z
 
 ---
 
@@ -2692,8 +3386,55 @@ scrapedAt:   2026-08-31T04:56:05.179Z
 ---
 
 slug:        mice-murder-the-complete-experience
+title:       'Dimension 20: Mice & Murder (The Complete Experience)'
+description: Every episode of Mice & Murder and Adventuring Party - in order!
+episodes:
+- it-was-a-dark-and-stormy-night
+- say-hi-sylvan-sleuths
+- a-scandal-in-britannia
+- tisching-all-over-the-place
+- a-time-for-clues
+- the-donkey-vibe
+- the-stabber-of-the-evening
+- masculine-fertile
+- the-eye-of-the-storm
+- she-already-happened
+- busted-mice
+- the-roll-that-broke-brennan
+- i-ve-been-here-the-whole-time
+- the-kevin-bacon-of-crime
+- outfoxed
+- fashion-show
+- the-belly-of-the-beast
+- ass-ass-i-ate
+- unfinished-business
+- farewell-sylvan-sleuths
+- behind-the-screams-crew-edition
+itemIds:
+- 1443748
+- 1443747
+- 1422414
+- 1460939
+- 1471915
+- 1460940
+- 1471916
+- 1508113
+- 1508109
+- 1513231
+- 1508108
+- 1513232
+- 1508105
+- 1544450
+- 1540458
+- 1550356
+- 1551813
+- 1559573
+- 1540459
+- 1584052
+- 1595737
 size:        21
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:10:27.284Z
 
 ---
 
@@ -2959,8 +3700,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        the-unsleeping-city-chapter-ii-complete-experience
+title:       'Dimension 20: The Unsleeping City Chapter II (The Complete Experience)'
+description: 'Every episode of The Unsleeping City: Chapter II and Adventuring Party - in order!'
+episodes:
+- the-fall-of-new-york-city
+- a-ferry-special-episode
+- heaven-and-hell-on-earth
+- bon-mots-and-banh-mis
+- the-mystery-of-the-haunted-subway
+- we-need-to-talk-about-cody
+- the-yellow-m-m-is-the-funniest-guy-ever
+- trouble-at-the-tunnel
+- the-perfect-stack-of-pancakes
+- collaborators
+- the-person-among-muppets
+- parade-of-peril
+- feasts-families
+- thinking-about-true-clowns
+- fight-at-the-museum
+- character-assassination
+- nulla-dies-umquam-memori-vos-eximet-aevo
+- prefluorideboomers
+- let-s-get-tiny
+- the-bazathrax-and-baby-podcast
+- the-battle-of-the-hot-dog-cart
+- this-show-is-not-frasier
+- of-rats-dragons
+- referral-code-zacoyama40million
+itemIds:
+- 1156912
+- 1180265
+- 1178603
+- 1191088
+- 1178602
+- 1191277
+- 1208524
+- 1206322
+- 1224666
+- 1213342
+- 1235135
+- 1224667
+- 1235134
+- 1251861
+- 1242625
+- 1264757
+- 1235133
+- 1276842
+- 1235132
+- 1286863
+- 1278518
+- 1300401
+- 1286862
+- 1323777
 size:        35
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:13:33.810Z
 
 ---
 
@@ -2995,8 +3789,60 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        trailers
+title:       Trailers
+episodes:
+- dimension-20-gladlands-trailer
+- dimension-20-the-ravening-war-trailer
+- dimension-20-a-crown-of-candy-trailer
+- game-changer-season-5-trailer
+- kingpin-katie-trailer
+- gastronauts-trailer
+- dimension-20-series-trailer
+- um-actually-season-10-trailer
+- cartoon-hell-trailer
+- dimension-20-burrow-s-end-trailer
+- dimension-20-mice-murder-trailer
+- dimension-20-toylight-trailer
+- dimension-20-misfits-and-magic-trailer
+- dirty-laundry-season-2-trailer
+- dimension-20-mentopolis-trailer
+- dropout-improv-summer-2025-tour-trailer
+- smartypants-season-3-trailer
+- make-some-noise-trailer
+- dimension-20-misfits-and-magic-season-2-trailer
+- dimension-20-cloudward-ho-trailer
+- play-it-by-ear-trailer
+- very-important-people-trailer
+- dimension-20-never-stop-blowing-up-trailer
+- make-some-noise-season-3-trailer
+itemIds:
+- 3896909
+- 2681605
+- 737004
+- 2410317
+- 517044
+- 3320871
+- 967302
+- 3467468
+- 355728
+- 2900077
+- 1415566
+- 4142194
+- 1585493
+- 2430151
+- 2812392
+- 3605269
+- 4040000
+- 2142609
+- 3327046
+- 3627201
+- 2293131
+- 2988663
+- 3235105
+- 3219401
 size:        95
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:11:42.114Z
 
 ---
 
@@ -3192,20 +4038,142 @@ scrapedAt:   2026-08-31T05:09:25.406Z
 ---
 
 slug:        um-actually-tournament-of-champions
+title:       'Um, Actually: Tournament of Champions'
+description: It's time to find out once and for all who the principal pedant is.
+episodes:
+- tournament-of-champions-26-part-1
+- tournament-of-champions-26-part-2
+- tournament-of-champions-26-part-3
+- tournament-of-champions-26-part-4
+- tournament-of-champions-pt-1
+- tournament-of-champions-pt-2
+- tournament-of-champions-pt-3
+- tournament-of-champions-pt-4
+itemIds:
+- 4049850
+- 4056763
+- 4063731
+- 4071367
+- 452934
+- 455296
+- 465639
+- 469265
 size:        8
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:09:37.700Z
 
 ---
 
 slug:        very-important-people
+title:       Very Important People
+description: 'Comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis.'
+seasons:
+- 1
+- 2
+- 3
+episodes:
+- princess-emily
+- last-looks-princess-emily
+- denzel
+- last-looks-denzel
+- vic-s-ex-step-grandmother
+- last-looks-vic-s-ex-step-grandmother
+- marionette-conqui-and-zonton-de-la-doll
+- last-looks-marionette-conqui-and-zonton-de-la-doll
+- kepl-and-dr-milk
+- last-looks-kepl-and-dr-milk
+- tommy-shriggly
+- last-looks-tommy-shriggly
+- professor-avery-goodman
+- last-looks-professor-avery-goodman
+- jasper-and-casper
+- last-looks-jasper-and-casper
+- leighanna-jean-gruthers
+- last-looks-leighanna-jean-gruthers
+- pig-2
+- last-looks-pig-2
+- martha-tops-and-lucian-azathoth
+- last-looks-martha-tops-and-lucian-azathoth
+- augbert
+- last-looks-augbert
+itemIds:
+- 2998371
+- 3015190
+- 3015142
+- 3015285
+- 3043511
+- 3043715
+- 3066198
+- 3067664
+- 3052353
+- 3058605
+- 3086142
+- 3086193
+- 3109475
+- 3113714
+- 3122512
+- 3122664
+- 3145531
+- 3161596
+- 3145545
+- 3161668
+- 3175689
+- 3198724
+- 3203075
+- 3203130
 size:        89
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:10:14.886Z
 
 ---
 
 slug:        very-mary-kate
+title:       Very Mary-Kate
+description: 'The unofficial celebrity biography of Mary-Kate Olsen, brought to spoiled rotten life by Elaine Carroll. Featuring Bodyguard, Fat Professor, and obscene wealth.'
+seasons:
+- 1
+- 2
+episodes:
+- cat
+- back-to-school
+- crush
+- ashleyguard
+- nightmare
+- philip-seymour-hoffman-pt-2
+- gun
+- clone
+- woody-allen-pt-1
+- trick-or-treat-1
+- hoffmoween
+- woody-allen-pt-2
+- naked
+- fired
+- hired
+- bath
+- sexy-time
+- sick
+itemIds:
+- 234409
+- 450015
+- 234410
+- 234411
+- 234412
+- 450016
+- 234413
+- 234414
+- 450017
+- 234415
+- 450018
+- 450019
+- 234416
+- 450020
+- 234417
+- 234418
+- 234419
+- 234420
 size:        39
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:12:56.486Z
 
 ---
 

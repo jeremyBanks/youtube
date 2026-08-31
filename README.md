@@ -10,12 +10,10 @@ descriptions of what it actually does yet)
       channels with handles and some stats, and `data/scans.yaml`, a list of
       scan sessions and what data they included, but those are just to support
       the scanning operation and aren't intended to be useful on their own (e.g.
-      the channels stats may never be updated). This requires YouTube API client
-      identifiers and keys to be set in `.env` as described in `.env.defaults`,
-      and requires the user to interactively authenticate with their YouTube
-      account (only be used for read operations, any YouTube account should work
-      fine; it doesn't need to be a channel member in order to list member
-      videos for a channel).
+      the channels stats may never be updated). This only requires a YouTube API
+      key (`YOUTUBE_API_KEY`) to be set in `.env` or in the environment, as
+      described in `.env.example`. It reads public data, so it does not
+      authenticate and can run unattended.
 
 - [ ] `deno task aggregate` (`deno run @jeb/youtube/aggregate`) uses the
       contents of `curation/seasons.yaml` and `config/aggregate.toml` to
@@ -25,7 +23,7 @@ descriptions of what it actually does yet)
 - [ ] `deno task publish` (`deno run @jeb/youtube/publish`) takes the playlist
       videos and descriptions in `data/playlists.yaml` and publishes them to the
       specified playlist IDs on YouTube. This requires YouTube API client
-      identifiers and keys to be set in `.env` as described in `.env.defaults`,
+      identifiers and keys to be set in `.env` as described in `.env.example`,
       and requires the user to interactively authenticate with a YouTube account
       that has owns or at least has write permissions for the specified
       playlists. Note that editing playlists can be an expensive operation in

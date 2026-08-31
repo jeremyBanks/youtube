@@ -8,10 +8,13 @@ import type { Channel } from "./storage.ts";
 import { only } from "./common.ts";
 import { unwrap } from "./common.ts";
 
-type AuthenticatedClient = {
+type Client = {
   youtube: googleapis.youtube_v3.Youtube;
-  auth: googleapis.Auth.OAuth2Client;
   key: string;
+};
+
+type AuthenticatedClient = Client & {
+  auth: googleapis.Auth.OAuth2Client;
 };
 
 type AuthMode =
@@ -25,17 +28,38 @@ export function setAuthMode(mode: AuthMode) {
   authMode = mode;
 }
 
+let client:
+  | undefined
+  | Promise<Client>;
+
 let authenticatedClient:
   | undefined
   | Promise<AuthenticatedClient>;
 
+/**
+ * The client and API key, without authenticating.
+ *
+ * Reads of public data only need the API key, so callers that never touch
+ * OAuth should use this: it is the difference between running unattended and
+ * requiring a browser. `examplePath: null` disables dotenv's check that every
+ * variable in .env.example is set, which would otherwise demand the OAuth
+ * credentials even here, along with several that nothing reads at all.
+ */
+export const getClientAndKey = async (): Promise<Client> => {
+  return await (client ??= (async () => {
+    await dotenv.load({ export: true, examplePath: null });
+
+    return {
+      youtube: googleapis.google.youtube("v3"),
+      key: truthy(Deno.env.get("YOUTUBE_API_KEY")),
+    };
+  })());
+};
+
+/** The client, API key, and an authenticated OAuth2 client. Writes need this. */
 export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   return await (authenticatedClient ??= (async () => {
-    await dotenv.load({ export: true });
-
-    const youtube = googleapis.google.youtube("v3");
-
-    const key = truthy(Deno.env.get("YOUTUBE_API_KEY"));
+    const { youtube, key } = await getClientAndKey();
 
     const auth = new googleapis.google.auth.OAuth2({
       clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
@@ -150,7 +174,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
 };
 
 export async function playlistMetadata(playlistId: string) {
-  const { youtube, key } = await getClientAuthAndKey();
+  const { youtube, key } = await getClientAndKey();
 
   console.debug(`youtube.playlists.list...`);
   const response = await youtube.playlists.list({
@@ -165,7 +189,7 @@ export async function playlistMetadata(playlistId: string) {
 export async function* playlistVideos(playlistId: string, opts: {
   getDetails?: boolean;
 } = {}) {
-  const { youtube, key } = await getClientAuthAndKey();
+  const { youtube, key } = await getClientAndKey();
 
   let pageToken: string | undefined = undefined;
 
@@ -213,7 +237,7 @@ export async function* playlistVideos(playlistId: string, opts: {
 
 /** Retrieves the metadata for a given channel. */
 export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
-  const { youtube, auth } = await getClientAuthAndKey();
+  const { youtube, key } = await getClientAndKey();
 
   const channels = await openChannelStorage();
 
@@ -247,7 +271,7 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
   console.debug(`youtube.channels.list...`);
   if (handle) {
     result = await youtube.channels.list({
-      auth,
+      key,
       forHandle: handle,
       part: [
         "brandingSettings",
@@ -264,7 +288,7 @@ export async function channelMetadata(handleOrUrl: string): Promise<Channel> {
   } else {
     // XXX: this doesn't work for certain non-user channels like UCbwnaOxVtqUWmeJsdKTlqfg
     result = await youtube.channels.list({
-      auth,
+      key,
       id: [channelId!],
       part: [
         "brandingSettings",
@@ -458,7 +482,7 @@ export type VideoDetails = {
 export async function getVideoDetails(
   videoIds: string[],
 ): Promise<Map<string, VideoDetails>> {
-  const { youtube, key } = await getClientAuthAndKey();
+  const { youtube, key } = await getClientAndKey();
   const results = new Map<string, VideoDetails>();
 
   // Process in batches of 50 (API limit)

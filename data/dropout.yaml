@@ -2442,7 +2442,21 @@ collection:    heist-night-season-1
 collections:
 - heist-night-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         A Target with Very Convenient Habits Pt. 2
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/heist-night/season:1/videos/a-target-with-very-convenient-habits-pt-2'
+showTitle:     Heist Night
+showSlug:      heist-night
+description:   'I offered to be the getaway driver, and they said "we''re probably just gonna take an Uber?" Even when I told them I already own 5 matching Mini Coopers.'
+itemId:        449918
+collectionId:  93461
+upNextIds:
+- 449919
+- 449921
+- 449922
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:17:20.752Z
 
 ---
 
@@ -22105,7 +22119,20 @@ collection:    heist-night-season-1
 collections:
 - heist-night-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Grant Has a Gambling Problem Pt. 4
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/heist-night/season:1/videos/grant-has-a-gambling-problem-pt-4'
+showTitle:     Heist Night
+showSlug:      heist-night
+description:   'I could have impersonated the dealer. But no, ''you need to moderate the comments.'' ''The team''s already full.'' Whatever, Trapp.'
+itemId:        449921
+collectionId:  93461
+upNextIds:
+- 449922
+- 449920
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:17:33.012Z
 
 ---
 
@@ -35937,7 +35964,17 @@ collection:    heist-night-season-1
 collections:
 - heist-night-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Outtakes Pts. 1-3
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/heist-night/season:1/videos/outtakes-pts-1-3'
+showTitle:     Heist Night
+showSlug:      heist-night
+description:   The heist is right.
+itemId:        449920
+collectionId:  93461
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:17:45.228Z
 
 ---
 
@@ -45798,7 +45835,21 @@ collection:    heist-night-season-1
 collections:
 - heist-night-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Almost Perfect Team Pt. 1
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/heist-night/season:1/videos/the-almost-perfect-team-pt-1'
+showTitle:     Heist Night
+showSlug:      heist-night
+description:   'I''m great with demolitions, but they never ask me. They''re just like ''keep writing Youtube captions.'' Whatever.'
+itemId:        449917
+collectionId:  93461
+upNextIds:
+- 449918
+- 449919
+- 449921
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:17:57.473Z
 
 ---
 
@@ -53512,7 +53563,21 @@ collection:    heist-night-season-1
 collections:
 - heist-night-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         This Heist Plan Looks Like Crap Pt. 3
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/heist-night/season:1/videos/this-heist-plan-looks-like-crap-pt-3'
+showTitle:     Heist Night
+showSlug:      heist-night
+description:   Do you think Trapp won't let me do the heist because I broke one of his elf figurines? That was like 2 years ago.
+itemId:        449919
+collectionId:  93461
+upNextIds:
+- 449921
+- 449922
+- 449920
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:18:09.749Z
 
 ---
 
@@ -54466,7 +54531,19 @@ collection:    heist-night-season-1
 collections:
 - heist-night-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Too Many Twists Pt. 5
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/heist-night/season:1/videos/too-many-twists-pt-5'
+showTitle:     Heist Night
+showSlug:      heist-night
+description:   'Now I can finally reveal my role'' I was in the air ducts the entire time'' watching, uh, the air ducts.'
+itemId:        449922
+collectionId:  93461
+upNextIds:
+- 449920
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:18:21.996Z
 
 ---
 

@@ -2453,8 +2453,18 @@ title:         All You Need Is Stab
 seasonNumber:  9
 episodeNumber: 1
 releaseDate:   2022-06-09T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/all-you-need-is-stab'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'Please don''t sue us, Beatles.'
+itemId:        2186270
+collectionId:  730287
+upNextIds:
+- 2194972
+- 2209118
+- 2211379
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:57:32.041Z
+scrapedAt:     2026-08-31T10:01:24.515Z
 
 ---
 
@@ -3938,8 +3948,18 @@ title:         Bat Shit Mountain
 seasonNumber:  9
 episodeNumber: 2
 releaseDate:   2022-06-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/bat-shit-mountain'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The cast talks about what they would do if they woke up on Bat Shit Mountain.
+itemId:        2194972
+collectionId:  730287
+upNextIds:
+- 2209118
+- 2211379
+- 2235317
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:58:33.178Z
+scrapedAt:     2026-08-31T10:01:36.782Z
 
 ---
 
@@ -7965,8 +7985,14 @@ title:         Butthole Incorporated
 seasonNumber:  9
 episodeNumber: 7
 releaseDate:   2022-07-21T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/butthole-incorporated'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The crew behind Coffin Run answers fan questions about the season.
+itemId:        2258487
+collectionId:  730287
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:01:24.565Z
+scrapedAt:     2026-08-31T10:01:49.057Z
 
 ---
 
@@ -18088,8 +18114,17 @@ title:         'Hideo Kojima Mind, Activate!'
 seasonNumber:  9
 episodeNumber: 5
 releaseDate:   2022-07-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/hideo-kojima-mind-activate'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talks letters, metaphors, spinoffs, and wet windows.'
+itemId:        2235317
+collectionId:  730287
+upNextIds:
+- 2249977
+- 2258487
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:10:48.054Z
+scrapedAt:     2026-08-31T10:02:01.354Z
 
 ---
 
@@ -22861,8 +22896,16 @@ title:         Let's Do Shots!
 seasonNumber:  9
 episodeNumber: 6
 releaseDate:   2022-07-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/let-s-do-shots'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The cast celebrates the finale of Coffin Run with some blood shots.
+itemId:        2249977
+collectionId:  730287
+upNextIds:
+- 2258487
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:16:55.589Z
+scrapedAt:     2026-08-31T10:02:13.609Z
 
 ---
 
@@ -41444,8 +41487,18 @@ title:         Trope Queen
 seasonNumber:  9
 episodeNumber: 3
 releaseDate:   2022-06-23T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/trope-queen'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The Fang Gang talks movies and which Die Hard henchman Izzy's mom had sex with.
+itemId:        2209118
+collectionId:  730287
+upNextIds:
+- 2211379
+- 2235317
+- 2249977
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:02:16.120Z
+scrapedAt:     2026-08-31T10:02:25.847Z
 
 ---
 
@@ -43894,8 +43947,18 @@ title:         Werewolf Sex
 seasonNumber:  9
 episodeNumber: 4
 releaseDate:   2022-06-30T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:9/videos/werewolf-sex'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   Izzy reels from what just happened. The crew talks werewolf sex.
+itemId:        2211379
+collectionId:  730287
+upNextIds:
+- 2235317
+- 2249977
+- 2258487
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:05:57.373Z
+scrapedAt:     2026-08-31T10:02:38.093Z
 
 ---
 

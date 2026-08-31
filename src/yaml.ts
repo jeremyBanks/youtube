@@ -80,7 +80,13 @@ export const open = async <
   addEventListener("beforeunload", onBeforeUnload, { once: true });
 
   const onUnhandledRejection = (event: PromiseRejectionEvent) => {
+    // Suppressing the default crash is what lets the in-memory data reach disk
+    // instead of being lost, but on its own it also swallows the failure: the
+    // process goes on to exit 0, so an aborted run looks like a successful one.
+    // Setting the exit code rather than calling Deno.exit keeps that guarantee
+    // while still letting every storage's handler finish flushing first.
     event.preventDefault();
+    Deno.exitCode = 1;
 
     console.error(
       `Dumping ${path} before shutdown due to unhandled error:`,

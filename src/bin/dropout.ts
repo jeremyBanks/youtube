@@ -5,7 +5,7 @@ import {
   openDropoutStorage,
 } from "../storage.ts";
 import { getDropoutConfig } from "../config.ts";
-import { mapOptional } from "../common.ts";
+import { mapOptional, retryWithBackoff } from "../common.ts";
 
 const BASE = "https://watch.dropout.tv";
 const USER_AGENT =
@@ -377,12 +377,27 @@ async function politeFetch(
   state: { cookie?: string; delaySeconds: number },
 ): Promise<Response> {
   await delay(state.delaySeconds * 1000, { persistent: false });
-  const response = await fetch(url, {
-    headers: {
-      "user-agent": USER_AGENT,
-      ...(state.cookie ? { cookie: state.cookie } : {}),
+  // Only the fetch itself is retried, and fetch rejects on network failure
+  // alone: an HTTP status, including a refusal, resolves normally and is
+  // dealt with below. So a dropped connection is ridden out while a 429 is
+  // still never retried. Without this a single reset ends a long run.
+  const response = await retryWithBackoff(
+    () =>
+      fetch(url, {
+        headers: {
+          "user-agent": USER_AGENT,
+          ...(state.cookie ? { cookie: state.cookie } : {}),
+        },
+      }),
+    {
+      maxRetries: 4,
+      initialDelayMs: 30_000,
+      onRetry: (attempt, error) =>
+        console.warn(
+          `  network error on ${url} (attempt ${attempt}): ${error}`,
+        ),
     },
-  });
+  );
   for (const cookie of response.headers.getSetCookie()) {
     const session = cookie.match(/^(_session=[^;]+)/);
     if (session) {

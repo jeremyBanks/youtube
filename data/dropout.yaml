@@ -1173,7 +1173,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         A Disturbance in HR
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/a-disturbance-in-hr'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   Mara sees a chance for redemption after bureaucratic sadist Valkyrian Prime puts her on tube duty.
+itemId:        469742
+collectionId:  99036
+upNextIds:
+- 491918
+- 494924
+- 499898
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:55:26.095Z
 
 ---
 
@@ -2234,7 +2248,20 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         A Shift in Power
+seasonNumber:  1
+episodeNumber: 9
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/a-shift-in-power'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   War wages between UUP and the Legion. Mara and Vin play to their very limited strengths.
+itemId:        512654
+collectionId:  99036
+upNextIds:
+- 516658
+- 521082
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:55:38.409Z
 
 ---
 
@@ -7678,7 +7705,17 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Behind the Scenes: Production and Design'
+seasonNumber:  1
+episodeNumber: 11
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/behind-the-scenes-production-and-design'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   'Get a peek at the skills, inspiration, and teamwork that made the movie magic behind Troopers.'
+itemId:        521082
+collectionId:  99036
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:55:50.690Z
 
 ---
 
@@ -7823,7 +7860,19 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Behind the Scenes: The Troopers Universe'
+seasonNumber:  1
+episodeNumber: 10
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/behind-the-scenes-the-troopers-universe'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   'An exclusive glimpse at the evolution of Troopers, from bigger budgets to bigger stories.'
+itemId:        516658
+collectionId:  99036
+upNextIds:
+- 521082
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:56:02.942Z
 
 ---
 
@@ -8701,7 +8750,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Birth of the Big Gun
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/birth-of-the-big-gun'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   'As the Legion''s pecking order grows increasingly unclear, Dreadlord undermines VP with a "big" idea.'
+itemId:        494924
+collectionId:  99036
+upNextIds:
+- 499898
+- 501144
+- 505551
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:56:15.225Z
 
 ---
 
@@ -40301,7 +40364,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Return of the Orb
+seasonNumber:  1
+episodeNumber: 7
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/return-of-the-orb'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   Valkyrian Prime unveils a devastating update. Vin's loyalty is tested.
+itemId:        505551
+collectionId:  99036
+upNextIds:
+- 509337
+- 512654
+- 516658
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:56:27.511Z
 
 ---
 
@@ -48271,7 +48348,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Data Quest
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/the-data-quest'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   Vin and Mara pay a surprisingly sensual visit to tech support on the Router Planet.
+itemId:        491918
+collectionId:  99036
+upNextIds:
+- 494924
+- 499898
+- 501144
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:56:39.802Z
 
 ---
 
@@ -52639,7 +52730,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Secret of UUP
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/the-secret-of-uup'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   'Danger, secrets, and something called "happiness" is abound in enemy territory.'
+itemId:        501144
+collectionId:  99036
+upNextIds:
+- 505551
+- 509337
+- 512654
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:56:52.110Z
 
 ---
 
@@ -52719,7 +52824,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Series Reboots
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/the-series-reboots'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   The Interstellar Legion's new recognition program has some Troopers thrilled and others skeptical.
+itemId:        469689
+collectionId:  99036
+upNextIds:
+- 469742
+- 491918
+- 494924
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:57:04.434Z
 
 ---
 
@@ -53521,7 +53640,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Telltale Trials
+seasonNumber:  1
+episodeNumber: 8
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/the-telltale-trials'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   'In pursuit of intel, Una and Gooby humor Mara by assessing her "mastery" of the Way.'
+itemId:        509337
+collectionId:  99036
+upNextIds:
+- 512654
+- 516658
+- 521082
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:57:16.710Z
 
 ---
 
@@ -58847,7 +58980,21 @@ collection:    troopers-1-season-1
 collections:
 - troopers-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Way of the Wayfinder
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/troopers-1/season:1/videos/way-of-the-wayfinder'
+showTitle:     Troopers
+showSlug:      troopers-1
+description:   'In a land that is definitely not Italy, Vin wrestles with his past as Mara considers a new future.'
+itemId:        499898
+collectionId:  99036
+upNextIds:
+- 501144
+- 505551
+- 509337
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:57:28.963Z
 
 ---
 

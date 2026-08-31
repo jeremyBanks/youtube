@@ -18587,7 +18587,12 @@ collection:    dropout-music-season-1
 collections:
 - dropout-music-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Fake News TV
+url:           'https://watch.dropout.tv/videos/fake-news-tv'
+description:   Tune into the Fake News Network to hear about all the deep state conspiracies you’ve been missing.
+itemId:        472865
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:41:14.977Z
 
 ---
 
@@ -42060,7 +42065,12 @@ collections:
 - dropout-music-season-1
 - see-plum-run-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'See Plum Run: Official Music Video'
+url:           'https://watch.dropout.tv/videos/see-plum-run-official-music-video'
+description:   Plum and Mama bust a move in this original music video for “She Got Dem Books” from See Plum Run
+itemId:        398915
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:41:27.217Z
 
 ---
 
@@ -47258,7 +47268,12 @@ collection:    dropout-music-season-1
 collections:
 - dropout-music-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Brand of Logan Paul
+url:           'https://watch.dropout.tv/videos/the-brand-of-logan-paul'
+description:   The ballad of an internet star who became the most hated man in the world.
+itemId:        436930
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:41:39.444Z
 
 ---
 
@@ -53423,7 +53438,21 @@ collections:
 - ch-shorts-season-3
 - dropout-music-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Ultimate Internet Love Song
+seasonNumber:  3
+episodeNumber: 8
+url:           'https://watch.dropout.tv/ch-shorts/season:3/videos/the-ultimate-internet-love-song'
+showTitle:     CH Shorts
+showSlug:      ch-shorts
+description:   You meme the world to me.
+itemId:        233646
+collectionId:  82230
+upNextIds:
+- 233647
+- 449097
+- 449098
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:41:51.701Z
 
 ---
 

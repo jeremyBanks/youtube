@@ -24075,7 +24075,12 @@ collections:
 - what-the-facts-101-season-1
 - wtf-101-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         How Far Would You Go For Science?
+url:           'https://watch.dropout.tv/videos/how-far-would-you-go-for-science'
+description:   Dr. Will Brooker joins Jake for tales of trial & error experimentation and English eccentricity.
+itemId:        494019
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:00:35.206Z
 
 ---
 
@@ -31609,7 +31614,12 @@ collections:
 - what-the-facts-101-season-1
 - wtf-101-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Mating Isn’t Like Dating
+url:           'https://watch.dropout.tv/videos/mating-isn-t-like-dating'
+description:   'Biologist Menno Schilthuizen schools Jake on nature''s nether regions, from seduction to reproduction.'
+itemId:        499108
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:00:47.496Z
 
 ---
 
@@ -38806,7 +38816,12 @@ collections:
 - what-the-facts-101-season-1
 - wtf-101-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Remember When Murder Was Legal?
+url:           'https://watch.dropout.tv/videos/remember-when-murder-was-legal'
+description:   Dr. Steven Hughes sits down with Jake for a discussion of dynamite duels and ye olde clickbait.
+itemId:        502650
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:00:59.825Z
 
 ---
 
@@ -49968,7 +49983,21 @@ collections:
 - what-the-facts-101-season-1
 - wtf-101-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Parasite You Probably Have
+seasonNumber:  1
+episodeNumber: 12
+url:           'https://watch.dropout.tv/wtf-101/season:1/videos/the-parasite-you-probably-have'
+showTitle:     WTF 101
+showSlug:      wtf-101
+description:   Jake Young sits down with Senior Ecologist Kevin Lafferty to talk brain bugs & test out fungal tea.
+itemId:        487006
+collectionId:  41751
+upNextIds:
+- 494019
+- 499108
+- 502650
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:01:12.118Z
 
 ---
 

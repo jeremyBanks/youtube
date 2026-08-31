@@ -14046,7 +14046,18 @@ collection:    troopers-animated-season-1
 collections:
 - troopers-animated-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Death By Space
+seasonNumber:  1
+episodeNumber: 6
+releaseDate:   2021-02-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/troopers-animated/season:1/videos/death-by-space'
+showTitle:     'Troopers: Animated'
+showSlug:      troopers-animated
+description:   'When Dreadlord closes a door (leading to the void of space), he opens a window (also to space).'
+itemId:        1336133
+collectionId:  237853
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:22:27.450Z
 
 ---
 
@@ -55255,7 +55266,21 @@ collection:    troopers-animated-season-1
 collections:
 - troopers-animated-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Troopers vs. Character Stats
+seasonNumber:  1
+episodeNumber: 4
+releaseDate:   2021-01-20T00:00:00.000Z
+url:           'https://watch.dropout.tv/troopers-animated/season:1/videos/troopers-vs-character-stats'
+showTitle:     'Troopers: Animated'
+showSlug:      troopers-animated
+description:   'Larry and Rich try to minmax themselves, which goes about as well as you''d guess.'
+itemId:        1278393
+collectionId:  237853
+upNextIds:
+- 1301058
+- 1336133
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:22:39.793Z
 
 ---
 
@@ -55264,7 +55289,22 @@ collection:    troopers-animated-season-1
 collections:
 - troopers-animated-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Troopers vs. Performance Reviews
+seasonNumber:  1
+episodeNumber: 3
+releaseDate:   2020-12-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/troopers-animated/season:1/videos/troopers-vs-performance-reviews'
+showTitle:     'Troopers: Animated'
+showSlug:      troopers-animated
+description:   Dread Lord gives Larry and Rich a performance review...from the future.
+itemId:        1226890
+collectionId:  237853
+upNextIds:
+- 1278393
+- 1301058
+- 1336133
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:22:52.118Z
 
 ---
 
@@ -55273,7 +55313,22 @@ collection:    troopers-animated-season-1
 collections:
 - troopers-animated-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Troopers vs. Social Media
+seasonNumber:  1
+episodeNumber: 1
+releaseDate:   2020-11-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/troopers-animated/season:1/videos/troopers-vs-social-media'
+showTitle:     'Troopers: Animated'
+showSlug:      troopers-animated
+description:   Compare and despair - especially when parallel universes are involved.
+itemId:        1181033
+collectionId:  237853
+upNextIds:
+- 1202475
+- 1226890
+- 1278393
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:23:04.434Z
 
 ---
 
@@ -55282,7 +55337,22 @@ collection:    troopers-animated-season-1
 collections:
 - troopers-animated-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Troopers vs. Teleporter
+seasonNumber:  1
+episodeNumber: 2
+releaseDate:   2020-12-02T00:00:00.000Z
+url:           'https://watch.dropout.tv/troopers-animated/season:1/videos/troopers-vs-teleporter'
+showTitle:     'Troopers: Animated'
+showSlug:      troopers-animated
+description:   UberEats in space doesn't work quite as nicely.
+itemId:        1202475
+collectionId:  237853
+upNextIds:
+- 1226890
+- 1278393
+- 1301058
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:23:16.735Z
 
 ---
 
@@ -58971,7 +59041,20 @@ collection:    troopers-animated-season-1
 collections:
 - troopers-animated-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         What It's Like To Date An Alien
+seasonNumber:  1
+episodeNumber: 5
+releaseDate:   2021-02-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/troopers-animated/season:1/videos/what-it-s-like-to-date-an-alien'
+showTitle:     'Troopers: Animated'
+showSlug:      troopers-animated
+description:   Breaking up with an alien hivemind ain't easy.
+itemId:        1301058
+collectionId:  237853
+upNextIds:
+- 1336133
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:23:29.074Z
 
 ---
 

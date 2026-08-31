@@ -1422,8 +1422,17 @@ title:         A Random Sequence of Events
 seasonNumber:  14
 episodeNumber: 4
 releaseDate:   2023-08-31T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:14/videos/a-random-sequence-of-events'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about incontinence, self-talk, and conspiracy theories.'
+itemId:        2853894
+collectionId:  917601
+upNextIds:
+- 2882575
+- 2888249
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:56:30.900Z
+scrapedAt:     2026-08-31T09:57:18.070Z
 
 ---
 
@@ -6584,8 +6593,14 @@ title:         Bit City USA
 seasonNumber:  14
 episodeNumber: 6
 releaseDate:   2023-09-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:14/videos/bit-city-usa'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about the origins of this season, paying attention, and foot stuff.'
+itemId:        2888249
+collectionId:  917601
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:59:58.746Z
+scrapedAt:     2026-08-31T09:57:30.317Z
 
 ---
 
@@ -20307,8 +20322,18 @@ title:         In Space No One Can Hear You Cream
 seasonNumber:  14
 episodeNumber: 2
 releaseDate:   2023-08-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:14/videos/in-space-no-one-can-hear-you-cream'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about guilt, shame, and coffee grounds. Oh and balls. Lots of ball talk this episode.'
+itemId:        2849627
+collectionId:  917601
+upNextIds:
+- 2851736
+- 2853894
+- 2882575
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:15:29.923Z
+scrapedAt:     2026-08-31T09:57:42.585Z
 
 ---
 
@@ -21791,8 +21816,18 @@ title:         Key Lime Pie is a Marketing Invention
 seasonNumber:  14
 episodeNumber: 1
 releaseDate:   2023-08-10T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:14/videos/key-lime-pie-is-a-marketing-invention'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about their characters, snake penises, and how loud Brennan is in real life.'
+itemId:        2829516
+collectionId:  917601
+upNextIds:
+- 2849627
+- 2851736
+- 2853894
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:16:31.103Z
+scrapedAt:     2026-08-31T09:57:54.834Z
 
 ---
 
@@ -43173,8 +43208,18 @@ title:         We Are Feeling Machines That Think
 seasonNumber:  14
 episodeNumber: 3
 releaseDate:   2023-08-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:14/videos/we-are-feeling-machines-that-think'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast have more ball talk, discuss game mechanics, and get philosophical.'
+itemId:        2851736
+collectionId:  917601
+upNextIds:
+- 2853894
+- 2882575
+- 2888249
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:04:30.849Z
+scrapedAt:     2026-08-31T09:58:07.095Z
 
 ---
 
@@ -46349,8 +46394,16 @@ title:         You Must Know What You Don't Know
 seasonNumber:  14
 episodeNumber: 5
 releaseDate:   2023-09-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:14/videos/you-must-know-what-you-don-t-know'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about party splits, villain reveals, and lo-jinks.'
+itemId:        2882575
+collectionId:  917601
+upNextIds:
+- 2888249
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:08:12.089Z
+scrapedAt:     2026-08-31T09:58:19.359Z
 
 ---
 

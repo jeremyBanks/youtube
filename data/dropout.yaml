@@ -10663,7 +10663,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         Cave Crawl
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/cave-crawl'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   The party attempts to make it through a perilous cave without awaking the threats within.
+itemId:        636269
+collectionId:  124745
+upNextIds:
+- 642934
+- 649189
+- 656441
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:21:05.710Z
 
 ---
 
@@ -11245,7 +11259,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         Clash of the Centaurs
+seasonNumber:  1
+episodeNumber: 7
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/clash-of-the-centaurs'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   'Now joined by school-skipper Kim, the party finds themselves in a clearing full of angry centaurs.'
+itemId:        642934
+collectionId:  124745
+upNextIds:
+- 649189
+- 656441
+- 661839
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:21:17.981Z
 
 ---
 
@@ -16433,7 +16461,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         Elevator Adventure
+seasonNumber:  1
+episodeNumber: 8
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/elevator-adventure'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   'Sven Levin joins the adventuring party on their latest journey, all the way to the mayor''s mansion.'
+itemId:        649189
+collectionId:  124745
+upNextIds:
+- 656441
+- 661839
+- 673225
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:21:30.243Z
 
 ---
 
@@ -16715,7 +16757,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-12T00:00:00.000Z
+title:         Enter Through the Gift Shop
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/enter-through-the-gift-shop'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   A new adventuring party explores a gift shop and runs into a friendly orc -- and some angry goblins.
+itemId:        624270
+collectionId:  124745
+upNextIds:
+- 624388
+- 625287
+- 625366
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:22:31.639Z
 
 ---
 
@@ -19472,7 +19528,17 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         Fortress of the Hellwyrm
+seasonNumber:  1
+episodeNumber: 11
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/fortress-of-the-hellwyrm'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   Mother joins the party for the thrilling conclusion to the Megadungeon adventure.
+itemId:        673225
+collectionId:  124745
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:21:42.571Z
 
 ---
 
@@ -21725,7 +21791,20 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         Hallways of Horrors
+seasonNumber:  1
+episodeNumber: 9
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/hallways-of-horrors'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   'Old lady thief Marv meets up with the party. Together, can they reach the necromancer''s castle?'
+itemId:        656441
+collectionId:  124745
+upNextIds:
+- 661839
+- 673225
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:21:54.860Z
 
 ---
 
@@ -25664,7 +25743,19 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         Invading the Castle
+seasonNumber:  1
+episodeNumber: 10
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/invading-the-castle'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   'Sunny Vistas, magic user & weatherman, joins the party in time to approach the necromancer''s lair.'
+itemId:        661839
+collectionId:  124745
+upNextIds:
+- 673225
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:22:07.118Z
 
 ---
 
@@ -27469,7 +27560,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-12T00:00:00.000Z
+title:         Kobold Chaos
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/kobold-chaos'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   The party busts Henry out of school for a treasure hunt that turns into a kobold mosh pit.
+itemId:        625287
+collectionId:  124745
+upNextIds:
+- 625366
+- 632980
+- 636269
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:22:43.899Z
 
 ---
 
@@ -40777,7 +40882,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-12T00:00:00.000Z
+title:         Skeleton Skirmish
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/skeleton-skirmish'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   'Wizard Henry Plotter joins the party as they look for a necromancer, but get stopped by skellies.'
+itemId:        624388
+collectionId:  124745
+upNextIds:
+- 625287
+- 625366
+- 632980
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:22:56.156Z
 
 ---
 
@@ -46855,7 +46974,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-15T00:00:00.000Z
+title:         The Haunted Forest
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/the-haunted-forest'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   'In search of treasure, the party heads into the haunted woods and comes face-to-face with ogres.'
+itemId:        632980
+collectionId:  124745
+upNextIds:
+- 636269
+- 642934
+- 649189
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:22:19.378Z
 
 ---
 
@@ -52991,7 +53124,21 @@ collection:    tablepop-presents-megadungeon-live-season-1
 collections:
 - tablepop-presents-megadungeon-live-season-1
 lastmod:       2026-06-12T00:00:00.000Z
+title:         Treasure Toad
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/tablepop-presents-megadungeon-live/season:1/videos/treasure-toad'
+showTitle:     'TablePop Presents: MEGADUNGEON LIVE!'
+showSlug:      tablepop-presents-megadungeon-live
+description:   A critical attack on Witherspoon at the campsite forces the group into action.
+itemId:        625366
+collectionId:  124745
+upNextIds:
+- 632980
+- 636269
+- 642934
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:23:08.401Z
 
 ---
 

@@ -344,6 +344,9 @@ ${D20_PLUG}
 
 [PLObfuAmZm9pDYZqodZU5WxXrH_eSwcwIH]
 name = "Dimension 20: Time Quangle (${ALL_SEASONS})"
+# The episodes already sit in the Live Shows playlist, which reads better
+# than a playlist of its own; kept current, just not listed.
+unlisted = true
 show = "Dimension 20"
 season = "Time Quangle"
 type = ["episode", "special", "bts", "trailer", "external"]

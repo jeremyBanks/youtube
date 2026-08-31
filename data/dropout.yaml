@@ -23584,8 +23584,11 @@ collections:
 lastmod:       2026-08-11T00:00:00.000Z
 title:         Making Chungledown Bim (with Lou Wilson)
 releaseDate:   2021-03-31T00:00:00.000Z
+url:           'https://watch.dropout.tv/videos/making-chungledown-bim-with-lou-wilson'
+description:   Brennan and Lou build out the character sheet for Chungledown Bim.
+itemId:        1259962
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:54:16.270Z
+scrapedAt:     2026-08-31T09:46:00.445Z
 
 ---
 
@@ -27211,7 +27214,20 @@ collections:
 - dimension-20-fantasy-high-season-1
 - fantasy-high-extra-credit-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Parties Are Weird But Friendship is Dope
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/fantasy-high-extra-credit/season:1/videos/parties-are-weird-but-friendship-is-dope'
+showTitle:     'Fantasy High: Extra Credit'
+showSlug:      fantasy-high-extra-credit
+description:   Lou Wilson and designer Rick Perry join Brennan to recap episodes 11 & 12 and talk PC resurrection.
+itemId:        594498
+collectionId:  118088
+upNextIds:
+- 600304
+- 604737
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:46:13.430Z
 
 ---
 
@@ -28278,7 +28294,19 @@ collections:
 - dimension-20-fantasy-high-season-1
 - fantasy-high-extra-credit-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Problem Players & Troublesome Tangents
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/fantasy-high-extra-credit/season:1/videos/problem-players-troublesome-tangents'
+showTitle:     'Fantasy High: Extra Credit'
+showSlug:      fantasy-high-extra-credit
+description:   Zac Oyama & Ally Beardsley join Brennan to recap episodes 13 & 14 and talk high school & home games.
+itemId:        600304
+collectionId:  118088
+upNextIds:
+- 604737
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:46:25.670Z
 
 ---
 
@@ -35989,7 +36017,17 @@ collections:
 - dimension-20-fantasy-high-season-1
 - fantasy-high-extra-credit-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Greatest Nat 20 Of All Time
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/fantasy-high-extra-credit/season:1/videos/the-greatest-nat-20-of-all-time'
+showTitle:     'Fantasy High: Extra Credit'
+showSlug:      fantasy-high-extra-credit
+description:   Siobhan Thompson & Lou Wilson join Brennan to recap episodes 15 & 16 and pick their favorite NPCs.
+itemId:        604737
+collectionId:  118088
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:46:37.899Z
 
 ---
 
@@ -42546,7 +42584,21 @@ collections:
 - dimension-20-fantasy-high-season-1
 - fantasy-high-extra-credit-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Wally and Gilear in the Morning
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/fantasy-high-extra-credit/season:1/videos/wally-and-gilear-in-the-morning'
+showTitle:     'Fantasy High: Extra Credit'
+showSlug:      fantasy-high-extra-credit
+description:   'Emily, Murph, and Michael Schaubach join Brennan to recap episodes 9 & 10 and talk D20 crossovers.'
+itemId:        589470
+collectionId:  118088
+upNextIds:
+- 594498
+- 600304
+- 604737
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:46:50.169Z
 
 ---
 

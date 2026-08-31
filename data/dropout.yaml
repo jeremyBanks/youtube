@@ -11538,7 +11538,21 @@ collections:
 - breaking-news-no-laugh-newsroom-season-2
 - episodes-featuring-brennan-s-tim-curry-impression
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Dinosaurs Were Technically Birds
+seasonNumber:  2
+episodeNumber: 19
+url:           'https://watch.dropout.tv/breaking-news-no-laugh-newsroom/season:2/videos/dinosaurs-were-technically-birds'
+showTitle:     'Breaking News: No Laugh Newsroom'
+showSlug:      breaking-news-no-laugh-newsroom
+description:   Elaine Carroll & Sam ignore a local murder and Brennan lists the perverted things that turn him on.
+itemId:        705554
+collectionId:  118940
+upNextIds:
+- 706671
+- 706699
+- 706709
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:48:16.837Z
 
 ---
 
@@ -32827,8 +32841,18 @@ title:         Stoatal Recall
 seasonNumber:  15
 episodeNumber: 1
 releaseDate:   2023-10-05T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:15/videos/stoatal-recall'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about their characters, Watership Down, and weird British diseases.'
+itemId:        2911343
+collectionId:  934909
+upNextIds:
+- 2923296
+- 2932231
+- 2940870
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:51:39.570Z
+scrapedAt:     2026-08-31T09:48:04.596Z
 
 ---
 

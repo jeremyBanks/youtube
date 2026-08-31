@@ -11,6 +11,8 @@ config/aggregate.toml   # Defines which playlists to generate and their content
 data/videos.yaml        # Scraped video metadata from YouTube channels
 data/playlists.yaml     # Generated playlist data (don't edit directly)
 data/channels.yaml      # Channel metadata
+config/dropout.toml     # Dropout.tv scan budget, politeness, show mapping
+data/dropout.yaml       # Scraped watch.dropout.tv index (own data source)
 ```
 
 ## Workflow
@@ -150,6 +152,36 @@ include = [{ show = "New Show" }]
 ```
 
 2. Run `deno task aggregate && deno task publish --create-missing`
+
+## Dates
+
+Two timestamp fields, with different meanings, both from the YouTube scan:
+
+- `publishedAt` on a video in `data/videos.yaml` is when the video was added to
+  the channel's uploads/members playlist. It is the better proxy for the
+  original air date and is what `published:` in `curation/seasons.yaml` is based
+  on.
+- `uploadedAt` is `video.snippet.publishedAt`, when the file itself went live.
+  For members videos this can trail the playlist-add by hours to months.
+  Captured but not yet used.
+
+Neither is authoritative: **the official release date lives on
+watch.dropout.tv** and is scraped into `data/dropout.yaml`.
+
+```bash
+deno task scan-dropout                 # sitemap diff + budgeted detail fetches
+deno task scan-dropout --budget=20     # smaller run
+deno task scan-dropout --only='^dimension-20'  # restrict detail fetches
+deno task verify-dates                 # report curated vs official dates
+deno task verify-dates --show="Game Changer" --unmatched
+```
+
+`scan-dropout` waits 12 seconds between requests (config/dropout.toml) and
+aborts outright on 429/403 — never work around that. Release dates are
+immutable, so each episode page is fetched once ever. `verify-dates` is
+report-only; date corrections to `curation/seasons.yaml` are applied by hand as
+reviewed batches. When a title match is ambiguous, link the entry explicitly
+with `dropout: <episode-slug>`.
 
 ## Git Conventions
 

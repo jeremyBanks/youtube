@@ -58,6 +58,23 @@ requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
       categorised by hand. Filters with `--channel`, `--since` and `--limit`;
       `--no-fetch` skips fetching descriptions.
 
+- [x] `deno task scan-dropout` (`deno run @jeb/youtube/scan-dropout`) indexes
+      watch.dropout.tv itself into `data/dropout.yaml`. The site's sitemap
+      enumerates every episode in one request, so existence and deletion
+      detection are cheap; official release dates only appear on individual
+      episode pages, which are fetched 12 seconds apart under a per-run budget
+      (`config/dropout.toml`), once ever per episode. `--budget=N` overrides the
+      cap and `--only=REGEX` restricts a run to matching slugs or collections.
+      Needs no credentials.
+
+- [x] `deno task verify-dates` (`deno run @jeb/youtube/verify-dates`)
+      cross-references the `published:` dates in `curation/seasons.yaml` against
+      the official release dates in `data/dropout.yaml` and reports every
+      disagreement. Matching uses an explicit `dropout: <slug>` field on a
+      curation entry when present, otherwise a normalised-title match within the
+      show's collection (mapped in `config/dropout.toml`); anything ambiguous or
+      unmatched is listed rather than guessed. It reads only and never writes.
+
 - [ ] `deno task scan-playlists` would take the playlist IDs specified in
       `config/aggregate.toml`, fetch their current descriptions and contents
       from the YouTube API, and update `data/playlists.yaml` with that
@@ -70,6 +87,10 @@ requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
 
 `.github/workflows/scan.yaml` runs `deno task scan` weekly and commits the
 result. It needs one repository secret, `YOUTUBE_API_KEY`.
+
+`.github/workflows/scan-dropout.yaml` runs `deno task scan-dropout` weekly on a
+different day, and needs no secrets at all. Each run also chips away at the back
+catalogue of unfetched release dates until it converges.
 
 The point of scanning on a schedule is capture rather than currency: a video
 that is posted and pulled between scans leaves no trace, and no later scan can

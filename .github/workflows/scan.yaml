@@ -38,12 +38,19 @@ jobs:
       # Deliberately not --incremental-only: that flag is a manual catch-up
       # tool, and here it would suppress the complete scans that
       # config/scan.toml schedules, which are what detect deletions.
+      # Step-level, so that a scan cut short still reaches the commit below.
+      # A job-level timeout would cancel the job and discard the capture.
       - name: Scan
+        timeout-minutes: 45
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: deno task scan
 
+      # Always, even on failure: a video that was posted and pulled between
+      # scans cannot be recovered later, so whatever this run did see is
+      # worth keeping regardless of how it ended.
       - name: Commit
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

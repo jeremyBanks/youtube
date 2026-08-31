@@ -1,6 +1,9 @@
 import { parseArgs } from "@std/cli";
 import { delay } from "@std/async";
-import { openDropoutStorage } from "../storage.ts";
+import {
+  openDropoutCollectionStorage,
+  openDropoutStorage,
+} from "../storage.ts";
 import { getDropoutConfig } from "../config.ts";
 
 const BASE = "https://watch.dropout.tv";
@@ -112,6 +115,60 @@ function decodeEntities(text: string): string {
 }
 
 /**
+ * Lifts the `window.Page = {...}` blob a page declares about itself and
+ * returns its PROPERTIES. Brace-counted rather than regexed, since the
+ * object nests. Returns undefined rather than throwing on anything
+ * unexpected: this is a bonus source, never a required one.
+ */
+function parsePageProperties(
+  html: string,
+): Record<string, unknown> | undefined {
+  const start = html.indexOf("window.Page = {");
+  if (start === -1) {
+    return undefined;
+  }
+  const from = html.indexOf("{", start);
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+  for (let i = from; i < html.length; i += 1) {
+    const c = html[i];
+    if (inString) {
+      if (escaped) {
+        escaped = false;
+      } else if (c === "\\") {
+        escaped = true;
+      } else if (c === '"') {
+        inString = false;
+      }
+      continue;
+    }
+    if (c === '"') {
+      inString = true;
+    } else if (c === "{") {
+      depth += 1;
+    } else if (c === "}") {
+      depth -= 1;
+      if (depth === 0) {
+        try {
+          const parsed = JSON.parse(html.slice(from, i + 1));
+          return parsed?.PROPERTIES ?? undefined;
+        } catch {
+          return undefined;
+        }
+      }
+    }
+  }
+  return undefined;
+}
+
+/** Every string taken off a page goes through here, so that decoding is
+ * the default rather than something each new field has to remember. */
+function text(raw: string): string {
+  return decodeEntities(raw).trim();
+}
+
+/**
  * Pulls the release date, season/episode numbers, and title out of an
  * episode page. Every field is optional: trailers have no episode number,
  * and a page that fails to parse just yields nothing.
@@ -121,6 +178,14 @@ export function parseEpisodePage(html: string): {
   seasonNumber?: number;
   episodeNumber?: number;
   releaseDate?: Date;
+  url?: string;
+  showTitle?: string;
+  showSlug?: string;
+  description?: string;
+  tags?: Array<string>;
+  itemId?: number;
+  collectionId?: number;
+  upNextIds?: Array<number>;
 } {
   const out: ReturnType<typeof parseEpisodePage> = {};
   const date = html.match(
@@ -145,6 +210,112 @@ export function parseEpisodePage(html: string): {
       .replace(/ - Season \d+ - Dropout$/, "")
       .replace(/ - Dropout$/, "")
       .trim();
+  }
+  // The canonical url names the collection and season for an item that
+  // lives in one ("/mice-murder/season:1/videos/<slug>"). A standalone
+  // trailer has neither, and its url is just "/videos/<slug>".
+  const url = html.match(/<meta property="og:url" content="([^"]+)"/);
+  if (url) {
+    out.url = decodeEntities(url[1]);
+  }
+  const description = html.match(
+    /<meta property="og:description" content="([^"]*)"/,
+  );
+  if (description?.[1]) {
+    out.description = text(description[1]);
+  }
+  // The series link gives the show's display name and its slug together,
+  // which is what lets a collection be named rather than guessed at.
+  const series = html.match(
+    /series-title[^>]*>\s*<a href="\/([a-z0-9-]+)"[^>]*>([^<]+)</,
+  );
+  if (series) {
+    out.showSlug = series[1];
+    out.showTitle ??= text(series[2]);
+  }
+  const tags = [
+    ...html.matchAll(
+      /data-meta-field-name="tags" data-meta-field-value="([^"]+)"/g,
+    ),
+  ].map((m) => text(m[1]));
+  if (tags.length) {
+    out.tags = [...new Set(tags)];
+  }
+  // The page states its own identity in a JSON blob. Nothing in the visible
+  // markup does, and the embed urls are a trap: when logged out the player
+  // is loaded with the show's *trailer*, so its id is not this item's.
+  const page = parsePageProperties(html);
+  if (typeof page?.VIDEO_ID === "number") {
+    out.itemId = page.VIDEO_ID;
+  }
+  if (typeof page?.COLLECTION_ID === "number") {
+    out.collectionId = page.COLLECTION_ID;
+  }
+  const parent = (page?.CANONICAL_COLLECTION as
+    | { parent?: { name?: string } }
+    | undefined)?.parent;
+  if (typeof parent?.name === "string") {
+    out.showTitle = text(parent.name);
+  }
+  const upNext = [...html.matchAll(/data-item-id="(\d+)"/g)].map((m) =>
+    Number(m[1])
+  );
+  if (upNext.length) {
+    out.upNextIds = [...new Set(upNext)];
+  }
+  return out;
+}
+
+/**
+ * Pulls a collection's display name, synopsis, artwork, season list and
+ * episode ordering off its page. The ordering is the part the sitemap
+ * cannot give: it lists membership, but not sequence.
+ */
+export function parseCollectionPage(html: string): {
+  title?: string;
+  description?: string;
+  seasons?: Array<number>;
+  episodes?: Array<string>;
+  itemIds?: Array<number>;
+} {
+  const out: ReturnType<typeof parseCollectionPage> = {};
+  const title = html.match(/<meta property="og:title" content="([^"]+)"/);
+  if (title) {
+    out.title = text(title[1]).replace(/ - Dropout$/, "").trim();
+  }
+  const description = html.match(
+    /<meta property="og:description" content="([^"]*)"/,
+  );
+  if (description?.[1]) {
+    out.description = text(description[1]);
+  }
+  const seasons = [
+    ...new Set(
+      [...html.matchAll(/season:(\d+)/g)].map((m) => Number(m[1])),
+    ),
+  ].sort((a, b) => a - b);
+  if (seasons.length) {
+    out.seasons = seasons;
+  }
+  // Each grid entry carries its numeric id and its link together, so the
+  // two lists stay aligned and in the order the page presents them. Loose
+  // "/videos/<slug>" matches would also pick up hero and promo links from
+  // elsewhere on the page, which is why this reads the grid items.
+  const episodes: Array<string> = [];
+  const itemIds: Array<number> = [];
+  for (
+    const m of html.matchAll(
+      /data-item-id="(\d+)"[\s\S]{0,1200}?\/videos\/([a-z0-9][a-z0-9-]*)/g,
+    )
+  ) {
+    if (!episodes.includes(m[2])) {
+      episodes.push(m[2]);
+      itemIds.push(Number(m[1]));
+    }
+  }
+  if (episodes.length) {
+    out.episodes = episodes;
+    out.itemIds = itemIds;
   }
   return out;
 }
@@ -186,6 +357,7 @@ export async function main() {
   const config = await getDropoutConfig();
   const args = parseArgs(Deno.args, {
     string: ["budget", "only"],
+    boolean: ["collections"],
   });
   const budget = args.budget ? Number(args.budget) : config.budget;
   // Restrict the detail pass to slugs or collections matching a pattern.
@@ -193,6 +365,7 @@ export async function main() {
   const only = args.only ? new RegExp(args.only) : undefined;
 
   const episodes = await openDropoutStorage();
+  const collections = await openDropoutCollectionStorage();
   const now = new Date();
   const state = {
     cookie: undefined as string | undefined,
@@ -210,6 +383,11 @@ export async function main() {
   if (current.size === 0) {
     throw new Error("sitemap parsed to zero items; marking nothing");
   }
+  const tier = (collection: string) => {
+    const i = config.priority.findIndex((p) => collection.startsWith(p));
+    return i === -1 ? config.priority.length : i;
+  };
+
   const live = episodes.filter((e) => !e.removedBefore);
   if (live.length > 0 && current.size < live.length * 0.8) {
     // The empty-or-truncated-response trap: a sudden shrink is far more
@@ -249,14 +427,100 @@ export async function main() {
     `Sitemap: ${current.size} items; ${added} new, ${removed} newly removed.`,
   );
 
+  // The sitemap names every collection too, as the first path segment of
+  // each item url, so the collection index costs nothing extra. Those are
+  // season-level slugs, though, and a season slug is not a page: fetching
+  // "mice-murder-season-1" lands on the subscription wall. The show-level
+  // slug is, so the season suffix comes off and the seasons collapse into
+  // the one page that actually exists.
+  const sizes = new Map<string, number>();
+  for (const item of current.values()) {
+    for (const collection of item.collections) {
+      const show = collection.replace(/-season-\d+$/, "");
+      sizes.set(show, (sizes.get(show) ?? 0) + 1);
+    }
+  }
+  let newCollections = 0;
+  for (const [slug, size] of sizes) {
+    const existing = collections.find((c) => c.slug === slug);
+    if (existing) {
+      existing.size = size;
+    } else {
+      collections.push({ slug, size, firstSeen: now });
+      newCollections += 1;
+    }
+  }
+  let goneCollections = 0;
+  for (const collection of collections) {
+    if (!sizes.has(collection.slug) && !collection.removedBefore) {
+      collection.removedBefore = now;
+      goneCollections += 1;
+    }
+  }
+  console.info(
+    `Collections: ${sizes.size}; ${newCollections} new, ` +
+      `${goneCollections} newly removed.`,
+  );
+
+  // -- collection pass: the small, high-value layer, so it runs first --
+
+  const collectionQueue = collections
+    .filter((c) => !c.scrapedAt && !c.removedBefore)
+    .filter((c) => !only || only.test(c.slug))
+    .sort((a, b) =>
+      tier(a.slug) - tier(b.slug) || (b.size ?? 0) - (a.size ?? 0) ||
+      a.slug.localeCompare(b.slug)
+    );
+  console.info(
+    `${collectionQueue.length} collections lack details; ` +
+      `fetching up to ${budget}.`,
+  );
+  let collectionsScraped = 0;
+  for (const collection of collectionQueue.slice(0, budget)) {
+    const page = await politeFetch(`${BASE}/${collection.slug}`, state);
+    if (!page.ok) {
+      console.warn(`  skipping ${collection.slug}: HTTP ${page.status}`);
+      await page.body?.cancel();
+      continue;
+    }
+    const details = parseCollectionPage(await page.text());
+    if (details.title === "Dropout Subscription") {
+      // Not a collection page: the site answers with the subscription wall
+      // for a slug that has no page. Record the visit so it is not fetched
+      // again, but keep the wall's title and blurb out of the data.
+      console.warn(`  ${collection.slug} has no collection page`);
+      collection.scrapedAt = new Date();
+      continue;
+    }
+    collection.title = details.title ?? collection.title;
+    collection.description = details.description ?? collection.description;
+    collection.seasons = details.seasons ?? collection.seasons;
+    collection.episodes = details.episodes ?? collection.episodes;
+    collection.itemIds = details.itemIds ?? collection.itemIds;
+    collection.scrapedAt = new Date();
+    collectionsScraped += 1;
+    console.info(
+      `  ${collectionsScraped}/${
+        Math.min(budget, collectionQueue.length)
+      } ${collection.slug}: ${details.title ?? "?"} ` +
+        `(${details.episodes?.length ?? 0} listed)`,
+    );
+  }
+  if (args.collections) {
+    const left = collections.filter((c) => !c.scrapedAt && !c.removedBefore);
+    console.info(
+      `Done: ${collectionsScraped} collections scraped, ${left.length} remaining.`,
+    );
+    return;
+  }
+
   // -- detail pass: write-once, budgeted, priority first, then recency --
 
-  const tier = (collection: string) => {
-    const i = config.priority.findIndex((p) => collection.startsWith(p));
-    return i === -1 ? config.priority.length : i;
-  };
+  const episodeBudget = Math.max(0, budget - collectionsScraped);
   const queue = episodes
-    .filter((e) => !e.scrapedAt && !e.removedBefore)
+    // `url` is set by every successful parse, so its absence marks a record
+    // scraped before the richer fields existed, and requeues it.
+    .filter((e) => (!e.scrapedAt || !e.url) && !e.removedBefore)
     .filter((e) => !only || only.test(e.slug) || only.test(e.collection))
     .sort((a, b) =>
       tier(a.collection) - tier(b.collection) ||
@@ -265,10 +529,10 @@ export async function main() {
     );
 
   console.info(
-    `${queue.length} items lack details; fetching up to ${budget}.`,
+    `${queue.length} items lack details; fetching up to ${episodeBudget}.`,
   );
   let scraped = 0;
-  for (const episode of queue.slice(0, budget)) {
+  for (const episode of queue.slice(0, episodeBudget)) {
     const url = `${BASE}/videos/${episode.slug}`;
     const page = await politeFetch(url, state);
     if (!page.ok) {
@@ -281,6 +545,14 @@ export async function main() {
     episode.seasonNumber = details.seasonNumber ?? episode.seasonNumber;
     episode.episodeNumber = details.episodeNumber ?? episode.episodeNumber;
     episode.releaseDate = details.releaseDate ?? episode.releaseDate;
+    episode.url = details.url ?? episode.url;
+    episode.showTitle = details.showTitle ?? episode.showTitle;
+    episode.showSlug = details.showSlug ?? episode.showSlug;
+    episode.description = details.description ?? episode.description;
+    episode.tags = details.tags ?? episode.tags;
+    episode.itemId = details.itemId ?? episode.itemId;
+    episode.collectionId = details.collectionId ?? episode.collectionId;
+    episode.upNextIds = details.upNextIds ?? episode.upNextIds;
     episode.scrapedAt = new Date();
     scraped += 1;
     if (!details.releaseDate) {
@@ -293,7 +565,7 @@ export async function main() {
   }
 
   const remaining =
-    episodes.filter((e) => !e.scrapedAt && !e.removedBefore).length;
+    episodes.filter((e) => (!e.scrapedAt || !e.url) && !e.removedBefore).length;
   console.info(
     `Done: ${scraped} scraped this run, ${remaining} remaining.`,
   );

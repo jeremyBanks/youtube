@@ -221,6 +221,7 @@ watch.dropout.tv** and is scraped into `data/dropout.yaml`.
 
 ```bash
 deno task scan-dropout                 # sitemap diff + budgeted detail fetches
+deno task scan-dropout --collections   # only the collection layer
 deno task scan-dropout --budget=20     # smaller run
 deno task scan-dropout --only='^dimension-20'  # restrict detail fetches
 deno task verify-dates                 # report curated vs official dates
@@ -228,8 +229,14 @@ deno task verify-dates --show="Game Changer" --unmatched
 ```
 
 `scan-dropout` waits 12 seconds between requests (config/dropout.toml) and
-aborts outright on 429/403 — never work around that. Release dates are
-immutable, so each episode page is fetched once ever. `verify-dates` is
+aborts outright on 429/403 — never work around that. It scrapes two layers from
+one shared budget, cheapest first: collection pages (~196) for each show's
+display name and synopsis, then episode pages (~3,600) for the release date,
+description, tags and ids. Fetch the show-level slug, not a season one —
+`mice-murder` is a page, `mice-murder-season-1` is the subscription wall.
+Progress lives entirely in the committed data: a queue is just the records with
+no `scrapedAt`, so a run resumes wherever the last one stopped, and pages are
+fetched once ever since release dates never change. `verify-dates` is
 report-only; date corrections to `curation/seasons.yaml` are applied by hand as
 reviewed batches. When a title match is ambiguous, link the entry explicitly
 with `dropout: <episode-slug>`.

@@ -66,13 +66,17 @@ requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
       `--no-fetch` skips fetching descriptions.
 
 - [x] `deno task scan-dropout` (`deno run @jeb/youtube/scan-dropout`) indexes
-      watch.dropout.tv itself into `data/dropout.yaml`. The site's sitemap
-      enumerates every episode in one request, so existence and deletion
-      detection are cheap; official release dates only appear on individual
-      episode pages, which are fetched 12 seconds apart under a per-run budget
-      (`config/dropout.toml`), once ever per episode. `--budget=N` overrides the
-      cap and `--only=REGEX` restricts a run to matching slugs or collections.
-      Needs no credentials.
+      watch.dropout.tv itself into `data/dropout.yaml` and
+      `data/dropout-collections.yaml`. The site's sitemap enumerates every
+      episode in one request, so existence and deletion detection are cheap;
+      everything else lives on individual pages, fetched 12 seconds apart under
+      a per-run budget (`config/dropout.toml`), once ever per page. Two layers
+      share that budget, cheapest first: collection pages (~196) give each show
+      its display name and synopsis, then episode pages (~3,600) give the
+      official release date, description, tags, canonical url and numeric ids.
+      `--collections` runs only the first layer, `--budget=N` overrides the cap,
+      and `--only=REGEX` restricts a run to matching slugs. Needs no
+      credentials.
 
 - [x] `deno task verify-dates` (`deno run @jeb/youtube/verify-dates`)
       cross-references the `published:` dates in `curation/seasons.yaml` against

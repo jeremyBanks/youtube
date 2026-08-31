@@ -57,6 +57,7 @@ Deno.test("an aborted run flushes storage and still exits non-zero", async () =>
 // The suite must stay offline, so these are literal excerpts of real pages.
 import {
   canonicalCollection,
+  parseCollectionPage,
   parseEpisodePage,
   parseSitemap,
 } from "./src/bin/dropout.ts";
@@ -149,4 +150,39 @@ Deno.test("parseEpisodePage decodes entities and strips season decoration", () =
     `<meta property="og:title" content="Boys&#39; Night! (Roll20Con) - Dropout">`,
   );
   if (apos.title !== "Boys' Night! (Roll20Con)") throw new Error(apos.title);
+});
+
+Deno.test("parseCollectionPage pairs grid ids with slugs in order", () => {
+  const html =
+    `<meta property="og:title" content="Dimension 20: Mice &amp; Murder - Dropout">
+<meta property="og:description" content="A deadly mystery.">
+<a href="/mice-murder/season:1">Season 1</a>
+<li class="js-collection-item collection-item-1443748" data-item-id="1443748">
+  <a href="https://watch.dropout.tv/mice-murder/season:1/videos/it-was-a-dark-and-stormy-night">
+<li class="js-collection-item collection-item-1422414" data-item-id="1422414">
+  <a href="https://watch.dropout.tv/mice-murder/season:1/videos/a-scandal-in-britannia">`;
+  const got = parseCollectionPage(html);
+  if (got.title !== "Dimension 20: Mice & Murder") throw new Error(got.title);
+  if (got.episodes?.[1] !== "a-scandal-in-britannia") {
+    throw new Error(String(got.episodes));
+  }
+  if (got.itemIds?.[1] !== 1422414) throw new Error(String(got.itemIds));
+  if (got.seasons?.[0] !== 1) throw new Error(String(got.seasons));
+});
+
+Deno.test("parseEpisodePage takes its own id from window.Page, not the embed", () => {
+  const html =
+    `<div data-trailer-url="https://embed.vhx.tv/videos/1415566"></div>
+<script> window.Page = {"PROPERTIES":{"VIDEO_ID":1443748,"COLLECTION_ID":280925,
+"CANONICAL_COLLECTION":{"id":280925,"parent":{"id":278430,"name":"Dimension 20: Mice \\u0026 Murder"}}}}; </script>
+<a data-meta-field-name="tags" data-meta-field-value="tabletop rpg">tabletop rpg</a>
+<li data-item-id="1422414">`;
+  const got = parseEpisodePage(html);
+  if (got.itemId !== 1443748) throw new Error(String(got.itemId));
+  if (got.collectionId !== 280925) throw new Error(String(got.collectionId));
+  if (got.showTitle !== "Dimension 20: Mice & Murder") {
+    throw new Error(String(got.showTitle));
+  }
+  if (got.tags?.[0] !== "tabletop rpg") throw new Error(String(got.tags));
+  if (got.upNextIds?.[0] !== 1422414) throw new Error(String(got.upNextIds));
 });

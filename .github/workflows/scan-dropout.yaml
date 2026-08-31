@@ -1,11 +1,17 @@
 name: Scan Dropout
 
 # Records what exists on watch.dropout.tv, YouTube-scan style: the sitemap
-# gives existence and deletion detection in one request, and a budget of
-# episode-page fetches (12 seconds apart) fills in release dates, once ever
-# per episode. The backlog only shrinks; at the default budget the full back
-# catalogue converges in ~24 runs. Curation stays manual; this only updates
-# data/. The pages are public, so no secrets are needed.
+# gives existence and deletion detection in one request, then a budget of
+# page fetches (12 seconds apart) fills in details, once ever per page.
+#
+# Two layers, cheapest first. Collections (~196 pages) carry each show's
+# display name and synopsis, so they finish in a run or two and immediately
+# make every episode nameable. Episodes (~3,600 pages) carry the official
+# release date, which is the reason this scan exists. Both draw on one
+# shared budget, so a run's length is bounded by that number alone.
+#
+# The backlog only shrinks. Curation stays manual; this only updates data/.
+# The pages are public, so no secrets are needed.
 on:
   schedule:
     # Weekly, Sunday 08:37 UTC, about two hours after the YouTube scan, so
@@ -26,9 +32,10 @@ concurrency:
 jobs:
   scan-dropout:
     runs-on: ubuntu-latest
-    # The budgeted run takes ~35 minutes at 12-second politeness delays;
-    # leave slack without letting a hang eat a runner for hours.
-    timeout-minutes: 90
+    # A full budget costs 300 * 12s = 60 minutes of deliberate waiting, so
+    # the limit is generous enough to absorb a slow run without letting a
+    # hang eat a runner for hours.
+    timeout-minutes: 120
 
     permissions:
       contents: write
@@ -42,10 +49,23 @@ jobs:
         with:
           deno-version: v2.x
 
+      # Budget 300 rather than the config default of 150: a run is almost
+      # entirely sleep, so a bigger bite costs a runner little and halves the
+      # weeks needed to work through the back catalogue.
+      # Cut the scan off well inside the job's own limit. A job-level
+      # timeout cancels the job outright and the commit below never runs,
+      # throwing away an hour of deliberate waiting; a step-level one just
+      # ends the step and leaves room to save what was already fetched.
       - name: Scan
-        run: deno task scan-dropout
+        timeout-minutes: 75
+        run: deno task scan-dropout --budget=300
 
+      # Always, even when the scan failed or was cut off. The scanner writes
+      # as it goes and flushes on the way out, and every page it did fetch
+      # is a page nobody has to fetch again. A failed run still reports
+      # failure; it just does not also discard its work.
       - name: Commit
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

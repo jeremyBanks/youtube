@@ -140,6 +140,22 @@ export const DropoutEpisode = z.object({
   episodeNumber: z.number().int().optional(),
   /** the official release date shown on the episode page */
   releaseDate: z.date().optional(),
+  /** the page's own canonical url; for an episode in a collection this
+   * carries the collection and season, which the sitemap cannot */
+  url: z.string().optional(),
+  /** the show's display name and slug, from the series link on the page */
+  showTitle: z.string().optional(),
+  showSlug: z.string().optional(),
+  /** the one-line synopsis */
+  description: z.string().optional(),
+  /** Dropout's own genre tags */
+  tags: z.string().array().optional(),
+  /** the numeric VHX id of this item, from the player config */
+  itemId: z.number().int().optional(),
+  /** the numeric VHX id of the collection the player was given */
+  collectionId: z.number().int().optional(),
+  /** numeric ids of the items offered as up next, in the order shown */
+  upNextIds: z.number().int().array().optional(),
   /** when this slug first appeared in the sitemap */
   firstSeen: DateTime,
   /** when the episode page was fetched for details */
@@ -148,6 +164,44 @@ export const DropoutEpisode = z.object({
   removedBefore: z.date().optional(),
 });
 export type DropoutEpisode = z.TypeOf<typeof DropoutEpisode>;
+
+/**
+ * One collection (a show, a season, or one of Dropout's aggregate
+ * groupings). Collection pages are the cheap layer: 366 of them against
+ * 3,594 episodes, and they carry the show's display name, synopsis and
+ * artwork, plus its episode list in running order.
+ */
+export const DropoutCollection = z.object({
+  /** the collection's URL slug */
+  slug: z.string().min(1),
+  /** display name, e.g. "Dimension 20: Mice & Murder" */
+  title: z.string().optional(),
+  /** the show synopsis */
+  description: z.string().optional(),
+  /** season numbers the page links to */
+  seasons: z.number().int().array().optional(),
+  /** episode slugs in the order the page lists them */
+  episodes: z.string().array().optional(),
+  /** numeric VHX ids of the listed items */
+  itemIds: z.number().int().array().optional(),
+  /** how many sitemap entries name this collection */
+  size: z.number().int().optional(),
+  firstSeen: DateTime,
+  scrapedAt: z.date().optional(),
+  removedBefore: z.date().optional(),
+});
+export type DropoutCollection = z.TypeOf<typeof DropoutCollection>;
+
+let dropoutCollectionStorage:
+  | undefined
+  | Promise<Array<DropoutCollection>> = undefined;
+
+export const openDropoutCollectionStorage = () =>
+  dropoutCollectionStorage ??= open(
+    "data/dropout-collections.yaml",
+    DropoutCollection,
+    ["slug"],
+  );
 
 let dropoutStorage:
   | undefined

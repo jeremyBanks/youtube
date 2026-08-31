@@ -3638,8 +3638,10 @@ videos:
 ---
 
 name:        Parlor Room (All Episodes and Extras)
-description: |
+description: |-
   19-hour playlist of 23 episodes and 0 trailers from Parlor Room, where host Becca Scott and guests play board games and tabletop games. 2 videos are free and 21 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/parlor-room
 playlistId:  PLObfuAmZm9pCKmzmqJaEkRUfbUZnY1Kll
 videos:
   sKTlEDAuwfY: 'Comedians Play Wavelength for the First Time | Parlor Room [Full Episode]'

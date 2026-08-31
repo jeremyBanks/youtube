@@ -1,6 +1,6 @@
 import { parseArgs } from "@std/cli";
 import * as yaml from "../yaml.ts";
-import { DropoutEpisode } from "../storage.ts";
+import { DropoutCollection, DropoutEpisode } from "../storage.ts";
 import { getDropoutConfig, getSeasonsCuration } from "../config.ts";
 
 if (import.meta.main) {
@@ -19,6 +19,15 @@ export function normalizeTitle(title: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
+}
+
+/**
+ * Dropout re-lists episodes under aggregate collections, which are never a
+ * show's home and would match a show's name misleadingly.
+ */
+function isAggregate(slug: string): boolean {
+  return /complete-(series|experience)/.test(slug) ||
+    slug === "dip-your-toe-in" || slug === "dropout-24-7";
 }
 
 /** The curated titles are spread across per-type fields; takes the one set. */
@@ -57,6 +66,23 @@ export async function main() {
   const episodes = DropoutEpisode.array().parse(
     await yaml.load("./data/dropout.yaml"),
   );
+  const collections = DropoutCollection.array().parse(
+    await yaml.load("./data/dropout-collections.yaml"),
+  );
+
+  // Most shows name themselves: the collection's own display name matches
+  // the curation's, so the mapping derives rather than being maintained by
+  // hand. config/dropout.toml is left for the cases that cannot derive — a
+  // show like Dropout Presents that has no collection of its own, or a name
+  // that simply differs — and always wins where it is set.
+  const derived = new Map<string, Array<string>>();
+  for (const collection of collections) {
+    if (!collection.title || isAggregate(collection.slug)) {
+      continue;
+    }
+    const key = normalizeTitle(collection.title);
+    derived.set(key, [...(derived.get(key) ?? []), collection.slug]);
+  }
 
   const bySlug = new Map(episodes.map((e) => [e.slug, e]));
   const scraped = episodes.filter((e) => e.scrapedAt && e.releaseDate);
@@ -72,7 +98,8 @@ export async function main() {
     if (args.show && doc.show !== args.show) {
       continue;
     }
-    const prefixes = config.shows[doc.show];
+    const prefixes = config.shows[doc.show] ??
+      derived.get(normalizeTitle(doc.show));
     const where = doc.season ? `${doc.show} / ${doc.season}` : doc.show;
 
     for (const video of doc.videos) {

@@ -21,15 +21,24 @@ priority = [
   "mice-murder",
 ]
 
-# Curation show name -> collection-slug prefix on watch.dropout.tv, used by
-# verify-dates to match curation entries to scraped episodes. Best-effort and
-# extendable; shows without an entry fall back to unmatched.
+# Curation show name -> collection-slug prefix(es) on watch.dropout.tv, used
+# by verify-dates to match curation entries to scraped episodes.
+#
+# Only the exceptions live here. Most shows name themselves: their collection
+# on Dropout carries the same display name as the curation, so the mapping is
+# derived from data/dropout-collections.yaml and needs no entry. What remains
+# is what cannot derive - a show whose name differs from its collection's, or
+# one with no collection of its own. An entry here always wins.
 [shows]
+# The campaigns live under their own slugs rather than one Dimension 20
+# collection, and the collection actually named "Dimension 20" is the
+# complete-series aggregate, which is never a home.
 "Dimension 20" = ["dimension-20", "mice-murder"]
+# Dropout calls it "Dimension 20's Adventuring Party"; we do not.
 "Adventuring Party" = "dimension-20-s-adventuring-party"
-# Dropout Presents has no collection of its own: each stand-up special is its
-# own collection, holding both the special and its "Get Your Act Together"
-# companion episode.
+# No collection of its own at all: each stand-up special is its own
+# collection, holding both the special and its "Get Your Act Together"
+# companion.
 "Dropout Presents" = [
   "adam-conover-unmedicated",
   "aparna-nancherla-hopeful-potato",
@@ -44,23 +53,3 @@ priority = [
   "michael-cruz-kayne-sorry-for-your-loss",
   "the-big-team",
 ]
-"Adventuring Academy" = "adventuring-academy"
-"Game Changer" = "game-changer"
-"Game Changer Animated" = "game-changer-animated"
-"Dimension 20 Animated" = "dimension-20-animated"
-"Um, Actually" = "um-actually"
-"Make Some Noise" = "make-some-noise"
-"Very Important People" = "very-important-people"
-"Smartypants" = "smartypants"
-"Breaking News" = "breaking-news-no-laugh-newsroom"
-"Dirty Laundry" = "dirty-laundry"
-"Parlor Room" = "parlor-room"
-"Crowd Control" = "crowd-control"
-"Gastronauts" = "gastronauts"
-"Thousandaires" = "thousandaires"
-"Nobody Asked" = "nobody-asked"
-"Play It By Ear" = "play-it-by-ear"
-"Monét's Slumber Party" = "monet-s-slumber-party"
-"Fatal Decision" = "fatal-decision"
-"Don't Hug Me I'm Scared" = "don-t-hug-me-i-m-scared"
-"The Don Hertzfeldt Collection" = "the-don-hertzfeldt-collection"

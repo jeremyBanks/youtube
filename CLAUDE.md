@@ -240,8 +240,11 @@ Progress lives entirely in the committed data: a queue is just the records with
 no `scrapedAt`, so a run resumes wherever the last one stopped, and pages are
 fetched once ever since release dates never change. `verify-dates` is
 report-only; date corrections to `curation/seasons.yaml` are applied by hand as
-reviewed batches. When a title match is ambiguous, link the entry explicitly
-with `dropout: <episode-slug>`.
+reviewed batches. Most shows map themselves, since their collection on Dropout
+carries the same display name, so `[shows]` in `config/dropout.toml` holds only
+the exceptions — a show whose name differs from its collection's, or one with no
+collection of its own. When a title match is ambiguous, link the entry
+explicitly with `dropout: <episode-slug>`.
 
 ## Git Conventions
 

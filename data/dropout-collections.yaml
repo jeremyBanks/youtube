@@ -1152,8 +1152,16 @@ scrapedAt:   2026-08-31T04:59:20.746Z
 ---
 
 slug:        dimension-20-featured
+title:       Dimension 20 Featured
+episodes:
+- dimension-20-toylight-trailer
+- how-to-watch-dimension-20
+itemIds:
+- 4142194
+- 3579389
 size:        2
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:06:32.928Z
 
 ---
 
@@ -1243,8 +1251,15 @@ scrapedAt:   2026-08-31T05:04:54.376Z
 ---
 
 slug:        dimension-20-live-battle-at-the-bowl
+title:       'Dimension 20 Live: Battle at the Bowl'
+description: The Bad Kids face-off against Chungledown Bim one last time in this canon live show event.
+episodes:
+- dimension-20-live-2025-battle-at-the-bowl
+itemIds:
+- 3859738
 size:        1
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:07:09.687Z
 
 ---
 
@@ -1276,14 +1291,30 @@ scrapedAt:   2026-08-31T05:02:38.832Z
 ---
 
 slug:        dimension-20-live-gauntlet-at-the-garden
+title:       'Dimension 20 Live: Gauntlet at the Garden'
+description: 'The Intrepid Heroes take over Madison Square Garden for a night of thrills, chills, and tomfoolery.'
+episodes:
+- gauntlet-at-the-garden-live-from-madison-square-garden
+- the-roll-of-a-lifetime-how-dimension-20-sold-out-madison-square-garden
+itemIds:
+- 3605939
+- 3605884
 size:        2
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:06:45.183Z
 
 ---
 
 slug:        dimension-20-live-quangle-quest
+title:       'Dimension 20 Live: Quangle Quest'
+description: The Bad Kids journey through the Dimension 20 multiverse to save Kristen Applebees.
+episodes:
+- dimension-20-live-quangle-quest
+itemIds:
+- 3889977
 size:        1
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:07:22.009Z
 
 ---
 
@@ -1313,14 +1344,40 @@ scrapedAt:   2026-08-31T05:05:06.712Z
 ---
 
 slug:        dimension-20-live-viva-mas-vegas
+title:       'Dimension 20 Live: Viva Más Vegas'
+description: The Gunner Channel heads to Más Vegas for another action-packed adventure.
+episodes:
+- dimension-20-live-viva-mas-vegas
+itemIds:
+- 3965462
 size:        1
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:07:34.247Z
 
 ---
 
 slug:        dimension-20-mentopolis
+title:       'Dimension 20: Mentopolis'
+description: Welcome to Mentopolis - the city that exists only in your mind.
+seasons:
+- 1
+episodes:
+- the-big-guy
+- the-scattered-mind
+- f-for-freezer
+- grappling-with-death
+- emergency-powers
+- case-closed
+itemIds:
+- 2839275
+- 2846558
+- 2851429
+- 2853970
+- 2880746
+- 2885547
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:05:19.022Z
 
 ---
 
@@ -1383,8 +1440,15 @@ scrapedAt:   2026-08-31T04:59:33.037Z
 ---
 
 slug:        dimension-20-misfits-and-magic-holiday-special
+title:       'Dimension 20: Misfits and Magic Holiday Special'
+description: GM Aabria Iyengar returns with the four magical misfits stuck at wizarding school over winter break.
+episodes:
+- misfits-magic-holiday-special
+itemIds:
+- 1915774
 size:        1
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:07:46.506Z
 
 ---
 
@@ -1635,20 +1699,55 @@ scrapedAt:   2026-08-31T05:00:59.898Z
 ---
 
 slug:        dimension-20-on-a-bus
+title:       'Dimension 20: On a Bus'
+description: Dragon Master Katie Marovitch leads four veteran game masters on the quest of a lifetime.
+seasons:
+- 1
+- 2
+episodes:
+- dimension-20-on-a-bus-extended-cut
+itemIds:
+- 3749187
 size:        2
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:06:57.433Z
 
 ---
 
 slug:        dimension-20-on-a-bus-the-complete-experience
+title:       'Dimension 20: On a Bus (The Complete Experience)'
+description: Every episode of D20 on a Bus and Adventuring Party - in order!
+episodes:
+- dimension-20-on-a-bus-extended-cut
+- d20-on-a-bus-season-2
+- here-s-come-the-water
+itemIds:
+- 3749187
+- 3986893
+- 3988728
 size:        3
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:06:20.543Z
 
 ---
 
 slug:        dimension-20-one-shots
+title:       Dimension 20 One Shots
+episodes:
+- fantasy-high-live-in-brooklyn
+- fantasy-high-live-at-rtx-austin
+- college-visit-rtx-home-live
+- boys-night
+- misfits-and-magic-live-at-gencon-2022
+itemIds:
+- 545147
+- 607204
+- 1092209
+- 1142115
+- 2328758
 size:        5
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:05:43.608Z
 
 ---
 
@@ -1725,8 +1824,23 @@ scrapedAt:   2026-08-31T04:57:28.809Z
 ---
 
 slug:        dimension-20-shriek-week
+title:       'Dimension 20: Shriek Week'
+description: 'Four monstrous students at Bram University face off against hormones, mysteries, and the most epic party in monster history.'
+seasons:
+- 1
+episodes:
+- the-club-fair
+- quandary-on-the-quad
+- parents-weekend-1
+- van-helsing-s-party
+itemIds:
+- 1847233
+- 1861208
+- 1873227
+- 1885033
 size:        4
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:05:55.883Z
 
 ---
 
@@ -1982,14 +2096,48 @@ scrapedAt:   2026-08-31T04:57:53.715Z
 ---
 
 slug:        dimension-20-tiny-heist
+title:       'Dimension 20: Tiny Heist'
+description: 'A world of big crimes... and small people. Join GM Brennan Lee Mulligan as he welcomes a slew of new players to Dimension 20 to pull off one last job: Griffin McElroy, Travis McElroy, Justin McElroy, Clint McElroy, Lily Du, and Jessica Ross!'
+seasons:
+- 1
+episodes:
+- big-little-crimes
+- chicanery-at-shoeby-s-casino
+- scheming-and-scoring-fairy-dust
+- breaking-and-entering
+- fighting-with-fire
+- the-great-chase
+itemIds:
+- 690029
+- 701033
+- 704067
+- 707775
+- 707738
+- 707789
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:05:31.344Z
 
 ---
 
 slug:        dimension-20-titan-takedown
+title:       'Dimension 20: Titan Takedown'
+description: Four wrestlers step into the ring and battle the gods for ultimate glory.
+seasons:
+- 1
+episodes:
+- party-animals
+- bouts-and-boogies
+- a-bird-in-the-hand
+- hope-and-heroism
+itemIds:
+- 3569692
+- 3587923
+- 3595325
+- 3604084
 size:        4
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:06:08.160Z
 
 ---
 
@@ -2217,32 +2365,188 @@ scrapedAt:   2026-08-31T04:55:52.833Z
 ---
 
 slug:        game-changer-animated
+title:       Game Changer Animated
+description: Animators bring to life some of your favorite Game Changer moments.
+seasons:
+- 1
+episodes:
+- to-do-list
+- brennan-s-yes-or-no-monologue
+- welcome-to-mountport
+- i-m-hungie
+- name-that-bird
+- i-m-a-professional
+itemIds:
+- 3464933
+- 3663153
+- 3691166
+- 3735706
+- 3751980
+- 3803629
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:08:23.624Z
 
 ---
 
 slug:        game-changer-battle-royale
+title:       'Game Changer: Battle Royale'
+description: '10 contestants, 1 question: Who will survive?'
+seasons:
+- 1
+episodes:
+- battle-royale-pt-1
+- battle-royale-pt-2
+- battle-royale-pt-3
+- battle-royale-pt-4
+itemIds:
+- 2643626
+- 2671656
+- 2671696
+- 2714134
 size:        4
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:08:48.221Z
 
 ---
 
 slug:        game-changer-battle-royale-1
+title:       "Game Changer: Battle Royale ⚔️\U0001FA78"
+description: '10 contestants, 1 question: who will survive?'
+episodes:
+- survivor-part-1
+- survivor-part-2
+- battle-royale-pt-1
+- battle-royale-pt-2
+- battle-royale-pt-3
+- battle-royale-pt-4
+itemIds:
+- 2005931
+- 2028122
+- 2643626
+- 2671656
+- 2671696
+- 2714134
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:08:35.928Z
 
 ---
 
 slug:        game-changer-behind-the-scenes
+title:       'Game Changer: Behind The Scenes'
+episodes:
+- behind-the-scenes-of-earwigs
+- behind-the-scenes-of-count-the-rice
+- behind-the-scenes-of-kangaroo-court
+- behind-the-scenes-of-night-shift
+- behind-the-scenes-of-rulette-2
+- behind-the-scenes-of-don-t-wake-standards-practices
+- behind-the-scenes-of-samalamadingdong
+- behind-the-scenes-of-outvoted
+- behind-the-scenes-of-who-wants-to-be-jacob-wysocki
+- behind-the-scenes-of-fool-s-gold
+- behind-the-scenes-of-rulette
+- behind-the-scenes-of-one-and-done
+- behind-the-scenes-of-the-drinking-game
+- behind-the-scenes-of-crowd-control
+- behind-the-scenes-of-earnest-est
+- behind-the-scenes-of-you-lympics
+- behind-the-scenes-of-one-year-later
+- behind-the-scenes-of-ratfish
+- behind-the-scenes-of-beat-the-buzzer
+- behind-the-scenes-of-deja-vu
+- behind-the-scenes-of-bingo
+- behind-the-scenes-of-pencils-down
+- behind-the-scenes-of-sam-says-3
+- behind-the-scenes-of-the-newlyweb-game
+itemIds:
+- 4148245
+- 4106141
+- 4091096
+- 4077905
+- 4062568
+- 4049580
+- 3752685
+- 3749254
+- 3733455
+- 3704631
+- 3691127
+- 3673835
+- 3659677
+- 3640481
+- 3605951
+- 3604138
+- 3593828
+- 3258926
+- 3209998
+- 3184157
+- 3166891
+- 3135460
+- 3125327
+- 3105700
 size:        34
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:08:11.347Z
 
 ---
 
 slug:        game-changer-new
+title:       Game Changer
+description: 'In this game show, the game changes every show! Players begin each round without knowing the rules -- and must figure them out while competing to win.'
+episodes:
+- what-s-the-catch
+- earwigs
+- noise-some-makes
+- count-the-rice
+- kangaroo-court
+- night-shift
+- rulette-2
+- don-t-wake-standards-practices
+- samalamadingdong
+- outvoted
+- who-wants-to-be
+- fool-s-gold
+- rulette
+- one-and-done
+- the-drinking-game
+- crowd-control
+- earnest-est
+- you-lympics
+- one-year-later
+- ratfish-part-2
+- ratfish-part-1
+- beat-the-buzzer
+- deja-vu
+- bingo
+itemIds:
+- 4150331
+- 4139884
+- 4117101
+- 4098302
+- 4084432
+- 4069461
+- 4055711
+- 3998348
+- 3752648
+- 3741315
+- 3717982
+- 3698369
+- 3681529
+- 3666470
+- 3648951
+- 3633955
+- 3605272
+- 3602878
+- 3584369
+- 3246401
+- 3228802
+- 3201420
+- 3179629
+- 3151803
 size:        79
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:07:58.905Z
 
 ---
 
@@ -2727,20 +3031,163 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        um-actually
+title:       'Um, Actually'
+description: 'Introducing a game show of fandom minutiae one-upmanship, where nerds do what nerds do best: flaunt encyclopedic nerd knowledge at Millennium Falcon nerd-speed.'
+seasons:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+episodes:
+- incantations-immortans-vulcans-in-heat
+- cyborg-cops-shai-hulud-sci-fi-substance-abuse
+- not-every-westerosi-swordsman-is-a-knight
+- ganondorf-gremlins-geography-of-westeros
+- pevensie-reign-foreign-mutants-kanto-clones
+- animalities-maple-street-monsters-mutagen-ooze
+- mouth-of-sauron-saiyan-tails-bothan-spies
+- jump-man-folklore-hounds-of-tindalos
+- bilquis-black-panther-battlestar-galactica
+- nothlits-dust-bunnies-his-dark-materials
+- skaven-watchmen-the-neverending-story
+- mako-mudbloods-mephisto-with-jonathan-coulton
+- father-figures-frog-thor-fusion-gems
+- robots-rhydon-staff-of-ra
+- charybdis-kill-lists-and-cookie-crisp
+- diablo-diddy-kong-dora-milaje
+- wario-winnie-the-pooh-a-wrinkle-in-time
+- monty-python-shonen-manga-mr-burns
+- sonic-shredder-the-sword-in-the-stone
+- cyclops-skeletor-the-dark-crystal
+- ms-pac-man-mick-foley-marvel-apes
+- hodor-portable-holes-philip-k-dick-with-kristian-nairn
+- mortal-kombat-element-stones-the-matrix-reloaded
+- jabberwocky-gelatinous-cubes-magic-the-gathering
+itemIds:
+- 267369
+- 238969
+- 236399
+- 267431
+- 281824
+- 304520
+- 370692
+- 375160
+- 380372
+- 384010
+- 386328
+- 390290
+- 396355
+- 404157
+- 406352
+- 406359
+- 407679
+- 413135
+- 415590
+- 419572
+- 429843
+- 433583
+- 437047
+- 439186
 size:        174
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:09:00.681Z
 
 ---
 
 slug:        um-actually-new
+title:       'Um, Actually'
+description: 'Introducing a game show of fandom minutiae one-upmanship, where nerds do what nerds do best: flaunt encyclopedic nerd knowledge at Millennium Falcon nerd-speed.'
+episodes:
+- tournament-of-champions-26-part-4
+- tournament-of-champions-26-part-3
+- tournament-of-champions-26-part-2
+- tournament-of-champions-26-part-1
+- the-baby-bracket-volume-3
+- jordan-tien-and-jess-have-a-touching-moment
+- blessing-alanah-and-andy-do-a-speedrun
+- amanda-chanse-and-angela-fear-they-re-losing-the-room
+- boo-actually-volume-2
+- the-tag-team-episode
+- collectible-card-games
+- zig-garrick-and-thundercat-weeb-out
+- terminally-online
+- house-of-the-dragon-xena-warrior-princess-cardcaptor-sakura
+- 90s-television
+- slayerfest-25
+- delicious-in-dungeon-x-men-97-fallout
+- wingspan-matterhorn-bobsleds-avatar-the-way-of-water
+- reality-tv-volume-3
+- bowsette-akira-gen-con
+- the-baby-bracket-volume-2
+- gilmore-girls-bratz-totally-spies
+- r2d2-dennis-the-menace-teenage-mutant-ninja-turtles
+- planet-of-the-apes-deadpool-alien
+itemIds:
+- 4071367
+- 4063731
+- 4056763
+- 4049850
+- 4004336
+- 3997176
+- 3986158
+- 3970454
+- 3959123
+- 3947194
+- 3935749
+- 3924530
+- 3682621
+- 3669174
+- 3650488
+- 3633958
+- 3605274
+- 3603804
+- 3585925
+- 3566129
+- 3544876
+- 3526973
+- 3512220
+- 3496282
 size:        168
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:09:13.077Z
 
 ---
 
 slug:        um-actually-the-web-series
+title:       'Um, Actually: The Web Series'
+description: The original CollegeHumor sci-fi/fantasy trivia game show web series that pits nerd against fanboy against poindexter.
+seasons:
+- 1
+episodes:
+- firefly-star-wars-jizz-bands-daenerys-targaryen-s-dragons
+- return-of-the-jedi-hodor-quidditch
+- fellowship-of-the-ring-mortal-kombat-bowser-s-children
+- watto-s-beard-d-d-and-the-deathly-hallows
+- the-game-show-of-nerdy-corrections-ep-5
+- monsters-moogles-and-side-mirrors-1
+- um-actually-ep-7-house-crests-house-crushings-and-the-kongs
+- make-up-maps-and-mythical-dragons
+- star-trek-schwarzenegger-and-stoker-1
+itemIds:
+- 234406
+- 234407
+- 234408
+- 274039
+- 263541
+- 354631
+- 340427
+- 349627
+- 355099
 size:        9
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:09:25.406Z
 
 ---
 

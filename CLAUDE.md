@@ -59,14 +59,32 @@ plainly which steps did not run.
 ## Project Structure
 
 ```
-curation/seasons.yaml   # Source of truth - defines shows, seasons, episodes
-config/aggregate.toml   # Defines which playlists to generate and their content
-data/videos.yaml        # Scraped video metadata from YouTube channels
-data/playlists.yaml     # Generated playlist data (don't edit directly)
-data/channels.yaml      # Channel metadata
-config/dropout.toml     # Dropout.tv scan budget, politeness, show mapping
-data/dropout.yaml       # Scraped watch.dropout.tv index (own data source)
+curation/seasons.yaml          # Source of truth: shows, seasons, episodes
+config/aggregate.toml          # Which playlists to generate, and their content
+config/scan.toml               # YouTube channels and their scan cadences
+config/dropout.toml            # Dropout scan budget, politeness, show mapping
+data/videos.yaml, data/videos/ # Scraped YouTube video metadata
+data/channels.yaml             # Channel metadata
+data/scans.yaml                # Scan sessions: what each run covered
+data/playlists.yaml            # Generated; don't edit directly
+data/dropout.yaml              # Scraped watch.dropout.tv episodes
+data/dropout-collections.yaml  # Scraped watch.dropout.tv shows/collections
+data/resolved-videos.yaml      # Videos looked up by id, off channels we scan
+dates.md                       # Findings on where episode dates come from
+src/bin/                       # One file per task
 ```
+
+Every task: `scan`, `scan-dropout`, `curate`, `aggregate`, `publish`,
+`verify-dates`, `resolve`, `check`. Two not covered elsewhere in this file:
+
+- `deno task scan --window=P96D` scans every actively-tracked channel back that
+  far regardless of cadence. For backfilling a newly-captured field, where the
+  scheduled tiers would otherwise skip a recently-scanned channel.
+- `deno task resolve --ids=a,b,c` (or `--unknown`) looks up video ids directly,
+  50 per request, for ids the curation names on channels we do not scan. Results
+  go to `data/resolved-videos.yaml` and never to `data/videos.yaml`, since a
+  record fetched by id has no playlist-add time and takes no part in deletion
+  detection.
 
 ## Workflow
 

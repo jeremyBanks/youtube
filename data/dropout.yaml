@@ -23263,8 +23263,16 @@ title:         Look At All My Friends!
 seasonNumber:  2
 episodeNumber: 1
 releaseDate:   2020-10-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:2/videos/look-at-all-my-friends'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The Pirates of Leviathan crew talks backstory and breaking Brennan's dang heart.
+itemId:        1112300
+collectionId:  235157
+upNextIds:
+- 1133259
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:17:44.590Z
+scrapedAt:     2026-08-31T09:51:58.671Z
 
 ---
 
@@ -34943,8 +34951,14 @@ lastmod:       2026-08-10T00:00:00.000Z
 title:         The Buccaneer Buddies Reunite
 seasonNumber:  2
 episodeNumber: 2
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:2/videos/the-buccaneer-buddies-reunite'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast of Pirates of Leviathan reunite to share memories, goofs, and Um Actually challenges.'
+itemId:        1133259
+collectionId:  235157
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:54:18.589Z
+scrapedAt:     2026-08-31T09:52:10.907Z
 
 ---
 

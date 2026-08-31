@@ -131,13 +131,14 @@ export async function main() {
       }
 
       compared += 1;
-      const official = isoDate(match.releaseDate!);
+      // Already a plain date; the curated side still needs narrowing.
+      const official = match.releaseDate!;
       const curated = isoDate(video.published);
       if (official === curated) {
         agreements += 1;
       } else {
         const days = Math.round(
-          (video.published.getTime() - match.releaseDate!.getTime()) /
+          (video.published.getTime() - Date.parse(`${official}T00:00:00Z`)) /
             86_400_000,
         );
         mismatches.push(

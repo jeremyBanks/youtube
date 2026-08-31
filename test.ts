@@ -117,7 +117,7 @@ Deno.test("parseEpisodePage extracts date, numbering, and title", () => {
   if (got.seasonNumber !== 1 || got.episodeNumber !== 1) {
     throw new Error(`${got.seasonNumber}/${got.episodeNumber}`);
   }
-  if (got.releaseDate?.toISOString().slice(0, 10) !== "2026-01-07") {
+  if (got.releaseDate !== "2026-01-07") {
     throw new Error(String(got.releaseDate));
   }
 });

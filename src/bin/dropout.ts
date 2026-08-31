@@ -199,7 +199,7 @@ export function parseEpisodePage(html: string): {
   title?: string;
   seasonNumber?: number;
   episodeNumber?: number;
-  releaseDate?: Date;
+  releaseDate?: string;
   url?: string;
   showTitle?: string;
   showSlug?: string;
@@ -214,7 +214,9 @@ export function parseEpisodePage(html: string): {
     /data-meta-field-name="release_dates" data-meta-field-value="(\d{4}-\d{2}-\d{2})"/,
   );
   if (date) {
-    out.releaseDate = new Date(date[1]);
+    // Kept as written. The page gives a date and no time, so building a
+    // Date here would invent a midnight that Dropout never stated.
+    out.releaseDate = date[1];
   }
   const se = html.match(/Season (\d+), Episode (\d+)/);
   if (se) {
@@ -677,7 +679,7 @@ export async function main() {
     }
     console.info(
       `  ${scraped}/${Math.min(budget, queue.length)} ${episode.slug}: ` +
-        `${details.releaseDate?.toISOString()?.slice(0, 10) ?? "?"}`,
+        `${details.releaseDate ?? "?"}`,
     );
   }
 

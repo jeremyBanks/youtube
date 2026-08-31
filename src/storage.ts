@@ -165,6 +165,41 @@ export const openActualPlaylistsStorage = () =>
   playlistStorage ??= open("data/actual-playlists.yaml", Playlist);
 
 /** An item on watch.dropout.tv, indexed from the sitemap. */
+/**
+ * A date with no time of day, which is what Dropout publishes: its pages
+ * carry `2026-01-07` and nothing finer.
+ *
+ * Held as a string rather than a Date for two reasons. A Date would claim a
+ * precision we were never given, and something would eventually render it in
+ * local time and land on the previous day, since UTC midnight is the
+ * afternoon before in California. And YAML itself parses a bare `2026-01-07`
+ * straight back into a Date at UTC midnight - which is exactly how this field
+ * became an instant in the first place - so only a quoted string survives the
+ * round trip intact.
+ *
+ * The old Date form is still accepted so existing records load, but only
+ * after asserting it is exactly midnight UTC. Anything else would mean a real
+ * time of day had been recorded, which this field never had, and is worth
+ * failing over rather than silently truncating.
+ */
+export const PlainDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/).or(
+  z.date().transform((value, ctx) => {
+    if (
+      value.getUTCHours() || value.getUTCMinutes() ||
+      value.getUTCSeconds() || value.getUTCMilliseconds()
+    ) {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message:
+          `${value.toISOString()} carries a time of day; expected a date`,
+      });
+      return z.NEVER;
+    }
+    return value.toISOString().slice(0, 10);
+  }),
+);
+export type PlainDate = z.TypeOf<typeof PlainDate>;
+
 export const DropoutEpisode = z.object({
   /** the item's URL slug, unique across the site */
   slug: z.string().min(1),
@@ -178,7 +213,7 @@ export const DropoutEpisode = z.object({
   seasonNumber: z.number().int().optional(),
   episodeNumber: z.number().int().optional(),
   /** the official release date shown on the episode page */
-  releaseDate: z.date().optional(),
+  releaseDate: PlainDate.optional(),
   /** the page's own canonical url; for an episode in a collection this
    * carries the collection and season, which the sitemap cannot */
   url: z.string().optional(),

@@ -3483,8 +3483,18 @@ title:         At the Strip Club With Your Dentist
 seasonNumber:  24
 episodeNumber: 3
 releaseDate:   2026-04-23T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/at-the-strip-club-with-your-dentist'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about Sweetie Pie''s, Zaeth''s Animalism, and Darkness Man''s worst fear.'
+itemId:        4004278
+collectionId:  1489783
+upNextIds:
+- 4006053
+- 4006060
+- 4039963
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:58:20.960Z
+scrapedAt:     2026-08-31T10:20:28.014Z
 
 ---
 
@@ -16866,8 +16876,18 @@ title:         Give It up for McBean
 seasonNumber:  24
 episodeNumber: 5
 releaseDate:   2026-05-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/give-it-up-for-mcbean'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss moving plans, Swingle''s night, and Emily''s willingness to marry a cat.'
+itemId:        4006060
+collectionId:  1489783
+upNextIds:
+- 4039963
+- 4049213
+- 4053153
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:09:22.312Z
+scrapedAt:     2026-08-31T10:20:40.287Z
 
 ---
 
@@ -20624,8 +20644,18 @@ title:         In My Feels About the Cold War
 seasonNumber:  24
 episodeNumber: 4
 releaseDate:   2026-04-30T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/in-my-feels-about-the-cold-war'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about Purpee conspiracies, the coterie''s new nemesis, and Bat Child''s 5 year plan.'
+itemId:        4006053
+collectionId:  1489783
+upNextIds:
+- 4006060
+- 4039963
+- 4049213
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:15:17.693Z
+scrapedAt:     2026-08-31T10:20:52.553Z
 
 ---
 
@@ -21254,8 +21284,18 @@ title:         It's a Banksy
 seasonNumber:  24
 episodeNumber: 1
 releaseDate:   2026-04-09T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/it-s-a-banksy'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The cast drink blood and chat about the consequences of eating missiles.
+itemId:        3998352
+collectionId:  1489783
+upNextIds:
+- 4003215
+- 4004278
+- 4006053
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:16:06.644Z
+scrapedAt:     2026-08-31T10:21:04.801Z
 
 ---
 
@@ -38843,8 +38883,18 @@ title:         The Polycule Voting Block
 seasonNumber:  24
 episodeNumber: 7
 releaseDate:   2026-05-21T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/the-polycule-voting-block'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about mage wars, small town civics, and Lavonte''s dark night of the soul.'
+itemId:        4049213
+collectionId:  1489783
+upNextIds:
+- 4053153
+- 4059229
+- 4066594
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:58:47.847Z
+scrapedAt:     2026-08-31T10:21:17.065Z
 
 ---
 
@@ -42506,8 +42556,18 @@ title:         Two Hours in the Tesla Diner
 seasonNumber:  24
 episodeNumber: 2
 releaseDate:   2026-04-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/two-hours-in-the-tesla-diner'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss their discoveries around town, the herd, and infiltrating the city council.'
+itemId:        4003215
+collectionId:  1489783
+upNextIds:
+- 4004278
+- 4006053
+- 4006060
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:03:17.363Z
+scrapedAt:     2026-08-31T10:21:29.328Z
 
 ---
 
@@ -47641,7 +47701,22 @@ collections:
 - dimension-20-city-council-of-darkness-the-complete-experience
 - dimension-20-s-adventuring-party-season-24
 lastmod:       2026-08-10T00:00:00.000Z
+title:         Zaeth is a Guided Missle
+seasonNumber:  24
+episodeNumber: 6
+releaseDate:   2026-05-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/zaeth-is-a-guided-missle'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about shakeups in town, plans for the city council, and Nancy Danderhoof''s integrity.'
+itemId:        4039963
+collectionId:  1489783
+upNextIds:
+- 4049213
+- 4053153
+- 4059229
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T10:21:41.672Z
 
 ---
 

@@ -1,49 +1,73 @@
 [dropout]
 incremental-interval = "PT4M"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P7D"
 
 [dimension20show]
 incremental-interval = "PT32M"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [dimension20shorts]
 incremental-interval = "PT32M"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [umactually]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [gamechangershorts]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [makesomenoisedo]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [dirtylaundryshorts]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [veryimportantpeopleshow]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [thousandairesdo]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [dropoutpresents]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [smartypantsdropout]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [monetsslumberparty]
 incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
 complete-interval = "P32D"
 
 [rarran]

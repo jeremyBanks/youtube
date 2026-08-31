@@ -45,6 +45,29 @@ export async function main() {
 
     const scannedAt = new Date();
 
+    // A windowed scan reaches back a fixed window rather than only to the last
+    // scan. Deletion is detected by noticing that a video we already know about
+    // is no longer listed, and that check only covers videos published at or
+    // after stopAt, so an incremental scan can only ever spot deletions among
+    // videos published since the previous run. This tier catches deletions
+    // further back without paying for a complete scan every time.
+    const recentWindowStart = config.recentWindowStart === undefined
+      ? undefined
+      : new Date(config.recentWindowStart.epochMilliseconds);
+    // Any earlier scan that reached at least as far back as this window counts,
+    // whether it was complete (scannedTo === null) or another windowed scan.
+    const lastWindowDeepScan = recentWindowStart === undefined
+      ? undefined
+      : scans.find((scan) =>
+        scan.channelId === channelId &&
+        (scan.scannedTo === null || scan.scannedTo <= recentWindowStart)
+      );
+    const recentScanDue = config.maxRecentAge !== undefined &&
+      recentWindowStart !== undefined &&
+      (!lastWindowDeepScan ||
+        new Date(config.maxRecentAge.epochMilliseconds) >
+          lastWindowDeepScan.scannedAt);
+
     let stopAt: Date;
 
     if (args["incremental-only"]) {
@@ -68,6 +91,8 @@ export async function main() {
         lastCompleteScan.scannedAt)
     ) {
       stopAt = new Date("2000-01-01");
+    } else if (recentScanDue) {
+      stopAt = recentWindowStart!;
     } else if (
       new Date(config.maxIncrementalAge.epochMilliseconds) > lastScan!.scannedAt
     ) {

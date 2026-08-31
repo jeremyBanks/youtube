@@ -12,14 +12,28 @@ const ScanConfigToml = z.record(
   z.string(),
   z.object({
     "incremental-interval": Duration,
+    // How often to scan back a fixed window, and how far back that reaches.
+    // Optional, and only meaningful together.
+    "recent-interval": Duration.optional(),
+    "recent-window": Duration.optional(),
     "complete-interval": Duration,
   })
-    .strict(),
+    .strict()
+    .refine(
+      (c) =>
+        (c["recent-interval"] === undefined) ===
+          (c["recent-window"] === undefined),
+      { message: "recent-interval and recent-window must be set together" },
+    ),
 );
 
 type ScanConfig = Array<{
   channelHandle: string;
   maxIncrementalAge: Temporal.Instant;
+  /** How stale the last window-deep scan may be before another is due. */
+  maxRecentAge?: Temporal.Instant;
+  /** How far back a windowed scan reaches. */
+  recentWindowStart?: Temporal.Instant;
   maxCompleteAge: Temporal.Instant;
 }>;
 
@@ -32,11 +46,19 @@ export async function getScanConfig(): Promise<ScanConfig> {
     const config: ScanConfig = [];
     const now = Temporal.Now.instant();
     for (const [channelHandle, channelConfig] of Object.entries(parsed)) {
+      const recentInterval = channelConfig["recent-interval"];
+      const recentWindow = channelConfig["recent-window"];
       config.push({
         channelHandle,
         maxIncrementalAge: now.toZonedDateTimeISO("UTC").subtract(
           channelConfig["incremental-interval"],
         ).toInstant(),
+        maxRecentAge: recentInterval
+          ? now.toZonedDateTimeISO("UTC").subtract(recentInterval).toInstant()
+          : undefined,
+        recentWindowStart: recentWindow
+          ? now.toZonedDateTimeISO("UTC").subtract(recentWindow).toInstant()
+          : undefined,
         maxCompleteAge: now.toZonedDateTimeISO("UTC").subtract(
           channelConfig["complete-interval"],
         ).toInstant(),

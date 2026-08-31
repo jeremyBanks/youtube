@@ -1,0 +1,53 @@
+name: Scan
+
+# Records what exists on the channels we follow. The point is capture: a video
+# that is posted and pulled between scans leaves no trace, and no later scan can
+# recover it. Curation stays manual; this only updates data/.
+on:
+  schedule:
+    # Weekly, Monday 05:17 UTC. An off-the-hour minute avoids the congestion
+    # GitHub sees at :00, where scheduled jobs can be delayed or dropped.
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+# Never let two scans write data/ at once.
+concurrency:
+  group: scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      # Deliberately not --incremental-only: that flag is a manual catch-up
+      # tool, and here it would suppress the complete scans that
+      # config/scan.toml schedules, which are what detect deletions.
+      - name: Scan
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: deno task scan
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Scan channels for new and removed videos"
+            git push
+          fi

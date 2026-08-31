@@ -2094,7 +2094,6 @@ videos:
 ---
 
 show: Make Some Noise
-season: Season 0
 videos:
   - episode: 001. Make Some Noise on Game Changer
     public: V-6m0jW0X9E
@@ -2243,6 +2242,10 @@ videos:
   - episode: 105. Space Rocks!
     members: dk5BdTfnq84
     published: 2022-11-09
+  - special: A Game Most Changed on Game Changer
+    dropout: a-game-most-changed
+    members: WcepHeSHN2E
+    published: 2023-01-09
 
 ---
 
@@ -4380,6 +4383,22 @@ videos:
   - episode: 2. Betrayed by Live Theatre
     members: s3XsXjWo2qs
     published: 2024-09-19
+  - episode: 3. A Candied Coup
+    dropout: a-candied-coup
+    members: s80WpHyuDpQ
+    published: 2024-12-12
+  - episode: 4. The EnWoodening
+    dropout: the-enwoodening
+    members: V5OlQHo4pBM
+    published: 2024-12-19
+  - episode: 5. The Wrong Kids
+    dropout: the-wrong-kids
+    members: 6VGeqnmy83M
+    published: 2024-12-26
+  - episode: 6. A New York Quangle
+    dropout: a-new-york-quangle
+    members: sZhvpZmSt8U
+    published: 2024-12-26
 
 ---
 
@@ -4507,6 +4526,7 @@ videos:
     public: 5NJn2UAbUDM
     published: 2025-05-07
   - bts: The Roll of a Lifetime
+    dropout: the-roll-of-a-lifetime-how-dimension-20-sold-out-madison-square-garden
     members: NbgUrPTnaIg
     published: 2025-05-07
   - episode: 1. Gauntlet at the Garden (Live From Madison Square Garden)
@@ -4909,6 +4929,15 @@ videos:
 ---
 
 show: Crowd Control
+videos:
+  - episode: 001. Crowd Control on Game Changer
+    dropout: crowd-control
+    members: yHJ42w2Gllk
+    published: 2025-03-10
+
+---
+
+show: Crowd Control
 season: Season 1
 videos:
   - episode: 101. Dangerous Hot Chocolate
@@ -5179,6 +5208,10 @@ videos:
   - episode: "416. Make Some Noise Season 4: Cut For Time"
     members: oKL_Lkg2dYo
     published: 2026-05-11
+  - special: Noise Some Makes on Game Changer
+    dropout: noise-some-makes
+    members: 4P8A6WB1sUk
+    published: 2026-07-27
 
 ---
 
@@ -5566,6 +5599,42 @@ videos:
   - episode: 707. A Deep Investment in Frivolity (with Mica Burton)
     members: _84OxGv0LyI
     published: 2026-08-26
+
+---
+
+show: Dimension 20
+season: "Live: Battle at the Bowl"
+cast: Intrepid Heroes
+world: Spyre
+live: true
+videos:
+  - trailer: "Dimension 20 Live: Battle at the Bowl Trailer"
+    dropout: dimension-20-live-battle-at-the-bowl-trailer
+    public: XmJsJw95uNA
+    published: 2025-11-05
+  - trailer: "Dimension 20: Battle at the Bowl (VOD Trailer)"
+    public: EYVgYHYEgv0
+    published: 2025-11-05
+  - episode: 1. Battle at the Bowl
+    dropout: dimension-20-live-2025-battle-at-the-bowl
+    members: 5AtykzXYUYo
+    published: 2025-11-12
+
+---
+
+show: Dimension 20
+season: "Live: Quangle Quest"
+cast: Intrepid Heroes
+live: true
+videos:
+  - trailer: "Dimension 20 Live: Quangle Quest Trailer"
+    dropout: dimension-20-live-quangle-quest-trailer
+    public: w3VFn9-Iv_I
+    published: 2025-12-03
+  - episode: 1. Quangle Quest
+    dropout: dimension-20-live-quangle-quest
+    members: EWvD9xA18NM
+    published: 2025-12-10
 
 ---
 

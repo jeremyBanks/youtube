@@ -116,6 +116,50 @@ This shows videos in `data/videos.yaml` that aren't yet in
 - Fatal Decision (short-form series)
 - Game Changer Animated, Dimension 20 Animated (no season structure)
 
+## Spin-offs and Crossovers
+
+Several shows began as a Game Changer episode, and Game Changer keeps returning
+to their formats afterwards. Both belong in the spin-off's playlist as well as
+Game Changer's — the same video ids appear in both entries, which is intended —
+but they are filed differently, because one came before the show existed and the
+other did not.
+
+**Precursors** aired before the spin-off launched. They go in a doc with **no
+`season:` key at all**, placed before Season 1, with entries numbered `001.` and
+titled `<Game Changer title> on Game Changer`:
+
+```yaml
+---
+show: Crowd Control
+videos:
+  - episode: 001. Crowd Control on Game Changer
+    dropout: crowd-control
+    members: yHJ42w2Gllk
+    published: 2025-03-10
+```
+
+Dirty Laundry, Play It By Ear, Crowd Control and Make Some Noise all have one.
+The missing `season:` is load-bearing: `aggregate` counts a doc as a season only
+when that key is present, so a precursor would otherwise inflate the show's
+season count in its published description. **Nothing uses a `Season 0` label** —
+Make Some Noise did until it was found to be claiming five seasons when it has
+four.
+
+**Later crossovers** are Game Changer episodes in the spin-off's format after it
+launched, so they are not precursors and must not sit at the front. They go in
+as a `special:` at their air date, inside whichever season doc precedes them —
+`Noise Some Makes on Game Changer` after the Make Some Noise season 4 finale,
+`A Game Most Changed on Game Changer` after Play It By Ear season 1. Playlist
+order is file order, so position in the file is what places them.
+
+Um, Actually's season-less doc is the same container used for a different
+reason: its nine pre-Dropout CollegeHumor episodes, which likewise should not
+count as a season.
+
+Finding these is manual. A crossover is only obvious from the format, and the
+title need not mention the show at all, so treat the list above as known cases
+rather than a complete one.
+
 ## seasons.yaml Structure
 
 ```yaml

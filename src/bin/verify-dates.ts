@@ -72,7 +72,7 @@ export async function main() {
     if (args.show && doc.show !== args.show) {
       continue;
     }
-    const prefix = config.shows[doc.show];
+    const prefixes = config.shows[doc.show];
     const where = doc.season ? `${doc.show} / ${doc.season}` : doc.show;
 
     for (const video of doc.videos) {
@@ -94,12 +94,12 @@ export async function main() {
           continue;
         }
       } else {
-        if (!prefix) {
+        if (!prefixes?.length) {
           continue; // show has no collection mapping; nothing to say
         }
         const wanted = normalizeTitle(named.title);
         const candidates = scraped.filter((e) =>
-          e.collection.startsWith(prefix) && e.title &&
+          prefixes.some((p) => e.collection.startsWith(p)) && e.title &&
           normalizeTitle(e.title) === wanted
         );
         if (candidates.length > 1) {

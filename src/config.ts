@@ -198,15 +198,20 @@ const DropoutConfigToml = z.object({
   "budget": z.number().int().positive(),
   /** collection-slug prefixes whose episode details are fetched first */
   "priority": z.string().array().optional(),
-  /** curation show name -> collection-slug prefix, for cross-referencing */
-  "shows": z.record(z.string(), z.string()).optional(),
+  /**
+   * curation show name -> collection-slug prefix(es), for cross-referencing.
+   * A list, because a show is not always one collection: Dropout Presents
+   * files each special under its own collection, and Mice and Murder is a
+   * Dimension 20 campaign that does not sit under the dimension-20 prefix.
+   */
+  "shows": z.record(z.string(), z.string().or(z.string().array())).optional(),
 }).strict();
 
 export type DropoutConfig = {
   delaySeconds: number;
   budget: number;
   priority: Array<string>;
-  shows: Record<string, string>;
+  shows: Record<string, Array<string>>;
 };
 
 let dropoutConfig: undefined | Promise<DropoutConfig> = undefined;
@@ -218,7 +223,11 @@ export async function getDropoutConfig(): Promise<DropoutConfig> {
       delaySeconds: parsed["delay-seconds"],
       budget: parsed["budget"],
       priority: parsed["priority"] ?? [],
-      shows: parsed["shows"] ?? {},
+      shows: Object.fromEntries(
+        Object.entries(parsed["shows"] ?? {}).map((
+          [show, prefixes],
+        ) => [show, [prefixes].flat()]),
+      ),
     };
   })());
 }

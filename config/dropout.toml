@@ -16,14 +16,34 @@ priority = [
   "um-actually",
   "make-some-noise",
   "very-important-people",
+  # A Dimension 20 campaign that Dropout files outside the dimension-20
+  # prefix, so it needs naming explicitly to share D20's priority.
+  "mice-murder",
 ]
 
 # Curation show name -> collection-slug prefix on watch.dropout.tv, used by
 # verify-dates to match curation entries to scraped episodes. Best-effort and
 # extendable; shows without an entry fall back to unmatched.
 [shows]
-"Dimension 20" = "dimension-20"
+"Dimension 20" = ["dimension-20", "mice-murder"]
 "Adventuring Party" = "dimension-20-s-adventuring-party"
+# Dropout Presents has no collection of its own: each stand-up special is its
+# own collection, holding both the special and its "Get Your Act Together"
+# companion episode.
+"Dropout Presents" = [
+  "adam-conover-unmedicated",
+  "aparna-nancherla-hopeful-potato",
+  "bigger-with-brennan-and-izzy",
+  "cameron-esposito-four-pills",
+  "chris-grace-as-scarlett-johansson",
+  "courtney-pauroso-vanessa-5000",
+  "demi-adejuyigbe-is-going-to-do-one-1-backflip",
+  "from-ally-to-zacky",
+  "hank-green-pissing-out-cancer",
+  "mark-vigeant-the-best-man-show",
+  "michael-cruz-kayne-sorry-for-your-loss",
+  "the-big-team",
+]
 "Adventuring Academy" = "adventuring-academy"
 "Game Changer" = "game-changer"
 "Game Changer Animated" = "game-changer-animated"

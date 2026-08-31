@@ -6445,7 +6445,12 @@ collections:
 - dropout-music-season-1
 - music-to-your-ears
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Stardust
+url:           'https://watch.dropout.tv/videos/bill-nye'
+description:   'TV’s favorite scientist, Bill Nye, brings you an interplanetary bop worthy of a Nobel and a Grammy.'
+itemId:        457793
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:59:45.691Z
 
 ---
 
@@ -18402,7 +18407,21 @@ collections:
 - dropout-music-season-1
 - music-to-your-ears
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Honest Holiday Card Song
+seasonNumber:  3
+episodeNumber: 10
+url:           'https://watch.dropout.tv/ch-shorts/season:3/videos/honest-holiday-card-song'
+showTitle:     CH Shorts
+showSlug:      ch-shorts
+description:   Sing a song of sadness.
+itemId:        449097
+collectionId:  82230
+upNextIds:
+- 449098
+- 449099
+- 263384
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:59:57.970Z
 
 ---
 
@@ -20099,7 +20118,21 @@ collections:
 - dropout-music-season-1
 - music-to-your-ears
 lastmod:       2026-03-24T00:00:00.000Z
+title:         If I Had the Money That Bezos Had
+seasonNumber:  15
+episodeNumber: 27
+url:           'https://watch.dropout.tv/ch-shorts/season:15/videos/if-i-had-the-money-that-bezos-had'
+showTitle:     CH Shorts
+showSlug:      ch-shorts
+description:   A song about putting Jeff Bezos' $200 billion fortune into context.
+itemId:        1214474
+collectionId:  136879
+upNextIds:
+- 1241946
+- 1505044
+- 1556827
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T10:00:10.239Z
 
 ---
 
@@ -23314,7 +23347,22 @@ collections:
 - dropout-music-season-1
 - music-to-your-ears
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Livin' Mask Free (Music Video)
+seasonNumber:  15
+episodeNumber: 22
+releaseDate:   2020-09-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/ch-shorts/season:15/videos/livin-mask-free-music-video'
+showTitle:     CH Shorts
+showSlug:      ch-shorts
+description:   A country anthem for our doomed country.
+itemId:        1098340
+collectionId:  136879
+upNextIds:
+- 1110374
+- 1120425
+- 1131765
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T10:00:22.489Z
 
 ---
 
@@ -24098,7 +24146,12 @@ collections:
 - dropout-music-season-1
 - music-to-your-ears
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Mayor of Flavortown
+url:           'https://watch.dropout.tv/videos/mayor-of-flavortown'
+description:   There's only one Guy who can rule the kingdom of big bold taste and Fieri flavor.
+itemId:        443083
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T10:00:34.734Z
 
 ---
 
@@ -25070,7 +25123,19 @@ collections:
 - music-to-your-ears
 - um-actually-season-4
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Musicals Encore!
+seasonNumber:  4
+episodeNumber: 11
+url:           'https://watch.dropout.tv/um-actually/season:4/videos/musicals-encore'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   'Jeff Hiller, Lindsay Jones, and Grant O''Brien set out to prove who has all that jazz.'
+itemId:        1110378
+collectionId:  200629
+upNextIds:
+- 1110375
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:58:56.545Z
 
 ---
 
@@ -26103,7 +26168,22 @@ collections:
 - make-some-noise-season-2
 - music-to-your-ears
 lastmod:       2026-08-10T00:00:00.000Z
+title:         '"Not Really My Thing" By Harry Styles'
+seasonNumber:  2
+episodeNumber: 6
+releaseDate:   2023-08-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/make-some-noise/season:2/videos/not-really-my-thing-by-harry-styles'
+showTitle:     Make Some Noise
+showSlug:      make-some-noise
+description:   'Rashawn, Ross, and Wayne Brady sing karaoke prompts with accompaniment by Aaron Wilson.'
+itemId:        2829176
+collectionId:  889958
+upNextIds:
+- 2851751
+- 2882986
+- 2903076
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:59:21.155Z
 
 ---
 
@@ -37564,7 +37644,21 @@ collections:
 - um-actually-new
 - um-actually-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Musical Theater Episode!
+seasonNumber:  2
+episodeNumber: 7
+url:           'https://watch.dropout.tv/um-actually/season:2/videos/the-musical-theater-episode'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   'Rachel Bloom, Grant O''Brien, & Siobhan Thompson test their playbill memories in a musical-themed ep.'
+itemId:        590289
+collectionId:  111445
+upNextIds:
+- 595693
+- 600875
+- 607121
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:59:08.792Z
 
 ---
 
@@ -45598,7 +45692,21 @@ collections:
 - dropout-music-season-1
 - music-to-your-ears
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Wish I Had a Portal Gun
+seasonNumber:  3
+episodeNumber: 27
+url:           'https://watch.dropout.tv/ch-shorts/season:3/videos/wish-i-had-a-portal-gun'
+showTitle:     CH Shorts
+showSlug:      ch-shorts
+description:   Hopefully they'll make a Portal 3 so this song can be in the ending credits.
+itemId:        233643
+collectionId:  82230
+upNextIds:
+- 263387
+- 449106
+- 449107
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T10:00:46.995Z
 
 ---
 
@@ -46023,7 +46131,21 @@ collections:
 - make-some-noise-season-2
 - music-to-your-ears
 lastmod:       2026-08-10T00:00:00.000Z
+title:         '"Yes And" By Ed Sheeran and Kelly Clarkson'
+seasonNumber:  2
+episodeNumber: 14
+releaseDate:   2023-12-04T00:00:00.000Z
+url:           'https://watch.dropout.tv/make-some-noise/season:2/videos/yes-and-by-ed-sheeran-and-kelly-clarkson'
+showTitle:     Make Some Noise
+showSlug:      make-some-noise
+description:   'Jess, Zeke, and Zach have a karaoke night with accompaniment from Aaron Wilson.'
+itemId:        2988525
+collectionId:  889958
+upNextIds:
+- 2982712
+- 2998440
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T09:59:33.446Z
 
 ---
 

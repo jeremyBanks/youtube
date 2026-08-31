@@ -57,6 +57,7 @@ Deno.test("an aborted run flushes storage and still exits non-zero", async () =>
 // The suite must stay offline, so these are literal excerpts of real pages.
 import {
   canonicalCollection,
+  newArrivals,
   parseCollectionPage,
   parseEpisodePage,
   parseSitemap,
@@ -185,4 +186,25 @@ Deno.test("parseEpisodePage takes its own id from window.Page, not the embed", (
   }
   if (got.tags?.[0] !== "tabletop rpg") throw new Error(String(got.tags));
   if (got.upNextIds?.[0] !== 1422414) throw new Error(String(got.upNextIds));
+});
+
+Deno.test("newArrivals ignores the bootstrap batch, flags later ones", () => {
+  const bootstrap = new Date("2026-08-31T02:00:00Z");
+  const later = new Date("2026-09-07T02:00:00Z");
+  const records = [
+    { slug: "old-a", firstSeen: bootstrap },
+    { slug: "old-b", firstSeen: bootstrap },
+    { slug: "new-one", firstSeen: later },
+  ];
+  const isNew = newArrivals(records);
+  if (isNew(records[0]) || isNew(records[1])) {
+    throw new Error("bootstrap records must not count as new");
+  }
+  if (!isNew(records[2])) throw new Error("later record must count as new");
+  // On a first run everything shares one timestamp, so nothing is "new"
+  // and the ordering must fall through to the usual priorities.
+  const firstRun = newArrivals(records.slice(0, 2));
+  if (firstRun(records[0]) || firstRun(records[1])) {
+    throw new Error("a uniform batch must yield no new arrivals");
+  }
 });

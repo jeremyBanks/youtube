@@ -115,6 +115,27 @@ function decodeEntities(text: string): string {
 }
 
 /**
+ * Returns a test for whether a record arrived after the index was first
+ * built, which is what "new content" means here.
+ *
+ * The whole catalogue is discovered in a single run — one `now` for the
+ * whole sitemap pass — so every bootstrapped record shares one exact
+ * firstSeen, and anything later than that earliest value appeared
+ * afterwards. That avoids a tunable age threshold, and it degrades
+ * correctly on the first run, where nothing is newer than the bootstrap
+ * and the ordering falls through to the usual priorities.
+ */
+export function newArrivals<T extends { firstSeen: Date }>(
+  records: Array<T>,
+): (record: T) => boolean {
+  let bootstrap = Infinity;
+  for (const record of records) {
+    bootstrap = Math.min(bootstrap, record.firstSeen.getTime());
+  }
+  return (record) => record.firstSeen.getTime() > bootstrap;
+}
+
+/**
  * Lifts the `window.Page = {...}` blob a page declares about itself and
  * returns its PROPERTIES. Brace-counted rather than regexed, since the
  * object nests. Returns undefined rather than throwing on anything
@@ -464,10 +485,12 @@ export async function main() {
 
   // -- collection pass: the small, high-value layer, so it runs first --
 
+  const newCollection = newArrivals(collections);
   const collectionQueue = collections
     .filter((c) => !c.scrapedAt && !c.removedBefore)
     .filter((c) => !only || only.test(c.slug))
     .sort((a, b) =>
+      Number(newCollection(b)) - Number(newCollection(a)) ||
       tier(a.slug) - tier(b.slug) || (b.size ?? 0) - (a.size ?? 0) ||
       a.slug.localeCompare(b.slug)
     );
@@ -514,8 +537,13 @@ export async function main() {
     return;
   }
 
-  // -- detail pass: write-once, budgeted, priority first, then recency --
+  // -- detail pass: write-once, budgeted, new arrivals then priority --
 
+  // Anything discovered since the index was built goes first, whatever show
+  // it belongs to. Without this, priority tiers decide everything, and a new
+  // episode of a show outside the priority list queues behind the entire
+  // unscraped back catalogue - months of waiting at a daily budget.
+  const newEpisode = newArrivals(episodes);
   const episodeBudget = Math.max(0, budget - collectionsScraped);
   const queue = episodes
     // `url` is set by every successful parse, so its absence marks a record
@@ -523,6 +551,7 @@ export async function main() {
     .filter((e) => (!e.scrapedAt || !e.url) && !e.removedBefore)
     .filter((e) => !only || only.test(e.slug) || only.test(e.collection))
     .sort((a, b) =>
+      Number(newEpisode(b)) - Number(newEpisode(a)) ||
       tier(a.collection) - tier(b.collection) ||
       (b.lastmod?.getTime() ?? 0) - (a.lastmod?.getTime() ?? 0) ||
       a.slug.localeCompare(b.slug)

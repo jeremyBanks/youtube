@@ -20,10 +20,12 @@ will fight with bot commits at push time.
 `config/scan.toml` into `data/videos.yaml`; it needs `YOUTUBE_API_KEY` in `.env`
 and can exhaust the daily quota on a complete scan, in which case it fails
 loudly and is safe to resume the next day. `deno task scan-dropout` updates
-`data/dropout.yaml` from watch.dropout.tv; it needs no credentials but waits 12
-seconds between requests, so a default run takes about half an hour. Commit the
-data changes on their own before curating, so that a scraping result is never
-entangled with an editorial decision.
+`data/dropout.yaml` and `data/dropout-collections.yaml` from watch.dropout.tv;
+it needs no credentials but waits 12 seconds between requests, so its runtime is
+simply the budget times twelve seconds — a few minutes at the small default, and
+`--budget=N` for a bulk backfill. Commit the data changes on their own before
+curating, so that a scraping result is never entangled with an editorial
+decision.
 
 **Then curate, which is the part that needs a person.** List the videos that no
 curation entry accounts for:

@@ -14,14 +14,18 @@ name: Scan Dropout
 # The pages are public, so no secrets are needed.
 on:
   schedule:
-    # Weekly, Sunday 08:37 UTC, about two hours after the YouTube scan, so
-    # the pair lands together in the middle of the weekend and leaves one
-    # week's changes in one place. The gap is generous: this run takes ~35
-    # minutes at 12-second delays, and the two write different files, so
-    # overlapping would be harmless anyway. Off-the-hour minute to dodge
-    # GitHub's :00 congestion.
-    - cron: "37 8 * * 0"
+    # Daily at 11:41 UTC, half an hour after the YouTube scan. The gap is
+    # not about load — these runs are minutes long and write different
+    # files — but about the push: both commit to trunk, and the loser of a
+    # race would be rejected as non-fast-forward. Off-the-hour minute to
+    # dodge GitHub's :00 congestion.
+    - cron: "41 11 * * *"
   workflow_dispatch:
+    inputs:
+      budget:
+        description: "Pages to fetch (default: config/dropout.toml)"
+        required: false
+        type: string
 
 # Never let two runs write data/ at once. A separate group from the YouTube
 # scan: they touch disjoint files, so they may overlap each other freely.
@@ -32,10 +36,9 @@ concurrency:
 jobs:
   scan-dropout:
     runs-on: ubuntu-latest
-    # A full budget costs 300 * 12s = 60 minutes of deliberate waiting, so
-    # the limit is generous enough to absorb a slow run without letting a
-    # hang eat a runner for hours.
-    timeout-minutes: 120
+    # A run is only a few minutes at the configured budget; the limit exists
+    # to stop a hang eating a runner, not to accommodate normal work.
+    timeout-minutes: 64
 
     permissions:
       contents: write
@@ -49,16 +52,26 @@ jobs:
         with:
           deno-version: v2.x
 
-      # Budget 300 rather than the config default of 150: a run is almost
-      # entirely sleep, so a bigger bite costs a runner little and halves the
-      # weeks needed to work through the back catalogue.
-      # Cut the scan off well inside the job's own limit. A job-level
-      # timeout cancels the job outright and the commit below never runs,
-      # throwing away an hour of deliberate waiting; a step-level one just
-      # ends the step and leaves room to save what was already fetched.
+      # The budget comes from config/dropout.toml and is deliberately small:
+      # a daily nibble finishing in about four minutes, not an hour-long
+      # crawl. A manual dispatch can pass a larger one to bulk backfill.
+      #
+      # The timeout is step-level rather than only job-level. A job-level
+      # timeout cancels the job outright, so the commit below never runs and
+      # every page fetched is thrown away; ending the step instead leaves
+      # room to save the work.
       - name: Scan
-        timeout-minutes: 75
-        run: deno task scan-dropout --budget=300
+        timeout-minutes: 48
+        env:
+          # Via the environment rather than interpolated into the command,
+          # so the input cannot be read as shell.
+          BUDGET: ${{ inputs.budget }}
+        run: |
+          if [ -n "$BUDGET" ]; then
+            deno task scan-dropout --budget="$BUDGET"
+          else
+            deno task scan-dropout
+          fi
 
       # Always, even when the scan failed or was cut off. The scanner writes
       # as it goes and flushes on the way out, and every page it did fetch

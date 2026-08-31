@@ -6,7 +6,7 @@ delay-seconds = 12
 # How many episode-detail pages one run may fetch. The sitemap pass itself is
 # a single request. Release dates are immutable, so detail pages are fetched
 # once ever per episode and the backlog only shrinks.
-budget = 150
+budget = 20
 
 # Collection-slug prefixes whose episode details are fetched first. These
 # cover the entries whose curated dates are known to be suspect.

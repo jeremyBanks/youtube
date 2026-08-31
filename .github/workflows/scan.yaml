@@ -5,12 +5,12 @@ name: Scan
 # recover it. Curation stays manual; this only updates data/.
 on:
   schedule:
-    # Weekly, Sunday 06:23 UTC — the middle of the weekend, late Saturday
-    # night in North America, when nothing new is being published. An
-    # off-the-hour minute avoids the congestion GitHub sees at :00, where
-    # scheduled jobs can be delayed or dropped. The Dropout scan follows
-    # about two hours later, once this one has settled.
-    - cron: "23 6 * * 0"
+    # Daily at 11:13 UTC, the small hours in North America (3:13am PST,
+    # 4:13am PDT) when nothing is being published. An off-the-hour minute
+    # avoids the congestion GitHub sees at :00, where scheduled jobs can be
+    # delayed or dropped. The Dropout scan follows half an hour later: both
+    # push to trunk, and a simultaneous second push would be rejected.
+    - cron: "13 11 * * *"
   workflow_dispatch:
 
 # Never let two scans write data/ at once.
@@ -21,7 +21,7 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 64
 
     permissions:
       contents: write
@@ -41,7 +41,7 @@ jobs:
       # Step-level, so that a scan cut short still reaches the commit below.
       # A job-level timeout would cancel the job and discard the capture.
       - name: Scan
-        timeout-minutes: 45
+        timeout-minutes: 48
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: deno task scan

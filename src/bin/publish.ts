@@ -111,20 +111,17 @@ Options:
 
     const videoIds = Object.keys(playlist.videos);
 
-    if (dryRun) {
-      console.info(
-        `[DRY RUN] Would publish ${playlist.name} (${playlist.playlistId}) with ${videoIds.length} videos`,
-      );
-      continue;
-    }
-
-    console.info(`Publishing ${playlist.name} (${playlist.playlistId})`);
+    console.info(
+      `${dryRun ? "[DRY RUN] Checking" : "Publishing"} ${playlist.name} ` +
+        `(${playlist.playlistId})`,
+    );
 
     await updatePlaylist(
       playlist.playlistId!,
       playlist.name,
       playlist.description,
       videoIds,
+      { dryRun },
     );
   }
 }

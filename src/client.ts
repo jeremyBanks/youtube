@@ -359,8 +359,15 @@ export async function updatePlaylist(
   title: string,
   description: string,
   videoIds: Array<string>,
+  { dryRun = false }: { dryRun?: boolean } = {},
 ) {
-  const { youtube, auth, key } = await getClientAuthAndKey();
+  // A dry run reads the live playlist and reports the same diff a real
+  // publish would act on, then stops before touching anything. Reads need
+  // only the API key, so a dry run works without OAuth.
+  const client = dryRun ? undefined : await getClientAuthAndKey();
+  const youtube = client?.youtube ?? (await getClientAndKey()).youtube;
+  const auth = client?.auth;
+  const key = client?.key ?? (await getClientAndKey()).key;
 
   const existingMetadata = await retryWithBackoff(
     () => playlistMetadata(playlistId),
@@ -380,21 +387,30 @@ export async function updatePlaylist(
     existingMetadata.snippet?.description?.trim() !== description?.trim();
 
   if (titleChanged || descriptionChanged) {
-    console.info("Updating metadata.");
+    if (dryRun) {
+      console.info(
+        `  would update ${
+          [titleChanged && "title", descriptionChanged && "description"]
+            .filter(Boolean).join(" and ")
+        }`,
+      );
+    } else {
+      console.info("Updating metadata.");
 
-    console.debug(`youtube.playlists.update id: ${playlistId}`);
-    await youtube.playlists.update({
-      auth,
-      key,
-      part: ["snippet"],
-      requestBody: {
-        id: playlistId,
-        snippet: {
-          title,
-          description,
+      console.debug(`youtube.playlists.update id: ${playlistId}`);
+      await youtube.playlists.update({
+        auth,
+        key,
+        part: ["snippet"],
+        requestBody: {
+          id: playlistId,
+          snippet: {
+            title,
+            description,
+          },
         },
-      },
-    });
+      });
+    }
   }
 
   const entryIdsToRemove: Array<string> = [];
@@ -419,6 +435,20 @@ export async function updatePlaylist(
   console.info(
     `${existingVideoIds.length} entries okay, ${entryIdsToRemove.length} entries to remove, ${missingVideoCount} entries to insert.`,
   );
+
+  if (dryRun) {
+    // Name what would change, so a reviewer can judge the diff rather than
+    // just count it. Nothing below this point runs.
+    for (const videoId of videoIds) {
+      if (!existingVideoIds.includes(videoId)) {
+        console.info(`  + ${videoId}`);
+      }
+    }
+    for (const entryId of entryIdsToRemove) {
+      console.info(`  - entry ${entryId}`);
+    }
+    return;
+  }
 
   for (const entryId of entryIdsToRemove) {
     console.debug(`youtube.playlistItems.delete id: ${entryId}`);

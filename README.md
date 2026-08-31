@@ -52,7 +52,10 @@ requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
       at once, and this operation may need to be executed repeatedly over
       multiple days.
 
-      `--dry-run` reports what would change without touching anything.
+      `--dry-run` fetches each playlist's live contents and reports the same
+      diff a real run would act on — naming the videos it would add and the
+      entries it would remove — then stops before changing anything. It needs
+      no OAuth, since it only reads.
       `--playlist=NAME` limits it to one playlist, and `--create-missing`
       creates playlists whose config key is still a `todo-` placeholder,
       writing the real id back into `config/aggregate.toml`.

@@ -41,10 +41,12 @@ in `config/aggregate.toml`.
 
 **Then publish.** `deno task aggregate` regenerates `data/playlists.yaml`; read
 the diff, since it is the last chance to catch a mistake before it reaches
-subscribers. `deno task publish --dry-run` reports what would change on YouTube,
-and `deno task publish` applies it (`--create-missing` for new playlists).
-Publishing needs OAuth, not just the API key, and writes to a channel with real
-subscribers, so never publish a diff you have not read.
+subscribers. `deno task publish --dry-run` fetches the live playlists and
+reports the real diff — the videos it would add, the entries it would remove —
+without changing anything, and needs no OAuth since it only reads.
+`deno task publish` applies it (`--create-missing` for new playlists); that does
+need OAuth, and writes to a channel with real subscribers, so never publish a
+diff you have not read.
 
 **Then push to `trunk`.** If everything above succeeded, commit and push
 directly to `trunk` — this is routine catalogue maintenance, not a change that

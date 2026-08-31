@@ -3707,8 +3707,10 @@ videos:
 ---
 
 name:        Nobody Asked (All Episodes and Extras)
-description: |
+description: |-
   3-hour playlist of 5 episodes and 0 trailers from Nobody Asked, a mock investigative reporting series where comedians tackle absurd questions with real science. 0 videos are free and 5 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/nobody-asked
 playlistId:  PLObfuAmZm9pCHD32Lg3ZYNL0NGEwRjH-A
 videos:
   k_twaN9Vjfo: 'Technically a Tenor, Comedians vs. Pro Athletes, Inflatable Jazz | Nobody Asked Season 1 | Ep. 1'

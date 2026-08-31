@@ -265,6 +265,10 @@ Two timestamp fields, with different meanings, both from the YouTube scan:
 Neither is authoritative: **the official release date lives on
 watch.dropout.tv** and is scraped into `data/dropout.yaml`.
 
+See `dates.md` for how far apart the sources actually are, which of them to
+believe for which era, and the short list of entries known to carry the wrong
+date.
+
 ```bash
 deno task scan-dropout                 # sitemap diff + budgeted detail fetches
 deno task scan-dropout --collections   # only the collection layer

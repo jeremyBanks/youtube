@@ -5133,7 +5133,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Art Heist
+seasonNumber:  1
+episodeNumber: 4
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/art-heist'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   Jack is on vacation in Paris when an art thief ransacks The Louvre.
+itemId:        3704861
+collectionId:  1157742
+upNextIds:
+- 3704858
+- 3708267
+- 3704853
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:41:32.333Z
 
 ---
 
@@ -5568,7 +5583,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Bad Guy Bank
+seasonNumber:  1
+episodeNumber: 8
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/bad-guy-bank'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   Agent Maxwell breaks the bank.
+itemId:        3704855
+collectionId:  1157742
+upNextIds:
+- 3704857
+- 3704862
+- 3704863
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:41:44.622Z
 
 ---
 
@@ -11551,7 +11581,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Captured
+seasonNumber:  1
+episodeNumber: 7
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/captured'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell is captured by his arch-nemesis, Drake Noir.
+
+  Content Warning:
+  Simulated Comedy Violence - [throughout]
+  Misophonia (Bones snapping) - (2:32-2:34)
+itemId:        3704853
+collectionId:  1157742
+upNextIds:
+- 3704855
+- 3704857
+- 3704862
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:41:56.937Z
 
 ---
 
@@ -12520,7 +12570,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Christmas Special
+seasonNumber:  1
+episodeNumber: 38
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/christmas-special'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  It's a very Jack Maxwell Christmas.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence, fake blood, dismemberment) - [throughout]
+itemId:        3708305
+collectionId:  1157742
+upNextIds:
+- 3708306
+- 3708312
+- 3708315
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:42:09.232Z
 
 ---
 
@@ -13264,7 +13333,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Colt Maxwell
+seasonNumber:  1
+episodeNumber: 40
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/colt-maxwell'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  How the West was Maxwelled.
+
+  Content Warning:
+  Simulated Comedy Violence (Guns, shooting) - [throughout]
+itemId:        3708312
+collectionId:  1157742
+upNextIds:
+- 3708315
+- 3708369
+- 3708331
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:42:21.530Z
 
 ---
 
@@ -13702,7 +13790,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Copter Down
+seasonNumber:  1
+episodeNumber: 45
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/copter-down'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  The newly unemployed Josh Mullen shoots a Fatal Decision episode from home on his cellphone.
+
+  Content Warning:
+  Simulated Comedy Violence (Assault with weapons, fake blood) - [throughout]
+itemId:        3708336
+collectionId:  1157742
+upNextIds:
+- 3708340
+- 3708343
+- 3708351
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:42:33.845Z
 
 ---
 
@@ -15167,7 +15274,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Death by Pizza
+seasonNumber:  1
+episodeNumber: 6
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/death-by-pizza'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Things are heating up with Jack Maxwell.
+
+  Content Warning:
+  Misophonia (Slurping, squelching) - [0:10-0:18]
+  Simulated Comedy Violence (Gun violence) - [throughout]
+itemId:        3708267
+collectionId:  1157742
+upNextIds:
+- 3704853
+- 3704855
+- 3704857
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:42:46.175Z
 
 ---
 
@@ -19678,7 +19805,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Extreme Interrogation (with Christina Hendricks)
+seasonNumber:  1
+episodeNumber: 2
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/extreme-interrogation-with-christina-hendricks'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   'Jack has to interrogate terrorist agent Martha Nelp by the book. Unfortunately, she wrote that book.'
+itemId:        3704849
+collectionId:  1157742
+upNextIds:
+- 3704851
+- 3704861
+- 3704858
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:42:58.661Z
 
 ---
 
@@ -19866,7 +20008,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Faces Off
+seasonNumber:  1
+episodeNumber: 41
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/faces-off'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack awakes to find his face has been replaced with Drake Noir's.
+
+  Content Warning:
+  Simulated Comedy Violence (Fake blood, assault with weapons) - [ throughout]
+itemId:        3708315
+collectionId:  1157742
+upNextIds:
+- 3708369
+- 3708331
+- 3708333
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:43:10.941Z
 
 ---
 
@@ -20594,7 +20755,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Fatal Hospital
+seasonNumber:  1
+episodeNumber: 44
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/fatal-hospital'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   'Saving lives, breaking hearts.'
+itemId:        3708333
+collectionId:  1157742
+upNextIds:
+- 3708336
+- 3708340
+- 3708343
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:43:23.241Z
 
 ---
 
@@ -22171,7 +22347,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Freefall
+seasonNumber:  1
+episodeNumber: 34
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/freefall'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Two unstoppable forces, Jack Maxwell and gravity, team up to defeat a parachuting Cosmonaut.
+
+  Content Warning:
+  Simulated Comedy Violence (Physical assault) - [throughout]
+  Misophonia (Bones cracking) - [2:18-2:22]
+itemId:        3708295
+collectionId:  1157742
+upNextIds:
+- 3708297
+- 3708300
+- 3708303
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:43:35.526Z
 
 ---
 
@@ -22935,7 +23131,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Get Ratchet
+seasonNumber:  1
+episodeNumber: 5
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/get-ratchet'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell is back in action, and the only thing deader than his sister, will be the bad guys who killed her.
+
+  Content Warning:
+  Simulated Comedy Violence (Kidnapping, gun violence) - [throughout]
+itemId:        3704858
+collectionId:  1157742
+upNextIds:
+- 3708267
+- 3704853
+- 3704855
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:43:47.814Z
 
 ---
 
@@ -23193,7 +23408,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Ghost Kid
+seasonNumber:  1
+episodeNumber: 11
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/ghost-kid'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell is going to make this creepy child ghost wish it were deader.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence, portrayal of suicide)
+  [throughout]
+itemId:        3704863
+collectionId:  1157742
+upNextIds:
+- 3704848
+- 3704847
+- 3704850
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:44:00.110Z
 
 ---
 
@@ -26268,7 +26503,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Hope Diamond
+seasonNumber:  1
+episodeNumber: 23
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/hope-diamond'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Stolen diamond, stolener heart.
+
+  Content Warning:
+  Simulated Comedy Violence - [throughout]
+itemId:        3708243
+collectionId:  1157742
+upNextIds:
+- 3708254
+- 3704856
+- 3708258
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:44:12.430Z
 
 ---
 
@@ -26304,7 +26558,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Hostage Situation
+seasonNumber:  1
+episodeNumber: 27
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/hostage-situation'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack saves his most high-end hostages yet.
+
+  Content Warning:
+  Depiction of Hard Drug Use - [1:53-2:02]
+itemId:        3708261
+collectionId:  1157742
+upNextIds:
+- 3708268
+- 3708270
+- 3708278
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:44:24.739Z
 
 ---
 
@@ -26421,7 +26694,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Hot Licks and Cool Kicks
+seasonNumber:  1
+episodeNumber: 29
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/hot-licks-and-cool-kicks'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Rock 'n' roll forever. Or else.
+
+  Content Warning: 
+  Simulated Comedy Violence (Choking, physical assault) - [throughout]
+itemId:        3708270
+collectionId:  1157742
+upNextIds:
+- 3708278
+- 3708309
+- 3708282
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:44:37.036Z
 
 ---
 
@@ -26748,7 +27040,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         How to Out a Rat
+seasonNumber:  1
+episodeNumber: 22
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/how-to-out-a-rat'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   Time for some pest control!
+itemId:        3708230
+collectionId:  1157742
+upNextIds:
+- 3708243
+- 3708254
+- 3704856
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:44:49.349Z
 
 ---
 
@@ -27662,7 +27969,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         I'm Too Old for This Sh*t
+seasonNumber:  1
+episodeNumber: 10
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/i-m-too-old-for-this-sh-t'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell makes sure an agent retires, not expires.
+
+  Content Warning:
+  Simulated Comedy Violence (Stabbing, fake blood, choking, gun violence) - [throughout]
+itemId:        3704862
+collectionId:  1157742
+upNextIds:
+- 3704863
+- 3704848
+- 3704847
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:45:01.632Z
 
 ---
 
@@ -28572,7 +28898,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Illegal Street Racing
+seasonNumber:  1
+episodeNumber: 9
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/illegal-street-racing'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   It's quarter mile justice!
+itemId:        3704857
+collectionId:  1157742
+upNextIds:
+- 3704862
+- 3704863
+- 3704848
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:45:13.934Z
 
 ---
 
@@ -29146,7 +29487,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Internal Affairs
+seasonNumber:  1
+episodeNumber: 32
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/internal-affairs'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Something's rotten in the SCIA.
+
+  Content Warning:
+  Simulated Comedy Violence (Gunshots, physical assault) - [throughout]
+itemId:        3708282
+collectionId:  1157742
+upNextIds:
+- 3708287
+- 3708295
+- 3708297
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:45:26.269Z
 
 ---
 
@@ -29923,7 +30283,21 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Jack Goes to Hell
+seasonNumber:  1
+episodeNumber: 47
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/jack-goes-to-hell'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   God (Horatio Sanz) sends Jack to Hell to whip Satan (Chris Parnell) into shape.
+itemId:        3708343
+collectionId:  1157742
+upNextIds:
+- 3708351
+- 3708352
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:45:38.546Z
 
 ---
 
@@ -29932,7 +30306,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Jack Gone Rogue
+seasonNumber:  1
+episodeNumber: 43
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/jack-gone-rogue'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  There comes a time in every agent's life when he has to go rogue.
+
+  Content Warning:
+  Simulated Comedy Violence (Physical assault) - [throughout]
+  Misophonia (Bones cracking) - [1:45 - 1:48]
+itemId:        3708331
+collectionId:  1157742
+upNextIds:
+- 3708333
+- 3708336
+- 3708340
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:45:50.834Z
 
 ---
 
@@ -29941,7 +30335,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Jack in the Computer
+seasonNumber:  1
+episodeNumber: 26
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/jack-in-the-computer'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  A hacker threatens to bring down the SCIA, so Jack Maxwell has to go in deep.
+
+  Content Warning:
+  Simulated Comedy Violence - [Throughout]
+itemId:        3708258
+collectionId:  1157742
+upNextIds:
+- 3708261
+- 3708268
+- 3708270
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:46:03.167Z
 
 ---
 
@@ -29950,7 +30363,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Jack on Trial
+seasonNumber:  1
+episodeNumber: 33
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/jack-on-trial'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  The Super CIA Superior Court (led by Tom Sizemore) puts Jack Maxwell on trial.
+
+  Content Warning:
+  Simulated Comedy Violence (Physical assault, choking, fake blood) - [throughout]
+itemId:        3708287
+collectionId:  1157742
+upNextIds:
+- 3708295
+- 3708297
+- 3708300
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:46:15.469Z
 
 ---
 
@@ -29970,7 +30402,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Jack vs. The Asteroid
+seasonNumber:  1
+episodeNumber: 46
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/jack-vs-the-asteroid'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   Jack must stop an asteroid even if it kills him.
+itemId:        3708340
+collectionId:  1157742
+upNextIds:
+- 3708343
+- 3708351
+- 3708352
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:46:27.769Z
 
 ---
 
@@ -30806,7 +31253,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         K-9 Witness
+seasonNumber:  1
+episodeNumber: 12
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/k-9-witness'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  When a dog witnesses a murder, Jack Maxwell is put on protection detail.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence, fake blood) - [throughout]
+itemId:        3704848
+collectionId:  1157742
+upNextIds:
+- 3704847
+- 3704850
+- 3704854
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:46:40.055Z
 
 ---
 
@@ -33453,7 +33919,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         License to Kill Renewal
+seasonNumber:  1
+episodeNumber: 14
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/license-to-kill-renewal'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell must renew his license to kill before it's too late.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence) - [throughout]
+itemId:        3704850
+collectionId:  1157742
+upNextIds:
+- 3704854
+- 3704860
+- 3704852
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:46:52.370Z
 
 ---
 
@@ -33940,7 +34425,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Lost in Gangland
+seasonNumber:  1
+episodeNumber: 24
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/lost-in-gangland'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack, Taylor, and the Commander battle gangs and hunger on their way to the Super CIA awards banquet.
+
+  Content Warning:
+  Simulated Comedy Violence (Physical assault, guns)- [throughout]
+itemId:        3708254
+collectionId:  1157742
+upNextIds:
+- 3704856
+- 3708258
+- 3708261
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:47:04.654Z
 
 ---
 
@@ -35827,7 +36331,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Miss Most Beautiful
+seasonNumber:  1
+episodeNumber: 15
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/miss-most-beautiful'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Hearts will explode.
+
+  Content Warning:
+  Simulated Comedy Violence - [throughout]
+itemId:        3704854
+collectionId:  1157742
+upNextIds:
+- 3704860
+- 3704852
+- 3704846
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:47:16.945Z
 
 ---
 
@@ -36339,7 +36862,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Mr. Bombastic
+seasonNumber:  1
+episodeNumber: 13
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/mr-bombastic'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Diffusing bombs can be taxing.
+
+  Content Warning:
+  Simulated Comedy Violence (Self-inflicted wounds, fake blood) - [throughout]
+itemId:        3704847
+collectionId:  1157742
+upNextIds:
+- 3704850
+- 3704854
+- 3704860
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:47:29.251Z
 
 ---
 
@@ -38345,7 +38887,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Office Outbreak
+seasonNumber:  1
+episodeNumber: 17
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/office-outbreak'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell must stop a deadly disease before it wipes out humanity.
+
+  Content Warning: 
+  Emetophobia (Visuals of vomiting, retching) - [Throughout]
+  Themes of Pandemic  - [Throughout]
+itemId:        3704852
+collectionId:  1157742
+upNextIds:
+- 3704846
+- 3704864
+- 3708229
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:47:41.570Z
 
 ---
 
@@ -38808,7 +39370,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         One Shot
+seasonNumber:  1
+episodeNumber: 19
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/one-shot'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Josh Mullen tries to shoot an entire episode in one take.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence, threats of violence against pregnant woman, choking) - [throughout]
+itemId:        3704864
+collectionId:  1157742
+upNextIds:
+- 3708229
+- 3708239
+- 3708230
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:47:53.903Z
 
 ---
 
@@ -38951,7 +39532,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Operation Birthday Cake
+seasonNumber:  1
+episodeNumber: 1
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/operation-birthday-cake'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Deep in the jungle, Jack Maxwell has to get rations (an office birthday cake) to a starving population.
+
+  Content Warning:
+  Simulated Comedy Violence - [throughout]
+itemId:        3704859
+collectionId:  1157742
+upNextIds:
+- 3704849
+- 3704851
+- 3704861
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:48:06.295Z
 
 ---
 
@@ -39892,7 +40492,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Party Bus One
+seasonNumber:  1
+episodeNumber: 20
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/party-bus-one'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Protect the President at all costs.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence) - [throughout]
+itemId:        3708229
+collectionId:  1157742
+upNextIds:
+- 3708239
+- 3708230
+- 3708243
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:48:18.578Z
 
 ---
 
@@ -40164,7 +40783,22 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Perfect Partners... Until Death
+seasonNumber:  1
+episodeNumber: 3
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/perfect-partners-until-death'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   Jack Maxwell and Hank Lasso are surprised to discover they make perfect partners.
+itemId:        3704851
+collectionId:  1157742
+upNextIds:
+- 3704861
+- 3704858
+- 3708267
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:48:30.886Z
 
 ---
 
@@ -42198,7 +42832,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Raging Jack
+seasonNumber:  1
+episodeNumber: 30
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/raging-jack'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack Maxwell has to go the distance.
+
+  Content Warning:
+  Simulated Comedy Violence (Gunshots, physical assault) - [throughout]
+itemId:        3708278
+collectionId:  1157742
+upNextIds:
+- 3708309
+- 3708282
+- 3708287
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:48:43.179Z
 
 ---
 
@@ -42817,7 +43470,18 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Remembering Fatal Decision
+seasonNumber:  1
+episodeNumber: 49
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/remembering-fatal-decision'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   The making of a masterpiece!
+itemId:        3708352
+collectionId:  1157742
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:48:55.443Z
 
 ---
 
@@ -43455,7 +44119,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Robot Training Day
+seasonNumber:  1
+episodeNumber: 31
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/robot-training-day'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack trains a new police robot.
+
+  Content Warning:
+  Simulated Comedy Violence (Assault with weapons, fake blood, dismemberment) - [throughout]
+  Emetophobia (Regurgitation) - [3:25-3:27]
+itemId:        3708309
+collectionId:  1157742
+upNextIds:
+- 3708282
+- 3708287
+- 3708295
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:49:07.733Z
 
 ---
 
@@ -44761,7 +45445,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Scientifically Accurate Episode
+seasonNumber:  1
+episodeNumber: 39
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/scientifically-accurate-episode'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack gets all mixed up in a teleportation machine.
+
+  Content Warning:
+  Simulated Comedy Violence (Assault with weapons, fake blood, dismemberment) - [throughout]
+itemId:        3708306
+collectionId:  1157742
+upNextIds:
+- 3708312
+- 3708315
+- 3708369
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:49:20.044Z
 
 ---
 
@@ -47246,7 +47949,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Space Gladiator
+seasonNumber:  1
+episodeNumber: 36
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/space-gladiator'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  An evil Space Emperor (Geoffrey Arend) summons Jack Maxwell to a space tournament.                                              
+
+  Content Warning:
+  Simulated Comedy Violence (Assault with weapons, gun violence, fake blood) - [throughout]
+  Necrophilia (Joke about committing) - [2:41:2:44]
+itemId:        3708300
+collectionId:  1157742
+upNextIds:
+- 3708303
+- 3708305
+- 3708306
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:49:32.347Z
 
 ---
 
@@ -48921,7 +49644,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Substitute Jack
+seasonNumber:  1
+episodeNumber: 21
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/substitute-jack'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Those who can't teach, kill.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence, fake blood) - [throughout]
+itemId:        3708239
+collectionId:  1157742
+upNextIds:
+- 3708230
+- 3708243
+- 3708254
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:49:44.647Z
 
 ---
 
@@ -49055,7 +49797,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Suicide Vest
+seasonNumber:  1
+episodeNumber: 18
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/suicide-vest'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack better not bomb on stage.
+
+  Content Warning: 
+  Themes of Suicide Bombing - [Throughout]
+itemId:        3704846
+collectionId:  1157742
+upNextIds:
+- 3704864
+- 3708229
+- 3708239
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:49:56.968Z
 
 ---
 
@@ -49697,7 +50458,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Taylor Unlocked
+seasonNumber:  1
+episodeNumber: 37
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/taylor-unlocked'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack has to stop a brainwashed Taylor from killing his favorite party rapper, Sizzle Brookstone.
+
+  Content Warning:
+  Simulated Comedy Violence (Physical assault, choking) - [throughout]
+itemId:        3708303
+collectionId:  1157742
+upNextIds:
+- 3708305
+- 3708306
+- 3708312
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:50:09.265Z
 
 ---
 
@@ -52784,7 +53564,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         The Great Jack Hunt
+seasonNumber:  1
+episodeNumber: 28
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/the-great-jack-hunt'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  A mysterious Baron (Eric Roberts) hunts the world's deadliest animal: Jack Maxwell.
+
+  Content Warning:
+  Simulated Comedy Violence (Choking, assault with weapons - [throughout]
+  Misophonia (Slurping and gulping) - [0:20-0:49]
+itemId:        3708268
+collectionId:  1157742
+upNextIds:
+- 3708270
+- 3708278
+- 3708309
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:50:21.550Z
 
 ---
 
@@ -61985,7 +62785,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Undercover Family
+seasonNumber:  1
+episodeNumber: 35
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/undercover-family'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Jack and Taylor go undercover as a husband and wife to catch a pair of drug dealers.
+
+  Content Warning:
+  Simulated Comedy Violence (Fake gun violence) - [throughout]
+itemId:        3708297
+collectionId:  1157742
+upNextIds:
+- 3708300
+- 3708303
+- 3708305
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:50:33.864Z
 
 ---
 
@@ -62247,7 +63066,24 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Vengeance Reborn
+seasonNumber:  1
+episodeNumber: 48
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/vengeance-reborn'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  It's the fatal finale.
+
+  Content Warning: 
+  Simulated Comedy Violence (Gun violence, physical assault, fake blood) - [throughout]
+itemId:        3708351
+collectionId:  1157742
+upNextIds:
+- 3708352
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:50:46.147Z
 
 ---
 
@@ -62280,7 +63116,26 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Vent Horizon
+seasonNumber:  1
+episodeNumber: 16
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/vent-horizon'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Stopping the terrorists puts Jack in a tight spot
+
+  Content Warning:
+  Simulated Comedy Violence - [throughout]
+itemId:        3704860
+collectionId:  1157742
+upNextIds:
+- 3704852
+- 3704846
+- 3704864
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:50:58.448Z
 
 ---
 
@@ -62480,7 +63335,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Villain's Roost
+seasonNumber:  1
+episodeNumber: 42
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/villain-s-roost'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Remember Jack's dead sister? So does Jack and now he's on her killer's trail.
+
+  Content Warning:
+  Simulated Comedy Violence (Physical assault, shooting, fake blood) - [throughout]
+  Misophonia (Squelching) - [0:46-0:48]
+itemId:        3708369
+collectionId:  1157742
+upNextIds:
+- 3708331
+- 3708333
+- 3708336
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:51:10.722Z
 
 ---
 
@@ -62827,7 +63702,27 @@ collection:    fatal-decision-season-1
 collections:
 - fatal-decision-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         War Stories
+seasonNumber:  1
+episodeNumber: 25
+releaseDate:   2025-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/fatal-decision/season:1/videos/war-stories'
+showTitle:     Fatal Decision
+showSlug:      fatal-decision
+description:   |-
+  Veterans reminisce about the greatest soldier in the history of history: Jack Maxwell.
+
+  Content Warning:
+  Simulated Comedy Violence (Gun violence, physical assault, fake gore) - [throughout]
+  Misophonia (Squelching, bones crunching) - [2:21-2:29]
+itemId:        3704856
+collectionId:  1157742
+upNextIds:
+- 3708258
+- 3708261
+- 3708268
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T16:51:23.041Z
 
 ---
 

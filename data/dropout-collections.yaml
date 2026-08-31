@@ -215,32 +215,241 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-a-court-of-fey-flowers
+title:       'Dimension 20: A Court of Fey & Flowers'
+description: GM Aabria Iyengar and her pack of pixies prepare for the most magical event of the season.
+seasons:
+- 1
+episodes:
+- a-bloom-to-remember
+- the-great-hart-hunt
+- duel-on-the-southern-lawn
+- seaside-teatime
+- through-the-hedge-maze
+- of-one-mind
+- the-masquerade-ball
+- the-rule-of-sneakery
+- theater-of-war
+- you-will-never-know-a-lonely-day-again
+itemIds:
+- 2275194
+- 2286849
+- 2290747
+- 2298017
+- 2294942
+- 2321616
+- 2325563
+- 2339146
+- 2350844
+- 2351101
 size:        10
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:02:51.175Z
 
 ---
 
 slug:        dimension-20-a-crown-of-candy
+title:       'Dimension 20: A Crown Of Candy'
+description: Welcome to the realm of Calorum - a realm made of six food-themed lands. But this tale of sorrow and sweetness is that of the candy kingdom of Candia...
+seasons:
+- 1
+episodes:
+- there-is-strength-in-sweetness
+- ambush-on-the-sucrosi-road
+- keep-sharp
+- the-grand-tournament
+- lapin-s-big-day
+- chaos-in-the-cathedral
+- escape-from-the-bulb-creeps
+- deep-bleu-sea
+- safe-harbor
+- blood-bread
+- at-the-mountains-of-sweetness
+- rescue-at-buzzybrook
+- family-ties
+- encounter-in-the-ice-cream-temple
+- the-two-balls
+- for-candia-part-1
+- for-candia-part-2
+- behind-the-scenes-of-dimension-20-a-crown-of-candy
+itemIds:
+- 754146
+- 755203
+- 832846
+- 789688
+- 795287
+- 860416
+- 877002
+- 878428
+- 889206
+- 893268
+- 894146
+- 924475
+- 943816
+- 926291
+- 930734
+- 936445
+- 936702
+- 1013093
 size:        18
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:01:37.106Z
 
 ---
 
 slug:        dimension-20-a-starstruck-odyssey
+title:       'Dimension 20: A Starstruck Odyssey'
+description: 'It''s a tough galaxy out there, but somebody''s gotta live in it...it might as well be you.'
+seasons:
+- 1
+episodes:
+- welcome-to-the-spacin-life-buddy
+- rolling-up-the-hill
+- wrecked-on-rec-97
+- every-day-is-our-wurst-day
+- all-in-the-hot-exit
+- on-the-run-in-the-martini-nebula
+- dying-tomorrow-it-s-a-pleasure
+- wallops-at-swallop-s
+- baustin-skiffy-limits
+- it-s-a-griivarr-world-after-all
+- flee-from-fantanimalland
+- go-big-or-go-home
+- battle-of-the-brands
+- the-house-always-wins
+- face-to-face
+- jailbreak
+- the-luckless-the-abandoned-and-the-forsaked-part-1
+- the-luckless-the-abandoned-and-the-forsaked-part-2
+- starstruck-origins-with-elaine-lee-part-1
+- starstruck-origins-with-elaine-lee-part-2
+- starstruck-post-season-talkback-with-elaine-lee
+- a-starstruck-odyssey-behind-the-scenes
+itemIds:
+- 1954464
+- 1966346
+- 1977097
+- 1985978
+- 1997765
+- 2005352
+- 2004800
+- 2032921
+- 2047776
+- 2049373
+- 2049575
+- 2059821
+- 2072166
+- 2082340
+- 2089674
+- 2096306
+- 2126832
+- 2137790
+- 1941670
+- 1949924
+- 2145743
+- 2156698
 size:        22
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T04:59:45.463Z
 
 ---
 
 slug:        dimension-20-animated
+title:       Dimension 20 Animated
+description: Animators bring to life some of your favorite Dimension 20 moments.
+seasons:
+- 1
+episodes:
+- rick-diggins-is-at-your-service
+- do-i-have-a-fellow-student-of-the-stars-here-as-well
+- cody-sells-his-soul
+- the-price-must-be-paid
+- where-s-your-bulb-now
+- meet-bob
+- a-drink-at-the-questing-beast
+- casting-silence
+- the-magic-of-plug
+- liam-tries-to-flirt
+- gunnie-buys-a-maple-cake
+- evan-kelmp-blasts-a-kid-into-the-underworld
+- the-lords-of-the-wing-spill-their-secrets
+- cinderella-s-mice-are-traumatized
+- riz-and-baron
+- barry-syx-confronts-barry-nyne
+- handy-andi-ceo-crashes-out
+- proldier-s-license
+- operation-slippery-puppet
+itemIds:
+- 1653887
+- 1737701
+- 1795709
+- 1839489
+- 1899551
+- 1956505
+- 1997205
+- 2077039
+- 2168016
+- 2148858
+- 2267914
+- 2331994
+- 2485850
+- 2931289
+- 3058647
+- 3881441
+- 3896880
+- 3903233
+- 3906717
 size:        19
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:01:12.298Z
 
 ---
 
 slug:        dimension-20-animated-episodes
+title:       Dimension 20 Animated
+description: Animators bring to life some of your favorite Dimension 20 moments.
+episodes:
+- operation-slippery-puppet
+- proldier-s-license
+- handy-andi-ceo-crashes-out
+- barry-syx-confronts-barry-nyne
+- riz-and-baron
+- cinderella-s-mice-are-traumatized
+- the-lords-of-the-wing-spill-their-secrets
+- evan-kelmp-blasts-a-kid-into-the-underworld
+- gunnie-buys-a-maple-cake
+- the-magic-of-plug
+- liam-tries-to-flirt
+- casting-silence
+- a-drink-at-the-questing-beast
+- meet-bob
+- where-s-your-bulb-now
+- the-price-must-be-paid
+- cody-sells-his-soul
+- do-i-have-a-fellow-student-of-the-stars-here-as-well
+- rick-diggins-is-at-your-service
+itemIds:
+- 3906717
+- 3903233
+- 3896880
+- 3881441
+- 3058647
+- 2931289
+- 2485850
+- 2331994
+- 2267914
+- 2168016
+- 2148858
+- 2077039
+- 1997205
+- 1956505
+- 1899551
+- 1839489
+- 1795709
+- 1737701
+- 1653887
 size:        19
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:01:24.710Z
 
 ---
 
@@ -324,32 +533,243 @@ scrapedAt:   2026-08-31T04:57:16.394Z
 ---
 
 slug:        dimension-20-burrow-s-end
+title:       'Dimension 20: Burrow''s End'
+description: 'A family of stoats must sacrifice everything to survive in a harsh, cruel world.'
+seasons:
+- 1
+episodes:
+- the-red-warren
+- bearing-the-scars
+- a-second-sun
+- last-bast
+- protect-the-light
+- reactor-charlie
+- the-first-stoats
+- five
+- human
+- evolution-and-revolution
+itemIds:
+- 2920064
+- 2920786
+- 2930807
+- 2940612
+- 2947656
+- 2953926
+- 2959824
+- 2969981
+- 2992852
+- 3000749
 size:        10
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:03:03.495Z
 
 ---
 
 slug:        dimension-20-burrow-s-end-the-complete-experience
+title:       'Dimension 20: Burrow''s End (The Complete Experience)'
+description: Every episode of Burrow's End and Adventuring Party - in order!
+episodes:
+- the-red-warren
+- stoatal-recall
+- bearing-the-scars
+- does-a-bear-get-eaten-out-in-the-woods
+- a-second-sun
+- i-m-here-and-i-m-jaysohn
+- last-bast
+- the-bast-of-us
+- protect-the-light
+- big-emotions-are-so-fun
+- reactor-charlie
+- the-burrito-was-achieved
+- the-first-stoats
+- if-i-had-a-nickel
+- five
+- everything-every-stoat-all-at-once
+- human
+- hey-girl-hey
+- evolution-and-revolution
+- welcome-to-the-honk-honk-club
+itemIds:
+- 2920064
+- 2911343
+- 2920786
+- 2923296
+- 2930807
+- 2932231
+- 2940612
+- 2940870
+- 2947656
+- 2949192
+- 2953926
+- 2956382
+- 2959824
+- 2963825
+- 2969981
+- 2971623
+- 2992852
+- 2984147
+- 3000749
+- 2994423
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:00:10.285Z
 
 ---
 
 slug:        dimension-20-city-council-of-darkness
+title:       'Dimension 20: City Council of Darkness'
+description: 'A coterie of misfit vampires establish dominion over a small, quaint town.'
+seasons:
+- 1
+episodes:
+- mishaps-a-maw-and-the-masquerade
+- blood-business-and-beth-s-husband
+- life-begins-at-night
+- the-silo-a-specter-and-the-student-body
+- origins-and-adversaries
+- the-sunday-scoop-and-spiteful-spirits
+- a-co-op-and-a-caretaker
+- a-fraternal-order-and-an-author-of-horror
+- a-bid-a-banksy-and-the-bird-in-the-basement
+- zaeth-s-sire-and-a-bear-on-fire
+- a-coterie-cracked
+- the-prince-and-the-primogen
+- a-symposium-and-a-song
+- an-undead-denouement
+- dimension-20-city-council-of-darkness-game-mechanics-explainer
+itemIds:
+- 3995108
+- 4000151
+- 4004096
+- 4006748
+- 4006832
+- 4038033
+- 4045832
+- 4052260
+- 4057020
+- 4063817
+- 4071604
+- 4079253
+- 4086045
+- 4093779
+- 3993188
 size:        15
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:02:01.885Z
 
 ---
 
 slug:        dimension-20-city-council-of-darkness-the-complete-experience
+title:       'Dimension 20: City Council of Darkness (The Complete Experience)'
+description: Every episode of City Council of Darkness and Adventuring Party - in order!
+episodes:
+- mishaps-a-maw-and-the-masquerade
+- it-s-a-banksy
+- blood-business-and-beth-s-husband
+- two-hours-in-the-tesla-diner
+- life-begins-at-night
+- at-the-strip-club-with-your-dentist
+- the-silo-a-specter-and-the-student-body
+- in-my-feels-about-the-cold-war
+- origins-and-adversaries
+- give-it-up-for-mcbean
+- the-sunday-scoop-and-spiteful-spirits
+- zaeth-is-a-guided-missle
+- a-co-op-and-a-caretaker
+- the-polycule-voting-block
+- a-fraternal-order-and-an-author-of-horror
+- silent-disco-at-the-elks-lodge
+- a-bid-a-banksy-and-the-bird-in-the-basement
+- murph-s-most-sensual-episode
+- zaeth-s-sire-and-a-bear-on-fire
+- full-duckface-on-a-bird-scooter
+- a-coterie-cracked
+- he-meant-elves
+- the-prince-and-the-primogen
+- don-t-you-mean-morissette
+itemIds:
+- 3995108
+- 3998352
+- 4000151
+- 4003215
+- 4004096
+- 4004278
+- 4006748
+- 4006053
+- 4006832
+- 4006060
+- 4038033
+- 4039963
+- 4045832
+- 4049213
+- 4052260
+- 4053153
+- 4057020
+- 4059229
+- 4063817
+- 4066594
+- 4071604
+- 4073618
+- 4079253
+- 4080362
 size:        28
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T04:58:55.960Z
 
 ---
 
 slug:        dimension-20-cloudward-ho
+title:       'Dimension 20: Cloudward, Ho!'
+description: 'In a world of machine wonder, six explorers set out to search for new lands and wild adventure.'
+seasons:
+- 1
+episodes:
+- on-high-we-go
+- the-path-out-of-gath
+- secrets-at-the-south-pole-station
+- beyond-the-biangle
+- a-tussle-in-tabira-city
+- raptors-at-ramansu
+- melee-among-the-magnamensa
+- mysteries-and-the-metal-man
+- a-clockwork-crew-rendezvous
+- skirmish-above-the-swirling-sea
+- enigmas-at-the-ectic-station
+- an-odious-occurrence-in-oda
+- eyeless-crisis-at-katur
+- mounting-mysteries-at-mount-charuk
+- run-in-with-the-ruinous-queen
+- a-fraught-forge-in-zern
+- revelations-in-the-ruins
+- a-curious-conclave-in-zumhara
+- the-straka-strikes
+- outward-past-beyond
+- dimension-20-cloudward-ho-mid-season-recap
+itemIds:
+- 3652273
+- 3662008
+- 3669371
+- 3678549
+- 3685267
+- 3691456
+- 3703329
+- 3710896
+- 3720493
+- 3734746
+- 3751842
+- 3752901
+- 3752908
+- 3774540
+- 3782826
+- 3799341
+- 3812142
+- 3819436
+- 3826838
+- 3834563
+- 3743422
 size:        21
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T04:59:57.887Z
 
 ---
 
@@ -413,26 +833,131 @@ scrapedAt:   2026-08-31T04:58:06.158Z
 ---
 
 slug:        dimension-20-coffin-run
+title:       'Dimension 20: Coffin Run'
+description: 'GM Jasmine Bhullar weaves a tale as old as many lifetimes, in the gloomy land of Transylvania.'
+seasons:
+- 1
+episodes:
+- down-for-the-count
+- attacks-on-the-tracks
+- let-s-kill-everybody
+- waylaid-by-werewolves
+- drac-s-moved-in-castle
+- feed-the-beast
+itemIds:
+- 2184748
+- 2193115
+- 2204385
+- 2217812
+- 2233567
+- 2248958
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:04:29.738Z
 
 ---
 
 slug:        dimension-20-dungeons-and-drag-queens
+title:       'Dimension 20: Dungeons and Drag Queens'
+description: Four drag queen adventurers death drop into the underworld.
+seasons:
+- 1
+- 2
+episodes:
+- queens-on-a-quest
+- welcome-to-the-underworld
+- the-time-has-come
+- in-the-heart-of-death
+itemIds:
+- 2775655
+- 2785268
+- 3172464
+- 2807063
 size:        10
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:03:15.786Z
 
 ---
 
 slug:        dimension-20-dungeons-and-drag-queens-the-complete-experience
+title:       'Dimension 20: Dungeons and Drag Queens (The Complete Experience)'
+description: Every episode of Dungeons and Drag Queens and Adventuring Party - in order!
+episodes:
+- queens-on-a-quest
+- the-illuminati-invented-sandwiches
+- welcome-to-the-underworld
+- the-bloods-and-the-crypts
+- the-time-has-come
+- the-dice-tell-the-story
+- in-the-heart-of-death
+- the-gaming-super-bowl
+- princess-and-the-paramours
+- she-is-the-tower-of-babel
+- through-the-venomlands
+- fae-by-fae-by-fae-by-oh
+- ice-ice-fae-by
+- she-s-a-brick-orc
+- shady-by-the-sea
+- monet-will-say-anything
+- the-queens-take-matali
+- twyla-s-twine-time
+- the-battle-for-darktide
+- just-in-the-nick-of-twine
+itemIds:
+- 2775655
+- 2774596
+- 2785268
+- 2788684
+- 3172464
+- 2791959
+- 2807063
+- 2809542
+- 3468728
+- 3468696
+- 3484633
+- 3484502
+- 3490115
+- 3491009
+- 3498586
+- 3498734
+- 3506092
+- 3507112
+- 3513766
+- 3514923
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:00:22.669Z
 
 ---
 
 slug:        dimension-20-escape-from-the-bloodkeep
+title:       'Dimension 20: Escape From the Bloodkeep'
+description: 'Game Master Brennan Lee Mulligan returns to Dimension 20 for an evil side quest, and this time, the villains are the heroes. Featuring an all-new cast full of familiar faces, Escape From The Bloodkeep proves that being bad can be very, very good.'
+seasons:
+- 1
+episodes:
+- welcome-to-the-dark-side
+- volcano-of-violence
+- the-caged-elf-and-the-crown
+- airship-ambush
+- bloodlines-and-lifelines
+- the-tomb-of-ultimate-evil
+- escape-from-the-bloodkeep-behind-the-scenes
+- reunion-with-the-cast-of-escape-from-the-bloodkeep
+- reunion-with-the-cast-of-escape-from-the-bloodkeep-pt-2
+itemIds:
+- 497564
+- 499393
+- 503786
+- 507089
+- 510571
+- 514667
+- 517277
+- 518360
+- 538040
 size:        9
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:03:52.783Z
 
 ---
 
@@ -622,6 +1147,7 @@ scrapedAt:   2026-08-31T04:58:31.069Z
 slug:        dimension-20-fantasy-high-sophomore-year
 size:        24
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T04:59:20.746Z
 
 ---
 
@@ -632,20 +1158,87 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-gladlands
+title:       'Dimension 20: Gladlands'
+description: 'Welcome to the Gladlands— The world might have ended, but manners didn''t!'
+seasons:
+- 1
+episodes:
+- welcome-to-the-wastes
+- fake-it-till-you-fake-it
+- collabotage
+- poppy-persona-non-grata
+- a-hugi-minute
+- good-vibrations
+itemIds:
+- 3906671
+- 3920003
+- 3925680
+- 3932142
+- 3937399
+- 3943257
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:04:42.086Z
 
 ---
 
 slug:        dimension-20-gladlands-the-complete-experience
+title:       'Dimension 20: Gladlands (The Complete Experience)'
+description: Every episode of Gladlands and Adventuring Party - in order!
+episodes:
+- welcome-to-the-wastes
+- a-bouquet-of-teeth
+- fake-it-till-you-fake-it
+- i-will-try-to-fix-you
+- collabotage
+- right-past-titty-town
+- poppy-persona-non-grata
+- table-pizza
+- a-hugi-minute
+- the-ate-of-swords
+- good-vibrations
+- spinch-party-kill
+itemIds:
+- 3906671
+- 3906711
+- 3920003
+- 3920934
+- 3925680
+- 3926631
+- 3932142
+- 3932852
+- 3937399
+- 3937788
+- 3943257
+- 3943681
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:02:14.211Z
 
 ---
 
 slug:        dimension-20-leviathan
+title:       'Dimension 20: Leviathan'
+description: It's a pirate's life for everyone in this RPG sidequest! Follow along as a group of buccaneer buddies cause all kinds of mayhem in the name of saving the floating city of Leviathan!
+seasons:
+- 1
+episodes:
+- a-heaping-helping-of-trouble
+- the-daughter-of-storms
+- into-the-sternwood
+- i-m-worth-this
+- scramble-to-the-ramble
+- the-horizon-beyond-the-squall
+itemIds:
+- 1077714
+- 1088283
+- 1091465
+- 1110379
+- 1110373
+- 1131414
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:04:54.376Z
 
 ---
 
@@ -656,8 +1249,29 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-live-complete-collection
+title:       Dimension 20 Live
+description: Brennan Lee Mulligan and the Intrepid Heroes play dungeons and dragons in front of a live audience.
+seasons:
+- 1
+- 2
+- 3
+episodes:
+- quangle-in-queal-quife
+- betrayed-by-live-theatre
+- a-candied-coup
+- the-enwoodening
+- the-wrong-kids
+- a-new-york-quangle
+itemIds:
+- 3349982
+- 3356509
+- 3452449
+- 3459849
+- 3465949
+- 3466199
 size:        11
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:02:38.832Z
 
 ---
 
@@ -674,8 +1288,27 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-live-time-quangle
+title:       'Dimension 20 Live: Time Quangle'
+description: The Intrepid Heroes traverse through the Dimension 20 multiverse and get into some shenanigans.
+seasons:
+- 1
+episodes:
+- quangle-in-queal-quife
+- betrayed-by-live-theatre
+- a-candied-coup
+- the-enwoodening
+- the-wrong-kids
+- a-new-york-quangle
+itemIds:
+- 3349982
+- 3356509
+- 3452449
+- 3459849
+- 3465949
+- 3466199
 size:        6
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:05:06.712Z
 
 ---
 
@@ -692,14 +1325,60 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-mentopolis-the-complete-experience
+title:       'Dimension 20: Mentopolis (The Complete Experience)'
+description: Every episode of Mentopolis and Adventuring Party - in order!
+episodes:
+- the-big-guy
+- key-lime-pie-is-a-marketing-invention
+- the-scattered-mind
+- in-space-no-one-can-hear-you-cream
+- f-for-freezer
+- we-are-feeling-machines-that-think
+- grappling-with-death
+- a-random-sequence-of-events
+- emergency-powers
+- you-must-know-what-you-don-t-know
+- case-closed
+- bit-city-usa
+itemIds:
+- 2839275
+- 2829516
+- 2846558
+- 2849627
+- 2851429
+- 2851736
+- 2853970
+- 2853894
+- 2880746
+- 2882575
+- 2885547
+- 2888249
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:02:26.550Z
 
 ---
 
 slug:        dimension-20-misfits-and-magic
+title:       'Dimension 20: Misfits and Magic'
+description: GM Aabria Iyengar brings you the tale of four American high schoolers swept into a world of wizards.
+seasons:
+- 1
+- 2
+- 3
+episodes:
+- the-chosen-ones
+- class-conflict
+- family-on-six
+- we-re-the-heroes
+itemIds:
+- 1609042
+- 1623028
+- 1637153
+- 1647198
 size:        24
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T04:59:33.037Z
 
 ---
 
@@ -710,20 +1389,139 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-never-stop-blowing-up
+title:       'Dimension 20: Never Stop Blowing Up'
+description: Six nobodies are about to step into the spotlight and reload all the action.
+seasons:
+- 1
+episodes:
+- be-kind-rewind
+- and-that-s-whirred-up
+- the-deluxe-royale
+- under-the-night-sun
+- double-death-doggy-style
+- meet-the-santangelos
+- dang-dang-revolution
+- the-wings-that-flap-in-the-night
+- without-our-siblings
+- superbomb
+itemIds:
+- 3264804
+- 3273992
+- 3281214
+- 3288909
+- 3296621
+- 3304713
+- 3311846
+- 3318754
+- 3326263
+- 3326315
 size:        10
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:03:28.113Z
 
 ---
 
 slug:        dimension-20-never-stop-blowing-up-the-complete-experience
+title:       'Dimension 20: Never Stop Blowing Up (The Complete Experience)'
+description: Every episode of Never Stop Blowing Up and Adventuring Party - in order!
+episodes:
+- be-kind-rewind
+- yoshi-thicc
+- and-that-s-whirred-up
+- when-you-re-here-you-re-la-familia
+- the-deluxe-royale
+- boongo
+- under-the-night-sun
+- gender-cascade
+- double-death-doggy-style
+- ziggy-zany-yeah
+- meet-the-santangelos
+- the-penthouse-suite
+- dang-dang-revolution
+- bustin-makes-me-feel-good
+- the-wings-that-flap-in-the-night
+- truly-truly-so-so-fun
+- without-our-siblings
+- bean-appetit
+- superbomb
+- an-evil-guided-meditation
+itemIds:
+- 3264804
+- 3267162
+- 3273992
+- 3275187
+- 3281214
+- 3282696
+- 3288909
+- 3288426
+- 3296621
+- 3296634
+- 3304713
+- 3306529
+- 3311846
+- 3314070
+- 3318754
+- 3319621
+- 3326263
+- 3326276
+- 3326315
+- 3326327
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:00:35.114Z
 
 ---
 
 slug:        dimension-20-neverafter
+title:       'Dimension 20: Neverafter'
+description: 'In the world of the Neverafter, not all fairy tales have happy endings.'
+seasons:
+- 1
+episodes:
+- the-times-of-shadow
+- mirror-mirror
+- no-place-for-a-prince-or-princess
+- once-upon-a-time
+- down-came-the-rain
+- the-curdled-web
+- trouble-in-tuffeton
+- the-lines-between
+- origins
+- the-baron-of-bricks
+- big-and-bad
+- a-warm-heart-and-a-tombstone
+- terror-on-toy-island
+- daughters-of-the-crown
+- leap-of-faith
+- in-the-land-of-giants
+- the-last-wish
+- the-trials-of-baba-yaga
+- the-ending-of-all-things-part-1
+- the-ending-of-all-things-part-2
+itemIds:
+- 2460086
+- 2476860
+- 2485104
+- 2492466
+- 2502624
+- 2521248
+- 2535264
+- 2544986
+- 2555283
+- 2566590
+- 2573831
+- 2588771
+- 2602064
+- 2609742
+- 2622669
+- 2632030
+- 2644134
+- 2652820
+- 2663213
+- 2668957
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:00:47.519Z
 
 ---
 
@@ -787,8 +1585,52 @@ scrapedAt:   2026-08-31T04:58:18.588Z
 ---
 
 slug:        dimension-20-new-releases
+title:       New Releases
+episodes:
+- a-deep-investment-in-frivolity-with-mica-burton
+- dimension-20-toylight-trailer
+- a-duty-of-care-with-dr-emily-friedman
+- playtime-is-over
+- off-to-the-clown-races
+- an-undead-denouement
+- i-m-evil-baby-yeah
+- a-symposium-and-a-song
+- don-t-you-mean-morissette
+- the-prince-and-the-primogen
+- three-timer-s-club-with-aabria-iyengar
+- he-meant-elves
+- a-coterie-cracked
+- full-duckface-on-a-bird-scooter
+- zaeth-s-sire-and-a-bear-on-fire
+- murph-s-most-sensual-episode
+- a-bid-a-banksy-and-the-bird-in-the-basement
+- silent-disco-at-the-elks-lodge
+- a-fraternal-order-and-an-author-of-horror
+- swimming-in-the-pudding-with-kimia-behpoornia
+itemIds:
+- 4150267
+- 4142194
+- 4120246
+- 4100427
+- 4095542
+- 4093779
+- 4086911
+- 4086045
+- 4080362
+- 4079253
+- 4079056
+- 4073618
+- 4071604
+- 4066594
+- 4063817
+- 4059229
+- 4057020
+- 4053153
+- 4052260
+- 4049215
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:00:59.898Z
 
 ---
 
@@ -971,20 +1813,109 @@ scrapedAt:   2026-08-31T04:57:03.981Z
 ---
 
 slug:        dimension-20-the-ravening-war
+title:       'Dimension 20: The Ravening War'
+description: 'In an age before A Crown of Candy, the seeds of conflict began to take root - and soon, all of Calorum was enveloped in The Ravening War.'
+seasons:
+- 1
+episodes:
+- the-seeds-of-conflict
+- bloody-harvest
+- yonder-where-the-fruit-do-be-lyin
+- the-light-and-the-shadow
+- the-seventh-kingdom
+- the-heart-of-the-world
+- behind-the-scenes-how-it-began
+- behind-the-scenes-the-cast
+- behind-the-scenes-the-art-team
+itemIds:
+- 2708386
+- 2722480
+- 2732940
+- 2745047
+- 2752181
+- 2760874
+- 2683141
+- 2765915
+- 2766684
 size:        9
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:04:05.090Z
 
 ---
 
 slug:        dimension-20-the-ravening-war-the-complete-experience
+title:       'Dimension 20: The Ravening War (The Complete Experience)'
+description: Every episode of The Ravening War and Adventuring Party - in order!
+episodes:
+- the-seeds-of-conflict
+- that-s-war-baby
+- bloody-harvest
+- a-fun-dark-seed
+- yonder-where-the-fruit-do-be-lyin
+- on-the-glucian-road
+- the-light-and-the-shadow
+- the-mystic-river-episode
+- the-seventh-kingdom
+- deep-in-it
+- the-heart-of-the-world
+- let-s-make-mouth-sounds-together
+- a-little-more-throat-wattle
+- behind-the-scenes-how-it-began
+- behind-the-scenes-the-cast
+- behind-the-scenes-the-art-team
+itemIds:
+- 2708386
+- 2713680
+- 2722480
+- 2722665
+- 2732940
+- 2731743
+- 2745047
+- 2738254
+- 2752181
+- 2752647
+- 2760874
+- 2762708
+- 2771575
+- 2683141
+- 2765915
+- 2766684
 size:        16
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:01:49.500Z
 
 ---
 
 slug:        dimension-20-the-seven
+title:       'Dimension 20: The Seven'
+description: Seven student adventurers must face their greatest challenge yet - graduation.
+seasons:
+- 1
+episodes:
+- party-of-seven
+- in-or-out
+- big-city-connections
+- stone-temple-pile-up
+- reflections
+- belles-of-the-baronies
+- bloppelganger-blitz
+- and-another-thing
+- time-and-space
+- i-fucking-love-you
+itemIds:
+- 1695673
+- 1700978
+- 1737753
+- 1750952
+- 1761834
+- 1770365
+- 1782273
+- 1797208
+- 1807254
+- 1820262
 size:        10
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:03:40.466Z
 
 ---
 
@@ -1063,14 +1994,87 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dimension-20-titan-takedown-the-complete-experience
+title:       'Dimension 20: Titan Takedown (The Complete Experience)'
+description: Every episode of Titan Takedown and Adventuring Party - in order!
+episodes:
+- party-animals
+- cat-s-out-of-the-bag
+- bouts-and-boogies
+- a-dry-january-rube-goldberg-machine
+- a-bird-in-the-hand
+- a-cheeseburger-intimidation-check
+- hope-and-heroism
+- hotties-and-hot-hearts
+itemIds:
+- 3569692
+- 3579382
+- 3587923
+- 3588843
+- 3595325
+- 3601356
+- 3604084
+- 3605280
 size:        8
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:04:17.430Z
 
 ---
 
 slug:        dimension-20-trailers
+title:       Dimension 20 Trailers
+episodes:
+- dimension-20-fantasy-high-trailer
+- escape-from-the-bloodkeep-trailer
+- the-unsleeping-city-trailer
+- tiny-heist-trailer
+- dimension-20-a-crown-of-candy-trailer
+- dimension-20-pirates-of-leviathan-trailer
+- the-unsleeping-city-chapter-ii-trailer
+- dimension-20-mice-murder-trailer
+- dimension-20-misfits-and-magic-trailer
+- dimension-20-the-seven-trailer
+- dimension-20-shriek-week-trailer
+- dimension-20-a-starstruck-odyssey-trailer
+- dimension-20-coffin-run-trailer
+- dimension-20-a-court-of-fey-flowers-trailer
+- dimension-20-neverafter-trailer
+- dimension-20-the-ravening-war-trailer
+- dimension-20-dungeons-and-drag-queens-trailer
+- dimension-20-mentopolis-trailer
+- dimension-20-burrow-s-end-trailer
+- dimension-20-fantasy-high-junior-year-trailer
+- dimension-20-never-stop-blowing-up-trailer
+- dimension-20-misfits-and-magic-season-2-trailer
+- dimension-20-dungeons-and-drag-queens-season-2-trailer
+- dimension-20-titan-takedown-trailer
+itemIds:
+- 355691
+- 481737
+- 540340
+- 657351
+- 737004
+- 1003515
+- 1148127
+- 1415566
+- 1585493
+- 1675988
+- 1830226
+- 1925522
+- 2158398
+- 2250002
+- 2373574
+- 2681605
+- 2760333
+- 2812392
+- 2900077
+- 3014422
+- 3235105
+- 3327046
+- 3458205
+- 3529124
 size:        28
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T04:59:08.399Z
 
 ---
 

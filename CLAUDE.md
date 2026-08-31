@@ -220,6 +220,39 @@ videos:
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)
 
+## Auto-Generated Channel Playlists
+
+YouTube derives several playlists from a channel id by replacing its leading
+`UC`. The scan uses two: `UU` for uploads and `UUMO` for members-only. Probing
+every one- and two-letter suffix against the Dropout channel, 702 of them,
+turned up nine more, listed here so nobody has to probe again:
+
+| prefix | contents                  |
+| ------ | ------------------------- |
+| `UU`   | uploads (everything)      |
+| `UULF` | long-form videos          |
+| `UUSH` | shorts                    |
+| `UULV` | live streams              |
+| `UULP` | popular videos            |
+| `UUPS` | popular shorts            |
+| `UUPV` | popular live streams      |
+| `UUMO` | members-only              |
+| `UUMF` | members-only long-form    |
+| `UUMV` | members-only live streams |
+
+Most are subsets or rankings of `UU` and so add nothing to a scan that already
+reads it in full. `UUSH` is the exception worth remembering: the API exposes no
+shorts flag, so an exact shorts list otherwise has to be guessed at from
+duration.
+
+On the Dropout channel `UUMO` held exactly four more items than `UUMF`, which is
+the size of `UUMV`, so `UUMO` appears to be members long-form plus members live
+streams. `UU` is the one to scan regardless.
+
+**There is no collaborations playlist.** All 702 two-letter prefixes were tried;
+only the nine above exist. If one is ever found it uses some other scheme, and
+the API itself exposes no collaborator field on either a video or a channel.
+
 ## Dropout-Related Channels
 
 Main channels to scan for content:

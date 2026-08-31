@@ -61,6 +61,7 @@ import {
   parseCollectionPage,
   parseEpisodePage,
   parseSitemap,
+  stripCollectionSuffix,
 } from "./src/bin/dropout.ts";
 
 Deno.test("parseSitemap groups collections by slug and keeps lastmod", () => {
@@ -207,4 +208,25 @@ Deno.test("newArrivals ignores the bootstrap batch, flags later ones", () => {
   if (firstRun(records[0]) || firstRun(records[1])) {
     throw new Error("a uniform batch must yield no new arrivals");
   }
+});
+
+Deno.test("stripCollectionSuffix removes a trailing collection name", () => {
+  const names = new Set([
+    "Hank Green: Pissing Out Cancer",
+    "Dimension 20 Live: Quangle Quest",
+  ]);
+  const hank = stripCollectionSuffix(
+    "Get Your Act Together with Hank Green - Hank Green: Pissing Out Cancer",
+    names,
+  );
+  if (hank !== "Get Your Act Together with Hank Green") throw new Error(hank);
+  // Both halves can be the same, and the title must survive rather than empty.
+  const same = stripCollectionSuffix(
+    "Dimension 20 Live: Quangle Quest - Dimension 20 Live: Quangle Quest",
+    names,
+  );
+  if (same !== "Dimension 20 Live: Quangle Quest") throw new Error(same);
+  // A title that merely contains a dash is left alone.
+  const plain = stripCollectionSuffix("A Dash - Of Something", names);
+  if (plain !== "A Dash - Of Something") throw new Error(plain);
 });

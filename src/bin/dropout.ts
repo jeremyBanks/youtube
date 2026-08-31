@@ -5,6 +5,7 @@ import {
   openDropoutStorage,
 } from "../storage.ts";
 import { getDropoutConfig } from "../config.ts";
+import { mapOptional } from "../common.ts";
 
 const BASE = "https://watch.dropout.tv";
 const USER_AGENT =
@@ -288,6 +289,30 @@ export function parseEpisodePage(html: string): {
 }
 
 /**
+ * Removes a trailing " - <collection name>" from an episode title.
+ *
+ * Pages decorate og:title in more than one way. Most append the season and
+ * the site ("Title - Season 1 - Dropout"), which parseEpisodePage strips on
+ * its own, but some append the collection's display name instead, with no
+ * season and nothing else to recognise it by: "Get Your Act Together with
+ * Hank Green - Hank Green: Pissing Out Cancer". Only the catalogue of
+ * collection names can tell that apart from a title that genuinely contains
+ * a dash, so this is applied by the scan rather than by the parser.
+ */
+export function stripCollectionSuffix(
+  title: string,
+  collectionTitles: Set<string>,
+): string {
+  for (const name of collectionTitles) {
+    const suffix = ` - ${name}`;
+    if (title.length > suffix.length && title.endsWith(suffix)) {
+      return title.slice(0, -suffix.length).trim();
+    }
+  }
+  return title;
+}
+
+/**
  * Pulls a collection's display name, synopsis, artwork, season list and
  * episode ordering off its page. The ordering is the part the sitemap
  * cannot give: it lists membership, but not sequence.
@@ -544,6 +569,9 @@ export async function main() {
   // episode of a show outside the priority list queues behind the entire
   // unscraped back catalogue - months of waiting at a daily budget.
   const newEpisode = newArrivals(episodes);
+  const collectionTitles = new Set(
+    collections.map((c) => c.title).filter((t): t is string => !!t),
+  );
   const episodeBudget = Math.max(0, budget - collectionsScraped);
   const queue = episodes
     // `url` is set by every successful parse, so its absence marks a record
@@ -570,7 +598,10 @@ export async function main() {
       continue;
     }
     const details = parseEpisodePage(await page.text());
-    episode.title = details.title ?? episode.title;
+    episode.title = mapOptional(
+      details.title,
+      (t) => stripCollectionSuffix(t, collectionTitles),
+    ) ?? episode.title;
     episode.seasonNumber = details.seasonNumber ?? episode.seasonNumber;
     episode.episodeNumber = details.episodeNumber ?? episode.episodeNumber;
     episode.releaseDate = details.releaseDate ?? episode.releaseDate;

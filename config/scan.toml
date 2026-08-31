@@ -64,6 +64,18 @@ recent-interval = "P7D"
 recent-window = "P96D"
 complete-interval = "P32D"
 
+[toonoutanimation]
+incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
+complete-interval = "P32D"
+
+[ParlorRoomShow]
+incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
+complete-interval = "P32D"
+
 [monetsslumberparty]
 incremental-interval = "PT8H"
 recent-interval = "P7D"

@@ -434,8 +434,18 @@ title:         A Bouquet of Teeth
 seasonNumber:  22
 episodeNumber: 1
 releaseDate:   2026-01-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:22/videos/a-bouquet-of-teeth'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast spend their boo-boos, debate the prisoner''s dilemma, and co-design Rotglob''s resources.'
+itemId:        3906711
+collectionId:  1466982
+upNextIds:
+- 3920934
+- 3926631
+- 3932852
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:54:28.498Z
+scrapedAt:     2026-08-31T09:55:40.066Z
 
 ---
 
@@ -19817,8 +19827,18 @@ title:         I Will Try to Fix You
 seasonNumber:  22
 episodeNumber: 2
 releaseDate:   2026-01-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:22/videos/i-will-try-to-fix-you'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chats about sweetie stuff, the clock system, and Coldplay.'
+itemId:        3920934
+collectionId:  1466982
+upNextIds:
+- 3926631
+- 3932852
+- 3937788
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:14:28.690Z
+scrapedAt:     2026-08-31T09:55:52.322Z
 
 ---
 
@@ -29718,8 +29738,18 @@ title:         Right Past Titty Town
 seasonNumber:  22
 episodeNumber: 3
 releaseDate:   2026-01-22T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:22/videos/right-past-titty-town'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chats about emotional intelligence, making mistakes, and preps for the History Heap.'
+itemId:        3926631
+collectionId:  1466982
+upNextIds:
+- 3932852
+- 3937788
+- 3943681
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:23:51.982Z
+scrapedAt:     2026-08-31T09:56:04.552Z
 
 ---
 
@@ -32581,8 +32611,18 @@ title:         Spinch Party Kill
 seasonNumber:  22
 episodeNumber: 6
 releaseDate:   2026-02-12T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:22/videos/spinch-party-kill'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   |-
+  The cast reflect on their time in the Gladlands and have a really big snack.
+
+  Content Warning: 
+  Misophonia (Chewing sounds) - [throughout 3:50-10:00]
+itemId:        3943681
+collectionId:  1466982
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:51:27.330Z
+scrapedAt:     2026-08-31T09:56:16.773Z
 
 ---
 
@@ -34023,8 +34063,17 @@ title:         Table Pizza
 seasonNumber:  22
 episodeNumber: 4
 releaseDate:   2026-01-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:22/videos/table-pizza'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talks about charm versus warmth, the culture of the History Heap, and what their moms say.'
+itemId:        3932852
+collectionId:  1466982
+upNextIds:
+- 3937788
+- 3943681
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:52:04.016Z
+scrapedAt:     2026-08-31T09:56:29.007Z
 
 ---
 
@@ -34484,8 +34533,21 @@ title:         The Ate of Swords
 seasonNumber:  22
 episodeNumber: 5
 releaseDate:   2026-02-05T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:22/videos/the-ate-of-swords'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   |-
+  The cast talks about the experience of grief, Parcel's secret, and zipping down the 2.
+
+  Content Warning: 
+  Dentophobia (Visual and descriptions of loose teeth) - [0:08-0:50]
+  Discussion of Grief [throughout 15:20-23:23]
+itemId:        3937788
+collectionId:  1466982
+upNextIds:
+- 3943681
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:53:05.196Z
+scrapedAt:     2026-08-31T09:56:41.248Z
 
 ---
 

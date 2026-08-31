@@ -508,21 +508,21 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, 
 ${D20_PLUG}
 """
 
-[todo-fatal-decision]
+[PLJglfAswkpTY]
 name = "Fatal Decision (${ALL_SEASONS})"
 show = "Fatal Decision"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, the short-form choose-your-own-adventure series. ${MAYBE_MEMBERS_ONLY}
 """
 
-[todo-game-changer-animated]
+[PLb-lLnSGfRVc]
 name = "Game Changer Animated (${ALL_SEASONS})"
 show = "Game Changer Animated"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Game Changer. ${MAYBE_MEMBERS_ONLY}
 """
 
-[todo-dimension-20-animated]
+[PLBZi5qxJGKrA]
 name = "Dimension 20 Animated (${ALL_SEASONS})"
 show = "Dimension 20 Animated"
 description = """

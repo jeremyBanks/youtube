@@ -120,6 +120,10 @@ export async function main() {
       const record: Video = {
         channelId: entry.snippet?.channelId!,
         publishedAt: new Date(entry.snippet?.publishedAt!),
+        uploadedAt: mapOptional(
+          video?.snippet?.publishedAt ?? undefined,
+          (d) => new Date(d),
+        ),
         title: entry.snippet?.title!,
         videoId: entry.snippet?.resourceId?.videoId!,
         duration: mapOptional(
@@ -154,6 +158,10 @@ export async function main() {
           channelId: entry.snippet?.channelId!,
           membersOnly: true,
           publishedAt: new Date(entry.snippet?.publishedAt!),
+          uploadedAt: mapOptional(
+            video?.snippet?.publishedAt ?? undefined,
+            (d) => new Date(d),
+          ),
           title: entry.snippet?.title!,
           videoId: entry.snippet?.resourceId?.videoId!,
           duration: mapOptional(

@@ -51,6 +51,15 @@ export const Video = z.object({
   videoId: VideoId,
   channelId: ChannelId,
   publishedAt: DateTime,
+  /**
+   * When the video file itself went live on YouTube
+   * (video.snippet.publishedAt). Distinct from `publishedAt` above, which is
+   * the playlist-add time: for public videos the two are identical, and for
+   * members videos the playlist-add time is the better proxy for the original
+   * release, so it stays the primary field. This one is captured as
+   * additional metadata and is not currently used by anything.
+   */
+  uploadedAt: z.date().optional(),
   /** The date at which this video was observed to have been removed. */
   removedBefore: z.date().optional(),
   title: z.string().min(1),

@@ -2681,8 +2681,14 @@ title:         An Evil Guided Meditation
 seasonNumber:  17
 episodeNumber: 10
 releaseDate:   2024-08-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/an-evil-guided-meditation'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'Brennan gives us the juice, the cast reveals their wishes, and the crew makes a cameo.'
+itemId:        3326327
+collectionId:  1028823
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:57:44.261Z
+scrapedAt:     2026-08-31T10:09:48.409Z
 
 ---
 
@@ -4388,8 +4394,16 @@ title:         Bean Appétit
 seasonNumber:  17
 episodeNumber: 9
 releaseDate:   2024-08-22T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/bean-appetit'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast levels up for the final time, talk catch phrases, and spoil the plot of Men in Black.'
+itemId:        3326276
+collectionId:  1028823
+upNextIds:
+- 3326327
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:58:45.381Z
+scrapedAt:     2026-08-31T10:10:00.663Z
 
 ---
 
@@ -7233,8 +7247,18 @@ title:         Boongo
 seasonNumber:  17
 episodeNumber: 3
 releaseDate:   2024-07-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/boongo'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The cast discuss what they've uncovered so far and ponder the mechanics of action world cosmology.
+itemId:        3282696
+collectionId:  1028823
+upNextIds:
+- 3288426
+- 3296634
+- 3306529
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:00:47.797Z
+scrapedAt:     2026-08-31T10:10:12.960Z
 
 ---
 
@@ -7996,8 +8020,18 @@ title:         Bustin' Makes Me Feel Good
 seasonNumber:  17
 episodeNumber: 7
 releaseDate:   2024-08-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/bustin-makes-me-feel-good'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The players level up and gain a powerful ability, Jacob talks Box of Doom, and Ally is in cosplay.'
+itemId:        3314070
+collectionId:  1028823
+upNextIds:
+- 3319621
+- 3326276
+- 3326327
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:01:12.336Z
+scrapedAt:     2026-08-31T10:10:25.235Z
 
 ---
 
@@ -16315,8 +16349,18 @@ title:         Gender Cascade
 seasonNumber:  17
 episodeNumber: 4
 releaseDate:   2024-07-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/gender-cascade'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'It''s Bi-Visibility day and Izzy''s too in character, Brennan''s wrong, and Ally''s about to call 911.'
+itemId:        3288426
+collectionId:  1028823
+upNextIds:
+- 3296634
+- 3306529
+- 3314070
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:09:10.057Z
+scrapedAt:     2026-08-31T10:10:37.516Z
 
 ---
 
@@ -38419,8 +38463,18 @@ title:         The Penthouse Suite
 seasonNumber:  17
 episodeNumber: 6
 releaseDate:   2024-08-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/the-penthouse-suite'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The players are Turbo Token rich, talk emotional character arcs, and ponder G13''s sentience.'
+itemId:        3306529
+collectionId:  1028823
+upNextIds:
+- 3314070
+- 3319621
+- 3326276
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:58:11.155Z
+scrapedAt:     2026-08-31T10:10:49.841Z
 
 ---
 
@@ -41883,8 +41937,17 @@ title:         'Truly, Truly, So, So Fun'
 seasonNumber:  17
 episodeNumber: 8
 releaseDate:   2024-08-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/truly-truly-so-so-fun'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The players discuss the dramatic events of the episode, the Shadow Falcons, and Ify''s GM moment.'
+itemId:        3319621
+collectionId:  1028823
+upNextIds:
+- 3326276
+- 3326327
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:02:40.641Z
+scrapedAt:     2026-08-31T10:11:02.120Z
 
 ---
 
@@ -44928,8 +44991,18 @@ title:         'When You''re Here, You''re La Familia'
 seasonNumber:  17
 episodeNumber: 2
 releaseDate:   2024-07-04T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/when-you-re-here-you-re-la-familia'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast level up, talk character psyche, and compare their kill counts.'
+itemId:        3275187
+collectionId:  1028823
+upNextIds:
+- 3282696
+- 3288426
+- 3296634
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:06:34.114Z
+scrapedAt:     2026-08-31T10:11:14.403Z
 
 ---
 
@@ -46542,8 +46615,18 @@ title:         Yoshi Thicc
 seasonNumber:  17
 episodeNumber: 1
 releaseDate:   2024-06-27T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/yoshi-thicc'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about their characters, Cold Stone, and what movie they''d get sucked into.'
+itemId:        3267162
+collectionId:  1028823
+upNextIds:
+- 3275187
+- 3282696
+- 3288426
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T04:07:10.838Z
+scrapedAt:     2026-08-31T10:11:26.693Z
 
 ---
 
@@ -47339,7 +47422,22 @@ collections:
 - dimension-20-never-stop-blowing-up-the-complete-experience
 - dimension-20-s-adventuring-party-season-17
 lastmod:       2026-08-10T00:00:00.000Z
+title:         Ziggy Zany Yeah
+seasonNumber:  17
+episodeNumber: 5
+releaseDate:   2024-07-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:17/videos/ziggy-zany-yeah'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast levels up, talks poetry class, the Spice Girls, and Vic Ethanol''s dark side.'
+itemId:        3296634
+collectionId:  1028823
+upNextIds:
+- 3306529
+- 3314070
+- 3319621
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T10:11:38.949Z
 
 ---
 

@@ -758,8 +758,10 @@ videos:
 ---
 
 name:        Thousandaires (All Episodes and Extras)
-description: |
+description: |-
   3-hour playlist of 6 episodes and 1 trailers from Thousandaires. 1 video is free and 6 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/thousandaires
 playlistId:  PLObfuAmZm9pCDwDKLDD8-UBsNRXKEOFHu
 videos:
   2CmuH045oo8: 'Thousandaires Trailer [Dropout Exclusive Series]'

@@ -1797,7 +1797,22 @@ collection:    a-message-from-the-ceo-season-1
 collections:
 - a-message-from-the-ceo-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         A Message From the Skype CEO
+seasonNumber:  1
+episodeNumber: 9
+releaseDate:   2021-03-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/a-message-from-the-skype-ceo'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   The CEO of Skype is here with a message for all you "loyal" users.
+itemId:        1400472
+collectionId:  115013
+upNextIds:
+- 1400471
+- 1468300
+- 1468301
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:24:23.841Z
 
 ---
 
@@ -2911,7 +2926,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-11
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'ABC CEO: "No More Racist Shows"'
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/abc-ceo-no-more-racist-shows-america-has-spoken'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'America has spoken, and it wants TV that''s more divisive than ever.'
+itemId:        449238
+collectionId:  115013
+upNextIds:
+- 341205
+- 349878
+- 404907
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:24:36.104Z
 
 ---
 
@@ -14636,7 +14665,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-12
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Deleted Scenes: Tumblr CEO'
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/deleted-scenes-tumblr-ceo'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   See more from everyone’s favorite family values spokesman who doesn’t know what breastfeeding is.
+itemId:        404913
+collectionId:  115013
+upNextIds:
+- 650139
+- 681811
+- 895382
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:24:48.425Z
 
 ---
 
@@ -22465,7 +22508,21 @@ collection:    a-message-from-the-ceo-season-1
 collections:
 - a-message-from-the-ceo-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'GoFundMe CEO: We Could Use A Few Fun Ones'
+seasonNumber:  1
+episodeNumber: 7
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/gofundme-ceo-we-could-use-a-few-fun-ones'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'This wasn''t supposed to be a website that hosts popularity contests where if you lose, you die.'
+itemId:        681811
+collectionId:  115013
+upNextIds:
+- 895382
+- 1400472
+- 1400471
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:25:00.729Z
 
 ---
 
@@ -23551,7 +23608,18 @@ collection:    a-message-from-the-ceo-season-1
 collections:
 - a-message-from-the-ceo-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Hardware CEO: Bonus Footage'
+seasonNumber:  1
+episodeNumber: 15
+releaseDate:   2021-05-12T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/hardware-ceo-bonus-footage'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   Enjoy all the extra footage of hardware CEO Mark Hardstart and his adult grandson Lucas.
+itemId:        1533204
+collectionId:  115013
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:25:12.964Z
 
 ---
 
@@ -23560,7 +23628,20 @@ collection:    a-message-from-the-ceo-season-1
 collections:
 - a-message-from-the-ceo-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Hardware Store CEO: We''re Rebranding (For Some Reason)'
+seasonNumber:  1
+episodeNumber: 11
+releaseDate:   2021-05-12T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/hardware-store-ceo-we-re-rebranding-for-some-reason'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'The owner - I mean, CEO - of Midland Park Hardware is here to disrupt...the nail industry?'
+itemId:        1533187
+collectionId:  115013
+upNextIds:
+- 1533204
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:25:25.223Z
 
 ---
 
@@ -29041,7 +29122,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-14
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'JUUL CEO: No More Advertising to Kids'
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/juul-ceo-no-more-advertising-to-kids'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   Save up your allowance! Juul is introducing new ways to experience your favorite vape brand.
+itemId:        650139
+collectionId:  115013
+upNextIds:
+- 681811
+- 895382
+- 1400472
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:25:37.494Z
 
 ---
 
@@ -34277,7 +34372,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-12
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'MoviePass CEO: PLEASE DON''T CANCEL'
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/moviepass-ceo-please-don-t-cancel'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   All businesses have a growing period! We're just growing downwards! Impressively fast!
+itemId:        349878
+collectionId:  115013
+upNextIds:
+- 404907
+- 404913
+- 650139
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:25:49.782Z
 
 ---
 
@@ -36825,7 +36934,22 @@ collection:    a-message-from-the-ceo-season-1
 collections:
 - a-message-from-the-ceo-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Oreo CEO:  Stop Making New Oreos'
+seasonNumber:  1
+episodeNumber: 10
+releaseDate:   2021-04-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/oreo-ceo-stop-making-new-oreos'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'The perfect cookie exists, we can stop now.'
+itemId:        1468300
+collectionId:  115013
+upNextIds:
+- 1468301
+- 1533187
+- 1533204
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:26:02.069Z
 
 ---
 
@@ -55793,7 +55917,22 @@ collection:    a-message-from-the-ceo-season-1
 collections:
 - a-message-from-the-ceo-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Tide CEO: Soap Isn''t Medicine'
+seasonNumber:  1
+episodeNumber: 8
+releaseDate:   2020-06-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/tide-ceo-soap-isn-t-medicine'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'David Taylor is back, and he still can''t believe this has to be explained.'
+itemId:        895382
+collectionId:  115013
+upNextIds:
+- 1400472
+- 1400471
+- 1468300
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:26:14.347Z
 
 ---
 
@@ -55803,7 +55942,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-11
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Tide CEO: You Gotta Stop Eating Tide Pods'
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/tide-ceo-you-gotta-stop-eating-tide-pods'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   What? Kids love chocolate.
+itemId:        449220
+collectionId:  115013
+upNextIds:
+- 449238
+- 341205
+- 349878
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:26:26.606Z
 
 ---
 
@@ -57272,7 +57425,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-12
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Tumblr CEO: No More Porn'
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/tumblr-ceo-no-more-porn'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'Finally, Tumblr''s returning to its family-friendly roots, like BDSM (Buddies Doing Social Media)!'
+itemId:        404907
+collectionId:  115013
+upNextIds:
+- 404913
+- 650139
+- 681811
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:26:38.869Z
 
 ---
 
@@ -58787,7 +58954,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - ch-shorts-season-11
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Venmo CEO: We’re Fun!'
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/venmo-ceo-we-re-fun'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   'It''s like a hipper, sexier version of the Bank of America app. That''s what kids want, right?'
+itemId:        341205
+collectionId:  115013
+upNextIds:
+- 349878
+- 404907
+- 404913
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T15:26:51.190Z
 
 ---
 

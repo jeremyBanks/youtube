@@ -414,7 +414,7 @@ show = "Dimension 20"
 season = "Titan Takedown"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Titan Takedown, a Dimension 20 campaign featuring WWE Superstars Bayley, Chelsea Green, Xavier Woods, and Kofi Kingston. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Titan Takedown, a Dimension 20 campaign in which four wrestlers battle the gods. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -435,7 +435,7 @@ ${D20_PLUG}
 name = "Nobody Asked (${ALL_SEASONS})"
 show = "Nobody Asked"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Nobody Asked, a mock investigative reporting series where comedians tackle absurd questions with real science. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Nobody Asked, where comedians find the smartest answers to the dumbest questions. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pCKmzmqJaEkRUfbUZnY1Kll]
@@ -449,7 +449,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Parlo
 name = "Crowd Control (${ALL_SEASONS})"
 show = "Crowd Control"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Crowd Control, a stand-up crowd work competition series. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Crowd Control, the improvised stand-up show where the audience is the material. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLUpEMC5JYQXE]
@@ -515,7 +515,7 @@ ${D20_PLUG}
 name = "Fatal Decision (${ALL_SEASONS})"
 show = "Fatal Decision"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, the short-form choose-your-own-adventure series. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, in which Zach Reino plays an IT guy playing a special ops agent. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLb-lLnSGfRVc]

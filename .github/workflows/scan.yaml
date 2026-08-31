@@ -5,9 +5,12 @@ name: Scan
 # recover it. Curation stays manual; this only updates data/.
 on:
   schedule:
-    # Weekly, Monday 05:17 UTC. An off-the-hour minute avoids the congestion
-    # GitHub sees at :00, where scheduled jobs can be delayed or dropped.
-    - cron: "17 5 * * 1"
+    # Weekly, Sunday 06:23 UTC — the middle of the weekend, late Saturday
+    # night in North America, when nothing new is being published. An
+    # off-the-hour minute avoids the congestion GitHub sees at :00, where
+    # scheduled jobs can be delayed or dropped. The Dropout scan follows
+    # about two hours later, once this one has settled.
+    - cron: "23 6 * * 0"
   workflow_dispatch:
 
 # Never let two scans write data/ at once.

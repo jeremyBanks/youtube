@@ -88,9 +88,10 @@ requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
 `.github/workflows/scan.yaml` runs `deno task scan` weekly and commits the
 result. It needs one repository secret, `YOUTUBE_API_KEY`.
 
-`.github/workflows/scan-dropout.yaml` runs `deno task scan-dropout` weekly on a
-different day, and needs no secrets at all. Each run also chips away at the back
-catalogue of unfetched release dates until it converges.
+`.github/workflows/scan-dropout.yaml` runs `deno task scan-dropout` about two
+hours after it, and needs no secrets at all. Both are scheduled early on Sunday
+UTC, so a week's changes arrive together in one quiet window. Each run also
+chips away at the back catalogue of unfetched release dates until it converges.
 
 The point of scanning on a schedule is capture rather than currency: a video
 that is posted and pulled between scans leaves no trace, and no later scan can

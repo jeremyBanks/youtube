@@ -11,10 +11,10 @@ Dropout, file it in the curation, and push the playlists live. Do not ask which
 part they meant — run the sequence below and report what changed at each step.
 The work is the same every time; only the curation step needs judgement.
 
-**First pull.** Two GitHub Actions commit to `trunk` on their own schedule
-(`scan.yaml` Mondays, `scan-dropout.yaml` Thursdays), so the remote is usually
-ahead. `git checkout trunk && git pull origin trunk` before anything else, or
-the scans will fight with bot commits at push time.
+**First pull.** Two GitHub Actions commit to `trunk` on their own schedule (both
+early Sunday UTC, two hours apart), so the remote is usually ahead.
+`git checkout trunk && git pull origin trunk` before anything else, or the scans
+will fight with bot commits at push time.
 
 **Then scan, in either order.** `deno task scan` reads the YouTube channels in
 `config/scan.toml` into `data/videos.yaml`; it needs `YOUTUBE_API_KEY` in `.env`

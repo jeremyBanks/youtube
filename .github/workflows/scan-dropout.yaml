@@ -8,10 +8,13 @@ name: Scan Dropout
 # data/. The pages are public, so no secrets are needed.
 on:
   schedule:
-    # Weekly, Thursday 05:41 UTC: a different day than the YouTube scan
-    # (Monday) so a shared failure cause doesn't take out both, and an
-    # off-the-hour minute to dodge GitHub's :00 congestion.
-    - cron: "41 5 * * 4"
+    # Weekly, Sunday 08:37 UTC, about two hours after the YouTube scan, so
+    # the pair lands together in the middle of the weekend and leaves one
+    # week's changes in one place. The gap is generous: this run takes ~35
+    # minutes at 12-second delays, and the two write different files, so
+    # overlapping would be harmless anyway. Off-the-hour minute to dodge
+    # GitHub's :00 congestion.
+    - cron: "37 8 * * 0"
   workflow_dispatch:
 
 # Never let two runs write data/ at once. A separate group from the YouTube

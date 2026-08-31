@@ -579,7 +579,22 @@ collections:
 - dimension-20-new-releases
 - new-releases
 lastmod:       2026-08-26T00:00:00.000Z
+title:         A Deep Investment in Frivolity (with Mica Burton)
+seasonNumber:  7
+episodeNumber: 7
+releaseDate:   2026-08-26T00:00:00.000Z
+url:           'https://watch.dropout.tv/adventuring-academy/season:7/videos/a-deep-investment-in-frivolity-with-mica-burton'
+showTitle:     Adventuring Academy
+showSlug:      adventuring-academy
+description:   |-
+  Mica Burton joins Brennan to discuss looking silly, weird sodas, and why metagaming is good.
+
+  Content Warning: 
+  Misophonia (Chewing sounds) - [throughout 41:30-56:44]
+itemId:        4150267
+collectionId:  1484924
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:01:18.923Z
 
 ---
 
@@ -663,7 +678,24 @@ collections:
 - dimension-20-new-releases
 - new-releases
 lastmod:       2026-08-12T00:00:00.000Z
+title:         A Duty of Care (with Dr. Emily Friedman)
+seasonNumber:  7
+episodeNumber: 6
+releaseDate:   2026-07-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/adventuring-academy/season:7/videos/a-duty-of-care-with-dr-emily-friedman'
+showTitle:     Adventuring Academy
+showSlug:      adventuring-academy
+description:   |-
+  Dr. Emily Friedman joins Brennan to discuss the history of actual play and the best gaming system.
+
+  Content Warning:
+  Misophonia (Crunching) - [throughout 54:37-1:01:03]
+itemId:        4120246
+collectionId:  1484924
+upNextIds:
+- 4150267
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:04:22.608Z
 
 ---
 
@@ -3550,7 +3582,22 @@ collections:
 - game-changer-season-8
 - new-releases
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Behind the Scenes of "Count the Rice"
+seasonNumber:  8
+episodeNumber: 10
+releaseDate:   2026-07-20T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/behind-the-scenes-of-count-the-rice'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   A behind the scenes look at Game Changer's "Count the Rice."
+itemId:        4106141
+collectionId:  1494640
+upNextIds:
+- 4117101
+- 4125516
+- 4139884
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:00:17.666Z
 
 ---
 
@@ -3622,7 +3669,20 @@ collections:
 - game-changer-season-8
 - new-releases
 lastmod:       2026-08-17T00:00:00.000Z
+title:         Behind the Scenes of "Earwigs"
+seasonNumber:  8
+episodeNumber: 14
+releaseDate:   2026-08-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/behind-the-scenes-of-earwigs'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   A behind the scenes look at Game Changer's "Earwigs."
+itemId:        4148245
+collectionId:  1494640
+upNextIds:
+- 4150331
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:00:05.393Z
 
 ---
 
@@ -3703,7 +3763,22 @@ collections:
 - game-changer-season-8
 - new-releases
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Behind the Scenes of "Noise Some Makes"
+seasonNumber:  8
+episodeNumber: 12
+releaseDate:   2026-08-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/behind-the-scenes-of-noise-some-makes'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   A behind the scenes look at Game Changer's "Noise Some Makes."
+itemId:        4125516
+collectionId:  1494640
+upNextIds:
+- 4139884
+- 4148245
+- 4150331
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:00:29.946Z
 
 ---
 
@@ -8168,7 +8243,16 @@ collections:
 - new-releases
 - trailers
 lastmod:       2026-08-12T00:00:00.000Z
+title:         'Dimension 20: Toylight Trailer'
+releaseDate:   2026-08-12T00:00:00.000Z
+url:           'https://watch.dropout.tv/videos/dimension-20-toylight-trailer'
+description:   |-
+  Even the smallest heroes can make the greatest stand. New series premieres September 16th. 
+
+  FAQ here: https://www.dropout.tv/faq/d20-toylight
+itemId:        4142194
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:04:34.808Z
 
 ---
 
@@ -9201,7 +9285,21 @@ collections:
 - game-changer-season-8
 - new-releases
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Earwigs
+seasonNumber:  8
+episodeNumber: 7
+releaseDate:   2026-08-10T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/earwigs'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Zach, Ross, Oscar, Jess, Becca, Erika, Persephone, and Izzy wig out.'
+itemId:        4139884
+collectionId:  1494640
+upNextIds:
+- 4148245
+- 4150331
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:00:42.229Z
 
 ---
 
@@ -10952,7 +11050,21 @@ collections:
 - new-releases
 - parlor-room-season-2
 lastmod:       2026-08-14T00:00:00.000Z
+title:         'Flower, Flower, Pants on Fire'
+seasonNumber:  2
+episodeNumber: 10
+releaseDate:   2026-07-23T00:00:00.000Z
+url:           'https://watch.dropout.tv/parlor-room/season:2/videos/flower-flower-pants-on-fire'
+showTitle:     Parlor Room
+showSlug:      parlor-room
+description:   'Zac, Devin, Dhruv, Eugene, and Victoria play Skull, the risk-taking game of bidding and bluffing.'
+itemId:        4112082
+collectionId:  1489380
+upNextIds:
+- 4136503
+- 4152791
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:02:32.243Z
 
 ---
 
@@ -12629,7 +12741,22 @@ collections:
 - crowd-control-season-2
 - new-releases
 lastmod:       2026-08-17T00:00:00.000Z
+title:         Hal Rose Said to Watch This Episode
+seasonNumber:  2
+episodeNumber: 2
+releaseDate:   2026-08-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/crowd-control/season:2/videos/hal-rose-said-to-watch-this-episode'
+showTitle:     Crowd Control
+showSlug:      crowd-control
+description:   |-
+  Things get nice, mean, and weird for Taylor, Gianmarco, and Reggie.
+
+  Content Warning:
+  Discussions of Harrowing Personal Situations, Physical Injuries, and Encounters with Racism - [Throughout]
+itemId:        4148241
+collectionId:  1503904
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:02:07.821Z
 
 ---
 
@@ -13624,7 +13751,20 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Hot Peasant Summer
+seasonNumber:  1
+episodeNumber: 11
+releaseDate:   2026-08-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/hot-peasant-summer'
+showTitle:     Toonout
+showSlug:      toonout
+description:   'Nothing can stop the party for Brooke & Haley, not even getting flushed back to the 14th century.'
+itemId:        4142150
+collectionId:  1489017
+upNextIds:
+- 4150250
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:03:09.021Z
 
 ---
 
@@ -17159,7 +17299,25 @@ collections:
 - crowd-control-season-2
 - new-releases
 lastmod:       2026-08-12T00:00:00.000Z
+title:         Lesbian Applause Break
+seasonNumber:  2
+episodeNumber: 1
+releaseDate:   2026-08-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/crowd-control/season:2/videos/lesbian-applause-break'
+showTitle:     Crowd Control
+showSlug:      crowd-control
+description:   |-
+  Cameron, Aaron, and Jordan attempt to please the court.
+
+  Content Warning: 
+  Discussions of Sex, Medical Conditions, Harrowing Personal Situations - [Throughout]
+  Discussion of Encounter With Sexual Predator (Non-graphic) - [19:20-21:55]
+itemId:        4125513
+collectionId:  1503904
+upNextIds:
+- 4148241
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:04:47.035Z
 
 ---
 
@@ -19589,7 +19747,29 @@ collections:
 - new-releases
 - noise-boys
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Noise Some Makes
+seasonNumber:  8
+episodeNumber: 6
+releaseDate:   2026-07-27T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/noise-some-makes'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Josh, Zac, and Brennan return and make even more noise.
+
+  Content Warning:
+  Emetophobia (Gagging and animation of vomiting) - [27:57-28:02]
+  Emetophobia (Gagging) - [32:27-32:36]
+  Comedic References to Suicide - [37:32-38:50]
+  Ongoing Comedic Bit Referencing Incest - [46:07-46:28]
+itemId:        4117101
+collectionId:  1494640
+upNextIds:
+- 4125516
+- 4139884
+- 4148245
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:00:54.475Z
 
 ---
 
@@ -19857,7 +20037,18 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-25T00:00:00.000Z
+title:         Off the Reservation
+seasonNumber:  1
+episodeNumber: 12
+releaseDate:   2026-08-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/off-the-reservation'
+showTitle:     Toonout
+showSlug:      toonout
+description:   A group of Native teens decides to make their ancestors proud the only way they know how.
+itemId:        4150250
+collectionId:  1489017
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:01:31.149Z
 
 ---
 
@@ -21152,7 +21343,13 @@ collections:
 - dimension-20-new-releases
 - new-releases
 lastmod:       2026-07-15T00:00:00.000Z
+title:         Playtime Is Over
+releaseDate:   2026-07-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/videos/playtime-is-over'
+description:   A new season of Dimension 20 is coming soon...
+itemId:        4100427
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:04:59.214Z
 
 ---
 
@@ -24099,7 +24296,18 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-28T00:00:00.000Z
+title:         'Smartyshorts: Morning Showers or Night Showers'
+seasonNumber:  3
+episodeNumber: 12
+releaseDate:   2026-08-28T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-morning-showers-or-night-showers'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society discusses when is the best time to take a shower.
+itemId:        4150272
+collectionId:  1498226
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:01:06.702Z
 
 ---
 
@@ -24118,7 +24326,22 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-13T00:00:00.000Z
+title:         'Smartyshorts: School Subjects'
+seasonNumber:  3
+episodeNumber: 6
+releaseDate:   2026-07-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-school-subjects'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society discusses what colors are school subjects.
+itemId:        4101222
+collectionId:  1498226
+upNextIds:
+- 4113147
+- 4120266
+- 4139892
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:03:21.288Z
 
 ---
 
@@ -24128,7 +24351,22 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-13T00:00:00.000Z
+title:         'Smartyshorts: Spoiler Etiquette'
+seasonNumber:  3
+episodeNumber: 8
+releaseDate:   2026-07-31T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-spoiler-etiquette'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society deliberates on what the statute of limitations for spoilers are.
+itemId:        4120266
+collectionId:  1498226
+upNextIds:
+- 4139892
+- 4148165
+- 4150246
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:03:33.530Z
 
 ---
 
@@ -24138,7 +24376,21 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-14T00:00:00.000Z
+title:         'Smartyshorts: Which Type of French Fry Is the Best?'
+seasonNumber:  3
+episodeNumber: 10
+releaseDate:   2026-08-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-which-type-of-french-fry-is-the-best'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society debates what is the superior form of the french fry.
+itemId:        4148165
+collectionId:  1498226
+upNextIds:
+- 4150246
+- 4150272
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:02:44.497Z
 
 ---
 
@@ -25365,7 +25617,18 @@ collections:
 - new-releases
 - parlor-room-season-2
 lastmod:       2026-08-20T00:00:00.000Z
+title:         Success With Consequences
+seasonNumber:  2
+episodeNumber: 12
+releaseDate:   2026-08-20T00:00:00.000Z
+url:           'https://watch.dropout.tv/parlor-room/season:2/videos/success-with-consequences'
+showTitle:     Parlor Room
+showSlug:      parlor-room
+description:   'Ross, Rashawn, Zeke, and Mary Lou gain new skills and play the tabletop RPG Roll For Shoes.'
+itemId:        4152791
+collectionId:  1489380
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:01:55.609Z
 
 ---
 
@@ -25688,7 +25951,22 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Tax the Tall
+seasonNumber:  3
+episodeNumber: 5
+releaseDate:   2026-08-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/tax-the-tall'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   Jordan decriminalizes feet. Jerah asserts short king supremacy. Brett explains chill allyship.
+itemId:        4139892
+collectionId:  1498226
+upNextIds:
+- 4148165
+- 4150246
+- 4150272
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:03:45.809Z
 
 ---
 
@@ -26803,7 +27081,17 @@ collection:    new-releases
 collections:
 - new-releases
 lastmod:       2026-08-15T00:00:00.000Z
+title:         The Don Hertzfeldt Collection Teaser
+releaseDate:   2026-08-04T00:00:00.000Z
+url:           'https://watch.dropout.tv/videos/the-don-hertzfeldt-collection-teaser'
+description:   |-
+  Get ready to experience the weird and absurd world of Don Hertzfeldt. All twelve of his surreal films are available to stream. Paper Trail premieres September 1st, only on Dropout.
+
+  Content Warning:
+  Photosensitive Epilepsy Warning (Flashing) - [Throughout]
+itemId:        4126503
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:02:19.993Z
 
 ---
 
@@ -28628,7 +28916,26 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-13T00:00:00.000Z
+title:         The Power of Words
+seasonNumber:  3
+episodeNumber: 4
+releaseDate:   2026-07-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/the-power-of-words'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   |-
+  Angela pleads for consistent sizing. Kendahl reveals a surprising connection. Josh weaponizes words.
+
+  Content Warning:
+  Mention of Parent and Pet Death in Comedic Context - [16:40-17:12]
+itemId:        4113147
+collectionId:  1498226
+upNextIds:
+- 4120266
+- 4139892
+- 4148165
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:03:58.055Z
 
 ---
 
@@ -31274,7 +31581,24 @@ collections:
 - new-releases
 - parlor-room-season-2
 lastmod:       2026-08-14T00:00:00.000Z
+title:         Twelve Is the Safest Number
+seasonNumber:  2
+episodeNumber: 11
+releaseDate:   2026-08-06T00:00:00.000Z
+url:           'https://watch.dropout.tv/parlor-room/season:2/videos/twelve-is-the-safest-number'
+showTitle:     Parlor Room
+showSlug:      parlor-room
+description:   |-
+  SungWon, Brian, Abby, Hector, and Damien push their luck and play the card game Flip 7.
+
+  Content Warning:
+  Misophonia (Crunching) - [Throughout 35:14-38:02]
+itemId:        4136503
+collectionId:  1489380
+upNextIds:
+- 4152791
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:02:56.735Z
 
 ---
 
@@ -33323,7 +33647,22 @@ collections:
 - game-changer-season-8
 - new-releases
 lastmod:       2026-08-24T00:00:00.000Z
+title:         What's the Catch
+seasonNumber:  8
+episodeNumber: 8
+releaseDate:   2026-08-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/what-s-the-catch'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Kurt, Jacob, and Kimia win big but with some strings attached.
+
+  Content Warning:
+  Comedic Portrayal of Parent Death in Hospital - [46:53-47:48]
+itemId:        4150331
+collectionId:  1494640
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T06:59:53.154Z
 
 ---
 
@@ -34621,7 +34960,21 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Winky's Speakeasy
+seasonNumber:  1
+episodeNumber: 10
+releaseDate:   2026-07-28T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/winky-s-speakeasy'
+showTitle:     Toonout
+showSlug:      toonout
+description:   'Booze, banter and boings. Welcome to the saloon for washed-up cartoons.'
+itemId:        4118860
+collectionId:  1489017
+upNextIds:
+- 4142150
+- 4150250
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:04:10.294Z
 
 ---
 
@@ -35124,7 +35477,24 @@ collections:
 - new-releases
 - smartypants-season-3
 lastmod:       2026-08-21T00:00:00.000Z
+title:         You Cannot Be You Without Yourself
+seasonNumber:  3
+episodeNumber: 6
+releaseDate:   2026-08-21T00:00:00.000Z
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/you-cannot-be-you-without-yourself'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   |-
+  Rachel argues for Rumspringa. Maame-Yaa creates a new dating app. Joey praises solo movie viewing.
+
+  Content Warning: 
+  Misophonia (Extended fart noises) - [throughout 29:19-46:29]
+itemId:        4150246
+collectionId:  1498226
+upNextIds:
+- 4150272
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:01:43.382Z
 
 ---
 

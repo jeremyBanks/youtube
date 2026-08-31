@@ -4900,7 +4900,22 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Blink Twice If You’re Dead
+seasonNumber:  1
+episodeNumber: 2
+releaseDate:   2026-04-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/blink-twice-if-you-re-dead'
+showTitle:     Toonout
+showSlug:      toonout
+description:   Detective Person and Agent Bingles investigate the murder of Ol' Jimmy Bones.
+itemId:        3991668
+collectionId:  1489017
+upNextIds:
+- 4004048
+- 4004351
+- 4045303
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:30:05.186Z
 
 ---
 
@@ -5252,7 +5267,28 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Boring Guys
+seasonNumber:  1
+episodeNumber: 9
+releaseDate:   2026-07-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/boring-guys'
+showTitle:     Toonout
+showSlug:      toonout
+description:   |-
+  Gary and Garry live a tedious life of TV and rigatoni. Until jealousy strikes…
+
+  Content Warning:
+  Animated Violence
+  Animated Depictions of Dead Bodies and Animals
+  Misophonia (Chewing, slurping) - [2:24-3:03]
+itemId:        4100436
+collectionId:  1489017
+upNextIds:
+- 4118860
+- 4142150
+- 4150250
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:30:17.466Z
 
 ---
 
@@ -7470,7 +7506,22 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Crossed Animals
+seasonNumber:  1
+episodeNumber: 6
+releaseDate:   2026-06-02T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/crossed-animals'
+showTitle:     Toonout
+showSlug:      toonout
+description:   Cindy didn't come to this island to make friends. She's here to get filthy rich—no matter the cost.
+itemId:        4056742
+collectionId:  1489017
+upNextIds:
+- 4070741
+- 4087821
+- 4100436
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:30:29.701Z
 
 ---
 
@@ -17042,7 +17093,22 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Josh's Deli
+seasonNumber:  1
+episodeNumber: 5
+releaseDate:   2026-05-19T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/josh-s-deli'
+showTitle:     Toonout
+showSlug:      toonout
+description:   A deli owner contends with his ham-fisted staff. Would it kill 'em to show gratitude every so often?
+itemId:        4045303
+collectionId:  1489017
+upNextIds:
+- 4056742
+- 4070741
+- 4087821
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:30:41.964Z
 
 ---
 
@@ -18045,7 +18111,26 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Last Meal
+seasonNumber:  1
+episodeNumber: 8
+releaseDate:   2026-06-30T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/last-meal'
+showTitle:     Toonout
+showSlug:      toonout
+description:   |-
+  When anything's on the menu, a condemned inmate's request becomes the prison's worst nightmare.
+
+  Content Warning: 
+  Photosensitive Epilepsy Warning (Flashing) - [1:21-1:23]
+itemId:        4087821
+collectionId:  1489017
+upNextIds:
+- 4100436
+- 4118860
+- 4142150
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:30:54.223Z
 
 ---
 
@@ -20166,7 +20251,27 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         My Husband
+seasonNumber:  1
+episodeNumber: 7
+releaseDate:   2026-06-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/my-husband'
+showTitle:     Toonout
+showSlug:      toonout
+description:   |-
+  Otto bemoans the strife of loving (and loathing) his handsome spouse.
+
+  Content Warning:
+  Animated Violence, Blood
+  Animated Partial Nudity
+itemId:        4070741
+collectionId:  1489017
+upNextIds:
+- 4087821
+- 4100436
+- 4118860
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:31:06.459Z
 
 ---
 
@@ -28183,7 +28288,22 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         The Burbank Beetleboy
+seasonNumber:  1
+episodeNumber: 3
+releaseDate:   2026-04-21T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/the-burbank-beetleboy'
+showTitle:     Toonout
+showSlug:      toonout
+description:   Screw Sasquatch. This CA city deserves its own cryptid—and one guy is determined to make it happen.
+itemId:        4004048
+collectionId:  1489017
+upNextIds:
+- 4004351
+- 4045303
+- 4056742
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:31:18.727Z
 
 ---
 
@@ -29693,7 +29813,22 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         The Legend of Legendarius
+seasonNumber:  1
+episodeNumber: 1
+releaseDate:   2026-03-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/the-legend-of-legendarius'
+showTitle:     Toonout
+showSlug:      toonout
+description:   Legendarius tries to find a way back to his son Junior after meeting an untimely end.
+itemId:        3977196
+collectionId:  1489017
+upNextIds:
+- 3991668
+- 4004048
+- 4004351
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:31:31.004Z
 
 ---
 
@@ -34714,7 +34849,27 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Wealwell's Guide to Reposed Standing
+seasonNumber:  1
+episodeNumber: 4
+releaseDate:   2026-05-05T00:00:00.000Z
+url:           'https://watch.dropout.tv/toonout/season:1/videos/wealwell-s-guide-to-reposed-standing'
+showTitle:     Toonout
+showSlug:      toonout
+description:   |-
+  Didn't attend Biffmore Academy? Fear not: Wealwell Gotch is here to impart his expertise.
+
+  Content Warning:
+  Photosensitive Epilepsy Warning (Flashing pattern) -  [0:00 - 0:02]
+  Emetophobia (Retching) - [1:56-2:00]
+itemId:        4004351
+collectionId:  1489017
+upNextIds:
+- 4045303
+- 4056742
+- 4070741
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:31:43.283Z
 
 ---
 

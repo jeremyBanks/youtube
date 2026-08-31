@@ -66,14 +66,20 @@ Output is designed to give Claude all context needed to suggest categorizations.
     for (const video of season.videos) {
       const ids = [
         video.members,
-        video["removed members"],
-        video["members deleted"],
         video.public,
         video["public compilation"],
         video["public copy"],
         video.paid,
       ].filter((id): id is string => typeof id === "string");
 
+      const removedMembers = video["removed members"];
+      if (removedMembers) {
+        if (Array.isArray(removedMembers)) {
+          ids.push(...removedMembers);
+        } else {
+          ids.push(removedMembers);
+        }
+      }
       const publicParts = video["public parts"];
       if (publicParts) {
         if (Array.isArray(publicParts)) {

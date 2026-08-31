@@ -101,8 +101,7 @@ videos:
 - `public copy`: Re-uploaded public version
 - `public compilation`: Compilation including this content
 - `public parts`: Array of video IDs for split episodes
-- `removed members`: Previously available members version (now removed)
-- `members deleted`: Deleted members version
+- `removed members`: Members version(s) no longer available (one id, or a list)
 
 ## Dropout-Related Channels
 

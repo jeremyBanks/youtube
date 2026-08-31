@@ -20605,7 +20605,19 @@ collections:
 - dimension-20-live-complete-collection-season-2
 - dimension-20-live-gauntlet-at-the-garden
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Gauntlet at the Garden (Live From Madison Square Garden)
+releaseDate:   2025-05-13T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-live-gauntlet-at-the-garden/videos/gauntlet-at-the-garden-live-from-madison-square-garden'
+description:   |-
+  The Intrepid Heroes return to the Unsleeping City with this one-shot live from Madison Square Garden.
+
+  Photosensitivity Warning (Flashing lights) - [3:25-3:31, 5:04-5:09]
+itemId:        3605939
+collectionId:  1134595
+upNextIds:
+- 3605884
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:42:56.322Z
 
 ---
 
@@ -50334,7 +50346,14 @@ collections:
 - dimension-20-live-complete-collection-season-2
 - dimension-20-live-gauntlet-at-the-garden
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'The Roll of a Lifetime: How Dimension 20 Sold Out Madison Square Garden'
+releaseDate:   2025-05-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-live-gauntlet-at-the-garden/videos/the-roll-of-a-lifetime-how-dimension-20-sold-out-madison-square-garden'
+description:   The cast and crew of Dimension 20 reflect on their journey from The Dome to Madison Square Garden.
+itemId:        3605884
+collectionId:  1134595
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:43:08.588Z
 
 ---
 

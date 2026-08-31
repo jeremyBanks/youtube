@@ -10856,7 +10856,21 @@ collection:    um-actually-season-1
 collections:
 - um-actually-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Charybdis, Kill Lists, and Cookie Crisp'
+seasonNumber:  1
+episodeNumber: 15
+url:           'https://watch.dropout.tv/um-actually/season:1/videos/charybdis-kill-lists-and-cookie-crisp'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   'Matt Kirshen, Becca Scott, and Amy Vorpahl earn heart points and liken dragons to Spice Girls.'
+itemId:        406352
+collectionId:  41079
+upNextIds:
+- 406359
+- 407679
+- 413135
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:17:08.289Z
 
 ---
 
@@ -18184,7 +18198,21 @@ collection:    um-actually-season-1
 collections:
 - um-actually-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Father Figures, Frog Thor, Fusion Gems'
+seasonNumber:  1
+episodeNumber: 13
+url:           'https://watch.dropout.tv/um-actually/season:1/videos/father-figures-frog-thor-fusion-gems'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   'Hector Navarro, Ryan Martin, and Zach Kornfeld delve into Darth Vader and deleted scenes.'
+itemId:        396355
+collectionId:  41079
+upNextIds:
+- 404157
+- 406352
+- 406359
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:17:20.558Z
 
 ---
 
@@ -30290,7 +30318,21 @@ collection:    um-actually-season-1
 collections:
 - um-actually-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Mako, Mudbloods, Mephisto (with Jonathan Coulton)'
+seasonNumber:  1
+episodeNumber: 12
+url:           'https://watch.dropout.tv/um-actually/season:1/videos/mako-mudbloods-mephisto-with-jonathan-coulton'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   'Juggernaut and Filch have much in common according to Natalie Palamides, Demi Adejuyigbe, and Murph.'
+itemId:        390290
+collectionId:  41079
+upNextIds:
+- 396355
+- 404157
+- 406352
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:17:32.812Z
 
 ---
 
@@ -38179,7 +38221,21 @@ collection:    um-actually-season-1
 collections:
 - um-actually-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Robots, Rhydon, Staff of Ra'
+seasonNumber:  1
+episodeNumber: 14
+url:           'https://watch.dropout.tv/um-actually/season:1/videos/robots-rhydon-staff-of-ra'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   'Shane Crown, Zeke Nicholson, and Ally Beardsley sample space appetizers and make sense of mwahahas.'
+itemId:        404157
+collectionId:  41079
+upNextIds:
+- 406352
+- 406359
+- 407679
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:17:45.066Z
 
 ---
 
@@ -53890,7 +53946,17 @@ collection:    um-actually-season-1
 collections:
 - um-actually-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Um, Actually: Behind the Scenes'
+seasonNumber:  1
+episodeNumber: 33
+url:           'https://watch.dropout.tv/um-actually/season:1/videos/um-actually-behind-the-scenes'
+showTitle:     'Um, Actually'
+showSlug:      um-actually
+description:   What does it take to stump the nerdy? Mike Trapp and team pull back the curtain.
+itemId:        274567
+collectionId:  41079
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:17:57.294Z
 
 ---
 

@@ -88,6 +88,30 @@ export function canonicalCollection(collections: Array<string>): string {
 }
 
 /**
+ * Undoes the HTML escaping in page metadata. og:title carries entities
+ * (`&amp;`, `&#39;`) that would otherwise be stored verbatim and defeat any
+ * comparison against a curated title.
+ */
+function decodeEntities(text: string): string {
+  const named: Record<string, string> = {
+    amp: "&",
+    lt: "<",
+    gt: ">",
+    quot: '"',
+    apos: "'",
+    nbsp: " ",
+  };
+  return text.replace(
+    /&(?:#(\d+)|#[xX]([0-9a-fA-F]+)|([a-zA-Z]+));/g,
+    (whole, dec, hex, name) => {
+      if (dec) return String.fromCodePoint(Number(dec));
+      if (hex) return String.fromCodePoint(parseInt(hex, 16));
+      return named[name] ?? whole;
+    },
+  );
+}
+
+/**
  * Pulls the release date, season/episode numbers, and title out of an
  * episode page. Every field is optional: trailers have no episode number,
  * and a page that fails to parse just yields nothing.
@@ -112,7 +136,12 @@ export function parseEpisodePage(html: string): {
   }
   const title = html.match(/<meta property="og:title" content="([^"]+)"/);
   if (title) {
-    out.title = title[1]
+    // Titles arrive with a trailing site/season decoration, in more than one
+    // shape: plain episodes end " - Season 1 - Dropout", while Adventuring
+    // Party names the campaign it discusses, as
+    // "A Bouquet of Teeth - Season 22: All About \"Gladlands\"".
+    out.title = decodeEntities(title[1])
+      .replace(/ - Season \d+: .*$/, "")
       .replace(/ - Season \d+ - Dropout$/, "")
       .replace(/ - Dropout$/, "")
       .trim();

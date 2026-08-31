@@ -133,3 +133,20 @@ Deno.test("normalizeTitle strips numbering, punctuation, and case", async () => 
     throw new Error("apostrophe/ellipsis normalization diverged");
   }
 });
+
+Deno.test("parseEpisodePage decodes entities and strips season decoration", () => {
+  const ap = parseEpisodePage(
+    `<meta property="og:title" content="A Bouquet of Teeth - Season 22: All About &quot;Gladlands&quot; - Dropout">`,
+  );
+  if (ap.title !== "A Bouquet of Teeth") throw new Error(ap.title);
+  const amp = parseEpisodePage(
+    `<meta property="og:title" content="Fireside Chat with Brennan &amp; Friends (Part 1) - Season 2 - Dropout">`,
+  );
+  if (amp.title !== "Fireside Chat with Brennan & Friends (Part 1)") {
+    throw new Error(amp.title);
+  }
+  const apos = parseEpisodePage(
+    `<meta property="og:title" content="Boys&#39; Night! (Roll20Con) - Dropout">`,
+  );
+  if (apos.title !== "Boys' Night! (Roll20Con)") throw new Error(apos.title);
+});

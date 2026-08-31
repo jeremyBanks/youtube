@@ -398,11 +398,32 @@ export async function updatePlaylist(
 
   for (const entryId of entryIdsToRemove) {
     console.debug(`youtube.playlistItems.delete id: ${entryId}`);
-    await youtube.playlistItems.delete({
-      id: entryId,
-      auth,
-      key,
-    });
+    try {
+      await youtube.playlistItems.delete({
+        id: entryId,
+        auth,
+        key,
+      });
+    } catch (response: unknown) {
+      if (
+        typeof response === "object" && response !== null &&
+        "errors" in response &&
+        Array.isArray(response.errors) &&
+        response.errors[0]?.reason === "playlistItemNotFound"
+      ) {
+        // The entry is already gone. The listing these ids came from is
+        // eventually consistent, so it can name an item that no longer exists,
+        // and removal is idempotent: the state we wanted is the state we have.
+        // Aborting here would strand the playlist half-rebuilt, with some
+        // entries removed and no replacements inserted yet. Warn rather than
+        // stay silent, so a run where every delete misses is still visible.
+        console.warn(
+          `playlist entry ${entryId} was already gone; continuing.`,
+        );
+      } else {
+        throw response;
+      }
+    }
   }
 
   for (const [position, videoId] of videoIds.entries()) {

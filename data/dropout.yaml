@@ -81,7 +81,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         20/20 Vision
+seasonNumber:  3
+episodeNumber: 9
+releaseDate:   2021-01-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/20-20-vision'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Grant, Katie, and Lily compete to remember the longest year in history: 2020.'
+itemId:        1193568
+collectionId:  219745
+upNextIds:
+- 1193570
+- 1346898
+- 1357812
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:33:21.296Z
 
 ---
 
@@ -837,7 +852,22 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         A Game Most Changed
+seasonNumber:  5
+episodeNumber: 5
+releaseDate:   2023-01-09T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/a-game-most-changed'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Joey, Ross, and Blaine improvise a play in the style of William Shakespeare.'
+itemId:        2523414
+collectionId:  784936
+upNextIds:
+- 2528178
+- 2537100
+- 2538523
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:33:33.544Z
 
 ---
 
@@ -1255,7 +1285,21 @@ collections:
 - game-changer-new
 - game-changer-season-2
 lastmod:       2026-04-20T00:00:00.000Z
+title:         A Sponsored Episode
+seasonNumber:  2
+episodeNumber: 4
+releaseDate:   2020-04-10T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:2/videos/a-sponsored-episode'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Trapp, Rekha, and Grant compete in capitalism with Mad Men marketing and unexpected product pitches.'
+itemId:        738160
+collectionId:  147263
+upNextIds:
+- 738166
+- 738153
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:33:45.776Z
 
 ---
 
@@ -2672,7 +2716,30 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         As A Cucumber
+seasonNumber:  5
+episodeNumber: 6
+releaseDate:   2023-01-23T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/as-a-cucumber'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Katie, Brennan, and Carolyn try to stay cool under pressure.
+
+
+  Content Warning:
+  Flipped Eyelids (13:51 - 14:10)
+  Ophidiophobia (17:35 - 19:00)
+  Dentophobia (26:11 - 26:17)
+  Misophonia - Vomiting (26:17 - 26:25)
+itemId:        2537100
+collectionId:  784936
+upNextIds:
+- 2538523
+- 2561388
+- 2583811
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:33:58.009Z
 
 ---
 
@@ -3353,7 +3420,22 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Battle Royale Pt. 1
+seasonNumber:  5
+episodeNumber: 10
+releaseDate:   2023-04-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/battle-royale-pt-1'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Ten contestants. Two days to compete. One winner. This is Game Changer: Battle Royale.'
+itemId:        2643626
+collectionId:  784936
+upNextIds:
+- 2671656
+- 2671696
+- 2714134
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:34:10.270Z
 
 ---
 
@@ -3365,7 +3447,22 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Battle Royale Pt. 2
+seasonNumber:  5
+episodeNumber: 11
+releaseDate:   2023-04-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/battle-royale-pt-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'The teams merge, the contestants make a meal, and receive some gifts.'
+itemId:        2671656
+collectionId:  784936
+upNextIds:
+- 2671696
+- 2714134
+- 2724249
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:34:22.517Z
 
 ---
 
@@ -3377,7 +3474,21 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Battle Royale Pt. 3
+seasonNumber:  5
+episodeNumber: 12
+releaseDate:   2023-05-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/battle-royale-pt-3'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   The contestants compete in an ASMR challenge while those voted off compete in a challenge to get back in the game.
+itemId:        2671696
+collectionId:  784936
+upNextIds:
+- 2714134
+- 2724249
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:34:34.763Z
 
 ---
 
@@ -3389,7 +3500,20 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Battle Royale Pt. 4
+seasonNumber:  5
+episodeNumber: 13
+releaseDate:   2023-05-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/battle-royale-pt-4'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   It all comes down to this. The remaining contestants battle it out and a winner is crowned.
+itemId:        2714134
+collectionId:  784936
+upNextIds:
+- 2724249
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:34:46.993Z
 
 ---
 
@@ -3544,7 +3668,31 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Beat the Buzzer
+seasonNumber:  6
+episodeNumber: 7
+releaseDate:   2024-05-06T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/beat-the-buzzer'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Rekha, Becca, and Erika try to answer Sam's questions, but can't find the buzzers.
+
+  You can play “Survive the Maze” here: https://minigames.dropout.tv/game/survive-the-maze
+
+  You can play "Crack the CAPTCHA" here: https://minigames.dropout.tv/game/crack-the-captcha
+
+
+  Content Warning:
+  Potential Mot...
+itemId:        3201420
+collectionId:  961273
+upNextIds:
+- 3209998
+- 3228802
+- 3246401
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:34:59.292Z
 
 ---
 
@@ -4688,7 +4836,22 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Bingo
+seasonNumber:  6
+episodeNumber: 5
+releaseDate:   2024-04-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/bingo'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Katie, Brennan, and Raph play a game of bingo but with a twist.'
+itemId:        3151803
+collectionId:  961273
+upNextIds:
+- 3166891
+- 3179629
+- 3184157
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:35:11.543Z
 
 ---
 
@@ -6384,7 +6547,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         ChangerCon
+seasonNumber:  3
+episodeNumber: 3
+releaseDate:   2020-10-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/changercon'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Carolyn, Lily, and Tao have to put together impromptu cosplay, at varying levels of success.'
+itemId:        1126272
+collectionId:  219745
+upNextIds:
+- 1126273
+- 1126274
+- 1127014
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:35:23.794Z
 
 ---
 
@@ -7340,7 +7518,22 @@ collections:
 - game-changer-new
 - game-changer-season-8
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Count the Rice
+seasonNumber:  8
+episodeNumber: 5
+releaseDate:   2026-07-13T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/count-the-rice'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'It''s a race to the bottom for Zach, Jiavani, Anna, Demi, Catherine, Hannah, and Ify.'
+itemId:        4098302
+collectionId:  1494640
+upNextIds:
+- 4106141
+- 4117101
+- 4125516
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:32:20.011Z
 
 ---
 
@@ -7531,7 +7724,28 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Crowd Control
+seasonNumber:  7
+episodeNumber: 4
+releaseDate:   2025-05-19T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/crowd-control'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Jeff, Gianmarco, and Josh do some crowd work.
+
+  Content Warning: 
+  Visual of Skin Distension - [12:42-13:07]
+  Discussion of Addiction - [28:56-30:46]
+  Discussion of Assault - [31:01-32:31]
+itemId:        3633955
+collectionId:  1118956
+upNextIds:
+- 3640481
+- 3648951
+- 3659677
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:35:36.037Z
 
 ---
 
@@ -8164,7 +8378,29 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Deja Vu
+seasonNumber:  6
+episodeNumber: 6
+releaseDate:   2024-04-22T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/deja-vu'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  It's like deja vu all over again for Trapp, Ify, and Siobhan. 
+
+  You can play “Survive the Maze” here: https://minigames.dropout.tv/game/survive-the-maze
+
+
+  Content Warning:
+  Coulrophobia (Clown): [5:44-6:54, 15:42-16:38, 24:52-25:51, 32:12-32:47, 39:30-40:34]
+itemId:        3179629
+collectionId:  961273
+upNextIds:
+- 3184157
+- 3201420
+- 3209998
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:35:48.301Z
 
 ---
 
@@ -9044,7 +9280,22 @@ collections:
 - game-changer-season-2
 - the-best-of-grant-shaming-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Do I Hear $1?
+seasonNumber:  2
+episodeNumber: 2
+releaseDate:   2020-03-13T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:2/videos/do-i-hear-1'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Ally, Grant, and Raph learn their limits as they out-bid each other for awful opportunities.'
+itemId:        738152
+collectionId:  147263
+upNextIds:
+- 738156
+- 738160
+- 738166
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:36:00.584Z
 
 ---
 
@@ -9240,7 +9491,22 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Don't Cry
+seasonNumber:  4
+episodeNumber: 7
+releaseDate:   2022-01-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/don-t-cry'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Luke, Jess, and Rekha face the ultimate challenge: emotional vulnerability.'
+itemId:        1970026
+collectionId:  649038
+upNextIds:
+- 1994462
+- 2005931
+- 2028122
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:36:12.871Z
 
 ---
 
@@ -9361,7 +9627,28 @@ collections:
 - game-changer-new
 - game-changer-season-8
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Don't Wake Standards & Practices
+seasonNumber:  8
+episodeNumber: 1
+releaseDate:   2026-05-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/don-t-wake-standards-practices'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Jeremy, Lou, and Ally push the limits of what's legally acceptable for television.
+
+  Game Changer: Home Edition is available on Kickstarter until June 5th: https://gamechangergame.com 
+
+  Content Warning: 
+  Portrayal of Drug Use - [39:46-42:36]
+itemId:        3998348
+collectionId:  1494640
+upNextIds:
+- 4049580
+- 4055711
+- 4062568
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:32:32.280Z
 
 ---
 
@@ -9843,7 +10130,25 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Earnest-est
+seasonNumber:  7
+episodeNumber: 3
+releaseDate:   2025-05-05T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/earnest-est'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Ally, Zac, and Lisa try to be as sincere as possible.
+
+  Photosensitivity Warning (Flashing screen) - [42:09 - 42:12]
+itemId:        3605272
+collectionId:  1118956
+upNextIds:
+- 3605951
+- 3633955
+- 3640481
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:36:25.119Z
 
 ---
 
@@ -10256,7 +10561,26 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Escape The Greenroom
+seasonNumber:  5
+episodeNumber: 9
+releaseDate:   2023-03-06T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/escape-the-greenroom'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Brennan, Siobhan, and Lou must figure out how to escape the greenroom before time runs out.
+
+  Content Warning:
+  Flashing Lights (0:00 - 0:23)
+itemId:        2602674
+collectionId:  784936
+upNextIds:
+- 2623985
+- 2643626
+- 2671656
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:36:37.371Z
 
 ---
 
@@ -11329,7 +11653,22 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Filmed Before A Live Studio Audience
+seasonNumber:  4
+episodeNumber: 6
+releaseDate:   2022-01-10T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/filmed-before-a-live-studio-audience'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Becca Scott, Isabella Roland, and Erika Ishii give the audience what they want.'
+itemId:        1952317
+collectionId:  649038
+upNextIds:
+- 1970026
+- 1994462
+- 2005931
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:36:49.617Z
 
 ---
 
@@ -11775,7 +12114,29 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Fool's Gold
+seasonNumber:  7
+episodeNumber: 8
+releaseDate:   2025-07-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/fool-s-gold'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Trapp, Rekha, and Jordan invest in the next Dropout viral video.
+
+  Butthole your browser! Download the official Chrome browser extension to add Izzy’s buttlings to your Game Changer experience: http://minigames.dropout.tv/game/buttling-buddy
+
+  Content Warning: 
+  Self-Harm Joke - [15:33-15:35]
+  Simula...
+itemId:        3698369
+collectionId:  1118956
+upNextIds:
+- 3704631
+- 3717982
+- 3733455
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:37:01.873Z
 
 ---
 
@@ -12222,7 +12583,21 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         'Game Changer Season 4: Cut For Time'
+seasonNumber:  4
+episodeNumber: 11
+releaseDate:   2022-04-04T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/game-changer-season-4-cut-for-time'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Here are all the moments left on the cutting room floor from season 4 of Game Changer!
+
+  Content Warning: Flashing Lights (0:00 - 0:03), Emotional Contemplation of Loss (11:58)
+itemId:        2084510
+collectionId:  649038
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:37:14.144Z
 
 ---
 
@@ -12242,7 +12617,18 @@ collections:
 - game-changer-season-5
 - the-best-of-grant-shaming-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         'Game Changer Season 5: Cut For Time'
+seasonNumber:  5
+episodeNumber: 14
+releaseDate:   2023-05-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/game-changer-season-5-cut-for-time'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   Here are all the moments left on the cutting room floor from season 5 of Game Changer!
+itemId:        2724249
+collectionId:  784936
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:37:26.372Z
 
 ---
 
@@ -12288,7 +12674,20 @@ collections:
 - game-changer-new
 - game-changer-season-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Game of Prizes
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/game-changer/season:1/videos/game-of-prizes'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Players use points, paper, and precision to pile up as many potential prizes as possible.'
+itemId:        616304
+collectionId:  121094
+upNextIds:
+- 623253
+- 629314
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:37:38.629Z
 
 ---
 
@@ -13608,7 +14007,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Ham It Up
+seasonNumber:  3
+episodeNumber: 5
+releaseDate:   2020-11-13T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/ham-it-up'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Lou, Grant, & Christine test their acting skills against one of the greatest actors ever (seriously).'
+itemId:        1126274
+collectionId:  219745
+upNextIds:
+- 1127014
+- 1193567
+- 1193569
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:37:50.885Z
 
 ---
 
@@ -16586,7 +17000,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Is This Thing On?
+seasonNumber:  3
+episodeNumber: 4
+releaseDate:   2020-10-30T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/is-this-thing-on'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Rekha, Jess, and Raph take the most difficult challenge of all: reading Sam''s lips.'
+itemId:        1126273
+collectionId:  219745
+upNextIds:
+- 1126274
+- 1127014
+- 1193567
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:38:03.112Z
 
 ---
 
@@ -16982,7 +17411,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Jeopardy!
+seasonNumber:  3
+episodeNumber: 7
+releaseDate:   2020-12-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/jeopardy'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Brennan, Ify, and Ally play a simple, regular game of Jeopardy!'
+itemId:        1193567
+collectionId:  219745
+upNextIds:
+- 1193569
+- 1193568
+- 1193570
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:38:15.392Z
 
 ---
 
@@ -17292,7 +17736,22 @@ collections:
 - game-changer-new
 - game-changer-season-8
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Kangaroo Court
+seasonNumber:  8
+episodeNumber: 4
+releaseDate:   2026-06-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/kangaroo-court'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Brennan, Vic, and Aabria plead their case to a jury of their peers.'
+itemId:        4084432
+collectionId:  1494640
+upNextIds:
+- 4091096
+- 4098302
+- 4106141
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:32:44.533Z
 
 ---
 
@@ -17312,7 +17771,22 @@ collections:
 - game-changer-season-5
 - music-to-your-ears
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Karaoke Night
+seasonNumber:  5
+episodeNumber: 2
+releaseDate:   2022-11-28T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/karaoke-night'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Zach, Ross, and Rashawn make up songs on the fly with help from Aaron Wilson.'
+itemId:        2450401
+collectionId:  784936
+upNextIds:
+- 2459527
+- 2463034
+- 2463516
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:38:27.649Z
 
 ---
 
@@ -18564,7 +19038,21 @@ collections:
 - game-changer-new
 - game-changer-season-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Lie Detector
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/game-changer/season:1/videos/lie-detector-1'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'A mysterious machine subjects Brennan, Tao, and Jess to increasingly intimate questions.'
+itemId:        607458
+collectionId:  121094
+upNextIds:
+- 613509
+- 616304
+- 623253
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:38:39.902Z
 
 ---
 
@@ -18609,7 +19097,22 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Like My Coffee
+seasonNumber:  4
+episodeNumber: 2
+releaseDate:   2021-11-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/like-my-coffee'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Trapp, Grant, and Jess try to out innuendo each other.'
+itemId:        1855444
+collectionId:  649038
+upNextIds:
+- 1883830
+- 1909396
+- 1930719
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:38:52.131Z
 
 ---
 
@@ -18619,7 +19122,22 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Like My Coffee 2
+seasonNumber:  5
+episodeNumber: 3
+releaseDate:   2022-12-12T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/like-my-coffee-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Rekha, Grant, and Jess try to out innuendo each other.'
+itemId:        2463034
+collectionId:  784936
+upNextIds:
+- 2463516
+- 2468515
+- 2475541
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:39:04.399Z
 
 ---
 
@@ -18945,7 +19463,21 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Make It Fashion
+seasonNumber:  3
+episodeNumber: 13
+releaseDate:   2021-03-19T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/make-it-fashion'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Carolyn, Lily, and Katie compete to create the season''s hottest new fashions.'
+itemId:        1386379
+collectionId:  219745
+upNextIds:
+- 1418277
+- 1386380
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:39:16.638Z
 
 ---
 
@@ -18976,7 +19508,21 @@ collections:
 - game-changer-season-1
 - noise-boys
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Make Some Noise
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/game-changer/season:1/videos/make-some-noise'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Josh Ruben, Brennan Lee Mulligan, and Zac Oyama take turns sounding off.'
+itemId:        613509
+collectionId:  121094
+upNextIds:
+- 616304
+- 623253
+- 629314
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:39:28.893Z
 
 ---
 
@@ -20383,7 +20929,22 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Name A Number
+seasonNumber:  5
+episodeNumber: 4
+releaseDate:   2022-12-26T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/name-a-number'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Becca, Izzy, and Erika bet how many. Of what? That''s the question.'
+itemId:        2468515
+collectionId:  784936
+upNextIds:
+- 2475541
+- 2523414
+- 2528178
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:39:41.151Z
 
 ---
 
@@ -20484,7 +21045,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Never Have I Ever
+seasonNumber:  3
+episodeNumber: 6
+releaseDate:   2020-11-27T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/never-have-i-ever'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Lily, Trapp, Ryan, and Jess try to guess each others'' personal histories.'
+itemId:        1127014
+collectionId:  219745
+upNextIds:
+- 1193567
+- 1193569
+- 1193568
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:39:53.397Z
 
 ---
 
@@ -20588,7 +21164,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Next Slide Please
+seasonNumber:  3
+episodeNumber: 12
+releaseDate:   2021-03-05T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/next-slide-please'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Trapp, Rekha, and Ryan are tasked to give presentations - along with slideshows they''ve never seen.'
+itemId:        1357812
+collectionId:  219745
+upNextIds:
+- 1386379
+- 1418277
+- 1386380
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:40:05.666Z
 
 ---
 
@@ -20635,7 +21226,26 @@ collections:
 - game-changer-new
 - game-changer-season-8
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Night Shift
+seasonNumber:  8
+episodeNumber: 3
+releaseDate:   2026-06-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/night-shift'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Rekha, Siobhan, Lily, Katie, Grant, and Raph work around the clock.
+
+  Content Warning:
+  Comedic Bit Referencing Workplace Harassment - [24:43-25:05]
+itemId:        4069461
+collectionId:  1494640
+upNextIds:
+- 4077905
+- 4084432
+- 4091096
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:32:56.796Z
 
 ---
 
@@ -20862,7 +21472,22 @@ collections:
 - game-changer-season-4
 - noise-boys
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Noise Boys
+seasonNumber:  4
+episodeNumber: 3
+releaseDate:   2021-11-29T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/noise-boys'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Josh, Zac, and Brennan return to make some more noise.'
+itemId:        1883830
+collectionId:  649038
+upNextIds:
+- 1909396
+- 1930719
+- 1952317
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:40:17.892Z
 
 ---
 
@@ -20915,7 +21540,17 @@ collections:
 - game-changer-new
 - game-changer-season-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Nom Nom Nom
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/game-changer/season:1/videos/nom-nom-nom'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   Game time is meal time when contestants must feed a giant mouth exactly what it wants.
+itemId:        629314
+collectionId:  121094
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:40:30.121Z
 
 ---
 
@@ -21478,7 +22113,26 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         One and Done
+seasonNumber:  7
+episodeNumber: 6
+releaseDate:   2025-06-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/one-and-done'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Zach, Ele, and Demi have only one shot to get it right.
+
+  Content Warning:
+  Misophonia (Squelching and mouth sounds) - [13:37-13:47]
+itemId:        3666470
+collectionId:  1118956
+upNextIds:
+- 3673835
+- 3681529
+- 3691127
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:40:42.379Z
 
 ---
 
@@ -21542,7 +22196,27 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         One Year Later
+seasonNumber:  7
+episodeNumber: 1
+releaseDate:   2025-04-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/one-year-later'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Jacob, Vic, and Lou have one year to complete Sam's list of challenges.
+
+  Content Warning: 
+  Misphonia (Chewing, mouth sounds) - [13:24-13:33, 14:58-15:01]
+  Emetophobia (Gagging, disgust) - [13:43-14:25]
+itemId:        3584369
+collectionId:  1118956
+upNextIds:
+- 3593828
+- 3602878
+- 3604138
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:40:54.628Z
 
 ---
 
@@ -21827,7 +22501,29 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Outvoted
+seasonNumber:  7
+episodeNumber: 10
+releaseDate:   2025-08-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/outvoted'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Brennan, Aabria, Vic, Ally, and Demi campaign to be president of Dropout.
+
+  You can play "Cast Your Vote" here: https://minigames.dropout.tv/game/cast-your-vote
+
+  Content Warning: 
+  Misophonia (Fart noises) - [18:09-18:26]
+  Joke about Harm to Pets - [27:38-27:44, 29:08-29:12]
+itemId:        3741315
+collectionId:  1118956
+upNextIds:
+- 3749254
+- 3752648
+- 3752685
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:41:06.880Z
 
 ---
 
@@ -22187,7 +22883,22 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Pencils Down
+seasonNumber:  6
+episodeNumber: 4
+releaseDate:   2024-03-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/pencils-down'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Caldwell, Kiana, and Nathan draw, paint, and sculpt Sam''s brilliant ideas.'
+itemId:        3135412
+collectionId:  961273
+upNextIds:
+- 3135460
+- 3151803
+- 3166891
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:41:19.141Z
 
 ---
 
@@ -23235,7 +23946,25 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Race To the Bottom
+seasonNumber:  4
+episodeNumber: 8
+releaseDate:   2022-02-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/race-to-the-bottom'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Ally, Grant, and Lily degrade themselves for a safe full of money. 
+
+  Content Warning: Arachnophobia (13:45 - 14:10), Physical Violence (25:00-26:30)
+itemId:        1994462
+collectionId:  649038
+upNextIds:
+- 2005931
+- 2028122
+- 2084510
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:41:31.581Z
 
 ---
 
@@ -23417,7 +24146,21 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Ratfish (Part 1)
+seasonNumber:  6
+episodeNumber: 8
+releaseDate:   2024-06-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/ratfish-part-1'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Seven players choose to not be true to themselves, and to be someone else.'
+itemId:        3228802
+collectionId:  961273
+upNextIds:
+- 3246401
+- 3258926
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:41:43.813Z
 
 ---
 
@@ -23427,7 +24170,20 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Ratfish (Part 2)
+seasonNumber:  6
+episodeNumber: 9
+releaseDate:   2024-06-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/ratfish-part-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   The remaining players try to catch and reveal the Ratfish.
+itemId:        3246401
+collectionId:  961273
+upNextIds:
+- 3258926
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:41:56.061Z
 
 ---
 
@@ -24068,7 +24824,22 @@ collections:
 - game-changer-season-2
 - noise-boys
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Round 4
+seasonNumber:  2
+episodeNumber: 1
+releaseDate:   2020-02-28T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:2/videos/round-4'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Josh, Brennan, and Zac return for more noises, impressions, and competitive onomatopoeia.'
+itemId:        738138
+collectionId:  147263
+upNextIds:
+- 738152
+- 738156
+- 738160
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:42:08.313Z
 
 ---
 
@@ -24136,7 +24907,22 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Rulette
+seasonNumber:  7
+episodeNumber: 7
+releaseDate:   2025-06-30T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/rulette'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Oscar, Anna, and Jeremy must follow the rules they spin from the wheel.'
+itemId:        3681529
+collectionId:  1118956
+upNextIds:
+- 3691127
+- 3698369
+- 3704631
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:42:20.562Z
 
 ---
 
@@ -24146,7 +24932,25 @@ collections:
 - game-changer-new
 - game-changer-season-8
 lastmod:       2026-08-13T00:00:00.000Z
+title:         Rulette 2
+seasonNumber:  8
+episodeNumber: 2
+releaseDate:   2026-06-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:8/videos/rulette-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Josh, Anna, and Demi must follow the rules they spin from the big wheel.
+
+  Game Changer: Home Edition is available on Kickstarter until June 5th: https://gamechangergame.com
+itemId:        4055711
+collectionId:  1494640
+upNextIds:
+- 4062568
+- 4069461
+- 4077905
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:33:09.040Z
 
 ---
 
@@ -24295,7 +25099,25 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Sam Says
+seasonNumber:  4
+episodeNumber: 1
+releaseDate:   2021-11-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/sam-says'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Sam says Brennan Lee Mulligan, Isabella Roland, and Lou Wilson play a simple game of Sam Says.
+
+  Warning: realistic buttholes depicted between 14:30 and 15:45.
+itemId:        1837731
+collectionId:  649038
+upNextIds:
+- 1855444
+- 1883830
+- 1909396
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:42:32.800Z
 
 ---
 
@@ -24305,7 +25127,22 @@ collections:
 - game-changer-new
 - game-changer-season-5
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Sam Says 2
+seasonNumber:  5
+episodeNumber: 1
+releaseDate:   2022-11-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/sam-says-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Sam says Zac, Jacob, and Ally play a simple game of Sam Says.'
+itemId:        2429553
+collectionId:  784936
+upNextIds:
+- 2437362
+- 2450401
+- 2459527
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:42:45.109Z
 
 ---
 
@@ -24315,7 +25152,22 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Sam Says 3
+seasonNumber:  6
+episodeNumber: 3
+releaseDate:   2024-03-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/sam-says-3'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Vic, Jacob, and Lou play a simple game of Sam Says.'
+itemId:        3122202
+collectionId:  961273
+upNextIds:
+- 3125327
+- 3135412
+- 3135460
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:42:57.358Z
 
 ---
 
@@ -24325,7 +25177,26 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Samalamadingdong
+seasonNumber:  7
+episodeNumber: 11
+releaseDate:   2025-08-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/samalamadingdong'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Sam Reich finally gets a taste of his own medicine.
+
+  Content Warning: 
+  Arachnophobia (Visual of a large spider) - [2:49-2:51]
+itemId:        3752648
+collectionId:  1118956
+upNextIds:
+- 3752685
+- 3748533
+- 3749187
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:43:09.621Z
 
 ---
 
@@ -24750,7 +25621,22 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Second Place
+seasonNumber:  6
+episodeNumber: 1
+releaseDate:   2024-02-12T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/second-place'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Ally, Brennan, and Oscar battle it out to see who is the most mid.'
+itemId:        3080411
+collectionId:  961273
+upNextIds:
+- 3080755
+- 3097764
+- 3105700
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:43:21.929Z
 
 ---
 
@@ -24787,7 +25673,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Secret Samta
+seasonNumber:  3
+episodeNumber: 8
+releaseDate:   2020-12-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/secret-samta'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Grant, Ally, and Lily open some nice gifts from Sam.'
+itemId:        1193569
+collectionId:  219745
+upNextIds:
+- 1193568
+- 1193570
+- 1346898
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:43:34.209Z
 
 ---
 
@@ -24797,7 +25698,18 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         'Secret Samta 2: The Samta Clause'
+seasonNumber:  3
+episodeNumber: 15
+releaseDate:   2021-04-16T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/secret-samta-2-the-samta-clause'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Lily, Katie, and Raph open some presents (and punishments) from Samta Claus.'
+itemId:        1386380
+collectionId:  219745
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:43:46.476Z
 
 ---
 
@@ -24807,7 +25719,25 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Secret Samta 3
+seasonNumber:  4
+episodeNumber: 4
+releaseDate:   2021-12-13T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/secret-samta-3'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Raph, Tao, and Carolyn open some presents (and punishments) from Samta Claus.
+
+  Content Warning: If you have trypanophobia (fear of needles), you should skip past 17:10 - 18:35.
+itemId:        1909396
+collectionId:  649038
+upNextIds:
+- 1930719
+- 1952317
+- 1970026
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:43:58.732Z
 
 ---
 
@@ -24916,7 +25846,21 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Sell Outs
+seasonNumber:  3
+episodeNumber: 2
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/sell-outs'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Trapp, Grant, and Rekha return to showcase their sales pitch skills for Sam.'
+itemId:        1080018
+collectionId:  219745
+upNextIds:
+- 1126272
+- 1126273
+- 1126274
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:44:10.991Z
 
 ---
 
@@ -25592,7 +26536,22 @@ collections:
 - game-changer-new
 - game-changer-season-2
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Sleeper Agents
+seasonNumber:  2
+episodeNumber: 3
+releaseDate:   2020-03-27T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:2/videos/sleeper-agents'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Lily, Katie, & Tao hit the streets to activate secret spies and suspicious civilians.'
+itemId:        738156
+collectionId:  147263
+upNextIds:
+- 738160
+- 738166
+- 738153
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:44:23.233Z
 
 ---
 
@@ -27370,7 +28329,21 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Survivor (Part 1)
+seasonNumber:  4
+episodeNumber: 9
+releaseDate:   2022-02-21T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/survivor-part-1'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Seven castaways compete to knockout, watchout, and dropout their opponents for the grand prize.'
+itemId:        2005931
+collectionId:  649038
+upNextIds:
+- 2028122
+- 2084510
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:44:35.477Z
 
 ---
 
@@ -27381,7 +28354,20 @@ collections:
 - game-changer-new
 - game-changer-season-4
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Survivor (Part 2)
+seasonNumber:  4
+episodeNumber: 10
+releaseDate:   2022-03-07T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/survivor-part-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'The teams merge, alliances fracture, and a winner is declared.'
+itemId:        2028122
+collectionId:  649038
+upNextIds:
+- 2084510
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:44:47.760Z
 
 ---
 
@@ -27623,7 +28609,21 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Tell Us About Yourself
+seasonNumber:  3
+episodeNumber: 1
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/tell-us-about-yourself'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Sam wants Jess, Christine, and Alfred to tell him true facts about [REDACTED]'
+itemId:        1079952
+collectionId:  219745
+upNextIds:
+- 1080018
+- 1126272
+- 1126273
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:45:00.023Z
 
 ---
 
@@ -27922,7 +28922,22 @@ collections:
 - game-changer-season-5
 - the-best-of-grant-shaming-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Bachelor Pt. 1
+seasonNumber:  5
+episodeNumber: 7
+releaseDate:   2023-02-06T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/the-bachelor-pt-1'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   Grant O'Brien. Ten eligible suitors. One day to get to know them all. Whom will he pick?
+itemId:        2561388
+collectionId:  784936
+upNextIds:
+- 2583811
+- 2605116
+- 2602674
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:45:12.269Z
 
 ---
 
@@ -27933,7 +28948,22 @@ collections:
 - game-changer-season-5
 - the-best-of-grant-shaming-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Bachelor Pt. 2
+seasonNumber:  5
+episodeNumber: 8
+releaseDate:   2023-02-20T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:5/videos/the-bachelor-pt-2'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   Grant must choose which suitors will get the boot and whom will ultimately get the booty.
+itemId:        2583811
+collectionId:  784936
+upNextIds:
+- 2605116
+- 2602674
+- 2623985
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:45:24.525Z
 
 ---
 
@@ -28749,7 +29779,26 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Drinking Game
+seasonNumber:  7
+episodeNumber: 5
+releaseDate:   2025-06-02T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/the-drinking-game'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Players must figure out who the secret sober is or risk losing the jackpot to the traitor.
+
+  Content Warning:
+  Misophonia (Burping) - [15:25-15:27, 40:38-40:40]
+itemId:        3648951
+collectionId:  1118956
+upNextIds:
+- 3659677
+- 3666470
+- 3673835
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:45:36.834Z
 
 ---
 
@@ -28842,7 +29891,20 @@ collections:
 - game-changer-new
 - game-changer-season-2
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Everything Factory
+seasonNumber:  2
+episodeNumber: 5
+releaseDate:   2020-04-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:2/videos/the-everything-factory'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Jess Ross, Jess Clemons, and Katie Marovitch complete increasingly complicated orders on the clock.'
+itemId:        738166
+collectionId:  147263
+upNextIds:
+- 738153
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:45:49.080Z
 
 ---
 
@@ -30282,7 +31344,22 @@ collections:
 - game-changer-new
 - game-changer-season-6
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Newlyweb Game
+seasonNumber:  6
+episodeNumber: 2
+releaseDate:   2024-02-26T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:6/videos/the-newlyweb-game'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   Three lovely couples compete to see how intimately they know their partners' phone habits.
+itemId:        3097764
+collectionId:  961273
+upNextIds:
+- 3105700
+- 3122202
+- 3125327
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:46:01.335Z
 
 ---
 
@@ -30345,7 +31422,22 @@ collections:
 - game-changer-season-4
 - music-to-your-ears
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Official Cast Recording
+seasonNumber:  4
+episodeNumber: 5
+releaseDate:   2021-12-27T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:4/videos/the-official-cast-recording'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Zeke Nicholson, Zach Reino, Jess McKenna, and Scott Passarella make up a musical on the spot.'
+itemId:        1930719
+collectionId:  649038
+upNextIds:
+- 1952317
+- 1970026
+- 1994462
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:46:13.556Z
 
 ---
 
@@ -31406,7 +32498,22 @@ collections:
 - game-changer-season-3
 - noise-boys
 lastmod:       2026-04-20T00:00:00.000Z
+title:         The Substitute
+seasonNumber:  3
+episodeNumber: 10
+releaseDate:   2021-01-22T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/the-substitute'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   A new challenger approaches.
+itemId:        1193570
+collectionId:  219745
+upNextIds:
+- 1346898
+- 1357812
+- 1386379
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:46:25.805Z
 
 ---
 
@@ -32399,7 +33506,22 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Three For the Price of One
+seasonNumber:  3
+episodeNumber: 11
+releaseDate:   2021-02-19T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/three-for-the-price-of-one'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   The sponcon crew is back to increase brand awareness and eat something gross.
+itemId:        1346898
+collectionId:  219745
+upNextIds:
+- 1357812
+- 1386379
+- 1418277
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:46:38.051Z
 
 ---
 
@@ -32716,7 +33838,20 @@ collections:
 - game-changer-new
 - game-changer-season-3
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Tome of Terror
+seasonNumber:  3
+episodeNumber: 14
+releaseDate:   2021-04-02T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:3/videos/tome-of-terror'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Katie, Jess, and Raph tell the scariest tales ever told (on Game Changer).'
+itemId:        1418277
+collectionId:  219745
+upNextIds:
+- 1386380
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:46:50.280Z
 
 ---
 
@@ -36419,7 +37554,28 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Who Wants to Be Jacob Wysocki?
+seasonNumber:  7
+episodeNumber: 9
+releaseDate:   2025-07-28T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/who-wants-to-be'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Kimia, Jeremy, Jacob, and Kurt compete in the ultimate quiz show.
+
+  You can play “Power Up Jacob” here: https://minigames.dropout.tv/game/power-up-jacob
+
+  Content Warning: 
+  Hemophobia (Visual of blood) - [40:07-40:08]
+itemId:        3717982
+collectionId:  1118956
+upNextIds:
+- 3733455
+- 3741315
+- 3749254
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:47:02.723Z
 
 ---
 
@@ -36528,7 +37684,19 @@ collections:
 - game-changer-new
 - game-changer-season-1
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Whodunnit
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/game-changer/season:1/videos/whodunnit'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'When a cast member is murdered, the game''s other players take a stab at finding the killer.'
+itemId:        623253
+collectionId:  121094
+upNextIds:
+- 629314
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:47:14.957Z
 
 ---
 
@@ -37222,7 +38390,18 @@ collections:
 - game-changer-new
 - game-changer-season-2
 lastmod:       2026-04-20T00:00:00.000Z
+title:         Yes or No
+seasonNumber:  2
+episodeNumber: 6
+releaseDate:   2020-05-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:2/videos/yes-or-no'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   'Ally, Brennan, and Zac are asked a simple question, but is there a correct answer?'
+itemId:        738153
+collectionId:  147263
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:47:27.179Z
 
 ---
 
@@ -37494,7 +38673,25 @@ collections:
 - game-changer-new
 - game-changer-season-7
 lastmod:       2026-04-20T00:00:00.000Z
+title:         You-lympics
+seasonNumber:  7
+episodeNumber: 2
+releaseDate:   2025-04-21T00:00:00.000Z
+url:           'https://watch.dropout.tv/game-changer/season:7/videos/you-lympics'
+showTitle:     Game Changer
+showSlug:      game-changer
+description:   |-
+  Brennan, Ify, and Katie compete against themselves. 
+
+  You can play “Snowboard the Best” here: https://minigames.dropout.tv/game/snowboard-the-best
+itemId:        3602878
+collectionId:  1118956
+upNextIds:
+- 3604138
+- 3605272
+- 3605951
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:47:39.436Z
 
 ---
 

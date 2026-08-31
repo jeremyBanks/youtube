@@ -517,6 +517,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, the short-form
 
 [PLb-lLnSGfRVc]
 name = "Game Changer Animated (${ALL_SEASONS})"
+unlisted = true
 show = "Game Changer Animated"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Game Changer. ${MAYBE_MEMBERS_ONLY}
@@ -524,6 +525,7 @@ ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Game Changer. 
 
 [PLBZi5qxJGKrA]
 name = "Dimension 20 Animated (${ALL_SEASONS})"
+unlisted = true
 show = "Dimension 20 Animated"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Dimension 20. ${MAYBE_MEMBERS_ONLY}

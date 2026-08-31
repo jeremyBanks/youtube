@@ -81,6 +81,8 @@ const AggregateConfigToml = z.record(
     live: z.boolean().optional(),
     free: z.boolean().optional(),
     talkback: z.boolean().optional(),
+    /** publish it as unlisted rather than public, but keep updating it */
+    unlisted: z.boolean().optional(),
     skip: z.boolean().optional(),
   })
     .strict(),
@@ -97,6 +99,7 @@ type AggregateConfig = Array<{
   live?: boolean;
   free?: boolean;
   talkback?: boolean;
+  unlisted?: boolean;
   skip?: boolean;
 }>;
 
@@ -138,6 +141,7 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
         live: aggregateConfig.live,
         free: aggregateConfig.free,
         talkback: aggregateConfig.talkback,
+        unlisted: aggregateConfig.unlisted,
         skip: aggregateConfig.skip,
       });
     }

@@ -111,6 +111,8 @@ export const Playlist = z.object({
   name: z.string(),
   description: z.string(),
   playlistId: z.string().nullable(),
+  /** kept up to date, but not shown on the channel or in search */
+  unlisted: z.boolean().optional(),
   videos: z.record(VideoId, z.string()),
 });
 export type Playlist = z.TypeOf<typeof Playlist>;

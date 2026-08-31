@@ -179,7 +179,7 @@ export async function playlistMetadata(playlistId: string) {
   console.debug(`youtube.playlists.list...`);
   const response = await youtube.playlists.list({
     id: [playlistId],
-    part: ["snippet", "contentDetails"],
+    part: ["snippet", "contentDetails", "status"],
     key,
   });
 
@@ -359,7 +359,10 @@ export async function updatePlaylist(
   title: string,
   description: string,
   videoIds: Array<string>,
-  { dryRun = false }: { dryRun?: boolean } = {},
+  { dryRun = false, unlisted = false }: {
+    dryRun?: boolean;
+    unlisted?: boolean;
+  } = {},
 ) {
   // A dry run reads the live playlist and reports the same diff a real
   // publish would act on, then stops before touching anything. Reads need
@@ -385,28 +388,39 @@ export async function updatePlaylist(
   const titleChanged = existingMetadata.snippet?.title?.trim() !== title.trim();
   const descriptionChanged =
     existingMetadata.snippet?.description?.trim() !== description?.trim();
+  // A playlist we keep updating but do not want listed: same contents, same
+  // description, just not shown on the channel or in search.
+  const privacyStatus = unlisted ? "unlisted" : "public";
+  const privacyChanged = existingMetadata.status?.privacyStatus !==
+    privacyStatus;
 
-  if (titleChanged || descriptionChanged) {
+  if (titleChanged || descriptionChanged || privacyChanged) {
+    const what = [
+      titleChanged && "title",
+      descriptionChanged && "description",
+      privacyChanged && `privacy to ${privacyStatus}`,
+    ].filter(Boolean).join(", ");
     if (dryRun) {
-      console.info(
-        `  would update ${
-          [titleChanged && "title", descriptionChanged && "description"]
-            .filter(Boolean).join(" and ")
-        }`,
-      );
+      console.info(`  would update ${what}`);
     } else {
-      console.info("Updating metadata.");
+      console.info(`Updating ${what}.`);
 
       console.debug(`youtube.playlists.update id: ${playlistId}`);
+      // Both parts go every time: playlists.update replaces the parts it is
+      // given, so sending snippet alone would drop the privacy we just set,
+      // and sending status alone would blank the title.
       await youtube.playlists.update({
         auth,
         key,
-        part: ["snippet"],
+        part: ["snippet", "status"],
         requestBody: {
           id: playlistId,
           snippet: {
             title,
             description,
+          },
+          status: {
+            privacyStatus,
           },
         },
       });

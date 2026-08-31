@@ -197,6 +197,7 @@ async function main() {
       name: applyTemplates(config.name),
       description: applyTemplates(config.description ?? ""),
       playlistId: config.playlistId,
+      unlisted: config.unlisted,
       videos: Object.fromEntries(
         videoIds.map((id) => [id, videosById.get(id)?.title ?? "unknown"]),
       ),

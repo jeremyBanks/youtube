@@ -1,6 +1,53 @@
 slug:        a-court-of-fey-flowers-the-complete-experience
+title:       'Dimension 20: A Court of Fey & Flowers (The Complete Experience)'
+description: Every episode of A Court of Fey & Flowers and Adventuring Party - in order!
+episodes:
+- a-bloom-to-remember
+- i-demand-satisfaction
+- the-great-hart-hunt
+- a-diamond-doesn-t-know-they-re-a-diamond
+- duel-on-the-southern-lawn
+- was-your-father-a-meat-burglar
+- seaside-teatime
+- not-too-bad-for-a-kid-who-used-to-lick-walls
+- through-the-hedge-maze
+- trinkets-for-everybody
+- of-one-mind
+- knickolas-pterodactyl-hob
+- the-masquerade-ball
+- a-spill-of-pearls
+- the-rule-of-sneakery
+- doctor-green-hunter
+- theater-of-war
+- do-clothes-die
+- you-will-never-know-a-lonely-day-again
+- schrodinger-s-canon
+- the-wish-factory
+itemIds:
+- 2275194
+- 2276625
+- 2286849
+- 2284767
+- 2290747
+- 2290788
+- 2298017
+- 2290787
+- 2294942
+- 2288958
+- 2321616
+- 2294198
+- 2325563
+- 2329377
+- 2339146
+- 2338006
+- 2350844
+- 2338007
+- 2351101
+- 2356175
+- 2363218
 size:        21
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:15:50.364Z
 
 ---
 
@@ -64,8 +111,45 @@ scrapedAt:   2026-08-31T05:13:21.373Z
 ---
 
 slug:        a-message-from-the-ceo
+title:       A Message From the CEO
+description: Brennan Lee Mulligan plays a CEO on the worst day of his life in these satirical sketches that take aim at some of today's most newsworthy brands.
+seasons:
+- 1
+episodes:
+- tide-ceo-you-gotta-stop-eating-tide-pods
+- abc-ceo-no-more-racist-shows-america-has-spoken
+- venmo-ceo-we-re-fun
+- moviepass-ceo-please-don-t-cancel
+- tumblr-ceo-no-more-porn
+- deleted-scenes-tumblr-ceo
+- juul-ceo-no-more-advertising-to-kids
+- gofundme-ceo-we-could-use-a-few-fun-ones
+- tide-ceo-soap-isn-t-medicine
+- a-message-from-the-skype-ceo
+- a-message-from-the-skype-ceo-bonus-footage
+- oreo-ceo-stop-making-new-oreos
+- oreo-ceo-bonus-footage
+- hardware-store-ceo-we-re-rebranding-for-some-reason
+- hardware-ceo-bonus-footage
+itemIds:
+- 449220
+- 449238
+- 341205
+- 349878
+- 404907
+- 404913
+- 650139
+- 681811
+- 895382
+- 1400472
+- 1400471
+- 1468300
+- 1468301
+- 1533187
+- 1533204
 size:        15
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:18:06.379Z
 
 ---
 
@@ -190,14 +274,109 @@ scrapedAt:   2026-08-31T05:11:54.476Z
 ---
 
 slug:        all-nighters
+title:       All-Nighters
+description: 'The glistening fruits of our ill-conceived annual tradition of guerrilla video making. We do it for you, and you''re so welcome. Behold the bounty or whatever.'
+seasons:
+- 1
+episodes:
+- dodgeball
+- he-s-right-behind-me
+- spooning-all-nighter-2009
+- special-brownies-all-nighter-2009
+- crumbelievable-all-nighter-2009
+- voice-box-all-nighter-2009
+- harry-sax-all-nighter-2009
+- beef-gurewitch
+- write-that-down-all-nighter-2009
+- streeter-theeter-phantom-after-dark-all-nighter-2009
+- pee-quirks-all-nighter-2009
+- spin-the-bottle-all-nighter-2009
+- juke-all-nighter-2009
+- sam-s-secret-all-nighter-2011
+- beef-gurewitch-returns-all-nighter-2011
+- spitballing-all-nighter-2012
+- catdog-all-nighter-2012
+- alumni-with-david-young-and-sarah-schneider-all-nighter-2012
+- first-aid-all-nighter-2013
+- streeter-theeter-too-phantom-too-furious-all-nighter-2013
+- perpetual-motion-machine-all-nighter-2013
+- alphabetical-sketch-all-nighter-2013
+- robot-sex-toy-all-nighter-2013
+- should-we-make-another-contest-video-all-nighter-2014
+itemIds:
+- 449029
+- 449030
+- 233999
+- 234000
+- 234001
+- 234002
+- 234003
+- 449031
+- 234004
+- 234008
+- 234005
+- 234006
+- 234007
+- 234009
+- 234010
+- 234011
+- 234012
+- 263510
+- 234013
+- 234015
+- 234014
+- 263511
+- 263512
+- 234016
 size:        32
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:13:58.660Z
 
 ---
 
 slug:        amy-vorpahl-on-breaking-news
+title:       Amy Vorpahl on Breaking News
+episodes:
+- bummer-tornado-destroys-cool-jail
+- mom-disappointed-in-son-again
+- handshakes-for-men-hugs-for-women
+- spit-in-your-hand-to-honor-the-troops
+- a-cavalcade-of-carreys
+- bartending-improv-and-other-trends-of-2011
+- the-italian-backstreet-boys-biggest-hits
+- sorry-thats-my-genitals-theyre-exploding
+- i-m-horny-for-every-fictional-car
+- amy-vorpahl-simply-loses-her-mind
+- gengar-could-run-a-train-through-me
+- cap-n-jim-s-boating-tips
+- the-rise-of-count-dancula
+- no-news-party
+- true-facts-about-grant-anthony-o-brien-part-3
+- i-want-to-play-a-game
+- have-you-seen-my-pa
+- you-look-like-patrick-stewart-getting-electrocuted
+itemIds:
+- 595802
+- 722861
+- 863859
+- 864327
+- 1508111
+- 1551815
+- 1608990
+- 1666700
+- 1718972
+- 1808916
+- 1935099
+- 2006004
+- 2796659
+- 2922457
+- 2922503
+- 2922512
+- 3166843
+- 3310346
 size:        18
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:16:52.289Z
 
 ---
 
@@ -214,8 +393,37 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        badman
+title:       Badman
+description: 'Badman, the world''s most petulant detective and least competent caped crusader, annoys iconic foes and allies in this superhero parody (starring Pete Holmes).'
+seasons:
+- 1
+episodes:
+- badman-vanishing
+- badman-interrogation
+- badman-meets-the-riddler
+- badman-chooses-his-voice
+- badman-blows-his-cover
+- badman-meets-two-face
+- badman-vs-the-scarecrow
+- badman-can-t-stop-thinking-about-sex
+- badman-vs-the-penguin-with-patton-oswalt
+- badman-and-superman-team-up
+- the-outtakes
+itemIds:
+- 233606
+- 233607
+- 233608
+- 233609
+- 233610
+- 233611
+- 233612
+- 233613
+- 233615
+- 233616
+- 233617
 size:        11
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:22:13.165Z
 
 ---
 
@@ -329,8 +537,37 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        brennan-lee-mulligan-on-um-actually
+title:       'Brennan Lee Mulligan on Um, Actually'
+description: Because SOMEONE needs to tell you when to get in the comments.
+episodes:
+- tournament-of-champions-26-part-3
+- planet-of-the-apes-deadpool-alien
+- knights-of-the-old-republic-howard-the-duck-westworld
+- spongebob-lord-of-the-rings-the-twilight-zone
+- tolkien-gotham-scrooge-mcduck
+- animalities-maple-street-monsters-mutagen-ooze
+- wario-winnie-the-pooh-a-wrinkle-in-time
+- bob-s-burgers-logan-s-run-fans-vs-faves-pt-1
+- gotham-the-good-place-the-black-cauldron
+- all-stars
+- crew-battle
+- 1984-hunter-x-hunter-supernatural
+itemIds:
+- 4063731
+- 3496282
+- 2642060
+- 2249617
+- 1995201
+- 304520
+- 407679
+- 510448
+- 550694
+- 1110375
+- 1346897
+- 1893379
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:20:09.885Z
 
 ---
 
@@ -353,8 +590,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        canon-city-comic-club
+title:       Canon City Comic Club
+description: Tristan Cooper and Andrew Bridgman nerd out over the iconic comic books that fueled the fandom and inspired movie multiverses. (Formerly Back Issue Book Club)
+seasons:
+- 1
+episodes:
+- is-the-bestselling-comic-of-all-time-actually-any-good-x-men-1991
+- what-if-superman-was-communist-superman-red-son
+- harley-quinn-s-origin-story-is-messy-as-hell-batman-mad-love
+- the-emopunk-x-men-of-your-dreams-umbrella-academy
+- the-world-s-strangest-heroes-and-plotline-doom-patrol
+- what-would-thor-ragnarok-be-like-without-thor-planet-hulk
+- the-other-captain-marvel-shazam
+- law-and-order-b-p-r-d-hellboy-the-chained-coffin-and-others
+- teen-titans-battle-death-hormones-teen-titans-the-judas-contract
+- the-dark-future-of-the-marvel-universe-thanos-wins
+- are-you-there-zod-it-s-me-kara-supergirl-being-super
+- escape-from-inhumans-alcatraz-black-bolt
+- batman-vs-the-justice-league-justice-league-of-america-tower-of-babel
+- the-time-jean-grey-did-a-genocide-dark-phoenix-saga
+- alan-moore-s-emo-phase-saga-of-the-swamp-thing
+- spider-man-vs-climate-change-ends-of-the-earth
+- dawn-of-diana-legend-of-wonder-woman
+- a-modern-day-spider-man-story-ms-marvel
+- queen-of-the-monsters-west-coast-avengers
+- reading-the-world-s-longest-running-fantasy-comic-elfquest
+- catman-s-suicide-squad-secret-six
+- joker-s-bad-breakup-batman-endgame
+- if-venom-possessed-princess-mononoke-monstress
+itemIds:
+- 434082
+- 434114
+- 438603
+- 438568
+- 441150
+- 441731
+- 453804
+- 463877
+- 468873
+- 471523
+- 485185
+- 494879
+- 502263
+- 510367
+- 517639
+- 535880
+- 543604
+- 550789
+- 559603
+- 581387
+- 592148
+- 602915
+- 613548
 size:        23
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:15:00.797Z
 
 ---
 
@@ -447,6 +737,7 @@ firstSeen:   2026-08-31T04:55:27.499Z
 slug:        ch-miniseries
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:20:22.214Z
 
 ---
 
@@ -532,8 +823,38 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        coffin-run-the-complete-experience-1
+title:       'Dimension 20: Coffin Run (The Complete Experience)'
+episodes:
+- down-for-the-count
+- all-you-need-is-stab
+- attacks-on-the-tracks
+- bat-shit-mountain
+- let-s-kill-everybody
+- trope-queen
+- waylaid-by-werewolves
+- werewolf-sex
+- drac-s-moved-in-castle
+- hideo-kojima-mind-activate
+- feed-the-beast
+- let-s-do-shots
+- butthole-incorporated
+itemIds:
+- 2184748
+- 2186270
+- 2193115
+- 2194972
+- 2204385
+- 2209118
+- 2217812
+- 2211379
+- 2233567
+- 2235317
+- 2248958
+- 2249977
+- 2258487
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:18:43.448Z
 
 ---
 
@@ -2586,8 +2907,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        dip-your-toe-in
+title:       Dip Your Toe In
+description: Don't know where to start? Well here's every season premiere of Dimension 20.
+episodes:
+- episode-1
+- welcome-to-the-dark-side
+- start-spreading-the-news
+- sophomores-start
+- big-little-crimes
+- there-is-strength-in-sweetness
+- a-heaping-helping-of-trouble
+- the-fall-of-new-york-city
+- it-was-a-dark-and-stormy-night
+- the-chosen-ones
+- party-of-seven
+- the-club-fair
+- welcome-to-the-spacin-life-buddy
+- down-for-the-count
+- a-bloom-to-remember
+- the-times-of-shadow
+- the-seeds-of-conflict
+- queens-on-a-quest
+- the-big-guy
+- the-red-warren
+- summer-scaries
+- be-kind-rewind
+- a-meeting-of-misfits
+- princess-and-the-paramours
+itemIds:
+- 320562
+- 497564
+- 542204
+- 630456
+- 690029
+- 754146
+- 1077714
+- 1156912
+- 1443748
+- 1609042
+- 1695673
+- 1847233
+- 1954464
+- 2184748
+- 2275194
+- 2460086
+- 2708386
+- 2775655
+- 2839275
+- 2920064
+- 3035452
+- 3264804
+- 3362770
+- 3468728
 size:        30
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:14:11.065Z
 
 ---
 
@@ -2741,8 +3115,30 @@ scrapedAt:   2026-08-31T05:12:06.904Z
 ---
 
 slug:        don-t-hug-me-i-m-scared
+title:       Don't Hug Me I'm Scared
+description: 'Red Guy, Yellow Guy, and Green Duck learn about everything there is to know with help from some friendly talking objects.'
+seasons:
+- 1
+- 69
+episodes:
+- jobs
+- death
+- family
+- friendship
+- transport
+- electricity
+- bonus-content
+itemIds:
+- 3975833
+- 3979497
+- 3979496
+- 3979499
+- 3979498
+- 3979495
+- 3979553
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:18:55.746Z
 
 ---
 
@@ -2765,8 +3161,53 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        erotic-book-club
+title:       Erotic Book Club
+description: 'Things get steamy when Jessica Ross, Rekha Shankar, and their hilarious guests review the finest erotic literature the internet has to offer.'
+seasons:
+- 1
+episodes:
+- bound-by-my-stepbrother
+- phantom-s-liaison
+- a-viking-s-peace
+- hot-for-nessie
+- the-necromancer
+- 106-tbd
+- stress-treatment-a-sexy-lesbian-doctor-s-orders
+- alfie-the-horny-halfling
+- the-gritty-of-brotherly-love-a-philly-phan-phiction
+- superman-stole-my-panties
+- sharing-samantha-a-steamy-thanksgiving-party
+- barely-tamed-grizzly-a-sexy-shapeshifter-hunts-for-his-mate
+- cream-for-stepfather
+- teaching-a-first-timer-in-the-bathhouse
+- alfie-the-horny-halfling-pt-2
+- backstage-pleasures-first-tour-fresh-desires
+- i-m-gay-for-my-living-billionaire-jet-plane
+- the-secret-lives-of-women-a-man-s-astrological-guide-to-love-and-intimacy
+- my-five-bosses-a-steamy-silicon-valley-fantasy
+itemIds:
+- 406765
+- 415911
+- 419149
+- 433657
+- 441159
+- 441779
+- 460217
+- 470865
+- 493906
+- 501400
+- 510129
+- 517053
+- 533414
+- 542733
+- 549229
+- 558590
+- 578309
+- 589272
+- 601050
 size:        19
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:16:27.547Z
 
 ---
 
@@ -2868,8 +3309,39 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        full-benefits
+title:       Full Benefits
+description: 'After hours, co-workers Sarah and David secretly "dip" their "respective pens" into each other''s "corporate ink," so to "speak."'
+seasons:
+- 1
+episodes:
+- the-hook-up
+- ditching-dan
+- the-cover-up
+- the-reveal
+- the-decision
+- the-rumor
+- the-late-night
+- the-dinner-party
+- the-run-in
+- the-break-up
+- inside-jokes
+- the-kiss
+itemIds:
+- 233733
+- 233734
+- 233735
+- 233736
+- 233737
+- 449821
+- 233738
+- 233739
+- 449822
+- 462244
+- 233740
+- 449824
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:20:34.544Z
 
 ---
 
@@ -3090,8 +3562,28 @@ scrapedAt:   2026-08-31T05:07:58.905Z
 ---
 
 slug:        gastronauts
+title:       Gastronauts
+description: Culinary masterminds compete in a series of challenges created by the most unhinged comedians.
+seasons:
+- 1
+- 2
+episodes:
+- make-love-not-s-mores
+- slurpin-and-glurpin
+- i-find-that-very-a-peeling
+- tossed-salad-and-scrambled-eggs
+- clear-eyes-mouth-wide-can-t-lose
+- don-t-knock-it-till-you-drop-it
+itemIds:
+- 3380258
+- 3400007
+- 3414449
+- 3433092
+- 3445372
+- 3461096
 size:        16
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:17:41.733Z
 
 ---
 
@@ -3196,8 +3688,39 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        hello-my-name-is
+title:       'Hello, My Name Is'
+description: Pat Cassels interviews a cast of unscripted improv characters all played by comedian and wig addict Josh Ruben.
+seasons:
+- 1
+episodes:
+- hello-my-name-is-yeardly-tinsley
+- yeardly-tinsley-bonus-footage
+- executive-from-hell
+- executive-from-hell-bonus-footage
+- barq-dogg
+- barq-dogg-bonus-footage
+- gale-beggy
+- gale-beggy-bonus-footage
+- perry-martin
+- perry-martin-bonus-footage
+- duncan-donuss
+- duncan-donuss-bonus-footage
+itemIds:
+- 354762
+- 234036
+- 354763
+- 234037
+- 354765
+- 234038
+- 355109
+- 234039
+- 355097
+- 234040
+- 355130
+- 234041
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:20:46.882Z
 
 ---
 
@@ -3214,8 +3737,39 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        ify-nwadiwe-reigning-champion-on-um-actually
+title:       'Ify Nwadiwe (Reigning Champion) on Um, Actually'
+description: 'No one has won as many games of Um, Actually as Ify Nwadiwe - here''s the proof.'
+episodes:
+- ganondorf-gremlins-geography-of-westeros
+- mouth-of-sauron-saiyan-tails-bothan-spies
+- diablo-diddy-kong-dora-milaje
+- tournament-of-champions-pt-2
+- ranma-jojo-s-bizarre-adventure-fans-vs-faves-pt-4
+- homestar-runner-hearthstone-demolition-man
+- god-of-war-spirited-away-dance-dance-revolution
+- anime
+- switcheroo
+- crew-battle
+- catwoman-undertale-clayface
+- preschool-television
+- knights-of-the-old-republic-howard-the-duck-westworld
+itemIds:
+- 267431
+- 370692
+- 406359
+- 455296
+- 530187
+- 558589
+- 819389
+- 1080021
+- 1091468
+- 1346897
+- 1863327
+- 2293802
+- 2642060
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:19:08.091Z
 
 ---
 
@@ -3232,8 +3786,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        katie-marovitch-is-unbreakable
+title:       Katie Marovitch Is Unbreakable
+description: Can anything make Katie Marovitch break? Here's every appearance Katie has had on Breaking News for you to investigate.
+episodes:
+- no-laugh-newsroom-birthday-cake-bird-birth
+- freaky-lobsters-form-fashion-fad
+- you-missed-my-soccer-games-dad
+- disgruntled-sewer-men-demand-to-meet-ninja-turtles
+- man-turns-home-into-home-depot
+- webster-s-adds-new-word-for-friend-zoning-dermatologist
+- we-re-here-we-re-queer-we-re-deer
+- one-in-four-americans-attracted-to-their-sexy-cars
+- inspector-gadget-s-death-sparks-oscar-buzz
+- spaghetti-shack-shakes-up-galleria
+- big-brother-s-little-sister-cannot-be-turned-off
+- moose-running-loose-through-the-mall-of-america
+- delicious-kitchen-fire-caramelizes-dozens-of-people
+- news-anchor-wants-to-sell-you-his-smelly-car
+- a-report-from-the-collegehumor-office
+- millennials-are-ruining-our-trash
+- hot-dogs-are-made-from-people-but-still-tasty
+- all-hail-cello-chigglers
+- true-confessions-of-real-newscasters
+- sam-reich-launches-dropout-america
+- we-ve-actually-met-before
+- why-did-you-give-a-wedgie-to-malala
+- i-don-t-have-fingernails-because-i-actually-know-how-to-finger-a-woman
+- the-unbreakable-katie-marovitch
+itemIds:
+- 361417
+- 595835
+- 602095
+- 608092
+- 612775
+- 617733
+- 675478
+- 675483
+- 680563
+- 700429
+- 706699
+- 706709
+- 706738
+- 711824
+- 722193
+- 856838
+- 863829
+- 863929
+- 863932
+- 1741565
+- 1783752
+- 1855148
+- 1969258
+- 2733594
 size:        27
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:14:23.489Z
 
 ---
 
@@ -3445,8 +4052,61 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        misfits-and-magic-the-complete-experience
+title:       'Dimension 20: Misfits and Magic (The Complete Experience)'
+description: Every episode of Misfits and Magic and Adventuring Party - in order!
+episodes:
+- the-chosen-ones
+- in-a-room-with-people
+- class-conflict
+- true-facts-about-mcdonald-s-apple-pie
+- family-on-six
+- wet-fire-and-bad-news-brooms
+- we-re-the-heroes
+- that-s-the-squad
+- everybody-put-their-little-stank-on-it
+- misfits-magic-holiday-special
+- misfits-and-magic-live-at-gencon-2022
+- a-meeting-of-misfits
+- a-synecdoche-like-that-ass
+- magma-and-mingle
+- dream-small
+- a-place-of-knowing
+- you-had-a-bad-day
+- a-change-of-plan
+- the-funny-season
+- k-s-anatomy
+- how-to-save-a-life
+- code-crimson
+- i-m-a-good-boy
+- the-heart-of-weugan
+itemIds:
+- 1609042
+- 1635519
+- 1623028
+- 1637154
+- 1637153
+- 1647197
+- 1647198
+- 1666422
+- 1674350
+- 1915774
+- 2328758
+- 3362770
+- 3363343
+- 3369664
+- 3371063
+- 3379885
+- 3381032
+- 3388445
+- 3388524
+- 3398510
+- 3399789
+- 3405028
+- 3406339
+- 3412266
 size:        33
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:13:46.219Z
 
 ---
 
@@ -3463,14 +4123,94 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        music-to-your-ears
+title:       Music To Your Ears
+episodes:
+- the-official-cast-recording
+- karaoke-night
+- not-really-my-thing-by-harry-styles
+- yes-and-by-ed-sheeran-and-kelly-clarkson
+- the-musical-theater-episode
+- musicals-encore
+- if-i-had-the-money-that-bezos-had
+- mayor-of-flavortown
+- wish-i-had-a-portal-gun
+- bill-nye
+- livin-mask-free-music-video
+- honest-holiday-card-song
+itemIds:
+- 1930719
+- 2450401
+- 2829176
+- 2988525
+- 590289
+- 1110378
+- 1214474
+- 443083
+- 233643
+- 457793
+- 1098340
+- 449097
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:20:59.221Z
 
 ---
 
 slug:        new-releases
+title:       New Releases
+episodes:
+- smartyshorts-morning-showers-or-night-showers
+- a-deep-investment-in-frivolity-with-mica-burton
+- off-the-reservation
+- what-s-the-catch
+- you-cannot-be-you-without-yourself
+- success-with-consequences
+- hal-rose-said-to-watch-this-episode
+- behind-the-scenes-of-earwigs
+- smartyshorts-which-type-of-french-fry-is-the-best
+- dimension-20-toylight-trailer
+- hot-peasant-summer
+- earwigs
+- tax-the-tall
+- twelve-is-the-safest-number
+- the-don-hertzfeldt-collection-teaser
+- lesbian-applause-break
+- behind-the-scenes-of-noise-some-makes
+- smartyshorts-spoiler-etiquette
+- a-duty-of-care-with-dr-emily-friedman
+- winky-s-speakeasy
+- noise-some-makes
+- the-power-of-words
+- flower-flower-pants-on-fire
+- behind-the-scenes-of-count-the-rice
+itemIds:
+- 4150272
+- 4150267
+- 4150250
+- 4150331
+- 4150246
+- 4152791
+- 4148241
+- 4148245
+- 4148165
+- 4142194
+- 4142150
+- 4139884
+- 4139892
+- 4136503
+- 4126503
+- 4125513
+- 4125516
+- 4120266
+- 4120246
+- 4118860
+- 4117101
+- 4113147
+- 4112082
+- 4106141
 size:        26
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:14:48.372Z
 
 ---
 
@@ -3481,8 +4221,39 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        noise-boys
+title:       Noise Boys
+description: 'Time to make some noise with Josh Ruben, Zac Oyama, and Brennan Lee Mulligan!'
+episodes:
+- make-some-noise
+- round-4
+- the-substitute
+- noise-boys
+- hbo-s-a-game-of-rock-paper-scissors
+- the-long-awaited-meeting-between-times-new-roman-and-comic-sans
+- 100000-batmans
+- two-grizzled-fishermen-compare-scar-stories
+- a-cutscene-in-a-video-game-that-s-glitching-out
+- a-takedown-of-billionaires-rihanna-beyonce-and-oprah
+- the-noise-boys-ride-again
+- the-noise-boys-hype-each-other-up
+- noise-some-makes
+itemIds:
+- 613509
+- 738138
+- 1193570
+- 1883830
+- 2192276
+- 2374979
+- 2743191
+- 2982712
+- 3260782
+- 3533293
+- 3824859
+- 4004333
+- 4117101
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:19:20.412Z
 
 ---
 
@@ -3493,14 +4264,64 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        paranoia
+title:       Paranoia
+description: Ally Beardsley hosts this highly entertaining game show where contestants make a joint effort to weed out who among them is secretly stoned.
+seasons:
+- 1
+- 2
+episodes:
+- finals-week
+- parents-weekend
+- study-abroad
+- thanksgiving-at-home
+- homecoming-weekend
+- the-internship
+itemIds:
+- 491905
+- 501147
+- 501513
+- 508540
+- 512639
+- 513159
 size:        15
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:18:18.738Z
 
 ---
 
 slug:        parlor-room
+title:       Parlor Room
+description: Host Becca Scott gathers her comedian friends for a game night like no other. New episodes every other Thursday.
+seasons:
+- 1
+- 2
+episodes:
+- wavelength
+- cash-n-guns
+- monikers
+- betrayal-at-house-on-the-hill
+- taboo
+- thirsty-sword-lesbians
+- beyond-balderdash
+- cosmic-encounter
+- liar-s-dice-and-farkle
+- blood-on-the-clocktower
+- blood-on-the-clocktower-part-2
+itemIds:
+- 3601622
+- 3605265
+- 3632110
+- 3645045
+- 3665458
+- 3678680
+- 3698117
+- 3719185
+- 3737700
+- 3752025
+- 3752899
 size:        23
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:15:13.120Z
 
 ---
 
@@ -3517,8 +4338,26 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        play-it-by-ear
+title:       Play It By Ear
+description: A musical improv show where players craft an original musical out of thin air and silly prompts.
+seasons:
+- 1
+- 2
+episodes:
+- humpty-dumpty
+- the-muck-of-merkmere
+- whimsy-on-wheels
+- skyline-flight-314
+- space-rocks
+itemIds:
+- 2322520
+- 2329134
+- 2371762
+- 2405773
+- 2423709
 size:        16
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:17:54.021Z
 
 ---
 
@@ -3529,8 +4368,41 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        precious-plum
+title:       Precious Plum
+description: 'Precious Plum (Elaine Carroll) and her stage monster Mama (Josh Ruben) are hellbent for beauty pageant fame and free famburgers, in this Honey Boo Boo parody.'
+seasons:
+- 1
+episodes:
+- at-the-wheel
+- hitchhiking
+- tow-truck
+- a-bat-named-dog
+- a-good-sword
+- a-swim-in-shit
+- a-blood-drive
+- some-vampire-teeth
+- a-gator-fight
+- a-tormado
+- a-car-house
+- the-outtakes-1
+- the-best-of-precious-plum-w-plum-mama
+itemIds:
+- 331495
+- 331496
+- 331498
+- 234368
+- 331499
+- 234369
+- 331500
+- 234372
+- 234373
+- 234374
+- 234375
+- 234376
+- 355178
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:19:32.815Z
 
 ---
 
@@ -3541,14 +4413,95 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        sam-s-lesser-known-faves
+title:       Sam's Lesser-Known Faves
+episodes:
+- 7-way-meet-cute
+- are-we-ready-to-go-yet
+- sex-daddies-celebrate-father-s-day
+- if-adult-cereals-had-mascots
+- the-give-it-a-whirl-f-ckers
+- this-drink-is-embarrassing
+- this-thumbnail-is-a-butt
+- your-super-low-maintenance-friend
+- i-wore-make-up-for-a-week
+- don-t-look-at-the-comments
+- why-the-hell-is-he-her-boyfriend
+- the-guy-who-always-talks-about-hot-girls
+- minorities-don-t-look-alike
+- in-the-unlikely-event
+- don-t-make-me-hold-your-baby
+- are-my-lady-parts-normal
+- the-guy-who-has-never-seen-or-heard-of-anything
+- hostess-closes-down
+- all-r-a-floor
+- you-feelin-it
+- airplane-1
+- ricky-s-diary
+- sarah-s-birthday
+itemIds:
+- 263423
+- 233887
+- 449235
+- 233921
+- 233698
+- 233964
+- 233929
+- 233986
+- 233905
+- 449874
+- 233945
+- 263490
+- 509365
+- 233645
+- 233671
+- 449869
+- 233880
+- 263394
+- 449046
+- 233824
+- 449836
+- 233761
+- 233763
 size:        23
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:15:25.528Z
 
 ---
 
 slug:        see-plum-run
+title:       See Plum Run
+description: 'Hungry for power, fame, and anything else, Mama and Plum invade cushy New England with sights set on Plum''s most ambitious title yet: student body president.'
+seasons:
+- 1
+episodes:
+- dt-see-plum-run-101
+- we-want-dessert
+- don-t-make-me-move
+- the-cock-hog
+- the-rumor-mill
+- the-belly-button-ring
+- dirty-talk
+- the-kennedy-conspiracy
+- busted
+- see-plum-run-bloopers
+- see-plum-run-behind-the-scenes
+- see-plum-run-official-music-video
+itemIds:
+- 315813
+- 319447
+- 355102
+- 355107
+- 365636
+- 366266
+- 366275
+- 366802
+- 370268
+- 386807
+- 318484
+- 398915
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:21:11.560Z
 
 ---
 
@@ -3604,8 +4557,63 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        tablepop
+title:       TablePop
+description: 'Pop culture gets gamed when Brian Miller, Eli Yudin, Carolyn Page, and special guests grab dice and turn your favorite movies and TV shows into tabletop RPGs.'
+seasons:
+- 1
+episodes:
+- scooby-doo
+- friends
+- toy-story
+- spongebob-squarepants
+- the-office
+- stranger-things
+- the-bachelor
+- sonic
+- pro-wrestling
+- twilight
+- jurassic-park
+- ninja-turtle-villains
+- 90s-boy-bands
+- the-simpsons
+- saved-by-the-bell
+- shrek
+- jojo-s-bizarre-adventure
+- sex-and-the-city
+- breakfast-cereal-mascots
+- great-british-bake-off
+- mario-kart
+- minions
+- golden-girls
+- oops-all-batman
+itemIds:
+- 435180
+- 437470
+- 441106
+- 444403
+- 448199
+- 453825
+- 461015
+- 467334
+- 471057
+- 477618
+- 492856
+- 494978
+- 500643
+- 508579
+- 514713
+- 530847
+- 539835
+- 548672
+- 556997
+- 570154
+- 588874
+- 598717
+- 609767
+- 621437
 size:        27
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:14:35.966Z
 
 ---
 
@@ -3616,8 +4624,51 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        tales-from-the-closet
+title:       Tales From the Closet
+description: The crypt has nothing on the closet when Ally Beardsley and guests share terrifying tales from before they came out.
+seasons:
+- 1
+episodes:
+- locker-rooms
+- makeovers
+- straight-acting
+- tankini
+- beard
+- prom-1
+- just-a-phase
+- public-bathrooms
+- binary
+- pray-the-gay-away
+- flamboyant
+- conversion-therapy
+- i-m-trains
+- gold-star
+- sibling-intuition
+- late-bloomer
+- gay-bars
+- sex-scary-or-fun
+itemIds:
+- 406415
+- 412357
+- 416972
+- 433217
+- 440183
+- 446107
+- 459112
+- 469997
+- 499400
+- 505756
+- 513305
+- 522054
+- 538956
+- 546208
+- 555413
+- 565594
+- 587677
+- 597768
 size:        18
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:17:04.685Z
 
 ---
 
@@ -3628,8 +4679,47 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        the-best-of-grant-shaming-1
+title:       The Best of Grant-Shaming
+description: Grant Anthony O'Brien has suffered many indignities for content. Here are a lot of them.
+episodes:
+- true-facts-about-grant-anthony-o-brien
+- true-facts-about-grant-anthony-o-brien-part-2
+- true-facts-about-grant-anthony-o-brien-part-3
+- grant-o-brien-it-s-all-love-full-stand-up-set
+- the-bachelor-pt-1
+- the-bachelor-pt-2
+- grant-is-a-huge-klutz-idiot
+- grant-forgets-he-sucks
+- grant-vs-the-computer
+- bond-with-strangers-by-mocking-your-friends
+- grant-gets-a-beehive-stuck-on-his-head
+- a-report-from-the-collegehumor-office
+- grant-anthony-o-brien-has-a-mouthful-of-water
+- grant-uses-others-as-puppets-to-voice-his-opinions
+- do-i-hear-1
+- game-changer-season-5-cut-for-time
+- grant-o-brien-does-the-one-chip-challenge
+itemIds:
+- 680544
+- 1908444
+- 2922503
+- 446117
+- 2561388
+- 2583811
+- 233960
+- 340414
+- 429794
+- 233941
+- 233974
+- 722193
+- 1535966
+- 1666701
+- 738152
+- 2724249
+- 2747789
 size:        17
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:17:17.012Z
 
 ---
 
@@ -3640,8 +4730,53 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        the-collegehumor-podcast
+title:       The CollegeHumor Podcast
+description: 'Want to know how the funny gets made? Hear behind-the-scenes stories, play games, and read rejected sketches with your favorite CollegeHumor cast and crew.'
+seasons:
+- 1
+episodes:
+- this-turkey-is-a-total-tilf
+- little-shop-of-ass-eaters
+- death-is-undignified
+- archaeology-isn-t-sexy
+- secret-meat
+- this-smart-watch-tells-you-when-you-re-going-to-die
+- the-tinder-game
+- a-car-that-won-t-play-the-first-song-in-your-phone
+- revealing-too-much
+- uncanny-valerie
+- what-s-really-soap-at-your-nana-s-house
+- seeing-your-parents-age
+- gorilla-jury
+- grant-finds-true-love
+- are-you-sisters
+- the-petty-civil-rights-leader
+- confusing-headset-phone-call
+- stop-trying-to-punch-my-balls
+- date-with-dog-profile-person
+itemIds:
+- 404821
+- 410933
+- 416593
+- 430208
+- 437460
+- 443503
+- 452836
+- 466154
+- 472876
+- 494997
+- 502245
+- 510368
+- 516567
+- 533489
+- 541472
+- 550852
+- 559704
+- 581394
+- 592746
 size:        19
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:16:39.924Z
 
 ---
 
@@ -3652,14 +4787,73 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        the-don-hertzfeldt-collection
+title:       The Don Hertzfeldt Collection
+description: Experience the pioneering animated films of Don Hertzfeldt that merge absurdity with existentialism.
+seasons:
+- 1
+episodes:
+- lily-and-jim-student-film
+- billy-s-balloon-student-film
+- rejected
+- the-meaning-of-life
+- watching-grass-grow
+- wisdom-teeth
+- it-s-such-a-beautiful-day
+- world-of-tomorrow
+- world-of-tomorrow-episode-two-the-burden-of-other-people-s-thoughts
+- world-of-tomorrow-episode-three-the-absent-destinations-of-david-prime
+- on-memory
+- me
+itemIds:
+- 4126440
+- 4126429
+- 4126462
+- 4126423
+- 4126509
+- 4126450
+- 4126437
+- 4126459
+- 4126460
+- 4126461
+- 4126448
+- 4126443
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:21:23.899Z
 
 ---
 
 slug:        the-don-hertzfeldt-collection-new
+title:       The Don Hertzfeldt Collection
+episodes:
+- rejected
+- it-s-such-a-beautiful-day
+- world-of-tomorrow
+- world-of-tomorrow-episode-two-the-burden-of-other-people-s-thoughts
+- world-of-tomorrow-episode-three-the-absent-destinations-of-david-prime
+- me
+- on-memory
+- wisdom-teeth
+- the-meaning-of-life
+- watching-grass-grow
+- billy-s-balloon-student-film
+- lily-and-jim-student-film
+itemIds:
+- 4126462
+- 4126437
+- 4126459
+- 4126460
+- 4126461
+- 4126443
+- 4126448
+- 4126450
+- 4126423
+- 4126509
+- 4126429
+- 4126440
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:21:36.206Z
 
 ---
 
@@ -3670,8 +4864,49 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        the-rank-room
+title:       The Rank Room
+description: 'Host and philosopher Katie Marovitch recruits comedians to answer life’s important questions, like “What’s the sexiest way to die?”'
+seasons:
+- 1
+episodes:
+- what-is-the-best-invention-that-has-yet-to-be-invented
+- what-is-the-worst-marriage-proposal
+- what-is-the-coolest-accidental-death
+- what-is-the-best-thing-to-find-in-a-treasure-chest
+- what-is-the-worst-spell-a-witch-could-curse-you-with
+- what-is-the-worst-tattoo-to-get-1
+- what-is-the-coolest-way-to-quit-your-job-1
+- what-is-the-coolest-way-to-murder-someone-1
+- rr-109
+- what-is-the-best-funeral-you-can-imagine-1
+- what-is-the-coolest-way-to-break-out-of-jail-1
+- what-is-the-best-way-to-spend-lotto-money
+- what-is-the-best-way-to-spend-your-last-day-on-earth
+- what-is-the-worst-reason-for-getting-famous
+- what-is-the-best-way-to-improve-the-body
+- what-is-the-coolest-family-secret
+- behind-the-scenes
+itemIds:
+- 444791
+- 236412
+- 453599
+- 455182
+- 468101
+- 468157
+- 470846
+- 493194
+- 498696
+- 500561
+- 504277
+- 509298
+- 512085
+- 516069
+- 520111
+- 532018
+- 537563
 size:        17
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:17:29.439Z
 
 ---
 
@@ -3688,8 +4923,57 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        the-seven-the-complete-experience
+title:       'Dimension 20: The Seven (The Complete Experience)'
+description: Every episode of The Seven and Adventuring Party - in order!
+episodes:
+- party-of-seven
+- i-ve-never-been-in-a-campaign-that-is-hornier
+- in-or-out
+- how-was-this-all-one-episode
+- big-city-connections
+- schrodinger-s-double-slit
+- stone-temple-pile-up
+- party-fowl
+- reflections
+- everybody-s-in-freaking-mirrors
+- belles-of-the-baronies
+- you-did-a-murder-girl
+- bloppelganger-blitz
+- booger-lee-mulligan
+- and-another-thing
+- there-is-nothing-these-women-cannot-do
+- time-and-space
+- i-get-this-insight-into-how-your-nasty-little-mind-works
+- i-fucking-love-you
+- the-ending-of-all-things
+- have-you-heard-of-this-thing-called-talespire
+- we-all-felt-like-it-was-therapy-with-brennan-during-this-game
+itemIds:
+- 1695673
+- 1691655
+- 1700978
+- 1720959
+- 1737753
+- 1738106
+- 1750952
+- 1753121
+- 1761834
+- 1762666
+- 1770365
+- 1770765
+- 1782273
+- 1782037
+- 1797208
+- 1797683
+- 1807254
+- 1808377
+- 1820262
+- 1821857
+- 1830344
+- 1839842
 size:        22
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:15:37.955Z
 
 ---
 
@@ -3765,20 +5049,112 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        toonout
+title:       Toonout
+description: Original animated shorts created by independent artists. New episodes every other Tuesday.
+seasons:
+- 1
+episodes:
+- the-legend-of-legendarius
+- blink-twice-if-you-re-dead
+- the-burbank-beetleboy
+- wealwell-s-guide-to-reposed-standing
+- josh-s-deli
+- crossed-animals
+- my-husband
+- last-meal
+- boring-guys
+- winky-s-speakeasy
+- hot-peasant-summer
+- off-the-reservation
+itemIds:
+- 3977196
+- 3991668
+- 4004048
+- 4004351
+- 4045303
+- 4056742
+- 4070741
+- 4087821
+- 4100436
+- 4118860
+- 4142150
+- 4150250
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:21:48.551Z
 
 ---
 
 slug:        toonout-new
+title:       Toonout
+episodes:
+- off-the-reservation
+- hot-peasant-summer
+- boring-guys
+- crossed-animals
+- my-husband
+- last-meal
+- winky-s-speakeasy
+- the-legend-of-legendarius
+- the-burbank-beetleboy
+- blink-twice-if-you-re-dead
+- josh-s-deli
+- wealwell-s-guide-to-reposed-standing
+itemIds:
+- 4150250
+- 4142150
+- 4100436
+- 4056742
+- 4070741
+- 4087821
+- 4118860
+- 3977196
+- 4004048
+- 3991668
+- 4045303
+- 4004351
 size:        12
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:22:00.849Z
 
 ---
 
 slug:        total-forgiveness
+title:       Total Forgiveness
+description: 'Crippled with debt, Grant and Ally go head-to-head in this agonizing competition show to prove they''ll do ANYTHING to pay off their student loans.'
+seasons:
+- 1
+episodes:
+- leeches-and-ex-lovers
+- makeover-shock-collar
+- coffins-camping
+- stand-up-diaries
+- national-anthem-lock-in
+- needle-snake
+- drunk-bell
+- scam-flea-market
+- tattoo-performance-art
+- finale
+- reunion
+- grant-o-brien-it-s-all-love-full-stand-up-set
+- ally-beardsley-what-s-wrong-with-me-full-reading
+itemIds:
+- 316867
+- 431513
+- 432732
+- 438611
+- 439011
+- 439029
+- 453587
+- 459113
+- 466258
+- 469334
+- 498146
+- 446117
+- 446167
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:19:45.200Z
 
 ---
 
@@ -3859,14 +5235,75 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        troopers-the-web-series
+title:       'Troopers: The Web Series'
+description: 'The intergalactic exploits of Dreadlord Sinister''s deadly elite troopers Rich and Larry, in a space saga of epic incompetence. Guest starring Aubrey Plaza.'
+seasons:
+- 1
+- 2
+episodes:
+- forcefield
+- mind-trick
+- coffee-run
+- interrogation
+- the-swamp-planet
+- space-improv
+- rescue-mission
+- lost-in-translation
+- secret-message
+- who-to-kill
+itemIds:
+- 234387
+- 234388
+- 234389
+- 273835
+- 234390
+- 234391
+- 234392
+- 234393
+- 234394
+- 234395
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:16:02.693Z
 
 ---
 
 slug:        ultramechatron-team-go-1
+title:       Ultramechatron Team Go!
+description: 'The leader, the braniac, the fighter, & the party guy: Watch them work and live together inside a giant robot, saving the city from monsters.'
+seasons:
+- 1
+episodes:
+- ultramechatron-team-start
+- ultramechatron-team-party
+- ultramechatron-team-punch
+- alter-mechatron-ego
+- ultramechatron-team-drive
+- ultramechatron-team-clone
+- ultrawannabe-boshi-go
+- ultramechatron-team-love
+- galatax-go
+- ultramechatron-team-stop
+- ultramechatron-team-end
+- ultramechatron-team-go-behind-the-scenes
+- ultramechatron-team-go-bloopers
+itemIds:
+- 615754
+- 618385
+- 625286
+- 630394
+- 636220
+- 643001
+- 649181
+- 653831
+- 656560
+- 667480
+- 671929
+- 681012
+- 681699
 size:        13
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:19:57.552Z
 
 ---
 
@@ -4196,14 +5633,98 @@ firstSeen:   2026-08-31T04:55:27.499Z
 ---
 
 slug:        wtf-101
+title:       WTF 101
+description: 'Afternoon detention with Ms. Foxtrot leads to magical, educational, and extremely gross journeys.'
+seasons:
+- 1
+episodes:
+- test
+- self-experimentation
+- animal-sex
+- abandoned-military-ops
+- duels
+- cute-animals
+- party-fouls
+- hoaxes-and-scams
+- expeditions
+- crime-punishment
+- wtf-101-behind-the-scenes
+- the-parasite-you-probably-have
+- how-far-would-you-go-for-science
+- mating-isn-t-like-dating
+- remember-when-murder-was-legal
+itemIds:
+- 238349
+- 238352
+- 267309
+- 280625
+- 306405
+- 413307
+- 413317
+- 413312
+- 413315
+- 413320
+- 445278
+- 487006
+- 494019
+- 499108
+- 502650
 size:        15
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:18:31.089Z
 
 ---
 
 slug:        yay-or-nay
+title:       Yay or Nay
+description: 'For the final rulings on controversial questions about life and pop culture, we ask the most judgmental people we know: comedians.'
+seasons:
+- 1
+episodes:
+- is-north-korea-awesome
+- should-everyone-have-a-gun
+- should-you-go-to-college
+- are-video-games-art
+- game-of-thrones-season-3
+- is-kanye-west-a-genius
+- is-summer-the-worst-season
+- is-sex-good
+- josh-s-sex-outtakes
+- should-the-royal-family-be-abolished
+- do-aliens-exist
+- are-we-bored-of-zombies-yet
+- is-exercise-the-worst
+- is-god-made-up
+- is-the-internet-making-us-dumb
+- are-drugs-good-for-you
+- is-meat-murder
+- do-we-even-need-a-government
+- should-we-embrace-death
+- can-an-office-romance-work
+itemIds:
+- 263397
+- 450027
+- 450028
+- 450029
+- 450030
+- 450031
+- 450032
+- 450033
+- 450034
+- 450035
+- 450036
+- 450037
+- 450038
+- 450039
+- 450040
+- 450041
+- 450042
+- 450043
+- 450044
+- 450045
 size:        20
 firstSeen:   2026-08-31T04:55:27.499Z
+scrapedAt:   2026-08-31T05:16:15.085Z
 
 ---
 

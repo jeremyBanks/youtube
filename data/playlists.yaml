@@ -4082,6 +4082,7 @@ name:        Game Changer Animated (All Episodes and Extras)
 description: |
   0-hour playlist of 4 animated shorts spun out of Game Changer. 0 videos are free and 4 require a @Dropout channel membership on YouTube.
 playlistId:  PLb-lLnSGfRVc
+unlisted:    true
 videos:
   3FxTy9GsntY: Welcome to Mountport | Game Changer Animated | Ep. 3
   AbX7LOzYUpo: I'm Hungie | Game Changer Animated | Ep. 4
@@ -4096,6 +4097,7 @@ description: |
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 playlistId:  PLBZi5qxJGKrA
+unlisted:    true
 videos:
   bI-JhKt_FK0: Barry Syx Confronts Barry Nyne | Dimension 20 Animated | Ep. 16
   8vxb318J13A: Handy Andi CEO Crashes Out | Dimension 20 Animated | Ep. 17

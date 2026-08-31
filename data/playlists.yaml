@@ -704,8 +704,10 @@ videos:
 ---
 
 name:        Smartypants (All Episodes and Extras)
-description: |
+description: |-
   19-hour playlist of 37 episodes and 1 trailers from Smartypants. 1 video is free and 37 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/smartypants
 playlistId:  PLObfuAmZm9pC4WERMgeEPlWLuLXIidDjr
 videos:
   StK8PvLC-Qs: 'Smartypants Trailer [Dropout Exclusive]'

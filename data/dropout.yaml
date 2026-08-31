@@ -4264,7 +4264,21 @@ collection:    gods-of-food-season-1
 collections:
 - gods-of-food-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Anthony D''Anthony: The Motherfu*king Cheese Mogul'
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/gods-of-food/season:1/videos/anthony-d-anthony-the-motherfu-king-cheese-mogul'
+showTitle:     Gods of Food
+showSlug:      gods-of-food
+description:   Can a hot head famous for his $15 grilled cheese possibly add… even more cheese?
+itemId:        560275
+collectionId:  113761
+upNextIds:
+- 565197
+- 582498
+- 587025
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:15:39.902Z
 
 ---
 
@@ -9062,7 +9076,21 @@ collection:    gods-of-food-season-1
 collections:
 - gods-of-food-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Blynn: The Food Scientist'
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/gods-of-food/season:1/videos/blynn-the-food-scientist'
+showTitle:     Gods of Food
+showSlug:      gods-of-food
+description:   Wunderkind or mad scientist? Meet the molecular gastronomist who's put sentient dessert on the menu.
+itemId:        582498
+collectionId:  113761
+upNextIds:
+- 587025
+- 587690
+- 597775
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:15:52.189Z
 
 ---
 
@@ -21447,7 +21475,20 @@ collection:    gods-of-food-season-1
 collections:
 - gods-of-food-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Giuseppe Greco: The Sad Baker'
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/gods-of-food/season:1/videos/giuseppe-greco-the-sad-baker'
+showTitle:     Gods of Food
+showSlug:      gods-of-food
+description:   'Prigione Cafe''s elderly baker is a slave to tradition: no electricity, or joy, since 1819.'
+itemId:        587025
+collectionId:  113761
+upNextIds:
+- 587690
+- 597775
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:16:04.463Z
 
 ---
 
@@ -27846,7 +27887,19 @@ collection:    gods-of-food-season-1
 collections:
 - gods-of-food-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Julia Splenderpoot: The Farm-to-Table Extremist'
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/gods-of-food/season:1/videos/julia-splenderpoot-the-farm-to-table-extremist'
+showTitle:     Gods of Food
+showSlug:      gods-of-food
+description:   'Eat fresher than ever before: sprouts directly from the dirt, eggs straight from a hen''s cloaca.'
+itemId:        587690
+collectionId:  113761
+upNextIds:
+- 597775
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:16:16.761Z
 
 ---
 
@@ -29855,7 +29908,17 @@ collection:    gods-of-food-season-1
 collections:
 - gods-of-food-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Laura Sepanowitz: The Passionate Tastemaker'
+seasonNumber:  1
+episodeNumber: 6
+url:           'https://watch.dropout.tv/gods-of-food/season:1/videos/laura-sepanowitz-the-passionate-tastemaker'
+showTitle:     Gods of Food
+showSlug:      gods-of-food
+description:   'Her dishes are hot, sticky, spicy, and wet. Clothing is optional, kissing encouraged.'
+itemId:        597775
+collectionId:  113761
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:16:29.015Z
 
 ---
 
@@ -36009,7 +36072,21 @@ collection:    gods-of-food-season-1
 collections:
 - gods-of-food-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Pak Jang-mi: A Nun, Not A Chef'
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/gods-of-food/season:1/videos/pak-jang-mi-a-nun-not-a-chef'
+showTitle:     Gods of Food
+showSlug:      gods-of-food
+description:   Her food tastes like nothing -- but it teaches us everything.
+itemId:        565197
+collectionId:  113761
+upNextIds:
+- 582498
+- 587025
+- 587690
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:16:41.282Z
 
 ---
 

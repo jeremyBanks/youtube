@@ -160,6 +160,9 @@ const SeasonsCurationYaml = z.array(
         // indistinguishable from any other extra; this flag is what lets a
         // playlist select them without disturbing that placement.
         talkback: z.boolean().optional(),
+        // Explicitly links this entry to a watch.dropout.tv episode slug,
+        // for verify-dates cross-referencing when title matching can't.
+        dropout: z.string().optional(),
         trailer: z.string().optional(),
         episode: z.string().optional(),
         special: z.string().optional(),

@@ -118,3 +118,18 @@ Deno.test("parseEpisodePage extracts date, numbering, and title", () => {
     throw new Error(String(got.releaseDate));
   }
 });
+
+Deno.test("normalizeTitle strips numbering, punctuation, and case", async () => {
+  const { normalizeTitle } = await import("./src/bin/verify-dates.ts");
+  if (normalizeTitle("101. The Beginning Begins") !== "the beginning begins") {
+    throw new Error(normalizeTitle("101. The Beginning Begins"));
+  }
+  if (normalizeTitle("7a. Piss & Vinegar!") !== "piss and vinegar") {
+    throw new Error(normalizeTitle("7a. Piss & Vinegar!"));
+  }
+  if (
+    normalizeTitle("Don't Say It...") !== normalizeTitle("don t say it")
+  ) {
+    throw new Error("apostrophe/ellipsis normalization diverged");
+  }
+});

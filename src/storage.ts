@@ -107,6 +107,43 @@ let scanStorage:
 export const openScanStorage = () =>
   scanStorage ??= open("data/scans.yaml", Scan, ["channelId", "-scannedAt"]);
 
+/**
+ * A video looked up directly by id rather than seen while listing a
+ * channel, for ids that appear in the curation but on channels we do not
+ * scan — a public copy on a guest's own channel, say.
+ *
+ * Deliberately its own file, never data/videos.yaml. A scanned record
+ * carries a playlist-add timestamp and participates in deletion detection
+ * by being absent from a listing; neither is true here, and mixing the two
+ * would corrupt both. Nothing in the scan reads or writes this.
+ */
+export const ResolvedVideo = z.object({
+  videoId: VideoId,
+  /** the channel that hosts it, which we may not scan at all */
+  channelId: z.string().optional(),
+  channelTitle: z.string().optional(),
+  title: z.string().optional(),
+  /** when the file went live; there is no playlist-add time to have */
+  uploadedAt: z.date().optional(),
+  duration: z.number().optional(),
+  /** when this lookup was made */
+  resolvedAt: DateTime,
+  /** set when the API returned nothing: deleted, private, or never valid */
+  missing: z.boolean().optional(),
+});
+export type ResolvedVideo = z.TypeOf<typeof ResolvedVideo>;
+
+let resolvedVideoStorage:
+  | undefined
+  | Promise<Array<ResolvedVideo>> = undefined;
+
+export const openResolvedVideoStorage = () =>
+  resolvedVideoStorage ??= open(
+    "data/resolved-videos.yaml",
+    ResolvedVideo,
+    ["videoId"],
+  );
+
 export const Playlist = z.object({
   name: z.string(),
   description: z.string(),

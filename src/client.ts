@@ -518,6 +518,34 @@ export async function updatePlaylist(
   }
 }
 
+/**
+ * Fetches metadata for specific video ids, without scanning any channel.
+ * Fifty ids per request, one quota unit each, which is how a handful of
+ * videos named only in the curation can be resolved without paying for a
+ * complete scan of somebody else's channel.
+ */
+export async function videosById(
+  videoIds: Array<string>,
+): Promise<Map<string, googleapis.youtube_v3.Schema$Video>> {
+  const { youtube, key } = await getClientAndKey();
+  const results = new Map<string, googleapis.youtube_v3.Schema$Video>();
+  for (let i = 0; i < videoIds.length; i += 50) {
+    const batch = videoIds.slice(i, i + 50);
+    console.debug(`youtube.videos.list (${batch.length} ids)...`);
+    const response = await youtube.videos.list({
+      id: batch,
+      part: ["snippet", "contentDetails"],
+      key,
+    });
+    for (const video of response.data.items ?? []) {
+      if (video.id) {
+        results.set(video.id, video);
+      }
+    }
+  }
+  return results;
+}
+
 export type VideoDetails = {
   description: string;
   tags?: string[];

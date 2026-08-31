@@ -1,6 +1,10 @@
 import { upsert } from "../common.ts";
 import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
-import { openPlaylistsStorage, openVideoStorage } from "../storage.ts";
+import {
+  openPlaylistsStorage,
+  openResolvedVideoStorage,
+  openVideoStorage,
+} from "../storage.ts";
 
 if (import.meta.main) {
   await main();
@@ -15,6 +19,19 @@ async function main() {
   const playlists = await openPlaylistsStorage();
 
   const videosById = new Map(allVideos.map((video) => [video.videoId, video]));
+
+  // Ids looked up directly, for videos on channels we do not scan — a public
+  // copy on a guest's own channel, say. These only ever fill gaps: a scanned
+  // record always wins, since it carries the richer metadata.
+  const resolvedById = new Map(
+    (await openResolvedVideoStorage())
+      .filter((video) => !video.missing)
+      .map((video) => [video.videoId, video]),
+  );
+  const detailsFor = (
+    videoId: string,
+  ): { title?: string; duration?: number } | undefined =>
+    videosById.get(videoId) ?? resolvedById.get(videoId);
 
   playlists.length = 0;
 
@@ -137,10 +154,10 @@ async function main() {
     }
 
     for (const videoId of videoIds) {
-      const videoDetails = videosById.get(videoId);
-      if (videoDetails) {
-        videos[videoId] = videoDetails.title!;
-        durationSeconds += videoDetails.duration;
+      const videoDetails = detailsFor(videoId);
+      if (videoDetails?.title) {
+        videos[videoId] = videoDetails.title;
+        durationSeconds += videoDetails.duration ?? 0;
       } else {
         videos[videoId] = "unknown";
         console.error(
@@ -199,7 +216,7 @@ async function main() {
       playlistId: config.playlistId,
       unlisted: config.unlisted,
       videos: Object.fromEntries(
-        videoIds.map((id) => [id, videosById.get(id)?.title ?? "unknown"]),
+        videoIds.map((id) => [id, detailsFor(id)?.title ?? "unknown"]),
       ),
     }, (record) => record.playlistId === config.playlistId);
   }

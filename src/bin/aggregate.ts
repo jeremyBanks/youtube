@@ -1,10 +1,97 @@
 import { upsert } from "../common.ts";
 import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
+import * as yaml from "../yaml.ts";
+import { normalizeTitle } from "../common.ts";
+import { DropoutCollection, DropoutEpisode } from "../storage.ts";
 import {
   openPlaylistsStorage,
   openResolvedVideoStorage,
   openVideoStorage,
 } from "../storage.ts";
+
+/** YouTube's own cap on a playlist description. */
+const DESCRIPTION_LIMIT = 5000;
+
+/**
+ * Appends the covered collections to a description, one url per line after
+ * a blank line, dropping links from the end rather than exceeding YouTube's
+ * limit and having the update rejected.
+ */
+function withDropoutLinks(
+  description: string,
+  urls: Array<string>,
+): string {
+  // The templates end in a newline of their own; trim it so the links are
+  // separated by exactly one blank line rather than two.
+  const body = description.replace(/\s+$/, "");
+  let kept = [...urls];
+  while (kept.length) {
+    const combined = `${body}\n\n${kept.join("\n")}`;
+    if (combined.length <= DESCRIPTION_LIMIT) {
+      return combined;
+    }
+    kept = kept.slice(0, -1);
+  }
+  return description;
+}
+
+/** The subset of a curation entry needed to join it to Dropout's index. */
+type CuratedEntry = {
+  dropout?: string;
+  episode?: string;
+  special?: string;
+  trailer?: string;
+  bts?: string;
+  animation?: string;
+};
+
+/**
+ * Every Dropout collection this playlist covers completely, as urls, with
+ * any collection that is a subset of another dropped so only the largest
+ * remain. A collection counts only when every one of its episodes has been
+ * scraped and is present in the playlist: a partial match would misleadingly
+ * promise the whole show.
+ */
+function coveredCollectionUrls(
+  included: Array<CuratedEntry>,
+  episodesByCollection: Map<string, Array<DropoutEpisode>>,
+): Array<string> {
+  const titles = new Set<string>();
+  const slugs = new Set<string>();
+  for (const entry of included) {
+    if (entry.dropout) {
+      slugs.add(entry.dropout);
+    }
+    const title = entry.episode ?? entry.special ?? entry.trailer ??
+      entry.bts ?? entry.animation;
+    if (title) {
+      titles.add(normalizeTitle(title));
+    }
+  }
+
+  const covered = new Map<string, Set<string>>();
+  for (const [slug, episodes] of episodesByCollection) {
+    if (episodes.length === 0 || episodes.some((e) => !e.title)) {
+      continue; // never scraped in full, so coverage cannot be judged
+    }
+    const all = episodes.every((e) =>
+      slugs.has(e.slug) || titles.has(normalizeTitle(e.title!))
+    );
+    if (all) {
+      covered.set(slug, new Set(episodes.map((e) => e.slug)));
+    }
+  }
+
+  const maximal = [...covered].filter(([slug, episodes]) =>
+    ![...covered].some(([other, otherEpisodes]) =>
+      other !== slug &&
+      [...episodes].every((e) => otherEpisodes.has(e)) &&
+      // On an exact tie keep one of them, chosen deterministically.
+      (episodes.size < otherEpisodes.size || other < slug)
+    )
+  );
+  return maximal.map(([slug]) => `https://watch.dropout.tv/${slug}`).sort();
+}
 
 if (import.meta.main) {
   await main();
@@ -23,6 +110,29 @@ async function main() {
   // Ids looked up directly, for videos on channels we do not scan — a public
   // copy on a guest's own channel, say. These only ever fill gaps: a scanned
   // record always wins, since it carries the richer metadata.
+  // Dropout's own catalogue, read plainly rather than opened as storage:
+  // aggregate must never write to the scan's files.
+  const dropoutEpisodes = DropoutEpisode.array().parse(
+    await yaml.load("./data/dropout.yaml"),
+  ).filter((episode) => !episode.removedBefore);
+  const dropoutCollections = DropoutCollection.array().parse(
+    await yaml.load("./data/dropout-collections.yaml"),
+  ).filter((collection) => !collection.removedBefore);
+  // Collections are named at show level; an episode lists the season-level
+  // slugs it appears under, so a season belongs to its show.
+  const episodesByCollection = new Map<string, Array<DropoutEpisode>>();
+  for (const collection of dropoutCollections) {
+    const season = `${collection.slug}-season-`;
+    episodesByCollection.set(
+      collection.slug,
+      dropoutEpisodes.filter((episode) =>
+        episode.collections.some((c) =>
+          c === collection.slug || c.startsWith(season)
+        )
+      ),
+    );
+  }
+
   const resolvedById = new Map(
     (await openResolvedVideoStorage())
       .filter((video) => !video.missing)
@@ -41,6 +151,9 @@ async function main() {
     }
 
     const videoIds: Array<string> = [];
+    // The curation entries this playlist actually took, for working out
+    // which Dropout collections it covers in full.
+    const included: Array<CuratedEntry> = [];
 
     let seasonCount = 0;
     let episodeCount = 0;
@@ -106,6 +219,7 @@ async function main() {
         }
         if (episode.public) {
           videoIds.push(episode.public);
+          included.push(episode);
           freeCount += 1;
           if (episode.episode || episode.special) {
             episodeCount += 1;
@@ -115,6 +229,7 @@ async function main() {
         } else if (episode["public parts"]) {
           freeCount += 1;
           videoIds.push(...episode["public parts"]);
+          included.push(episode);
           if (episode.episode || episode.special) {
             episodeCount += 1;
           } else {
@@ -123,6 +238,7 @@ async function main() {
         } else if (episode.members) {
           if (!config.free) {
             videoIds.push(episode.members);
+            included.push(episode);
             membersCount += 1;
             if (episode.episode || episode.special) {
               episodeCount += 1;
@@ -133,6 +249,7 @@ async function main() {
         } else if (episode.paid) {
           if (!config.free) {
             videoIds.push(episode.paid);
+            included.push(episode);
             paidCount += 1;
             if (episode.episode || episode.special) {
               episodeCount += 1;
@@ -212,7 +329,10 @@ async function main() {
 
     upsert(playlists, {
       name: applyTemplates(config.name),
-      description: applyTemplates(config.description ?? ""),
+      description: withDropoutLinks(
+        applyTemplates(config.description ?? ""),
+        coveredCollectionUrls(included, episodesByCollection),
+      ),
       playlistId: config.playlistId,
       unlisted: config.unlisted,
       videos: Object.fromEntries(

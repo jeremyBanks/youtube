@@ -2,23 +2,10 @@ import { parseArgs } from "@std/cli";
 import * as yaml from "../yaml.ts";
 import { DropoutCollection, DropoutEpisode } from "../storage.ts";
 import { getDropoutConfig, getSeasonsCuration } from "../config.ts";
+import { normalizeTitle } from "../common.ts";
 
 if (import.meta.main) {
   await main();
-}
-
-/**
- * Reduces a title to a form that survives the differences between our
- * curation titles and Dropout's og:title values: episode-number prefixes,
- * punctuation, ampersands, and casing.
- */
-export function normalizeTitle(title: string): string {
-  return title
-    .replace(/^\d+[ab]?\.\s*/, "") // "101. Title" / "7a. Title" prefixes
-    .replace(/&/g, " and ")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
 }
 
 /**

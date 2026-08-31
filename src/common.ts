@@ -200,3 +200,17 @@ export const retryWithBackoff = async <T>(
   }
   throw lastError;
 };
+
+/**
+ * Reduces a title to a form that survives the differences between our
+ * curation titles and Dropout's own: episode-number prefixes, punctuation,
+ * ampersands, and casing. Shared by the tools that join the two catalogues.
+ */
+export function normalizeTitle(title: string): string {
+  return title
+    .replace(/^\d+[ab]?\.\s*/, "") // "101. Title" / "7a. Title" prefixes
+    .replace(/&/g, " and ")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}

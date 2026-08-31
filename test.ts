@@ -122,7 +122,7 @@ Deno.test("parseEpisodePage extracts date, numbering, and title", () => {
 });
 
 Deno.test("normalizeTitle strips numbering, punctuation, and case", async () => {
-  const { normalizeTitle } = await import("./src/bin/verify-dates.ts");
+  const { normalizeTitle } = await import("./src/common.ts");
   if (normalizeTitle("101. The Beginning Begins") !== "the beginning begins") {
     throw new Error(normalizeTitle("101. The Beginning Begins"));
   }

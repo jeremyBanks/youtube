@@ -22027,7 +22027,21 @@ collections:
 - ch-shorts-season-15
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'If Google Was a Guy: Quarantine Edition (Part 3)'
+seasonNumber:  15
+episodeNumber: 8
+releaseDate:   2020-12-31T00:00:00.000Z
+url:           'https://watch.dropout.tv/ch-shorts/season:15/videos/google-is-a-guy-quarantine-edition-3'
+showTitle:     CH Shorts
+showSlug:      ch-shorts
+description:   Brian Huskey and CollegeHumor alumni are back for another quarantine-inspired "Google Is a Guy."
+itemId:        1241946
+collectionId:  136879
+upNextIds:
+- 1505044
+- 1556827
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:34:11.141Z
 
 ---
 
@@ -26056,7 +26070,21 @@ collection:    if-google-was-a-guy-1-season-1
 collections:
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         If Google Was a Guy Pt. 1
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-pt-1'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   Everything you ask Google sounds a lot more stupid when you actually ask Google.
+itemId:        449923
+collectionId:  51872
+upNextIds:
+- 449924
+- 449925
+- 233632
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:34:23.899Z
 
 ---
 
@@ -26065,7 +26093,21 @@ collection:    if-google-was-a-guy-1-season-1
 collections:
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         If Google Was a Guy Pt. 2
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-pt-2'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   'You asked for it, you got it! Google is back to answer more of your sort-of questions.'
+itemId:        449924
+collectionId:  51872
+upNextIds:
+- 449925
+- 233632
+- 233633
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:34:36.364Z
 
 ---
 
@@ -26074,7 +26116,20 @@ collection:    if-google-was-a-guy-1-season-1
 collections:
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         If Google Was a Guy Pt. 3
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-pt-3'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   So judgy.
+itemId:        449925
+collectionId:  51872
+upNextIds:
+- 233632
+- 233633
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:34:49.645Z
 
 ---
 
@@ -26084,7 +26139,19 @@ collections:
 - ch-miniseries-season-103
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         If Google Was a Guy | Pt. 4
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-pt-4'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   'If these searches sound dumb, that''s because they are.'
+itemId:        233632
+collectionId:  51872
+upNextIds:
+- 233633
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:35:02.096Z
 
 ---
 
@@ -26094,7 +26161,17 @@ collections:
 - ch-miniseries-season-103
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         If Google Was a Guy | Pt. 5
+seasonNumber:  1
+episodeNumber: 5
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-pt-5'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   'These searches may be dumb, but don''t forget who wrote them. You did... for the 5th time.'
+itemId:        233633
+collectionId:  51872
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:35:14.596Z
 
 ---
 
@@ -26103,7 +26180,22 @@ collection:    if-google-was-a-guy-1-season-1
 collections:
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'If Google Was a Guy: Quarantine Edition'
+seasonNumber:  1
+episodeNumber: 6
+releaseDate:   2020-04-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-quarantine-edition'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   'Made entirely from the safety of home, Brian Huskey and CollegeHumor alumni star in this animated installment of the "If Google Was a Guy" series.'
+itemId:        812151
+collectionId:  51872
+upNextIds:
+- 906842
+- 1241946
+- 449923
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:35:27.313Z
 
 ---
 
@@ -26112,7 +26204,22 @@ collection:    if-google-was-a-guy-1-season-1
 collections:
 - if-google-was-a-guy-1-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'If Google Was a Guy: Quarantine Edition (Part 2)'
+seasonNumber:  1
+episodeNumber: 7
+releaseDate:   2020-06-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/if-google-was-a-guy-1/season:1/videos/if-google-was-a-guy-quarantine-edition-part-2'
+showTitle:     If Google Was A Guy
+showSlug:      if-google-was-a-guy-1
+description:   Brian Huskey and CollegeHumor alumni are back for another quarantine-inspired animated "Google Is a Guy."
+itemId:        906842
+collectionId:  51872
+upNextIds:
+- 1241946
+- 449923
+- 449924
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T14:35:39.802Z
 
 ---
 

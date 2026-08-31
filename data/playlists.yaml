@@ -449,8 +449,10 @@ videos:
 ---
 
 name:        Make Some Noise (All Episodes and Extras)
-description: |
+description: |-
   30-hour playlist of 55 episodes and 3 trailers from 5 seasons of Make Some Noise, a game show where talented contestants compete to bring to life silly prompts. 7 videos are free and 51 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/brennan-being-pedantic-on-make-some-noise
 playlistId:  PLObfuAmZm9pDfm8v_2TRx_GSpV43ABXsM
 videos:
   V-6m0jW0X9E: 'The Sound Impression Challenge | Game Changer [Full Episode]'

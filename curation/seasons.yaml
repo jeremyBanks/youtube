@@ -392,6 +392,9 @@ videos:
     public: 7TaGYFCmVS8
     members: 7rjNgO-YUos
     published: 2020-10-28
+  - bts: Making Chungledown Bim (with Lou Wilson)
+    members: z2sn-g35LFQ
+    published: 2021-01-08
 
 ---
 
@@ -1952,7 +1955,7 @@ videos:
   - episode: 501. Sam Says 2
     members: KMfHWKFC4os
     published: 2022-11-14
-  - bts: Same Says 2
+  - bts: Sam Says 2
     members: yJeeU5KNT8s
     published: 2022-11-22
   - episode: 502. Karaoke Night
@@ -4492,10 +4495,22 @@ show: Dimension 20
 cast: Intrepid Heroes
 world: The Unsleeping City
 live: true
-videos: []
-# TODO: Add episode when video IDs are available from scan
-# - episode: Gauntlet at the Garden (Live From Madison Square Garden)
-#   published: 2025-01-24
+videos:
+  - trailer: Gauntlet at the Garden Teaser
+    public: MW7DoXFdfYo
+    published: 2025-05-06
+  - trailer: Gauntlet at the Garden VOD Trailer
+    public: 1XCF7Unqj5M
+    published: 2025-05-06
+  - bts: "Behind the Scenes of Dimension 20 Live: Gauntlet at the Garden"
+    public: 5NJn2UAbUDM
+    published: 2025-05-07
+  - bts: The Roll of a Lifetime
+    members: NbgUrPTnaIg
+    published: 2025-05-07
+  - episode: 1. Gauntlet at the Garden (Live From Madison Square Garden)
+    members: sjNrwGKRPw4
+    published: 2025-05-13
 
 ---
 
@@ -4689,51 +4704,99 @@ videos:
   - episode: 201. Zeke Aaron McKinley
     members: BSGUZzqE4nY
     published: 2024-11-08
+  - bts: Zeke Aaron McKinley
+    members: X_AmULvWUUA
+    published: 2024-11-08
   - episode: 202. Hayes Steele
     members: z4gOthfqCWk
     published: 2024-11-23
+  - bts: Hayes Steele
+    members: 6Iqx13qCu4o
+    published: 2024-11-22
   - episode: 203. Jukebox
     members: g4PHthu4SAY
+    published: 2024-12-06
+  - bts: Jukebox
+    members: OfoySuLJ-ro
     published: 2024-12-06
   - episode: 204. Fourth Witch
     members: uG4kNSQXhlE
     published: 2024-12-20
+  - bts: Fourth Witch
+    members: VBouoyvBICU
+    published: 2024-12-20
   - episode: 205. Barbara and Bill
     members: E7v8rNXM06Y
     published: 2025-01-03
+  - bts: Barbara and Bill
+    members: lam-pWnbaTo
+    published: 2025-01-13
   - episode: 206. Ta'Tania Jackson
     members: wNQGE6lKtRg
+    published: 2025-01-17
+  - bts: Ta'Tania Jackson
+    members: gjPMy8D07Z0
     published: 2025-01-17
   - episode: 207. Phoenix
     members: _WZrmFhy0fc
     published: 2025-01-31
+  - bts: Phoenix
+    members: WR30f3tBYeE
+    published: 2025-01-31
   - episode: 208. David Hoyle Jr.
     members: ZbRBEsrkheU
+    published: 2025-02-14
+  - bts: David Hoyle Jr.
+    members: 7C7_1ouQX6c
     published: 2025-02-14
   - episode: 209. Steffi Pops
     members: L34s9gXm5oQ
     published: 2025-02-28
+  - bts: Steffi Pops
+    members: 5oGewH1jyeQ
+    published: 2025-02-28
   - episode: 210. Dan Wesley Sharron
     members: hJkD4X5-kyA
     published: 2025-03-13
+  - bts: Dan Wesley Sharron
+    members: gxQCyZ216Js
+    published: 2025-03-14
   - episode: 211. Skyler DeMarco
     members: XyXEGfaSa8g
     published: 2025-03-27
+  - bts: Skyler DeMarco
+    members: OdDYK8zMK3w
+    published: 2025-03-28
   - episode: 212. Jordache
     members: gXLaRZss7Pc
     published: 2025-04-10
+  - bts: Jordache
+    members: tZa_dHzhbYI
+    published: 2025-04-11
   - episode: 213. Claude McCaw
     members: AKRok4Yn0ws
     published: 2025-04-24
+  - bts: Claude McCaw
+    members: tjkFZmV9I6A
+    published: 2025-04-25
   - episode: 214. Greg and Charlotte Excitement
     members: O4nsy1djsE0
     published: 2025-05-08
+  - bts: Greg and Charlotte Excitement
+    members: jCk-RINdgr0
+    published: 2025-05-09
   - episode: 215. Candice
     members: 3t1nQxTCsFk
     published: 2025-05-22
+  - bts: Candice
+    members: Cqe3Oqq-pAQ
+    published: 2025-05-23
   - episode: 216. Spencer
     members: ZjQu_eFTnaU
     published: 2025-06-05
+  - bts: Spencer
+    members: 3487WEszg28
+    published: 2025-06-06
   - bts: Very Important Bonus Content (Season 2)
     members: Z9Ral3wVDaY
     published: 2025-06-19
@@ -4893,37 +4956,70 @@ videos:
   - episode: 701. One Year Later
     members: SRGxg0tE1Oo
     published: 2025-02-17
+  - bts: One Year Later
+    members: GXXqrLStVzQ
+    published: 2025-04-14
   - episode: 702. You-lympics
     members: wmxWsQmwuWY
     published: 2025-02-24
+  - bts: You-lympics
+    members: _AjxvNtbVOc
+    published: 2025-04-28
   - episode: 703. Earnest-est
     members: cWzefwxs0sI
     published: 2025-03-03
+  - bts: Earnest-est
+    members: AoLbSM0g7fM
+    published: 2025-05-12
   - episode: 704. Crowd Control
     members: yHJ42w2Gllk
     published: 2025-03-10
+  - bts: Crowd Control
+    members: BewzkIpecaI
+    published: 2025-05-28
   - episode: 705. The Drinking Game
     public: HqYTmgzZEiA
     members: "-OrTSllpPk0"
     published: 2025-03-17
+  - bts: The Drinking Game
+    members: SuSWqYssPVU
+    published: 2025-06-09
   - episode: 706. One and Done
     members: vibRAubBIMs
     published: 2025-03-24
+  - bts: One and Done
+    members: laQOz-JGHs8
+    published: 2025-06-23
   - episode: 707. Rulette
     members: 1VDoyBxUZ0U
     published: 2025-03-31
+  - bts: Rulette
+    members: lZ17BynEOmY
+    published: 2025-07-07
   - episode: 708. Fool's Gold
     members: YrJZjAae1WM
     published: 2025-04-07
+  - bts: Fool's Gold
+    members: vL9gjjfGDhY
+    published: 2025-07-21
   - episode: 709. Who Wants to Be Jacob Wysocki?
     members: CgIoTygQoY4
     published: 2025-04-14
+  - bts: Who Wants to Be Jacob Wysocki?
+    members: id_ymrQNNtw
+    published: 2025-08-04
   - episode: 710. Outvoted
     members: r1gxAM6IWis
     published: 2025-04-28
+  - bts: Outvoted
+    members: nc4Y-Z6enuw
+    published: 2025-08-18
   - episode: 711. Samalamadingdong
     members: OxPaVj1pXVA
     published: 2025-05-12
+  - bts: Samalamadingdong (Brennan's Revenge)
+    members: 6O3OlfthmJ0
+    published: 2025-09-01
 
 ---
 
@@ -4941,24 +5037,45 @@ videos:
   - episode: 801. Don't Wake Standards & Practices
     members: UQIKTuHaddQ
     published: 2026-05-18
+  - bts: Don't Wake Standards & Practices
+    members: 75TmeiEFdes
+    published: 2026-05-25
   - episode: 802. Rulette 2
     members: qH2de47BKro
     published: 2026-06-01
+  - bts: Rulette 2
+    members: XuH-y-T6Dgg
+    published: 2026-06-08
   - episode: 803. Night Shift
     members: BpWAm6eLhM0
     published: 2026-06-15
+  - bts: Night Shift
+    members: aj9vViq0cvE
+    published: 2026-06-22
   - episode: 804. Kangaroo Court
     members: ODgOM6C4nLs
     published: 2026-06-29
+  - bts: Kangaroo Court
+    members: ZI8JvraAPg0
+    published: 2026-07-06
   - episode: 805. Count the Rice
     members: 3l1sl9uNvdI
     published: 2026-07-13
+  - bts: Count the Rice
+    members: pV3w64IzsbE
+    published: 2026-07-20
   - episode: 806. Noise Some Makes
     members: 4P8A6WB1sUk
     published: 2026-07-27
+  - bts: Noise Some Makes
+    members: Jsr4LkHE-hg
+    published: 2026-08-03
   - episode: 807. Earwigs
     members: uAib-p8rkNg
     published: 2026-08-10
+  - bts: Earwigs
+    members: 2MMKAM9lMJw
+    published: 2026-08-17
   - episode: 808. What's the Catch
     members: usDf3kkaWFs
     published: 2026-08-24
@@ -5170,50 +5287,95 @@ videos:
   - episode: 301. Mother Hot Dog
     members: zFNTdKaOCqQ
     published: 2025-12-05
+  - bts: Mother Hot Dog
+    members: wb5e0jFY5WA
+    published: 2025-12-05
   - episode: 302. Boris Tarshkokan
     public: fUdDXJw5wok
     members: cxV7NiFAMDU
     published: 2025-12-19
+  - bts: Boris Tarshkokan
+    members: yaZb4rk3_FM
+    published: 2025-12-19
   - episode: 303. Archimedes and Ollie
     members: pUhcWQPb57I
+    published: 2026-01-02
+  - bts: Archimedes and Ollie
+    members: MEWYQhAdF6k
     published: 2026-01-02
   - episode: 304. Fanoli
     public: VRPaXiznKB8
     members: KD1Mk7Obz0Q
     published: 2026-01-16
+  - bts: Fanoli
+    members: h6Kg1MlzqsE
+    published: 2026-01-16
   - episode: 305. Sudzo
     members: z842PQLhktY
+    published: 2026-01-30
+  - bts: Sudzo
+    members: WYso1lRtLyE
     published: 2026-01-30
   - episode: 306. Zinnia
     members: BlJhVKACqnE
     published: 2026-02-13
+  - bts: Zinnia
+    members: alTZYGURnlo
+    published: 2026-02-13
   - episode: 307. Oops Lil Fart
     members: InzV72ZlGgg
+    published: 2026-02-27
+  - bts: Oops Lil Fart
+    members: xVkDVBSfb6c
     published: 2026-02-27
   - episode: 308. Lil Huffy
     members: H5kZTgotFdU
     published: 2026-03-12
+  - bts: Lil Huffy
+    members: Z2_WQ_Zs9w0
+    published: 2026-03-13
   - episode: 309. Stop
     members: n0Rh_xSXGbM
     published: 2026-03-26
+  - bts: Stop
+    members: Y53QrfuYENU
+    published: 2026-03-27
   - episode: 310. Paloma
     members: l3UDCXFrSa4
     published: 2026-04-09
+  - bts: Paloma
+    members: Kgc2oWgw6PA
+    published: 2026-04-10
   - episode: 311. Dash Highland
     members: ModXooJy1kU
     published: 2026-04-23
+  - bts: Dash Highland
+    members: "-4QW_va80bQ"
+    published: 2026-04-24
   - episode: 312. Linda Elizabeth Marie Braintree
     members: 11LkwSnNq-M
     published: 2026-05-07
+  - bts: Linda Elizabeth Marie Braintree
+    members: SDM8pNHBscU
+    published: 2026-05-08
   - episode: 313. Diamond
     members: L8nvOn8c3oU
     published: 2026-05-21
+  - bts: Diamond
+    members: wZQD0FBCn54
+    published: 2026-05-22
   - episode: 314. Jane
     members: 1O0JBXkWzmA
     published: 2026-06-04
+  - bts: Jane
+    members: sGdhHJea1oA
+    published: 2026-06-05
   - episode: 315. J.W. Smokes
     members: 0JRJyxO5bT0
     published: 2026-06-18
+  - bts: J.W. Smokes
+    members: wSjROPA1t60
+    published: 2026-06-19
   - bts: Very Important Bonus Content (Season 3)
     members: 7QRHFVSUsCQ
     published: 2026-07-02
@@ -5307,6 +5469,9 @@ videos:
   - episode: 215. Puzzles, Siblings, Mysteries
     members: ADazo8yYDjc
     published: 2025-09-18
+  - special: "Cut For Time: Secret Agenda Items"
+    members: RlfutW5GWKQ
+    published: 2025-10-02
 
 ---
 
@@ -5331,6 +5496,24 @@ videos:
   - episode: 306. You Cannot Be You Without Yourself
     members: Hb0c8MH9Ue4
     published: 2026-08-21
+  - special: "Smartyshorts: Nice to Meet You"
+    members: h2K3PmPqkeU
+    published: 2026-06-19
+  - special: "Smartyshorts: Audiobooks"
+    members: ebrh_YVQloI
+    published: 2026-07-03
+  - special: "Smartyshorts: School Subjects"
+    members: gQRF9a9PUlM
+    published: 2026-07-17
+  - special: "Smartyshorts: Spoiler Etiquette"
+    members: 9PoEU6JOH0o
+    published: 2026-07-31
+  - special: "Smartyshorts: Which Type of French Fry Is the Best?"
+    members: urFZvoIse3U
+    published: 2026-08-14
+  - special: "Smartyshorts: Morning Showers or Night Showers"
+    members: 9SdsJhLx4a4
+    published: 2026-08-28
 
 ---
 

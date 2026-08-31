@@ -119,9 +119,11 @@ videos:
     members: "-tasYql6FBY"
     published: 2018-12-27
   - special: Live in Brooklyn
+    dropout: fantasy-high-live-in-brooklyn
     members: "-ulIYMA0sqg"
     published: 2019-06-24
   - special: Live in Austin
+    dropout: fantasy-high-live-at-rtx-austin
     members: Ekgd2ePymD8
     published: 2019-09-18
 
@@ -386,9 +388,11 @@ videos:
     members: "-OcNWYpthsM"
     published: 2020-03-29
   - special: College Visit
+    dropout: college-visit-rtx-home-live
     members: Sr0Zi59jpEc
     published: 2020-09-28
   - special: Boys' Night
+    dropout: boys-night
     public: 7TaGYFCmVS8
     members: 7rjNgO-YUos
     published: 2020-10-28
@@ -909,6 +913,7 @@ videos:
     members: DCDpWKEPQzQ
     published: 2021-12-17
   - special: Live at GenCon
+    dropout: misfits-and-magic-live-at-gencon-2022
     members: 4c4yMS4Zhlg
     published: 2022-09-16
 
@@ -3626,18 +3631,23 @@ videos:
     published: 2023-12-27
 
   - bts: with Emily Axford
+    dropout: behind-the-scenes-emily-axford
     members: bqbxzQi1GZ0
     published: 2024-01-03
   - bts: with Ally Beardsley
+    dropout: behind-the-scenes-ally-beardsley
     members: fp8xmNuUFJQ
     published: 2024-01-04
   - bts: with Brian Murphy
+    dropout: behind-the-scenes-brian-murphy
     members: ZiGCowSL1wc
     published: 2024-01-05
   - bts: with Zac Oyama
+    dropout: behind-the-scenes-zac-oyama
     members: 0N_cc60DP10
     published: 2024-01-06
   - bts: with Siobhan Thompson
+    dropout: behind-the-scenes-siobhan-thompson
     members: E6NL9AjoGPM
     published: 2024-01-07
   - bts: with Lou Wilson
@@ -3876,6 +3886,7 @@ videos:
     removed members: hvqxMBXhcNE
     published: 2023-12-15
   - bts: Princess Emily
+    dropout: last-looks-princess-emily
     members: GRc3Zq421aQ
     published: 2023-12-22
   - episode: 102. Denzel
@@ -3883,6 +3894,7 @@ videos:
     removed members: J6XTXIZQNPs
     published: 2023-12-30
   - bts: Denzel
+    dropout: last-looks-denzel
     members: Fh8V6vkp0-U
     published: 2024-01-05
   - episode: 103. Vic's Ex Step-Grandmother
@@ -3890,6 +3902,7 @@ videos:
     removed members: IqCKbc5Wl2c
     published: 2024-01-13
   - bts: Vic's Ex Step-Grandmother
+    dropout: last-looks-vic-s-ex-step-grandmother
     members: 6fE4lxa_6rY
     published: 2024-01-20
   - episode: 104. Marionette Conqui and Zonton de la Doll
@@ -3897,6 +3910,7 @@ videos:
     removed members: _eJULrtRYn4
     published: 2024-01-27
   - bts: Marionette Conqui and Zonton de la Doll
+    dropout: last-looks-marionette-conqui-and-zonton-de-la-doll
     members: EAThBVYo1TE
     published: 2024-02-02
   - episode: 105. Kepl and Dr. Milk
@@ -3904,6 +3918,7 @@ videos:
     removed members: 4uAcB43RHls
     published: 2024-02-10
   - bts: Kepl and Dr. Milk
+    dropout: last-looks-kepl-and-dr-milk
     members: De05yC7sy8Y
     published: 2024-02-16
   - episode: 106. Tommy Shriggly
@@ -3911,6 +3926,7 @@ videos:
     removed members: ERwmKBmLdX0
     published: 2024-02-24
   - bts: Tommy Shriggly
+    dropout: last-looks-tommy-shriggly
     members: 6ktl9VaQw3I
     published: 2024-03-01
   - episode: 107. Professor Avery Goodman
@@ -3918,6 +3934,7 @@ videos:
     removed members: JYEe74Dv9Hg
     published: 2024-03-09
   - bts: Professor Avery Goodman
+    dropout: last-looks-professor-avery-goodman
     members: 2c0JwxzGb5M
     published: 2024-03-15
   - episode: 108. Jasper and Casper
@@ -3925,30 +3942,35 @@ videos:
     removed members: L77iKcWWxjs
     published: 2024-03-22
   - bts: Jasper and Casper
+    dropout: last-looks-jasper-and-casper
     members: Ra287uegVE0
     published: 2024-03-02
   - episode: 109. Leighanna-Jean Gruthers
     members: 8_UkuPb1La0
     published: 2024-04-05
   - bts: Leighanna-Jean Gruthers
+    dropout: last-looks-leighanna-jean-gruthers
     members: 6P7EUtufuLA
     published: 2024-04-12
   - episode: "110. Pig #2"
     members: A0mPVT3Zj-E
     published: 2024-04-19
   - bts: "Pig #2"
+    dropout: last-looks-pig-2
     members: KxlqeZ3bwJg
     published: 2024-04-26
   - episode: 111. Martha Tops and Lucian Azathoth
     members: QMPqrp_xID0
     published: 2024-05-03
   - bts: Martha Tops and Lucian Azathoth
+    dropout: last-looks-martha-tops-and-lucian-azathoth
     members: "-IJQnQCg1NI"
     published: 2024-05-10
   - episode: 112. Augbert
     members: W9z51A9YTNk
     published: 2024-05-17
   - bts: Augbert
+    dropout: last-looks-augbert
     members: 6PpoS9nzWJk
     published: 2024-05-24
   - bts: Very Important Bonus Content
@@ -4726,96 +4748,112 @@ videos:
     members: BSGUZzqE4nY
     published: 2024-11-08
   - bts: Zeke Aaron McKinley
+    dropout: last-looks-zeke-aaron-mckinley
     members: X_AmULvWUUA
     published: 2024-11-08
   - episode: 202. Hayes Steele
     members: z4gOthfqCWk
     published: 2024-11-23
   - bts: Hayes Steele
+    dropout: last-looks-hayes-steele
     members: 6Iqx13qCu4o
     published: 2024-11-22
   - episode: 203. Jukebox
     members: g4PHthu4SAY
     published: 2024-12-06
   - bts: Jukebox
+    dropout: last-looks-jukebox
     members: OfoySuLJ-ro
     published: 2024-12-06
   - episode: 204. Fourth Witch
     members: uG4kNSQXhlE
     published: 2024-12-20
   - bts: Fourth Witch
+    dropout: last-looks-fourth-witch
     members: VBouoyvBICU
     published: 2024-12-20
   - episode: 205. Barbara and Bill
     members: E7v8rNXM06Y
     published: 2025-01-03
   - bts: Barbara and Bill
+    dropout: last-looks-barbara-and-bill
     members: lam-pWnbaTo
     published: 2025-01-13
   - episode: 206. Ta'Tania Jackson
     members: wNQGE6lKtRg
     published: 2025-01-17
   - bts: Ta'Tania Jackson
+    dropout: last-looks-ta-tania-jackson
     members: gjPMy8D07Z0
     published: 2025-01-17
   - episode: 207. Phoenix
     members: _WZrmFhy0fc
     published: 2025-01-31
   - bts: Phoenix
+    dropout: last-looks-phoenix
     members: WR30f3tBYeE
     published: 2025-01-31
   - episode: 208. David Hoyle Jr.
     members: ZbRBEsrkheU
     published: 2025-02-14
   - bts: David Hoyle Jr.
+    dropout: last-looks-david-hoyle-jr
     members: 7C7_1ouQX6c
     published: 2025-02-14
   - episode: 209. Steffi Pops
     members: L34s9gXm5oQ
     published: 2025-02-28
   - bts: Steffi Pops
+    dropout: last-looks-steffi-pops
     members: 5oGewH1jyeQ
     published: 2025-02-28
   - episode: 210. Dan Wesley Sharron
     members: hJkD4X5-kyA
     published: 2025-03-13
   - bts: Dan Wesley Sharron
+    dropout: last-looks-dan-wesley-sharron
     members: gxQCyZ216Js
     published: 2025-03-14
   - episode: 211. Skyler DeMarco
     members: XyXEGfaSa8g
     published: 2025-03-27
   - bts: Skyler DeMarco
+    dropout: last-looks-skyler-demarco
     members: OdDYK8zMK3w
     published: 2025-03-28
   - episode: 212. Jordache
     members: gXLaRZss7Pc
     published: 2025-04-10
   - bts: Jordache
+    dropout: last-looks-jordache
     members: tZa_dHzhbYI
     published: 2025-04-11
   - episode: 213. Claude McCaw
     members: AKRok4Yn0ws
     published: 2025-04-24
   - bts: Claude McCaw
+    dropout: last-looks-claude-mccaw
     members: tjkFZmV9I6A
     published: 2025-04-25
   - episode: 214. Greg and Charlotte Excitement
     members: O4nsy1djsE0
     published: 2025-05-08
   - bts: Greg and Charlotte Excitement
+    dropout: last-looks-greg-and-charlotte-excitement
     members: jCk-RINdgr0
     published: 2025-05-09
   - episode: 215. Candice
     members: 3t1nQxTCsFk
     published: 2025-05-22
   - bts: Candice
+    dropout: last-looks-candice
     members: Cqe3Oqq-pAQ
     published: 2025-05-23
   - episode: 216. Spencer
     members: ZjQu_eFTnaU
     published: 2025-06-05
   - bts: Spencer
+    dropout: last-looks-spencer
     members: 3487WEszg28
     published: 2025-06-06
   - bts: Very Important Bonus Content (Season 2)
@@ -5322,6 +5360,7 @@ videos:
     members: zFNTdKaOCqQ
     published: 2025-12-05
   - bts: Mother Hot Dog
+    dropout: last-looks-mother-hot-dog
     members: wb5e0jFY5WA
     published: 2025-12-05
   - episode: 302. Boris Tarshkokan
@@ -5329,12 +5368,14 @@ videos:
     members: cxV7NiFAMDU
     published: 2025-12-19
   - bts: Boris Tarshkokan
+    dropout: last-looks-boris-tarshkokan
     members: yaZb4rk3_FM
     published: 2025-12-19
   - episode: 303. Archimedes and Ollie
     members: pUhcWQPb57I
     published: 2026-01-02
   - bts: Archimedes and Ollie
+    dropout: last-looks-archimedes-and-ollie
     members: MEWYQhAdF6k
     published: 2026-01-02
   - episode: 304. Fanoli
@@ -5342,72 +5383,84 @@ videos:
     members: KD1Mk7Obz0Q
     published: 2026-01-16
   - bts: Fanoli
+    dropout: last-looks-fanoli
     members: h6Kg1MlzqsE
     published: 2026-01-16
   - episode: 305. Sudzo
     members: z842PQLhktY
     published: 2026-01-30
   - bts: Sudzo
+    dropout: last-looks-sudzo
     members: WYso1lRtLyE
     published: 2026-01-30
   - episode: 306. Zinnia
     members: BlJhVKACqnE
     published: 2026-02-13
   - bts: Zinnia
+    dropout: last-looks-zinnia
     members: alTZYGURnlo
     published: 2026-02-13
   - episode: 307. Oops Lil Fart
     members: InzV72ZlGgg
     published: 2026-02-27
   - bts: Oops Lil Fart
+    dropout: last-looks-oops-lil-fart
     members: xVkDVBSfb6c
     published: 2026-02-27
   - episode: 308. Lil Huffy
     members: H5kZTgotFdU
     published: 2026-03-12
   - bts: Lil Huffy
+    dropout: last-looks-lil-huffy
     members: Z2_WQ_Zs9w0
     published: 2026-03-13
   - episode: 309. Stop
     members: n0Rh_xSXGbM
     published: 2026-03-26
   - bts: Stop
+    dropout: last-looks-stop
     members: Y53QrfuYENU
     published: 2026-03-27
   - episode: 310. Paloma
     members: l3UDCXFrSa4
     published: 2026-04-09
   - bts: Paloma
+    dropout: last-looks-paloma
     members: Kgc2oWgw6PA
     published: 2026-04-10
   - episode: 311. Dash Highland
     members: ModXooJy1kU
     published: 2026-04-23
   - bts: Dash Highland
+    dropout: last-looks-dash-highland
     members: "-4QW_va80bQ"
     published: 2026-04-24
   - episode: 312. Linda Elizabeth Marie Braintree
     members: 11LkwSnNq-M
     published: 2026-05-07
   - bts: Linda Elizabeth Marie Braintree
+    dropout: last-looks-linda-elizabeth-marie-braintree
     members: SDM8pNHBscU
     published: 2026-05-08
   - episode: 313. Diamond
     members: L8nvOn8c3oU
     published: 2026-05-21
   - bts: Diamond
+    dropout: last-looks-diamond
     members: wZQD0FBCn54
     published: 2026-05-22
   - episode: 314. Jane
     members: 1O0JBXkWzmA
     published: 2026-06-04
   - bts: Jane
+    dropout: last-looks-jane
     members: sGdhHJea1oA
     published: 2026-06-05
   - episode: 315. J.W. Smokes
     members: 0JRJyxO5bT0
     published: 2026-06-18
   - bts: J.W. Smokes
+    dropout: last-looks-j-w-smokes
     members: wSjROPA1t60
     published: 2026-06-19
   - bts: Very Important Bonus Content (Season 3)

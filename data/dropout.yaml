@@ -539,8 +539,16 @@ title:         A Cheeseburger Intimidation Check
 seasonNumber:  20
 episodeNumber: 3
 releaseDate:   2025-04-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:20/videos/a-cheeseburger-intimidation-check'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about secrets revealed, deceptions discovered, and the power of house cats.'
+itemId:        3601356
+collectionId:  1107311
+upNextIds:
+- 3605280
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:54:40.731Z
+scrapedAt:     2026-08-31T09:50:44.797Z
 
 ---
 
@@ -852,8 +860,17 @@ title:         A Dry January Rube Goldberg Machine
 seasonNumber:  20
 episodeNumber: 2
 releaseDate:   2025-04-10T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:20/videos/a-dry-january-rube-goldberg-machine'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss winning over the people, the logistics of mini merchandising and art imitating art.'
+itemId:        3588843
+collectionId:  1107311
+upNextIds:
+- 3601356
+- 3605280
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:55:17.427Z
+scrapedAt:     2026-08-31T09:50:57.067Z
 
 ---
 
@@ -8270,8 +8287,18 @@ title:         Cat's Out of the Bag
 seasonNumber:  20
 episodeNumber: 1
 releaseDate:   2025-04-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:20/videos/cat-s-out-of-the-bag'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about learning D&D, their debut in the ring, and ponder how to deal with Big Z.'
+itemId:        3579382
+collectionId:  1107311
+upNextIds:
+- 3588843
+- 3601356
+- 3605280
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:01:49.047Z
+scrapedAt:     2026-08-31T09:51:09.334Z
 
 ---
 
@@ -18624,8 +18651,14 @@ title:         Hotties and Hot Hearts
 seasonNumber:  20
 episodeNumber: 4
 releaseDate:   2025-04-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:20/videos/hotties-and-hot-hearts'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The cast reflect on their final battle and the future of their characters.
+itemId:        3605280
+collectionId:  1107311
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:11:24.854Z
+scrapedAt:     2026-08-31T09:51:21.567Z
 
 ---
 

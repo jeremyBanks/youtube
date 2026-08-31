@@ -13,7 +13,7 @@ if (import.meta.main) {
 /** Command-line entry point. */
 export async function main() {
   const args = parseArgs(Deno.args, {
-    string: ["auth-url"],
+    string: ["auth-url", "window"],
     boolean: ["headless", "incremental-only"],
     default: {
       headless: false,
@@ -27,6 +27,18 @@ export async function main() {
   } else if (args["auth-url"]) {
     setAuthMode({ mode: "complete-with-url", redirectUrl: args["auth-url"] });
   }
+
+  // Forces a scan back a given ISO duration for every actively-tracked
+  // channel, ignoring the cadences in config/scan.toml. For backfilling a
+  // newly-captured field over recent videos, where the scheduled tiers would
+  // otherwise skip channels that were scanned recently but before the field
+  // existed. Channels parked with no recent-window are left alone.
+  const forcedStopAt = args.window
+    ? new Date(
+      Temporal.Now.instant().toZonedDateTimeISO("UTC")
+        .subtract(args.window).toInstant().epochMilliseconds,
+    )
+    : undefined;
 
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
@@ -70,7 +82,12 @@ export async function main() {
 
     let stopAt: Date;
 
-    if (args["incremental-only"]) {
+    if (forcedStopAt) {
+      if (config.recentWindowStart === undefined) {
+        continue; // parked channel; a forced window is not meant for these
+      }
+      stopAt = forcedStopAt;
+    } else if (args["incremental-only"]) {
       // Incremental-only mode: skip channels never scanned, only scan back to last scan
       if (!lastScan) {
         console.info(

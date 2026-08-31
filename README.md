@@ -29,7 +29,11 @@ requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
       `recent-interval` and `recent-window` periodically reach back a fixed
       window, and `complete-interval` reaches back to the beginning. Depth
       matters because a video is only known to be gone if a scan looks far
-      enough back to miss it.
+      enough back to miss it. `--window=P96D` overrides all of that and scans
+      every actively-tracked channel back that far regardless of cadence,
+      which is how a newly-captured field gets backfilled over recent videos
+      when the scheduled tiers would otherwise skip a channel scanned before
+      the field existed.
 
 - [x] `deno task aggregate` (`deno run @jeb/youtube/aggregate`) uses the
       contents of `curation/seasons.yaml` and `config/aggregate.toml` to

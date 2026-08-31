@@ -74,6 +74,14 @@ function coveredCollectionUrls(
     if (episodes.length === 0 || episodes.some((e) => !e.title)) {
       continue; // never scraped in full, so coverage cannot be judged
     }
+    // Dropout re-publishes some shows under a "-new" twin of the same slug -
+    // game-changer-new, um-actually-new - carrying the same episodes under
+    // the same display name. Never link one when the original exists: the
+    // subset filter would only drop it if both happened to be covered with
+    // identical sets, and a link should not depend on that coincidence.
+    if (slug.endsWith("-new") && episodesByCollection.has(slug.slice(0, -4))) {
+      continue;
+    }
     const all = episodes.every((e) =>
       slugs.has(e.slug) || titles.has(normalizeTitle(e.title!))
     );

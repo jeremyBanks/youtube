@@ -1675,7 +1675,22 @@ collections:
 - a-message-from-the-ceo-season-1
 - bonus-scenes-extras-new-shelf
 lastmod:       2026-03-24T00:00:00.000Z
+title:         A Message From the Skype CEO (Bonus Footage)
+seasonNumber:  1
+episodeNumber: 11
+releaseDate:   2021-03-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/a-message-from-the-skype-ceo-bonus-footage'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   Here's the extra footage of our Skype CEO sketch that was too good to not to show you.
+itemId:        1400471
+collectionId:  115013
+upNextIds:
+- 1468300
+- 1468301
+- 1533187
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T12:40:11.098Z
 
 ---
 
@@ -32824,7 +32839,21 @@ collections:
 - a-message-from-the-ceo-season-1
 - bonus-scenes-extras-new-shelf
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Oreo CEO Bonus Footage
+seasonNumber:  1
+episodeNumber: 13
+releaseDate:   2021-04-14T00:00:00.000Z
+url:           'https://watch.dropout.tv/a-message-from-the-ceo/season:1/videos/oreo-ceo-bonus-footage'
+showTitle:     A Message From the CEO
+showSlug:      a-message-from-the-ceo
+description:   Almost 20 minutes of bonus footage of Brennan reacting to Oreo varietals. You're welcome?
+itemId:        1468301
+collectionId:  115013
+upNextIds:
+- 1533187
+- 1533204
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T12:40:23.335Z
 
 ---
 

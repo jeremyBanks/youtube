@@ -1,26 +1,43 @@
-(aspirational descriptions of what this is intended to do, not accurate
-descriptions of what it actually does yet)
+Tools for maintaining curated YouTube playlists of Dropout content.
 
----
+`curation/seasons.yaml` is the hand-written source of truth: which videos belong
+to which show and season, and which ids are the free, members-only, and
+superseded versions of each. Everything in `data/` is generated, either scraped
+from YouTube or derived from the curation.
 
-- [ ] `deno task scan` (`deno run @jeb/youtube/scan`) scans the contents of
-      YouTube channels as specified in `config/scan.yaml` to update
+## Setup
+
+Only `YOUTUBE_API_KEY` is needed to scan. Publishing additionally needs
+`YOUTUBE_CLIENT_ID` and `YOUTUBE_CLIENT_SECRET`, since writing to playlists
+requires OAuth. Put them in `.env` (see `.env.example`) or in the environment.
+
+## Tasks
+
+- [x] `deno task scan` (`deno run @jeb/youtube/scan`) scans the contents of
+      YouTube channels as specified in `config/scan.toml` to update
       `data/videos.yaml`, a list of videos with timestamps, durations, and
       members-only status. It also updates `data/channels.yaml`, a list of
       channels with handles and some stats, and `data/scans.yaml`, a list of
       scan sessions and what data they included, but those are just to support
       the scanning operation and aren't intended to be useful on their own (e.g.
       the channels stats may never be updated). This only requires a YouTube API
-      key (`YOUTUBE_API_KEY`) to be set in `.env` or in the environment, as
-      described in `.env.example`. It reads public data, so it does not
-      authenticate and can run unattended.
+      key, since it reads public data, so it does not authenticate and can run
+      unattended.
 
-- [ ] `deno task aggregate` (`deno run @jeb/youtube/aggregate`) uses the
+      Each channel in `config/scan.toml` sets its own cadence, at three depths:
+      `incremental-interval` reaches back only to the previous scan,
+      `recent-interval` and `recent-window` periodically reach back a fixed
+      window, and `complete-interval` reaches back to the beginning. Depth
+      matters because a video is only known to be gone if a scan looks far
+      enough back to miss it.
+
+- [x] `deno task aggregate` (`deno run @jeb/youtube/aggregate`) uses the
       contents of `curation/seasons.yaml` and `config/aggregate.toml` to
       generate an updated list of videos that should be included in each
-      playlist, saving the generated results in `data/playlists.yaml`.
+      playlist, saving the generated results in `data/playlists.yaml`. This is
+      purely local: no API key and no network.
 
-- [ ] `deno task publish` (`deno run @jeb/youtube/publish`) takes the playlist
+- [x] `deno task publish` (`deno run @jeb/youtube/publish`) takes the playlist
       videos and descriptions in `data/playlists.yaml` and publishes them to the
       specified playlist IDs on YouTube. This requires YouTube API client
       identifiers and keys to be set in `.env` as described in `.env.example`,
@@ -31,10 +48,29 @@ descriptions of what it actually does yet)
       at once, and this operation may need to be executed repeatedly over
       multiple days.
 
-- [ ] `deno task scan-playlists` (`deno run @jeb/youtube/scan-playlists`) takes
-      the playlist IDs specified in `config/aggregate.toml`, fetches their
-      current descriptions and contents from the YouTube API, and updates
-      `data/playlists.yaml` with that information. Typically, we publish from
-      that file instead of scanning into it, so this isn't meant as part of the
-      typical workflow. Rather, it's only meant to help compare the actual
-      contents with the intended ones.
+      `--dry-run` reports what would change without touching anything.
+      `--playlist=NAME` limits it to one playlist, and `--create-missing`
+      creates playlists whose config key is still a `todo-` placeholder,
+      writing the real id back into `config/aggregate.toml`.
+
+- [x] `deno task curate` (`deno run @jeb/youtube/curate`) lists scanned videos
+      that aren't yet accounted for in `curation/seasons.yaml`, so they can be
+      categorised by hand. Filters with `--channel`, `--since` and `--limit`;
+      `--no-fetch` skips fetching descriptions.
+
+- [ ] `deno task scan-playlists` would take the playlist IDs specified in
+      `config/aggregate.toml`, fetch their current descriptions and contents
+      from the YouTube API, and update `data/playlists.yaml` with that
+      information. Typically, we publish from that file instead of scanning into
+      it, so this isn't meant as part of the typical workflow. Rather, it's only
+      meant to help compare the actual contents with the intended ones. Not yet
+      implemented.
+
+## Automation
+
+`.github/workflows/scan.yaml` runs `deno task scan` weekly and commits the
+result. It needs one repository secret, `YOUTUBE_API_KEY`.
+
+The point of scanning on a schedule is capture rather than currency: a video
+that is posted and pulled between scans leaves no trace, and no later scan can
+recover it. Curating and publishing remain manual.

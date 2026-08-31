@@ -24485,7 +24485,17 @@ collection:    ch-does-the-purge-season-1
 collections:
 - ch-does-the-purge-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         I Can't Believe You Tried to Purge Me Pt. 4
+seasonNumber:  1
+episodeNumber: 4
+url:           'https://watch.dropout.tv/ch-does-the-purge/season:1/videos/i-can-t-believe-you-tried-to-purge-me-pt-4'
+showTitle:     CH Does the Purge
+showSlug:      ch-does-the-purge
+description:   Don't feel guilty! It's the purge!
+itemId:        449035
+collectionId:  93398
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:51:40.596Z
 
 ---
 
@@ -52987,7 +52997,19 @@ collection:    ch-does-the-purge-season-1
 collections:
 - ch-does-the-purge-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         This Purge Bodyguard Sucks Pt. 3
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/ch-does-the-purge/season:1/videos/this-purge-bodyguard-sucks-pt-3'
+showTitle:     CH Does the Purge
+showSlug:      ch-does-the-purge
+description:   There's only ONE man with the catchphrases to help the gang get out alive.
+itemId:        449034
+collectionId:  93398
+upNextIds:
+- 449035
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:51:53.013Z
 
 ---
 
@@ -55640,7 +55662,21 @@ collection:    ch-does-the-purge-season-1
 collections:
 - ch-does-the-purge-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         'Um, We Have a Few Questions About the Purge Pt. 1'
+seasonNumber:  1
+episodeNumber: 1
+url:           'https://watch.dropout.tv/ch-does-the-purge/season:1/videos/um-we-have-a-few-questions-about-the-purge-pt-1'
+showTitle:     CH Does the Purge
+showSlug:      ch-does-the-purge
+description:   'Don''t just stand there, go purge! Doesn''t that look like fun?'
+itemId:        449032
+collectionId:  93398
+upNextIds:
+- 449033
+- 449034
+- 449035
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:52:05.421Z
 
 ---
 
@@ -60731,7 +60767,20 @@ collection:    ch-does-the-purge-season-1
 collections:
 - ch-does-the-purge-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         You're Not Purging; You're Just Being a Dick Pt. 2
+seasonNumber:  1
+episodeNumber: 2
+url:           'https://watch.dropout.tv/ch-does-the-purge/season:1/videos/you-re-not-purging-you-re-just-being-a-dick-pt-2'
+showTitle:     CH Does the Purge
+showSlug:      ch-does-the-purge
+description:   It's pronounced 'Purgh'.
+itemId:        449033
+collectionId:  93398
+upNextIds:
+- 449034
+- 449035
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T13:52:17.871Z
 
 ---
 

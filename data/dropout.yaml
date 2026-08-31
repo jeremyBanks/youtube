@@ -1031,8 +1031,18 @@ title:         A Fun Dark Seed
 seasonNumber:  12
 episodeNumber: 2
 releaseDate:   2023-05-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/a-fun-dark-seed'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about secrets, villains, and cannibalism.'
+itemId:        2722665
+collectionId:  885874
+upNextIds:
+- 2731743
+- 2738254
+- 2752647
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:55:41.924Z
+scrapedAt:     2026-08-31T10:03:14.845Z
 
 ---
 
@@ -1192,8 +1202,14 @@ title:         A Little More Throat Wattle
 seasonNumber:  12
 episodeNumber: 7
 releaseDate:   2023-06-22T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/a-little-more-throat-wattle'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   Matthew Mercer and the D20 crew answer your questions about how this season came together.
+itemId:        2771575
+collectionId:  885874
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T02:55:54.166Z
+scrapedAt:     2026-08-31T10:03:27.118Z
 
 ---
 
@@ -10704,8 +10720,17 @@ title:         Deep in It
 seasonNumber:  12
 episodeNumber: 5
 releaseDate:   2023-06-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/deep-in-it'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about slapping, My Neighbor Totoro, and praise the art team.'
+itemId:        2752647
+collectionId:  885874
+upNextIds:
+- 2762708
+- 2771575
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:03:51.459Z
+scrapedAt:     2026-08-31T10:03:39.368Z
 
 ---
 
@@ -22998,8 +23023,16 @@ title:         Let's Make Mouth Sounds Together
 seasonNumber:  12
 episodeNumber: 6
 releaseDate:   2023-06-15T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/let-s-make-mouth-sounds-together'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talk about The Ravening War finale, their backup characters, and Chompy and the Girls.'
+itemId:        2762708
+collectionId:  885874
+upNextIds:
+- 2771575
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:17:07.818Z
+scrapedAt:     2026-08-31T10:03:51.594Z
 
 ---
 
@@ -26739,8 +26772,18 @@ title:         On the Glucian Road
 seasonNumber:  12
 episodeNumber: 3
 releaseDate:   2023-05-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/on-the-glucian-road'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss the events of episode three, dissociating, and speculate what''s next for the Scrumptious Scoundrels.'
+itemId:        2731743
+collectionId:  885874
+upNextIds:
+- 2738254
+- 2752647
+- 2762708
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:20:48.270Z
+scrapedAt:     2026-08-31T10:04:03.876Z
 
 ---
 
@@ -34589,8 +34632,18 @@ title:         That's War Baby
 seasonNumber:  12
 episodeNumber: 1
 releaseDate:   2023-05-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/that-s-war-baby'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast talks about The Ravening War premiere, returning to Calorum, and meta gaming.'
+itemId:        2713680
+collectionId:  885874
+upNextIds:
+- 2722665
+- 2731743
+- 2738254
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:52:40.711Z
+scrapedAt:     2026-08-31T10:04:16.131Z
 
 ---
 
@@ -37750,8 +37803,18 @@ title:         The Mystic River Episode
 seasonNumber:  12
 episodeNumber: 4
 releaseDate:   2023-06-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:12/videos/the-mystic-river-episode'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss time jumps, staying in character, and Linkin Park.'
+itemId:        2738254
+collectionId:  885874
+upNextIds:
+- 2752647
+- 2762708
+- 2771575
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:57:34.246Z
+scrapedAt:     2026-08-31T10:04:28.372Z
 
 ---
 

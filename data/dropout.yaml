@@ -269,7 +269,25 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-30T00:00:00.000Z
+title:         'A Bid, a Banksy, and the Bird in the Basement'
+seasonNumber:  1
+episodeNumber: 9
+releaseDate:   2026-06-03T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/a-bid-a-banksy-and-the-bird-in-the-basement'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   |-
+  Action erupts at the mansion, Lavonte looks for Elysium, and Bat Child makes a discovery.
+
+  Want to explore Purpee yourself? Hop into the interactive map (that updates after every episode) on the Dropout Superfan Hub! https://www.dropout.tv/superfan/maps/official-city-council-of-darkness-interacti...
+itemId:        4057020
+collectionId:  1489544
+upNextIds:
+- 4063817
+- 4071604
+- 4079253
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:13:58.422Z
 
 ---
 
@@ -506,7 +524,22 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-31T00:00:00.000Z
+title:         'A Coterie, Cracked'
+seasonNumber:  1
+episodeNumber: 11
+releaseDate:   2026-06-17T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/a-coterie-cracked'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   'The coterie reassess their plans for Purpee, but dissent about the Camarilla''s true threat grows.'
+itemId:        4071604
+collectionId:  1489544
+upNextIds:
+- 4079253
+- 4086045
+- 4093779
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:13:33.917Z
 
 ---
 
@@ -723,7 +756,25 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-31T00:00:00.000Z
+title:         A Fraternal Order and an Author of Horror
+seasonNumber:  1
+episodeNumber: 8
+releaseDate:   2026-05-27T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/a-fraternal-order-and-an-author-of-horror'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   |-
+  Bat Child seeks community, Zaeth hits the streets, and Lavonte gets a second chance to win Patty over.
+
+  Want to explore Purpee yourself? Hop into the interactive map (that updates after every episode) on the Dropout Superfan Hub! https://www.dropout.tv/superfan/maps/official-city-council-of-darkn...
+itemId:        4052260
+collectionId:  1489544
+upNextIds:
+- 4057020
+- 4063817
+- 4071604
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:13:46.193Z
 
 ---
 
@@ -1234,7 +1285,21 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-08T00:00:00.000Z
+title:         A Symposium and a Song
+seasonNumber:  1
+episodeNumber: 13
+releaseDate:   2026-07-01T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/a-symposium-and-a-song'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   'Maya confronts Lavonte, and the coterie gather Purpee''s supernatural.'
+itemId:        4086045
+collectionId:  1489544
+upNextIds:
+- 4093779
+- 3993188
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:14:47.422Z
 
 ---
 
@@ -2102,7 +2167,25 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-30T00:00:00.000Z
+title:         An Undead Denouement
+seasonNumber:  1
+episodeNumber: 14
+releaseDate:   2026-07-08T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/an-undead-denouement'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   |-
+  The coterie and their allies clash with powerful adversaries in the fight for dominion over Purpee.
+
+  Content Warning: 
+  Scenes of Violence (Light descriptions of, including bodily violence, use of guns, blood, decapitation) - [throughout 58:29-2:30:00]
+  Coulrophobia (Description of clowns - through...
+itemId:        4093779
+collectionId:  1489544
+upNextIds:
+- 3993188
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:14:10.681Z
 
 ---
 
@@ -8974,8 +9057,17 @@ title:         Don't You Mean Morissette?
 seasonNumber:  24
 episodeNumber: 12
 releaseDate:   2026-06-25T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/don-t-you-mean-morissette'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about their deadly encounter, Ally''s streaming subscriptions, and Zac pitches a joke.'
+itemId:        4080362
+collectionId:  1489783
+upNextIds:
+- 4086911
+- 4095542
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:05:17.174Z
+scrapedAt:     2026-08-31T07:12:08.106Z
 
 ---
 
@@ -11602,8 +11694,18 @@ title:         Full Duckface on a Bird Scooter
 seasonNumber:  24
 episodeNumber: 10
 releaseDate:   2026-06-11T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/full-duckface-on-a-bird-scooter'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about Lavonte''s rant, what Ermine wants, and HJ''s plans for a glow up.'
+itemId:        4066594
+collectionId:  1489783
+upNextIds:
+- 4073618
+- 4080362
+- 4086911
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:08:45.388Z
+scrapedAt:     2026-08-31T07:12:20.398Z
 
 ---
 
@@ -13272,8 +13374,18 @@ title:         He Meant Elves
 seasonNumber:  24
 episodeNumber: 11
 releaseDate:   2026-06-18T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/he-meant-elves'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss the Coterie''s divisions, Lavonte''s tryst, and the weirdest massages they''ve ever had.'
+itemId:        4073618
+collectionId:  1489783
+upNextIds:
+- 4080362
+- 4086911
+- 4095542
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:10:11.302Z
+scrapedAt:     2026-08-31T07:12:32.665Z
 
 ---
 
@@ -14731,8 +14843,16 @@ title:         'I''m Evil Baby, Yeah'
 seasonNumber:  24
 episodeNumber: 13
 releaseDate:   2026-07-02T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/i-m-evil-baby-yeah'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast chat about Murph''s art, Lavonte''s conversation with Maya, and play Pass the Parcel.'
+itemId:        4086911
+collectionId:  1489783
+upNextIds:
+- 4095542
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:12:50.633Z
+scrapedAt:     2026-08-31T07:12:44.906Z
 
 ---
 
@@ -19310,8 +19430,18 @@ title:         Murph's Most Sensual Episode
 seasonNumber:  24
 episodeNumber: 9
 releaseDate:   2026-06-04T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/murph-s-most-sensual-episode'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss their vampiric to-do list, their frenzied moment, and plans for setting up Beth.'
+itemId:        4059229
+collectionId:  1489783
+upNextIds:
+- 4066594
+- 4073618
+- 4080362
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:18:58.079Z
+scrapedAt:     2026-08-31T07:12:57.154Z
 
 ---
 
@@ -20326,8 +20456,18 @@ title:         Off to the Clown Races
 seasonNumber:  24
 episodeNumber: 14
 releaseDate:   2026-07-09T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/off-to-the-clown-races'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   |-
+  The cast reflect on the catharsis, the clown, and Purpee's future. 
+
+  Content Warning: 
+  Comedic References to Necrophilia - [9:00-13:35]
+itemId:        4095542
+collectionId:  1489783
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:20:23.798Z
+scrapedAt:     2026-08-31T07:13:09.412Z
 
 ---
 
@@ -24334,8 +24474,18 @@ title:         Silent Disco at the Elks Lodge
 seasonNumber:  24
 episodeNumber: 8
 releaseDate:   2026-05-28T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:24/videos/silent-disco-at-the-elks-lodge'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast discuss Camarilla wordplay, HJ courting danger, and Darkness Man shooting his shot.'
+itemId:        4053153
+collectionId:  1489783
+upNextIds:
+- 4059229
+- 4066594
+- 4073618
 firstSeen:     2026-08-31T02:48:00.050Z
-scrapedAt:     2026-08-31T03:50:26.183Z
+scrapedAt:     2026-08-31T07:13:21.647Z
 
 ---
 
@@ -26279,7 +26429,26 @@ collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
 lastmod:       2026-08-12T00:00:00.000Z
+title:         Swimming in the Pudding (with Kimia Behpoornia)
+seasonNumber:  7
+episodeNumber: 4
+releaseDate:   2026-05-22T00:00:00.000Z
+url:           'https://watch.dropout.tv/adventuring-academy/season:7/videos/swimming-in-the-pudding-with-kimia-behpoornia'
+showTitle:     Adventuring Academy
+showSlug:      adventuring-academy
+description:   |-
+  Kimia Behpoornia joins Brennan to discuss empathy in improv and why teens should play TTRPGs.
+
+  Content Warning:
+  Misophonia (Crunching, eating sounds) - [throughout 34:00-48:54]
+itemId:        4049215
+collectionId:  1484924
+upNextIds:
+- 4079056
+- 4120246
+- 4150267
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:14:59.658Z
 
 ---
 
@@ -29399,7 +29568,28 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-30T00:00:00.000Z
+title:         The Prince and the Primogen
+seasonNumber:  1
+episodeNumber: 12
+releaseDate:   2026-06-24T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/the-prince-and-the-primogen'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   |-
+  The coterie face conflict with the Camarilla. Zaeth steps into his power.
+
+  Content Warning:
+  Blood-drinking and Exsanguination (Non-graphic descriptions) - [throughout]
+  References to Hard Drug Use - [5:30-7:45]
+  Violence - Gunshot wounds, Head wounds (Light descriptions of) - [1:06:36-1:20:51]
+itemId:        4079253
+collectionId:  1489544
+upNextIds:
+- 4086045
+- 4093779
+- 3993188
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:14:22.932Z
 
 ---
 
@@ -31109,7 +31299,26 @@ collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
 lastmod:       2026-08-12T00:00:00.000Z
+title:         Three Timer's Club (with Aabria Iyengar)
+seasonNumber:  7
+episodeNumber: 5
+releaseDate:   2026-06-23T00:00:00.000Z
+url:           'https://watch.dropout.tv/adventuring-academy/season:7/videos/three-timer-s-club-with-aabria-iyengar'
+showTitle:     Adventuring Academy
+showSlug:      adventuring-academy
+description:   |-
+  Aabria Iyengar returns to the show to talk about adversarial PCs, multi-classing, and embracing chaos.
+
+  Content Warning:
+  Mention of suicidality - [37:20-37:30]
+  Misophonia (Crunching, eating sounds) - [throughout 51:03-1:12:04]
+itemId:        4079056
+collectionId:  1484924
+upNextIds:
+- 4120246
+- 4150267
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:15:11.924Z
 
 ---
 
@@ -36553,7 +36762,29 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-30T00:00:00.000Z
+title:         Zaeth's Sire and a Bear on Fire
+seasonNumber:  1
+episodeNumber: 10
+releaseDate:   2026-06-10T00:00:00.000Z
+url:           'https://watch.dropout.tv/dimension-20-city-council-of-darkness/season:1/videos/zaeth-s-sire-and-a-bear-on-fire'
+showTitle:     'Dimension 20: City Council of Darkness'
+showSlug:      dimension-20-city-council-of-darkness
+description:   |-
+  The Coterie prepare for Koschei's arrival, but danger lurks as supernatural forces in Purpee surge.
+
+  Content Warning: 
+  Narrative Portrayal of Drug Use - [1:57:23-1:57:40]
+  Violence - Throat Cutting (Light description of) - [2:01:18-2:01:57]
+
+  Want to explore Purpee yourself? Hop into the interactiv...
+itemId:        4063817
+collectionId:  1489544
+upNextIds:
+- 4071604
+- 4079253
+- 4086045
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-08-31T07:14:35.182Z
 
 ---
 

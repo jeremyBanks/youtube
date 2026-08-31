@@ -297,13 +297,29 @@ async function main() {
       }
     }
 
+    // Pairing a count against a zero reads badly - "0 videos are free and 49
+    // require ..." - so a playlist that is all one or all the other says so.
+    const membership = freeCount && membersCount
+      ? "${FREE} videos are free and ${MEMBERS} require a @Dropout channel membership on YouTube."
+      : membersCount
+      ? `${
+        membersCount === 1
+          ? "The one video requires"
+          : `All ${membersCount} videos require`
+      } a @Dropout channel membership on YouTube.`
+      : freeCount
+      ? `${
+        freeCount === 1 ? "The one video is" : `All ${freeCount} videos are`
+      } free.`
+      : "";
+
     const applyTemplates = (s: string) =>
       s.replaceAll(
         "${D20_PLUG}",
         "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
       ).replaceAll(
         "${MAYBE_MEMBERS_ONLY}",
-        "${FREE} videos are free and ${MEMBERS} require a @Dropout channel membership on YouTube.",
+        membership,
       ).replaceAll(
         "${HOURS}",
         String(Math.floor(durationSeconds / 60 / 60)),

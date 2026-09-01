@@ -11,8 +11,8 @@ Dropout, file it in the curation, and push the playlists live. Do not ask which
 part they meant — run the sequence below and report what changed at each step.
 The work is the same every time; only the curation step needs judgement.
 
-**First pull.** Two GitHub Actions commit to `trunk` on their own schedule (both
-daily, 11:13 and 11:41 UTC), so the remote is usually ahead.
+**First pull.** A GitHub Action commits to `trunk` daily, nominally at 11:13 UTC
+though GitHub often runs it hours late, so the remote is usually ahead.
 `git checkout trunk && git pull origin trunk` before anything else, or the scans
 will fight with bot commits at push time.
 

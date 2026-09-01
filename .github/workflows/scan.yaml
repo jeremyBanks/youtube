@@ -1,19 +1,39 @@
 name: Scan
 
-# Records what exists on the channels we follow. The point is capture: a video
-# that is posted and pulled between scans leaves no trace, and no later scan can
-# recover it. Curation stays manual; this only updates data/.
+# Records what exists, on the YouTube channels we follow and on
+# watch.dropout.tv. The point is capture: a video that is posted and pulled
+# between scans leaves no trace, and no later scan can recover it. Curation
+# stays manual; this only updates data/.
+#
+# One workflow rather than two. They used to be separate, scheduled half an
+# hour apart so their pushes would not collide, which was a timing workaround
+# for a problem sequence solves outright. It also halved badly: GitHub delays
+# scheduled runs by hours and sometimes drops them entirely, and two crons are
+# two independent chances to be skipped. On 2026-09-01 the channel scan ran
+# nearly four hours late and the Dropout scan did not run at all.
+#
+# The better reason is coherence. The two sides are meant to be compared --
+# verify-dates cross-references a curated date against the official one, and
+# the uncovered-video reports join YouTube ids to Dropout slugs -- and that
+# comparison is only as good as the two halves being of the same moment. Run
+# together, they always are. Run on separate schedules, one can be a day
+# ahead of the other, or a week, if a cron gets skipped.
 on:
   schedule:
     # Daily at 11:13 UTC, the small hours in North America (3:13am PST,
     # 4:13am PDT) when nothing is being published. An off-the-hour minute
-    # avoids the congestion GitHub sees at :00, where scheduled jobs can be
-    # delayed or dropped. The Dropout scan follows half an hour later: both
-    # push to trunk, and a simultaneous second push would be rejected.
+    # avoids the congestion GitHub sees at :00, where scheduled jobs are
+    # delayed or dropped. Treat the time as a hint: GitHub does not promise
+    # punctuality and has lately been hours late.
     - cron: "13 11 * * *"
   workflow_dispatch:
+    inputs:
+      budget:
+        description: "Dropout pages to fetch (default: config/dropout.toml)"
+        required: false
+        type: string
 
-# Never let two scans write data/ at once. The Dropout scan shares this group.
+# Never let two runs write data/ at once.
 concurrency:
   group: scan
   cancel-in-progress: false
@@ -21,7 +41,10 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 64
+    # Room for all three scans at their step timeouts, plus setup. The limit
+    # exists to stop a hang eating a runner, not to accommodate normal work:
+    # a routine run is a few minutes.
+    timeout-minutes: 120
 
     permissions:
       contents: write
@@ -50,20 +73,21 @@ jobs:
       # Deliberately not --incremental-only: that flag is a manual catch-up
       # tool, and here it would suppress the complete scans that
       # config/scan.toml schedules, which are what detect deletions.
-      # Step-level, so that a scan cut short still reaches the commit below.
-      # A job-level timeout would cancel the job and discard the capture.
+      # Step-level timeout, so that a scan cut short still reaches the commit
+      # below; a job-level one would cancel the job and discard the capture.
       # always(), so that a failed playlist scan does not skip this one.
-      - name: Scan
+      - name: Scan channels
         if: always()
         timeout-minutes: 48
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: deno task scan
 
-      # Always, even on failure: a video that was posted and pulled between
-      # scans cannot be recovered later, so whatever this run did see is
-      # worth keeping regardless of how it ended.
-      - name: Commit
+      # Committed before the Dropout scan rather than after both, so that a
+      # failure over there cannot cost the YouTube capture. Two commits also
+      # keep the history readable: one says what YouTube showed, the other
+      # what Dropout did.
+      - name: Commit the YouTube capture
         if: always()
         run: |
           git config user.name "github-actions[bot]"
@@ -73,10 +97,54 @@ jobs:
             echo "No changes."
           else
             git commit -m "Scan channels and playlists for new and removed videos"
-            # Another job may have landed a commit while this one was
-            # scanning. Rebase and retry rather than discarding the capture:
-            # the two scans write disjoint files, so a rebase applies cleanly,
-            # and a lost race otherwise costs the whole run's work.
+            # Somebody may have landed a commit while this run was scanning.
+            # Rebase and retry rather than discarding the capture.
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push rejected; rebasing onto trunk (attempt $attempt)."
+              git pull --rebase origin trunk
+            done
+          fi
+
+      # Records what exists on watch.dropout.tv, the same way: the sitemap
+      # gives existence and deletion detection in one request, then a budget
+      # of page fetches (12 seconds apart) fills in details, once ever per
+      # page. Two layers share that budget, cheapest first — collections
+      # (~196 pages) for each show's display name and synopsis, then episodes
+      # (~3,600) for the official release date, which is the reason this scan
+      # exists. The backlog only shrinks. The pages are public, so no secrets.
+      #
+      # The budget in config/dropout.toml is deliberately small: a daily
+      # nibble of a few minutes, not an hour-long crawl. A manual dispatch can
+      # pass a larger one to bulk backfill.
+      - name: Scan Dropout
+        if: always()
+        timeout-minutes: 48
+        env:
+          # Via the environment rather than interpolated into the command,
+          # so the input cannot be read as shell.
+          BUDGET: ${{ inputs.budget }}
+        run: |
+          if [ -n "$BUDGET" ]; then
+            deno task scan-dropout --budget="$BUDGET"
+          else
+            deno task scan-dropout
+          fi
+
+      # Always, even when the scan failed or was cut off. The scanner writes
+      # as it goes and flushes on the way out, and every page it did fetch is
+      # a page nobody has to fetch again. A failed run still reports failure;
+      # it just does not also discard its work.
+      - name: Commit the Dropout capture
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Scan Dropout for new, removed, and detailed episodes"
             for attempt in 1 2 3; do
               git push && break
               echo "Push rejected; rebasing onto trunk (attempt $attempt)."

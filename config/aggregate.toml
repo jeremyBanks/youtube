@@ -402,6 +402,7 @@ ${D20_PLUG}
 
 [PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1]
 name = "Critical Role: Exandria Unlimited: Calamity (${ALL_SEASONS})"
+unlisted = true
 show = "Critical Role"
 season = "Exandria Unlimited: Calamity"
 description = """

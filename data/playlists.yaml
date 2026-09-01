@@ -3715,6 +3715,7 @@ name:        'Critical Role: Exandria Unlimited: Calamity (All Episodes and Extr
 description: |
   22-hour playlist of 4 episodes and 2 extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 playlistId:  PLObfuAmZm9pCvSRFDmMNWoWva8kEIPXH1
+unlisted:    true
 videos:
   9QMiGD2offs: 'Exandria Unlimited: Calamity Premieres Thursday, May 26th! | Trailer'
   KlIkkeWmVvA: 'Excelsior | Exandria Unlimited: Calamity | Episode 1'

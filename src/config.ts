@@ -178,6 +178,11 @@ const SeasonsCurationYaml = z.array(
         public: VideoId.optional(),
         "public compilation": VideoId.optional(),
         "public copy": VideoId.optional(),
+        // The vertical cut Dropout uploads alongside some trailers for
+        // Shorts: same content, same length, 405x720 instead of 1280x720.
+        // Recorded so it is not mistaken for a missing video, and never
+        // published, since the horizontal upload is the one to watch.
+        "public short": VideoId.optional(),
         "public parts": VideoId.or(VideoId.array()).optional(),
         "deleted public parts": VideoId.or(VideoId.array()).optional(),
         paid: VideoId.optional(),

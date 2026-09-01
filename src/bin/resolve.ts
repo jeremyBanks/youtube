@@ -14,6 +14,7 @@ const ID_FIELDS = [
   "public",
   "paid",
   "public copy",
+  "public short",
   "public compilation",
   "public parts",
   "deleted public parts",

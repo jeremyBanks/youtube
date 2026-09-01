@@ -217,6 +217,10 @@ videos:
 - `members`: Dropout members-only version
 - `paid`: Paid/rental version
 - `public copy`: Re-uploaded public version
+- `public short`: The vertical cut uploaded alongside a trailer for Shorts —
+  same content and length, 405x720 rather than 1280x720. Recorded, never
+  published. Which is which is checkable: `videos.list?part=player` reports the
+  embed dimensions, and Dropout's own playlists list only the horizontal one.
 - `public compilation`: Compilation including this content
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)

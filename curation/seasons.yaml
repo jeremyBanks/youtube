@@ -4682,10 +4682,7 @@ live: true
 videos:
   - trailer: Gauntlet at the Garden Teaser
     public: MW7DoXFdfYo
-    published: 2025-05-06
-  - trailer: Gauntlet at the Garden Teaser
-    public: MW7DoXFdfYo
-    public copy: 1XCF7Unqj5M
+    public short: 1XCF7Unqj5M
     published: 2025-05-06
   - bts: "Behind the Scenes of Dimension 20 Live: Gauntlet at the Garden"
     public: 5NJn2UAbUDM
@@ -5812,10 +5809,7 @@ videos:
   - trailer: "Dimension 20 Live: Battle at the Bowl Trailer"
     dropout: dimension-20-live-battle-at-the-bowl-trailer
     public: XmJsJw95uNA
-    published: 2025-11-05
-  - trailer: "Dimension 20: Battle at the Bowl Trailer"
-    public: XmJsJw95uNA
-    public copy: EYVgYHYEgv0
+    public short: EYVgYHYEgv0
     published: 2025-11-05
   - episode: 1. Battle at the Bowl
     dropout: dimension-20-live-2025-battle-at-the-bowl
@@ -5900,7 +5894,7 @@ cast: Intrepid Heroes
 videos:
   - trailer: "Dimension 20: City Council of Darkness Trailer"
     public: beCy18i1LX8
-    public copy: XmciPZKJ78A
+    public short: XmciPZKJ78A
     published: 2026-03-25
   - episode: 1. Mishaps, A Maw, and the Masquerade
     public: KW3erx7NBsA
@@ -6035,7 +6029,7 @@ season: Toylight
 videos:
   - trailer: "Dimension 20: Toylight Trailer"
     public: 84kZcc5TEzY
-    public copy: MNPykW1n5nc
+    public short: MNPykW1n5nc
     published: 2026-08-12
 
 ---

@@ -70,6 +70,7 @@ data/playlists.yaml            # Generated; don't edit directly
 data/dropout.yaml              # Scraped watch.dropout.tv episodes
 data/dropout-collections.yaml  # Scraped watch.dropout.tv shows/collections
 data/resolved-videos.yaml      # Videos looked up by id, off channels we scan
+data/channel-playlists.yaml    # Scraped playlists of the channels we scan
 dates.md                       # Findings on where episode dates come from
 src/bin/                       # One file per task
 ```
@@ -219,6 +220,40 @@ videos:
 - `public compilation`: Compilation including this content
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)
+
+## Channel Playlists
+
+`deno task scan-playlists` records the playlists of the channels we scan into
+`data/channel-playlists.yaml` — observed, unlike `data/playlists.yaml`, which is
+what we intend to publish. Scope follows `config/scan.toml`: a channel counts as
+tracked when it has a `recent-window`, so the parked ones are excluded without a
+second list. `--channel=` restricts a run.
+
+These hold **YouTube video ids**, the same identifiers the curation uses, so
+comparing them needs no title matching — unlike the Dropout.tv join, where every
+naming difference has to be linked by hand.
+
+**Every field an entry reports is stored, redundant or not**, and the scanner
+never consults `data/videos.yaml` to decide. That file holds only what a channel
+lists publicly, so a private, unlisted or foreign video is exactly the one it
+cannot know about — and exactly the one worth having. Two earlier attempts at
+suppressing "redundant" fields both discarded precisely the interesting entries.
+
+What that catches: unlisted videos that appear in no uploads playlist and so are
+invisible to `scan`; videos owned by other channels, which is what a
+collaboration looks like, and which nothing on the video or channel resource
+reports at all; and private videos, where the id, the position and the date it
+was added are all that can ever be obtained, the title and description being
+fixed placeholders.
+
+Removal is tracked at the playlist level and is not deletion. A departed entry
+is kept, marked with when it went, and left where it was, anchored behind
+whichever entry preceded it. Delisting is distinct again: a playlist gone from
+its channel's listing is re-fetched by id, and if it answers it is recorded as
+delisted and still scanned.
+
+`deno task resolve --ids=…` then fetches full metadata for entries naming videos
+no scan has seen; private ones the API will not serve.
 
 ## Auto-Generated Channel Playlists
 

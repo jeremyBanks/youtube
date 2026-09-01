@@ -573,3 +573,14 @@ ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Dimension 20. 
 
 ${D20_PLUG}
 """
+
+[todo-unlisted]
+name = "Dropout: Unlisted Videos"
+unlisted = true
+show = "Unlisted"
+description = """
+The ${EPISODES} unlisted videos that Dropout's own playlists point at. YouTube hides these from the channel, from search and from the uploads feed, so they are reachable only by direct link; every one was found by reading the playlists rather than the channel.
+
+Unlisted itself, and ordered by when each was first added to a playlist.
+"""
+

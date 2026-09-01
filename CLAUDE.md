@@ -12,7 +12,7 @@ part they meant — run the sequence below and report what changed at each step.
 The work is the same every time; only the curation step needs judgement.
 
 **First pull.** Two GitHub Actions commit to `trunk` on their own schedule (both
-early Sunday UTC, two hours apart), so the remote is usually ahead.
+daily, 11:13 and 11:41 UTC), so the remote is usually ahead.
 `git checkout trunk && git pull origin trunk` before anything else, or the scans
 will fight with bot commits at push time.
 
@@ -228,6 +228,11 @@ videos:
 what we intend to publish. Scope follows `config/scan.toml`: a channel counts as
 tracked when it has a `recent-window`, so the parked ones are excluded without a
 second list. `--channel=` restricts a run.
+
+It runs daily in the same GitHub Action as the channel scan, and first: at
+roughly 300 quota units against a 10,000-unit day it is cheap, and it sees what
+nothing else can, so it should not be the thing that gets skipped when the
+channel scan exhausts the quota.
 
 These hold **YouTube video ids**, the same identifiers the curation uses, so
 comparing them needs no title matching — unlike the Dropout.tv join, where every

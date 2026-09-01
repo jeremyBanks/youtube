@@ -100,175 +100,23 @@ recent-interval = "P14D"
 recent-window = "P96D"
 complete-interval = "P55D"
 
-[rarran]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[covertgoblue]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[blueyofficialchannel]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[deepblueink]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[worldsbeyondnumber]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[samreich]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[blueyfrancais]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-["$blueycanada"]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[naddpod]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[screenrantplus]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[geek_peek]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[thejordonbrown]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
 [loadingreadyrun]
 incremental-interval = "P14D"
 recent-interval = "P70D"
 recent-window = "P96D"
 complete-interval = "P140D"
 
-[characterswelcome]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
 [dorkly]
 incremental-interval = "P70D"
 complete-interval = "P350D"
-
-[thewelltoldtale]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
 
 [drawfee]
 incremental-interval = "P56D"
 complete-interval = "P280D"
 
-[roll20app]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-# Not a Dropout channel, but it carries the campaigns Brennan Lee Mulligan
-# runs there. Monthly is enough for a show that airs weekly; the yearly
-# complete pass is what detects removals, which incremental scans cannot see.
-# No recent-window, so scan-playlists leaves it alone: the 46 playlists were
-# captured once, to settle the campaign structure, and do not need re-reading.
 [criticalrole]
 incremental-interval = "P35D"
 recent-interval = "P70D"
 recent-window = "P96D"
 complete-interval = "P350D"
 
-[siblingrivalrypodcast]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[hankschannel]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[rickastleyyt]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[geekandsundry]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[themcelroyfamily]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[briandavidgilbert]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[dndwizards]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[indeepgeek]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[highrollersdnd]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[arcanearcade]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[dndbeyond]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[dungeonsanddaddies]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[stinkydragonpod]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[pitchmeetings]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[pulpcomedy]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[julienolke]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[zacoyama]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[pitchmeetingshorts]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[ryangeorgeplus]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[idglive]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[acquisitionsincorporated]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
-
-[taylortomlinsoncomedy]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"

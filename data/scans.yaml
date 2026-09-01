@@ -490,6 +490,13 @@ scannedTo:     null
 
 channelId:     UCC8zWIx8aBQme-x1nX9iZ0A
 channelHandle: dimension20show
+scannedAt:     2026-09-01T05:07:50.084Z
+scannedTo:     2026-09-01T03:56:45.567Z
+
+---
+
+channelId:     UCC8zWIx8aBQme-x1nX9iZ0A
+channelHandle: dimension20show
 scannedAt:     2026-09-01T03:56:45.567Z
 scannedTo:     2026-08-31T23:53:40.274Z
 
@@ -1393,6 +1400,13 @@ scannedTo:     null
 
 channelId:     UCGaO3wLV8_N1YFbMOtuaYqw
 channelHandle: dimension20shorts
+scannedAt:     2026-09-01T05:07:51.305Z
+scannedTo:     2026-09-01T03:56:46.713Z
+
+---
+
+channelId:     UCGaO3wLV8_N1YFbMOtuaYqw
+channelHandle: dimension20shorts
 scannedAt:     2026-09-01T03:56:46.713Z
 scannedTo:     2026-08-31T23:53:41.182Z
 
@@ -2046,6 +2060,13 @@ channelId:     UCOT2iLov0V7Re7ku_3UBtcQ
 channelHandle: hankschannel
 scannedAt:     2024-03-19T02:59:37.436Z
 scannedTo:     null
+
+---
+
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+channelHandle: dropout
+scannedAt:     2026-09-01T05:07:47.415Z
+scannedTo:     2026-09-01T03:56:43.495Z
 
 ---
 
@@ -5916,6 +5937,13 @@ scannedTo:     2024-05-17T21:39:28.536Z
 channelId:     UCpIUcvK7fZMbhFOU13AtVqQ
 channelHandle: smartypantsdropout
 scannedAt:     2024-05-17T21:39:28.536Z
+scannedTo:     null
+
+---
+
+channelId:     UCpXBGqwsBkpvcYjsJBQ7LEQ
+channelHandle: criticalrole
+scannedAt:     2026-09-01T05:07:52.596Z
 scannedTo:     null
 
 ---

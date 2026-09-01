@@ -341,3 +341,92 @@ Deno.test("mergeEntries leaves departed entries where they were", () => {
     throw new Error(front.map((e) => e.videoId).join(","));
   }
 });
+
+// Scheduling. Pure functions taking an explicit `now`, so the suite stays
+// offline and never mocks the clock.
+import {
+  DAY_MS,
+  durationMs,
+  isDue,
+  jitterFactor,
+  SPREAD,
+} from "./src/schedule.ts";
+
+Deno.test("jitterFactor stays within the spread and is deterministic", () => {
+  const at = new Date("2026-01-01T00:00:00Z");
+  for (let i = 0; i < 2000; i += 1) {
+    const f = jitterFactor(`key${i}`, at);
+    if (f < 1 - SPREAD || f > 1 + SPREAD) {
+      throw new Error(`factor ${f} outside +/-${SPREAD}`);
+    }
+  }
+  if (jitterFactor("a", at) !== jitterFactor("a", at)) {
+    throw new Error("same inputs must give the same factor");
+  }
+});
+
+Deno.test("jitterFactor separates keys, and re-rolls per attempt", () => {
+  const at = new Date("2026-01-01T00:00:00Z");
+  const later = new Date("2026-02-01T00:00:00Z");
+  if (jitterFactor("a", at) === jitterFactor("b", at)) {
+    throw new Error("different keys must not share an offset");
+  }
+  if (jitterFactor("a", at) === jitterFactor("a", later)) {
+    throw new Error("a later attempt must re-roll the offset");
+  }
+});
+
+Deno.test("jitterFactor spreads a crowd rather than shifting it", () => {
+  // Two draws averaged, so the distribution is triangular: most keys land
+  // near the nominal interval. A flat histogram here would mean the two draws
+  // are correlated and the average is really just one uniform.
+  const at = new Date("2026-01-01T00:00:00Z");
+  const bins = new Array(10).fill(0);
+  const n = 4000;
+  for (let i = 0; i < n; i += 1) {
+    const f = jitterFactor(`key${i}`, at);
+    bins[Math.min(9, Math.floor(((f - (1 - SPREAD)) / (2 * SPREAD)) * 10))] +=
+      1;
+  }
+  const middle = bins[4] + bins[5];
+  const edges = bins[0] + bins[9];
+  if (middle <= edges * 2) {
+    throw new Error(`not peaked in the middle: ${bins.join(" ")}`);
+  }
+});
+
+Deno.test("isDue treats never-looked-at as overdue", () => {
+  const now = new Date("2026-01-01T00:00:00Z");
+  if (!isDue("a", undefined, 28 * DAY_MS, now)) {
+    throw new Error("no previous attempt must count as due");
+  }
+});
+
+Deno.test("isDue holds inside the interval and fires well past it", () => {
+  const at = new Date("2026-01-01T00:00:00Z");
+  const interval = 28 * DAY_MS;
+  if (isDue("a", at, interval, at)) {
+    throw new Error("must not be due immediately after an attempt");
+  }
+  // Inside the jitter band either answer is legitimate; outside it is not.
+  const early = new Date(+at + interval * (1 - SPREAD) - 1000);
+  if (isDue("a", early, interval, early)) {
+    throw new Error("must not be due before the shortest possible interval");
+  }
+  const late = new Date(+at + interval * (1 + SPREAD) + 1000);
+  if (!isDue("a", at, interval, late)) {
+    throw new Error("must be due past the longest possible interval");
+  }
+});
+
+Deno.test("durationMs reads the ISO durations the config uses", () => {
+  if (durationMs("P32D") !== 32 * DAY_MS) {
+    throw new Error(String(durationMs("P32D")));
+  }
+  if (durationMs("PT8H") !== 8 * 3600_000) {
+    throw new Error(String(durationMs("PT8H")));
+  }
+  if (durationMs("PT4M") !== 4 * 60_000) {
+    throw new Error(String(durationMs("PT4M")));
+  }
+});

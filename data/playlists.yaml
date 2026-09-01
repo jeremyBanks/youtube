@@ -4416,7 +4416,7 @@ description: |
   The 34 unlisted videos that Dropout's own playlists point at. YouTube hides these from the channel, from search and from the uploads feed, so they are reachable only by direct link; every one was found by reading the playlists rather than the channel.
 
   Unlisted itself, and ordered by when each was first added to a playlist.
-playlistId:  todo-unlisted
+playlistId:  PLBteTePChj38
 unlisted:    true
 videos:
   w-0TEJMJOhk: 'Exclusive "Weird Al" Yankovic Music Video: FOIL (Parody of "Royals" by Lorde)'

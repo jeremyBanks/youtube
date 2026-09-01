@@ -5,6 +5,7 @@ import { mapOptional, upsert } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
+import { durationMs, isDue } from "../schedule.ts";
 
 if (import.meta.main) {
   await main();
@@ -74,11 +75,16 @@ export async function main() {
         scan.channelId === channelId &&
         (scan.scannedTo === null || scan.scannedTo <= recentWindowStart)
       );
-    const recentScanDue = config.maxRecentAge !== undefined &&
+    // Each tier gets its own jitter key, so a channel's three cadences drift
+    // apart rather than all three landing on the same day.
+    const recentScanDue = config.recentInterval !== undefined &&
       recentWindowStart !== undefined &&
-      (!lastWindowDeepScan ||
-        new Date(config.maxRecentAge.epochMilliseconds) >
-          lastWindowDeepScan.scannedAt);
+      isDue(
+        `${channelId}:recent`,
+        lastWindowDeepScan?.scannedAt,
+        durationMs(config.recentInterval),
+        scannedAt,
+      );
 
     let stopAt: Date;
 
@@ -96,22 +102,35 @@ export async function main() {
         continue;
       }
       if (
-        new Date(config.maxIncrementalAge.epochMilliseconds) <=
-          lastScan.scannedAt
+        !isDue(
+          `${channelId}:incremental`,
+          lastScan.scannedAt,
+          durationMs(config.incrementalInterval),
+          scannedAt,
+        )
       ) {
         continue; // Skip if incremental scan not needed yet
       }
       stopAt = lastScan.scannedAt;
     } else if (
-      !lastCompleteScan || !lastScan ||
-      (new Date(config.maxCompleteAge.epochMilliseconds) >
-        lastCompleteScan.scannedAt)
+      !lastScan ||
+      isDue(
+        `${channelId}:complete`,
+        lastCompleteScan?.scannedAt,
+        durationMs(config.completeInterval),
+        scannedAt,
+      )
     ) {
       stopAt = new Date("2000-01-01");
     } else if (recentScanDue) {
       stopAt = recentWindowStart!;
     } else if (
-      new Date(config.maxIncrementalAge.epochMilliseconds) > lastScan!.scannedAt
+      isDue(
+        `${channelId}:incremental`,
+        lastScan.scannedAt,
+        durationMs(config.incrementalInterval),
+        scannedAt,
+      )
     ) {
       stopAt = lastScan.scannedAt;
     } else {

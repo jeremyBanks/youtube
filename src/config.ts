@@ -29,12 +29,22 @@ const ScanConfigToml = z.record(
 
 type ScanConfig = Array<{
   channelHandle: string;
-  maxIncrementalAge: Temporal.Instant;
-  /** How stale the last window-deep scan may be before another is due. */
-  maxRecentAge?: Temporal.Instant;
-  /** How far back a windowed scan reaches. */
+  /**
+   * The three cadences, as ISO durations rather than as the instants this
+   * used to derive. A jittered due-check needs the duration and the last
+   * attempt, so it can offset each channel differently; and a derived
+   * `now - interval` was fixed at the moment the config was first read, which
+   * goes stale during a run long enough to matter.
+   */
+  incrementalInterval: string;
+  recentInterval?: string;
+  completeInterval: string;
+  /**
+   * How far back a windowed scan reaches. Not a cadence — it is the boundary
+   * such a scan stops at — and doubles as the flag for whether a channel is
+   * tracked at all.
+   */
   recentWindowStart?: Temporal.Instant;
-  maxCompleteAge: Temporal.Instant;
 }>;
 
 let scanConfig: undefined | Promise<ScanConfig> = undefined;
@@ -50,18 +60,12 @@ export async function getScanConfig(): Promise<ScanConfig> {
       const recentWindow = channelConfig["recent-window"];
       config.push({
         channelHandle,
-        maxIncrementalAge: now.toZonedDateTimeISO("UTC").subtract(
-          channelConfig["incremental-interval"],
-        ).toInstant(),
-        maxRecentAge: recentInterval
-          ? now.toZonedDateTimeISO("UTC").subtract(recentInterval).toInstant()
-          : undefined,
+        incrementalInterval: channelConfig["incremental-interval"],
+        recentInterval,
+        completeInterval: channelConfig["complete-interval"],
         recentWindowStart: recentWindow
           ? now.toZonedDateTimeISO("UTC").subtract(recentWindow).toInstant()
           : undefined,
-        maxCompleteAge: now.toZonedDateTimeISO("UTC").subtract(
-          channelConfig["complete-interval"],
-        ).toInstant(),
       });
     }
     return config;

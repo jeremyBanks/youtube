@@ -556,26 +556,6 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, in which Zach Reino plays an IT guy playing a special ops agent. ${MAYBE_MEMBERS_ONLY}
 """
 
-[PLb-lLnSGfRVc]
-name = "Game Changer Animated (${ALL_SEASONS})"
-unlisted = true
-show = "Game Changer"
-type = "animation"
-description = """
-${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Game Changer. ${MAYBE_MEMBERS_ONLY}
-"""
-
-[PLBZi5qxJGKrA]
-name = "Dimension 20 Animated (${ALL_SEASONS})"
-unlisted = true
-show = "Dimension 20"
-type = "animation"
-description = """
-${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Dimension 20. ${MAYBE_MEMBERS_ONLY}
-
-${D20_PLUG}
-"""
-
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

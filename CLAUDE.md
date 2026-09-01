@@ -146,14 +146,9 @@ This shows videos in `data/videos.yaml` that aren't yet in
 
 **The animated shorts are not a show.** Dropout numbers "Dimension 20 Animated"
 and "Game Changer Animated" as runs of their own, but they are animations of
-moments from the parent show, so they are filed as `animation:` entries inside
-the season they depict — never as a `show:` or a `season:` of their own. The two
-playlists select `type = "animation"` within `show = "Dimension 20"` and
-`show = "Game Changer"`, which is what makes them match Dropout's own lists.
-
-The Game Changer ones are the exception that proves the rule: neither their
-titles nor their descriptions name the episode each animates, so they sit in a
-season-less `Game Changer` doc until someone can place them.
+moments from the parent show, so the only place one belongs is as an
+`animation:` entry inside the season it depicts — never as a `show:` or a
+`season:` of its own, and never in a playlist of its own.
 
 ## Spin-offs and Crossovers
 

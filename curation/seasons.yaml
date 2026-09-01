@@ -1203,18 +1203,6 @@ videos:
   - bts: "A Starstruck Odyssey: Behind the Scenes"
     members: B9ne6D-Sfsk
     published: 2022-05-23
-  - animation: Barry Syx Confronts Barry Nyne
-    members: bI-JhKt_FK0
-    published: 2025-12-02
-  - animation: Handy Andi CEO Crashes Out
-    members: 8vxb318J13A
-    published: 2025-12-16
-  - animation: Proldier's License
-    members: JfJIblyX4Ks
-    published: 2025-12-30
-  - animation: Operation Slippery Puppet
-    members: 9d9lEHoRr5c
-    published: 2026-01-13
 
 ---
 
@@ -1722,9 +1710,6 @@ videos:
     talkback: true
     members: HsoEUyIC8aA
     published: 2023-04-20
-  - animation: Cinderella's Mice Are Traumatized
-    members: b7XU1jKxEsU
-    published: 2023-10-18
 
 ---
 
@@ -4050,9 +4035,6 @@ videos:
   # - external: Ally Beardsley Discusses Fantasy High Junior Year on Screen Rant Plus
   #   public: ebYmqmmZlVA
   #   published: 2024-05-25
-  - animation: Riz and Baron
-    members: fR2kTFlbKwA
-    published: 2024-01-23
 
 ---
 
@@ -6597,30 +6579,3 @@ videos:
   - special: Brennan Creates a Tiny Pirate Shipwreck (Game Changer Clip)
     public: 5Thl6C9w83s
     published: 2020-02-28
-
----
-
-# The animated shorts Game Changer spins off. Dropout numbers them as a run of
-# their own, and neither their titles nor their descriptions name the episode
-# each animates, so there is nothing to file them under but the show itself.
-# No `season:`, so they count as no season.
-show: Game Changer
-videos:
-  - animation: To-Do List
-    members: Xu1MB6rDIkA
-    published: 2024-12-30
-  - animation: Brennan's "Yes Or No?" Monologue
-    members: TeQqbC1gea4
-    published: 2025-06-10
-  - animation: Welcome to Mountport
-    members: 3FxTy9GsntY
-    published: 2025-03-14
-  - animation: I'm Hungie
-    members: AbX7LOzYUpo
-    published: 2025-05-09
-  - animation: Name That Bird
-    members: aGftn6ftdzI
-    published: 2025-07-18
-  - animation: I'm a Professional
-    members: 5d8F7LsxzI0
-    published: 2025-10-15

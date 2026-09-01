@@ -15,7 +15,7 @@ const ID_FIELDS = [
   "public short",
   "public compilation",
   "public parts",
-  "deleted public parts",
+  "removed public parts",
   "removed members",
 ] as const;
 

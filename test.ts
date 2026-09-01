@@ -437,8 +437,8 @@ Deno.test("intervalFor picks the interval from the last verdict", () => {
   const days = (known: Parameters<typeof intervalFor>[0]) =>
     intervalFor(known) / DAY_MS;
   if (days(undefined) !== 21) throw new Error(String(days(undefined)));
-  if (days({ absence: "gone" }) !== 350) {
-    throw new Error(String(days({ absence: "gone" })));
+  if (days({ absence: "deleted" }) !== 350) {
+    throw new Error(String(days({ absence: "deleted" })));
   }
   if (days({ absence: "private" }) !== 42) {
     throw new Error(String(days({ absence: "private" })));
@@ -450,7 +450,7 @@ Deno.test("intervalFor picks the interval from the last verdict", () => {
     throw new Error(String(days({ privacyStatus: "public" })));
   }
   // A verdict outranks a stale privacyStatus from an earlier lookup.
-  if (days({ privacyStatus: "public", absence: "gone" }) !== 350) {
+  if (days({ privacyStatus: "public", absence: "deleted" }) !== 350) {
     throw new Error("absence must win over privacyStatus");
   }
 });

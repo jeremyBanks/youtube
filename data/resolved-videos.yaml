@@ -506,7 +506,7 @@ privacyStatus: public
 
 videoId:       2uUZ_xK2TyA
 resolvedAt:    2026-09-01T17:52:48.404Z
-absence:       gone
+absence:       deleted
 missing:       true
 
 ---
@@ -751,7 +751,7 @@ privacyStatus: unlisted
 
 videoId:       5cvbTt9tyPg
 resolvedAt:    2026-09-01T17:52:48.404Z
-absence:       gone
+absence:       deleted
 missing:       true
 
 ---
@@ -4375,7 +4375,7 @@ privacyStatus: public
 
 videoId:       cm2p1kLDLUw
 resolvedAt:    2026-09-01T17:52:48.404Z
-absence:       gone
+absence:       deleted
 missing:       true
 
 ---

@@ -83,19 +83,31 @@ Every task: `scan`, `scan-dropout`, `curate`, `aggregate`, `publish`,
   scheduled tiers would otherwise skip a recently-scanned channel.
 - `deno task resolve --ids=a,b,c` (or `--unknown`) looks up video ids directly,
   50 per request. It never _creates_ a `data/videos.yaml` record — one fetched
-  by id has no playlist-add time and takes no part in deletion detection, so
+  by id has no playlist-add time and takes no part in removal detection, so
   those go to `data/resolved-videos.yaml`. It does _annotate_ a record a scan
   already made, with `resolvedAt` and `privacyStatus`.
 
-  `--unknown` sweeps three sets: ids the curation names that no scan has seen,
-  ids appearing in a scanned channel's playlists, and **every video a scan
-  marked `removedBefore`**. That last one matters because `removedBefore` only
-  ever meant "stopped appearing in the channel's uploads playlist", and an
-  unlisted video leaves that listing exactly as a deleted one does. Asking by id
-  settles it: the API serves an unlisted video, and serves nothing for a deleted
-  one. The first run of this found 53 of 122 supposedly-removed videos alive and
-  merely unlisted. `removedBefore` is never cleared — the video did leave the
-  listing — but `privacyStatus` alongside it says why.
+  `--due` sweeps three sets on a cadence: ids the curation names that no scan
+  has seen, ids appearing in a scanned channel's playlists, and **every video a
+  scan marked `removedBefore`**. That last one matters because `removedBefore`
+  only ever meant "stopped appearing in the channel's uploads playlist", and an
+  unlisted video leaves that listing exactly as a deleted one does.
+
+  Two requests settle it. `videos.list` reports `public` or `unlisted` for
+  anything still served; it omits a private video and a deleted one identically,
+  so what it will not serve goes to YouTube's oEmbed endpoint, which answers 200
+  for a video that exists, 403 for private and 404 for deleted. That verdict is
+  stored as `absence`, one of `private`, `deleted` or `unknown`, and only ever
+  when a real HTTP response came back — a timeout is not evidence about a video.
+
+  `removedBefore` is never cleared, because the video did leave the listing.
+  `privacyStatus` and `absence` beside it say why. The first run found 53 of 122
+  supposedly-removed videos alive and merely unlisted, and later that 63 of 69
+  believed deleted were only private.
+
+  Intervals depend on the last verdict: 21 days for a public video absent from
+  its uploads feed, 28 unlisted, 42 private, 350 deleted. `--ids=` overrides all
+  of it, which is how a wrong verdict is corrected.
 
 ## Workflow
 
@@ -239,6 +251,13 @@ videos:
 - `public compilation`: Compilation including this content
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)
+- `removed public parts`: Split-episode parts that have since gone
+
+**"Removed" is not "deleted".** Everything the scan observes is removal: a video
+stopped appearing in a listing, an entry left a playlist. That is all a listing
+can tell us, and an unlisted video leaves one exactly as a destroyed one does.
+The word `deleted` is reserved for the one place we can prove it —
+`absence: deleted`, from a 404 at the oEmbed endpoint on a direct lookup by id.
 
 ### Excerpts are never curated
 

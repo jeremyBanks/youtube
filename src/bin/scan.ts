@@ -73,8 +73,8 @@ export async function main() {
     // A windowed scan reaches back a fixed window rather than only to the last
     // scan. Deletion is detected by noticing that a video we already know about
     // is no longer listed, and that check only covers videos published at or
-    // after stopAt, so an incremental scan can only ever spot deletions among
-    // videos published since the previous run. This tier catches deletions
+    // after stopAt, so an incremental scan can only ever spot removals among
+    // videos published since the previous run. This tier catches removals
     // further back without paying for a complete scan every time.
     const recentWindowStart = config.recentWindowStart === undefined
       ? undefined
@@ -165,10 +165,10 @@ export async function main() {
 
     console.info(`Scanning ${channelHandle} back to ${stopAt}...`);
 
-    const deletedIds: Set<string> = new Set();
+    const removedIds: Set<string> = new Set();
     for (const video of videos) {
       if (video.channelId === channelId && video.publishedAt >= stopAt) {
-        deletedIds.add(video.videoId);
+        removedIds.add(video.videoId);
       }
     }
 
@@ -198,7 +198,7 @@ export async function main() {
           undefined,
       };
 
-      deletedIds.delete(record.videoId);
+      removedIds.delete(record.videoId);
 
       if (record.publishedAt >= stopAt) {
         upsert(videos, record, (a, b) => a.videoId === b.videoId);
@@ -236,7 +236,7 @@ export async function main() {
             undefined,
         };
 
-        deletedIds.delete(record.videoId);
+        removedIds.delete(record.videoId);
 
         if (record.publishedAt >= stopAt) {
           upsert(videos, record, (a, b) => a.videoId === b.videoId);
@@ -258,7 +258,7 @@ export async function main() {
       }
     }
 
-    for (const videoId of deletedIds) {
+    for (const videoId of removedIds) {
       videos.find((video) => video.videoId === videoId)!.removedBefore ??=
         scannedAt;
     }

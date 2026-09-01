@@ -65,7 +65,7 @@ jobs:
       #
       # Deliberately not --incremental-only: that flag is a manual catch-up
       # tool, and here it would suppress the complete scans that
-      # config/scan.toml schedules, which are what detect deletions.
+      # config/scan.toml schedules, which are what detect removals.
       # Step-level timeout, so that a scan cut short still reaches the commit
       # below; a job-level one would cancel the job and discard the capture.
       - name: Scan channels
@@ -111,7 +111,7 @@ jobs:
           fi
 
       # Records what exists on watch.dropout.tv, the same way: the sitemap
-      # gives existence and deletion detection in one request, then a budget
+      # gives existence and removal detection in one request, then a budget
       # of page fetches (12 seconds apart) fills in details, once ever per
       # page. Two layers share that budget, cheapest first — collections
       # (~196 pages) for each show's display name and synopsis, then episodes

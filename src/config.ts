@@ -188,7 +188,7 @@ const SeasonsCurationYaml = z.array(
         // published, since the horizontal upload is the one to watch.
         "public short": VideoId.optional(),
         "public parts": VideoId.or(VideoId.array()).optional(),
-        "deleted public parts": VideoId.or(VideoId.array()).optional(),
+        "removed public parts": VideoId.or(VideoId.array()).optional(),
         paid: VideoId.optional(),
       }).strict(),
     ),

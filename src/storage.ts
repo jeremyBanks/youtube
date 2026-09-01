@@ -62,10 +62,10 @@ export const Video = z.object({
   uploadedAt: z.date().optional(),
   /**
    * The date at which this video stopped appearing in the channel's uploads
-   * playlist. That is not the same as being deleted: an unlisted video leaves
-   * the listing in exactly the same way, so a scan alone cannot tell the two
-   * apart. `deno task resolve --unknown` asks the API directly and records
-   * what it learns in the two fields below.
+   * playlist. Removed, not deleted: an unlisted video leaves the listing in
+   * exactly the same way a destroyed one does, so a scan alone cannot tell
+   * them apart. `deno task resolve --due` asks the API directly and records
+   * what it learns in the fields below.
    */
   removedBefore: z.date().optional(),
   /** When a direct lookup last asked the API about this id. */
@@ -83,7 +83,7 @@ export const Video = z.object({
    * an id nothing has managed to classify: a lookup that has not run, or one
    * whose request failed.
    */
-  absence: z.enum(["private", "gone", "unknown"]).optional(),
+  absence: z.enum(["private", "deleted", "unknown"]).optional(),
   title: z.string().min(1),
   duration: z.number(),
   membersOnly: z.literal(true).optional(),
@@ -135,7 +135,7 @@ export const openScanStorage = () =>
  * scan — a public copy on a guest's own channel, say.
  *
  * Deliberately its own file, never data/videos.yaml. A scanned record
- * carries a playlist-add timestamp and participates in deletion detection
+ * carries a playlist-add timestamp and participates in removal detection
  * by being absent from a listing; neither is true here, and mixing the two
  * would corrupt both. Nothing in the scan reads or writes this.
  */
@@ -159,7 +159,7 @@ export const ResolvedVideo = z.object({
    * an id nothing has managed to classify: a lookup that has not run, or one
    * whose request failed.
    */
-  absence: z.enum(["private", "gone", "unknown"]).optional(),
+  absence: z.enum(["private", "deleted", "unknown"]).optional(),
   /** set when the API returned nothing: deleted, private, or never valid */
   missing: z.boolean().optional(),
 });

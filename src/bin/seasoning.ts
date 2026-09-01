@@ -88,12 +88,12 @@ Output is designed to give Claude all context needed to suggest categorizations.
           ids.push(publicParts);
         }
       }
-      const deletedPublicParts = video["deleted public parts"];
-      if (deletedPublicParts) {
-        if (Array.isArray(deletedPublicParts)) {
-          ids.push(...deletedPublicParts);
+      const removedPublicParts = video["removed public parts"];
+      if (removedPublicParts) {
+        if (Array.isArray(removedPublicParts)) {
+          ids.push(...removedPublicParts);
         } else {
-          ids.push(deletedPublicParts);
+          ids.push(removedPublicParts);
         }
       }
 

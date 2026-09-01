@@ -13,12 +13,12 @@ import { DAY_MS, isDue } from "../schedule.ts";
 
 /** How long to leave an id alone, by what the last lookup concluded. */
 const INTERVAL_DAYS = {
-  /** public, yet gone from its channel's uploads: should not happen, so watch */
+  /** public, yet absent from its channel's uploads: should not happen, watch it */
   delisted: 21,
   unlisted: 28,
   private: 42,
   /** deletion does not undo itself, but a verdict is not sworn to forever */
-  gone: 350,
+  deleted: 350,
   /** nothing has classified it yet */
   unknown: 21,
 } as const;
@@ -37,7 +37,7 @@ type Known = Pick<Video, "resolvedAt" | "privacyStatus" | "absence">;
 
 /** What the last lookup concluded, from whichever file holds this id. */
 export function intervalFor(known: Known | undefined): number {
-  if (known?.absence === "gone") return INTERVAL_DAYS.gone * DAY_MS;
+  if (known?.absence === "deleted") return INTERVAL_DAYS.deleted * DAY_MS;
   if (known?.absence === "private") return INTERVAL_DAYS.private * DAY_MS;
   if (known?.privacyStatus === "unlisted") {
     return INTERVAL_DAYS.unlisted * DAY_MS;
@@ -62,7 +62,7 @@ export function intervalFor(known: Known | undefined): number {
  */
 export async function oembedVerdict(
   videoId: string,
-): Promise<"exists" | "private" | "gone" | undefined> {
+): Promise<"exists" | "private" | "deleted" | undefined> {
   const url = `https://www.youtube.com/oembed?url=${
     encodeURIComponent(`https://www.youtube.com/watch?v=${videoId}`)
   }&format=json`;
@@ -76,7 +76,7 @@ export async function oembedVerdict(
   await response.body?.cancel();
   if (response.status === 200) return "exists";
   if (response.status === 401 || response.status === 403) return "private";
-  if (response.status === 404) return "gone";
+  if (response.status === 404) return "deleted";
   console.warn(`  ${videoId}: oembed answered ${response.status}, no verdict`);
   return undefined;
 }
@@ -90,7 +90,7 @@ const ID_FIELDS = [
   "public short",
   "public compilation",
   "public parts",
-  "deleted public parts",
+  "removed public parts",
   "removed members",
 ] as const;
 

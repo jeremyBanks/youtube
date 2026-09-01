@@ -55,6 +55,7 @@ Deno.test("an aborted run flushes storage and still exits non-zero", async () =>
 
 // The Dropout sitemap and episode-page parsers, against captured fixtures.
 // The suite must stay offline, so these are literal excerpts of real pages.
+import { entryFrom, mergeEntries } from "./src/bin/playlists.ts";
 import {
   canonicalCollection,
   newArrivals,
@@ -229,4 +230,124 @@ Deno.test("stripCollectionSuffix removes a trailing collection name", () => {
   // A title that merely contains a dash is left alone.
   const plain = stripCollectionSuffix("A Dash - Of Something", names);
   if (plain !== "A Dash - Of Something") throw new Error(plain);
+});
+
+Deno.test("entryFrom keeps only what the video resource does not say", () => {
+  const base = {
+    contentDetails: {
+      videoId: "abcdefghijk",
+      videoPublishedAt: "2026-01-02T03:04:05Z",
+    },
+    snippet: {
+      publishedAt: "2026-02-03T04:05:06Z",
+      position: 3,
+      title: "An Episode",
+      videoOwnerChannelId: "UCsame",
+      videoOwnerChannelTitle: "Dropout",
+    },
+    status: { privacyStatus: "public" },
+  };
+  // Owner matching the playlist's channel is not a collaboration, and a
+  // title equal to the video's own carries nothing.
+  const plain = entryFrom(base, "UCsame", {
+    title: "An Episode",
+    channelId: "UCsame",
+  })!;
+  if (plain.ownerChannelId !== undefined) throw new Error("owner kept");
+  if (plain.title !== undefined) throw new Error("redundant title kept");
+  if (plain.position !== 3) throw new Error(String(plain.position));
+  if (plain.privacyStatus !== "public") throw new Error("privacy lost");
+
+  // A different owner is exactly the collaboration signal.
+  const collab = entryFrom(base, "UCother", {
+    title: "An Episode",
+    channelId: "UCother",
+  })!;
+  if (collab.ownerChannelId !== "UCsame") throw new Error("collab missed");
+
+  // A title that differs is the only evidence a custom one survives.
+  const custom = entryFrom(base, "UCsame", {
+    title: "Something Else",
+    channelId: "UCsame",
+  })!;
+  if (custom.title !== "An Episode") throw new Error("custom title dropped");
+
+  // An entry with no video id is not a record at all.
+  if (entryFrom({ snippet: { publishedAt: "x" } }, "UCsame", undefined)) {
+    throw new Error("accepted an entry with no video");
+  }
+
+  // An unlisted video never reaches a channel's uploads, so the entry is
+  // the only place its real title exists: keep it.
+  const unlisted = entryFrom(
+    { ...base, status: { privacyStatus: "unlisted" } },
+    "UCother",
+    undefined,
+  )!;
+  if (unlisted.title !== "An Episode") throw new Error("unlisted title lost");
+  // Unknown to us and hosted elsewhere, so where it lives is worth keeping.
+  if (unlisted.ownerChannelId !== "UCsame") throw new Error("owner lost");
+
+  // A private video's title is the placeholder "Private video", which
+  // privacyStatus already tells us; storing it would be noise.
+  const priv = entryFrom(
+    {
+      ...base,
+      snippet: { ...base.snippet, title: "Private video" },
+      status: { privacyStatus: "private" },
+    },
+    "UCsame",
+    undefined,
+  )!;
+  if (priv.title !== undefined) throw new Error("kept a private placeholder");
+});
+
+Deno.test("mergeEntries leaves departed entries where they were", () => {
+  const now = new Date("2026-09-01T00:00:00Z");
+  const at = (videoId: string, position: number) => ({
+    videoId,
+    position,
+    addedAt: now,
+  });
+  // a, b, c, d in order; b and d then leave.
+  const stored = [
+    at("aaaaaaaaaaa", 0),
+    at("bbbbbbbbbbb", 1),
+    at("ccccccccccc", 2),
+    at("ddddddddddd", 3),
+  ];
+  const observed = [at("ccccccccccc", 1), at("aaaaaaaaaaa", 0)];
+  const merged = mergeEntries(stored, observed, now);
+  // b stays behind a, d stays behind c, rather than both being swept to
+  // the end.
+  if (
+    merged.map((e) => e.videoId[0]).join("") !== "abcd"
+  ) {
+    throw new Error(merged.map((e) => e.videoId[0]).join(""));
+  }
+  if (merged[0].removedBefore || merged[2].removedBefore) {
+    throw new Error("a living entry was marked as gone");
+  }
+  if (merged[1].removedBefore?.getTime() !== now.getTime()) {
+    throw new Error("departed entry not marked");
+  }
+  // Its recorded position describes where it was, and is not renumbered.
+  if (merged[1].position !== 1) throw new Error(String(merged[1].position));
+
+  // A later pass must not move an existing mark forward.
+  const later = new Date("2026-10-01T00:00:00Z");
+  const again = mergeEntries(merged, observed, later);
+  if (again[1].removedBefore?.getTime() !== now.getTime()) {
+    throw new Error("removal date was overwritten");
+  }
+
+  // An entry that led the playlist and then left stays at the front.
+  const front = mergeEntries(
+    [at("zzzzzzzzzzz", 0), at("aaaaaaaaaaa", 1)],
+    [at("aaaaaaaaaaa", 0)],
+    now,
+  );
+  if (front[0].videoId !== "zzzzzzzzzzz") {
+    throw new Error(front.map((e) => e.videoId).join(","));
+  }
 });

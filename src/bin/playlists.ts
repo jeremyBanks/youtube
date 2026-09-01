@@ -1,36 +1,36 @@
-import { parseArgs } from "@std/cli";
 import type { youtube_v3 } from "googleapis";
-import { channelMetadata, getClientAndKey } from "../client.ts";
+import { getClientAndKey } from "../client.ts";
 import { mapOptional } from "../common.ts";
 import type { ChannelPlaylist, ChannelPlaylistEntry } from "../storage.ts";
-import { openChannelPlaylistStorage } from "../storage.ts";
-import { getScanConfig } from "../config.ts";
-import { openChannelStorage } from "../storage.ts";
 import { DAY_MS, durationMs, isDue } from "../schedule.ts";
-
-/** How often to re-read a channel's list of playlists. */
-const LISTING_INTERVAL = "PT4M";
 
 /**
  * How soon to re-read a playlist's contents, given how long it has been
  * quiet: a quarter of that, so an active playlist is read often and a dormant
  * one drifts towards being read about once a year.
  *
- * The floor exists for manual runs, where the workflow's daily cadence is not
- * doing the limiting. The ceiling is generous because dormancy is cheap to
- * tolerate here: a playlist waking up changes its itemCount, and that is
- * noticed exactly, on the next listing, without the interval having to guess.
+ * Both ends come from the channel. The floor is its incremental interval,
+ * since reading a playlist more often than we look at the channel at all is
+ * wasted. The ceiling is a year, or the channel's exhaustive interval where
+ * that is longer: dormancy is cheap to tolerate, because a playlist waking up
+ * changes its itemCount and the listing notices exactly, without the interval
+ * having to guess.
  */
 const QUIET_DIVISOR = 4;
-const MIN_CONTENTS_INTERVAL = durationMs("PT4M");
-const MAX_CONTENTS_INTERVAL = 350 * DAY_MS;
+const CONTENTS_CEILING = 350 * DAY_MS;
 
-export function contentsInterval(lastChangedAt: Date, now: Date): number {
+export function contentsInterval(
+  lastChangedAt: Date,
+  now: Date,
+  incrementalInterval: string,
+  completeInterval: string,
+): number {
+  const floor = durationMs(incrementalInterval);
+  const ceiling = Math.max(CONTENTS_CEILING, durationMs(completeInterval));
   const quiet = Math.max(0, now.getTime() - lastChangedAt.getTime());
-  return Math.min(
-    MAX_CONTENTS_INTERVAL,
-    Math.max(MIN_CONTENTS_INTERVAL, quiet / QUIET_DIVISOR),
-  );
+  // Floor last, so that a ceiling somehow below it still yields the floor:
+  // reading too often is recoverable, never reading is not.
+  return Math.max(floor, Math.min(ceiling, quiet / QUIET_DIVISOR));
 }
 
 /**
@@ -62,10 +62,6 @@ function shape(entries: Array<ChannelPlaylistEntry> | undefined): string {
   return (entries ?? [])
     .map((e) => `${e.videoId}:${e.removedBefore ? "-" : "+"}`)
     .join(",");
-}
-
-if (import.meta.main) {
-  await main();
 }
 
 /** Reads a value only when it says something, so blanks are never stored. */
@@ -221,173 +217,147 @@ async function stillExists(playlistId: string): Promise<boolean> {
 }
 
 /**
- * Command-line entry point. Records the playlists of the channels we
- * actively track, as they are, so that their membership can be compared
- * against our curation. Writes only data/channel-playlists.yaml.
+ * Reads one channel's playlists: the listing first, then the contents of any
+ * playlist due for one.
  *
- *   deno task scan-playlists
- *   deno task scan-playlists --channel=umactually
+ * Called by the channel scan, off the same decision that chose to scan the
+ * channel at all. That is deliberate. When this was its own binary with its
+ * own due check, the two could not stay in step even given identical
+ * intervals, because the jitter is seeded per key and the two keys differ.
+ * Looking at a channel is one act; the videos and the playlists are two halves
+ * of it.
  */
-export async function main() {
-  const args = parseArgs(Deno.args, { string: ["channel"] });
-  const only = args.channel?.split(",").map((c) => c.trim().toLowerCase());
+export async function scanChannelPlaylists(
+  handle: string,
+  channelId: string,
+  config: { incrementalInterval: string; completeInterval: string },
+  playlists: Array<ChannelPlaylist>,
+  now: Date,
+): Promise<void> {
+  // Playlists whose item count moved since we last looked. YouTube reports
+  // the count in the cheap listing, so it says which of the expensive
+  // per-playlist reads are actually worth making.
+  const countChanged = new Set<string>();
+  const seen = new Set<string>();
+  let added = 0;
 
-  const playlists = await openChannelPlaylistStorage();
-  const channels = await openChannelStorage();
-  const now = new Date();
-
-  // A channel we actively track is one with a recent-window configured;
-  // the parked ones have no cadence and are never scanned at all.
-  const tracked = (await getScanConfig()).filter((c) =>
-    c.recentWindowStart !== undefined
-  );
-
-  for (const config of tracked) {
-    const handle = config.channelHandle;
-    if (only && !only.includes(handle.toLowerCase())) {
+  for await (const found of channelPlaylists(channelId)) {
+    if (!found.id) {
       continue;
     }
-    const { channelId } = await channelMetadata(handle);
-    const channel = channels.find((c) => c.channelId === channelId);
-
-    // Playlists whose item count moved since we last looked. YouTube reports
-    // the count in the cheap listing, so it says which of the expensive
-    // per-playlist reads are actually worth making.
-    const countChanged = new Set<string>();
-
-    const listingDue = isDue(
-      `${channelId}:playlist-listing`,
-      channel?.playlistsListedAt,
-      durationMs(LISTING_INTERVAL),
-      now,
+    seen.add(found.id);
+    let playlist = playlists.find((p) => p.playlistId === found.id);
+    if (!playlist) {
+      playlist = {
+        playlistId: found.id,
+        channelId,
+        firstSeen: now,
+      } as ChannelPlaylist;
+      playlists.push(playlist);
+      added += 1;
+    }
+    const before = [
+      playlist.title,
+      playlist.description,
+      playlist.privacyStatus,
+      playlist.itemCount,
+    ].join("\u0000");
+    const previousCount = playlist.itemCount;
+    playlist.channelId = channelId;
+    playlist.title = present(found.snippet?.title);
+    playlist.description = present(found.snippet?.description);
+    playlist.privacyStatus = present(found.status?.privacyStatus);
+    playlist.itemCount = found.contentDetails?.itemCount ?? undefined;
+    playlist.createdAt = mapOptional(
+      found.snippet?.publishedAt ?? undefined,
+      (d) => new Date(d),
     );
-
-    const seen = new Set<string>();
-    let added = 0;
-    if (listingDue) {
-      for await (const found of channelPlaylists(channelId)) {
-        if (!found.id) {
-          continue;
-        }
-        seen.add(found.id);
-        let playlist = playlists.find((p) => p.playlistId === found.id);
-        if (!playlist) {
-          playlist = {
-            playlistId: found.id,
-            channelId,
-            firstSeen: now,
-          } as ChannelPlaylist;
-          playlists.push(playlist);
-          added += 1;
-        }
-        const before = [
-          playlist.title,
-          playlist.description,
-          playlist.privacyStatus,
-          playlist.itemCount,
-        ].join("\u0000");
-        const previousCount = playlist.itemCount;
-        playlist.channelId = channelId;
-        playlist.title = present(found.snippet?.title);
-        playlist.description = present(found.snippet?.description);
-        playlist.privacyStatus = present(found.status?.privacyStatus);
-        playlist.itemCount = found.contentDetails?.itemCount ?? undefined;
-        playlist.createdAt = mapOptional(
-          found.snippet?.publishedAt ?? undefined,
-          (d) => new Date(d),
-        );
-        const after = [
-          playlist.title,
-          playlist.description,
-          playlist.privacyStatus,
-          playlist.itemCount,
-        ].join("\u0000");
-        if (before !== after) {
-          playlist.lastChangedAt = now;
-        }
-        if (
-          previousCount !== undefined && previousCount !== playlist.itemCount
-        ) {
-          countChanged.add(playlist.playlistId);
-        }
-      }
-      if (channel) {
-        channel.playlistsListedAt = now;
-      }
+    const after = [
+      playlist.title,
+      playlist.description,
+      playlist.privacyStatus,
+      playlist.itemCount,
+    ].join("\u0000");
+    if (before !== after) {
+      playlist.lastChangedAt = now;
     }
-
-    const mine = playlists.filter((p) => p.channelId === channelId);
-    if (listingDue && seen.size === 0 && mine.length > 0) {
-      // The empty-response trap: a listing that returns nothing is far more
-      // likely a bad fetch than a channel deleting every playlist at once.
-      throw new Error(
-        `${handle} listed no playlists while ${mine.length} are on record; ` +
-          `refusing to mark them delisted`,
-      );
+    if (previousCount !== undefined && previousCount !== playlist.itemCount) {
+      countChanged.add(playlist.playlistId);
     }
+  }
 
-    // Anything on record for this channel but absent from the listing is
-    // either unlisted or gone, and those deserve different answers. Only
-    // meaningful when a listing actually happened; a skipped one saw nothing.
-    let delisted = 0;
-    let removed = 0;
-    for (const playlist of listingDue ? mine : []) {
-      if (seen.has(playlist.playlistId) || playlist.removedBefore) {
-        continue;
-      }
-      if (await stillExists(playlist.playlistId)) {
-        if (!playlist.delistedBefore) {
-          playlist.delistedBefore = now;
-          delisted += 1;
-        }
-      } else {
-        playlist.removedBefore ??= now;
-        removed += 1;
-      }
-    }
-
-    // Delisted playlists are still scanned; only removed ones are dropped.
-    let read = 0;
-    let changed = 0;
-    for (const playlist of mine) {
-      if (playlist.removedBefore) {
-        continue;
-      }
-      const lastChanged = playlist.lastChangedAt ?? inferLastChanged(playlist);
-      if (
-        !countChanged.has(playlist.playlistId) &&
-        !isDue(
-          playlist.playlistId,
-          playlist.scrapedAt,
-          contentsInterval(lastChanged, now),
-          now,
-        )
-      ) {
-        continue;
-      }
-      const observed: Array<ChannelPlaylistEntry> = [];
-      for await (const item of playlistEntries(playlist.playlistId)) {
-        const entry = entryFrom(item);
-        if (entry) {
-          observed.push(entry);
-        }
-      }
-      const before = shape(playlist.entries);
-      playlist.entries = mergeEntries(playlist.entries ?? [], observed, now);
-      if (shape(playlist.entries) !== before) {
-        playlist.lastChangedAt = now;
-        changed += 1;
-      }
-      playlist.scrapedAt = new Date();
-      read += 1;
-    }
-
-    console.info(
-      `${handle}: ${
-        listingDue ? `${seen.size} listed, ${added} new, ` : "listing not due, "
-      }` +
-        `${delisted} newly delisted, ${removed} newly removed, ` +
-        `${read} of ${mine.length} playlists read, ${changed} changed.`,
+  const mine = playlists.filter((p) => p.channelId === channelId);
+  if (seen.size === 0 && mine.length > 0) {
+    // The empty-response trap: a listing that returns nothing is far more
+    // likely a bad fetch than a channel deleting every playlist at once.
+    throw new Error(
+      `${handle} listed no playlists while ${mine.length} are on record; ` +
+        `refusing to mark them delisted`,
     );
   }
+
+  // Anything on record for this channel but absent from the listing is
+  // either unlisted or gone, and those deserve different answers.
+  let delisted = 0;
+  let removed = 0;
+  for (const playlist of mine) {
+    if (seen.has(playlist.playlistId) || playlist.removedBefore) {
+      continue;
+    }
+    if (await stillExists(playlist.playlistId)) {
+      if (!playlist.delistedBefore) {
+        playlist.delistedBefore = now;
+        delisted += 1;
+      }
+    } else {
+      playlist.removedBefore ??= now;
+      removed += 1;
+    }
+  }
+
+  // Delisted playlists are still scanned; only removed ones are dropped.
+  let read = 0;
+  let changed = 0;
+  for (const playlist of mine) {
+    if (playlist.removedBefore) {
+      continue;
+    }
+    const lastChanged = playlist.lastChangedAt ?? inferLastChanged(playlist);
+    if (
+      !countChanged.has(playlist.playlistId) &&
+      !isDue(
+        playlist.playlistId,
+        playlist.scrapedAt,
+        contentsInterval(
+          lastChanged,
+          now,
+          config.incrementalInterval,
+          config.completeInterval,
+        ),
+        now,
+      )
+    ) {
+      continue;
+    }
+    const observed: Array<ChannelPlaylistEntry> = [];
+    for await (const item of playlistEntries(playlist.playlistId)) {
+      const entry = entryFrom(item);
+      if (entry) {
+        observed.push(entry);
+      }
+    }
+    const before = shape(playlist.entries);
+    playlist.entries = mergeEntries(playlist.entries ?? [], observed, now);
+    if (shape(playlist.entries) !== before) {
+      playlist.lastChangedAt = now;
+      changed += 1;
+    }
+    playlist.scrapedAt = new Date();
+    read += 1;
+  }
+
+  console.info(
+    `  playlists: ${seen.size} listed, ${added} new, ${delisted} delisted, ` +
+      `${removed} removed, ${read} read, ${changed} changed.`,
+  );
 }

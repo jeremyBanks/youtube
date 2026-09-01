@@ -20,7 +20,6 @@
     "scan-dropout": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/dropout.ts",
     "verify-dates": "deno run --allow-read ./src/bin/verify-dates.ts",
     "resolve": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/resolve.ts",
-    "scan-playlists": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/playlists.ts",
     "verify-playlists": "deno run --allow-read ./src/bin/verify-playlists.ts"
   },
   "imports": {

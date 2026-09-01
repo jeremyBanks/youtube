@@ -36,12 +36,6 @@ export const Channel = z.object({
   subscriberCount: z.number(),
   /** The channel's total view count, if visible. */
   viewCount: z.number(),
-  /**
-   * When we last read this channel's list of playlists. Distinct from
-   * refreshedAt, which is about the channel's own metadata, and from a
-   * playlist's scrapedAt, which is about that playlist's contents.
-   */
-  playlistsListedAt: z.date().optional(),
 });
 export type Channel = z.TypeOf<typeof Channel>;
 

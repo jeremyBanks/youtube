@@ -6,6 +6,8 @@ import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
 import { durationMs, isDue } from "../schedule.ts";
+import { scanChannelPlaylists } from "./playlists.ts";
+import { openChannelPlaylistStorage } from "../storage.ts";
 
 if (import.meta.main) {
   await main();
@@ -14,8 +16,13 @@ if (import.meta.main) {
 /** Command-line entry point. */
 export async function main() {
   const args = parseArgs(Deno.args, {
-    string: ["auth-url", "window"],
-    boolean: ["headless", "incremental-only"],
+    string: ["auth-url", "window", "channel"],
+    boolean: [
+      "headless",
+      "incremental-only",
+      "playlists-only",
+      "skip-playlists",
+    ],
     default: {
       headless: false,
       "incremental-only": false,
@@ -43,9 +50,14 @@ export async function main() {
 
   const scans = await openScanStorage();
   const videos = await openVideoStorage();
+  const playlists = await openChannelPlaylistStorage();
+  const only = args.channel?.split(",").map((c) => c.trim().toLowerCase());
 
   for (const config of await getScanConfig()) {
     let { channelHandle } = config;
+    if (only && !only.includes(channelHandle.toLowerCase())) {
+      continue;
+    }
 
     const { channelId, handle } = await channelMetadata(channelHandle);
 
@@ -134,6 +146,20 @@ export async function main() {
     ) {
       stopAt = lastScan.scannedAt;
     } else {
+      continue;
+    }
+
+    // The channel is due. Whether that means videos, playlists or both is a
+    // matter of flags; the decision that it is due was made once, above.
+    if (args["playlists-only"]) {
+      console.info(`Scanning ${channelHandle}'s playlists...`);
+      await scanChannelPlaylists(
+        channelHandle,
+        channelId,
+        config,
+        playlists,
+        scannedAt,
+      );
       continue;
     }
 
@@ -247,5 +273,17 @@ export async function main() {
     };
 
     scans.push(scan);
+
+    // Same pass, same decision: a channel's playlists are read whenever the
+    // channel itself is, so the two can never fall out of step.
+    if (!args["skip-playlists"]) {
+      await scanChannelPlaylists(
+        channelHandle,
+        channelId,
+        config,
+        playlists,
+        scannedAt,
+      );
+    }
   }
 }

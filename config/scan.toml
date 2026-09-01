@@ -1,104 +1,104 @@
 [dropout]
-incremental-interval = "PT4M"
+incremental-interval = "PT4H"
 recent-interval = "P7D"
 recent-window = "P96D"
-complete-interval = "P7D"
+complete-interval = "P28D"
 
 [dimension20show]
-incremental-interval = "PT32M"
+incremental-interval = "PT8H"
 recent-interval = "P7D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P40D"
 
 [dimension20shorts]
-incremental-interval = "PT32M"
+incremental-interval = "PT8H"
 recent-interval = "P7D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P40D"
 
 [umactually]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [gamechangershorts]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [makesomenoisedo]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [dirtylaundryshorts]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [veryimportantpeopleshow]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [thousandairesdo]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [dropoutpresents]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [smartypantsdropout]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [toonoutanimation]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [ParlorRoomShow]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [gastronautsshow]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [crowdcontroldo]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [nobodyaskedshow]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [monetsslumberparty]
 incremental-interval = "PT8H"
-recent-interval = "P7D"
+recent-interval = "P14D"
 recent-window = "P96D"
-complete-interval = "P32D"
+complete-interval = "P55D"
 
 [rarran]
 incremental-interval = "P99999D"
@@ -149,37 +149,41 @@ incremental-interval = "P99999D"
 complete-interval = "P99999D"
 
 [loadingreadyrun]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
+incremental-interval = "P14D"
+recent-interval = "P70D"
+recent-window = "P96D"
+complete-interval = "P140D"
 
 [characterswelcome]
 incremental-interval = "P99999D"
 complete-interval = "P99999D"
 
 [dorkly]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
+incremental-interval = "P70D"
+complete-interval = "P350D"
 
 [thewelltoldtale]
 incremental-interval = "P99999D"
 complete-interval = "P99999D"
 
 [drawfee]
-incremental-interval = "P99999D"
-complete-interval = "P99999D"
+incremental-interval = "P56D"
+complete-interval = "P280D"
 
 [roll20app]
 incremental-interval = "P99999D"
 complete-interval = "P99999D"
 
-[criticalrole]
 # Not a Dropout channel, but it carries the campaigns Brennan Lee Mulligan
 # runs there. Monthly is enough for a show that airs weekly; the yearly
 # complete pass is what detects removals, which incremental scans cannot see.
 # No recent-window, so scan-playlists leaves it alone: the 46 playlists were
 # captured once, to settle the campaign structure, and do not need re-reading.
-incremental-interval = "P30D"
-complete-interval = "P365D"
+[criticalrole]
+incremental-interval = "P35D"
+recent-interval = "P70D"
+recent-window = "P96D"
+complete-interval = "P350D"
 
 [siblingrivalrypodcast]
 incremental-interval = "P99999D"

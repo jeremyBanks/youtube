@@ -58,27 +58,18 @@ jobs:
         with:
           deno-version: v2.x
 
-      # First, because it is cheap (~300 units against a 10,000-unit daily
-      # quota) and because it sees what nothing else can: a private,
-      # unlisted or foreign video appears in no uploads playlist, so the
-      # channel scan below cannot know it exists. Were the order reversed,
-      # a day where the channel scan exhausted the quota would capture no
-      # playlists at all.
-      - name: Scan playlists
-        timeout-minutes: 10
-        env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-        run: deno task scan-playlists
-
+      # Videos and playlists together, per channel, off one decision. They
+      # used to be two steps with two due checks; even given identical
+      # intervals they could not stay in step, because the jitter is seeded
+      # per key and the two keys differed.
+      #
       # Deliberately not --incremental-only: that flag is a manual catch-up
       # tool, and here it would suppress the complete scans that
       # config/scan.toml schedules, which are what detect deletions.
       # Step-level timeout, so that a scan cut short still reaches the commit
       # below; a job-level one would cancel the job and discard the capture.
-      # always(), so that a failed playlist scan does not skip this one.
       - name: Scan channels
-        if: always()
-        timeout-minutes: 48
+        timeout-minutes: 58
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: deno task scan

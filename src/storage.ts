@@ -36,6 +36,12 @@ export const Channel = z.object({
   subscriberCount: z.number(),
   /** The channel's total view count, if visible. */
   viewCount: z.number(),
+  /**
+   * When we last read this channel's list of playlists. Distinct from
+   * refreshedAt, which is about the channel's own metadata, and from a
+   * playlist's scrapedAt, which is about that playlist's contents.
+   */
+  playlistsListedAt: z.date().optional(),
 });
 export type Channel = z.TypeOf<typeof Channel>;
 
@@ -226,7 +232,15 @@ export const ChannelPlaylist = z.object({
   createdAt: z.date().optional(),
   entries: ChannelPlaylistEntry.array().optional(),
   firstSeen: DateTime,
+  /** when this playlist's contents were last read in full */
   scrapedAt: z.date().optional(),
+  /**
+   * When a pass last saw this playlist differ from what we held: an entry
+   * added or gone, or the title, description, privacy or item count changed.
+   * How long ago that was sets how soon it is worth reading again — a
+   * playlist nobody has touched in four years does not need weekly attention.
+   */
+  lastChangedAt: z.date().optional(),
   /**
    * When the playlist first stopped appearing in its channel's listing
    * while still being fetchable by id: unlisted or private rather than

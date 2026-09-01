@@ -5,6 +5,64 @@ import { mapOptional } from "../common.ts";
 import type { ChannelPlaylist, ChannelPlaylistEntry } from "../storage.ts";
 import { openChannelPlaylistStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
+import { openChannelStorage } from "../storage.ts";
+import { DAY_MS, durationMs, isDue } from "../schedule.ts";
+
+/** How often to re-read a channel's list of playlists. */
+const LISTING_INTERVAL = "PT4M";
+
+/**
+ * How soon to re-read a playlist's contents, given how long it has been
+ * quiet: a quarter of that, so an active playlist is read often and a dormant
+ * one drifts towards being read about once a year.
+ *
+ * The floor exists for manual runs, where the workflow's daily cadence is not
+ * doing the limiting. The ceiling is generous because dormancy is cheap to
+ * tolerate here: a playlist waking up changes its itemCount, and that is
+ * noticed exactly, on the next listing, without the interval having to guess.
+ */
+const QUIET_DIVISOR = 4;
+const MIN_CONTENTS_INTERVAL = durationMs("PT4M");
+const MAX_CONTENTS_INTERVAL = 350 * DAY_MS;
+
+export function contentsInterval(lastChangedAt: Date, now: Date): number {
+  const quiet = Math.max(0, now.getTime() - lastChangedAt.getTime());
+  return Math.min(
+    MAX_CONTENTS_INTERVAL,
+    Math.max(MIN_CONTENTS_INTERVAL, quiet / QUIET_DIVISOR),
+  );
+}
+
+/**
+ * When this playlist last visibly changed, for a record written before the
+ * field existed. The newest thing that happened to it: an entry arriving, an
+ * entry going, or failing both, its own creation. Without this every playlist
+ * would look freshly changed on the first run and earn the shortest interval,
+ * which is the opposite of the intent.
+ */
+export function inferLastChanged(playlist: ChannelPlaylist): Date {
+  const stamps: Array<number> = [];
+  for (const entry of playlist.entries ?? []) {
+    stamps.push(entry.addedAt.getTime());
+    if (entry.removedBefore) stamps.push(entry.removedBefore.getTime());
+  }
+  if (stamps.length) {
+    return new Date(Math.max(...stamps));
+  }
+  // Only when there is nothing to go on. `firstSeen` in particular is when we
+  // first looked at the playlist, not when the playlist last changed; letting
+  // it into the comparison above would date every playlist to the day we
+  // started scanning and hand a list untouched since 2013 the same interval as
+  // one that changed this morning.
+  return playlist.createdAt ?? playlist.firstSeen;
+}
+
+/** The live entries, as a string, for spotting that a merge changed something. */
+function shape(entries: Array<ChannelPlaylistEntry> | undefined): string {
+  return (entries ?? [])
+    .map((e) => `${e.videoId}:${e.removedBefore ? "-" : "+"}`)
+    .join(",");
+}
 
 if (import.meta.main) {
   await main();
@@ -175,6 +233,7 @@ export async function main() {
   const only = args.channel?.split(",").map((c) => c.trim().toLowerCase());
 
   const playlists = await openChannelPlaylistStorage();
+  const channels = await openChannelStorage();
   const now = new Date();
 
   // A channel we actively track is one with a recent-window configured;
@@ -189,37 +248,76 @@ export async function main() {
       continue;
     }
     const { channelId } = await channelMetadata(handle);
+    const channel = channels.find((c) => c.channelId === channelId);
+
+    // Playlists whose item count moved since we last looked. YouTube reports
+    // the count in the cheap listing, so it says which of the expensive
+    // per-playlist reads are actually worth making.
+    const countChanged = new Set<string>();
+
+    const listingDue = isDue(
+      `${channelId}:playlist-listing`,
+      channel?.playlistsListedAt,
+      durationMs(LISTING_INTERVAL),
+      now,
+    );
 
     const seen = new Set<string>();
     let added = 0;
-    for await (const found of channelPlaylists(channelId)) {
-      if (!found.id) {
-        continue;
+    if (listingDue) {
+      for await (const found of channelPlaylists(channelId)) {
+        if (!found.id) {
+          continue;
+        }
+        seen.add(found.id);
+        let playlist = playlists.find((p) => p.playlistId === found.id);
+        if (!playlist) {
+          playlist = {
+            playlistId: found.id,
+            channelId,
+            firstSeen: now,
+          } as ChannelPlaylist;
+          playlists.push(playlist);
+          added += 1;
+        }
+        const before = [
+          playlist.title,
+          playlist.description,
+          playlist.privacyStatus,
+          playlist.itemCount,
+        ].join("\u0000");
+        const previousCount = playlist.itemCount;
+        playlist.channelId = channelId;
+        playlist.title = present(found.snippet?.title);
+        playlist.description = present(found.snippet?.description);
+        playlist.privacyStatus = present(found.status?.privacyStatus);
+        playlist.itemCount = found.contentDetails?.itemCount ?? undefined;
+        playlist.createdAt = mapOptional(
+          found.snippet?.publishedAt ?? undefined,
+          (d) => new Date(d),
+        );
+        const after = [
+          playlist.title,
+          playlist.description,
+          playlist.privacyStatus,
+          playlist.itemCount,
+        ].join("\u0000");
+        if (before !== after) {
+          playlist.lastChangedAt = now;
+        }
+        if (
+          previousCount !== undefined && previousCount !== playlist.itemCount
+        ) {
+          countChanged.add(playlist.playlistId);
+        }
       }
-      seen.add(found.id);
-      let playlist = playlists.find((p) => p.playlistId === found.id);
-      if (!playlist) {
-        playlist = {
-          playlistId: found.id,
-          channelId,
-          firstSeen: now,
-        } as ChannelPlaylist;
-        playlists.push(playlist);
-        added += 1;
+      if (channel) {
+        channel.playlistsListedAt = now;
       }
-      playlist.channelId = channelId;
-      playlist.title = present(found.snippet?.title);
-      playlist.description = present(found.snippet?.description);
-      playlist.privacyStatus = present(found.status?.privacyStatus);
-      playlist.itemCount = found.contentDetails?.itemCount ?? undefined;
-      playlist.createdAt = mapOptional(
-        found.snippet?.publishedAt ?? undefined,
-        (d) => new Date(d),
-      );
     }
 
     const mine = playlists.filter((p) => p.channelId === channelId);
-    if (seen.size === 0 && mine.length > 0) {
+    if (listingDue && seen.size === 0 && mine.length > 0) {
       // The empty-response trap: a listing that returns nothing is far more
       // likely a bad fetch than a channel deleting every playlist at once.
       throw new Error(
@@ -229,10 +327,11 @@ export async function main() {
     }
 
     // Anything on record for this channel but absent from the listing is
-    // either unlisted or gone, and those deserve different answers.
+    // either unlisted or gone, and those deserve different answers. Only
+    // meaningful when a listing actually happened; a skipped one saw nothing.
     let delisted = 0;
     let removed = 0;
-    for (const playlist of mine) {
+    for (const playlist of listingDue ? mine : []) {
       if (seen.has(playlist.playlistId) || playlist.removedBefore) {
         continue;
       }
@@ -247,14 +346,23 @@ export async function main() {
       }
     }
 
-    console.info(
-      `${handle}: ${seen.size} listed, ${added} new, ` +
-        `${delisted} newly delisted, ${removed} newly removed.`,
-    );
-
     // Delisted playlists are still scanned; only removed ones are dropped.
+    let read = 0;
+    let changed = 0;
     for (const playlist of mine) {
       if (playlist.removedBefore) {
+        continue;
+      }
+      const lastChanged = playlist.lastChangedAt ?? inferLastChanged(playlist);
+      if (
+        !countChanged.has(playlist.playlistId) &&
+        !isDue(
+          playlist.playlistId,
+          playlist.scrapedAt,
+          contentsInterval(lastChanged, now),
+          now,
+        )
+      ) {
         continue;
       }
       const observed: Array<ChannelPlaylistEntry> = [];
@@ -264,8 +372,22 @@ export async function main() {
           observed.push(entry);
         }
       }
+      const before = shape(playlist.entries);
       playlist.entries = mergeEntries(playlist.entries ?? [], observed, now);
+      if (shape(playlist.entries) !== before) {
+        playlist.lastChangedAt = now;
+        changed += 1;
+      }
       playlist.scrapedAt = new Date();
+      read += 1;
     }
+
+    console.info(
+      `${handle}: ${
+        listingDue ? `${seen.size} listed, ${added} new, ` : "listing not due, "
+      }` +
+        `${delisted} newly delisted, ${removed} newly removed, ` +
+        `${read} of ${mine.length} playlists read, ${changed} changed.`,
+    );
   }
 }

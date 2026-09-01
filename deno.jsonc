@@ -12,7 +12,7 @@
   },
   "unstable": ["temporal"],
   "tasks": {
-    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/seasoning.ts src/bin/dropout.ts src/bin/verify-dates.ts src/bin/resolve.ts src/bin/playlists.ts && deno lint && deno fmt --check",
+    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/seasoning.ts src/bin/dropout.ts src/bin/verify-dates.ts src/bin/resolve.ts src/bin/playlists.ts src/bin/verify-playlists.ts && deno lint && deno fmt --check",
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
     "publish": "deno run --allow-read --allow-write=./data,./config --allow-env --allow-net ./src/bin/publish.ts",
@@ -20,7 +20,8 @@
     "scan-dropout": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/dropout.ts",
     "verify-dates": "deno run --allow-read ./src/bin/verify-dates.ts",
     "resolve": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/resolve.ts",
-    "scan-playlists": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/playlists.ts"
+    "scan-playlists": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/playlists.ts",
+    "verify-playlists": "deno run --allow-read ./src/bin/verify-playlists.ts"
   },
   "imports": {
     "@std/async": "jsr:@std/async@^0.218.2",

@@ -76,6 +76,24 @@ recent-interval = "P7D"
 recent-window = "P96D"
 complete-interval = "P32D"
 
+[gastronautsshow]
+incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
+complete-interval = "P32D"
+
+[crowdcontroldo]
+incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
+complete-interval = "P32D"
+
+[nobodyaskedshow]
+incremental-interval = "PT8H"
+recent-interval = "P7D"
+recent-window = "P96D"
+complete-interval = "P32D"
+
 [monetsslumberparty]
 incremental-interval = "PT8H"
 recent-interval = "P7D"

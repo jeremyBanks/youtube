@@ -225,6 +225,15 @@ videos:
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)
 
+### Excerpts are never curated
+
+A clip that is a subset of something we already carry does not belong in a
+playlist beside the thing it was cut from. "First N minutes" previews above all
+— those are deliberately incomplete — but equally a single moment lifted out of
+an episode, or a short promo cut down from a longer trailer. The full version is
+the entry; the excerpt is noise. This is why the shorts channels are scanned but
+almost never curated.
+
 ## Channel Playlists
 
 `deno task scan-playlists` records the playlists of the channels we scan into

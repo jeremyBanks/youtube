@@ -5815,9 +5815,6 @@ videos:
 show: Dimension 20
 season: On a Bus (Season 1)
 videos:
-  - trailer: "'Dimension 20: On a Bus' Season Premiere"
-    public: 5feqZBLXrMg
-    published: 2025-07-14
   - episode: "1. Dimension 20: On a Bus (Extended Cut)"
     dropout: dimension-20-on-a-bus-extended-cut
     public: plGNmsegcJc
@@ -6051,15 +6048,6 @@ videos:
     talkback: true
     members: "-PYbqEgXYGM"
     published: 2026-04-02
-  - bts: "Critical Role's Mini Makes A D20: On A Bus Cameo"
-    public: bR3tolfWACU
-    published: 2026-04-05
-  - trailer: "The First 14 Minutes of Dimension 20: On a Bus Season 2"
-    public: iuqBdFm7XFc
-    published: 2026-04-22
-  - bts: "Brennan's PC Backstory For Dimension 20: On A Bus"
-    public: _3-JrJQqIlk
-    published: 2026-07-20
 
 ---
 

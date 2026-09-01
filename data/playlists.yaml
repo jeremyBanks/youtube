@@ -1,6 +1,6 @@
 name:        Game Changer (All Episodes and Extras)
 description: |
-  52-hour playlist of 79 episodes and 44 extras (trailers and behind-the-scenes videos) from 8 seasons of Game Changer, the only game show where the game changes every show. 16 videos are free and 107 require a @Dropout channel membership on YouTube.
+  53-hour playlist of 80 episodes and 44 extras (trailers and behind-the-scenes videos) from 8 seasons of Game Changer, the only game show where the game changes every show. 17 videos are free and 107 require a @Dropout channel membership on YouTube.
 playlistId:  PLObfuAmZm9pAgvtZ1cEHbEHKqp9D3ePHS
 videos:
   FC4ZTM0ou-0: Game Changer Promo
@@ -109,6 +109,7 @@ videos:
   nc4Y-Z6enuw: Behind the Scenes of "Outvoted" | Game Changer (Bonus Content)
   OxPaVj1pXVA: Samalamadingdong | Game Changer Season 7 | Ep. 11
   6O3OlfthmJ0: Behind the Scenes of "Samalamadingdong (Brennan's Revenge)" | Game Changer (Bonus Content)
+  plGNmsegcJc: 'Dimension 20: On a Bus (Extended Cut)'
   mujrCGRPgLs: 'Game Changer Season 8 Teaser [Dropout Exclusive Series]'
   DkB7Q3r09SM: 'Game Changer Season 8 Trailer [Dropout Exclusive Series]'
   UQIKTuHaddQ: Don't Wake Standards & Practices | Game Changer Season 8 | Ep. 1
@@ -962,7 +963,7 @@ videos:
 
 name:        Dimension 20 (All Episodes and Extras)
 description: |-
-  878-hour playlist of 323 episodes and 338 extras (behind-the-scenes videos, talkback shows, and trailers) from 35 seasons of Dimension 20. 147 videos are free and 514 require a @Dropout channel membership on YouTube.
+  879-hour playlist of 324 episodes and 343 extras (behind-the-scenes videos, talkback shows, and trailers) from 36 seasons of Dimension 20. 153 videos are free and 514 require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -978,11 +979,13 @@ description: |-
   https://watch.dropout.tv/dimension-20-mentopolis-the-complete-experience
   https://watch.dropout.tv/dimension-20-never-stop-blowing-up-the-complete-experience
   https://watch.dropout.tv/dimension-20-neverafter-the-complete-experience
+  https://watch.dropout.tv/dimension-20-on-a-bus-the-complete-experience
   https://watch.dropout.tv/dimension-20-one-shots
   https://watch.dropout.tv/dimension-20-shriek-week
   https://watch.dropout.tv/dimension-20-the-ravening-war-the-complete-experience
   https://watch.dropout.tv/dimension-20-tiny-heist
   https://watch.dropout.tv/dimension-20-titan-takedown-the-complete-experience
+  https://watch.dropout.tv/dip-your-toe-in
   https://watch.dropout.tv/mice-murder-the-complete-experience
   https://watch.dropout.tv/pirates-of-leviathan-the-complete-experience
   https://watch.dropout.tv/the-seven-the-complete-experience
@@ -1603,6 +1606,8 @@ videos:
   Z5TQPQvt-Ik: 'Outward Past Beyond | Dimension 20: Cloudward, Ho! Season 1 | Ep. 20'
   N_A0GcevULo: Santa the Whole Time | Adventuring Party Season 21 | Ep. 20
   Upip6gZ6mns: The Cloudward Crew Confers | Adventuring Party Season 21 | Ep. 21
+  5feqZBLXrMg: '''Dimension 20: On a Bus'' Season Premiere (DM''d by Katie Marovitch)'
+  plGNmsegcJc: 'Dimension 20: On a Bus (Extended Cut)'
   XmJsJw95uNA: 'Dimension 20 Live: Battle at the Bowl Trailer'
   5AtykzXYUYo: 'Dimension 20 Live: 2025 Battle at the Bowl | Dimension 20 Live'
   w3VFn9-Iv_I: 'Dimension 20 Live: Quangle Quest Trailer'
@@ -1651,15 +1656,19 @@ videos:
   rNIm83sRTpU: Off to the Clown Races | Adventuring Party Season 24 | Ep. 14
   J7IIB3fx-T4: 'Dimension 20 Live: Viva Más Vegas Trailer'
   LLBeQRTrZWY: 'Dimension 20 Live: Viva Más Vegas | Dimension 20 Live'
+  O4jzxm3BpBo: D20 on a Bus Season 2 Teaser | New Dimension 20 Season
   HMK7QO1KgM8: 'D20 on a Bus: Season 2 | Dimension 20: On a Bus Season 2 | Ep. 1'
   '-PYbqEgXYGM': Here's Come the Water | Adventuring Party Season 23 | Ep. 1
+  bR3tolfWACU: 'Critical Role''s Mini Makes A D20: On A Bus Cameo'
+  iuqBdFm7XFc: 'The First 14 Minutes of Dimension 20: On a Bus Season 2'
+  _3-JrJQqIlk: 'Brennan''s PC Backstory For Dimension 20: On A Bus'
   84kZcc5TEzY: 'Dimension 20: Toylight Trailer [Dropout Exclusive Series]'
 
 ---
 
 name:        Dimension 20 (All Episodes)
 description: |-
-  697-hour playlist of 323 episodes of from 35 seasons of Dimension 20 in order. 86 videos are free and 237 require a @Dropout channel membership on YouTube.
+  697-hour playlist of 324 episodes of from 36 seasons of Dimension 20 in order. 87 videos are free and 237 require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -1681,6 +1690,7 @@ description: |-
   https://watch.dropout.tv/dimension-20-the-seven
   https://watch.dropout.tv/dimension-20-tiny-heist
   https://watch.dropout.tv/dimension-20-titan-takedown
+  https://watch.dropout.tv/dip-your-toe-in
   https://watch.dropout.tv/mice-murder
 playlistId:  PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG
 videos:
@@ -1985,6 +1995,7 @@ videos:
   FEkMpVGQM7I: 'A Curious Conclave in Zumhara | Dimension 20: Cloudward, Ho! Season 1 | Ep. 18'
   4Xh6sUaxQw0: 'The Straka Strikes | Dimension 20: Cloudward, Ho! Season 1 | Ep. 19'
   Z5TQPQvt-Ik: 'Outward Past Beyond | Dimension 20: Cloudward, Ho! Season 1 | Ep. 20'
+  plGNmsegcJc: 'Dimension 20: On a Bus (Extended Cut)'
   5AtykzXYUYo: 'Dimension 20 Live: 2025 Battle at the Bowl | Dimension 20 Live'
   EWvD9xA18NM: 'Dimension 20 Live: Quangle Quest | Dimension 20 Live'
   W63ILhEsvGY: 'Welcome to the Wastes | Dimension 20: Gladlands [Full Episode]'
@@ -2105,6 +2116,7 @@ videos:
   YCXG4GcaOno: 'Princess and the Paramours | Dimension 20: Dungeons and Drag Queens S2 [Full Episode]'
   V7AlcIyvaoI: 'Party Animals | Dimension 20: Titan Takedown [Full Episode]'
   jW0HiXgrfZs: 'On High We Go | Dimension 20: Cloudward, Ho! [Full Episode]'
+  plGNmsegcJc: 'Dimension 20: On a Bus (Extended Cut)'
   W63ILhEsvGY: 'Welcome to the Wastes | Dimension 20: Gladlands [Full Episode]'
   KW3erx7NBsA: 'Mishaps, A Maw, and the Masquerade | Dimension 20: City Council of Darkness [Full Episode]'
 
@@ -2112,7 +2124,7 @@ videos:
 
 name:        Dimension 20 (All Free Episodes and Extras)
 description: |
-  193-hour playlist 86 free episodes of Dimension 20 and 61 free extras (behind-the-scenes videos, talkback shows, and trailers).
+  193-hour playlist 87 free episodes of Dimension 20 and 66 free extras (behind-the-scenes videos, talkback shows, and trailers).
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 playlistId:  PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA
@@ -2259,6 +2271,8 @@ videos:
   5NJn2UAbUDM: 'Behind the Scenes of Dimension 20 Live: Gauntlet at the Garden'
   ubR-CRYTrZs: 'Dimension 20: Cloudward, Ho! Trailer [Dropout Exclusive Series]'
   jW0HiXgrfZs: 'On High We Go | Dimension 20: Cloudward, Ho! [Full Episode]'
+  5feqZBLXrMg: '''Dimension 20: On a Bus'' Season Premiere (DM''d by Katie Marovitch)'
+  plGNmsegcJc: 'Dimension 20: On a Bus (Extended Cut)'
   XmJsJw95uNA: 'Dimension 20 Live: Battle at the Bowl Trailer'
   w3VFn9-Iv_I: 'Dimension 20 Live: Quangle Quest Trailer'
   gczIk6MGl-o: 'Dimension 20: Gladlands Trailer [Dropout Exclusive]'
@@ -2266,6 +2280,10 @@ videos:
   beCy18i1LX8: 'Dimension 20: City Council of Darkness Trailer [Dropout Exclusive Series]'
   KW3erx7NBsA: 'Mishaps, A Maw, and the Masquerade | Dimension 20: City Council of Darkness [Full Episode]'
   J7IIB3fx-T4: 'Dimension 20 Live: Viva Más Vegas Trailer'
+  O4jzxm3BpBo: D20 on a Bus Season 2 Teaser | New Dimension 20 Season
+  bR3tolfWACU: 'Critical Role''s Mini Makes A D20: On A Bus Cameo'
+  iuqBdFm7XFc: 'The First 14 Minutes of Dimension 20: On a Bus Season 2'
+  _3-JrJQqIlk: 'Brennan''s PC Backstory For Dimension 20: On A Bus'
   84kZcc5TEzY: 'Dimension 20: Toylight Trailer [Dropout Exclusive Series]'
 
 ---
@@ -4214,6 +4232,26 @@ videos:
   X25Q6TSsNkU: Don't You Mean Morissette?  | Adventuring Party Season 24 | Ep. 12
   N7hZ9CB2Qmo: 'I''m Evil Baby, Yeah | Adventuring Party Season 24 | Ep. 13'
   rNIm83sRTpU: Off to the Clown Races | Adventuring Party Season 24 | Ep. 14
+
+---
+
+name:        'Dimension 20: On a Bus (All Episodes and Extras)'
+description: |-
+  1-hour playlist of 2 episodes and 6 extras (trailers and behind-the-scenes videos) from 2 seasons of On a Bus, a Dimension 20 campaign played entirely on a public bus. 6 videos are free and 2 require a @Dropout channel membership on YouTube.
+
+  Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+
+  https://watch.dropout.tv/dimension-20-on-a-bus-the-complete-experience
+playlistId:  todo-on-a-bus
+videos:
+  5feqZBLXrMg: '''Dimension 20: On a Bus'' Season Premiere (DM''d by Katie Marovitch)'
+  plGNmsegcJc: 'Dimension 20: On a Bus (Extended Cut)'
+  O4jzxm3BpBo: D20 on a Bus Season 2 Teaser | New Dimension 20 Season
+  HMK7QO1KgM8: 'D20 on a Bus: Season 2 | Dimension 20: On a Bus Season 2 | Ep. 1'
+  '-PYbqEgXYGM': Here's Come the Water | Adventuring Party Season 23 | Ep. 1
+  bR3tolfWACU: 'Critical Role''s Mini Makes A D20: On A Bus Cameo'
+  iuqBdFm7XFc: 'The First 14 Minutes of Dimension 20: On a Bus Season 2'
+  _3-JrJQqIlk: 'Brennan''s PC Backstory For Dimension 20: On A Bus'
 
 ---
 

@@ -5217,6 +5217,10 @@ videos:
   - bts: Samalamadingdong (Brennan's Revenge)
     members: 6O3OlfthmJ0
     published: 2025-09-01
+  - special: "Dimension 20: On a Bus (Extended Cut)"
+    dropout: dimension-20-on-a-bus-extended-cut
+    public: plGNmsegcJc
+    published: 2025-09-10
 
 ---
 
@@ -5801,6 +5805,19 @@ videos:
 ---
 
 show: Dimension 20
+season: On a Bus (Season 1)
+videos:
+  - trailer: "'Dimension 20: On a Bus' Season Premiere"
+    public: 5feqZBLXrMg
+    published: 2025-07-14
+  - episode: "1. Dimension 20: On a Bus (Extended Cut)"
+    dropout: dimension-20-on-a-bus-extended-cut
+    public: plGNmsegcJc
+    published: 2025-09-10
+
+---
+
+show: Dimension 20
 season: "Live: Battle at the Bowl"
 cast: Intrepid Heroes
 world: Spyre
@@ -6015,12 +6032,25 @@ videos:
 show: Dimension 20
 season: On a Bus (Season 2)
 videos:
+  - trailer: D20 on a Bus Season 2 Teaser
+    public: O4jzxm3BpBo
+    public short: "-zVK1NQnhRQ"
+    published: 2026-04-01
   - episode: "1. D20 on a Bus: Season 2"
     members: HMK7QO1KgM8
     published: 2026-04-01
   - bts: Here's Come the Water
     members: "-PYbqEgXYGM"
     published: 2026-04-02
+  - bts: "Critical Role's Mini Makes A D20: On A Bus Cameo"
+    public: bR3tolfWACU
+    published: 2026-04-05
+  - trailer: "The First 14 Minutes of Dimension 20: On a Bus Season 2"
+    public: iuqBdFm7XFc
+    published: 2026-04-22
+  - bts: "Brennan's PC Backstory For Dimension 20: On A Bus"
+    public: _3-JrJQqIlk
+    published: 2026-07-20
 
 ---
 

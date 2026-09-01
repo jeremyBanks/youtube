@@ -500,6 +500,17 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Adventu
 ${D20_PLUG}
 """
 
+[todo-on-a-bus]
+name = "Dimension 20: On a Bus (${ALL_SEASONS})"
+show = "Dimension 20"
+season = ["On a Bus (Season 1)", "On a Bus (Season 2)"]
+type = ["episode", "special", "bts", "trailer", "external"]
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (trailers and behind-the-scenes videos) from ${SEASONS} seasons of On a Bus, a Dimension 20 campaign played entirely on a public bus. ${MAYBE_MEMBERS_ONLY}
+
+${D20_PLUG}
+"""
+
 [PLQS8225KRyrc]
 name = "Dimension 20: Toylight (${ALL_SEASONS})"
 show = "Dimension 20"

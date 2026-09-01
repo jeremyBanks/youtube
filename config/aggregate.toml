@@ -410,6 +410,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandri
 
 [PLYpMfDtAtx58]
 name = "Critical Role: Downfall (${ALL_SEASONS})"
+unlisted = true
 show = "Critical Role"
 season = "Downfall"
 description = """
@@ -418,6 +419,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and a teaser from Downfall, a Cri
 
 [PLLBRdJfysGfI]
 name = "Critical Role: Exandria Unlimited: Divergence (${ALL_SEASONS})"
+unlisted = true
 show = "Critical Role"
 season = "Exandria Unlimited: Divergence"
 description = """
@@ -426,6 +428,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes from Exandria Unlimited: Divergen
 
 [PLK9st3ipwCSk]
 name = "Critical Role: Campaign 4 (${ALL_SEASONS})"
+unlisted = true
 show = "Critical Role"
 season = "Campaign 4"
 description = """

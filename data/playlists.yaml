@@ -3729,6 +3729,7 @@ name:        'Critical Role: Downfall (All Episodes and Extras)'
 description: |
   14-hour playlist of 3 episodes and a teaser from Downfall, a Critical Role prequel arc run by Brennan Lee Mulligan.
 playlistId:  PLYpMfDtAtx58
+unlisted:    true
 videos:
   NLRg0cM0q9U: DOWNFALL | Critical Role Campaign 3 Teaser
   wQWZV_LzT4k: 'Downfall: Part One | Critical Role | Campaign 3, Episode 99'
@@ -3741,6 +3742,7 @@ name:        'Critical Role: Exandria Unlimited: Divergence (All Episodes and Ex
 description: |
   20-hour playlist of 4 episodes from Exandria Unlimited: Divergence, a Critical Role campaign run by Brennan Lee Mulligan.
 playlistId:  PLLBRdJfysGfI
+unlisted:    true
 videos:
   Pt_EbSwgoTU: 'Give and Take | Exandria Unlimited: Divergence | Episode 1'
   l0wXgIKKCeA: 'Seven of Them | Exandria Unlimited: Divergence | Episode 2'
@@ -3753,6 +3755,7 @@ name:        'Critical Role: Campaign 4 (All Episodes and Extras)'
 description: |
   137-hour playlist of 32 episodes from Campaign 4, the ongoing Critical Role campaign run by Brennan Lee Mulligan.
 playlistId:  PLK9st3ipwCSk
+unlisted:    true
 videos:
   3Mbynm0pGX0: 'The Fall of Thjazi Fang | Critical Role | Campaign 4, Episode 1'
   mBQMuDAe4rE: 'Broken Wing | Critical Role | Campaign 4, Episode 2'

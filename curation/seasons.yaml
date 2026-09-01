@@ -178,6 +178,7 @@ world: The Unsleeping City
 videos:
   - trailer: The Unsleeping City Trailer
     public: AdJaWHk_HAk
+    public copy: 39MLkF21rgs
     published: 2019-07-22
   - episode: 1. Start Spreading the News
     public: 2Kktwa0kqaU
@@ -861,6 +862,7 @@ world: Misfits and Magic
 videos:
   - trailer: Misfits and Magic Trailer
     public: yKHP2mPv7Ws
+    members: 2gajEs0WM88
     published: 2021-06-16
   - episode: 1. The Chosen Ones
     public: C1VffF1Z5-Y
@@ -908,6 +910,7 @@ videos:
     published: 2021-07-30
   - trailer: Holiday Special Trailer
     public: xf2hV6GmrCk
+    members: OzknT7IRikE
     published: 2021-12-02
   - special: Holiday Special
     members: DCDpWKEPQzQ
@@ -925,6 +928,7 @@ world: Spyre
 videos:
   - trailer: The Seven Trailer
     public: 0bJfIZyEP98
+    members: DJo6OLsKXEQ
     published: 2021-07-28
   - episode: 1. Party of Seven
     public: 9_LkwjqQ_mo
@@ -1012,6 +1016,7 @@ show: Dimension 20
 videos:
   - trailer: Shriek Week Trailer
     public: 3mlLfl5ZNLI
+    members: tZxqNRK0Qzo
     published: 2021-10-27
   - episode: 1. The Club Fair
     public: msr-i7SwcN0
@@ -1055,6 +1060,7 @@ cast: Intrepid Heroes
 videos:
   - trailer: A Starstruck Odyssey Trailer
     public: oVC-KqAgm38
+    members: QHI41pbr-VE
     published: 2021-12-18
   - episode: '1. Welcome To The Spacin'' Life, Buddy'
     public: 6I7cZG_RoWI
@@ -1229,6 +1235,7 @@ show: Dimension 20
 videos:
   - trailer: Coffin Run Trailer
     public: pdji4F1Ax_w
+    members: mLkexago-CI
     published: 2022-05-25
   - episode: 1. Down For The Count
     public: ul8iK77Cl-k
@@ -1285,6 +1292,7 @@ show: Dimension 20
 videos:
   - trailer: A Court of Fey and Flowers Trailer
     public: VFyHiykk2U4
+    members: fPs4fn88hfc
     published: 2022-07-20
   - episode: 1. A Bloom to Remember
     public: hMNzZiN0-P0
@@ -1377,6 +1385,7 @@ cast: Intrepid Heroes
 videos:
   - trailer: Neverafter Trailer
     public: nwMxp7mRbx4
+    members: iVsPeg6XT_4
     published: 2022-10-12
   - episode: 1. The Times of Shadow
     public: 7GTogwQVmYE
@@ -1533,6 +1542,7 @@ world: Calorum
 videos:
   - trailer: The Ravening War Trailer
     public: c4xTd-NjEj4
+    members: 3WGeM64PEHY
     published: 2023-04-19
   - bts: "Behind the Scenes: How It Began"
     public: Whsv1g5ws60
@@ -1602,6 +1612,7 @@ show: Dimension 20
 videos:
   - trailer: Dungeons and Drag Queens Trailer
     public: khZVjQL74qE
+    members: w664JpkrDio
     published: 2023-06-15
   - bts: The Questing Queens Talk Fantasy Night Life
     public: bXwntmGo-EM
@@ -4592,6 +4603,9 @@ videos:
 season: Titan Takedown
 show: Dimension 20
 videos:
+  - trailer: Titan Takedown Trailer
+    public: "-91PjwLRk0I"
+    published: 2025-02-26
   - episode: 1. Party Animals
     members: v8gSKBWcgeQ
     public: V7AlcIyvaoI
@@ -4628,6 +4642,9 @@ season: Cloudward, Ho!
 show: Dimension 20
 cast: Intrepid Heroes
 videos:
+  - trailer: Cloudward, Ho! Trailer
+    public: ubR-CRYTrZs
+    published: 2025-05-14
   - episode: 1. On High We Go
     members: tvtNhxKo--c
     public: jW0HiXgrfZs
@@ -4778,6 +4795,9 @@ videos:
 show: Very Important People
 season: Season 2
 videos:
+  - trailer: Very Important People Season 2 Trailer
+    public: zoFgeH1FRD8
+    published: 2024-10-17
   - episode: 201. Zeke Aaron McKinley
     members: BSGUZzqE4nY
     published: 2024-11-08
@@ -4899,6 +4919,9 @@ videos:
 show: Nobody Asked
 season: Season 1
 videos:
+  - trailer: Nobody Asked Trailer
+    public: RaRT2K0jwNI
+    published: 2024-11-15
   - episode: 101. Technically a Tenor, Comedians vs. Pro Athletes, Inflatable Jazz
     members: k_twaN9Vjfo
     public: bmh99iZ4RsM
@@ -4921,6 +4944,9 @@ videos:
 show: Parlor Room
 season: Season 1
 videos:
+  - trailer: Parlor Room Trailer
+    public: v0Cr6S8Vep0
+    published: 2025-03-31
   - episode: 101. Wavelength
     public: sKTlEDAuwfY
     members: xaC_A2eEAIY
@@ -4961,6 +4987,9 @@ videos:
 show: Parlor Room
 season: Season 2
 videos:
+  - trailer: Parlor Room Season 2 Trailer
+    public: Y3snSLxYk_4
+    published: 2026-03-05
   - episode: 201. To Be Seen Is to Be Loved
     members: 73cyvXRvPCg
     published: 2026-03-19
@@ -5013,6 +5042,9 @@ videos:
 show: Crowd Control
 season: Season 1
 videos:
+  - trailer: Crowd Control Trailer
+    public: 7OxRWZB6SXY
+    published: 2025-08-19
   - episode: 101. Dangerous Hot Chocolate
     members: IE4avw7DE9A
     published: 2025-09-08
@@ -5038,6 +5070,9 @@ videos:
 show: Crowd Control
 season: Season 2
 videos:
+  - trailer: Crowd Control Season 2 Trailer
+    public: w0R8F3KEP6E
+    published: 2026-07-07
   - episode: 201. Lesbian Applause Break
     members: VSIp0xdjEUM
     published: 2026-08-03
@@ -5234,6 +5269,9 @@ videos:
 show: Make Some Noise
 season: Season 4
 videos:
+  - trailer: Make Some Noise Season 4 Trailer
+    public: tKBcWn-tqWE
+    published: 2025-09-22
   - episode: 401. The Noise Boys Ride Again
     members: scIVn4N2u8E
     published: 2025-10-13
@@ -5547,6 +5585,9 @@ videos:
 show: Smartypants
 season: Season 2
 videos:
+  - trailer: Smartypants Season 2 Trailer
+    public: SPNQ8fGFHFA
+    published: 2025-02-13
   - episode: 201. Standardization, Dogs, Procrastination
     members: mmTsctlhj9E
     published: 2025-03-07
@@ -5601,6 +5642,9 @@ videos:
 show: Smartypants
 season: Season 3
 videos:
+  - trailer: Smartypants Season 3 Trailer
+    public: 1Ng4_XNQWjk
+    published: 2026-05-15
   - episode: 301. The Rules of Content
     members: 5Q_0byHdN5o
     published: 2026-06-12
@@ -5643,6 +5687,9 @@ videos:
 show: Adventuring Academy
 season: Season 6
 videos:
+  - trailer: Adventuring Academy Season 6 Trailer
+    public: bC9hwFJBv9U
+    published: 2025-04-15
   - episode: 601. Hindsight Is Rose-Colored Glasses (with Izzy Roland)
     members: 1yqCQ2F1HKo
     published: 2025-04-29
@@ -5667,6 +5714,9 @@ videos:
 show: Adventuring Academy
 season: Season 7
 videos:
+  - trailer: Adventuring Academy Season 7 Trailer
+    public: iJot20t5v4U
+    published: 2026-02-06
   - episode: 701. Bandaid on a Bowling Ball (with Vic Michaelis)
     members: NCC97SzHXKg
     published: 2026-02-21
@@ -6083,6 +6133,9 @@ videos:
 show: Dimension 20
 season: Dungeons and Drag Queens (Chapter 2)
 videos:
+  - trailer: Dungeons and Drag Queens Season 2 Trailer
+    public: tbZILayxJ2I
+    published: 2024-12-18
   - episode: 1. Princess and the Paramours
     members: 0hKLieB6Di0
     public: YCXG4GcaOno

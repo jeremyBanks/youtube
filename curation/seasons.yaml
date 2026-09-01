@@ -4584,28 +4584,55 @@ videos:
 
 ---
 
-season: Gauntlet at the Garden
 show: Dimension 20
-cast: Intrepid Heroes
-world: The Unsleeping City
-live: true
+season: Dungeons and Drag Queens (Chapter 2)
 videos:
-  - trailer: Gauntlet at the Garden Teaser
-    public: MW7DoXFdfYo
-    published: 2025-05-06
-  - trailer: Gauntlet at the Garden VOD Trailer
-    public: 1XCF7Unqj5M
-    published: 2025-05-06
-  - bts: "Behind the Scenes of Dimension 20 Live: Gauntlet at the Garden"
-    public: 5NJn2UAbUDM
-    published: 2025-05-07
-  - bts: The Roll of a Lifetime
-    dropout: the-roll-of-a-lifetime-how-dimension-20-sold-out-madison-square-garden
-    members: NbgUrPTnaIg
-    published: 2025-05-07
-  - episode: 1. Gauntlet at the Garden (Live From Madison Square Garden)
-    members: sjNrwGKRPw4
-    published: 2025-05-13
+  - trailer: Dungeons and Drag Queens Season 2 Trailer
+    public: tbZILayxJ2I
+    published: 2024-12-18
+  - episode: 1. Princess and the Paramours
+    members: 0hKLieB6Di0
+    public: YCXG4GcaOno
+    published: 2025-01-08
+  - bts: She is the Tower of Babel
+    talkback: true
+    members: xA5R4-Mge_A
+    published: 2025-01-09
+  - episode: 2. Through the Venomlands
+    members: TM_8NyHC60Q
+    published: 2025-01-15
+  - bts: Fae-by, Fae-by, Fae-by, Oh
+    talkback: true
+    members: XiD9fiJSibg
+    published: 2025-01-16
+  - episode: 3. Ice, Ice, Fae-by
+    members: l0zGy25NeTs
+    published: 2025-01-22
+  - bts: She's a Brick Orc
+    talkback: true
+    members: BRkD4_959zo
+    published: 2025-01-23
+  - episode: 4. Shady by the Sea
+    members: izDDp3pZI5k
+    published: 2025-01-29
+  - bts: Monét Will Say Anything
+    talkback: true
+    members: Awmu_wYx9dM
+    published: 2025-01-30
+  - episode: 5. The Queens Take Matali
+    members: bZqDjr5I4_I
+    published: 2025-02-05
+  - bts: Twyla's Twine Time
+    talkback: true
+    members: b81h_4rCB04
+    published: 2025-02-06
+  - episode: 6. The Battle for Darktide
+    members: Znmog0DLUSc
+    published: 2025-02-12
+  - bts: Just in the Nick of Twine
+    talkback: true
+    members: MAyxzxU0LSw
+    published: 2025-02-13
 
 ---
 
@@ -4644,6 +4671,31 @@ videos:
     talkback: true
     members: CO673qHVxYE
     published: 2025-04-24
+
+---
+
+season: Gauntlet at the Garden
+show: Dimension 20
+cast: Intrepid Heroes
+world: The Unsleeping City
+live: true
+videos:
+  - trailer: Gauntlet at the Garden Teaser
+    public: MW7DoXFdfYo
+    published: 2025-05-06
+  - trailer: Gauntlet at the Garden VOD Trailer
+    public: 1XCF7Unqj5M
+    published: 2025-05-06
+  - bts: "Behind the Scenes of Dimension 20 Live: Gauntlet at the Garden"
+    public: 5NJn2UAbUDM
+    published: 2025-05-07
+  - bts: The Roll of a Lifetime
+    dropout: the-roll-of-a-lifetime-how-dimension-20-sold-out-madison-square-garden
+    members: NbgUrPTnaIg
+    published: 2025-05-07
+  - episode: 1. Gauntlet at the Garden (Live From Madison Square Garden)
+    members: sjNrwGKRPw4
+    published: 2025-05-13
 
 ---
 
@@ -6136,58 +6188,6 @@ videos:
   - episode: 49. Remembering Fatal Decision
     members: Ooi8275f_58
     published: 2025-01-13
-
----
-
-show: Dimension 20
-season: Dungeons and Drag Queens (Chapter 2)
-videos:
-  - trailer: Dungeons and Drag Queens Season 2 Trailer
-    public: tbZILayxJ2I
-    published: 2024-12-18
-  - episode: 1. Princess and the Paramours
-    members: 0hKLieB6Di0
-    public: YCXG4GcaOno
-    published: 2025-01-08
-  - bts: She is the Tower of Babel
-    talkback: true
-    members: xA5R4-Mge_A
-    published: 2025-01-09
-  - episode: 2. Through the Venomlands
-    members: TM_8NyHC60Q
-    published: 2025-01-15
-  - bts: Fae-by, Fae-by, Fae-by, Oh
-    talkback: true
-    members: XiD9fiJSibg
-    published: 2025-01-16
-  - episode: 3. Ice, Ice, Fae-by
-    members: l0zGy25NeTs
-    published: 2025-01-22
-  - bts: She's a Brick Orc
-    talkback: true
-    members: BRkD4_959zo
-    published: 2025-01-23
-  - episode: 4. Shady by the Sea
-    members: izDDp3pZI5k
-    published: 2025-01-29
-  - bts: Monét Will Say Anything
-    talkback: true
-    members: Awmu_wYx9dM
-    published: 2025-01-30
-  - episode: 5. The Queens Take Matali
-    members: bZqDjr5I4_I
-    published: 2025-02-05
-  - bts: Twyla's Twine Time
-    talkback: true
-    members: b81h_4rCB04
-    published: 2025-02-06
-  - episode: 6. The Battle for Darktide
-    members: Znmog0DLUSc
-    published: 2025-02-12
-  - bts: Just in the Nick of Twine
-    talkback: true
-    members: MAyxzxU0LSw
-    published: 2025-02-13
 
 ---
 

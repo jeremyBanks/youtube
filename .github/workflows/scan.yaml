@@ -13,7 +13,7 @@ on:
     - cron: "13 11 * * *"
   workflow_dispatch:
 
-# Never let two scans write data/ at once.
+# Never let two scans write data/ at once. The Dropout scan shares this group.
 concurrency:
   group: scan
   cancel-in-progress: false
@@ -73,5 +73,13 @@ jobs:
             echo "No changes."
           else
             git commit -m "Scan channels and playlists for new and removed videos"
-            git push
+            # Another job may have landed a commit while this one was
+            # scanning. Rebase and retry rather than discarding the capture:
+            # the two scans write disjoint files, so a rebase applies cleanly,
+            # and a lost race otherwise costs the whole run's work.
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push rejected; rebasing onto trunk (attempt $attempt)."
+              git pull --rebase origin trunk
+            done
           fi

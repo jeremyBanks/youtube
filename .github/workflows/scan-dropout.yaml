@@ -29,8 +29,13 @@ on:
 
 # Never let two runs write data/ at once. A separate group from the YouTube
 # scan: they touch disjoint files, so they may overlap each other freely.
+# Shares a group with the channel scan on purpose. Both commit to trunk with
+# a plain push, so two runs overlapping means the loser is rejected as a
+# non-fast-forward and its capture is thrown away. Serialising them makes that
+# impossible rather than merely unlikely: the schedules are half an hour apart,
+# but GitHub has been firing them hours late, and nothing preserves the gap.
 concurrency:
-  group: scan-dropout
+  group: scan
   cancel-in-progress: false
 
 jobs:
@@ -87,5 +92,13 @@ jobs:
             echo "No changes."
           else
             git commit -m "Scan Dropout for new, removed, and detailed episodes"
-            git push
+            # Another job may have landed a commit while this one was
+            # scanning. Rebase and retry rather than discarding the capture:
+            # the two scans write disjoint files, so a rebase applies cleanly,
+            # and a lost race otherwise costs the whole run's work.
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push rejected; rebasing onto trunk (attempt $attempt)."
+              git pull --rebase origin trunk
+            done
           fi

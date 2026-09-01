@@ -559,7 +559,8 @@ ${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, in which Zach 
 [PLb-lLnSGfRVc]
 name = "Game Changer Animated (${ALL_SEASONS})"
 unlisted = true
-show = "Game Changer Animated"
+show = "Game Changer"
+type = "animation"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Game Changer. ${MAYBE_MEMBERS_ONLY}
 """
@@ -567,7 +568,8 @@ ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Game Changer. 
 [PLBZi5qxJGKrA]
 name = "Dimension 20 Animated (${ALL_SEASONS})"
 unlisted = true
-show = "Dimension 20 Animated"
+show = "Dimension 20"
+type = "animation"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} animated shorts spun out of Dimension 20. ${MAYBE_MEMBERS_ONLY}
 

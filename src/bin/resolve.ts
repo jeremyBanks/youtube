@@ -63,6 +63,7 @@ export async function main() {
   });
 
   const resolved = await openResolvedVideoStorage();
+  const scannedVideos = await openVideoStorage();
   let wanted = (args.ids ?? "").split(",").map((id) => id.trim()).filter(
     Boolean,
   );
@@ -72,7 +73,7 @@ export async function main() {
     // curation, and ids appearing in a scanned channel's playlists. The
     // second is how videos hosted elsewhere and unlisted videos - neither
     // of which reaches a channel's uploads - get a record of their own.
-    const scanned = new Set((await openVideoStorage()).map((v) => v.videoId));
+    const scanned = new Set(scannedVideos.map((v) => v.videoId));
     const already = new Set(resolved.map((v) => v.videoId));
     const consider = (id: string) => {
       if (!scanned.has(id) && !already.has(id) && !wanted.includes(id)) {
@@ -92,6 +93,18 @@ export async function main() {
         }
       }
     }
+    // And every video a scan gave up on. `removedBefore` only ever meant
+    // that the video stopped appearing in the channel's uploads playlist,
+    // and an unlisted video leaves that listing exactly as a deleted one
+    // does. Asking by id is the only way to tell the two apart, so a
+    // removed video is worth one lookup: either the API serves it, and we
+    // learn it was quietly unlisted all along, or it does not, and the
+    // removal is confirmed rather than assumed.
+    for (const video of scannedVideos) {
+      if (video.removedBefore && !wanted.includes(video.videoId)) {
+        wanted.push(video.videoId);
+      }
+    }
   }
 
   wanted = [...new Set(wanted)];
@@ -104,8 +117,34 @@ export async function main() {
   const found = await videosById(wanted);
   const now = new Date();
 
+  let revived = 0;
+  let confirmed = 0;
+
   for (const videoId of wanted) {
     const video = found.get(videoId);
+    const privacyStatus = video?.status?.privacyStatus ?? undefined;
+    // A video a scan already knows about keeps its own record; this only
+    // annotates it with what a direct lookup adds. Nothing here creates a
+    // videos.yaml record, which would have no playlist-add time and no part
+    // in deletion detection.
+    const scanned = scannedVideos.find((v) => v.videoId === videoId);
+    if (scanned) {
+      scanned.resolvedAt = now;
+      scanned.privacyStatus = privacyStatus;
+      if (scanned.removedBefore) {
+        if (video) {
+          revived += 1;
+          console.info(
+            `  ${videoId}: still there, ${privacyStatus ?? "status unknown"} ` +
+              `- ${scanned.title}`,
+          );
+        } else {
+          confirmed += 1;
+        }
+      }
+      continue;
+    }
+
     if (!video) {
       // The API simply omits ids it will not serve, so absence is the only
       // signal that a video is deleted, private, or was never valid.
@@ -130,11 +169,20 @@ export async function main() {
         video.contentDetails?.duration,
         Temporal.Duration.from,
       )?.total("seconds"),
+      privacyStatus,
       resolvedAt: now,
     }, (a, b) => a.videoId === b.videoId);
     console.info(
       `  ${videoId}: ${video.snippet?.title} ` +
         `(${video.snippet?.channelTitle})`,
+    );
+  }
+
+  if (revived || confirmed) {
+    console.info(
+      `\n${revived + confirmed} videos a scan had marked removed were ` +
+        `checked: ${revived} are still served by the API and were never ` +
+        `deleted, ${confirmed} are confirmed gone.`,
     );
   }
 }

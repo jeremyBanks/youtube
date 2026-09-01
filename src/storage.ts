@@ -60,8 +60,23 @@ export const Video = z.object({
    * additional metadata and is not currently used by anything.
    */
   uploadedAt: z.date().optional(),
-  /** The date at which this video was observed to have been removed. */
+  /**
+   * The date at which this video stopped appearing in the channel's uploads
+   * playlist. That is not the same as being deleted: an unlisted video leaves
+   * the listing in exactly the same way, so a scan alone cannot tell the two
+   * apart. `deno task resolve --unknown` asks the API directly and records
+   * what it learns in the two fields below.
+   */
   removedBefore: z.date().optional(),
+  /** When a direct lookup last asked the API about this id. */
+  resolvedAt: z.date().optional(),
+  /**
+   * What that lookup was told: `public`, `unlisted`, or `private`. Set
+   * together with `resolvedAt`; a `resolvedAt` with no `privacyStatus` means
+   * the API served nothing, which for a removed video is the confirmation
+   * that it really is gone.
+   */
+  privacyStatus: z.string().optional(),
   title: z.string().min(1),
   duration: z.number(),
   membersOnly: z.literal(true).optional(),
@@ -128,6 +143,8 @@ export const ResolvedVideo = z.object({
   duration: z.number().optional(),
   /** when this lookup was made */
   resolvedAt: DateTime,
+  /** what the API says it is: `public`, `unlisted`, or `private` */
+  privacyStatus: z.string().optional(),
   /** set when the API returned nothing: deleted, private, or never valid */
   missing: z.boolean().optional(),
 });

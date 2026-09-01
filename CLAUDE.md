@@ -82,10 +82,20 @@ Every task: `scan`, `scan-dropout`, `curate`, `aggregate`, `publish`,
   far regardless of cadence. For backfilling a newly-captured field, where the
   scheduled tiers would otherwise skip a recently-scanned channel.
 - `deno task resolve --ids=a,b,c` (or `--unknown`) looks up video ids directly,
-  50 per request, for ids the curation names on channels we do not scan. Results
-  go to `data/resolved-videos.yaml` and never to `data/videos.yaml`, since a
-  record fetched by id has no playlist-add time and takes no part in deletion
-  detection.
+  50 per request. It never _creates_ a `data/videos.yaml` record — one fetched
+  by id has no playlist-add time and takes no part in deletion detection, so
+  those go to `data/resolved-videos.yaml`. It does _annotate_ a record a scan
+  already made, with `resolvedAt` and `privacyStatus`.
+
+  `--unknown` sweeps three sets: ids the curation names that no scan has seen,
+  ids appearing in a scanned channel's playlists, and **every video a scan
+  marked `removedBefore`**. That last one matters because `removedBefore` only
+  ever meant "stopped appearing in the channel's uploads playlist", and an
+  unlisted video leaves that listing exactly as a deleted one does. Asking by id
+  settles it: the API serves an unlisted video, and serves nothing for a deleted
+  one. The first run of this found 53 of 122 supposedly-removed videos alive and
+  merely unlisted. `removedBefore` is never cleared — the video did leave the
+  listing — but `privacyStatus` alongside it says why.
 
 ## Workflow
 

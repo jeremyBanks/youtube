@@ -534,7 +534,10 @@ export async function videosById(
     console.debug(`youtube.videos.list (${batch.length} ids)...`);
     const response = await youtube.videos.list({
       id: batch,
-      part: ["snippet", "contentDetails"],
+      // status comes along free, and it is the only way to learn that a
+      // video which vanished from a channel's uploads went unlisted rather
+      // than being deleted.
+      part: ["snippet", "contentDetails", "status"],
       key,
     });
     for (const video of response.data.items ?? []) {

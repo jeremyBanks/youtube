@@ -6504,11 +6504,14 @@ videos:
 
 ---
 
-# Videos YouTube will not list, which Dropout's own playlists nonetheless
-# point at. Nothing here is curated in the editorial sense; it is a record of
-# what the playlist scan can see and the channel listing cannot, gathered into
-# one place so it stays findable. Ordered by when Dropout first added each to
-# a playlist. No `season:`, so it counts as no season anywhere.
+# Videos YouTube will not list. Two things find them: Dropout's own playlists
+# point at some, and a direct lookup of a video the scan had given up on shows
+# that others were unlisted rather than deleted. Nothing here is curated in the
+# editorial sense; it is a record of what the channel listing cannot show,
+# gathered so it stays findable. Only videos Dropout itself owns: a fan video
+# that one of their playlists happens to link is somebody else's. Ordered by
+# the date each video went up, not by when a playlist picked it up. No
+# `season:`, so it counts as no season.
 show: Unlisted
 videos:
   - special: "Exclusive \"Weird Al\" Yankovic Music Video: FOIL (Parody of \"Royals\" by Lorde)"
@@ -6528,19 +6531,19 @@ videos:
     published: 2015-06-20
   - special: A Comedy Song in the Key of G
     public: OcsolqEsHso
-    published: 2015-06-22
+    published: 2015-06-21
   - special: "Russia's Extremely Depressing \"Comedy\" Music Video"
     public: 0qVeh7wKPA0
     published: 2015-06-22
   - special: Weird Al Gets Inducted into the Comedy Music Hall of Fame
     public: ZR2qXknOrC8
     published: 2015-06-24
-  - special: "Bad Internet :60 Ad - Endcard"
-    public: t1pKiVL7DAg
-    published: 2017-02-14
   - special: "Bad Internet :60 Ad"
     public: lmKf8gan0Jw
-    published: 2017-02-14
+    published: 2016-05-14
+  - special: "Bad Internet :60 Ad - Endcard"
+    public: t1pKiVL7DAg
+    published: 2016-06-03
   - special: How to Prepare for Second Puberty
     public: QNGmyy5agZs
     published: 2018-02-08
@@ -6556,11 +6559,11 @@ videos:
   - special: Health Insurance Hack
     public: Rg8VJUOwnnE
     published: 2018-02-08
-  - special: How to Care for Your Car
-    public: jMT9T_eyTC8
-    published: 2018-02-08
   - special: How to Make a Compost Pile
     public: J_isF3Y06V4
+    published: 2018-02-08
+  - special: How to Care for Your Car
+    public: jMT9T_eyTC8
     published: 2018-02-08
   - special: How to Pretend You Like a Gift
     public: C5CFIsQ9pBU
@@ -6571,24 +6574,24 @@ videos:
   - special: How to Shop for One
     public: rCen-pgwUQE
     published: 2018-02-08
-  - special: Immediately Following Up
-    public: KQPxw5vPrAE
-    published: 2018-02-09
   - special: Yams
     public: UaG4Dd9MviQ
-    published: 2018-02-09
-  - special: Talkin Bout My Generation
-    public: Po5tcsR8nBA
-    published: 2018-02-09
-  - special: Ripping Out Ivs
-    public: X8zgBhQ0YkY
-    published: 2018-02-09
-  - special: Directions in Fantasy
-    public: zkNiESDgQ9I
-    published: 2018-02-09
+    published: 2018-02-08
   - special: Life Is Good
     public: SpzYaZRkcA8
-    published: 2018-02-09
+    published: 2018-02-08
+  - special: Talkin Bout My Generation
+    public: Po5tcsR8nBA
+    published: 2018-02-08
+  - special: Immediately Following Up
+    public: KQPxw5vPrAE
+    published: 2018-02-08
+  - special: Directions in Fantasy
+    public: zkNiESDgQ9I
+    published: 2018-02-08
+  - special: Ripping Out Ivs
+    public: X8zgBhQ0YkY
+    published: 2018-02-08
   - special: The Fraud Who Scammed England
     public: byiMw2TPjNI
     published: 2019-03-05
@@ -6604,12 +6607,9 @@ videos:
   - special: Burning (Alive) on the Dance Floor
     public: gk3oKnqYAFo
     published: 2019-04-24
-  - special: Brennan Creates a Tiny Pirate Shipwreck (Game Changer Clip)
-    public: 5Thl6C9w83s
-    published: 2020-03-03
   - special: Game Changer Season 2 Teaser
     public: 13X7g0tvMI8
-    published: 2020-03-03
-  - special: Dimension 20 but it’s just Gilear Faeth dodging
-    public: ooSNDpfPEa0
-    published: 2020-03-04
+    published: 2020-02-24
+  - special: Brennan Creates a Tiny Pirate Shipwreck (Game Changer Clip)
+    public: 5Thl6C9w83s
+    published: 2020-02-28

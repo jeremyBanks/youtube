@@ -144,6 +144,94 @@ export const openResolvedVideoStorage = () =>
     ["videoId"],
   );
 
+/**
+ * One entry in a channel's playlist, as YouTube reports it.
+ *
+ * Optional fields are written only when they hold something, but nothing is
+ * withheld for being redundant with `data/videos.yaml`: that file holds only
+ * what a channel lists publicly, so for a private, unlisted or foreign video
+ * the entry is the only record there is.
+ */
+export const ChannelPlaylistEntry = z.object({
+  videoId: VideoId,
+  /** where it sits in the playlist, as ordered by YouTube */
+  position: z.number().int(),
+  /** when it was added to this playlist */
+  addedAt: z.date(),
+  /** the video's own publish time; the same quantity as Video.uploadedAt */
+  videoPublishedAt: z.date().optional(),
+  /** how a private or deleted video shows up inside a playlist */
+  privacyStatus: z.string().optional(),
+  /**
+   * Set only when the video belongs to some other channel, which is what a
+   * collaboration looks like from here. Nothing on the video resource
+   * itself reports one.
+   */
+  ownerChannelId: z.string().optional(),
+  ownerChannelTitle: z.string().optional(),
+  /**
+   * The entry's own title and description. For a private, unlisted or
+   * foreign video this is the only record of either that we can obtain.
+   */
+  title: z.string().optional(),
+  description: z.string().optional(),
+  /**
+   * Legacy: a playlist could once clip a video and annotate an entry.
+   * Nothing sets these now, so a value found is a historical artifact.
+   * `note` is documented as visible only to a playlist's owner.
+   */
+  startAt: z.string().optional(),
+  endAt: z.string().optional(),
+  note: z.string().optional(),
+  /** when this entry was first observed missing from the playlist */
+  removedBefore: z.date().optional(),
+});
+export type ChannelPlaylistEntry = z.TypeOf<typeof ChannelPlaylistEntry>;
+
+/**
+ * A playlist belonging to a channel we scan, observed rather than
+ * generated. Distinct from `Playlist`, which is what we intend to publish.
+ *
+ * Dropout organises its channels differently from us on purpose — separate
+ * "Full Episodes" playlists, Adventuring Party on its own channel, no
+ * free and members-only interleaving — so this is useful for comparing
+ * membership, never structure.
+ */
+export const ChannelPlaylist = z.object({
+  playlistId: z.string().min(1),
+  channelId: z.string().min(1),
+  title: z.string().optional(),
+  description: z.string().optional(),
+  privacyStatus: z.string().optional(),
+  /** YouTube's own count, which can disagree with the entries we see */
+  itemCount: z.number().int().optional(),
+  /** when the playlist was created; it never changes */
+  createdAt: z.date().optional(),
+  entries: ChannelPlaylistEntry.array().optional(),
+  firstSeen: DateTime,
+  scrapedAt: z.date().optional(),
+  /**
+   * When the playlist first stopped appearing in its channel's listing
+   * while still being fetchable by id: unlisted or private rather than
+   * gone. Such playlists keep being scanned.
+   */
+  delistedBefore: z.date().optional(),
+  /** when the playlist first stopped being fetchable at all */
+  removedBefore: z.date().optional(),
+});
+export type ChannelPlaylist = z.TypeOf<typeof ChannelPlaylist>;
+
+let channelPlaylistStorage:
+  | undefined
+  | Promise<Array<ChannelPlaylist>> = undefined;
+
+export const openChannelPlaylistStorage = () =>
+  channelPlaylistStorage ??= open(
+    "data/channel-playlists.yaml",
+    ChannelPlaylist,
+    ["playlistId"],
+  );
+
 export const Playlist = z.object({
   name: z.string(),
   description: z.string(),

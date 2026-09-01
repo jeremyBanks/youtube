@@ -178,6 +178,7 @@ world: The Unsleeping City
 videos:
   - trailer: The Unsleeping City Trailer
     public: AdJaWHk_HAk
+    public copy: 39MLkF21rgs
     published: 2019-07-22
   - episode: 1. Start Spreading the News
     public: 2Kktwa0kqaU
@@ -861,6 +862,7 @@ world: Misfits and Magic
 videos:
   - trailer: Misfits and Magic Trailer
     public: yKHP2mPv7Ws
+    members: 2gajEs0WM88
     published: 2021-06-16
   - episode: 1. The Chosen Ones
     public: C1VffF1Z5-Y
@@ -908,6 +910,7 @@ videos:
     published: 2021-07-30
   - trailer: Holiday Special Trailer
     public: xf2hV6GmrCk
+    members: OzknT7IRikE
     published: 2021-12-02
   - special: Holiday Special
     members: DCDpWKEPQzQ
@@ -925,6 +928,7 @@ world: Spyre
 videos:
   - trailer: The Seven Trailer
     public: 0bJfIZyEP98
+    members: DJo6OLsKXEQ
     published: 2021-07-28
   - episode: 1. Party of Seven
     public: 9_LkwjqQ_mo
@@ -1012,6 +1016,7 @@ show: Dimension 20
 videos:
   - trailer: Shriek Week Trailer
     public: 3mlLfl5ZNLI
+    members: tZxqNRK0Qzo
     published: 2021-10-27
   - episode: 1. The Club Fair
     public: msr-i7SwcN0
@@ -1055,6 +1060,7 @@ cast: Intrepid Heroes
 videos:
   - trailer: A Starstruck Odyssey Trailer
     public: oVC-KqAgm38
+    members: QHI41pbr-VE
     published: 2021-12-18
   - episode: '1. Welcome To The Spacin'' Life, Buddy'
     public: 6I7cZG_RoWI
@@ -1229,6 +1235,7 @@ show: Dimension 20
 videos:
   - trailer: Coffin Run Trailer
     public: pdji4F1Ax_w
+    members: mLkexago-CI
     published: 2022-05-25
   - episode: 1. Down For The Count
     public: ul8iK77Cl-k
@@ -1285,6 +1292,7 @@ show: Dimension 20
 videos:
   - trailer: A Court of Fey and Flowers Trailer
     public: VFyHiykk2U4
+    members: fPs4fn88hfc
     published: 2022-07-20
   - episode: 1. A Bloom to Remember
     public: hMNzZiN0-P0
@@ -1377,6 +1385,7 @@ cast: Intrepid Heroes
 videos:
   - trailer: Neverafter Trailer
     public: nwMxp7mRbx4
+    members: iVsPeg6XT_4
     published: 2022-10-12
   - episode: 1. The Times of Shadow
     public: 7GTogwQVmYE
@@ -1533,6 +1542,7 @@ world: Calorum
 videos:
   - trailer: The Ravening War Trailer
     public: c4xTd-NjEj4
+    members: 3WGeM64PEHY
     published: 2023-04-19
   - bts: "Behind the Scenes: How It Began"
     public: Whsv1g5ws60
@@ -1602,6 +1612,7 @@ show: Dimension 20
 videos:
   - trailer: Dungeons and Drag Queens Trailer
     public: khZVjQL74qE
+    members: w664JpkrDio
     published: 2023-06-15
   - bts: The Questing Queens Talk Fantasy Night Life
     public: bXwntmGo-EM
@@ -3120,63 +3131,83 @@ season: Season 2
 videos:
   - episode: 201. Balancing Comedy and Drama (with Freddie Wong)
     members: iqTDCtdlNMo
+    public: WNX-PY7dL0w
     published: 2020-09-03
   - episode: 202. See Me In Six Months (with Aabria Iyengar)
     members: "-GNVSwHWJc8"
+    public: Y9v-pM2Wb6k
     published: 2020-09-13
   - episode: 203. Bardic Inspiration (with Omega Jones)
     members: A-BSfeTI8BA
+    public: IivF9g1_5vI
     published: 2020-09-15
   - episode: 204. The Joy of Mistakes (with Kelly Lynne D'Angelo)
     members: YBhnty635_w
+    public: twtdCPyH5FM
     published: 2020-09-23
   - episode: 205. Fantasy Shapes Reality (with Jennifer Kretchmer)
     members: ZM2ZjWEdouY
+    public: aZcJRQF6Iqk
     published: 2020-09-23
   - episode: 206. There Are Gray Areas In Life (with Orion Black)
     members: viTB0mEtaVE
+    public: BEeifDtn8K4
     published: 2020-10-06
   - episode: 207. I''m Gonna Have To Prod You, Sparta-Style (with Alicia Marie)
     members: fYu3uWw6pfo
+    public: 9y2L6HCUzIU
     published: 2020-10-06
   - episode: 208. Murph and Emily's Friend (with Caldwell Tanner)
     members: 0RynvIgcD4U
+    public: WQBJlI3VrVo
     published: 2020-10-06
   - episode: 209. No Introduction Needed (with Emily Axford)
     members: 8KmkcEygPg4
+    public: c0Vbw86_aBw
     published: 2020-10-06
   - episode: 210. Leave the Table Better Than You Found It (with Honey and Dice)
     members: Svhca-2Wj8o
+    public: VCxMOrJS1TA
     published: 2020-11-07
   - episode: 211. Story Pirates Reunited (with Branson Reese)
     members: LS9peXFUTPM
+    public: 5zinXDTd7wI
     published: 2020-11-16
   - episode: 212. An IRL Paladin (with Tanya DePass)
     members: FVb3mVHJNXk
+    public: _Hpzr8XnNLg
     published: 2020-11-21
   - episode: 213. The Story of Now (with Deborah Ann Woll)
     members: IYRSabJu7zg
+    public: 9rEtK9ucKGM
     published: 2020-11-21
   - episode: 214. Control the Narrative (with Jasmine Bhullar)
     members: Sp8NzvrHKFI
+    public: qoJxgs707Ao
     published: 2020-12-04
   - episode: 215. Chasing Noises (with Becca Scott)
     members: WW_Aac-EM9c
+    public: ZVlovzM92lY
     published: 2020-12-04
   - episode: 216. Animating Your Table (with Benjamin Scott)
     members: eY8AYOHsDh0
+    public: 4IbVxEKpipo
     published: 2020-12-17
   - episode: 217. Grand Design (with Gabriel Hicks)
     members: wmPZYEJHFiw
+    public: axFT5zXjgWg
     published: 2020-12-17
   - episode: 218. Shout Out To Fluff (with Griffin McElroy)
     members: PPVe4E6_DG4
+    public: fIyYnfQsB7A
     published: 2020-12-17
   - episode: 219. Sincerity Is the Key (with Travis McElroy)
     members: f2dkDAt2XzY
+    public: A0Ynnz0Yfas
     published: 2020-12-17
   - episode: 220. You've Been Called (with Dael Kingsmill)
     members: 7n30-QLxmzI
+    public: ICXN0K2X3C8
     published: 2020-12-17
 
 ---
@@ -3186,21 +3217,27 @@ season: Season 3
 videos:
   - episode: 301. Artwork is 360 Degrees (with Carlos Luna)
     members: PNLyY_8D9Rc
+    public: Sao9SUs_rqQ
     published: 2021-02-04
   - episode: 302. What Does 'Ready' Mean? (with Zac Oyama)
     members: bdOE5LiB_2M
+    public: KwBosPZkUDk
     published: 2021-02-04
   - episode: 303. Represent (with Daniel Kwan)
     members: H_Hbri0XVq8
+    public: aq7PluF6EUQ
     published: 2021-02-04
   - episode: 304. Conflict Resolution (with LaTia Jacquise)
     members: JqzjxFlK20U
+    public: aVhGSz_sbiI
     published: 2021-02-12
   - episode: 305. Give People More Room (with Diana Gaeta)
     members: 2R7Ntkq81QQ
+    public: TxfRIOhElsw
     published: 2021-02-24
   - episode: 306. Making Dinner For Friends (with Eric Silver)
     members: tr_WjEk1nrc
+    public: T6xo_NBrD04
     published: 2021-05-03
 
 ---
@@ -3833,10 +3870,12 @@ videos:
     published: 2024-02-06
   - episode: 901. Curse of Strahd, The Holocron, Blaseball
     members: QZ3ofVGpw_c
+    public: I3s5etGu1jw
     removed members: 2wUtKlpg1r0
     published: 2024-02-28
   - episode: 902. Pan-Galactic Gargle Blaster, Bubbling Bobbs, Blue Milk
     members: FNJixsC962g
+    public: Dk6x2xWEcpM
     published: 2024-03-12
   - episode: 903. Justice League, The Legend of Zelda, Animal Crossing
     members: 6Gtt_EIUGlc
@@ -3861,6 +3900,7 @@ videos:
     published: 2024-06-18
   - episode: 910. Glinda, Columbo, Inscryption
     members: cmcojxZZJJg
+    public: 79t5eK_r1To
     published: 2024-07-02
   - episode: 911. Giant Robots
     members: JvK5t8vT3wc
@@ -4163,6 +4203,15 @@ videos:
   - episode: "Cameron Esposito: Four Pills"
     members: c38FM75jOwI
     published: 2025-04-11
+
+---
+
+show: Dropout Presents
+season: Season 2
+videos:
+  - trailer: Dropout Presents Season 2 Trailer
+    public: 9so-54yO5Js
+    published: 2025-10-17
   - trailer: Get Your Act Together with Demi Adejuyigbe
     members: SG8Mjdk9h_8
     published: 2025-11-12
@@ -4339,6 +4388,7 @@ videos:
     published: 2024-07-19
   - episode: 102. Is the Jock Strap Cutting Off Circulation
     members: qJDNfuNDM-Q
+    public: LEQKvGpZtjU
     published: 2024-08-02
   - episode: 103. It Was a Crumbvulet
     members: LtUZcpA_IR8
@@ -4369,6 +4419,7 @@ videos:
     published: 2024-08-27
   - episode: 403. Who Wrote a Short Story That Seriously Disturbed a Teacher?
     members: xX22wktS08U
+    public: bvHAy_rKoEI
     published: 2024-09-10
   - episode: 404. Who Missed a Flight Because They Were at an Orgy?
     members: CSRrrMLGYE8
@@ -4401,6 +4452,7 @@ videos:
     published: 2024-08-29
   - episode: 1. Quangle in Queal Quife
     members: Agd9-pmlC1U
+    public: _Vs3wkltoOQ
     published: 2024-09-12
   - episode: 2. Betrayed by Live Theatre
     members: s3XsXjWo2qs
@@ -4560,8 +4612,12 @@ videos:
 season: Titan Takedown
 show: Dimension 20
 videos:
+  - trailer: Titan Takedown Trailer
+    public: "-91PjwLRk0I"
+    published: 2025-02-26
   - episode: 1. Party Animals
     members: v8gSKBWcgeQ
+    public: V7AlcIyvaoI
     published: 2025-04-02
   - bts: Cat's Out of the Bag
     talkback: true
@@ -4595,8 +4651,12 @@ season: Cloudward, Ho!
 show: Dimension 20
 cast: Intrepid Heroes
 videos:
+  - trailer: Cloudward, Ho! Trailer
+    public: ubR-CRYTrZs
+    published: 2025-05-14
   - episode: 1. On High We Go
     members: tvtNhxKo--c
+    public: jW0HiXgrfZs
     published: 2025-06-04
   - bts: Pure Whimsy
     talkback: true
@@ -4744,6 +4804,9 @@ videos:
 show: Very Important People
 season: Season 2
 videos:
+  - trailer: Very Important People Season 2 Trailer
+    public: zoFgeH1FRD8
+    published: 2024-10-17
   - episode: 201. Zeke Aaron McKinley
     members: BSGUZzqE4nY
     published: 2024-11-08
@@ -4865,8 +4928,12 @@ videos:
 show: Nobody Asked
 season: Season 1
 videos:
+  - trailer: Nobody Asked Trailer
+    public: RaRT2K0jwNI
+    published: 2024-11-15
   - episode: 101. Technically a Tenor, Comedians vs. Pro Athletes, Inflatable Jazz
     members: k_twaN9Vjfo
+    public: bmh99iZ4RsM
     published: 2024-12-20
   - episode: 102. Paintball Picasso, Comedians vs. Pro Athletes 2, Dissecting the S
     members: c00W3TBtimg
@@ -4886,6 +4953,9 @@ videos:
 show: Parlor Room
 season: Season 1
 videos:
+  - trailer: Parlor Room Trailer
+    public: v0Cr6S8Vep0
+    published: 2025-03-31
   - episode: 101. Wavelength
     public: sKTlEDAuwfY
     members: xaC_A2eEAIY
@@ -4926,6 +4996,9 @@ videos:
 show: Parlor Room
 season: Season 2
 videos:
+  - trailer: Parlor Room Season 2 Trailer
+    public: Y3snSLxYk_4
+    published: 2026-03-05
   - episode: 201. To Be Seen Is to Be Loved
     members: 73cyvXRvPCg
     published: 2026-03-19
@@ -4978,6 +5051,9 @@ videos:
 show: Crowd Control
 season: Season 1
 videos:
+  - trailer: Crowd Control Trailer
+    public: 7OxRWZB6SXY
+    published: 2025-08-19
   - episode: 101. Dangerous Hot Chocolate
     members: IE4avw7DE9A
     published: 2025-09-08
@@ -5003,6 +5079,9 @@ videos:
 show: Crowd Control
 season: Season 2
 videos:
+  - trailer: Crowd Control Season 2 Trailer
+    public: w0R8F3KEP6E
+    published: 2026-07-07
   - episode: 201. Lesbian Applause Break
     members: VSIp0xdjEUM
     published: 2026-08-03
@@ -5158,6 +5237,7 @@ videos:
     published: 2025-06-17
   - episode: 501. Who Got Yelled at by a Real Housewife?
     members: H_ItBC-NdO8
+    public: j49tapPncR4
     published: 2025-06-24
   - episode: 502. Who Hooked Up with Someone They Met on the Plane?
     members: HCTb7QP4D7Y
@@ -5198,6 +5278,9 @@ videos:
 show: Make Some Noise
 season: Season 4
 videos:
+  - trailer: Make Some Noise Season 4 Trailer
+    public: tKBcWn-tqWE
+    published: 2025-09-22
   - episode: 401. The Noise Boys Ride Again
     members: scIVn4N2u8E
     published: 2025-10-13
@@ -5511,6 +5594,9 @@ videos:
 show: Smartypants
 season: Season 2
 videos:
+  - trailer: Smartypants Season 2 Trailer
+    public: SPNQ8fGFHFA
+    published: 2025-02-13
   - episode: 201. Standardization, Dogs, Procrastination
     members: mmTsctlhj9E
     published: 2025-03-07
@@ -5565,39 +5651,42 @@ videos:
 show: Smartypants
 season: Season 3
 videos:
+  - trailer: Smartypants Season 3 Trailer
+    public: 1Ng4_XNQWjk
+    published: 2026-05-15
   - episode: 301. The Rules of Content
     members: 5Q_0byHdN5o
     published: 2026-06-12
-  - episode: 302. Bonk and Vibes
-    members: ekgmn5CK1HI
-    published: 2026-06-26
-  - episode: 303. Choppedness Cannot Be Outrun
-    members: y1NCbdSd5T4
-    published: 2026-07-10
-  - episode: 304. The Power of Words
-    members: yZw4DVYylH0
-    published: 2026-07-24
-  - episode: 305. Tax the Tall
-    members: NlbtQroARcI
-    published: 2026-08-07
-  - episode: 306. You Cannot Be You Without Yourself
-    members: Hb0c8MH9Ue4
-    published: 2026-08-21
   - special: "Smartyshorts: Nice to Meet You"
     members: h2K3PmPqkeU
     published: 2026-06-19
+  - episode: 302. Bonk and Vibes
+    members: ekgmn5CK1HI
+    published: 2026-06-26
   - special: "Smartyshorts: Audiobooks"
     members: ebrh_YVQloI
     published: 2026-07-03
+  - episode: 303. Choppedness Cannot Be Outrun
+    members: y1NCbdSd5T4
+    published: 2026-07-10
   - special: "Smartyshorts: School Subjects"
     members: gQRF9a9PUlM
     published: 2026-07-17
+  - episode: 304. The Power of Words
+    members: yZw4DVYylH0
+    published: 2026-07-24
   - special: "Smartyshorts: Spoiler Etiquette"
     members: 9PoEU6JOH0o
     published: 2026-07-31
+  - episode: 305. Tax the Tall
+    members: NlbtQroARcI
+    published: 2026-08-07
   - special: "Smartyshorts: Which Type of French Fry Is the Best?"
     members: urFZvoIse3U
     published: 2026-08-14
+  - episode: 306. You Cannot Be You Without Yourself
+    members: Hb0c8MH9Ue4
+    published: 2026-08-21
   - special: "Smartyshorts: Morning Showers or Night Showers"
     members: 9SdsJhLx4a4
     published: 2026-08-28
@@ -5607,6 +5696,9 @@ videos:
 show: Adventuring Academy
 season: Season 6
 videos:
+  - trailer: Adventuring Academy Season 6 Trailer
+    public: bC9hwFJBv9U
+    published: 2025-04-15
   - episode: 601. Hindsight Is Rose-Colored Glasses (with Izzy Roland)
     members: 1yqCQ2F1HKo
     published: 2025-04-29
@@ -5631,6 +5723,9 @@ videos:
 show: Adventuring Academy
 season: Season 7
 videos:
+  - trailer: Adventuring Academy Season 7 Trailer
+    public: iJot20t5v4U
+    published: 2026-02-06
   - episode: 701. Bandaid on a Bowling Ball (with Vic Michaelis)
     members: NCC97SzHXKg
     published: 2026-02-21
@@ -6047,8 +6142,12 @@ videos:
 show: Dimension 20
 season: Dungeons and Drag Queens (Chapter 2)
 videos:
+  - trailer: Dungeons and Drag Queens Season 2 Trailer
+    public: tbZILayxJ2I
+    published: 2024-12-18
   - episode: 1. Princess and the Paramours
     members: 0hKLieB6Di0
+    public: YCXG4GcaOno
     published: 2025-01-08
   - bts: She is the Tower of Babel
     talkback: true

@@ -1,7 +1,10 @@
 import { parseArgs } from "@std/cli";
 import { mapOptional, upsert } from "../common.ts";
 import { videosById } from "../client.ts";
-import { openResolvedVideoStorage } from "../storage.ts";
+import {
+  openChannelPlaylistStorage,
+  openResolvedVideoStorage,
+} from "../storage.ts";
 import { getSeasonsCuration } from "../config.ts";
 import { openVideoStorage } from "../storage.ts";
 
@@ -64,12 +67,28 @@ export async function main() {
   );
 
   if (args.unknown) {
-    // Everything the curation names that no channel scan has ever seen.
+    // Everything we name that no channel scan has ever seen: ids in the
+    // curation, and ids appearing in a scanned channel's playlists. The
+    // second is how videos hosted elsewhere and unlisted videos - neither
+    // of which reaches a channel's uploads - get a record of their own.
     const scanned = new Set((await openVideoStorage()).map((v) => v.videoId));
     const already = new Set(resolved.map((v) => v.videoId));
-    for (const id of curatedVideoIds(await getSeasonsCuration())) {
+    const consider = (id: string) => {
       if (!scanned.has(id) && !already.has(id) && !wanted.includes(id)) {
         wanted.push(id);
+      }
+    };
+    for (const id of curatedVideoIds(await getSeasonsCuration())) {
+      consider(id);
+    }
+    for (const playlist of await openChannelPlaylistStorage()) {
+      for (const entry of playlist.entries ?? []) {
+        // A private video is one the API will not serve to anyone but its
+        // owner, and the playlist entry already says so; asking would only
+        // spend quota to be told what we know.
+        if (entry.privacyStatus !== "private") {
+          consider(entry.videoId);
+        }
       }
     }
   }

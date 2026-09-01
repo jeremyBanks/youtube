@@ -55,6 +55,7 @@ Deno.test("an aborted run flushes storage and still exits non-zero", async () =>
 
 // The Dropout sitemap and episode-page parsers, against captured fixtures.
 // The suite must stay offline, so these are literal excerpts of real pages.
+import { entryFrom, mergeEntries } from "./src/bin/playlists.ts";
 import {
   canonicalCollection,
   newArrivals,
@@ -229,4 +230,114 @@ Deno.test("stripCollectionSuffix removes a trailing collection name", () => {
   // A title that merely contains a dash is left alone.
   const plain = stripCollectionSuffix("A Dash - Of Something", names);
   if (plain !== "A Dash - Of Something") throw new Error(plain);
+});
+
+Deno.test("entryFrom records everything the entry reports", () => {
+  const base = {
+    contentDetails: {
+      videoId: "abcdefghijk",
+      videoPublishedAt: "2026-01-02T03:04:05Z",
+    },
+    snippet: {
+      publishedAt: "2026-02-03T04:05:06Z",
+      position: 3,
+      title: "An Episode",
+      description: "What happens in it.",
+      videoOwnerChannelId: "UCsame",
+      videoOwnerChannelTitle: "Dropout",
+    },
+    status: { privacyStatus: "public" },
+  };
+  const entry = entryFrom(base)!;
+  if (entry.videoId !== "abcdefghijk") throw new Error(entry.videoId);
+  if (entry.position !== 3) throw new Error(String(entry.position));
+  if (entry.privacyStatus !== "public") throw new Error("privacy lost");
+  // Nothing is withheld for duplicating what videos.yaml may hold: the
+  // owner is recorded even when it is the playlist's own channel.
+  if (entry.ownerChannelId !== "UCsame") throw new Error("owner dropped");
+  if (entry.title !== "An Episode") throw new Error("title dropped");
+  if (entry.description !== "What happens in it.") {
+    throw new Error("description dropped");
+  }
+  if (entry.videoPublishedAt?.getUTCFullYear() !== 2026) {
+    throw new Error("videoPublishedAt lost");
+  }
+
+  // Blank fields are omitted rather than stored empty.
+  const bare = entryFrom({
+    contentDetails: { videoId: "abcdefghijk" },
+    snippet: { publishedAt: "2026-02-03T04:05:06Z", position: 0, title: " " },
+  })!;
+  if (bare.title !== undefined) throw new Error("stored a blank title");
+  if (bare.description !== undefined) throw new Error("stored a blank desc");
+
+  // An unlisted video never reaches a channel's uploads, so this entry is
+  // the only record of it obtainable; a private one keeps its placeholder
+  // for the same reason.
+  const unlisted = entryFrom({
+    ...base,
+    status: { privacyStatus: "unlisted" },
+  })!;
+  if (unlisted.title !== "An Episode") throw new Error("unlisted title lost");
+  const priv = entryFrom({
+    ...base,
+    snippet: { ...base.snippet, title: "Private video" },
+    status: { privacyStatus: "private" },
+  })!;
+  if (priv.title !== "Private video") throw new Error("placeholder dropped");
+
+  // An entry naming no video is not a record at all.
+  if (entryFrom({ snippet: { publishedAt: "x" } })) {
+    throw new Error("accepted an entry with no video");
+  }
+});
+
+Deno.test("mergeEntries leaves departed entries where they were", () => {
+  const now = new Date("2026-09-01T00:00:00Z");
+  const at = (videoId: string, position: number) => ({
+    videoId,
+    position,
+    addedAt: now,
+  });
+  // a, b, c, d in order; b and d then leave.
+  const stored = [
+    at("aaaaaaaaaaa", 0),
+    at("bbbbbbbbbbb", 1),
+    at("ccccccccccc", 2),
+    at("ddddddddddd", 3),
+  ];
+  const observed = [at("ccccccccccc", 1), at("aaaaaaaaaaa", 0)];
+  const merged = mergeEntries(stored, observed, now);
+  // b stays behind a, d stays behind c, rather than both being swept to
+  // the end.
+  if (
+    merged.map((e) => e.videoId[0]).join("") !== "abcd"
+  ) {
+    throw new Error(merged.map((e) => e.videoId[0]).join(""));
+  }
+  if (merged[0].removedBefore || merged[2].removedBefore) {
+    throw new Error("a living entry was marked as gone");
+  }
+  if (merged[1].removedBefore?.getTime() !== now.getTime()) {
+    throw new Error("departed entry not marked");
+  }
+  // Its recorded position describes where it was, and is not renumbered.
+  if (merged[1].position !== 1) throw new Error(String(merged[1].position));
+
+  // A later pass must not move an existing mark forward.
+  const later = new Date("2026-10-01T00:00:00Z");
+  const again = mergeEntries(merged, observed, later);
+  if (again[1].removedBefore?.getTime() !== now.getTime()) {
+    throw new Error("removal date was overwritten");
+  }
+
+  // An entry that led the playlist and then left stays at the front.
+  const front = mergeEntries(
+    [at("zzzzzzzzzzz", 0), at("aaaaaaaaaaa", 1)],
+    [at("aaaaaaaaaaa", 0)],
+    now,
+  );
+  if (front[0].videoId !== "zzzzzzzzzzz") {
+    throw new Error(front.map((e) => e.videoId).join(","));
+  }
 });

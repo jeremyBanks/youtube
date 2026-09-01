@@ -1276,6 +1276,9 @@ videos:
 show: Critical Role
 season: Campaign 4
 videos:
+  - trailer: Campaign 4 Trailer
+    public: Ip96yVlQ3B4
+    published: 2025-09-18
   - episode: 1. The Fall of Thjazi Fang
     public: 3Mbynm0pGX0
     members: 4MMoPp2YcfE
@@ -1320,6 +1323,9 @@ videos:
     public: Ta2rfRcooZE
     members: IVrR8YhtgCQ
     published: 2026-01-19
+  - trailer: Seekers Trailer
+    public: OrL9M6wYvO4
+    published: 2026-01-20
   - episode: 12. The Giant's Belt
     public: WRtb_XzfNTA
     members: ym0fDntNHtU
@@ -1348,6 +1354,9 @@ videos:
     public: q-zflBMhaag
     members: 5lDJviDjio0
     published: 2026-03-09
+  - trailer: Schemer's Trailer
+    public: RDGEJmVm_f0
+    published: 2026-03-19
   - episode: 19. Hand & Wheel
     public: 2a2bxnSgoY8
     members: GF5Bm9YD85U
@@ -1376,6 +1385,9 @@ videos:
     public: 5_KeVMfbE2k
     members: cqNXpLG_uVA
     published: 2026-05-11
+  - trailer: Convergence Trailer
+    public: RkVA3XQ-A1c
+    published: 2026-05-21
   - episode: 26. Council of Heroes
     public: z_JOnA_1We0
     members: 7DmmyKkEzsw

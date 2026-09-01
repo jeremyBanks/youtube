@@ -408,6 +408,30 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Exandria Unlimited: Calamity, a Critical Role campaign.
 """
 
+[todo-critical-role-downfall]
+name = "Critical Role: Downfall (${ALL_SEASONS})"
+show = "Critical Role"
+season = "Downfall"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and a teaser from Downfall, a Critical Role prequel arc run by Brennan Lee Mulligan.
+"""
+
+[todo-critical-role-divergence]
+name = "Critical Role: Exandria Unlimited: Divergence (${ALL_SEASONS})"
+show = "Critical Role"
+season = "Exandria Unlimited: Divergence"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes from Exandria Unlimited: Divergence, a Critical Role campaign run by Brennan Lee Mulligan.
+"""
+
+[todo-critical-role-campaign-4]
+name = "Critical Role: Campaign 4 (${ALL_SEASONS})"
+show = "Critical Role"
+season = "Campaign 4"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes from Campaign 4, the ongoing Critical Role campaign run by Brennan Lee Mulligan.
+"""
+
 [PLObfuAmZm9pBkqeNiz1HTbsg3r5cwiZzG]
 name = "Dimension 20: Titan Takedown (${ALL_SEASONS})"
 show = "Dimension 20"

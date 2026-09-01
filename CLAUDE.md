@@ -286,31 +286,41 @@ no scan has seen; private ones the API will not serve.
 ## Auto-Generated Channel Playlists
 
 YouTube derives several playlists from a channel id by replacing its leading
-`UC`. The scan uses two: `UU` for uploads and `UUMO` for members-only. Probing
-every one- and two-letter suffix against the Dropout channel, 702 of them,
-turned up nine more, listed here so nobody has to probe again:
+`UC`. The scan uses two, and needs both: `UU` for public uploads and `UUMO` for
+members-only. Probing every one- and two-letter suffix against the Dropout
+channel, 702 of them, turned up nine more; a tenth, `UUMS`, is documented
+elsewhere and exists in general but not here. Listed so nobody has to probe
+again, with the counts from the Dropout channel:
 
-| prefix | contents                  |
-| ------ | ------------------------- |
-| `UU`   | uploads (everything)      |
-| `UULF` | long-form videos          |
-| `UUSH` | shorts                    |
-| `UULV` | live streams              |
-| `UULP` | popular videos            |
-| `UUPS` | popular shorts            |
-| `UUPV` | popular live streams      |
-| `UUMO` | members-only              |
-| `UUMF` | members-only long-form    |
-| `UUMV` | members-only live streams |
+| prefix | contents                  | on @dropout    |
+| ------ | ------------------------- | -------------- |
+| `UU`   | **public** uploads only   | 3564           |
+| `UULF` | public long-form          | 3401           |
+| `UUSH` | public shorts             | 138            |
+| `UULV` | public live streams       | 25             |
+| `UULP` | popular videos            | 200            |
+| `UUPS` | popular shorts            | 137            |
+| `UUPV` | popular live streams      | 25             |
+| `UUMO` | members-only              | 1866           |
+| `UUMF` | members-only long-form    | 1862           |
+| `UUMV` | members-only live streams | 4              |
+| `UUMS` | members-only shorts       | does not exist |
 
-Most are subsets or rankings of `UU` and so add nothing to a scan that already
-reads it in full. `UUSH` is the exception worth remembering: the API exposes no
-shorts flag, so an exact shorts list otherwise has to be guessed at from
-duration.
+**`UU` is not everything.** It holds only what is public: the 1,866 members
+videos in `UUMO` appear in `UU` not at all, so a scan reading `UU` alone would
+miss every members upload. `UUMO` is exactly `UUMF` plus `UUMV`.
 
-On the Dropout channel `UUMO` held exactly four more items than `UUMF`, which is
-the size of `UUMV`, so `UUMO` appears to be members long-form plus members live
-streams. `UU` is the one to scan regardless.
+Everything else is a subset or a ranking of one of those two, so it adds nothing
+to a scan that reads both in full. `UUSH` is the only one worth remembering: the
+API exposes no shorts flag, so an exact shorts list otherwise has to be guessed
+at from duration.
+
+An exhaustive run over all eleven, on `@dropout` and on four smaller channels,
+found **no public video hidden from `UU`** — every id in another prefix was
+either already in `UU` or a members video from `UUMO`. Going the other way, of
+5,485 stored Dropout videos, 55 appear in none of the eleven, and every one of
+those is already marked `removedBefore`. So the two-playlist strategy is
+complete, and there is no reason to scan the others.
 
 **There is no collaborations playlist.** All 702 two-letter prefixes were tried;
 only the nine above exist. If one is ever found it uses some other scheme, and

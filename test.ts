@@ -430,3 +430,27 @@ Deno.test("durationMs reads the ISO durations the config uses", () => {
     throw new Error(String(durationMs("PT4M")));
   }
 });
+
+import { intervalFor } from "./src/bin/resolve.ts";
+
+Deno.test("intervalFor picks the interval from the last verdict", () => {
+  const days = (known: Parameters<typeof intervalFor>[0]) =>
+    intervalFor(known) / DAY_MS;
+  if (days(undefined) !== 21) throw new Error(String(days(undefined)));
+  if (days({ absence: "gone" }) !== 350) {
+    throw new Error(String(days({ absence: "gone" })));
+  }
+  if (days({ absence: "private" }) !== 42) {
+    throw new Error(String(days({ absence: "private" })));
+  }
+  if (days({ privacyStatus: "unlisted" }) !== 28) {
+    throw new Error(String(days({ privacyStatus: "unlisted" })));
+  }
+  if (days({ privacyStatus: "public" }) !== 21) {
+    throw new Error(String(days({ privacyStatus: "public" })));
+  }
+  // A verdict outranks a stale privacyStatus from an earlier lookup.
+  if (days({ privacyStatus: "public", absence: "gone" }) !== 350) {
+    throw new Error("absence must win over privacyStatus");
+  }
+});

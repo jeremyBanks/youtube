@@ -77,12 +77,19 @@ export const Video = z.object({
   /** When a direct lookup last asked the API about this id. */
   resolvedAt: z.date().optional(),
   /**
-   * What that lookup was told: `public`, `unlisted`, or `private`. Set
-   * together with `resolvedAt`; a `resolvedAt` with no `privacyStatus` means
-   * the API served nothing, which for a removed video is the confirmation
-   * that it really is gone.
+   * What that lookup was told: `public` or `unlisted`. Set together with
+   * `resolvedAt`; a `resolvedAt` with no `privacyStatus` means the API served
+   * nothing, and `absence` below says what we made of that.
    */
   privacyStatus: z.string().optional(),
+  /**
+   * Why the API served nothing, when it served nothing. `videos.list` omits a
+   * private video and a deleted one identically, so this comes from oEmbed,
+   * which answers 403 for the first and 404 for the second. `unknown` is for
+   * an id nothing has managed to classify: a lookup that has not run, or one
+   * whose request failed.
+   */
+  absence: z.enum(["private", "gone", "unknown"]).optional(),
   title: z.string().min(1),
   duration: z.number(),
   membersOnly: z.literal(true).optional(),
@@ -149,8 +156,16 @@ export const ResolvedVideo = z.object({
   duration: z.number().optional(),
   /** when this lookup was made */
   resolvedAt: DateTime,
-  /** what the API says it is: `public`, `unlisted`, or `private` */
+  /** what the API says it is: `public` or `unlisted` */
   privacyStatus: z.string().optional(),
+  /**
+   * Why the API served nothing, when it served nothing. `videos.list` omits a
+   * private video and a deleted one identically, so this comes from oEmbed,
+   * which answers 403 for the first and 404 for the second. `unknown` is for
+   * an id nothing has managed to classify: a lookup that has not run, or one
+   * whose request failed.
+   */
+  absence: z.enum(["private", "gone", "unknown"]).optional(),
   /** set when the API returned nothing: deleted, private, or never valid */
   missing: z.boolean().optional(),
 });

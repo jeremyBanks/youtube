@@ -83,6 +83,19 @@ jobs:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         run: deno task scan
 
+      # Whatever is due among the video ids no channel scan can settle:
+      # anything that left an uploads playlist, anything known to be
+      # non-public, and anything the curation or a playlist names that no scan
+      # has seen. Most runs have nothing due and cost nothing. The budget
+      # bounds the rest, and matters mainly for the oEmbed pass, which is
+      # paced at one request every two seconds.
+      - name: Scan video ids
+        if: always()
+        timeout-minutes: 20
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: deno task resolve --due --budget=16
+
       # Committed before the Dropout scan rather than after both, so that a
       # failure over there cannot cost the YouTube capture. Two commits also
       # keep the history readable: one says what YouTube showed, the other

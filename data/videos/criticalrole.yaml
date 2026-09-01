@@ -353,7 +353,7 @@ videoId:       Kp-Pi3DHvFg
 channelId:     UCpXBGqwsBkpvcYjsJBQ7LEQ
 publishedAt:   2018-11-18T18:00:03.000Z
 removedBefore: 2026-09-01T05:07:52.596Z
-resolvedAt:    2026-09-01T14:38:51.828Z
+resolvedAt:    2026-09-01T16:54:14.639Z
 privacyStatus: unlisted
 title:         'All Work No Play: Hot Tub Spectacular'
 duration:      2629
@@ -7222,7 +7222,8 @@ videoId:       fj8Xg-JXH6E
 channelId:     UCpXBGqwsBkpvcYjsJBQ7LEQ
 publishedAt:   2024-03-06T05:36:46.000Z
 removedBefore: 2026-09-01T05:07:52.596Z
-resolvedAt:    2026-09-01T14:38:51.828Z
+resolvedAt:    2026-09-01T16:54:14.639Z
+absence:       private
 title:         '4-Sided Dive | Episode 21: Discussing Up To C3E86'
 duration:      8837
 membersOnly:   true

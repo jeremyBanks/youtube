@@ -232,7 +232,7 @@ Deno.test("stripCollectionSuffix removes a trailing collection name", () => {
   if (plain !== "A Dash - Of Something") throw new Error(plain);
 });
 
-Deno.test("entryFrom keeps only what the video resource does not say", () => {
+Deno.test("entryFrom records everything the entry reports", () => {
   const base = {
     contentDetails: {
       videoId: "abcdefghijk",
@@ -242,64 +242,54 @@ Deno.test("entryFrom keeps only what the video resource does not say", () => {
       publishedAt: "2026-02-03T04:05:06Z",
       position: 3,
       title: "An Episode",
+      description: "What happens in it.",
       videoOwnerChannelId: "UCsame",
       videoOwnerChannelTitle: "Dropout",
     },
     status: { privacyStatus: "public" },
   };
-  // Owner matching the playlist's channel is not a collaboration, and a
-  // title equal to the video's own carries nothing.
-  const plain = entryFrom(base, "UCsame", {
-    title: "An Episode",
-    channelId: "UCsame",
-  })!;
-  if (plain.ownerChannelId !== undefined) throw new Error("owner kept");
-  if (plain.title !== undefined) throw new Error("redundant title kept");
-  if (plain.position !== 3) throw new Error(String(plain.position));
-  if (plain.privacyStatus !== "public") throw new Error("privacy lost");
-
-  // A different owner is exactly the collaboration signal.
-  const collab = entryFrom(base, "UCother", {
-    title: "An Episode",
-    channelId: "UCother",
-  })!;
-  if (collab.ownerChannelId !== "UCsame") throw new Error("collab missed");
-
-  // A title that differs is the only evidence a custom one survives.
-  const custom = entryFrom(base, "UCsame", {
-    title: "Something Else",
-    channelId: "UCsame",
-  })!;
-  if (custom.title !== "An Episode") throw new Error("custom title dropped");
-
-  // An entry with no video id is not a record at all.
-  if (entryFrom({ snippet: { publishedAt: "x" } }, "UCsame", undefined)) {
-    throw new Error("accepted an entry with no video");
+  const entry = entryFrom(base)!;
+  if (entry.videoId !== "abcdefghijk") throw new Error(entry.videoId);
+  if (entry.position !== 3) throw new Error(String(entry.position));
+  if (entry.privacyStatus !== "public") throw new Error("privacy lost");
+  // Nothing is withheld for duplicating what videos.yaml may hold: the
+  // owner is recorded even when it is the playlist's own channel.
+  if (entry.ownerChannelId !== "UCsame") throw new Error("owner dropped");
+  if (entry.title !== "An Episode") throw new Error("title dropped");
+  if (entry.description !== "What happens in it.") {
+    throw new Error("description dropped");
+  }
+  if (entry.videoPublishedAt?.getUTCFullYear() !== 2026) {
+    throw new Error("videoPublishedAt lost");
   }
 
-  // An unlisted video never reaches a channel's uploads, so the entry is
-  // the only place its real title exists: keep it.
-  const unlisted = entryFrom(
-    { ...base, status: { privacyStatus: "unlisted" } },
-    "UCother",
-    undefined,
-  )!;
-  if (unlisted.title !== "An Episode") throw new Error("unlisted title lost");
-  // Unknown to us and hosted elsewhere, so where it lives is worth keeping.
-  if (unlisted.ownerChannelId !== "UCsame") throw new Error("owner lost");
+  // Blank fields are omitted rather than stored empty.
+  const bare = entryFrom({
+    contentDetails: { videoId: "abcdefghijk" },
+    snippet: { publishedAt: "2026-02-03T04:05:06Z", position: 0, title: " " },
+  })!;
+  if (bare.title !== undefined) throw new Error("stored a blank title");
+  if (bare.description !== undefined) throw new Error("stored a blank desc");
 
-  // A private video's title is the placeholder "Private video", which
-  // privacyStatus already tells us; storing it would be noise.
-  const priv = entryFrom(
-    {
-      ...base,
-      snippet: { ...base.snippet, title: "Private video" },
-      status: { privacyStatus: "private" },
-    },
-    "UCsame",
-    undefined,
-  )!;
-  if (priv.title !== undefined) throw new Error("kept a private placeholder");
+  // An unlisted video never reaches a channel's uploads, so this entry is
+  // the only record of it obtainable; a private one keeps its placeholder
+  // for the same reason.
+  const unlisted = entryFrom({
+    ...base,
+    status: { privacyStatus: "unlisted" },
+  })!;
+  if (unlisted.title !== "An Episode") throw new Error("unlisted title lost");
+  const priv = entryFrom({
+    ...base,
+    snippet: { ...base.snippet, title: "Private video" },
+    status: { privacyStatus: "private" },
+  })!;
+  if (priv.title !== "Private video") throw new Error("placeholder dropped");
+
+  // An entry naming no video is not a record at all.
+  if (entryFrom({ snippet: { publishedAt: "x" } })) {
+    throw new Error("accepted an entry with no video");
+  }
 });
 
 Deno.test("mergeEntries leaves departed entries where they were", () => {

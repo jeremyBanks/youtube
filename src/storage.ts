@@ -147,11 +147,10 @@ export const openResolvedVideoStorage = () =>
 /**
  * One entry in a channel's playlist, as YouTube reports it.
  *
- * Optional fields are written only when they hold something. The API
- * repeats the video's own title and description in every entry, so storing
- * those unconditionally would duplicate a long description once per
- * playlist for no new information; `title` is kept only when it differs
- * from the video's, which is the only evidence a custom one survives.
+ * Optional fields are written only when they hold something, but nothing is
+ * withheld for being redundant with `data/videos.yaml`: that file holds only
+ * what a channel lists publicly, so for a private, unlisted or foreign video
+ * the entry is the only record there is.
  */
 export const ChannelPlaylistEntry = z.object({
   videoId: VideoId,
@@ -170,8 +169,12 @@ export const ChannelPlaylistEntry = z.object({
    */
   ownerChannelId: z.string().optional(),
   ownerChannelTitle: z.string().optional(),
-  /** kept only when it differs from the video's own title */
+  /**
+   * The entry's own title and description. For a private, unlisted or
+   * foreign video this is the only record of either that we can obtain.
+   */
   title: z.string().optional(),
+  description: z.string().optional(),
   /**
    * Legacy: a playlist could once clip a video and annotate an entry.
    * Nothing sets these now, so a value found is a historical artifact.

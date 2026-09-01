@@ -3,7 +3,7 @@ import type { youtube_v3 } from "googleapis";
 import { channelMetadata, getClientAndKey } from "../client.ts";
 import { mapOptional } from "../common.ts";
 import type { ChannelPlaylist, ChannelPlaylistEntry } from "../storage.ts";
-import { openChannelPlaylistStorage, openVideoStorage } from "../storage.ts";
+import { openChannelPlaylistStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
 
 if (import.meta.main) {
@@ -17,13 +17,16 @@ function present(value: string | null | undefined): string | undefined {
 }
 
 /**
- * Turns one playlistItems entry into a record, keeping only what the video
- * resource does not already tell us.
+ * Turns one playlistItems entry into a record of everything it says.
+ *
+ * Nothing is withheld for being redundant with `data/videos.yaml`. That
+ * file only ever holds what a channel lists publicly, so for a private,
+ * unlisted or foreign video the entry is the only record obtainable, and
+ * deciding what to keep by consulting another file would discard exactly
+ * the entries worth having.
  */
 export function entryFrom(
   item: youtube_v3.Schema$PlaylistItem,
-  playlistChannelId: string,
-  video: { title?: string; channelId?: string } | undefined,
 ): ChannelPlaylistEntry | undefined {
   const videoId = item.contentDetails?.videoId ?? item.snippet?.resourceId
     ?.videoId;
@@ -34,17 +37,13 @@ export function entryFrom(
   const owner = present(item.snippet?.videoOwnerChannelId);
   const title = present(item.snippet?.title);
   const privacyStatus = present(item.status?.privacyStatus);
-  // Where the video actually lives, but only when that is not already
-  // known: a show channel's playlists point almost entirely at videos
-  // hosted on the main channel, and repeating what videos.yaml already
-  // records would be two thirds of this file for nothing. What survives
-  // is the genuinely new part - an unlisted video we cannot otherwise
-  // see, or a video owned outside the channels we scan, which is what a
-  // collaboration looks like from here.
-  const foreignOwner = owner && owner !== playlistChannelId &&
-      owner !== video?.channelId
-    ? owner
-    : undefined;
+  // Where the video actually lives, whenever that is not the channel whose
+  // playlist this is. A show channel's playlists point mostly at videos
+  // hosted on the main one, so this is often set; that is a fact about the
+  // entry and worth recording plainly, rather than being made conditional
+  // on what another file happens to know. An owner outside the channels we
+  // scan is what a collaboration looks like from here, which nothing on the
+  // video or channel resource will tell us.
   return {
     videoId,
     position: item.snippet?.position ?? 0,
@@ -54,19 +53,14 @@ export function entryFrom(
       (d) => new Date(d),
     ),
     privacyStatus,
-    ownerChannelId: foreignOwner,
-    ownerChannelTitle: foreignOwner
-      ? present(item.snippet?.videoOwnerChannelTitle)
-      : undefined,
-    // The API repeats the video's own title in every entry, so it is kept
-    // only when it says something we do not have: an unlisted video, which
-    // never appears in a channel's uploads and so is invisible to the
-    // scan, or a title that differs from the one we hold. A private video
-    // is skipped, since its "Private video" placeholder is no title at all
-    // and privacyStatus already records the fact.
-    title: privacyStatus !== "private" && title && title !== video?.title
-      ? title
-      : undefined,
+    // Recorded plainly, even when it is the channel whose playlist this
+    // is. An owner outside the channels we scan is what a collaboration
+    // looks like from here, and nothing on the video or channel resource
+    // reports one at all.
+    ownerChannelId: owner,
+    ownerChannelTitle: present(item.snippet?.videoOwnerChannelTitle),
+    title,
+    description: present(item.snippet?.description),
     startAt: present(item.contentDetails?.startAt),
     endAt: present(item.contentDetails?.endAt),
     note: present(item.contentDetails?.note),
@@ -181,13 +175,6 @@ export async function main() {
   const only = args.channel?.split(",").map((c) => c.trim().toLowerCase());
 
   const playlists = await openChannelPlaylistStorage();
-  // Only to tell what an entry adds over what we already hold; never
-  // written to.
-  const videos = new Map(
-    (await openVideoStorage()).map((
-      v,
-    ) => [v.videoId, { title: v.title, channelId: v.channelId }]),
-  );
   const now = new Date();
 
   // A channel we actively track is one with a recent-window configured;
@@ -272,14 +259,7 @@ export async function main() {
       }
       const observed: Array<ChannelPlaylistEntry> = [];
       for await (const item of playlistEntries(playlist.playlistId)) {
-        const entry = entryFrom(
-          item,
-          channelId,
-          videos.get(
-            item.contentDetails?.videoId ??
-              item.snippet?.resourceId?.videoId ?? "",
-          ),
-        );
+        const entry = entryFrom(item);
         if (entry) {
           observed.push(entry);
         }

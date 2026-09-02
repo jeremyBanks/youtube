@@ -101,7 +101,7 @@ export async function main() {
     await yaml.load("./data/channel-playlists.yaml"),
   );
   const videos = new Map(
-    Video.array().parse(await yaml.load("./data/videos.yaml"))
+    Video.array().parse(await yaml.loadShards("./data/videos"))
       .map((v) => [v.videoId, v]),
   );
 

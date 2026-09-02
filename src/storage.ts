@@ -122,6 +122,21 @@ export const Video = z.object({
    * horizontal cut of the same trailer. See `src/video.ts`.
    */
   embedSize: z.string().optional(),
+  /**
+   * The video's description, verbatim.
+   *
+   * Kept because it is what identifies an episode when nothing else does.
+   * Dropout writes the same one-line synopsis on a members upload and on the
+   * free re-cut of it, so the synopsis matches where runtimes do not: four
+   * free re-uploads were matched to their episodes this way after their
+   * durations had put two of them against the wrong ones.
+   *
+   * It does not churn, which is what makes it storable. The boilerplate
+   * carries the subscription price and Dropout does not go back and update it
+   * -- a 2020 video still says $5/month, a 2024 one $6 and a 2025 one $7 --
+   * so a description is written once and then left alone.
+   */
+  description: z.string().optional(),
 });
 export type Video = z.TypeOf<typeof Video>;
 
@@ -228,6 +243,21 @@ export const ResolvedVideo = z.object({
    * horizontal cut of the same trailer. See `src/video.ts`.
    */
   embedSize: z.string().optional(),
+  /**
+   * The video's description, verbatim.
+   *
+   * Kept because it is what identifies an episode when nothing else does.
+   * Dropout writes the same one-line synopsis on a members upload and on the
+   * free re-cut of it, so the synopsis matches where runtimes do not: four
+   * free re-uploads were matched to their episodes this way after their
+   * durations had put two of them against the wrong ones.
+   *
+   * It does not churn, which is what makes it storable. The boilerplate
+   * carries the subscription price and Dropout does not go back and update it
+   * -- a 2020 video still says $5/month, a 2024 one $6 and a 2025 one $7 --
+   * so a description is written once and then left alone.
+   */
+  description: z.string().optional(),
 });
 export type ResolvedVideo = z.TypeOf<typeof ResolvedVideo>;
 

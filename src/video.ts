@@ -69,6 +69,7 @@ export type VideoDetails =
     | "madeForKids"
     | "licensedContent"
     | "embedSize"
+    | "description"
   >
   & { duration?: number };
 
@@ -124,6 +125,7 @@ export function videoDetails(
       ? false
       : undefined,
     embedSize: embedSize === DEFAULT_EMBED_SIZE ? undefined : embedSize,
+    description: video?.snippet?.description ?? undefined,
   };
 }
 

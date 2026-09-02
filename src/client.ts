@@ -432,20 +432,66 @@ export async function updatePlaylist(
     }
   }
 
+  // Which live entries can stay, and which have to be deleted and re-inserted.
+  //
+  // An entry stays only if the ones kept around it are already in the right
+  // relative order, so the question is which subset to keep -- and keeping the
+  // largest such subset is exactly the longest increasing subsequence of their
+  // desired positions.
+  //
+  // This used to be a greedy scan: keep an entry whenever its desired position
+  // beat the highest kept so far. That is cheap and usually fine, but it is
+  // catastrophic for a move. Sending one entry from the front of a playlist to
+  // the back made the greedy scan keep it where it was, raise the watermark
+  // past everything, and then delete and re-insert all 446 entries that should
+  // have followed it -- roughly 44,000 quota units to move one video, against a
+  // budget of 10,000 a day. The same move costs one delete and one insert here.
+  const live: Array<{ entryId: string; wanted: number }> = [];
+  for await (const { entry } of playlistVideos(playlistId)) {
+    live.push({
+      entryId: unwrap(entry.id),
+      wanted: videoIds.indexOf(unwrap(entry.snippet?.resourceId?.videoId)),
+    });
+  }
+
+  // Entries naming a video the playlist should not contain are never keepable,
+  // so they are excluded before the subsequence is computed rather than being
+  // allowed to break up a run.
+  const keepable = live.filter((item) => item.wanted >= 0);
+
+  // Patience-sorting LIS, O(n log n). `tails[l]` is the index into `keepable`
+  // of the smallest possible tail of an increasing run of length l + 1, and
+  // `previous` threads each element back to its predecessor so the winning run
+  // can be walked out at the end.
+  const tails: Array<number> = [];
+  const previous: Array<number> = new Array(keepable.length).fill(-1);
+  for (let i = 0; i < keepable.length; i += 1) {
+    let low = 0;
+    let high = tails.length;
+    while (low < high) {
+      const mid = (low + high) >> 1;
+      if (keepable[tails[mid]].wanted < keepable[i].wanted) {
+        low = mid + 1;
+      } else {
+        high = mid;
+      }
+    }
+    previous[i] = low > 0 ? tails[low - 1] : -1;
+    tails[low] = i;
+  }
+  const keep = new Set<string>();
+  for (let i = tails.length ? tails[tails.length - 1] : -1; i >= 0;) {
+    keep.add(keepable[i].entryId);
+    i = previous[i];
+  }
+
   const entryIdsToRemove: Array<string> = [];
   const existingVideoIds: Array<string> = [];
-  let lastMatchedVideoIndex = -1;
-
-  for await (const { entry } of playlistVideos(playlistId)) {
-    const videoId = unwrap(entry.snippet?.resourceId?.videoId);
-    const entryId = unwrap(entry.id);
-
-    const existingIndex = videoIds.indexOf(videoId);
-    if (existingIndex > lastMatchedVideoIndex) {
-      existingVideoIds.push(videoId);
-      lastMatchedVideoIndex = existingIndex;
+  for (const item of live) {
+    if (keep.has(item.entryId)) {
+      existingVideoIds.push(videoIds[item.wanted]);
     } else {
-      entryIdsToRemove.push(entryId);
+      entryIdsToRemove.push(item.entryId);
     }
   }
 

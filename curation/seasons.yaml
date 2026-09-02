@@ -5,9 +5,24 @@ videos:
   - trailer: Dimension 20 Trailer
     public: aDXDopl3YA0
     published: 2021-06-06
-  - bts: The Legendary Rick Perry and the Art of Dimension 20
-    public: n_YOZhhvHZQ
-    published: 2023-12-21
+
+---
+
+# Dimension 20 announcements that belong to the show rather than to any
+# campaign. Deliberately without a `season:` key: aggregate counts a doc as a
+# season only when that key is present, and giving this one would have the
+# published description claim 37 seasons of a show that has 36. A doc without
+# it is still included in every Dimension 20 playlist -- the show trailer above
+# has always been.
+
+show: Dimension 20
+videos:
+  # Deleted from Dropout: both watch.dropout.tv and dropout.tv now 404 on
+  # /videos/dimension-20-update-a-safe-return-to-the-dome. It survives only as
+  # this members upload, which is the whole point of keeping the archive.
+  - bts: "Dimension 20 Update: A Safe Return to the Dome"
+    members: BKiox8GK4MI
+    published: 2021-05-21
 
 ---
 
@@ -3903,6 +3918,9 @@ videos:
   - bts: Teenage Rebellion (Theme Song) Music Video
     public: D46t1vdcoSM
     published: 2024-01-10
+  - bts: The Legendary Rick Perry and the Art of Dimension 20
+    public: n_YOZhhvHZQ
+    published: 2023-12-21
 
   - episode: 1. Summer Scaries
     public: G4o_mJKAJxY

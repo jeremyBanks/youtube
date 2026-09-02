@@ -559,3 +559,59 @@ Deno.test("upsertMerge keeps fields the update does not mention", () => {
   const ids = rows.map((row) => row.videoId).join();
   if (ids !== "a,b") throw new Error(ids);
 });
+
+// The playlist diff is not exported, so this exercises the same subsequence
+// logic the real one uses: keep the largest already-ordered subset, move the
+// rest. A copy of an algorithm is a thing that drifts, but the alternative is
+// exporting internals of a module that opens an authenticated client on import.
+function keepIndices(wanted: Array<number>): Array<number> {
+  const keepable = wanted.map((w, i) => ({ w, i })).filter((x) => x.w >= 0);
+  const tails: Array<number> = [];
+  const previous: Array<number> = new Array(keepable.length).fill(-1);
+  for (let i = 0; i < keepable.length; i += 1) {
+    let low = 0, high = tails.length;
+    while (low < high) {
+      const mid = (low + high) >> 1;
+      if (keepable[tails[mid]].w < keepable[i].w) low = mid + 1;
+      else high = mid;
+    }
+    previous[i] = low > 0 ? tails[low - 1] : -1;
+    tails[low] = i;
+  }
+  const out: Array<number> = [];
+  for (let i = tails.length ? tails[tails.length - 1] : -1; i >= 0;) {
+    out.push(keepable[i].i);
+    i = previous[i];
+  }
+  return out.reverse();
+}
+
+Deno.test("a playlist already in order keeps every entry", () => {
+  const keep = keepIndices([0, 1, 2, 3, 4]);
+  if (keep.length !== 5) throw new Error(String(keep));
+});
+
+Deno.test("moving one entry to the end costs one move, not the whole tail", () => {
+  // The Rick Perry case: live order is [trailer, moved, ...448 others], and the
+  // moved entry now belongs near the end. The greedy scan kept `moved` and threw
+  // away all 448; the subsequence keeps the 449 and moves the one.
+  const n = 450;
+  const wanted = [0, n - 1, ...Array.from({ length: n - 2 }, (_, i) => i + 1)];
+  const keep = keepIndices(wanted);
+  if (keep.length !== n - 1) {
+    throw new Error(`kept ${keep.length}, expected ${n - 1}`);
+  }
+  if (keep.includes(1)) {
+    throw new Error("should have moved the out-of-place one");
+  }
+});
+
+Deno.test("entries not wanted at all are always removed", () => {
+  const keep = keepIndices([0, -1, 1, -1, 2]);
+  if (keep.join() !== "0,2,4") throw new Error(keep.join());
+});
+
+Deno.test("a fully reversed playlist keeps one entry", () => {
+  const keep = keepIndices([4, 3, 2, 1, 0]);
+  if (keep.length !== 1) throw new Error(String(keep));
+});

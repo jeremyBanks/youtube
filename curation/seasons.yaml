@@ -8,24 +8,6 @@ videos:
 
 ---
 
-# Dimension 20 announcements that belong to the show rather than to any
-# campaign. Deliberately without a `season:` key: aggregate counts a doc as a
-# season only when that key is present, and giving this one would have the
-# published description claim 37 seasons of a show that has 36. A doc without
-# it is still included in every Dimension 20 playlist -- the show trailer above
-# has always been.
-
-show: Dimension 20
-videos:
-  # Deleted from Dropout: both watch.dropout.tv and dropout.tv now 404 on
-  # /videos/dimension-20-update-a-safe-return-to-the-dome. It survives only as
-  # this members upload, which is the whole point of keeping the archive.
-  - bts: "Dimension 20 Update: A Safe Return to the Dome"
-    members: BKiox8GK4MI
-    published: 2021-05-21
-
----
-
 season: Fantasy High (Chapter 1)
 show: Dimension 20
 cast: Intrepid Heroes
@@ -872,6 +854,29 @@ videos:
     talkback: true
     members: b80RlW1vZhc
     published: 2021-06-11
+
+---
+
+# Dimension 20 announcements that belong to the show rather than to any
+# campaign. Deliberately without a `season:` key: aggregate counts a doc as a
+# season only when that key is present, and giving this one would have the
+# published description claim 37 seasons of a show that has 36. A doc without
+# it is still included in every Dimension 20 playlist -- the show trailer at
+# the top of the file always has been.
+#
+# Placed by date, between Mice and Murder and Misfits and Magic, because
+# playlist order is file order: aggregate walks the docs as they appear and
+# sorts nothing. Left at the top of the file this announcement played second
+# of 672, three years before the campaign it interrupted.
+
+show: Dimension 20
+videos:
+  # Deleted from Dropout: both watch.dropout.tv and dropout.tv now 404 on
+  # /videos/dimension-20-update-a-safe-return-to-the-dome. It survives only as
+  # this members upload, which is the whole point of keeping the archive.
+  - bts: "Dimension 20 Update: A Safe Return to the Dome"
+    members: BKiox8GK4MI
+    published: 2021-05-21
 
 ---
 

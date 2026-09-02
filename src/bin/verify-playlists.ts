@@ -86,7 +86,12 @@ export async function main() {
   const shorterBy = 5;
   // Below this share of a playlist being curated, we are looking at a show
   // we do not cover at all, and every entry would be reported as a gap.
-  const threshold = Number(args.threshold ?? "0.5");
+  // Any playlist we cover even one video of is a playlist we curate, and so a
+  // playlist whose gaps are worth seeing. The old default of 0.5 hid a
+  // playlist we covered less than half of -- which inverted the whole point,
+  // since the worse a gap is the less likely it was to be reported. Make Some
+  // Noise Season 3 sat at 9 of 21 and never appeared.
+  const threshold = Number(args.threshold ?? "0.01");
   const all = !args.uncovered && !args.free && !args.order;
 
   const curation = await getSeasonsCuration();

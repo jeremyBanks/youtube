@@ -38,7 +38,14 @@ export const VIDEO_PARTS = ["snippet", "contentDetails", "status", "player"];
  */
 export const EMBED_MAX_HEIGHT = 720;
 
-/** The embed size of an ordinary 16:9 video, which is not worth storing. */
+/**
+ * The embed size of an ordinary 16:9 video, which is not worth storing.
+ *
+ * Exactly this string, and nothing near it. 72 videos come back 1281x720 and
+ * one 1278x720, which are 16:9 to within a rounding error, and they are stored
+ * anyway. Rounding them in would be normalising away the only evidence we have
+ * that they are odd, and the oddities are the point -- see `embedSizeOf`.
+ */
 const DEFAULT_EMBED_SIZE = `1280x${EMBED_MAX_HEIGHT}`;
 
 /**
@@ -132,9 +139,17 @@ export function videoDetails(
  * `public short` and has until now had to check by hand.
  *
  * Stored as the literal pair rather than a `vertical` flag, because the
- * measurements are the evidence and a flag is a reading of it: 4:3 comes back
- * 960x720 and square 720x720, neither of which a boolean could express, and
- * two of the five known Shorts are 406 wide rather than 405.
+ * measurements are the evidence and a flag is a reading of it. There are 24
+ * distinct sizes across the catalogue and the tail is not noise: it sorts by
+ * channel, which is what an artefact of a particular era or encoder looks
+ * like. All 71 videos at 1308x720 are LoadingReadyRun's, as are 29 of the 30
+ * at 981x720 and both at 1704x720; the 45 perfectly square ones are Critical
+ * Role's and Dropout's; the 4 at 853x720 are all Drawfee's. Even among the
+ * vertical Shorts the width varies -- 404, 405, 406, 408, 432, 540.
+ *
+ * **Do not round these to the nearest standard ratio.** The anomaly is the
+ * finding. A boolean, or a normalised aspect, would erase exactly the thing
+ * worth having.
  */
 export function embedSizeOf(embedHtml: string | null | undefined) {
   const match = /width="(\d+)" height="(\d+)"/.exec(embedHtml ?? "");

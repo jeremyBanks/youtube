@@ -287,8 +287,13 @@ Beyond the obvious `title`, `duration`, `publishedAt` and `uploadedAt`:
   `contentDetails.dimension` is stereoscopy — it reports `2d` for a vertical
   Short and a widescreen episode alike. Fixing the embed height turns the shape
   into a width, which is what tells a 405x720 Short from the 1280x720 cut of the
-  same trailer. Stored as the measurement, not a `vertical` flag: 4:3 is
-  960x720, square is 720x720, and two known Shorts are 406 wide rather than 405.
+  same trailer. Stored as the measurement, not a `vertical` flag, and **the
+  anomalies are kept, never rounded to the nearest standard ratio**. There are
+  24 distinct sizes and the tail sorts by channel, which is what an artefact of
+  a particular era or encoder looks like: all 71 at 1308x720 are
+  LoadingReadyRun's, as are 29 of the 30 at 981x720; the 45 square ones are
+  Critical Role's and Dropout's. 72 videos report 1281x720, 16:9 to within a
+  rounding error, and are stored anyway — only exactly `1280x720` is omitted.
 
 **A field is written only when it differs from the overwhelmingly common
 value.** The cost is that an absent field means either the default or "captured

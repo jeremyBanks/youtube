@@ -1616,7 +1616,6 @@ collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
-- new-releases
 lastmod:       2026-08-12T00:00:00.000Z
 title:         A Duty of Care (with Dr. Emily Friedman)
 seasonNumber:  7
@@ -47991,6 +47990,32 @@ scrapedAt:     2026-08-31T17:13:24.307Z
 
 ---
 
+slug:          paper-trail
+collection:    the-don-hertzfeldt-collection-season-1
+collections:
+- new-releases
+- the-don-hertzfeldt-collection-new
+- the-don-hertzfeldt-collection-season-1
+lastmod:       2026-09-01T00:00:00.000Z
+title:         Paper Trail
+seasonNumber:  1
+episodeNumber: 13
+releaseDate:   '2026-09-01'
+url:           'https://watch.dropout.tv/the-don-hertzfeldt-collection/season:1/videos/paper-trail'
+showTitle:     The Don Hertzfeldt Collection
+showSlug:      the-don-hertzfeldt-collection
+description:   |-
+  A life, seen only through paper.
+
+  Content Warning:
+  Photosensitive Epilepsy Warning (Flashing) - [Throughout]
+itemId:        4126474
+collectionId:  1508622
+firstSeen:     2026-09-02T03:53:44.034Z
+scrapedAt:     2026-09-02T03:54:09.115Z
+
+---
+
 slug:          parade-of-peril
 collection:    dimension-20-the-unsleeping-city-season-2
 collections:
@@ -48507,7 +48532,20 @@ collection:    hardly-working-season-5
 collections:
 - hardly-working-season-5
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Passive Assholes
+seasonNumber:  5
+episodeNumber: 28
+url:           'https://watch.dropout.tv/hardly-working/season:5/videos/passive-assholes'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   We're not "mad."
+itemId:        233862
+collectionId:  82251
+upNextIds:
+- 233863
+- 263475
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:54:21.392Z
 
 ---
 
@@ -48516,7 +48554,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Pat Cassels Vs. Mark Zuckerberg
+seasonNumber:  6
+episodeNumber: 26
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/pat-cassels-vs-mark-zuckerberg'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   No Caption
+itemId:        233883
+collectionId:  82253
+upNextIds:
+- 449863
+- 449864
+- 233884
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:54:33.682Z
 
 ---
 
@@ -48690,7 +48742,21 @@ collection:    hardly-working-season-1
 collections:
 - hardly-working-season-1
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Pet Peeves
+seasonNumber:  1
+episodeNumber: 3
+url:           'https://watch.dropout.tv/hardly-working/season:1/videos/pet-peeves'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Don't you hate it?
+itemId:        233744
+collectionId:  82244
+upNextIds:
+- 233745
+- 263469
+- 462251
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:54:45.981Z
 
 ---
 
@@ -49281,7 +49347,21 @@ collection:    hardly-working-season-15
 collections:
 - hardly-working-season-15
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Please Grade Me
+seasonNumber:  15
+episodeNumber: 20
+url:           'https://watch.dropout.tv/hardly-working/season:15/videos/please-grade-me'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   'Psst, I heard Grant is getting an F.'
+itemId:        586178
+collectionId:  82266
+upNextIds:
+- 589397
+- 594904
+- 600829
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:54:58.295Z
 
 ---
 
@@ -49290,7 +49370,21 @@ collection:    hardly-working-season-11
 collections:
 - hardly-working-season-11
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Please Make Fun of Me
+seasonNumber:  11
+episodeNumber: 13
+url:           'https://watch.dropout.tv/hardly-working/season:11/videos/please-make-fun-of-me'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   'Quiet down, guys! There''s a new girl, so we gotta be nice.'
+itemId:        449883
+collectionId:  82261
+upNextIds:
+- 233974
+- 233979
+- 233983
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:55:10.582Z
 
 ---
 
@@ -49392,7 +49486,21 @@ collection:    hardly-working-season-2
 collections:
 - hardly-working-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Poker
+seasonNumber:  2
+episodeNumber: 20
+url:           'https://watch.dropout.tv/hardly-working/season:2/videos/poker'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   He's bluffing.
+itemId:        233776
+collectionId:  82246
+upNextIds:
+- 449841
+- 233777
+- 449842
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:55:22.891Z
 
 ---
 
@@ -49461,7 +49569,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Pooping Without Your Phone
+seasonNumber:  6
+episodeNumber: 12
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/pooping-without-your-phone'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   No email. No Internet. No hope.
+itemId:        449859
+collectionId:  82253
+upNextIds:
+- 233873
+- 233874
+- 233875
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:55:35.209Z
 
 ---
 
@@ -49547,7 +49669,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Porky Piggin' It
+seasonNumber:  6
+episodeNumber: 6
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/porky-piggin-it'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   The gang is exposed to some new fashion.
+itemId:        233868
+collectionId:  82253
+upNextIds:
+- 233869
+- 233870
+- 233871
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:55:47.598Z
 
 ---
 
@@ -49699,7 +49835,21 @@ collection:    hardly-working-season-5
 collections:
 - hardly-working-season-5
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Pre Game
+seasonNumber:  5
+episodeNumber: 21
+url:           'https://watch.dropout.tv/hardly-working/season:5/videos/pre-game'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   The early bird gets the drunk.
+itemId:        233854
+collectionId:  82251
+upNextIds:
+- 233856
+- 233857
+- 233858
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:55:59.861Z
 
 ---
 
@@ -50412,7 +50562,21 @@ collection:    hardly-working-season-2
 collections:
 - hardly-working-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Punctuation Recession
+seasonNumber:  2
+episodeNumber: 7
+url:           'https://watch.dropout.tv/hardly-working/season:2/videos/punctuation-recession'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   This may be the weirdest depression ever. Period.
+itemId:        233768
+collectionId:  82246
+upNextIds:
+- 233769
+- 449836
+- 449837
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:56:12.165Z
 
 ---
 
@@ -51544,7 +51708,21 @@ collection:    hardly-working-season-4
 collections:
 - hardly-working-season-4
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Religiously
+seasonNumber:  4
+episodeNumber: 3
+url:           'https://watch.dropout.tv/hardly-working/season:4/videos/religiously'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   'To some, Boy Meets World is more than just a show.'
+itemId:        233813
+collectionId:  82249
+upNextIds:
+- 233814
+- 233815
+- 233816
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:56:24.430Z
 
 ---
 
@@ -51613,7 +51791,21 @@ collection:    hardly-working-season-12
 collections:
 - hardly-working-season-12
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Remembering Someone by Their Facebook Posts
+seasonNumber:  12
+episodeNumber: 16
+url:           'https://watch.dropout.tv/hardly-working/season:12/videos/remembering-someone-by-their-facebook-posts'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Hopefully somebody up in heaven will help Raph figure out what to have for lunch today.
+itemId:        449887
+collectionId:  82262
+upNextIds:
+- 449888
+- 449889
+- 449890
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:56:36.715Z
 
 ---
 
@@ -52490,7 +52682,19 @@ collection:    hardly-working-season-2
 collections:
 - hardly-working-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Rookie of the Year
+seasonNumber:  2
+episodeNumber: 29
+url:           'https://watch.dropout.tv/hardly-working/season:2/videos/rookie-of-the-year'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Broken arms don't hurt as much as broken dreams.
+itemId:        263471
+collectionId:  82246
+upNextIds:
+- 233786
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:56:49.017Z
 
 ---
 
@@ -53195,7 +53399,21 @@ collection:    hardly-working-season-3
 collections:
 - hardly-working-season-3
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Same Shirt
+seasonNumber:  3
+episodeNumber: 17
+url:           'https://watch.dropout.tv/hardly-working/season:3/videos/same-shirt'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   The two most fashionable dudes in the office pay the ultimate price.
+itemId:        233802
+collectionId:  82247
+upNextIds:
+- 233803
+- 449846
+- 263472
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:57:01.321Z
 
 ---
 
@@ -53352,7 +53570,21 @@ collection:    hardly-working-season-2
 collections:
 - hardly-working-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Sarah's Revenge
+seasonNumber:  2
+episodeNumber: 22
+url:           'https://watch.dropout.tv/hardly-working/season:2/videos/sarah-s-revenge'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   The dudes in the office have gone way too far.
+itemId:        233777
+collectionId:  82246
+upNextIds:
+- 449842
+- 233779
+- 233780
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:57:13.628Z
 
 ---
 
@@ -53669,7 +53901,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         School Spirit
+seasonNumber:  6
+episodeNumber: 14
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/school-spirit'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Owen's college rivals are total classholes.
+itemId:        233874
+collectionId:  82253
+upNextIds:
+- 233875
+- 449860
+- 233876
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:57:25.915Z
 
 ---
 
@@ -53777,7 +54023,21 @@ collection:    hardly-working-season-3
 collections:
 - hardly-working-season-3
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Scooch
+seasonNumber:  3
+episodeNumber: 10
+url:           'https://watch.dropout.tv/hardly-working/season:3/videos/scooch'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   'Move over, old office.'
+itemId:        449844
+collectionId:  82247
+upNextIds:
+- 449845
+- 233797
+- 233798
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:57:38.249Z
 
 ---
 
@@ -53929,7 +54189,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Script Meeting
+seasonNumber:  6
+episodeNumber: 16
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/script-meeting'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   There are no small parts.
+itemId:        449860
+collectionId:  82253
+upNextIds:
+- 233876
+- 233877
+- 233879
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:57:50.544Z
 
 ---
 
@@ -54480,7 +54754,21 @@ collection:    hardly-working-season-7
 collections:
 - hardly-working-season-7
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Sex Dungeons and Dragons
+seasonNumber:  7
+episodeNumber: 5
+url:           'https://watch.dropout.tv/hardly-working/season:7/videos/sex-dungeons-and-dragons'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Your deepest fantasies meet your favorite fantasy game.
+itemId:        449866
+collectionId:  82254
+upNextIds:
+- 233886
+- 449867
+- 263481
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:58:02.863Z
 
 ---
 
@@ -54788,7 +55076,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         She's Such a Butterphone
+seasonNumber:  6
+episodeNumber: 20
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/she-s-such-a-butterphone'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   She's a 10 but her phone's a 1.0.
+itemId:        449861
+collectionId:  82253
+upNextIds:
+- 233880
+- 449862
+- 263477
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:58:15.151Z
 
 ---
 
@@ -54939,7 +55241,21 @@ collection:    hardly-working-season-9
 collections:
 - hardly-working-season-9
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Shopping for a New Version of You
+seasonNumber:  9
+episodeNumber: 13
+url:           'https://watch.dropout.tv/hardly-working/season:9/videos/shopping-for-a-new-version-of-you'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Are you the kind of bad bitch who wears $500 t-shirts just because?
+itemId:        263498
+collectionId:  82258
+upNextIds:
+- 233925
+- 233926
+- 233927
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:58:27.417Z
 
 ---
 
@@ -54976,7 +55292,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Should We Do a Bitcoin Sketch?
+seasonNumber:  6
+episodeNumber: 23
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/should-we-do-a-bitcoin-sketch'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Watch now before it's not worth your time.
+itemId:        263477
+collectionId:  82253
+upNextIds:
+- 233881
+- 233882
+- 233883
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:58:39.758Z
 
 ---
 
@@ -55300,7 +55630,21 @@ collection:    hardly-working-season-4
 collections:
 - hardly-working-season-4
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Sit-ups
+seasonNumber:  4
+episodeNumber: 21
+url:           'https://watch.dropout.tv/hardly-working/season:4/videos/sit-ups'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Dan and David do a simple workout together.
+itemId:        233828
+collectionId:  82249
+upNextIds:
+- 233829
+- 233830
+- 233831
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:58:52.046Z
 
 ---
 
@@ -55309,7 +55653,21 @@ collection:    hardly-working-season-2
 collections:
 - hardly-working-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Sitcom
+seasonNumber:  2
+episodeNumber: 5
+url:           'https://watch.dropout.tv/hardly-working/season:2/videos/sitcom'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   This video was shot in front of a live studio audience.
+itemId:        233766
+collectionId:  82246
+upNextIds:
+- 233767
+- 233768
+- 233769
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:59:04.426Z
 
 ---
 
@@ -55575,7 +55933,21 @@ collection:    hardly-working-season-6
 collections:
 - hardly-working-season-6
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Skyrim
+seasonNumber:  6
+episodeNumber: 2
+url:           'https://watch.dropout.tv/hardly-working/season:6/videos/skyrim'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Pat and Emily create the perfect warrior -- whether they want to or not.
+itemId:        449858
+collectionId:  82253
+upNextIds:
+- 233865
+- 233866
+- 233867
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:59:16.734Z
 
 ---
 
@@ -55633,7 +56005,21 @@ collection:    hardly-working-season-3
 collections:
 - hardly-working-season-3
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Slasher
+seasonNumber:  3
+episodeNumber: 7
+url:           'https://watch.dropout.tv/hardly-working/season:3/videos/slasher'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   She's so courteous it's scary.
+itemId:        233793
+collectionId:  82247
+upNextIds:
+- 233794
+- 233795
+- 449844
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:59:29.023Z
 
 ---
 
@@ -55757,7 +56143,21 @@ collection:    hardly-working-season-11
 collections:
 - hardly-working-season-11
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Slobbery Blunts Are Gross
+seasonNumber:  11
+episodeNumber: 12
+url:           'https://watch.dropout.tv/hardly-working/season:11/videos/slobbery-blunts-are-gross'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   The saliva activates the crystals.
+itemId:        233977
+collectionId:  82261
+upNextIds:
+- 449883
+- 233974
+- 233979
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:59:41.300Z
 
 ---
 
@@ -55944,7 +56344,6 @@ scrapedAt:     2026-08-31T07:03:21.288Z
 slug:          smartyshorts-spoiler-etiquette
 collection:    smartypants-season-3
 collections:
-- new-releases
 - smartypants-season-3
 lastmod:       2026-08-13T00:00:00.000Z
 title:         'Smartyshorts: Spoiler Etiquette'
@@ -56099,7 +56498,21 @@ collection:    hardly-working-season-4
 collections:
 - hardly-working-season-4
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Snooping
+seasonNumber:  4
+episodeNumber: 8
+url:           'https://watch.dropout.tv/hardly-working/season:4/videos/snooping'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Watch your back. And your head.
+itemId:        449851
+collectionId:  82249
+upNextIds:
+- 233819
+- 233820
+- 233821
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T03:59:53.565Z
 
 ---
 
@@ -56180,7 +56593,21 @@ collection:    hardly-working-season-5
 collections:
 - hardly-working-season-5
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Soda Prank
+seasonNumber:  5
+episodeNumber: 25
+url:           'https://watch.dropout.tv/hardly-working/season:5/videos/soda-prank'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Murph falls for the grossest joke in the book.
+itemId:        233859
+collectionId:  82251
+upNextIds:
+- 233860
+- 233861
+- 233862
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T04:00:05.873Z
 
 ---
 
@@ -56250,7 +56677,21 @@ collection:    hardly-working-season-10
 collections:
 - hardly-working-season-10
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Someone Is Leaking CollegeHumor's Secrets
+seasonNumber:  10
+episodeNumber: 25
+url:           'https://watch.dropout.tv/hardly-working/season:10/videos/someone-is-leaking-collegehumor-s-secrets'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   Be on the lookout for \Uh-Oh! Furniture Tunnel!\" coming soon!"""
+itemId:        449880
+collectionId:  82259
+upNextIds:
+- 233966
+- 233967
+- 233968
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T04:00:18.151Z
 
 ---
 
@@ -56259,7 +56700,21 @@ collection:    hardly-working-season-2
 collections:
 - hardly-working-season-2
 lastmod:       2026-03-24T00:00:00.000Z
+title:         Something Different
+seasonNumber:  2
+episodeNumber: 6
+url:           'https://watch.dropout.tv/hardly-working/season:2/videos/something-different'
+showTitle:     Hardly Working
+showSlug:      hardly-working
+description:   'Wait, wait, don''t tell us.'
+itemId:        233767
+collectionId:  82246
+upNextIds:
+- 233768
+- 233769
+- 449836
 firstSeen:     2026-08-31T02:48:00.050Z
+scrapedAt:     2026-09-02T04:00:30.467Z
 
 ---
 

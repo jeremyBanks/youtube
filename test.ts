@@ -454,3 +454,108 @@ Deno.test("intervalFor picks the interval from the last verdict", () => {
     throw new Error("absence must win over privacyStatus");
   }
 });
+
+import { embedSizeOf, videoDetails } from "./src/video.ts";
+import { upsertMerge } from "./src/common.ts";
+
+const EMBED = (w: number, h: number) =>
+  `<iframe width="${w}" height="${h}" src="//www.youtube.com/embed/x"></iframe>`;
+
+Deno.test("videoDetails omits every field at its default", () => {
+  // An ordinary public 16:9 episode: nothing here is worth a line.
+  const details = videoDetails({
+    snippet: {
+      publishedAt: "2019-11-20T18:30:01Z",
+      liveBroadcastContent: "none",
+    },
+    contentDetails: {
+      duration: "PT1M40S",
+      licensedContent: true,
+      contentRating: {},
+    },
+    status: { uploadStatus: "processed", embeddable: true, madeForKids: false },
+    player: { embedHtml: EMBED(1280, 720) },
+  });
+  const written = Object.entries(details)
+    .filter(([, value]) => value !== undefined)
+    .map(([key]) => key)
+    .sort();
+  if (written.join() !== "duration,uploadedAt") {
+    throw new Error(`expected only duration and uploadedAt, got ${written}`);
+  }
+  if (details.duration !== 100) throw new Error(String(details.duration));
+});
+
+Deno.test("videoDetails records each field only when it is not the default", () => {
+  const details = videoDetails({
+    snippet: {
+      publishedAt: "2020-01-01T00:00:00Z",
+      liveBroadcastContent: "upcoming",
+    },
+    contentDetails: {
+      duration: "PT30S",
+      licensedContent: false,
+      contentRating: { ytRating: "ytAgeRestricted" },
+      regionRestriction: { blocked: ["US", "CA"] },
+    },
+    status: { uploadStatus: "rejected", embeddable: false, madeForKids: true },
+    player: { embedHtml: EMBED(405, 720) },
+  });
+  if (details.ageRestricted !== true) throw new Error("ageRestricted");
+  if (details.embeddable !== false) throw new Error("embeddable");
+  if (details.uploadStatus !== "rejected") throw new Error("uploadStatus");
+  if (details.liveBroadcast !== "upcoming") throw new Error("liveBroadcast");
+  if (details.madeForKids !== true) throw new Error("madeForKids");
+  if (details.licensedContent !== false) throw new Error("licensedContent");
+  if (details.embedSize !== "405x720") throw new Error("embedSize");
+  if (details.regionsBlocked?.join() !== "US,CA") throw new Error("regions");
+});
+
+Deno.test("videoDetails yields nothing for a video the API would not serve", () => {
+  for (const value of Object.values(videoDetails(undefined))) {
+    if (value !== undefined) throw new Error(String(value));
+  }
+});
+
+Deno.test("embedSizeOf reads the shape, and only 16:9 counts as default", () => {
+  // 405x720 and 406x720 are both vertical Shorts, which is why the stored
+  // value is the measurement rather than a `vertical` flag.
+  if (embedSizeOf(EMBED(406, 720)) !== "406x720") throw new Error("406");
+  if (embedSizeOf(EMBED(960, 720)) !== "960x720") throw new Error("4:3");
+  if (embedSizeOf(undefined) !== undefined) throw new Error("absent");
+  const short = videoDetails({ player: { embedHtml: EMBED(406, 720) } });
+  if (short.embedSize !== "406x720") throw new Error(String(short.embedSize));
+  const wide = videoDetails({ player: { embedHtml: EMBED(1280, 720) } });
+  if (wide.embedSize !== undefined) throw new Error(String(wide.embedSize));
+});
+
+Deno.test("upsertMerge keeps fields the update does not mention", () => {
+  // The case that matters: a scan re-seeing a video must not erase what
+  // `resolve` concluded about it.
+  const rows = [{
+    videoId: "a",
+    title: "old",
+    privacyStatus: "unlisted",
+  }] as Array<Record<string, unknown>>;
+  upsertMerge(
+    rows,
+    { videoId: "a", title: "new" },
+    (x, y) => x.videoId === y.videoId,
+  );
+  if (rows.length !== 1) throw new Error(String(rows.length));
+  if (rows[0].title !== "new") throw new Error("title should update");
+  if (rows[0].privacyStatus !== "unlisted") {
+    throw new Error("privacyStatus should survive");
+  }
+  // An explicit undefined still clears, which is how a lifted restriction goes.
+  upsertMerge(
+    rows,
+    { videoId: "a", privacyStatus: undefined },
+    (x, y) => x.videoId === y.videoId,
+  );
+  if (rows[0].privacyStatus !== undefined) throw new Error("should clear");
+  // And an unmatched update is appended.
+  upsertMerge(rows, { videoId: "b" }, (x, y) => x.videoId === y.videoId);
+  const ids = rows.map((row) => row.videoId).join();
+  if (ids !== "a,b") throw new Error(ids);
+});

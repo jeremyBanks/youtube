@@ -246,8 +246,8 @@ videos:
 - `public copy`: Re-uploaded public version
 - `public short`: The vertical cut uploaded alongside a trailer for Shorts —
   same content and length, 405x720 rather than 1280x720. Recorded, never
-  published. Which is which is checkable: `videos.list?part=player` reports the
-  embed dimensions, and Dropout's own playlists list only the horizontal one.
+  published. Which is which is now stored: `embedSize` on the video record, see
+  below. Dropout's own playlists list only the horizontal one.
 - `public compilation`: Compilation including this content
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)
@@ -258,6 +258,52 @@ stopped appearing in a listing, an entry left a playlist. That is all a listing
 can tell us, and an unlisted video leaves one exactly as a destroyed one does.
 The word `deleted` is reserved for the one place we can prove it —
 `absence: deleted`, from a 404 at the oEmbed endpoint on a direct lookup by id.
+
+### What a video record stores
+
+`src/video.ts` reads a stored video out of a YouTube video resource, and every
+caller goes through it — the scan's public pass, its members pass, and
+`resolve`. It used to be three hand-written copies, which drifted: `resolve`
+fetched `contentDetails` and threw away the region restrictions in it.
+
+Beyond the obvious `title`, `duration`, `publishedAt` and `uploadedAt`:
+
+- `regionsAllowed` / `regionsBlocked` — where it can be watched. Two videos are
+  blocked in all 249 regions, which is a state worth naming: **listed, served in
+  full, and watchable by nobody**. It is the mirror of unlisted, and nothing in
+  the metadata announces it but the length of that array. Both forms occur — one
+  video uses `allowed` with 246 entries rather than `blocked` with 3 — so a
+  check that reads only one of them is wrong.
+- `ageRestricted`, `embeddable` — the same kind of half-hidden state, and about
+  as rare: 2 age-restricted and 1 unembeddable out of 21,539.
+- `uploadStatus` — omitted at `processed`. Its other values include `rejected`
+  and `deleted`.
+- `liveBroadcast` — omitted at `none`.
+- `madeForKids`, `licensedContent` — omitted at their defaults.
+  `licensedContent` is 93% true and clusters by channel rather than scattering:
+  five of the smaller Dropout show channels are at zero.
+- `embedSize` — the embed iframe's `WIDTHxHEIGHT` at `maxHeight=720`, omitted at
+  the 16:9 `1280x720`. **The API has no aspect ratio and no shorts flag.**
+  `contentDetails.dimension` is stereoscopy — it reports `2d` for a vertical
+  Short and a widescreen episode alike. Fixing the embed height turns the shape
+  into a width, which is what tells a 405x720 Short from the 1280x720 cut of the
+  same trailer. Stored as the measurement, not a `vertical` flag: 4:3 is
+  960x720, square is 720x720, and two known Shorts are 406 wide rather than 405.
+
+**A field is written only when it differs from the overwhelmingly common
+value.** The cost is that an absent field means either the default or "captured
+before the field existed", and only a complete re-scan separates them — the
+bargain `uploadedAt` made, now at 99.7%.
+
+**`statistics` is deliberately not captured.** View and like counts change daily
+on every video, so storing them would rewrite the whole file on every scan and
+leave the commit history unreadable. Quota is charged per call and not per part,
+so the restraint is about the diff, not the budget.
+
+**The scan merges rather than replaces.** `upsert` swapped the whole record, so
+a scan re-seeing a video erased `resolvedAt`, `privacyStatus` and `absence`,
+which only `resolve` writes. `upsertMerge` leaves fields the update does not
+mention alone.
 
 ### Excerpts are never curated
 

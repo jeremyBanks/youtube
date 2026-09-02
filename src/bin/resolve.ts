@@ -1,7 +1,8 @@
 import { parseArgs } from "@std/cli";
 import { delay } from "@std/async";
-import { mapOptional, upsert } from "../common.ts";
+import { upsert } from "../common.ts";
 import { videosById } from "../client.ts";
+import { videoDetails } from "../video.ts";
 import {
   openChannelPlaylistStorage,
   openResolvedVideoStorage,
@@ -229,27 +230,24 @@ export async function main() {
     privacyStatus: string | undefined,
     absence: Video["absence"],
   ) => {
+    const video = found.get(videoId);
     const scanned = scannedById.get(videoId);
     if (scanned) {
       scanned.resolvedAt = now;
       scanned.privacyStatus = privacyStatus;
       scanned.absence = absence;
+      // Only when the API served the video. A lookup that came back empty
+      // says nothing about its duration or its restrictions, and merging the
+      // empty details would erase what the last scan saw.
+      if (video) Object.assign(scanned, videoDetails(video));
       return;
     }
-    const video = found.get(videoId);
     upsert(resolved, {
+      ...videoDetails(video),
       videoId,
       channelId: video?.snippet?.channelId ?? undefined,
       channelTitle: video?.snippet?.channelTitle ?? undefined,
       title: video?.snippet?.title ?? undefined,
-      uploadedAt: mapOptional(
-        video?.snippet?.publishedAt ?? undefined,
-        (d) => new Date(d),
-      ),
-      duration: mapOptional(
-        video?.contentDetails?.duration,
-        Temporal.Duration.from,
-      )?.total("seconds"),
       privacyStatus,
       absence,
       missing: video ? undefined : true,

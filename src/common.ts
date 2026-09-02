@@ -142,6 +142,37 @@ export const upsert = <T>(
 };
 
 /**
+ * Like `upsert`, but merges into the matching record instead of replacing it.
+ *
+ * `upsert` swaps the whole object, so every field the update does not mention
+ * is silently dropped. That is wrong wherever two commands own different
+ * fields of the same record: the channel scan writes what a listing shows,
+ * `resolve` writes what a direct lookup concluded, and a scan re-seeing a
+ * video would erase `resolvedAt`, `privacyStatus` and `absence` along with it.
+ * No record is in that state today — every resolved one has also left its
+ * uploads playlist, so no scan rebuilds it — but `resolve --ids=` on a video
+ * still in its channel's listing creates it, and that is the documented way to
+ * correct a wrong verdict.
+ *
+ * A field the update sets to `undefined` is still merged, and so still
+ * cleared: that is how a restriction being lifted, or a members video going
+ * public, stops being recorded.
+ */
+export const upsertMerge = <T extends object>(
+  array: Array<T>,
+  update: T,
+  filter: (existing: T, updated: T) => boolean,
+) => {
+  for (const item of array) {
+    if (filter(item, update)) {
+      Object.assign(item, update);
+      return;
+    }
+  }
+  array.push(update);
+};
+
+/**
  * Dynamic async function constructor.
  *
  * This defined in the standard, but not directly available in any standard scope.

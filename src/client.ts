@@ -7,6 +7,7 @@ import { openChannelStorage } from "./storage.ts";
 import type { Channel } from "./storage.ts";
 import { only } from "./common.ts";
 import { unwrap } from "./common.ts";
+import { EMBED_MAX_HEIGHT, VIDEO_PARTS } from "./video.ts";
 
 type Client = {
   youtube: googleapis.youtube_v3.Youtube;
@@ -211,9 +212,13 @@ export async function* playlistVideos(playlistId: string, opts: {
       console.debug(`youtube.videos.list...`);
       const detailResponse = await youtube.videos.list({
         id: response.data.items?.map((item) => item.contentDetails?.videoId!),
-        part: ["snippet", "contentDetails", "statistics"],
+        part: VIDEO_PARTS,
         key,
         maxResults: 50,
+        // Fixes the embed height so that the width reports the aspect ratio,
+        // which is the only way the API tells a vertical Short from a
+        // widescreen video. See `videoDetails`.
+        maxHeight: EMBED_MAX_HEIGHT,
       });
       for (const detailItem of detailResponse.data?.items ?? []) {
         details[detailItem.id!] = detailItem;
@@ -537,8 +542,9 @@ export async function videosById(
       // status comes along free, and it is the only way to learn that a
       // video which vanished from a channel's uploads went unlisted rather
       // than being deleted.
-      part: ["snippet", "contentDetails", "status"],
+      part: VIDEO_PARTS,
       key,
+      maxHeight: EMBED_MAX_HEIGHT,
     });
     for (const video of response.data.items ?? []) {
       if (video.id) {

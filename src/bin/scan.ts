@@ -1,11 +1,12 @@
 import { parseArgs } from "@std/cli";
 import { channelMetadata, playlistVideos, setAuthMode } from "../client.ts";
 import type { Scan, Video } from "../storage.ts";
-import { mapOptional, upsert } from "../common.ts";
+import { upsertMerge } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
 import { openScanStorage } from "../storage.ts";
 import { getScanConfig } from "../config.ts";
 import { durationMs, isDue } from "../schedule.ts";
+import { videoDetails } from "../video.ts";
 import { scanChannelPlaylists } from "./playlists.ts";
 import { openChannelPlaylistStorage } from "../storage.ts";
 
@@ -36,11 +37,10 @@ export async function main() {
     setAuthMode({ mode: "complete-with-url", redirectUrl: args["auth-url"] });
   }
 
-  // Forces a scan back a given ISO duration for every actively-tracked
-  // channel, ignoring the cadences in config/scan.toml. For backfilling a
-  // newly-captured field over recent videos, where the scheduled tiers would
-  // otherwise skip channels that were scanned recently but before the field
-  // existed. Channels parked with no recent-window are left alone.
+  // Forces a scan back a given ISO duration for every configured channel,
+  // ignoring the cadences in config/scan.toml. For backfilling a
+  // newly-captured field, where the scheduled tiers would otherwise skip
+  // channels that were scanned recently but before the field existed.
   const forcedStopAt = args.window
     ? new Date(
       Temporal.Now.instant().toZonedDateTimeISO("UTC")
@@ -101,9 +101,11 @@ export async function main() {
     let stopAt: Date;
 
     if (forcedStopAt) {
-      if (config.recentWindowStart === undefined) {
-        continue; // parked channel; a forced window is not meant for these
-      }
+      // Every configured channel, including the two with no middle tier.
+      // This used to skip a channel with no `recent-window`, because that
+      // was how a parked channel was spelled; the purge removed the parked
+      // ones, and now it only means a channel scanned incrementally and
+      // completely but never in between -- which a backfill still wants.
       stopAt = forcedStopAt;
     } else if (args["incremental-only"]) {
       // Incremental-only mode: skip channels never scanned, only scan back to last scan
@@ -179,29 +181,24 @@ export async function main() {
         getDetails: true,
       })
     ) {
+      const details = videoDetails(video);
       const record: Video = {
+        ...details,
+        duration: details.duration!,
         channelId: entry.snippet?.channelId!,
         publishedAt: new Date(entry.snippet?.publishedAt!),
-        uploadedAt: mapOptional(
-          video?.snippet?.publishedAt ?? undefined,
-          (d) => new Date(d),
-        ),
         title: entry.snippet?.title!,
         videoId: entry.snippet?.resourceId?.videoId!,
-        duration: mapOptional(
-          video?.contentDetails?.duration,
-          Temporal.Duration.from,
-        )?.total("seconds")!,
-        regionsAllowed: video?.contentDetails?.regionRestriction?.allowed ??
-          undefined,
-        regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??
-          undefined,
+        // Explicitly cleared rather than omitted: `UU` holds only public
+        // videos, so appearing here is proof a video is no longer
+        // members-only, and the merge below would otherwise keep the flag.
+        membersOnly: undefined,
       };
 
       removedIds.delete(record.videoId);
 
       if (record.publishedAt >= stopAt) {
-        upsert(videos, record, (a, b) => a.videoId === b.videoId);
+        upsertMerge(videos, record, (a, b) => a.videoId === b.videoId);
       } else {
         publicVideosExhaustive = false;
         break;
@@ -216,30 +213,21 @@ export async function main() {
           getDetails: true,
         })
       ) {
+        const details = videoDetails(video);
         const record: Video = {
+          ...details,
+          duration: details.duration!,
           channelId: entry.snippet?.channelId!,
           membersOnly: true,
           publishedAt: new Date(entry.snippet?.publishedAt!),
-          uploadedAt: mapOptional(
-            video?.snippet?.publishedAt ?? undefined,
-            (d) => new Date(d),
-          ),
           title: entry.snippet?.title!,
           videoId: entry.snippet?.resourceId?.videoId!,
-          duration: mapOptional(
-            video?.contentDetails?.duration,
-            Temporal.Duration.from,
-          )?.total("seconds")!,
-          regionsAllowed: video?.contentDetails?.regionRestriction?.allowed ??
-            undefined,
-          regionsBlocked: video?.contentDetails?.regionRestriction?.blocked ??
-            undefined,
         };
 
         removedIds.delete(record.videoId);
 
         if (record.publishedAt >= stopAt) {
-          upsert(videos, record, (a, b) => a.videoId === b.videoId);
+          upsertMerge(videos, record, (a, b) => a.videoId === b.videoId);
         } else {
           membersVideosExhaustive = false;
           break;

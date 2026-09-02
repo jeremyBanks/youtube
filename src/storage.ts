@@ -91,6 +91,37 @@ export const Video = z.object({
   regionsAllowed: z.string().array().optional(),
   /** Region codes where this video is blocked. If absent, it's blocked in no regions. */
   regionsBlocked: z.string().array().optional(),
+  /**
+   * Age-restricted, from `contentDetails.contentRating.ytRating`. Absent means
+   * it is not. Another half-hidden state, like a worldwide block: the video is
+   * listed and served in full, and most of the audience cannot watch it.
+   */
+  ageRestricted: z.literal(true).optional(),
+  /** `status.embeddable`. Absent means it can be embedded, as almost all can. */
+  embeddable: z.literal(false).optional(),
+  /**
+   * `status.uploadStatus`, when it is not `processed`. The other values
+   * include `rejected` and `deleted`, which is absence evidence the API gives
+   * away on a part we already request.
+   */
+  uploadStatus: z.string().optional(),
+  /** `snippet.liveBroadcastContent`, when it is not `none`: `live`, `upcoming`. */
+  liveBroadcast: z.string().optional(),
+  /** `status.madeForKids`. Absent means not; nothing we hold is. */
+  madeForKids: z.literal(true).optional(),
+  /**
+   * `contentDetails.licensedContent`, when false. Absent means licensed, which
+   * 93% of what we hold is — and not evenly: five of the smaller Dropout show
+   * channels are at zero, so this clusters rather than scatters.
+   */
+  licensedContent: z.literal(false).optional(),
+  /**
+   * The embed iframe's `WIDTHxHEIGHT` at `maxHeight=720`, when it is not the
+   * 16:9 `1280x720`. The API has no aspect ratio and no shorts flag, so this
+   * is the only thing that distinguishes a vertical Short (405x720) from the
+   * horizontal cut of the same trailer. See `src/video.ts`.
+   */
+  embedSize: z.string().optional(),
 });
 export type Video = z.TypeOf<typeof Video>;
 
@@ -162,6 +193,41 @@ export const ResolvedVideo = z.object({
   absence: z.enum(["private", "deleted", "unknown"]).optional(),
   /** set when the API returned nothing: deleted, private, or never valid */
   missing: z.boolean().optional(),
+  /** Region codes where this video is allowed. If absent, it's allowed in all regions. */
+  regionsAllowed: z.string().array().optional(),
+  /** Region codes where this video is blocked. If absent, it's blocked in no regions. */
+  regionsBlocked: z.string().array().optional(),
+  /**
+   * Age-restricted, from `contentDetails.contentRating.ytRating`. Absent means
+   * it is not. Another half-hidden state, like a worldwide block: the video is
+   * listed and served in full, and most of the audience cannot watch it.
+   */
+  ageRestricted: z.literal(true).optional(),
+  /** `status.embeddable`. Absent means it can be embedded, as almost all can. */
+  embeddable: z.literal(false).optional(),
+  /**
+   * `status.uploadStatus`, when it is not `processed`. The other values
+   * include `rejected` and `deleted`, which is absence evidence the API gives
+   * away on a part we already request.
+   */
+  uploadStatus: z.string().optional(),
+  /** `snippet.liveBroadcastContent`, when it is not `none`: `live`, `upcoming`. */
+  liveBroadcast: z.string().optional(),
+  /** `status.madeForKids`. Absent means not; nothing we hold is. */
+  madeForKids: z.literal(true).optional(),
+  /**
+   * `contentDetails.licensedContent`, when false. Absent means licensed, which
+   * 93% of what we hold is — and not evenly: five of the smaller Dropout show
+   * channels are at zero, so this clusters rather than scatters.
+   */
+  licensedContent: z.literal(false).optional(),
+  /**
+   * The embed iframe's `WIDTHxHEIGHT` at `maxHeight=720`, when it is not the
+   * 16:9 `1280x720`. The API has no aspect ratio and no shorts flag, so this
+   * is the only thing that distinguishes a vertical Short (405x720) from the
+   * horizontal cut of the same trailer. See `src/video.ts`.
+   */
+  embedSize: z.string().optional(),
 });
 export type ResolvedVideo = z.TypeOf<typeof ResolvedVideo>;
 

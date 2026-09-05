@@ -624,6 +624,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of See Plum Run, and the 2013 CollegeHumor series Precious Plum that it continues. Neither is on watch.dropout.tv any longer, so this is the only place the run survives intact. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLO4kO0zgZvjU]
+name = "Raph's Hall of Fame (${ALL_SEASONS})"
+show = "Raph's Hall of Fame"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes of Raph's Hall of Fame, in which Raphael Chestang invites a guest to argue for the induction of the sporting moment they cannot let go of. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

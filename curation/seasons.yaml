@@ -7493,3 +7493,45 @@ videos:
   - bts: "See Plum Run: Behind the Scenes"
     members: 2bZM1EO8YSg
     published: 2019-09-16
+
+---
+
+# Raphael Chestang's sports podcast. All ten episodes are free.
+#
+# Episode 2 is titled the other way round on YouTube -- Dropout calls it
+# "Kelsey Djupstrom on Lizzy Yarnold" and YouTube "Lizzy Yarnold (with Kelsey
+# Djupstrom)" -- which is why a title join missed it and only it.
+
+show: Raph's Hall of Fame
+season: Season 1
+videos:
+  - episode: "1. Rob O'Connor on the 2005 Minnesota Vikings"
+    public: dKV6DnsxXMM
+    published: 2019-01-14
+  - episode: "2. Kelsey Djupstrom on Lizzy Yarnold"
+    public: S3uwnSDJ3nA
+    published: 2019-01-28
+  - episode: "3. Owen Robinson on Bill “Spaceman” Lee"
+    public: SIXsKkDHehc
+    published: 2019-02-11
+  - episode: "4. Danielle Radford on Eddie Guerrero"
+    public: cJ163OgjO6A
+    published: 2019-02-25
+  - episode: "5. Choni Francis on Vernon “Mad Max” Maxwell"
+    public: g4zyMS6EzQk
+    published: 2019-03-11
+  - episode: "6. Nick Dee on the 2002 NBA All-Star Weekend"
+    public: Qt_duTI6aCw
+    published: 2019-03-25
+  - episode: "7. Megan Gailey on Vontae Davis"
+    public: ky5Beqofk8k
+    published: 2019-04-08
+  - episode: "8. Alfred Aquino II on the Skateboarder Who Comped Justin Bieber"
+    public: d2WhRzEGOLU
+    published: 2019-04-22
+  - episode: "9. Lily Du and Paul Robalino on the 1973 Yankees"
+    public: 997Do9YSBqM
+    published: 2019-05-06
+  - episode: "10. Janie Stolar and Katie Marovitch on Elizabeth Swaney"
+    public: eLhYUi9ugZ4
+    published: 2019-05-20

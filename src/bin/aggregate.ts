@@ -30,11 +30,23 @@ function withDropoutLinks(
   // The templates end in a newline of their own; trim it so the links are
   // separated by exactly one blank line rather than two.
   const body = description.replace(/\s+$/, "");
-  // Whichever episodes a playlist cannot carry are named here, so that "Full
-  // Episodes" says what is absent instead of leaving a viewer to notice a gap
-  // and wonder whether it is an oversight. They are dropped before the
+  // Whichever episodes a playlist cannot carry would be named here, so that
+  // "Full Episodes" says what is absent instead of leaving a viewer to notice
+  // a gap and wonder whether it is an oversight. They are dropped before the
   // collection links when the description will not fit, since a partial list
   // of what is missing is worse than none: it reads as the whole of it.
+  //
+  // **Nothing passes `missing` today.** The list shipped once and 18 of its
+  // 158 entries were on YouTube all along, curated into a different playlist,
+  // because the test is "absent from this playlist" while the heading claims
+  // "not on YouTube". Worse were the ones no filter would catch: Crown of
+  // Candy's behind-the-scenes is `hdQKi3wf_zw`, which we carry under our own
+  // title, and Cloudward, Ho!'s mid-season recap is `vBJv-RDz52c`. Both were
+  // announced as unavailable because our title and Dropout's differ and
+  // neither entry had a `dropout:` link.
+  //
+  // The mechanism is sound and the argument for it stands. It goes back when
+  // the links are good enough that "we could not find it" means we looked.
   let keptMissing = [...missing];
   while (true) {
     const tail = keptMissing.length
@@ -487,9 +499,9 @@ async function main() {
       description: withDropoutLinks(
         applyTemplates(config.description ?? ""),
         coveredCollectionUrls(included, episodesByCollection),
-        (missingEpisodes ?? []).map((e) => e.url).filter((u): u is string =>
-          typeof u === "string"
-        ),
+        // Not passed for now. See `withDropoutLinks`: the list was published
+        // and was wrong often enough not to be trusted.
+        [],
       ),
       playlistId: config.playlistId,
       unlisted: config.unlisted,

@@ -134,6 +134,7 @@ videos:
     members: jrMPTsPpChI
     published: 2019-10-05
   - bts: Behind the Scenes
+    dropout: fantasy-high-behind-the-scenes
     public parts:
       - JnAZ4wc0zeM
       - O4jDmG3z8Rg
@@ -2641,6 +2642,7 @@ videos:
     members: KMfHWKFC4os
     published: 2022-11-14
   - bts: Sam Says 2
+    dropout: behind-the-scenes-of-sam-says-2
     members: yJeeU5KNT8s
     published: 2022-11-22
   - episode: 502. Karaoke Night
@@ -2648,6 +2650,7 @@ videos:
     members: qqB60y4WuS8
     published: 2022-11-28
   - bts: Karaoke Night
+    dropout: behind-the-scenes-of-karaoke-night
     members: gRCg9_dy0QA
     published: 2022-12-06
   - episode: 503. Like My Coffee 2
@@ -2655,6 +2658,7 @@ videos:
     members: _EIVhwqOmp4
     published: 2022-12-12
   - bts: Like My Coffee 2
+    dropout: behind-the-scenes-of-like-my-coffee-2
     members: Q8BwW-zRbqg
     published: 2022-12-20
   - episode: 504. Name a Number
@@ -2662,6 +2666,7 @@ videos:
     members: UUJWDZdyQZ0
     published: 2022-12-26
   - bts: Name a Number
+    dropout: behind-the-scenes-of-name-a-number
     members: MpBPrHTCQbk
     published: 2023-01-03
   - episode: 505. A Game Most Changed
@@ -2677,15 +2682,19 @@ videos:
     members: XDvF2KtG2W0
     published: 2023-01-23
   - bts: As A Cucumber
+    dropout: behind-the-scenes-of-as-a-cucumber
     members: TsQzmyqn0V8
     published: 2023-01-31
   - episode: "507. The Bachelor: Part 1"
+    dropout: the-bachelor-pt-1
     members: JD7WWGPiAzQ
     published: 2023-02-06
   - episode: "508. The Bachelor: Part 2"
+    dropout: the-bachelor-pt-2
     members: uAgmB8Es_Tc
     published: 2023-02-20
   - bts: The Bachelor
+    dropout: behind-the-scenes-of-the-bachelor
     members: RW_6guIh-Rw
     published: 2023-02-28
   - episode: 509. Escape the Greenroom
@@ -2693,22 +2702,27 @@ videos:
     members: 2boUvSEqGtA
     published: 2023-03-06
   - bts: Escape The Greenroom
+    dropout: behind-the-scenes-of-escape-the-greenroom
     members: dCbmKCJV4L8
     published: 2023-03-13
   - trailer: "Game Changer: Battle Royale Trailer"
     public: kexZC6icLK4
     published: 2023-03-20
   - episode: "510. Game Changer: Battle Royale Pt. 1"
+    dropout: battle-royale-pt-1
     members: _nArMYMnF_Y
     removed members: 4Ibx55i5dQI
     published: 2023-04-03
   - episode: "511. Game Changer: Battle Royale Pt. 2"
+    dropout: battle-royale-pt-2
     members: POxJSkshNEk
     published: 2023-04-17
   - episode: "512. Game Changer: Battle Royale Pt. 3"
+    dropout: battle-royale-pt-3
     members: lc8BTUCDEZI
     published: 2023-05-01
   - episode: "513. Game Changer: Battle Royale Pt. 4"
+    dropout: battle-royale-pt-4
     members: qRBE7GziVJc
     published: 2023-05-15
   - episode: "514. Game Changer Season 5: Cut For Time"
@@ -2729,6 +2743,7 @@ videos:
     members: "-Quz2jtBnlA"
     published: 2024-02-12
   - bts: Second Place
+    dropout: behind-the-scenes-of-second-place
     members: 56nTZXaLXwA
     published: 2024-02-19
   - episode: 602. The Newlyweb Game
@@ -2736,6 +2751,7 @@ videos:
     members: RecHnhX9KNM
     published: 2024-02-26
   - bts: The Newlyweb Game
+    dropout: behind-the-scenes-of-the-newlyweb-game
     members: iFuL6mRpTu4
     published: 2024-03-04
   - episode: 603. Sam Says 3
@@ -2743,6 +2759,7 @@ videos:
     members: wVqGhouh1v8
     published: 2024-03-11
   - bts: Sam Says 3
+    dropout: behind-the-scenes-of-sam-says-3
     members: LBCtuKb1ZN4
     published: 2024-03-18
   - episode: 604. Pencils Down
@@ -2750,6 +2767,7 @@ videos:
     members: ItbG5TGb9bI
     published: 2024-03-25
   - bts: Pencils Down
+    dropout: behind-the-scenes-of-pencils-down
     members: 0V_d4HyeEF4
     published: 2024-04-01
   - episode: 605. Bingo
@@ -2757,6 +2775,7 @@ videos:
     members: hcvFS16jBeE
     published: 2024-04-08
   - bts: Bingo
+    dropout: behind-the-scenes-of-bingo
     members: 8vevs12I8ao
     published: 2024-04-15
   - episode: 606. Deja Vu
@@ -2767,6 +2786,7 @@ videos:
       - IX5iZs1c5PM
     published: 2024-04-22
   - bts: Deja Vu
+    dropout: behind-the-scenes-of-deja-vu
     members: jWZE2tXcCiM
     removed members: W3OaT0NRFgw
     published: 2024-04-30
@@ -2775,6 +2795,7 @@ videos:
     members: 0vmTPsTxcmw
     published: 2024-05-06
   - bts: Beat the Buzzer
+    dropout: behind-the-scenes-of-beat-the-buzzer
     members: cRdGhIAD_rE
     published: 2024-05-13
   - trailer: Game Changer Season 6 Finale Trailer
@@ -2790,6 +2811,7 @@ videos:
     members: 4u78DVLEnvw
     published: 2024-06-17
   - bts: Ratfish
+    dropout: behind-the-scenes-of-ratfish
     members: kGvuCxkByjI
     published: 2024-06-24
 
@@ -4746,6 +4768,7 @@ videos:
     members: g722RMM-OsA
     published: 2024-01-09
   - bts: Teenage Rebellion (Theme Song) Music Video
+    dropout: teenage-rebellion-official-music-video-sarah-barrios
     public: D46t1vdcoSM
     published: 2024-01-10
   - bts: The Legendary Rick Perry and the Art of Dimension 20
@@ -6639,6 +6662,7 @@ videos:
     members: SRGxg0tE1Oo
     published: 2025-02-17
   - bts: One Year Later
+    dropout: behind-the-scenes-of-one-year-later
     members: GXXqrLStVzQ
     published: 2025-04-14
   - episode: 702. You-lympics
@@ -6646,6 +6670,7 @@ videos:
     members: wmxWsQmwuWY
     published: 2025-02-24
   - bts: You-lympics
+    dropout: behind-the-scenes-of-you-lympics
     members: _AjxvNtbVOc
     published: 2025-04-28
   - episode: 703. Earnest-est
@@ -6653,6 +6678,7 @@ videos:
     members: cWzefwxs0sI
     published: 2025-03-03
   - bts: Earnest-est
+    dropout: behind-the-scenes-of-earnest-est
     members: AoLbSM0g7fM
     published: 2025-05-12
   - episode: 704. Crowd Control
@@ -6669,6 +6695,7 @@ videos:
     members: "-OrTSllpPk0"
     published: 2025-03-17
   - bts: The Drinking Game
+    dropout: behind-the-scenes-of-the-drinking-game
     members: SuSWqYssPVU
     published: 2025-06-09
   - episode: 706. One and Done
@@ -6676,6 +6703,7 @@ videos:
     members: vibRAubBIMs
     published: 2025-03-24
   - bts: One and Done
+    dropout: behind-the-scenes-of-one-and-done
     members: laQOz-JGHs8
     published: 2025-06-23
   - episode: 707. Rulette
@@ -6683,6 +6711,7 @@ videos:
     members: 1VDoyBxUZ0U
     published: 2025-03-31
   - bts: Rulette
+    dropout: behind-the-scenes-of-rulette
     members: lZ17BynEOmY
     published: 2025-07-07
   - episode: 708. Fool's Gold
@@ -6690,6 +6719,7 @@ videos:
     members: YrJZjAae1WM
     published: 2025-04-07
   - bts: Fool's Gold
+    dropout: behind-the-scenes-of-fool-s-gold
     members: vL9gjjfGDhY
     published: 2025-07-21
   - episode: 709. Who Wants to Be Jacob Wysocki?
@@ -6697,6 +6727,7 @@ videos:
     members: CgIoTygQoY4
     published: 2025-04-14
   - bts: Who Wants to Be Jacob Wysocki?
+    dropout: behind-the-scenes-of-who-wants-to-be-jacob-wysocki
     members: id_ymrQNNtw
     published: 2025-08-04
   - episode: 710. Outvoted
@@ -6704,6 +6735,7 @@ videos:
     members: r1gxAM6IWis
     published: 2025-04-28
   - bts: Outvoted
+    dropout: behind-the-scenes-of-outvoted
     members: nc4Y-Z6enuw
     published: 2025-08-18
   - episode: 711. Samalamadingdong
@@ -6711,6 +6743,7 @@ videos:
     members: OxPaVj1pXVA
     published: 2025-05-12
   - bts: Samalamadingdong (Brennan's Revenge)
+    dropout: behind-the-scenes-of-samalamadingdong
     members: 6O3OlfthmJ0
     published: 2025-09-01
   - bts: Why I'm Leaving Dropout (Extended Cut)
@@ -6740,6 +6773,7 @@ videos:
     members: UQIKTuHaddQ
     published: 2026-05-18
   - bts: Don't Wake Standards & Practices
+    dropout: behind-the-scenes-of-don-t-wake-standards-practices
     members: 75TmeiEFdes
     published: 2026-05-25
   - episode: 802. Rulette 2
@@ -6747,6 +6781,7 @@ videos:
     members: qH2de47BKro
     published: 2026-06-01
   - bts: Rulette 2
+    dropout: behind-the-scenes-of-rulette-2
     members: XuH-y-T6Dgg
     published: 2026-06-08
   - episode: 803. Night Shift
@@ -6754,6 +6789,7 @@ videos:
     members: BpWAm6eLhM0
     published: 2026-06-15
   - bts: Night Shift
+    dropout: behind-the-scenes-of-night-shift
     members: aj9vViq0cvE
     published: 2026-06-22
   - episode: 804. Kangaroo Court
@@ -6761,6 +6797,7 @@ videos:
     members: ODgOM6C4nLs
     published: 2026-06-29
   - bts: Kangaroo Court
+    dropout: behind-the-scenes-of-kangaroo-court
     members: ZI8JvraAPg0
     published: 2026-07-06
   - episode: 805. Count the Rice
@@ -6768,6 +6805,7 @@ videos:
     members: 3l1sl9uNvdI
     published: 2026-07-13
   - bts: Count the Rice
+    dropout: behind-the-scenes-of-count-the-rice
     members: pV3w64IzsbE
     published: 2026-07-20
   - episode: 806. Noise Some Makes
@@ -6783,6 +6821,7 @@ videos:
     members: uAib-p8rkNg
     published: 2026-08-10
   - bts: Earwigs
+    dropout: behind-the-scenes-of-earwigs
     members: 2MMKAM9lMJw
     published: 2026-08-17
   - episode: 808. What's the Catch
@@ -7566,6 +7605,10 @@ videos:
     public: beCy18i1LX8
     public short: XmciPZKJ78A
     published: 2026-03-25
+  - bts: "Dimension 20: City Council of Darkness Game Mechanics Explainer"
+    dropout: dimension-20-city-council-of-darkness-game-mechanics-explainer
+    public: g9BFE1YsOZM
+    published: 2026-04-08
   - episode: 1. Mishaps, A Maw, and the Masquerade
     dropout: mishaps-a-maw-and-the-masquerade
     public: KW3erx7NBsA

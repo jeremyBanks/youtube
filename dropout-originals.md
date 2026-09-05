@@ -218,6 +218,13 @@ live on Patreon; YouTube has only promos for them. Excerpts are never curated,
 so there is nothing here to add — and, unlike before, we know why rather than
 merely failing to find it.
 
+What the data does **not** say is which season those clips come from. The
+descriptions name a Season 2 without dating it, and the fourth clip has no
+description at all, so whether this is the 2017 Dropout season being promoted
+out of an archive or a revival made for Patreon is not something we can tell
+from here. It does not change the outcome — a clip is an excerpt either way —
+but it should not be written down as though it were settled.
+
 **Toonout's "Wealwell's Guide to Reposed Standing" stays in Toonout only.** It
 animates a Cloudward, Ho! moment, and the rule for animated shorts would
 otherwise file it as an `animation:` inside that season as well. It is not

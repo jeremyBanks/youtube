@@ -2457,6 +2457,13 @@ videos:
   - episode: 001. The Official Cast Recording on Game Changer
     members: 6OG9JqD0goc
     published: 2021-12-27
+  # Not a precursor -- this aired after season 1, so it sits here out of
+  # date order deliberately, keeping both Game Changer crossovers together
+  # at the front rather than stranding one at the end of a season.
+  - episode: 002. A Game Most Changed on Game Changer
+    dropout: a-game-most-changed
+    members: WcepHeSHN2E
+    published: 2023-01-09
 
 ---
 
@@ -2482,10 +2489,6 @@ videos:
   - episode: 105. Space Rocks!
     members: dk5BdTfnq84
     published: 2022-11-09
-  - special: A Game Most Changed on Game Changer
-    dropout: a-game-most-changed
-    members: WcepHeSHN2E
-    published: 2023-01-09
 
 ---
 

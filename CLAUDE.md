@@ -192,11 +192,20 @@ Make Some Noise did until it was found to be claiming five seasons when it has
 four.
 
 **Later crossovers** are Game Changer episodes in the spin-off's format after it
-launched, so they are not precursors and must not sit at the front. They go in
-as a `special:` at their air date, inside whichever season doc precedes them —
-`Noise Some Makes on Game Changer` after the Make Some Noise season 4 finale,
-`A Game Most Changed on Game Changer` after Play It By Ear season 1. Playlist
-order is file order, so position in the file is what places them.
+launched, so they are not precursors. The default is to place one as a
+`special:` at its air date inside whichever season doc precedes it, which is
+where `Noise Some Makes on Game Changer` sits, after the Make Some Noise season
+4 finale.
+
+Play It By Ear is the exception, by choice:
+`A Game Most Changed on Game
+Changer` is numbered `002.` in the precursor doc
+rather than left at the end of season 1. It is out of date order there and that
+is the point — the show has exactly two Game Changer crossovers and keeping them
+together at the front reads better than stranding the second one behind a season
+finale. Do the same for another show only if asked; the default above is still
+the default. Playlist order is file order, so position in the file is what
+places them.
 
 Um, Actually's season-less doc is the same container used for a different
 reason: its nine pre-Dropout CollegeHumor episodes, which likewise should not

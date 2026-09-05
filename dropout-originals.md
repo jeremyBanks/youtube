@@ -150,15 +150,36 @@ Also published, once the quota reset the following day: Total Forgiveness
 (`PLAlJUqPWY0HI`), Kingpin Katie with its web series (`PLJSGOqilPCJA`), and
 Where in the Eff is Sarah Cincinnati (`PLZPDSrk5XDEA`).
 
-**Paranoia is curated but still unpublished**, and not for want of quota.
-`playlists.insert` has answered 429 `RATE_LIMIT_EXCEEDED` to fifteen consecutive
-attempts spread over about forty minutes, while the three creations interleaved
-with them succeeded and every read went through untouched. So it is not the
-daily unit budget. Whether it is a per-day cap on creating playlists that we are
-pushing against — fourteen in two days — or something about this particular
-request is not established, and finding out costs 50 units an attempt. It stays
-`[todo-paranoia]` in `config/aggregate.toml`; try again on a later day, when a
-first attempt succeeding or failing is itself the answer.
+**Paranoia is curated, and its playlist exists but is empty and private.**
+
+The sixteen consecutive 429s on `playlists.insert` looked request-specific,
+because three other playlists were created in the same window. They are not.
+Four controlled inserts settle it: the real title with a neutral description, a
+neutral title with the real description, and neutral/neutral all succeeded and
+were deleted again — but every one of those was created **private**, and a
+neutral, entirely innocuous **public** playlist fails with the same 429 while
+the identical private one succeeds immediately.
+
+So the limit is on public playlists, and Paranoia was only the one still queued
+when the day's allowance ran out; fourteen went out across two days. That the
+window is daily is inference from the fourteen-then-wall pattern rather than
+something tested.
+
+`PLTC6zTYElgZ4` is therefore created private, and `config/aggregate.toml` points
+at it. The limit covers transitions as well as creation: `playlists.
+update`
+flipping it private→public answers 429 too, and since that update comes before
+the entries are inserted, the playlist is still empty. One ordinary
+`deno task publish` on a later day does the rest — the flip and all fifteen
+entries — and needs no special handling.
+
+Reading it back at all required a fix. `playlistMetadata` and `playlistVideos`
+authenticated with the API key alone, which is enough for a public or unlisted
+playlist and is what lets `--dry-run` work without OAuth, but a key-only read of
+a **private** playlist you own returns zero items — indistinguishable from one
+that does not exist — and `only` throws on the empty iterator. Both now accept
+an optional `auth` and `updatePlaylist` passes its authenticated client's, so a
+dry run is unchanged and a real publish can see its own private playlists.
 
 Both of the questions this file used to leave open have been answered.
 
@@ -171,6 +192,6 @@ If it ever resurfaces somewhere we track, it can be added then.
 **Toonout's "Wealwell's Guide to Reposed Standing" stays in Toonout only.** It
 animates a Cloudward, Ho! moment, and the rule for animated shorts would
 otherwise file it as an `animation:` inside that season as well. It is not
-double-filed. **This is a decision about this one entry and not a general
-rule** — do not read it as settling how any other Toonout episode, or any other
+double-filed. **This is a decision about this one entry and not a general rule**
+— do not read it as settling how any other Toonout episode, or any other
 animation of a Dimension 20 moment, should be filed.

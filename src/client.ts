@@ -174,13 +174,28 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   })());
 };
 
-export async function playlistMetadata(playlistId: string) {
+/**
+ * Reads one playlist's metadata.
+ *
+ * `auth` is optional because the API key alone is enough for a public or
+ * unlisted playlist, which is what keeps `publish --dry-run` working without
+ * OAuth. It is not enough for a **private** playlist: a key-only read of one
+ * you own comes back with zero items, indistinguishable from a playlist that
+ * does not exist, and `only` then throws on the empty iterator. So a caller
+ * that already holds an authenticated client should pass it, and a caller that
+ * does not can still read everything public.
+ */
+export async function playlistMetadata(
+  playlistId: string,
+  auth?: googleapis.Auth.OAuth2Client,
+) {
   const { youtube, key } = await getClientAndKey();
 
   console.debug(`youtube.playlists.list...`);
   const response = await youtube.playlists.list({
     id: [playlistId],
     part: ["snippet", "contentDetails", "status"],
+    auth,
     key,
   });
 
@@ -189,6 +204,8 @@ export async function playlistMetadata(playlistId: string) {
 
 export async function* playlistVideos(playlistId: string, opts: {
   getDetails?: boolean;
+  /** See `playlistMetadata`: without this a private playlist reads as empty. */
+  auth?: googleapis.Auth.OAuth2Client;
 } = {}) {
   const { youtube, key } = await getClientAndKey();
 
@@ -199,6 +216,7 @@ export async function* playlistVideos(playlistId: string, opts: {
     const response = await youtube.playlistItems.list({
       playlistId,
       part: ["snippet", "contentDetails"],
+      auth: opts.auth,
       key,
       maxResults: 50,
       pageToken,
@@ -378,7 +396,7 @@ export async function updatePlaylist(
   const key = client?.key ?? (await getClientAndKey()).key;
 
   const existingMetadata = await retryWithBackoff(
-    () => playlistMetadata(playlistId),
+    () => playlistMetadata(playlistId, auth),
     {
       maxRetries: 4,
       initialDelayMs: 20000,
@@ -447,7 +465,7 @@ export async function updatePlaylist(
   // have followed it -- roughly 44,000 quota units to move one video, against a
   // budget of 10,000 a day. The same move costs one delete and one insert here.
   const live: Array<{ entryId: string; wanted: number }> = [];
-  for await (const { entry } of playlistVideos(playlistId)) {
+  for await (const { entry } of playlistVideos(playlistId, { auth })) {
     live.push({
       entryId: unwrap(entry.id),
       wanted: videoIds.indexOf(unwrap(entry.snippet?.resourceId?.videoId)),

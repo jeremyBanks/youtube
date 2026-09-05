@@ -596,6 +596,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Toonout, Dropout's anthology of animated shorts, each one made by a different creator. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLFncKS4ZP7lE]
+name = "The Rank Room (${ALL_SEASONS})"
+show = "The Rank Room"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of The Rank Room, the show in which comedians argue their way to a definitive ranking of things nobody has ever needed ranked. Begins with the four CollegeHumor episodes from 2018. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

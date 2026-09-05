@@ -7209,3 +7209,86 @@ videos:
   - episode: 12. Off the Reservation
     members: xSsmid74Lv4
     published: 2026-08-25
+
+---
+
+# The Rank Room ran as four CollegeHumor episodes in 2018 before Dropout took
+# it over in 2019. Precursor doc, no `season:` key, as always.
+
+show: The Rank Room
+videos:
+  - episode: 001. What Is the Sexiest Way to Die?
+    public: g1zjg7IeO9I
+    published: 2018-07-12
+  - episode: 002. What Is the Worst Way to Announce a Pregnancy?
+    public: MQYFIUdv5IY
+    published: 2018-08-11
+  - episode: 003. What Is the Best Way to Take Over the World?
+    public: fJCaVGpPZk4
+    published: 2018-09-28
+  - episode: 004. What's the Best Use of a Time Machine?
+    public: 4d5wstm3lDM
+    published: 2018-11-07
+
+---
+
+# Nine of the season 1 episodes also went up free at roughly half length --
+# 515 seconds against 1178, 555 against 1202. Those are cut-downs and stay out.
+# Episode 10 is the exception and is a genuine free release: 1148 seconds
+# against the members 1102.
+
+show: The Rank Room
+season: Season 1
+videos:
+  - episode: 1. What Is the Best Invention That Has Yet to Be Invented?
+    public: DYXEhEW-3mk
+    published: 2019-03-15
+  - episode: 2. What Is the Worst Marriage Proposal?
+    members: O5_gxJ3S0l8
+    published: 2019-09-06
+  - episode: 3. What Is the Coolest Accidental Death?
+    members: laW_xzh8-mA
+    published: 2019-09-17
+  - episode: 4. What Is the Best Thing to Find in a Treasure Chest?
+    members: e6r7D7tA-QU
+    published: 2019-09-17
+  - episode: 5. What Is the Worst Spell a Witch Could Curse You With?
+    members: F2fqL2WAkJg
+    published: 2019-09-17
+  - episode: 6. What Is the Worst Tattoo to Get?
+    members: E4cH61eE5ZA
+    published: 2019-09-17
+  - episode: 7. What Is the Coolest Way to Quit Your Job?
+    members: NN4x16R34pM
+    published: 2019-09-07
+  - episode: 8. What Is the Coolest Way to Murder Someone?
+    members: kiOcb5AvA9s
+    published: 2019-09-07
+  - episode: 9. What Is the Worst Way to Find Out You Were Cheated On?
+    members: hPwKyJbCISQ
+    published: 2019-09-17
+  - episode: 10. What Is the Best Funeral You Can Imagine?
+    public: YkbArlB1FYA
+    members: kmeHf0PgE5U
+    published: 2019-09-07
+  - episode: 11. What Is the Coolest Way to Break Out of Jail?
+    members: 0dj6vj9s-nk
+    published: 2019-09-07
+  - episode: 12. What Is the Best Way to Spend Lotto Money?
+    members: 7i2lCWDIIiY
+    published: 2019-09-17
+  - episode: 13. What Is the Best Way to Spend Your Last Day on Earth?
+    members: jJlmu9F9DNI
+    published: 2019-09-17
+  - episode: 14. What Is The Worst Reason For Getting Famous?
+    members: lYwfnht0Mjo
+    published: 2019-09-17
+  - episode: 15. What Is the Best Way to Improve the Body?
+    members: bzlFxWdznxM
+    published: 2019-09-17
+  - episode: 16. What Is the Coolest Family Secret?
+    members: QmEtv1Ha_4s
+    published: 2019-09-17
+  - bts: "The Rank Room: Behind the Scenes"
+    members: nOZRoM1HR-U
+    published: 2019-09-17

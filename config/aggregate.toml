@@ -558,7 +558,7 @@ ${D20_PLUG}
 name = "Fatal Decision (${ALL_SEASONS})"
 show = "Fatal Decision"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, in which Zach Reino plays an IT guy playing a special ops agent. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, in which Zach Reino plays an IT guy playing a special ops agent. Made in 2015 by CollegeHumor subsidiary Big Breakfast for Verizon's go90, and released on Dropout a decade later. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLH6ekJpxO8QE]

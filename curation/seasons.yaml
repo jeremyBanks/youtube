@@ -6747,3 +6747,80 @@ videos:
   - special: Brennan Creates a Tiny Pirate Shipwreck (Game Changer Clip)
     public: 5Thl6C9w83s
     published: 2020-02-28
+
+---
+
+# Ultramechatron Team Go! began as four CollegeHumor sketches in late 2018,
+# written by Mike Trapp, before Dropout expanded it into a full series a year
+# later. They go in a doc with no `season:` key, the way every precursor does,
+# so the show is not credited with a season it does not have. The sketch
+# descriptions name the robot outright -- "The torso pilot of Ultramechatron is
+# really important!" -- and carry the same cast.
+
+show: Ultramechatron Team Go!
+videos:
+  - episode: 001. The Torso Pilot
+    public: M2_IcT456xM
+    published: 2018-11-30
+  - episode: 002. What's Beeping in the Giant Robot?
+    public: J6XGHVJytmc
+    published: 2018-12-07
+  - episode: 003. Parking a Giant Robot is Hard
+    public: dn6JRF0X7xQ
+    published: 2018-12-14
+  - episode: 004. Subletting a Giant Robot
+    public: 0lDRiOQGWXs
+    published: 2018-12-21
+
+---
+
+show: Ultramechatron Team Go!
+season: Season 1
+videos:
+  - trailer: Ultramechatron Team Go! Trailer
+    members: gipk8HMglH0
+    published: 2019-09-25
+  - episode: 1. Ultramechatron Team Start!
+    dropout: ultramechatron-team-start
+    members: ME2tAseop9A
+    published: 2019-09-30
+  - trailer: Ultramechatron Team Go! Is Back
+    public: 9LHi8rg6-_0
+    published: 2019-10-03
+  - episode: 2. Ultramechatron Team Party!
+    members: yUHo6eEsDys
+    published: 2019-10-07
+  - episode: 3. Ultramechatron Team Punch!
+    members: 1QZrbvlrx9w
+    published: 2019-10-15
+  - episode: 4. Alter Mechatron Ego
+    members: wEStHSjBbsE
+    published: 2019-10-18
+  - episode: 5. Ultramechatron Team Drive!
+    members: Bzq7xe_9U7Y
+    published: 2019-10-29
+  - episode: 6. Ultramechatron Team Clone!
+    members: Yb20B9tAQeI
+    published: 2019-11-05
+  - episode: 7. Ultrawannabe Boshi Go!
+    members: Ybrk0NU4Kto
+    published: 2019-11-12
+  - episode: 8. Ultramechatron Team Love!
+    members: 3tDnXzJ0DKQ
+    published: 2019-11-18
+  - episode: 9. Galatax Go?
+    members: ZkgF8qunts8
+    published: 2019-11-19
+  - episode: 10. Ultramechatron Team Stop!
+    members: EgSGF_PgFeI
+    published: 2019-12-02
+  - episode: 11. Ultramechatron Team End!
+    members: NuynSOMMJ1c
+    published: 2019-12-09
+  - bts: Ultramechatron Team Go! Behind the Scenes
+    members: usT42-pvyKk
+    published: 2019-12-18
+  - bts: Ultramechatron Team Go! Bloopers
+    public: OZ9ZGGMaQm4
+    members: U6PqmjcrVaY
+    published: 2019-12-19

@@ -561,6 +561,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes of Fatal Decision, in which Zach Reino plays an IT guy playing a special ops agent. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLH6ekJpxO8QE]
+name = "Ultramechatron Team Go! (${ALL_SEASONS})"
+show = "Ultramechatron Team Go!"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Ultramechatron Team Go!, Mike Trapp's kaiju comedy about one giant robot and four giant idiots. Begins with the four CollegeHumor sketches from 2018 that the series grew out of. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

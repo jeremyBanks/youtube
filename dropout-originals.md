@@ -152,11 +152,17 @@ Eff is Sarah Cincinnati. Their playlists are still `[todo-...]` keys in
 `config/aggregate.toml` and need one `publish --create-missing` run once the
 quota resets. Creating a playlist and inserting an entry cost 50 units each.
 
-Outstanding:
+Both of the questions this file used to leave open have been answered.
 
-1. **Lonely and Horny** — not on watch.dropout.tv at all, and no episodes found
-   on YouTube either. It was pulled from Dropout in 2019 and appears to be
-   genuinely gone from both. Needs a look before it can be curated or written
-   off.
-2. Whether Toonout's "Wealwell's Guide to Reposed Standing" should also appear
-   as an `animation:` inside Dimension 20: Cloudward, Ho!, which it adapts.
+**Lonely and Horny is omitted.** It is a Jake and Amir show, and it is not on
+watch.dropout.tv, not on any channel we scan, and not in any playlist we have
+ever listed — a search across `data/` for the title returns nothing at all.
+There is nothing to curate, so it is left off rather than recorded as missing.
+If it ever resurfaces somewhere we track, it can be added then.
+
+**Toonout's "Wealwell's Guide to Reposed Standing" stays in Toonout only.** It
+animates a Cloudward, Ho! moment, and the rule for animated shorts would
+otherwise file it as an `animation:` inside that season as well. It is not
+double-filed. **This is a decision about this one entry and not a general
+rule** — do not read it as settling how any other Toonout episode, or any other
+animation of a Dimension 20 moment, should be filed.

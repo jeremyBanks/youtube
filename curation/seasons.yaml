@@ -6968,3 +6968,52 @@ videos:
   - episode: 6. Death By Space
     public: BA6pchSJwuY
     published: 2021-02-17
+
+---
+
+show: WTF 101
+season: Season 1
+videos:
+  - trailer: WTF 101 Sneak Preview
+    public: idBMYf397nA
+    published: 2019-01-08
+  - episode: 1. Parasites
+    dropout: parasites
+    public: 3aZVgyUlSng
+    published: 2019-01-15
+  - episode: 2. Self-Experimentation
+    members: Jf2MdnxRx4I
+    published: 2019-09-07
+  - episode: 3. Animal Sex
+    members: xuTUNbfxybE
+    published: 2019-09-07
+  - episode: 4. Abandoned Military Ops
+    members: ohsZ_OUdrf8
+    published: 2019-09-07
+  - episode: 5. Duels
+    members: Z9OmqIDN6EQ
+    published: 2019-09-07
+  - episode: 6. Cute Animals
+    members: rch09hhAlEo
+    published: 2019-09-07
+  - episode: 7. Party Fouls
+    members: OvZlyapO0T0
+    published: 2019-09-07
+  - episode: 8. Hoaxes and Scams
+    members: rxU0tm2N-CY
+    published: 2019-09-07
+  - episode: 9. Expeditions
+    members: dCBaRkDs-a4
+    published: 2019-09-07
+  - episode: 10. Crime and Punishment
+    members: b0rTG1Ug2Uc
+    published: 2019-09-07
+  # Dropout numbers this episode 12, but it is Jake Young interviewing a real
+  # ecologist rather than an episode of the cartoon, so it is an extra here --
+  # `episode:` would put it in the episodes-only playlists.
+  - bts: The Parasite You Probably Have
+    dropout: the-parasite-you-probably-have
+    public: kat_9n_AmEk
+    published: 2019-04-30
+  # Dropout's episode 11, "WTF 101: Behind the Scenes", has no YouTube upload
+  # at all -- it is one of the handful of things that exist only on Dropout.

@@ -575,6 +575,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Troopers, the workplace comedy set among the grunts of an evil galactic empire. Begins with the nineteen CollegeHumor sketches from 2011 to 2013, then the 2019 Dropout reboot, then the animated shorts. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLY0bFQp9Qm2o]
+name = "WTF 101 (${ALL_SEASONS})"
+show = "WTF 101"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of WTF 101, the animated series in which Professor Foxtrot drags a class of doomed teenagers through the worst facts nature has to offer. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

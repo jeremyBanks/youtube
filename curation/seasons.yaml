@@ -7361,3 +7361,32 @@ videos:
   - episode: 11. Fortress of the Hellwyrm
     members: y5SvdwLiPvI
     published: 2019-12-09
+
+---
+
+# Rekha Shankar's mockumentary about six revolutionary chefs. Dropout's episode
+# order is not the upload order: episode 1 went up on 2019-09-11 and the other
+# five on 2019-09-09, so the numbering here follows Dropout rather than YouTube.
+
+show: Gods of Food
+season: Season 1
+videos:
+  - episode: "1. Anthony D'Anthony: The Motherfu*king Cheese Mogul"
+    dropout: anthony-d-anthony-the-motherfu-king-cheese-mogul
+    members: tvP61mx0FZY
+    published: 2019-09-11
+  - episode: "2. Pak Jang-mi: A Nun, Not A Chef"
+    members: wNOAhIB0nqI
+    published: 2019-09-09
+  - episode: "3. Blynn: The Food Scientist"
+    members: tV9nkhaIOZM
+    published: 2019-09-09
+  - episode: "4. Giuseppe Greco: The Sad Baker"
+    members: JeKDg9CdqwQ
+    published: 2019-09-09
+  - episode: "5. Julia Splenderpoot: The Farm-to-Table Extremist"
+    members: ioIqW7TWq3o
+    published: 2019-09-09
+  - episode: "6. Laura Sepanowitz: The Passionate Tastemaker"
+    members: fQPE01RL3zg
+    published: 2019-09-09

@@ -610,6 +610,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes of TablePop, the tabletop show from Dorkly in which the cast plays a role-playing game built around whatever pop culture the guest brought with them. Most of the main run never reached YouTube and lives on Dropout only; the eleven-part MEGADUNGEON LIVE! is here in full. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLBU-AdygJmO4]
+name = "Gods of Food (${ALL_SEASONS})"
+show = "Gods of Food"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes of Gods of Food, Rekha Shankar's mockumentary in which six of the world's most revolutionary chefs explain, at length, what they are doing to dinner. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

@@ -4681,6 +4681,22 @@ videos:
 
 ---
 
+name:        Gods of Food (All Episodes and Extras)
+description: |-
+  1-hour playlist of 6 episodes of Gods of Food, Rekha Shankar's mockumentary in which six of the world's most revolutionary chefs explain, at length, what they are doing to dinner. All 6 videos require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/gods-of-food
+playlistId:  PLBU-AdygJmO4
+videos:
+  tvP61mx0FZY: 'Anthony D''Anthony: The Motherfu*king Cheese Mogul | Gods of Food | Ep. 1'
+  wNOAhIB0nqI: 'Pak Jang-mi: A Nun, Not A Chef | Gods of Food | Ep. 2'
+  tV9nkhaIOZM: 'Blynn: The Food Scientist | Gods of Food | Ep. 3'
+  JeKDg9CdqwQ: 'Giuseppe Greco: The Sad Baker | Gods of Food | Ep. 4'
+  ioIqW7TWq3o: 'Julia Splenderpoot: The Farm-to-Table Extremist | Gods of Food | Ep. 5'
+  fQPE01RL3zg: 'Laura Sepanowitz: The Passionate Tastemaker | Gods of Foods | Ep. 6'
+
+---
+
 name:        'Dropout: Unlisted Videos'
 description: |
   The 33 unlisted videos that Dropout's own playlists point at. YouTube hides these from the channel, from search and from the uploads feed, so they are reachable only by direct link; every one was found by reading the playlists rather than the channel.

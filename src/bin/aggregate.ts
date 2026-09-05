@@ -1,5 +1,10 @@
 import { upsert } from "../common.ts";
-import { getAggregateConfig, getSeasonsCuration } from "../config.ts";
+import {
+  getAggregateConfig,
+  getDropoutConfig,
+  getSeasonsCuration,
+} from "../config.ts";
+import { showPrefixes } from "../dropout-link.ts";
 import * as yaml from "../yaml.ts";
 import { normalizeTitle } from "../common.ts";
 import { DropoutCollection, DropoutEpisode } from "../storage.ts";
@@ -20,19 +25,35 @@ const DESCRIPTION_LIMIT = 5000;
 function withDropoutLinks(
   description: string,
   urls: Array<string>,
+  missing: Array<string> = [],
 ): string {
   // The templates end in a newline of their own; trim it so the links are
   // separated by exactly one blank line rather than two.
   const body = description.replace(/\s+$/, "");
-  let kept = [...urls];
-  while (kept.length) {
-    const combined = `${body}\n\n${kept.join("\n")}`;
-    if (combined.length <= DESCRIPTION_LIMIT) {
-      return combined;
+  // Whichever episodes a playlist cannot carry are named here, so that "Full
+  // Episodes" says what is absent instead of leaving a viewer to notice a gap
+  // and wonder whether it is an oversight. They are dropped before the
+  // collection links when the description will not fit, since a partial list
+  // of what is missing is worse than none: it reads as the whole of it.
+  let keptMissing = [...missing];
+  while (true) {
+    const tail = keptMissing.length
+      ? `\n\nNot on YouTube. Watch these on Dropout:\n${keptMissing.join("\n")}`
+      : "";
+    let kept = [...urls];
+    while (true) {
+      const combined = kept.length
+        ? `${body}\n\n${kept.join("\n")}${tail}`
+        : `${body}${tail}`;
+      if (combined.length <= DESCRIPTION_LIMIT) {
+        return combined;
+      }
+      if (!kept.length) break;
+      kept = kept.slice(0, -1);
     }
-    kept = kept.slice(0, -1);
+    if (!keptMissing.length) return description;
+    keptMissing = [];
   }
-  return description;
 }
 
 /** The subset of a curation entry needed to join it to Dropout's index. */
@@ -53,7 +74,7 @@ type CuratedEntry = {
  * promise the whole show.
  */
 /**
- * Whether this playlist can honestly call itself "All Episodes".
+ * The Dropout episodes this playlist does not carry.
  *
  * "All Episodes and Extras" used to be a fixed string, so it claimed both
  * halves whether or not either was true: the TablePop playlist carries 14 of
@@ -69,10 +90,12 @@ type CuratedEntry = {
  * all, and reading that silence as completeness is the same mistake as reading
  * an empty search result as proof a thing does not exist.
  */
-function coversEveryEpisode(
+function episodesMissingFrom(
   included: Array<CuratedEntry>,
   dropoutEpisodes: Array<DropoutEpisode>,
-): boolean {
+  prefixes: Array<string>,
+): Array<DropoutEpisode> | undefined {
+  if (!prefixes.length) return undefined;
   const slugs = new Set<string>();
   const titles = new Set<string>();
   for (const entry of included) {
@@ -81,7 +104,7 @@ function coversEveryEpisode(
       entry.bts ?? entry.animation;
     if (title) titles.add(normalizeTitle(title));
   }
-  if (!slugs.size) return false;
+  if (!slugs.size) return undefined;
 
   const byCollection = new Map<string, Array<DropoutEpisode>>();
   const touched = new Set<string>();
@@ -90,10 +113,20 @@ function coversEveryEpisode(
       ...(byCollection.get(episode.collection) ?? []),
       episode,
     ]);
-    if (slugs.has(episode.slug)) touched.add(episode.collection);
+    // Only collections belonging to this playlist's own show. A crossover
+    // entry links an episode of somebody else's show -- Crowd Control's
+    // precursor links Game Changer's `crowd-control` -- and without this the
+    // whole of Game Changer season 7 came into scope and counted as missing.
+    if (
+      slugs.has(episode.slug) &&
+      prefixes.some((p) => episode.collection.startsWith(p))
+    ) {
+      touched.add(episode.collection);
+    }
   }
-  if (!touched.size) return false;
+  if (!touched.size) return undefined;
 
+  const missing: Array<DropoutEpisode> = [];
   for (const collection of touched) {
     const episodes = byCollection.get(collection) ?? [];
     // Coverage cannot be judged against episodes whose titles we have never
@@ -103,11 +136,11 @@ function coversEveryEpisode(
       if (
         !slugs.has(episode.slug) && !titles.has(normalizeTitle(episode.title!))
       ) {
-        return false;
+        missing.push(episode);
       }
     }
   }
-  return true;
+  return missing;
 }
 
 function coveredCollectionUrls(
@@ -171,6 +204,7 @@ if (import.meta.main) {
 
 async function main() {
   const aggregateConfig = await getAggregateConfig();
+  const dropoutConfig = await getDropoutConfig();
 
   const seasons = await getSeasonsCuration();
 
@@ -204,6 +238,8 @@ async function main() {
       ),
     );
   }
+
+  const prefixesFor = showPrefixes(dropoutCollections, dropoutConfig.shows);
 
   const resolvedById = new Map(
     (await openResolvedVideoStorage())
@@ -382,9 +418,24 @@ async function main() {
     // whether or not either was true. "All" now requires that no episode of
     // the show is missing from the playlist, and "and Extras" requires at
     // least one extra that is not a trailer.
-    const completeness = `${
-      coversEveryEpisode(included, dropoutEpisodes) ? "All " : ""
-    }Episodes${bonusCount > 0 ? " and Extras" : ""}`;
+    // "All" is a claim about the episodes and nothing else, so "and Extras"
+    // is appended on its own terms. Where the claim cannot be made the
+    // playlist says "Full Episodes", which still distinguishes it from the
+    // clips channels -- the thing a viewer is actually asking when they look.
+    const missingEpisodes = episodesMissingFrom(
+      included,
+      dropoutEpisodes,
+      (config.shows ?? []).flatMap((show) => prefixesFor(show) ?? []),
+    );
+    // A playlist with no episodes at all claims nothing: Toylight is one
+    // trailer for a campaign that has not aired, and "Full Episodes" of
+    // nothing is worse than saying nothing. The empty parentheses the
+    // templates leave behind are cleaned up below.
+    const completeness = episodeCount === 0
+      ? ""
+      : `${
+        missingEpisodes && missingEpisodes.length === 0 ? "All" : "Full"
+      } Episodes${bonusCount > 0 ? " and Extras" : ""}`;
 
     const applyTemplates = (s: string) =>
       s.replaceAll(
@@ -421,6 +472,7 @@ async function main() {
         "${ALL_SEASONS}",
         completeness,
       )
+        .replaceAll(" ()", "")
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")
         .replaceAll(/\b1 Seasons\b/g, "1 Season")
@@ -435,6 +487,9 @@ async function main() {
       description: withDropoutLinks(
         applyTemplates(config.description ?? ""),
         coveredCollectionUrls(included, episodesByCollection),
+        (missingEpisodes ?? []).map((e) => e.url).filter((u): u is string =>
+          typeof u === "string"
+        ),
       ),
       playlistId: config.playlistId,
       unlisted: config.unlisted,

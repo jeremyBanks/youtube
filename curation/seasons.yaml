@@ -444,10 +444,12 @@ videos:
     members: FuCA0JgxFTc
     published: 2020-03-16
   - episode: 19. Spring Break! I Believe In You! (Part 1)
+    dropout: spring-break-i-believe-in-you-part-1
     public: 44Dmda_anto
     members: d43Hl6_hq24
     published: 2020-04-05
   - episode: 20. Spring Break! I Believe In You! (Part 2)
+    dropout: spring-break-i-believe-in-you-part-2
     public: MnJI_KQhkR8
     members: USDoNZ-Ygdc
     published: 2020-04-07
@@ -529,6 +531,7 @@ videos:
     members: mA7BlfOsYng
     published: 2020-04-08
   - bts: Are The Dice Scripted?
+    dropout: are-the-dice-scripted
     talkback: true
     members: PvM2yQ12t70
     published: 2020-04-12
@@ -537,6 +540,7 @@ videos:
     members: t8mO8UlfDho
     published: 2020-03-08
   - bts: For The Corn Cuties!
+    dropout: for-the-corn-cuties
     talkback: true
     members: 5qlemDfjl1U
     published: 2020-04-19
@@ -545,6 +549,7 @@ videos:
     members: rKXhP1mV5A8
     published: 2020-04-22
   - bts: Choices and Voices
+    dropout: choices-voices
     talkback: true
     members: mQN4hJ8IdWE
     published: 2020-04-28
@@ -558,6 +563,7 @@ videos:
     members: y6UJtVbY-Yw
     published: 2021-12-14
   - bts: Zac's Big Day
+    dropout: zac-s-big-day
     talkback: true
     members: 79WG3mN4AW4
     published: 2020-05-04
@@ -566,6 +572,7 @@ videos:
     members: 2AkMeUhcTT0
     published: 2020-05-05
   - bts: The Jeff Goldblum Episode
+    dropout: the-jeff-goldblum-episode
     talkback: true
     members: cQPiAC6vfhA
     published: 2020-05-09
@@ -574,6 +581,7 @@ videos:
     members: YpbxZ7CBTwU
     published: 2020-05-08
   - bts: Welcome to Denny's
+    dropout: welcome-to-denny-s
     talkback: true
     members: iJl_qUA-4gc
     published: 2020-05-26
@@ -582,6 +590,7 @@ videos:
     members: VRpIyUkeRY4
     published: 2020-05-15
   - bts: We've Got Ink On Our Hands
+    dropout: we-ve-got-ink-on-our-hands
     talkback: true
     members: BtONMuscCOQ
     published: 2020-05-21
@@ -590,6 +599,7 @@ videos:
     members: zjkhYwst2tE
     published: 2020-05-15
   - bts: War Crimes and Good Times
+    dropout: war-crimes-good-times
     talkback: true
     members: IZmvdLrmZTY
     published: 2020-05-30
@@ -603,10 +613,12 @@ videos:
     members: 4bJ3Hr5bi6s
     published: 2022-07-12
   - bts: Protest, Justice, and Black Lives Matter (Special Episode)
+    dropout: protest-justice-and-black-lives-matter-special-episode
     talkback: true
     members: "-F1oAsEWQ4Q"
     published: 2020-06-09
   - bts: "Slammed Down, Big-Style"
+    dropout: slammed-down-big-style
     talkback: true
     members: kZy0mmTLf_g
     published: 2020-06-13
@@ -615,6 +627,7 @@ videos:
     members: XMaGdEKIfiI
     published: 2020-05-29
   - bts: Soft Hugs
+    dropout: soft-hugs
     talkback: true
     members: wD8Gi-AUKkw
     published: 2020-06-23
@@ -623,6 +636,7 @@ videos:
     members: l-AUIcjoln4
     published: 2020-05-31
   - bts: "Twinned Down, Big Business-Style"
+    dropout: twinned-down-big-business-style
     talkback: true
     members: ZIP50ZxigK0
     published: 2020-06-30
@@ -631,6 +645,7 @@ videos:
     members: KbOetf8U6TY
     published: 2020-06-19
   - bts: Choppy Skullduggery
+    dropout: choppy-skullduggery
     talkback: true
     members: aYY-vGsxfMY
     published: 2020-07-04
@@ -639,6 +654,7 @@ videos:
     members: bSvcfWDgC7I
     published: 2020-06-30
   - bts: Dom or Be Dommed
+    dropout: dom-or-be-dommed
     talkback: true
     members: JN2QzaQcpSo
     published: 2020-07-13
@@ -647,6 +663,7 @@ videos:
     members: i9OczQ1vCvo
     published: 2020-06-23
   - bts: "Rude Goldberg and Eartha Crit, Explained"
+    dropout: rude-goldberg-and-eartha-crit-explained
     talkback: true
     members: jUcxLbad31I
     published: 2020-07-21
@@ -655,20 +672,25 @@ videos:
     members: u6nBCXfCUVE
     published: 2020-06-23
   - bts: I Stan The Protestant Work Ethic!
+    dropout: i-stan-the-protestant-work-ethic
     talkback: true
     members: intsLWmLjxE
     published: 2020-07-24
   - episode: 16. For Candia! (Part 1)
+    dropout: for-candia-part-1
     members: yPDSSCV02xc
     published: 2020-06-23
   - bts: "Burt From Ohio, Thankyousomuch"
+    dropout: burt-from-ohio-thankyousomuch
     talkback: true
     members: aqqNBb3-l5c
     published: 2020-07-31
   - episode: 17. For Candia! (Part 2)
+    dropout: for-candia-part-2
     members: he8QU5a9HfA
     published: 2020-06-27
   - bts: The Wild Childs
+    dropout: the-wild-childs
     talkback: true
     members: JqRJ4TEZmvs
     published: 2020-08-26
@@ -708,6 +730,7 @@ videos:
     members: VqTE22HU-1A
     published: 2020-10-05
   - bts: Look At All My Friends!
+    dropout: look-at-all-my-friends
     talkback: true
     members: GCBoHjAdyfo
     published: 2020-10-06
@@ -720,6 +743,7 @@ videos:
     members: SshOcZR5_Do
     published: 2020-10-20
   - bts: The Buccaneer Buddies Reunite
+    dropout: the-buccaneer-buddies-reunite
     talkback: true
     members: eP_uySY8X-o
     published: 2020-10-20
@@ -745,6 +769,7 @@ videos:
     members: mPHs6O1nMsk
     published: 2021-10-12
   - bts: A Ferry Special Episode
+    dropout: a-ferry-special-episode
     talkback: true
     members: 7r9nmTsdDG0
     published: 2020-11-17
@@ -753,6 +778,7 @@ videos:
     members: Zacas5bn0Y4
     published: 2020-11-17
   - bts: Bon Mots and Bánh Mìs
+    dropout: bon-mots-and-banh-mis
     talkback: true
     members: 0XNeKl5g76s
     published: 2020-11-21
@@ -765,6 +791,7 @@ videos:
     members: sM9t4jCeL_o
     published: 2020-12-01
   - bts: The Yellow M&M Is the Funniest Guy Alive
+    dropout: the-yellow-m-m-is-the-funniest-guy-ever
     talkback: true
     members: WYQXUDy8Lvo
     published: 2020-12-07
@@ -773,6 +800,7 @@ videos:
     members: gmU6DEXP4Q0
     published: 2020-12-01
   - bts: The Perfect Stack of Pancakes
+    dropout: the-perfect-stack-of-pancakes
     talkback: true
     members: adXrikFX-gE
     published: 2020-12-15
@@ -786,6 +814,7 @@ videos:
     members: xZu1uCAyU5A
     published: 2022-04-05
   - bts: The Person Among Muppets
+    dropout: the-person-among-muppets
     talkback: true
     members: FLBEATzIiE4
     published: 2020-12-21
@@ -798,6 +827,7 @@ videos:
     members: hdv8-A75yEc
     published: 2020-12-21
   - bts: Thinking About True Clowns
+    dropout: thinking-about-true-clowns
     talkback: true
     members: Crkmgrk2IGM
     published: 2021-01-03
@@ -806,6 +836,7 @@ videos:
     members: LW1MkDhYTog
     published: 2021-01-03
   - bts: Character Assassination
+    dropout: character-assassination
     talkback: true
     members: UO1PWvRFEm4
     published: 2021-01-12
@@ -814,6 +845,7 @@ videos:
     members: Kff_E0jrPxU
     published: 2020-12-21
   - bts: "#PrefluorideBoomers"
+    dropout: prefluorideboomers
     talkback: true
     members: XmXMMPXolVI
     published: 2021-01-19
@@ -822,6 +854,7 @@ videos:
     members: HmSG1F97z1A
     published: 2020-12-21
   - bts: The Bazathrax and Baby Podcast
+    dropout: the-bazathrax-and-baby-podcast
     talkback: true
     members: O196GrtdD2Q
     published: 2021-01-23
@@ -830,6 +863,7 @@ videos:
     members: VEiSV8faeU0
     published: 2021-01-20
   - bts: This Show is Not Frasier
+    dropout: this-show-is-not-frasier
     talkback: true
     members: PN0jB0fZX24
     published: 2021-01-30
@@ -838,6 +872,7 @@ videos:
     members: dKLW2EgEmEo
     published: 2021-01-23
   - bts: Referral Code ZACOYAMA40MILLION
+    dropout: referral-code-zacoyama40million
     talkback: true
     members: IH2CUIbYqK0
     published: 2021-02-09
@@ -846,6 +881,7 @@ videos:
     members: CfldRVNPXNk
     published: 2021-01-28
   - bts: Dog Singing and Flesh Papa
+    dropout: dog-singing-and-flesh-papa
     talkback: true
     members: 2skzm6ViAd4
     published: 2021-02-14
@@ -854,6 +890,7 @@ videos:
     members: aDvCAxLpJp0
     published: 2021-02-04
   - bts: Intrepid Bunnies
+    dropout: intrepid-bunnies
     talkback: true
     members: a7TWgWVOxyw
     published: 2021-02-20
@@ -862,24 +899,30 @@ videos:
     members: "-Ihu3sOYxGs"
     published: 2021-02-12
   - bts: The Lou Show
+    dropout: the-lou-show
     talkback: true
     members: vPZ9MYlSqcQ
     published: 2021-03-02
   - episode: 17. Two Sides of the Same Coin (Part 1)
+    dropout: two-sides-of-the-same-coin-part-1
     members: 6T6pUOq2br4
     published: 2021-02-20
   - bts: I Really Miss Smelling My Friends
+    dropout: i-really-miss-smelling-my-friends
     talkback: true
     members: BxG3LFihVMc
     published: 2021-03-07
   - episode: 18. Two Sides of the Same Coin (Part 2)
+    dropout: two-sides-of-the-same-coin-part-2
     members: 2CfxlgkapJE
     published: 2021-02-20
   - bts: "Cody, The Kids, and Lorne Michaels"
+    dropout: cody-the-kids-and-lorne-michaels
     talkback: true
     members: _C43rGbNSfs
     published: 2021-03-15
   - bts: Crew Edition
+    dropout: crew-edition
     talkback: true
     members: 6f5pfudBaGU
     published: 2021-03-22
@@ -901,6 +944,7 @@ videos:
     members: 3uUfFTNeSLg
     published: 2021-08-24
   - bts: "Say Hi, Sylvan Sleuths!"
+    dropout: say-hi-sylvan-sleuths
     talkback: true
     members: zj8F-GqWaIs
     published: 2021-04-07
@@ -914,6 +958,7 @@ videos:
     members: v79wbHZPqJM
     published: 2021-04-14
   - bts: Tisching All Over the Place
+    dropout: tisching-all-over-the-place
     talkback: true
     members: dswptEabsho
     published: 2021-04-12
@@ -922,6 +967,7 @@ videos:
     members: DAdOEaLlLqg
     published: 2021-04-21
   - bts: The Donkey Vibe
+    dropout: the-donkey-vibe
     talkback: true
     members: dV_ZSMANHnU
     published: 2021-04-12
@@ -930,6 +976,7 @@ videos:
     members: efUbyvvZ-KM
     published: 2021-04-21
   - bts: Masculine Fertile
+    dropout: masculine-fertile
     talkback: true
     members: rSR7Kedh5r8
     published: 2021-04-29
@@ -938,6 +985,7 @@ videos:
     members: oy75ccKpawE
     published: 2021-04-28
   - bts: She Already Happened
+    dropout: she-already-happened
     talkback: true
     members: Fwv7sCAKj7o
     published: 2021-05-05
@@ -946,6 +994,7 @@ videos:
     members: KLuAA_qeWRs
     published: 2021-04-28
   - bts: The Roll that Broke Brennan
+    dropout: the-roll-that-broke-brennan
     talkback: true
     members: yL1Jw3PrddQ
     published: 2021-05-05
@@ -954,6 +1003,7 @@ videos:
     members: X6K7qXawUuQ
     published: 2021-04-28
   - bts: The Kevin Bacon of Crime
+    dropout: the-kevin-bacon-of-crime
     talkback: true
     members: Qt9IWziXSq0
     published: 2021-05-18
@@ -962,6 +1012,7 @@ videos:
     members: 3WPs3tj9bl0
     published: 2021-05-16
   - bts: Fashion Show!
+    dropout: fashion-show
     talkback: true
     members: Lw2udFOdsSw
     published: 2021-05-20
@@ -970,6 +1021,7 @@ videos:
     members: siJ8N-FU-g4
     published: 2021-05-21
   - bts: Ass-Ass-I-Ate
+    dropout: ass-ass-i-ate
     talkback: true
     members: UUtXjkwLUKY
     published: 2021-05-26
@@ -978,10 +1030,12 @@ videos:
     members: eeyoMM9Rpt4
     published: 2021-05-16
   - bts: "Farewell, Sylvan Sleuths!"
+    dropout: farewell-sylvan-sleuths
     talkback: true
     members: HdKObIkyoA8
     published: 2021-06-04
   - bts: Behind-the-Screams (Crew Edition)
+    dropout: behind-the-screams-crew-edition
     talkback: true
     members: b80RlW1vZhc
     published: 2021-06-11
@@ -1025,6 +1079,7 @@ videos:
     members: HSV2WQnH_A0
     published: 2021-07-27
   - bts: Cluck If You Buck
+    dropout: in-a-room-with-people
     talkback: true
     members: RNNCvG3DDmI
     published: 2021-07-01
@@ -1033,6 +1088,7 @@ videos:
     members: Y5gw8bpe1Bc
     published: 2021-07-12
   - bts: True Facts About McDonald's Apple Pie
+    dropout: true-facts-about-mcdonald-s-apple-pie
     talkback: true
     members: oVEMU6j2ZPg
     published: 2021-07-06
@@ -1041,6 +1097,7 @@ videos:
     members: R3hq2zf55SE
     published: 2021-06-30
   - bts: Wet Fire (and Bad News Brooms)
+    dropout: wet-fire-and-bad-news-brooms
     talkback: true
     members: GfqePzMJoM4
     published: 2021-07-08
@@ -1059,10 +1116,12 @@ videos:
     members: 3RMIhKC-Dvk
     published: 2022-10-11
   - bts: That's the Squad
+    dropout: that-s-the-squad
     talkback: true
     members: qYVlar0YboE
     published: 2021-07-21
   - bts: Everybody Put Their Little Stank On It
+    dropout: everybody-put-their-little-stank-on-it
     talkback: true
     members: aYstKw4VHwQ
     published: 2021-07-29
@@ -1097,6 +1156,7 @@ videos:
     members: REYMCBoByAs
     published: 2021-09-21
   - bts: I've Never Been in a Campaign That Is Hornier
+    dropout: i-ve-never-been-in-a-campaign-that-is-hornier
     talkback: true
     members: pfbC-eFk9Tc
     published: 2021-09-03
@@ -1105,6 +1165,7 @@ videos:
     members: s1w3krwpU9Y
     published: 2021-08-24
   - bts: How Was This All One Episode
+    dropout: how-was-this-all-one-episode
     talkback: true
     members: yDV7xQYIdbc
     published: 2021-09-08
@@ -1113,6 +1174,7 @@ videos:
     members: 1I8te_xbk-M
     published: 2021-09-01
   - bts: Schrödinger's Double Slit
+    dropout: schrodinger-s-double-slit
     members: "-bh4EseQymY"
     published: 2021-09-08
   - episode: 4. Stone Temple Pile-Up
@@ -1120,6 +1182,7 @@ videos:
     members: xJVcO6QdZHo
     published: 2021-09-07
   - bts: Party Fowl
+    dropout: party-fowl
     talkback: true
     members: ACjCoEoUW1I
     published: 2021-09-10
@@ -1128,6 +1191,7 @@ videos:
     members: KYU-nznR5x4
     published: 2021-09-14
   - bts: Everybody's In Freaking Mirrors
+    dropout: everybody-s-in-freaking-mirrors
     talkback: true
     members: hUiAoZh2fkc
     published: 2021-09-14
@@ -1136,6 +1200,7 @@ videos:
     members: C4ZxnN7lTuo
     published: 2021-09-20
   - bts: "You Did a Murder, Girl"
+    dropout: you-did-a-murder-girl
     talkback: true
     members: zqS7qyr7cX4
     published: 2021-09-20
@@ -1144,6 +1209,7 @@ videos:
     members: tuDdqACkRp4
     published: 2021-09-27
   - bts: Booger Lee Mulligan
+    dropout: booger-lee-mulligan
     talkback: true
     members: fyLGKXmnkuo
     published: 2021-09-27
@@ -1152,6 +1218,7 @@ videos:
     members: Ya1LxpI0LbU
     published: 2021-10-05
   - bts: There Is Nothing These Women Cannot Do
+    dropout: there-is-nothing-these-women-cannot-do
     talkback: true
     members: azIQ9K5rt0E
     published: 2021-10-05
@@ -1160,6 +1227,7 @@ videos:
     members: jgxxwrybbNY
     published: 2021-10-12
   - bts: I Get This Insight Into How Your Nasty Little Mind Works
+    dropout: i-get-this-insight-into-how-your-nasty-little-mind-works
     talkback: true
     members: s0dDUvaCgRw
     published: 2021-10-12
@@ -1168,14 +1236,17 @@ videos:
     members: F3dJqK_MriE
     published: 2021-10-20
   - bts: The Ending of All Things
+    dropout: the-ending-of-all-things
     talkback: true
     members: cbydaI1LaIk
     published: 2021-10-20
   - bts: Have You Heard of This Thing Called Talespire?
+    dropout: have-you-heard-of-this-thing-called-talespire
     talkback: true
     members: TrQe-zniCpA
     published: 2021-10-26
   - bts: We All Felt Like It Was Therapy with Brennan During This Game
+    dropout: we-all-felt-like-it-was-therapy-with-brennan-during-this-game
     talkback: true
     members: UVDaRZssWzQ
     published: 2021-11-01
@@ -1195,6 +1266,7 @@ videos:
     members: JqMPN9_5OG8
     published: 2022-03-08
   - bts: I Pretended to be a Wolf for Awhile as a Child
+    dropout: i-pretended-to-be-a-wolf-for-awhile-as-a-child
     talkback: true
     members: hwZlEc2l4dM
     published: 2021-11-11
@@ -1203,6 +1275,7 @@ videos:
     members: jKYykMZpad0
     published: 2021-11-15
   - bts: Everyone Put a Finger Down If You Smelled a Chair
+    dropout: everyone-put-a-finger-down-if-you-smelled-a-chair
     talkback: true
     members: tEHj5v-mUtw
     published: 2021-11-18
@@ -1211,6 +1284,7 @@ videos:
     members: mZuaiaBIJyc
     published: 2021-11-20
   - bts: That's The Beauty of D&D
+    dropout: that-s-the-beauty-of-d-d
     talkback: true
     members: vujC_Uk_nSQ
     published: 2021-11-24
@@ -1219,6 +1293,7 @@ videos:
     members: yb169Rb3UPU
     published: 2021-11-26
   - bts: I Wish I Had Bitten More People
+    dropout: i-wish-i-had-bitten-more-people
     talkback: true
     members: OyVhJi7hr0g
     published: 2021-12-01
@@ -1238,9 +1313,11 @@ videos:
     members: QHI41pbr-VE
     published: 2021-12-18
   - bts: Starstruck Origins with Elaine Lee (Part 1)
+    dropout: starstruck-origins-with-elaine-lee-part-1
     members: Ai17lla31aU
     published: 2021-12-27
   - bts: Starstruck Origins with Elaine Lee (Part 2)
+    dropout: starstruck-origins-with-elaine-lee-part-2
     members: FfUHiMnkNoQ
     published: 2022-01-05
   - episode: '1. Welcome To The Spacin'' Life, Buddy'
@@ -1249,6 +1326,7 @@ videos:
     members: GK7Ud5sqinU
     published: 2022-01-25
   - bts: Our Tail Was Not Between Our Legs
+    dropout: our-tail-was-not-between-our-legs
     talkback: true
     members: QFqHarfv_w8
     published: 2022-01-11
@@ -1257,6 +1335,7 @@ videos:
     members: "-PXnJ25vgec"
     published: 2022-01-17
   - bts: Was That the Worst Social Interaction in D20 History?
+    dropout: was-that-the-worst-social-interaction-in-d20-history
     talkback: true
     members: qfF_IOKBSg8
     published: 2022-01-18
@@ -1265,6 +1344,7 @@ videos:
     members: 1aeZiZT9kjs
     published: 2022-01-25
   - bts: The Ball Continues Rolling Up
+    dropout: the-ball-continues-rolling-up
     talkback: true
     members: UdXqBE0E-R0
     published: 2022-01-26
@@ -1273,6 +1353,7 @@ videos:
     members: 3rV-tm8OiOU
     published: 2022-02-01
   - bts: "The Chaos, the Chaos of this Episode"
+    dropout: the-chaos-the-chaos-of-this-episode
     talkback: true
     members: 4ZIVGsbsET0
     published: 2022-02-01
@@ -1281,6 +1362,7 @@ videos:
     members: iiEf2E1kIOM
     published: 2022-02-09
   - bts: "To Me, This Is A Perfect Battle"
+    dropout: to-me-this-is-a-perfect-battle
     talkback: true
     members: 5Qr-l3WM_eQ
     published: 2022-02-07
@@ -1289,6 +1371,7 @@ videos:
     members: XsFcJ8eD9j0
     published: 2022-02-15
   - bts: Hot Dog Wrapped in Ham
+    dropout: hot-dog-wrapped-in-ham
     talkback: true
     members: AywIm9xP30g
     published: 2022-02-08
@@ -1297,6 +1380,7 @@ videos:
     members: a5Uamf-JeW4
     published: 2022-02-23
   - bts: We've Never Not Hot Exited
+    dropout: we-ve-never-not-hot-exited
     talkback: true
     members: dx7EhwzpAAk
     published: 2022-02-22
@@ -1314,6 +1398,7 @@ videos:
     members: 4We1ITzYonE
     published: 2022-06-07
   - bts: "Cool, This Is Not Going to Go According to Plan"
+    dropout: cool-this-is-not-going-to-go-according-to-plan
     talkback: true
     members: cmoj-_F0Jag
     published: 2022-03-02
@@ -1322,6 +1407,7 @@ videos:
     members: FaRQeh41ThQ
     published: 2022-03-08
   - bts: No Heroes
+    dropout: no-heroes
     talkback: true
     members: TH7Iypj5cUs
     published: 2022-03-09
@@ -1330,6 +1416,7 @@ videos:
     members: EH3zr_EJfA4
     published: 2022-03-09
   - bts: That's When the Slapping and Kissing Starts
+    dropout: that-s-when-the-slapping-and-kissing-starts
     talkback: true
     members: KQ7Z1Hr_krc
     published: 2022-03-15
@@ -1343,6 +1430,7 @@ videos:
     members: L8_hld6RW6s
     published: 2022-08-09
   - bts: Randomness Lets Something Amazing Happen
+    dropout: randomness-lets-something-amazing-happen
     talkback: true
     members: b6NS8Y7Jxks
     published: 2022-03-23
@@ -1351,6 +1439,7 @@ videos:
     members: "-wtoiSfr_FU"
     published: 2022-03-30
   - bts: Prelude to the Tight Pony Episode
+    dropout: developing-pieces
     talkback: true
     members: iwAuC38xNIk
     published: 2022-03-29
@@ -1359,6 +1448,7 @@ videos:
     members: sqwSnG0o2es
     published: 2022-03-24
   - bts: Riva Más Vegas
+    dropout: riva-mas-vegas
     talkback: true
     members: eWePbnhli4E
     published: 2022-04-04
@@ -1367,6 +1457,7 @@ videos:
     members: E2i_AQ1vO-Q
     published: 2022-04-12
   - bts: Life After Debt
+    dropout: life-after-debt
     members: "-ak0NiTE9js"
     published: 2022-04-11
   - episode: 15. Face to Face
@@ -1374,6 +1465,7 @@ videos:
     members: nSqi34msqg0
     published: 2022-04-15
   - bts: Snake Eyes
+    dropout: snake-eyes
     talkback: true
     members: NCIps1gDGWQ
     published: 2022-04-12
@@ -1382,24 +1474,30 @@ videos:
     members: jCR9JfQo2hE
     published: 2022-04-15
   - bts: Plug's Butt Ugly Podcast
+    dropout: plug-s-butt-ugly-podcast
     talkback: true
     members: QRnkGR4NLqk
     published: 2022-04-12
   - episode: "17. The Luckless, the Abandoned, and the Forsaked (Part 1)"
+    dropout: the-luckless-the-abandoned-and-the-forsaked-part-1
     members: NxJi-1GLa4E
     published: 2022-05-02
   - bts: Prilbus!
+    dropout: prilbus
     talkback: true
     members: AnNV1XNMli4
     published: 2022-05-02
   - episode: "18. The Luckless, the Abandoned, and the Forsaked (Part 2)"
+    dropout: the-luckless-the-abandoned-and-the-forsaked-part-2
     members: renBy5RQG4I
     published: 2022-05-10
   - bts: "From Running to Ramming, The Wurst Story"
+    dropout: from-running-to-ramming-the-wurst-story
     talkback: true
     members: 2aae_QSoFJU
     published: 2022-05-11
   - bts: No Middle Sliders
+    dropout: no-middle-sliders
     talkback: true
     members: Wxraddz_7Ds
     published: 2022-05-16
@@ -1636,6 +1734,7 @@ videos:
     members: QqkAroaBBAI
     published: 2022-06-28
   - bts: All You Need Is Stab
+    dropout: all-you-need-is-stab
     talkback: true
     members: RJR5vc8h82g
     published: 2022-06-07
@@ -1644,6 +1743,7 @@ videos:
     members: EE_8AOsWwO4
     published: 2022-06-15
   - bts: Bat Shit Mountain
+    dropout: bat-shit-mountain
     talkback: true
     members: tm0qNcOb2P0
     published: 2022-06-16
@@ -1652,6 +1752,7 @@ videos:
     members: JMEu5WUzCnE
     published: 2022-06-22
   - bts: Trope Queen
+    dropout: trope-queen
     talkback: true
     members: qVUk9C4ANo0
     published: 2022-06-23
@@ -1660,6 +1761,7 @@ videos:
     members: pUSMYzMBI5c
     published: 2022-06-29
   - bts: Werewolf Sex
+    dropout: werewolf-sex
     talkback: true
     members: YjhKcQ2h-u8
     published: 2022-06-30
@@ -1668,6 +1770,7 @@ videos:
     members: U9yOg46ZJjc
     published: 2022-07-06
   - bts: "Hideo Kojima Mind, Activate!"
+    dropout: hideo-kojima-mind-activate
     talkback: true
     members: ZH8c3zvpz64
     published: 2022-07-07
@@ -1676,10 +1779,12 @@ videos:
     members: KXzcNhs8w18
     published: 2022-07-13
   - bts: Let's Do Shots!
+    dropout: let-s-do-shots
     talkback: true
     members: KpKBuGy4jog
     published: 2022-07-14
   - bts: Butthole Incorporated
+    dropout: butthole-incorporated
     talkback: true
     members: uxf1mXa1C90
     published: 2022-07-21
@@ -1704,6 +1809,7 @@ videos:
     members: pfufHGSaBkY
     published: 2022-12-27
   - bts: I Demand Satisfaction
+    dropout: i-demand-satisfaction
     talkback: true
     members: 2l8WRPN8Ij8
     published: 2022-08-04
@@ -1712,6 +1818,7 @@ videos:
     members: fGonw_1q3hk
     published: 2022-08-10
   - bts: A Diamond Doesn't Know They're a Diamond
+    dropout: a-diamond-doesn-t-know-they-re-a-diamond
     talkback: true
     members: VKTumIJwhhU
     published: 2022-08-11
@@ -1720,6 +1827,7 @@ videos:
     members: P3Vn60Z-WS4
     published: 2022-08-17
   - bts: Was Your Father a Meat Burglar?
+    dropout: was-your-father-a-meat-burglar
     talkback: true
     members: yDkATMJHuX0
     published: 2022-08-18
@@ -1728,6 +1836,7 @@ videos:
     members: bwr69Oj-nLM
     published: 2022-08-24
   - bts: Not Too Bad For a Kid Who Used to Lick Walls
+    dropout: not-too-bad-for-a-kid-who-used-to-lick-walls
     talkback: true
     members: pZZHDASgrMs
     published: 2022-08-25
@@ -1736,6 +1845,7 @@ videos:
     members: MnwPwum3FIU
     published: 2022-08-31
   - bts: Trinkets For Everybody
+    dropout: trinkets-for-everybody
     talkback: true
     members: 4k4rczmqQYI
     published: 2022-09-01
@@ -1744,6 +1854,7 @@ videos:
     members: 0nsDWuL3Sm4
     published: 2022-09-07
   - bts: Knickolas Pterodactyl Hob
+    dropout: knickolas-pterodactyl-hob
     talkback: true
     members: LzmDM0SQfm0
     published: 2022-09-08
@@ -1752,6 +1863,7 @@ videos:
     members: Ggn0IfRUZOM
     published: 2022-09-14
   - bts: A Spill of Pearls
+    dropout: a-spill-of-pearls
     talkback: true
     members: jqhDptZ2y9c
     published: 2022-09-15
@@ -1760,6 +1872,7 @@ videos:
     members: HgTqinh73kE
     published: 2022-09-21
   - bts: Doctor Green Hunter
+    dropout: doctor-green-hunter
     talkback: true
     members: 98n8C8f8CU0
     published: 2022-09-22
@@ -1768,6 +1881,7 @@ videos:
     members: Hfd5lRmT6pM
     published: 2022-09-28
   - bts: Do Clothes Die?
+    dropout: do-clothes-die
     talkback: true
     members: VMnLAqhqMIA
     published: 2022-09-29
@@ -1776,10 +1890,12 @@ videos:
     members: AJG4IqC0Ivw
     published: 2022-10-05
   - bts: Schrödinger's Canon
+    dropout: schrodinger-s-canon
     talkback: true
     members: k39f1gBpeEk
     published: 2022-10-06
   - bts: The Wish Factory
+    dropout: the-wish-factory
     talkback: true
     members: uHJ0ejs57q8
     published: 2022-10-13
@@ -1803,6 +1919,7 @@ videos:
     members: 0_RiOyVMOCE
     published: 2022-11-30
   - bts: "Royals, Scamps, and Townies"
+    dropout: royals-scamps-and-townies
     talkback: true
     members: SAiHzPimhC0
     published: 2022-12-01
@@ -1811,6 +1928,7 @@ videos:
     members: 9sjFyMxZ8-U
     published: 2022-12-07
   - bts: Mrs. Potts Will Not Be Appearing
+    dropout: mrs-potts-will-not-be-appearing
     talkback: true
     members: tKZS-b82TxE
     published: 2022-12-08
@@ -1819,6 +1937,7 @@ videos:
     members: jPlOR1EBGqA
     published: 2022-12-15
   - bts: You Got Episode Three'd
+    dropout: you-got-episode-three-d
     talkback: true
     members: erZWVbM93tQ
     published: 2022-12-15
@@ -1827,6 +1946,7 @@ videos:
     members: DxKgpGDUBAQ
     published: 2022-12-21
   - bts: Psychopomp and Circumstance
+    dropout: psychopomp-and-circumstance
     talkback: true
     members: pnw6pEzv9Nw
     published: 2022-12-22
@@ -1835,6 +1955,7 @@ videos:
     members: ViTCCW6PGxw
     published: 2022-12-28
   - bts: Gatorade Shampoo
+    dropout: gatorade-shampoo
     talkback: true
     members: b_ff-DmctUA
     published: 2022-12-29
@@ -1843,6 +1964,7 @@ videos:
     members: bErTB5lb7EE
     published: 2023-01-04
   - bts: The Fable of the Frog and the Scorpion
+    dropout: the-fable-of-the-frog-and-the-scorpion
     talkback: true
     members: SOD-hPwHj8M
     published: 2023-01-05
@@ -1851,6 +1973,7 @@ videos:
     members: fNEG6bIc2wA
     published: 2023-01-11
   - bts: The Nat Honey (AKA The A-crit-stant)
+    dropout: the-nat-honey-aka-the-a-crit-stant
     talkback: true
     members: OyQKEyeSVJw
     published: 2023-01-12
@@ -1859,6 +1982,7 @@ videos:
     members: FglHink-o9s
     published: 2023-01-18
   - bts: Big Zoom Energy
+    dropout: big-zoom-energy
     talkback: true
     members: OwDCmQNz38k
     published: 2023-01-19
@@ -1867,6 +1991,7 @@ videos:
     members: P4zzJzFxr0g
     published: 2023-01-25
   - bts: I Bet You're Wondering How We Got Into This Mess...
+    dropout: i-bet-you-re-wondering-how-we-got-into-this-mess
     talkback: true
     members: JYdmjZOrdpg
     published: 2023-01-26
@@ -1875,6 +2000,7 @@ videos:
     members: _S5rrZf3OEY
     published: 2023-02-01
   - bts: We'll See You in the Soup
+    dropout: we-ll-see-you-in-the-soup
     talkback: true
     members: 7spfFOYKtVc
     published: 2023-02-02
@@ -1883,6 +2009,7 @@ videos:
     members: JEI9h_CgRZ8
     published: 2023-02-08
   - bts: The Bánh Mì Debt
+    dropout: the-banh-mi-debt
     talkback: true
     members: IHnFNTsVUuI
     published: 2023-02-09
@@ -1891,6 +2018,7 @@ videos:
     members: gNJeX0Akhk0
     published: 2023-02-15
   - bts: One Un-Donkey Hot Dog
+    dropout: one-un-donkey-hot-dog
     talkback: true
     members: Bd_HJnOcIwY
     published: 2023-02-16
@@ -1908,6 +2036,7 @@ videos:
     members: 6ZBHwl9vsck
     published: 2023-03-01
   - bts: D-Fuckin'-W
+    dropout: d-fuckin-w
     talkback: true
     members: ZysdG4JKUZw
     published: 2023-03-02
@@ -1916,6 +2045,7 @@ videos:
     members: LkFCU39jr44
     published: 2023-03-08
   - bts: They Might Be Giants
+    dropout: they-might-be-giants
     talkback: true
     members: suJdAuyJGtA
     published: 2023-03-09
@@ -1924,6 +2054,7 @@ videos:
     members: zXM4SPVz9w8
     published: 2023-03-15
   - bts: "Save the Goose, Save the World"
+    dropout: save-the-goose-save-the-world
     talkback: true
     members: 5hRA8HM1Guk
     published: 2023-03-16
@@ -1932,6 +2063,7 @@ videos:
     members: a5V4LiFWQQI
     published: 2023-03-22
   - bts: Big Aslan Energy
+    dropout: big-aslan-energy
     talkback: true
     members: 1iWVJh8n6Bg
     published: 2023-03-23
@@ -1940,24 +2072,30 @@ videos:
     members: txSRxktXbjo
     published: 2023-03-29
   - bts: It Happened
+    dropout: it-happened
     talkback: true
     members: DJjkSQim2K0
     published: 2023-03-30
   - episode: 19. The Ending of All Things (Part 1)
+    dropout: the-ending-of-all-things-part-1
     members: 4_ZGJc5ZwPQ
     published: 2023-04-05
   - bts: The Orange Fairy in the Top Hat
+    dropout: the-orange-fairy-in-the-top-hat
     talkback: true
     members: AcOJNR4wlqw
     published: 2023-04-06
   - episode: 20. The Ending of All Things (Part 2)
+    dropout: the-ending-of-all-things-part-2
     members: rW7KlrvS6qY
     published: 2023-04-12
   - bts: Three Cheers for Jesse Harron
+    dropout: three-cheers-for-jesse-harron
     talkback: true
     members: Y0LtM5baLUA
     published: 2023-04-13
   - bts: The Stories Behind the Stories
+    dropout: the-stories-behind-the-stories
     talkback: true
     members: HsoEUyIC8aA
     published: 2023-04-20
@@ -1983,6 +2121,7 @@ videos:
     members: uWrJuBNjnZA
     published: 2023-05-10
   - bts: That's War Baby
+    dropout: that-s-war-baby
     talkback: true
     members: uN50ixe-BQ0
     published: 2023-05-11
@@ -1991,6 +2130,7 @@ videos:
     members: O9G-tVBO3Cw
     published: 2023-05-17
   - bts: A Fun Dark Seed
+    dropout: a-fun-dark-seed
     talkback: true
     members: KdfjVw5WYmc
     published: 2023-05-18
@@ -1999,6 +2139,7 @@ videos:
     members: bw0-RfAq7d4
     published: 2023-05-24
   - bts: On the Glucian Road
+    dropout: on-the-glucian-road
     talkback: true
     members: GU5yZsBG_B4
     published: 2023-05-25
@@ -2007,6 +2148,7 @@ videos:
     members: F97JEYPFE5I
     published: 2023-05-31
   - bts: The Mystic River Episode
+    dropout: the-mystic-river-episode
     talkback: true
     members: 6-bcVOVwXao
     published: 2023-06-01
@@ -2015,6 +2157,7 @@ videos:
     members: RbG2v-cWFdU
     published: 2023-06-07
   - bts: Deep in It
+    dropout: deep-in-it
     talkback: true
     members: hadO-IKiSGw
     published: 2023-06-08
@@ -2023,6 +2166,7 @@ videos:
     members: 8yqzTFQ2FjA
     published: 2023-06-14
   - bts: Let's Make Mouth Sounds Together
+    dropout: let-s-make-mouth-sounds-together
     talkback: true
     members: qT6uK0SbtdI
     published: 2023-06-15
@@ -2035,6 +2179,7 @@ videos:
     members: ZuQbPO9XREs
     published: 2023-06-21
   - bts: A Little More Throat Wattle
+    dropout: a-little-more-throat-wattle
     talkback: true
     members: qGaoLhCZPew
     published: 2023-06-22
@@ -2064,6 +2209,7 @@ videos:
     removed members: 1gq-iJ8eerY
     published: 2023-06-28
   - bts: The Illuminati Invented Sandwiches
+    dropout: the-illuminati-invented-sandwiches
     talkback: true
     members: qEzV08PmGEQ
     published: 2023-06-29
@@ -2073,6 +2219,7 @@ videos:
     removed members: 37vlzMCTfdg
     published: 2023-07-05
   - bts: The Bloods and the Crypts
+    dropout: the-bloods-and-the-crypts
     talkback: true
     members: J48329Pa-1c
     published: 2023-07-06
@@ -2082,6 +2229,7 @@ videos:
     removed members: OrAxFXlvKqc
     published: 2023-07-12
   - bts: The Dice Tell the Story
+    dropout: the-dice-tell-the-story
     talkback: true
     members: uK4yu48EKa8
     published: 2023-07-13
@@ -2091,6 +2239,7 @@ videos:
     removed members: RT6XwcsQ3Tc
     published: 2023-07-19
   - bts: The Gaming Super Bowl
+    dropout: the-gaming-super-bowl
     talkback: true
     members: LDx-pSIAQbw
     published: 2023-07-20
@@ -2125,6 +2274,7 @@ videos:
     removed members: EYun__yyYnI
     published: 2023-08-09
   - bts: Key Lime Pie is a Marketing Invention
+    dropout: key-lime-pie-is-a-marketing-invention
     talkback: true
     members: 12-Dxx-UqIs
     published: 2023-08-10
@@ -2133,6 +2283,7 @@ videos:
     members: 9T0n9WhLof0
     published: 2023-08-16
   - bts: In Space No One Can Hear You Cream
+    dropout: in-space-no-one-can-hear-you-cream
     talkback: true
     members: rDwOmPT9OO0
     published: 2023-08-17
@@ -2142,6 +2293,7 @@ videos:
     removed members: A8VGgGd1zio
     published: 2023-08-23
   - bts: We Are Feeling Machines That Think
+    dropout: we-are-feeling-machines-that-think
     talkback: true
     members: ssw1eJhbEAk
     published: 2023-08-24
@@ -2150,6 +2302,7 @@ videos:
     members: slt1R0kjo1M
     published: 2023-08-30
   - bts: A Random Sequence of Events
+    dropout: a-random-sequence-of-events
     talkback: true
     members: wSYhoqYOXto
     published: 2023-08-31
@@ -2158,6 +2311,7 @@ videos:
     members: 4EnkvrPvT-w
     published: 2023-09-06
   - bts: You Must Know What You Don't Know
+    dropout: you-must-know-what-you-don-t-know
     talkback: true
     members: seSxC5c-vj4
     published: 2023-09-07
@@ -2166,6 +2320,7 @@ videos:
     members: e_AudUzv2-U
     published: 2023-09-13
   - bts: Bit City USA
+    dropout: bit-city-usa
     members: RQSyTzmsavs
     published: 2023-09-14
   - external: Hank Green Describes The Worst Part About Being on Dimension 20
@@ -2189,6 +2344,7 @@ videos:
     members: xWQP8OFz1u4
     published: 2023-10-04
   - bts: Stoatal Recall
+    dropout: stoatal-recall
     talkback: true
     members: __95s5BbD6c
     published: 2023-10-05
@@ -2197,6 +2353,7 @@ videos:
     members: Ekkmg0keqW4
     published: 2023-10-11
   - bts: Does a Bear Get Eaten Out in the Woods?
+    dropout: does-a-bear-get-eaten-out-in-the-woods
     talkback: true
     members: TpmvXBXLoK4
     published: 2023-10-12
@@ -2205,6 +2362,7 @@ videos:
     members: hKJGSvj_bMM
     published: 2023-10-18
   - bts: I'm Here and I'm Jaysohn
+    dropout: i-m-here-and-i-m-jaysohn
     talkback: true
     members: bj-OWNWpwCc
     published: 2023-10-19
@@ -2213,6 +2371,7 @@ videos:
     members: Trx1K8LROM0
     published: 2023-10-25
   - bts: The Bast of Us
+    dropout: the-bast-of-us
     talkback: true
     members: HjwyW-X-xrc
     published: 2023-10-26
@@ -2221,6 +2380,7 @@ videos:
     members: FWSyKvrVftE
     published: 2023-11-01
   - bts: Big Emotions Are So Fun
+    dropout: big-emotions-are-so-fun
     talkback: true
     members: iFXiCI-xJS4
     published: 2023-11-02
@@ -2229,6 +2389,7 @@ videos:
     members: ZVjtIahKad8
     published: 2023-11-09
   - bts: The Burrito Was Achieved
+    dropout: the-burrito-was-achieved
     talkback: true
     members: GjgCSSvEWj4
     published: 2023-11-10
@@ -2237,6 +2398,7 @@ videos:
     members: 9aQijw4k_bk
     published: 2023-11-16
   - bts: If I Had a Nickel
+    dropout: if-i-had-a-nickel
     talkback: true
     members: Opwo3LLBXvk
     published: 2023-11-17
@@ -2245,6 +2407,7 @@ videos:
     members: QPno3TJhmYE
     published: 2023-11-23
   - bts: Everything, Every Stoat, All at Once
+    dropout: everything-every-stoat-all-at-once
     members: "-Ao9xTYjfq4"
     published: 2023-11-24
   - episode: 9. Human
@@ -2252,6 +2415,7 @@ videos:
     members: "-qTz8zpVnvw"
     published: 2023-11-30
   - bts: Hey Girl Hey
+    dropout: hey-girl-hey
     talkback: true
     members: BMxXKR-0X-0
     published: 2023-12-01
@@ -2260,6 +2424,7 @@ videos:
     members: qDqllcQxBq4
     published: 2023-12-07
   - bts: Welcome to the Honk Honk Club
+    dropout: welcome-to-the-honk-honk-club
     talkback: true
     members: umQn1zG_wD4
     published: 2023-12-08
@@ -2444,9 +2609,11 @@ videos:
     members: Ahorp8BXZS0
     published: 2022-02-07
   - episode: "409. Survivor: Part 1"
+    dropout: survivor-part-1
     members: c0vQCKlHxsk
     published: 2022-02-21
   - episode: "410. Survivor: Part 2"
+    dropout: survivor-part-2
     members: ucEAVapSHK4
     published: 2022-03-07
   - episode: "411. Game Changer Season 4: Cut For Time"
@@ -2608,9 +2775,11 @@ videos:
     public copy: GpdjOZQRlhE
     published: 2024-05-27
   - episode: 608. Ratfish (Part 1)
+    dropout: ratfish-part-1
     members: Cpl01AVXYTI
     published: 2024-06-03
   - episode: 609. Ratfish (Part 2)
+    dropout: ratfish-part-2
     members: 4u78DVLEnvw
     published: 2024-06-17
   - bts: Ratfish
@@ -3017,10 +3186,12 @@ videos:
     members: tybKiEvVIco
     published: 2019-02-07
   - episode: "123. Mortal Kombat,Element Stones, The Matrix: Reloaded"
+    dropout: mortal-kombat-element-stones-the-matrix-reloaded
     public: reyJ57SIHhs
     members: "-4Q7dgLxSgg"
     published: 2019-02-21
   - episode: "124. Jabberwocky,Gelatinous Cubes, Magic: the Gathering"
+    dropout: jabberwocky-gelatinous-cubes-magic-the-gathering
     public: T4p7i6W3XRI
     members: NsBj3uKX6lA
     published: 2019-03-07
@@ -3045,6 +3216,7 @@ videos:
     members: p7DMY2Uwse0
     published: 2019-04-04
   - episode: 129. Bob's Burgers,Logan's Run (Fans vs. Faves Pt. 1)
+    dropout: bob-s-burgers-logan-s-run-fans-vs-faves-pt-1
     public: _9BAc8SffUI
     members: YKI8rj7PfrQ
     published: 2019-05-24
@@ -3081,6 +3253,7 @@ videos:
     members: 3VDoedv3J6U
     published: 2019-07-19
   - episode: 202. A Very Special TV Themed Episode
+    dropout: a-very-special-tv-themed-episode
     public: bd8-sUQzb7w
     members: I4g4OhcP6sg
     published: 2019-07-26
@@ -3835,16 +4008,20 @@ videos:
     public: 63tcD2_hhHU
     published: 2019-07-10
   - episode: 115. Introducing Horror to a Game (with Ivan Van Norman)
+    dropout: introducing-horror-to-a-game-with-ivan-van-norman
     public: 6qnmkuz8H9s
     published: 2019-07-24
   - episode: 116. Finding Fun in Failure (with Siobhan Thompson)
+    dropout: finding-fun-in-failure-with-siobhan-thompson
     public: ML5m4NL8meE
     public copy: Yu3W2E7MDWc
     published: 2019-08-07
   - episode: 117. Killing Off Characters (with Jack Covell)
+    dropout: killing-off-characters-with-jack-covell
     public: ozQa0im0C5I
     published: 2019-08-21
   - episode: 118. Storytelling As a Game Master (with Peter Warren)
+    dropout: storytelling-as-a-game-master-with-peter-warren
     public: FnXSQiR8ayU
     published: 2019-09-04
   - special: How To Prep For DMing a Campaign Session (Office Hours)
@@ -4134,6 +4311,7 @@ videos:
     members: AgrmGxQ1MYs
     published: 2019-12-11
   - episode: 215. True Facts About Grant Anthony O'Brien
+    dropout: true-facts-about-grant-anthony-o-brien
     public: DcX_lXP977g
     members: lzsW2KpJ5a8
     published: 2019-12-18
@@ -4399,6 +4577,7 @@ videos:
     members: Ypw6Vpydh0Y
     published: 2021-11-24
   - episode: 509. True Facts About Grant Anthony O'Brien (Part 2)
+    dropout: true-facts-about-grant-anthony-o-brien-part-2
     members: ZrmCF9GOAOU
     published: 2021-12-15
   - episode: 510. Gengar Could Run A Train Through Me
@@ -4506,6 +4685,7 @@ videos:
     members: WkrZAc4uJV0
     published: 2024-01-03
   - episode: 616. True Facts About Grant Anthony O'Brien (Part 3)
+    dropout: true-facts-about-grant-anthony-o-brien-part-3
     members: mzQjbHvBHZ0
     published: 2024-01-09
   - episode: 617. I Want to Play a Game
@@ -4570,6 +4750,7 @@ videos:
     members: hGC6SnNAwC0
     published: 2024-01-11
   - bts: Yaaath Queen
+    dropout: yaaath-queen
     talkback: true
     members: 40hE083Ly9Y
     published: 2024-01-12
@@ -4578,6 +4759,7 @@ videos:
     members: 1KEyu8OKKGs
     published: 2024-01-18
   - bts: Fs Get Defgrees
+    dropout: fs-get-defgrees
     talkback: true
     members: OxK8D6NhMHY
     published: 2024-01-19
@@ -4586,6 +4768,7 @@ videos:
     members: 8aXfZrmDSrg
     published: 2024-01-25
   - bts: I Wanda'd In
+    dropout: i-wanda-d-in
     talkback: true
     members: KS3_IOju2HA
     published: 2024-01-26
@@ -4594,6 +4777,7 @@ videos:
     members: Wq2Drxoa71s
     published: 2024-02-01
   - bts: A Sea of Effluvia
+    dropout: a-sea-of-effluvia
     talkback: true
     members: m5g-CCmm8ys
     published: 2024-02-02
@@ -4602,6 +4786,7 @@ videos:
     members: yXv4C4_aZvE
     published: 2024-02-08
   - bts: Can I Offer You a Nice Shrimp in This Trying Time?
+    dropout: can-i-offer-you-a-nice-shrimp-in-this-trying-time
     talkback: true
     members: Rlxj-tUYsaM
     published: 2024-02-09
@@ -4610,6 +4795,7 @@ videos:
     members: lviNn1XG5W0
     published: 2024-02-15
   - bts: You Are the Chosen None
+    dropout: you-are-the-chosen-none
     talkback: true
     members: YGP8YvfBZ1A
     published: 2024-02-16
@@ -4618,6 +4804,7 @@ videos:
     members: 0bXhR2zLCEI
     published: 2024-02-22
   - bts: A Negroni and a Bowl of Spinach
+    dropout: a-negroni-and-a-bowl-of-spinach
     talkback: true
     members: MDKejBcRPPI
     published: 2024-02-23
@@ -4626,6 +4813,7 @@ videos:
     members: ojesrO8BKsc
     published: 2024-02-29
   - bts: I See Your Butt Plug and I Raise You a Fist
+    dropout: i-see-your-butt-plug-and-i-raise-you-a-fist
     talkback: true
     members: IKojoZrSX7A
     published: 2024-03-01
@@ -4634,6 +4822,7 @@ videos:
     members: Z7-0FL5NzK4
     published: 2024-03-07
   - bts: Emo People Meet at Panera
+    dropout: emo-people-meet-at-panera
     talkback: true
     members: 0FgNuAblz3I
     published: 2024-03-08
@@ -4642,6 +4831,7 @@ videos:
     members: xIOsqw6amno
     published: 2024-03-13
   - bts: Cool Ranch Communion
+    dropout: cool-ranch-communion
     talkback: true
     members: QN85JKB0Cr8
     published: 2024-03-14
@@ -4654,6 +4844,7 @@ videos:
     members: pHdgLMURTOE
     published: 2024-03-20
   - bts: Chutes and Ladders
+    dropout: chutes-and-ladders
     talkback: true
     members: 4MAAHixLn1c
     published: 2024-03-21
@@ -4662,6 +4853,7 @@ videos:
     members: 3ov3CHJwzyk
     published: 2024-03-27
   - bts: Big Clue Energy
+    dropout: big-clue-energy
     talkback: true
     members: c5JFhxeCCis
     published: 2024-03-02
@@ -4670,6 +4862,7 @@ videos:
     members: m9K0cd1eGEU
     published: 2024-04-03
   - bts: All Pulp, No Juice
+    dropout: all-pulp-no-juice
     talkback: true
     members: khwPCf21mxA
     published: 2024-04-04
@@ -4678,6 +4871,7 @@ videos:
     members: GXBFBFILA0w
     published: 2024-04-10
   - bts: We're Running on 200%
+    dropout: we-re-running-on-200
     talkback: true
     members: zRKBWa-H8ws
     published: 2024-04-11
@@ -4686,6 +4880,7 @@ videos:
     members: oxH9doMDPA0
     published: 2024-04-17
   - bts: Nighttime Ecstasy
+    dropout: nighttime-ecstasy
     talkback: true
     members: 1ROSZ1feO8Q
     published: 2024-04-18
@@ -4694,6 +4889,7 @@ videos:
     members: h6HELaypwZA
     published: 2024-04-24
   - bts: Honor the Cock
+    dropout: honor-the-cock
     talkback: true
     members: O0gcUGsWT8w
     published: 2024-04-25
@@ -4702,6 +4898,7 @@ videos:
     members: tN7yE6AfgQc
     published: 2024-05-01
   - bts: Five Years in the Making
+    dropout: five-years-in-the-making
     talkback: true
     members: ijKApeu0CLc
     published: 2024-05-02
@@ -4710,20 +4907,25 @@ videos:
     members: htGXHSXtpgk
     published: 2024-05-08
   - bts: Blimey
+    dropout: blimey
     talkback: true
     members: anvwpUpHNN4
     published: 2024-05-09
   - episode: 19. Ragenarok (Part 1)
+    dropout: ragenarok-part-1
     members: 29lnaIZg1k4
     published: 2024-05-15
   - bts: Only Cowgirls Get the Blues
+    dropout: only-cowgirls-get-the-blues
     talkback: true
     members: 9Yz3j_489F8
     published: 2024-05-16
   - episode: 20. Ragenarok (Part 2)
+    dropout: ragenarok-part-2
     members: 2h7UiPED-vQ
     published: 2024-05-22
   - bts: Gotta Wrap It Up
+    dropout: gotta-wrap-it-up
     talkback: true
     members: jynHrNfc478
     published: 2024-05-23
@@ -4924,6 +5126,7 @@ videos:
     members: 6PpoS9nzWJk
     published: 2024-05-24
   - bts: Very Important Bonus Content
+    dropout: very-important-bonus-content
     members: BMMmUOQpeQs
     published: 2024-06-07
 
@@ -5085,65 +5288,82 @@ videos:
     public: ih6_YisTqas
     published: 2024-05-08
   - trailer: Get Your Act Together with Hank Green
+    dropout: get-your-act-together-with-hank-green
     members: OsMisAQ74Q0
     public: yZHqx2UuQOo
     published: 2024-06-12
   - episode: "Hank Green: Pissing Out Cancer"
+    dropout: hank-green-pissing-out-cancer
     members: 0RKtX6u4DnM
     published: 2024-06-21
   - trailer: Get Your Act Together with Brennan and Izzy
+    dropout: get-your-act-together-with-brennan-and-izzy
     public: LhyZ98_J7qI
     published: 2024-07-15
   - episode: Bigger! With Brennan and Izzy
+    dropout: bigger-with-brennan-and-izzy
     members: PezIGhC2hGI
     published: 2024-07-25
   - trailer: Get Your Act Together with Chris Grace
+    dropout: get-your-act-together-with-chris-grace
     public: MJrH7UVhd78
     published: 2024-08-16
   - trailer: Chris Grace Enters the Dropout Multiverse
     public: q7TEJa7qQl0
     published: 2024-08-31
   - episode: "Chris Grace: As Scarlett Johansson"
+    dropout: chris-grace-as-scarlett-johansson
     members: hwGXwcz3TDI
     removed members: 4b6FkhZxVSk
     published: 2024-08-23
   - trailer: Get Your Act Together with Adam Conover
+    dropout: get-your-act-together-with-adam-conover
     members: OMgdC8HDOZ0
     published: 2024-09-06
   - episode: "Adam Conover: Unmedicated"
+    dropout: adam-conover-unmedicated
     members: n77kSA7rNa8
     published: 2024-09-18
   - trailer: Get Your Act Together with Courtney Pauroso
+    dropout: get-your-act-together-with-courtney-pauroso
     public: 6m76IE-0mvc
     published: 2024-10-07
   - episode: "Courtney Pauroso: Vanessa 5000"
+    dropout: courtney-pauroso-vanessa-5000
     members: TDIl5e_0jYk
     published: 2024-10-18
   - trailer: Get Your Act Together with Ally Beardsley and Zac Oyama
+    dropout: get-your-act-together-with-ally-beardsley-and-zac-oyama
     public: yrbnquezFYA
     published: 2024-11-01
   - episode: From Ally to Zacky
+    dropout: from-ally-to-zacky
     members: uMTGOlQ8FNY
     published: 2024-11-16
   - trailer: Get Your Act Together with The Big Team
+    dropout: get-your-act-together-with-the-big-team
     public: h3rrJzkTZG8
     published: 2024-12-02
   - episode: The Big Team
+    dropout: the-big-team
     members: 0gGCcEvk3xI
     published: 2024-12-17
   - trailer: Chris Grace Enters the Dropout-verse
     public: 5oNfsCyWo_E
     published: 2024-12-18
   - bts: "From Ally to Zacky: A Bonus Tracky"
+    dropout: from-ally-to-zacky-a-bonus-tracky
     members: z_63RrmPHGw
     published: 2025-02-21
   - bts: Getting a Tattoo on Friday the 13th
     public: bB1ESv06hkI
     published: 2025-02-26
   - trailer: Get Your Act Together with Cameron Esposito
+    dropout: get-your-act-together-with-cameron-esposito
     public: q3AgIZwrcwE
     published: 2025-04-04
   - episode: "Cameron Esposito: Four Pills"
+    dropout: cameron-esposito-four-pills
     members: c38FM75jOwI
     published: 2025-04-11
 
@@ -5156,27 +5376,35 @@ videos:
     public: 9so-54yO5Js
     published: 2025-10-17
   - trailer: Get Your Act Together with Demi Adejuyigbe
+    dropout: get-your-act-together-with-demi-adejuyigbe
     members: SG8Mjdk9h_8
     published: 2025-11-12
   - episode: "Demi Adejuyigbe: Is Going to Do One (1) Backflip"
+    dropout: demi-adejuyigbe-is-going-to-do-one-1-backflip
     members: r8W2Y_L-tRU
     published: 2025-11-20
   - trailer: Get Your Act Together with Aparna Nancherla
+    dropout: get-your-act-together-with-aparna-nancherla
     members: hPidcIFWNR8
     published: 2025-12-08
   - episode: "Aparna Nancherla: Hopeful Potato"
+    dropout: aparna-nancherla-hopeful-potato
     members: 6XfzLMFTaMQ
     published: 2025-12-16
   - trailer: Get Your Act Together with Mark Vigeant
+    dropout: get-your-act-together-with-mark-vigeant
     members: lHmkcY2pG04
     published: 2026-02-18
   - episode: "Mark Vigeant: The Best Man Show"
+    dropout: mark-vigeant-the-best-man-show
     members: LckqmcigGKw
     published: 2026-02-26
   - trailer: Get Your Act Together with Michael Cruz Kayne
+    dropout: get-your-act-together-with-michael-cruz-kayne
     public: fdY7qFudPdo
     published: 2026-03-20
   - episode: "Michael Cruz Kayne: Sorry For Your Loss"
+    dropout: michael-cruz-kayne-sorry-for-your-loss
     members: BwODFke7Sig
     published: 2026-03-27
 
@@ -5286,6 +5514,7 @@ videos:
     members: gJ5sa-O5dJk
     published: 2024-06-26
   - bts: Yoshi Thicc
+    dropout: yoshi-thicc
     talkback: true
     members: LeFTX8n_SzA
     published: 2024-06-27
@@ -5294,6 +5523,7 @@ videos:
     members: LGE1RujTDfE
     published: 2024-07-03
   - bts: When You're Here, You're La Familia
+    dropout: when-you-re-here-you-re-la-familia
     talkback: true
     members: gt3V7hSbwGI
     published: 2024-07-04
@@ -5302,6 +5532,7 @@ videos:
     members: t-pZDMhuO1A
     published: 2024-07-10
   - bts: Boongo
+    dropout: boongo
     talkback: true
     members: OqKyp_lnWro
     published: 2024-07-11
@@ -5310,6 +5541,7 @@ videos:
     members: 8XxltuQkHQg
     published: 2024-07-17
   - bts: Gender Cascade
+    dropout: gender-cascade
     talkback: true
     members: 3znry6_sIOw
     published: 2024-07-18
@@ -5318,6 +5550,7 @@ videos:
     members: DVsyWO-Cbf0
     published: 2024-07-24
   - bts: Ziggy Zany Yeah
+    dropout: ziggy-zany-yeah
     talkback: true
     members: IMVWtbO_t7s
     published: 2024-07-25
@@ -5326,6 +5559,7 @@ videos:
     members: 2KOT_VM_LFQ
     published: 2024-07-31
   - bts: The Penthouse Suite
+    dropout: the-penthouse-suite
     talkback: true
     members: MLpI_TjKmP8
     published: 2024-08-01
@@ -5334,6 +5568,7 @@ videos:
     members: Jn1wWEKTp3Y
     published: 2024-08-07
   - bts: Bustin' Makes Me Feel Good
+    dropout: bustin-makes-me-feel-good
     talkback: true
     members: ueIejWES9cg
     published: 2024-08-08
@@ -5342,6 +5577,7 @@ videos:
     members: X_uU-Tct9S0
     published: 2024-08-14
   - bts: Truly Truly So So Fun
+    dropout: truly-truly-so-so-fun
     talkback: true
     members: eh1DA9Y1s7E
     published: 2024-08-15
@@ -5350,6 +5586,7 @@ videos:
     members: HwbaHikc4gM
     published: 2024-08-21
   - bts: Bean Appétit
+    dropout: bean-appetit
     talkback: true
     members: 2t8Y908I4u8
     published: 2024-08-22
@@ -5358,6 +5595,7 @@ videos:
     members: gMxJDsksuEs
     published: 2024-08-28
   - bts: An Evil Guided Meditation
+    dropout: an-evil-guided-meditation
     talkback: true
     members: M1T461XnJjA
     published: 2024-08-29
@@ -5575,6 +5813,7 @@ videos:
     members: wFoqB0a1LHY
     published: 2024-09-25
   - bts: A Synecdoche, Like That Ass
+    dropout: a-synecdoche-like-that-ass
     talkback: true
     members: HCJ0OVsXZ00
     published: 2024-09-26
@@ -5583,6 +5822,7 @@ videos:
     members: FMik3F-LAB8
     published: 2024-10-02
   - bts: Dream Small
+    dropout: dream-small
     talkback: true
     members: fl9ciNzEN2E
     published: 2024-10-03
@@ -5591,6 +5831,7 @@ videos:
     members: C2Ui_U6Mfpk
     published: 2024-10-09
   - bts: You Had a Bad Day
+    dropout: you-had-a-bad-day
     talkback: true
     members: ayPX4Tau9JU
     published: 2024-10-10
@@ -5645,33 +5886,41 @@ videos:
     members: Pw9NcLUPZeE
     published: 2024-09-24
   - bts: The Funny Season
+    dropout: the-funny-season
     talkback: true
     members: bgRkzG6leLo
     published: 2024-10-17
   - bts: How to Save a Life
+    dropout: how-to-save-a-life
     talkback: true
     members: 4jGybt88qeI
     published: 2024-10-24
   - bts: I'm a Good Boy
+    dropout: i-m-a-good-boy
     talkback: true
     members: 3TdkMbwYcOk
     published: 2024-10-31
   - bts: Pigeon Lord Ishii
+    dropout: pigeon-lord-ishii
     talkback: true
     members: PxXQarS_uao
     published: 2024-11-07
   - bts: Fighting for Bottom, Baby
+    dropout: fighting-for-bottom-baby
     members: "-NoT_XXz0CQ"
     published: 2024-11-14
   - bts: Evan Kelmp Smells Like Cocoa Butter
+    dropout: evan-kelmp-smells-like-cocoa-butter
     talkback: true
     members: dQohfWQRkeA
     published: 2024-11-21
   - bts: Making the Magic
+    dropout: making-the-magic
     talkback: true
     members: NY-91_BTBE4
     published: 2024-11-28
   - bts: The Casablanca of It All
+    dropout: the-casablanca-of-it-all
     talkback: true
     members: j_26Lp7JGok
     published: 2024-12-05
@@ -5693,6 +5942,7 @@ videos:
     public: YCXG4GcaOno
     published: 2025-01-08
   - bts: She is the Tower of Babel
+    dropout: she-is-the-tower-of-babel
     talkback: true
     members: xA5R4-Mge_A
     published: 2025-01-09
@@ -5701,6 +5951,7 @@ videos:
     members: TM_8NyHC60Q
     published: 2025-01-15
   - bts: Fae-by, Fae-by, Fae-by, Oh
+    dropout: fae-by-fae-by-fae-by-oh
     talkback: true
     members: XiD9fiJSibg
     published: 2025-01-16
@@ -5709,6 +5960,7 @@ videos:
     members: l0zGy25NeTs
     published: 2025-01-22
   - bts: She's a Brick Orc
+    dropout: she-s-a-brick-orc
     talkback: true
     members: BRkD4_959zo
     published: 2025-01-23
@@ -5717,6 +5969,7 @@ videos:
     members: izDDp3pZI5k
     published: 2025-01-29
   - bts: Monét Will Say Anything
+    dropout: monet-will-say-anything
     talkback: true
     members: Awmu_wYx9dM
     published: 2025-01-30
@@ -5725,6 +5978,7 @@ videos:
     members: bZqDjr5I4_I
     published: 2025-02-05
   - bts: Twyla's Twine Time
+    dropout: twyla-s-twine-time
     talkback: true
     members: b81h_4rCB04
     published: 2025-02-06
@@ -5733,6 +5987,7 @@ videos:
     members: Znmog0DLUSc
     published: 2025-02-12
   - bts: Just in the Nick of Twine
+    dropout: just-in-the-nick-of-twine
     talkback: true
     members: MAyxzxU0LSw
     published: 2025-02-13
@@ -5752,6 +6007,7 @@ videos:
     public: V7AlcIyvaoI
     published: 2025-04-02
   - bts: Cat's Out of the Bag
+    dropout: cat-s-out-of-the-bag
     talkback: true
     members: YDdcI7bMa9E
     published: 2025-04-03
@@ -5760,6 +6016,7 @@ videos:
     members: 2zutzcnfnVI
     published: 2025-04-09
   - bts: A Dry January Rube Goldberg Machine
+    dropout: a-dry-january-rube-goldberg-machine
     talkback: true
     members: Vw01tekQROU
     published: 2025-04-10
@@ -5768,6 +6025,7 @@ videos:
     members: SXJxgrr9OC0
     published: 2025-04-16
   - bts: A Cheeseburger Intimidation Check
+    dropout: a-cheeseburger-intimidation-check
     talkback: true
     members: mO2JYe8A2TE
     published: 2025-04-17
@@ -5776,6 +6034,7 @@ videos:
     members: bUwrI1e-6-I
     published: 2025-04-23
   - bts: Hotties and Hot Hearts
+    dropout: hotties-and-hot-hearts
     talkback: true
     members: CO673qHVxYE
     published: 2025-04-24
@@ -5800,6 +6059,7 @@ videos:
     members: NbgUrPTnaIg
     published: 2025-05-07
   - episode: 1. Gauntlet at the Garden (Live From Madison Square Garden)
+    dropout: gauntlet-at-the-garden-live-from-madison-square-garden
     members: sjNrwGKRPw4
     published: 2025-05-13
 
@@ -5818,6 +6078,7 @@ videos:
     public: jW0HiXgrfZs
     published: 2025-06-04
   - bts: Pure Whimsy
+    dropout: pure-whimsy
     talkback: true
     members: LgapHYvZLZE
     published: 2025-06-05
@@ -5826,6 +6087,7 @@ videos:
     members: w4nJTt_gGQc
     published: 2025-06-11
   - bts: Meaty, Meaty Combat
+    dropout: meaty-meaty-combat
     members: "-6zzI34knAg"
     published: 2025-06-12
   - episode: 3. Secrets at the South Pole Station
@@ -5833,6 +6095,7 @@ videos:
     members: ktDe8CU7LHs
     published: 2025-06-18
   - bts: Wonder Awaits
+    dropout: wonder-awaits
     talkback: true
     members: 4kWwsu-XE4E
     published: 2025-06-19
@@ -5841,6 +6104,7 @@ videos:
     members: D8g5EFJHsmg
     published: 2025-06-25
   - bts: Rachael Ray Ramantsu
+    dropout: rachael-ray-ramantsu
     talkback: true
     members: xHeYGuMXhN4
     published: 2025-06-26
@@ -5849,6 +6113,7 @@ videos:
     members: bfSM22EFIWQ
     published: 2025-07-02
   - bts: Two Guys and a Brachiosaurus
+    dropout: two-guys-and-a-brachiosaurus
     talkback: true
     members: mmNiyIn-fn4
     published: 2025-07-03
@@ -5857,6 +6122,7 @@ videos:
     members: db5yJ6R99R0
     published: 2025-07-09
   - bts: Skanking in Crocs
+    dropout: skanking-in-crocs
     talkback: true
     members: p0W_aeZFxmo
     published: 2025-07-10
@@ -5865,6 +6131,7 @@ videos:
     members: QSPcXVudLR8
     published: 2025-07-16
   - bts: When the Aioli Hits
+    dropout: when-the-aioli-hits
     talkback: true
     members: G7jbcjoFVGc
     published: 2025-07-17
@@ -5873,6 +6140,7 @@ videos:
     members: XIYXjIwnx1M
     published: 2025-07-23
   - bts: My Britches Are Normal Sized
+    dropout: my-britches-are-normal-sized
     talkback: true
     members: Iv4QtyYM6Go
     published: 2025-07-24
@@ -5881,6 +6149,7 @@ videos:
     members: LMBO9KyfSz0
     published: 2025-07-30
   - bts: Robot Equal Sexy or No?
+    dropout: robot-equal-sexy-or-no
     talkback: true
     members: q2eUv9pjIMw
     published: 2025-07-31
@@ -5889,6 +6158,7 @@ videos:
     members: JWVXdR2rkQs
     published: 2025-08-06
   - bts: Hashtag Wealwell Challenge
+    dropout: hashtag-wealwell-challenge
     talkback: true
     members: FHen45OvF1U
     published: 2025-08-07
@@ -5900,6 +6170,7 @@ videos:
     members: nEad-xwNHFQ
     published: 2025-08-20
   - bts: This is Aioli Energy
+    dropout: this-is-aioli-energy
     talkback: true
     members: 2gK-uN0Y9cU
     published: 2025-08-21
@@ -5908,6 +6179,7 @@ videos:
     members: 5wtuyAEMPpg
     published: 2025-08-27
   - bts: No Shirt, No Panties
+    dropout: no-shirt-no-panties
     talkback: true
     members: 9kXDyW2EyZg
     published: 2025-08-28
@@ -5916,6 +6188,7 @@ videos:
     members: RZxec3jSPlg
     published: 2025-09-03
   - bts: Embrace the Tentacle
+    dropout: embrace-the-tentacle
     talkback: true
     members: um-5uCyKyBQ
     published: 2025-09-04
@@ -5924,6 +6197,7 @@ videos:
     members: jgb5dPuXo7w
     published: 2025-09-10
   - bts: A Moment of Smilence
+    dropout: a-moment-of-smilence
     talkback: true
     members: pDbCV2bzBI8
     published: 2025-09-11
@@ -5932,6 +6206,7 @@ videos:
     members: mRJg6D-6rIY
     published: 2025-09-17
   - bts: The Sheet of Your Pants
+    dropout: the-sheet-of-your-pants
     talkback: true
     members: tm4SYeB7JLQ
     published: 2025-09-18
@@ -5940,6 +6215,7 @@ videos:
     members: zRyHuRNl6Lg
     published: 2025-09-24
   - bts: The Good Boy Adventuring Party
+    dropout: the-good-boy-adventuring-party
     talkback: true
     members: eAS6ebpi_GM
     published: 2025-09-25
@@ -5948,6 +6224,7 @@ videos:
     members: HO0YolgLU9w
     published: 2025-10-01
   - bts: This One's for Daddy
+    dropout: this-one-s-for-daddy
     talkback: true
     members: 7PZGi0Plke0
     published: 2025-10-02
@@ -5956,6 +6233,7 @@ videos:
     members: FEkMpVGQM7I
     published: 2025-10-08
   - bts: Style Watch 2025
+    dropout: style-watch-2025
     talkback: true
     members: K9LhmpzM2sY
     published: 2025-10-09
@@ -5964,6 +6242,7 @@ videos:
     members: 4Xh6sUaxQw0
     published: 2025-10-15
   - bts: A Dirty Way to Say Biscuits
+    dropout: a-dirty-way-to-say-biscuits
     talkback: true
     members: AmplBkzq2Yw
     published: 2025-10-16
@@ -5972,10 +6251,12 @@ videos:
     members: Z5TQPQvt-Ik
     published: 2025-10-22
   - bts: Santa the Whole Time
+    dropout: santa-the-whole-time
     talkback: true
     members: N_A0GcevULo
     published: 2025-10-23
   - bts: The Cloudward Crew Confers
+    dropout: the-cloudward-crew-confers
     talkback: true
     members: Upip6gZ6mns
     published: 2025-10-30
@@ -6118,6 +6399,7 @@ videos:
     members: 3487WEszg28
     published: 2025-06-06
   - bts: Very Important Bonus Content (Season 2)
+    dropout: very-important-bonus-content-season-2
     members: Z9Ral3wVDaY
     published: 2025-06-19
 
@@ -6197,9 +6479,11 @@ videos:
     members: 4zqGuZ9JsCs
     published: 2025-08-08
   - episode: 110. Blood on the Clocktower (Part 1)
+    dropout: blood-on-the-clocktower
     members: AFwTHnZRBek
     published: 2025-08-22
   - episode: 111. Blood on the Clocktower (Part 2)
+    dropout: blood-on-the-clocktower-part-2
     members: arBlyHXufLM
     published: 2025-08-29
 
@@ -6893,6 +7177,7 @@ videos:
     members: wSjROPA1t60
     published: 2026-06-19
   - bts: Very Important Bonus Content (Season 3)
+    dropout: very-important-bonus-content-season-3
     members: 7QRHFVSUsCQ
     published: 2026-07-02
 
@@ -7211,6 +7496,7 @@ videos:
     members: Qa3jfjkJ7d4
     published: 2026-01-08
   - bts: A Bouquet of Teeth
+    dropout: a-bouquet-of-teeth
     talkback: true
     members: VGzg8w_f5WU
     published: 2026-01-08
@@ -7219,6 +7505,7 @@ videos:
     members: UJk8cjr7p7o
     published: 2026-01-15
   - bts: I Will Try to Fix You
+    dropout: i-will-try-to-fix-you
     talkback: true
     members: z_gtsGYNWDM
     published: 2026-01-15
@@ -7227,6 +7514,7 @@ videos:
     members: _1dyX19xFzU
     published: 2026-01-22
   - bts: Right Past Titty Town
+    dropout: right-past-titty-town
     talkback: true
     members: mZSaM3GaHOM
     published: 2026-01-22
@@ -7235,6 +7523,7 @@ videos:
     members: JkZdlf4Jj28
     published: 2026-01-29
   - bts: Table Pizza
+    dropout: table-pizza
     talkback: true
     members: RbxxIdXknys
     published: 2026-01-29
@@ -7243,6 +7532,7 @@ videos:
     members: Lm2y8dB9S0Y
     published: 2026-02-05
   - bts: The Ate of Swords
+    dropout: the-ate-of-swords
     talkback: true
     members: KbuhJAxCQ2g
     published: 2026-02-05
@@ -7251,6 +7541,7 @@ videos:
     members: bqSFhyZOCw4
     published: 2026-02-12
   - bts: Spinch Party Kill
+    dropout: spinch-party-kill
     talkback: true
     members: SLx2BuQXcJk
     published: 2026-02-12
@@ -7271,6 +7562,7 @@ videos:
     members: 2Pi0G6IqL-g
     published: 2026-04-08
   - bts: It's a Banksy
+    dropout: it-s-a-banksy
     talkback: true
     members: xJNckwom-eI
     published: 2026-04-09
@@ -7279,6 +7571,7 @@ videos:
     members: JsprO4vndV4
     published: 2026-04-15
   - bts: Two Hours in the Tesla Diner
+    dropout: two-hours-in-the-tesla-diner
     talkback: true
     members: OTeEWF-s3BU
     published: 2026-04-16
@@ -7287,6 +7580,7 @@ videos:
     members: KN_tP0MGNKQ
     published: 2026-04-22
   - bts: At the Strip Club With Your Dentist
+    dropout: at-the-strip-club-with-your-dentist
     talkback: true
     members: 3xZIbzfPdiQ
     published: 2026-04-23
@@ -7295,6 +7589,7 @@ videos:
     members: OVB-nktrcZc
     published: 2026-04-29
   - bts: In My Feels About the Cold War
+    dropout: in-my-feels-about-the-cold-war
     talkback: true
     members: Tj41ipiYIj8
     published: 2026-04-30
@@ -7303,6 +7598,7 @@ videos:
     members: 3YO_5Jv7gtw
     published: 2026-05-06
   - bts: Give It up for McBean
+    dropout: give-it-up-for-mcbean
     talkback: true
     members: LJkfRIIdfKA
     published: 2026-05-07
@@ -7311,6 +7607,7 @@ videos:
     members: udfFnuXOOek
     published: 2026-05-13
   - bts: Zaeth is a Guided Missle
+    dropout: zaeth-is-a-guided-missle
     talkback: true
     members: O47UrAUGkpY
     published: 2026-05-14
@@ -7319,6 +7616,7 @@ videos:
     members: D02r3OgXljE
     published: 2026-05-20
   - bts: The Polycule Voting Block
+    dropout: the-polycule-voting-block
     talkback: true
     members: YFHHu-tFtF4
     published: 2026-05-21
@@ -7327,6 +7625,7 @@ videos:
     members: wIgeq5f7vCc
     published: 2026-05-27
   - bts: Silent Disco at the Elks Lodge
+    dropout: silent-disco-at-the-elks-lodge
     talkback: true
     members: ENwxTrCkme8
     published: 2026-05-28
@@ -7335,6 +7634,7 @@ videos:
     members: egPW5pLJ4qI
     published: 2026-06-03
   - bts: Murph's Most Sensual Episode
+    dropout: murph-s-most-sensual-episode
     talkback: true
     members: XHk3e5S8yMQ
     published: 2026-06-04
@@ -7343,6 +7643,7 @@ videos:
     members: 4Oy-0QUPU8s
     published: 2026-06-10
   - bts: Full Duckface on a Bird Scooter
+    dropout: full-duckface-on-a-bird-scooter
     talkback: true
     members: qzkqEdmaFEE
     published: 2026-06-11
@@ -7351,6 +7652,7 @@ videos:
     members: Pmq6-LAA3FE
     published: 2026-06-17
   - bts: He Meant Elves
+    dropout: he-meant-elves
     talkback: true
     members: pIhBGbj64Dw
     published: 2026-06-18
@@ -7359,6 +7661,7 @@ videos:
     members: 3awh40DXmsU
     published: 2026-06-24
   - bts: Don't You Mean Morissette?
+    dropout: don-t-you-mean-morissette
     talkback: true
     members: X25Q6TSsNkU
     published: 2026-06-25
@@ -7367,6 +7670,7 @@ videos:
     members: MaPqmOxWhLI
     published: 2026-07-01
   - bts: I'm Evil Baby, Yeah
+    dropout: i-m-evil-baby-yeah
     talkback: true
     members: N7hZ9CB2Qmo
     published: 2026-07-02
@@ -7375,6 +7679,7 @@ videos:
     members: mVG3cnnMmIw
     published: 2026-07-08
   - bts: Off to the Clown Races
+    dropout: off-to-the-clown-races
     talkback: true
     members: rNIm83sRTpU
     published: 2026-07-09
@@ -7390,6 +7695,7 @@ videos:
     public: J7IIB3fx-T4
     published: 2026-03-04
   - episode: "1. Dimension 20 Live: Viva Más Vegas"
+    dropout: dimension-20-live-viva-mas-vegas
     members: LLBeQRTrZWY
     published: 2026-03-11
 
@@ -7407,6 +7713,7 @@ videos:
     members: HMK7QO1KgM8
     published: 2026-04-01
   - bts: Here's Come the Water
+    dropout: here-s-come-the-water
     talkback: true
     members: "-PYbqEgXYGM"
     published: 2026-04-02

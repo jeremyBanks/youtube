@@ -2,32 +2,10 @@ import { parseArgs } from "@std/cli";
 import * as yaml from "../yaml.ts";
 import { DropoutCollection, DropoutEpisode } from "../storage.ts";
 import { getDropoutConfig, getSeasonsCuration } from "../config.ts";
-import { normalizeTitle } from "../common.ts";
+import { candidatesFor, entryTitle, showPrefixes } from "../dropout-link.ts";
 
 if (import.meta.main) {
   await main();
-}
-
-/**
- * Dropout re-lists episodes under aggregate collections, which are never a
- * show's home and would match a show's name misleadingly.
- */
-function isAggregate(slug: string): boolean {
-  return /complete-(series|experience)/.test(slug) ||
-    slug === "dip-your-toe-in" || slug === "dropout-24-7";
-}
-
-/** The curated titles are spread across per-type fields; takes the one set. */
-function entryTitle(
-  entry: Record<string, unknown>,
-): { type: string; title: string } | undefined {
-  for (const type of ["episode", "trailer", "special", "bts", "animation"]) {
-    const title = entry[type];
-    if (typeof title === "string") {
-      return { type, title };
-    }
-  }
-  return undefined;
 }
 
 function isoDate(date: Date): string {
@@ -57,19 +35,7 @@ export async function main() {
     await yaml.load("./data/dropout-collections.yaml"),
   );
 
-  // Most shows name themselves: the collection's own display name matches
-  // the curation's, so the mapping derives rather than being maintained by
-  // hand. config/dropout.toml is left for the cases that cannot derive — a
-  // show like Dropout Presents that has no collection of its own, or a name
-  // that simply differs — and always wins where it is set.
-  const derived = new Map<string, Array<string>>();
-  for (const collection of collections) {
-    if (!collection.title || isAggregate(collection.slug)) {
-      continue;
-    }
-    const key = normalizeTitle(collection.title);
-    derived.set(key, [...(derived.get(key) ?? []), collection.slug]);
-  }
+  const prefixesFor = showPrefixes(collections, config.shows);
 
   const bySlug = new Map(episodes.map((e) => [e.slug, e]));
   const scraped = episodes.filter((e) => e.scrapedAt && e.releaseDate);
@@ -85,8 +51,7 @@ export async function main() {
     if (args.show && doc.show !== args.show) {
       continue;
     }
-    const prefixes = config.shows[doc.show] ??
-      derived.get(normalizeTitle(doc.show));
+    const prefixes = prefixesFor(doc.show);
     const where = doc.season ? `${doc.show} / ${doc.season}` : doc.show;
 
     for (const video of doc.videos) {
@@ -111,11 +76,7 @@ export async function main() {
         if (!prefixes?.length) {
           continue; // show has no collection mapping; nothing to say
         }
-        const wanted = normalizeTitle(named.title);
-        const candidates = scraped.filter((e) =>
-          prefixes.some((p) => e.collection.startsWith(p)) && e.title &&
-          normalizeTitle(e.title) === wanted
-        );
+        const candidates = candidatesFor(scraped, prefixes, named.title);
         if (candidates.length > 1) {
           ambiguous.push(
             `${label} matches ${candidates.length}: ` +

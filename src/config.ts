@@ -87,6 +87,15 @@ const AggregateConfigToml = z.record(
     talkback: z.boolean().optional(),
     /** publish it as unlisted rather than public, but keep updating it */
     unlisted: z.boolean().optional(),
+    /**
+     * Publish it as private, which nobody but the channel owner can see.
+     *
+     * Wins over `unlisted`. This is a holding state, not a destination: a
+     * playlist YouTube will not let us make visible yet is created private,
+     * filled, and flagged here so that `publish` stops trying the transition
+     * it is going to refuse. Clear the flag and publish again to release it.
+     */
+    private: z.boolean().optional(),
     skip: z.boolean().optional(),
   })
     .strict(),
@@ -104,6 +113,7 @@ type AggregateConfig = Array<{
   free?: boolean;
   talkback?: boolean;
   unlisted?: boolean;
+  private?: boolean;
   skip?: boolean;
 }>;
 
@@ -146,6 +156,7 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
         free: aggregateConfig.free,
         talkback: aggregateConfig.talkback,
         unlisted: aggregateConfig.unlisted,
+        private: aggregateConfig.private,
         skip: aggregateConfig.skip,
       });
     }

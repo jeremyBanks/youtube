@@ -365,6 +365,7 @@ async function main() {
       ),
       playlistId: config.playlistId,
       unlisted: config.unlisted,
+      private: config.private,
       videos: Object.fromEntries(
         videoIds.map((id) => [id, detailsFor(id)?.title ?? "unknown"]),
       ),

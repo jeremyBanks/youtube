@@ -382,15 +382,36 @@ export async function updatePlaylist(
   title: string,
   description: string,
   videoIds: Array<string>,
-  { dryRun = false, unlisted = false }: {
+  { dryRun = false, unlisted = false, isPrivate = false }: {
     dryRun?: boolean;
     unlisted?: boolean;
+    /**
+     * Named `isPrivate` because `private` is a reserved word and cannot be
+     * bound as a variable here; the config key it comes from is `private`.
+     */
+    isPrivate?: boolean;
   } = {},
 ) {
   // A dry run reads the live playlist and reports the same diff a real
-  // publish would act on, then stops before touching anything. Reads need
-  // only the API key, so a dry run works without OAuth.
-  const client = dryRun ? undefined : await getClientAuthAndKey();
+  // publish would act on, then stops before touching anything. Reads need only
+  // the API key, so a dry run works without OAuth -- except on a private
+  // playlist, which a key-only read cannot see at all (see `playlistMetadata`).
+  //
+  // So a dry run uses stored credentials when they are already there, and
+  // otherwise stays key-only. The condition is deliberately "tokens are on
+  // disk" rather than a try/catch around the call: without them
+  // `getClientAuthAndKey` starts an interactive authorisation, which prints a
+  // URL and exits the process rather than throwing, so catching would not save
+  // us. This way a dry run never begins a flow it did not already have the
+  // means to finish.
+  const storedCredentials = Boolean(
+    localStorage.clientAccessToken && localStorage.clientRefreshToken,
+  );
+  const client = !dryRun
+    ? await getClientAuthAndKey()
+    : storedCredentials
+    ? await getClientAuthAndKey()
+    : undefined;
   const youtube = client?.youtube ?? (await getClientAndKey()).youtube;
   const auth = client?.auth;
   const key = client?.key ?? (await getClientAndKey()).key;
@@ -412,8 +433,15 @@ export async function updatePlaylist(
   const descriptionChanged =
     existingMetadata.snippet?.description?.trim() !== description?.trim();
   // A playlist we keep updating but do not want listed: same contents, same
-  // description, just not shown on the channel or in search.
-  const privacyStatus = unlisted ? "unlisted" : "public";
+  // description, just not shown on the channel or in search. `private` goes
+  // further and is a holding state rather than a destination -- see the config
+  // schema. It wins, because a playlist YouTube will not let us make visible
+  // has no business being asked to become unlisted either.
+  const privacyStatus = isPrivate
+    ? "private"
+    : unlisted
+    ? "unlisted"
+    : "public";
   const privacyChanged = existingMetadata.status?.privacyStatus !==
     privacyStatus;
 

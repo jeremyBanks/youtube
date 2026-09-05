@@ -645,7 +645,14 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Total Forgiveness, in which Ally Beardsley and Grant O'Brien compete to have their student debt paid off and agree to almost anything on the way. ${MAYBE_MEMBERS_ONLY}
 """
 
+# Held private until YouTube lets it out. Every attempt to create this playlist
+# public was refused with a 429, as was creating it unlisted, and as is moving
+# it out of private once created -- private is the only visibility the API will
+# currently accept. So it is created and filled private, and this flag stops
+# `publish` attempting the transition it is going to refuse on every run.
+# Delete the flag and publish again to release it; see dropout-originals.md.
 [PLTC6zTYElgZ4]
+private = true
 name = "Paranoia (${ALL_SEASONS})"
 show = "Paranoia"
 description = """

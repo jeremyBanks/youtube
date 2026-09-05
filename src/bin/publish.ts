@@ -121,7 +121,11 @@ Options:
       playlist.name,
       playlist.description,
       videoIds,
-      { dryRun, unlisted: playlist.unlisted ?? false },
+      {
+        dryRun,
+        unlisted: playlist.unlisted ?? false,
+        isPrivate: playlist.private ?? false,
+      },
     );
   }
 }

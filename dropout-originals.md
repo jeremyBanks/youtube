@@ -186,12 +186,12 @@ visible was already failing, so they cannot speak to that earlier window;
 distinguishing the possibilities would have meant probing while it was open, and
 it has closed.
 
-`PLTC6zTYElgZ4` is created private and `config/aggregate.toml` points at it.
-Because the privacy update runs before entries are inserted, and every
-transition out of private is refused, the playlist is still empty. One ordinary
-`deno task publish` on a later day does the flip and all fifteen entries with no
-special handling — and whether that first attempt succeeds is the cheapest
-remaining evidence about what the limit actually is.
+`PLTC6zTYElgZ4` is created private, filled with all fifteen entries, and carries
+the correct title and description. `private = true` on its entry in
+`config/aggregate.toml` is what makes that a stable state rather than a failure
+every run: without it `publish` tries the transition out of private on every
+pass, is refused, and gives up before inserting anything. **To release it,
+delete that one line and publish.** Nothing else about it is provisional.
 
 Reading it back at all required a fix. `playlistMetadata` and `playlistVideos`
 authenticated with the API key alone, which is enough for a public or unlisted

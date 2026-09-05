@@ -582,6 +582,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of WTF 101, the animated series in which Professor Foxtrot drags a class of doomed teenagers through the worst facts nature has to offer. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLUb21ThiLXJ0]
+name = "Cartoon Hell (${ALL_SEASONS})"
+show = "Cartoon Hell"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from ${SEASONS} seasons of Cartoon Hell, the Drawfee show in which artists are made to draw the worst ideas anyone can think of. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

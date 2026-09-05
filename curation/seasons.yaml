@@ -7693,11 +7693,19 @@ videos:
 ---
 
 # Ally Beardsley's game show about being secretly high. Eight of the fifteen
-# episodes also went up free under completely different titles -- "Way Too
-# Stoned on Parents' Weekend" for "Parents' Weekend", "High In Another Country"
-# for "Study Abroad", "Political Paranoia" for "Politics". Each free cut runs
-# fifteen to twenty seconds longer than its members version, which is how the
-# pairs were matched; the titles share no words at all.
+# episodes also went up free, retitled, and the retitling is inconsistent
+# rather than uniform. Four share no word with the episode: "The Game Where Two
+# People Are Secretly Stoned" for "Finals Week", "High In Another Country" for
+# "Study Abroad", "Secretly Stoned at Your Job" for "The Internship", "Secretly
+# Stoned With Your Grandma" for "Family Visiting". The rest keep the episode
+# title whole inside a longer one -- "Way Too Stoned on Parents' Weekend",
+# "High as Hell at Homecoming", "High for the Holidays" -- and "Political
+# Paranoia" keeps only the stem of "Politics". So a title match finds half of
+# these and no more.
+#
+# The five pairs where both cuts are curated run 7 to 25 seconds longer free
+# than members (937/954, 802/819, 1325/1332, 1194/1205, 1130/1155), which is
+# what settled the matching where the titles would not.
 
 show: Paranoia
 season: Season 1

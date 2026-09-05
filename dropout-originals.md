@@ -203,11 +203,20 @@ dry run is unchanged and a real publish can see its own private playlists.
 
 Both of the questions this file used to leave open have been answered.
 
-**Lonely and Horny is omitted.** It is a Jake and Amir show, and it is not on
-watch.dropout.tv, not on any channel we scan, and not in any playlist we have
-ever listed — a search across `data/` for the title returns nothing at all.
-There is nothing to curate, so it is left off rather than recorded as missing.
-If it ever resurfaces somewhere we track, it can be added then.
+**Lonely and Horny is omitted, and now for a checked reason.** It was written
+off once on the strength of a search across `data/` that found nothing, which
+proved nothing: the Jake and Amir channel was the one channel not being scanned,
+so the corpus searched could never have contained their show. `@jakeandamir` is
+now in `config/scan.toml` and its 1,060 videos are captured.
+
+The show is still not curatable, but the evidence is real this time. Five videos
+there carry the name. One is a 2016 _If I Were You_ podcast episode called after
+it. The other four are two-to-four minute clips, and their own descriptions say
+what they are: "Clip from Lonely and Horny Season 2. Watch the whole thing now
+at patreon.com/JA", "Opening Scene from Season 2, Episode 6". The full episodes
+live on Patreon; YouTube has only promos for them. Excerpts are never curated,
+so there is nothing here to add — and, unlike before, we know why rather than
+merely failing to find it.
 
 **Toonout's "Wealwell's Guide to Reposed Standing" stays in Toonout only.** It
 animates a Cloudward, Ho! moment, and the rule for animated shorts would

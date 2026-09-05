@@ -168,18 +168,32 @@ export const dump = async (
   path: string,
   items: Array<Record<string, unknown>>,
 ) => {
-  let data = items
-    .map((x) =>
-      yaml
-        .stringify(x, {
-          noCompatMode: true,
-          noArrayIndent: true,
-          lineWidth: -1,
-          schema: yaml.DEFAULT_SCHEMA,
-          skipInvalid: true,
-        })
+  const documents = items.map((x) =>
+    yaml
+      .stringify(x, {
+        noCompatMode: true,
+        noArrayIndent: true,
+        lineWidth: -1,
+        schema: yaml.DEFAULT_SCHEMA,
+        skipInvalid: true,
+      })
+  );
+
+  // A blank line before each `---`, except where the document has already
+  // ended in one. Joining on a fixed `"\n---\n\n"` was not round-trip stable:
+  // a document whose last value is a keep-chomped block scalar (`|+`, which is
+  // how a description ending in blank lines is written) runs all the way to
+  // the separator, so the blank line the separator added was read back as part
+  // of the description and written out again with another one after it.
+  // Eighteen records grew by a line on every dump, forever, and `aggregate`
+  // runs daily.
+  let data = documents
+    .map((doc, i) =>
+      i === documents.length - 1
+        ? doc
+        : (doc.endsWith("\n\n") ? doc : doc + "\n") + "---\n\n"
     )
-    .join("\n---\n\n");
+    .join("");
 
   let maxLeadingKeyLength = 0;
   for (const leadingKey of data.matchAll(/^\w+: \S/mg)) {

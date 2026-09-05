@@ -114,6 +114,10 @@ complete-interval = "P350D"
 incremental-interval = "P56D"
 complete-interval = "P280D"
 
+[jakeandamir]
+incremental-interval = "P70D"
+complete-interval = "P350D"
+
 [criticalrole]
 incremental-interval = "P35D"
 recent-interval = "P70D"

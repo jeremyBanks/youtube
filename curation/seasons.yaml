@@ -6825,3 +6825,146 @@ videos:
     public: OZ9ZGGMaQm4
     members: U6PqmjcrVaY
     published: 2019-12-19
+
+---
+
+# Troopers ran as CollegeHumor sketches from 2011 to 2013 before Dropout
+# rebooted it in 2019 with longer episodes and a budget -- the reboot's trailer
+# is literally titled "Rise of the Budget". The sketches go in a doc with no
+# `season:` key, like every precursor, and follow Dropout's own episode order
+# rather than upload order, which is not quite the same.
+
+show: Troopers
+videos:
+  - episode: 001. Forcefield
+    public: zYTW-rZVte4
+    published: 2011-04-13
+  - episode: 002. Mind Trick
+    public: GOBE0yqiMHo
+    published: 2011-06-02
+  - episode: 003. Coffee Run
+    public: vbG3KNpytYQ
+    published: 2011-06-02
+  - episode: 004. Interrogation
+    public: oEzl-uHrNAY
+    published: 2011-06-03
+  - episode: 005. The Swamp Planet
+    public: S84W8maXZ0Q
+    published: 2011-05-03
+  - episode: 006. Space Improv
+    public: 3ZOtfBGMuwI
+    published: 2011-06-03
+  - episode: 007. Rescue Mission
+    public: QK5OEQsZwJI
+    published: 2011-05-31
+  - episode: 008. Lost in Translation
+    public: Pucr_VgtI8I
+    published: 2011-06-14
+  - episode: 009. Secret Message
+    public: kmXdv4eTXDs
+    published: 2011-06-16
+  - episode: 010. Who to Kill?
+    public: iTL64kVIA_g
+    published: 2011-07-05
+  - episode: 011. Gun Privileges
+    public: CMscSfkKAxA
+    published: 2011-08-24
+  - episode: 012. Suggestion Box
+    public: vhZRi2x8mk0
+    published: 2011-10-18
+  - episode: 013. Supercomputer
+    public: 3ZSmw3uNJEg
+    published: 2011-11-14
+  - episode: 014. Escape Pod Confessions
+    public: JWxwzU2_bDQ
+    published: 2012-01-04
+  - episode: 015. Laser Sword
+    public: lWxnwSFpX-s
+    published: 2012-03-12
+  - episode: 016. Tractor Beam
+    public: UI1t6YaO9JA
+    published: 2012-06-09
+  - episode: 017. Bathroom Run
+    public: 0z7p0oM4_RM
+    published: 2012-12-13
+  - episode: 018. Scareduke
+    public: VsulPjOqr6I
+    published: 2012-12-20
+  - episode: 019. Holopad
+    public: 4iJ56DcNtmo
+    published: 2013-01-21
+
+---
+
+show: Troopers
+season: Season 1
+videos:
+  - trailer: "TROOPERS: Rise of the Budget"
+    public: OvNrTQAE38g
+    published: 2019-04-08
+  # Dropout titles this "The Series Reboots" and describes the Legion's "new
+  # recognition program", which is the Trooper of the Week award. No members
+  # upload of it reached YouTube; the members batch on 2019-09-16 runs 2 to 11.
+  - episode: 1. The Series Reboots
+    dropout: the-series-reboots
+    public: WbH_QVzRgy8
+    published: 2019-04-15
+  - episode: 2. A Disturbance in HR
+    public: hObjSjZ4M1E
+    members: OUbiBjbXyyg
+    published: 2019-04-22
+  - episode: 3. The Data Quest
+    members: lrdLFqaUNqA
+    published: 2019-09-16
+  - episode: 4. Birth of the Big Gun
+    members: XKMgXtzIMJ0
+    published: 2019-09-16
+  - episode: 5. Way of the Wayfinder
+    members: xDOqyo6ScMM
+    published: 2019-09-16
+  - episode: 6. The Secret of UUP
+    members: 6QkLTtJBuiA
+    published: 2019-09-16
+  - episode: 7. Return of the Orb
+    members: 3FJTLiFl1oI
+    published: 2019-09-16
+  - episode: 8. The Telltale Trials
+    members: qsB58PXz2sc
+    published: 2019-09-16
+  - episode: 9. A Shift in Power
+    members: PFc8XrwYxYM
+    published: 2019-09-16
+  - bts: "Behind the Scenes: The Troopers Universe"
+    members: B3-HuOjjE74
+    published: 2019-09-16
+  - bts: "Behind the Scenes: Production and Design"
+    members: tVw5O4jThZA
+    published: 2019-09-16
+
+---
+
+# Original animated shorts, not animations of existing episodes -- which is why
+# these get a season of their own rather than the treatment CLAUDE.md gives
+# Dimension 20 Animated and Game Changer Animated.
+
+show: Troopers
+season: Animated
+videos:
+  - episode: 1. Troopers vs. Social Media
+    public: 5tzY4y8kQ2I
+    published: 2020-11-18
+  - episode: 2. Troopers vs. Teleporter
+    public: D6uh2k-59dY
+    published: 2020-12-02
+  - episode: 3. Troopers vs. Performance Reviews
+    public: UYs6jDLg_48
+    published: 2020-12-16
+  - episode: 4. Troopers vs. Character Stats
+    public: C3-vWRxSX9w
+    published: 2021-01-20
+  - episode: 5. What It's Like To Date An Alien
+    public: -dszLeJ1amE
+    published: 2021-02-03
+  - episode: 6. Death By Space
+    public: BA6pchSJwuY
+    published: 2021-02-17

@@ -568,6 +568,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Ultramechatron Team Go!, Mike Trapp's kaiju comedy about one giant robot and four giant idiots. Begins with the four CollegeHumor sketches from 2018 that the series grew out of. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLSVcHrgZuo9U]
+name = "Troopers (${ALL_SEASONS})"
+show = "Troopers"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Troopers, the workplace comedy set among the grunts of an evil galactic empire. Begins with the nineteen CollegeHumor sketches from 2011 to 2013, then the 2019 Dropout reboot, then the animated shorts. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

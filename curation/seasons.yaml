@@ -85,6 +85,7 @@ videos:
     members: idvVx0aOOTE
     published: 2019-09-27
   - episode: "11. Cool Kid, Cold Case"
+    dropout: cool-kids-cold-case
     public: nJKSJwYhxOw
     members: _GJK9P2LVdU
     published: 2019-09-20
@@ -124,7 +125,7 @@ videos:
     members: qsKAE8738aw
     published: 2019-09-22
   - episode: 17. Prompocalypse (Part 2)
-    dropout: prompocalypse
+    dropout: prompocalypse-pt-2
     public: _F1gTeuVMb8
     members: ayGtElwiNTo
     published: 2019-09-23
@@ -194,6 +195,7 @@ videos:
     members: XCcHTrZR0bE
     published: 2020-04-04
   - bts: Behind the Scenes
+    dropout: escape-from-the-bloodkeep-behind-the-scenes
     members: rqwcG_2upgk
     published: 2019-09-10
   - bts: Cast Reunion (Part 1)
@@ -305,7 +307,7 @@ videos:
     members: 6W-m2zmEvvw
     published: 2020-12-18
   - episode: 17. Times Squaremageddon (Part 2)
-    dropout: times-squaremageddon
+    dropout: times-squaremageddon-pt-2
     public: RcvVO3xd-po
     members: mpQ7hkuTf2A
     published: 2020-12-25
@@ -339,10 +341,12 @@ videos:
     members: BDhea1lB4jk
     published: 2019-11-08
   - bts: How the Editors Make Dimension 20 Come To Life
+    dropout: behind-the-scenes-editors
     public: kjIorkzxF0s
     members: BlqP6apErG8
     published: 2019-12-14
   - bts: How the Minis of Dimension 20 Are Made
+    dropout: behind-the-scenes-art-team
     public: LIGsNWQ8zEU
     members: SmVgwnO4P28
     published: 2019-11-30
@@ -407,6 +411,7 @@ videos:
     members: nXsCz9Hbv8M
     published: 2019-12-20
   - episode: 10. The Dangerous Mind of Aelwen Abernant
+    dropout: the-dangerous-mind-of-aelwen-abernant
     public: ccnKkEUhLJs
     members: olqzGm7MSzw
     published: 2020-01-17
@@ -1141,6 +1146,7 @@ videos:
     members: OzknT7IRikE
     published: 2021-12-02
   - special: Holiday Special
+    dropout: misfits-magic-holiday-special
     members: DCDpWKEPQzQ
     published: 2021-12-17
   - special: Live at GenCon
@@ -1306,6 +1312,7 @@ videos:
     members: OyVhJi7hr0g
     published: 2021-12-01
   - bts: 'Oh No, I''m In Love With Chupacabra'
+    dropout: oh-no-i-m-in-love-with-a-chupacabra
     talkback: true
     members: _BYg4oX3juA
     published: 2021-12-08
@@ -4737,6 +4744,7 @@ videos:
     public: 8Jr7dyVCmFM
     published: 2023-12-13
   - trailer: Fantasy High Seasons 1 and 2 Full Recap
+    dropout: dimension-20-fantasy-high-seasons-1-2-full-recap
     public: HgGZvg8gbBM
     members: lNiwFpuSH5c
     published: 2023-12-27
@@ -4762,9 +4770,11 @@ videos:
     members: E6NL9AjoGPM
     published: 2024-01-07
   - bts: with Lou Wilson
+    dropout: behind-the-scenes-lou-wilson
     members: Gl3uIEk7aq0
     published: 2024-01-08
   - bts: with Brennan Lee Mulligan
+    dropout: behind-the-scenes-brennan-lee-mulligan
     members: g722RMM-OsA
     published: 2024-01-09
   # Three uploads within half an hour on 2024-01-10. The `public copy` is the
@@ -4872,6 +4882,7 @@ videos:
     members: QN85JKB0Cr8
     published: 2024-03-14
   - trailer: Fantasy High Junior Year Mid Season Recap
+    dropout: dimension-20-fantasy-high-junior-year-mid-season-recap
     public: 3C9Ktjl4rwA
     members: qmRyK1xrlI4
     published: 2024-03-18
@@ -4967,6 +4978,7 @@ videos:
     published: 2024-05-23
 
   - bts: The Crew
+    dropout: behind-the-scenes-the-crew
     members: qhP2LbISdzw
     published: 2024-05-29
 
@@ -5842,6 +5854,7 @@ videos:
     public: s02byVayinI
     published: 2024-09-04
   - trailer: Misfits and Magic Season 1 Recap
+    dropout: dimension-20-misfits-and-magic-season-1-recap
     public: 4nnkns2w8tU
     published: 2024-09-11
   - episode: 1. A Meeting of Misfits

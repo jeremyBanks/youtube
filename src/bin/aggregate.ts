@@ -4,7 +4,7 @@ import {
   getDropoutConfig,
   getSeasonsCuration,
 } from "../config.ts";
-import { showPrefixes } from "../dropout-link.ts";
+import { isAggregate, showPrefixes } from "../dropout-link.ts";
 import * as yaml from "../yaml.ts";
 import { normalizeTitle } from "../common.ts";
 import { DropoutCollection, DropoutEpisode } from "../storage.ts";
@@ -145,7 +145,11 @@ function episodesMissingFrom(
     // whole of Game Changer season 7 came into scope and counted as missing.
     if (
       slugs.has(episode.slug) &&
-      prefixes.some((p) => episode.collection.startsWith(p))
+      prefixes.some((p) => episode.collection.startsWith(p)) &&
+      // An aggregate collection is not a home. Dimension 20's live shows are
+      // filed under one, so a campaign playlist carrying its own live show
+      // was treated as drawing on every live show there had ever been.
+      !isAggregate(episode.collection.replace(/-season-\d+$/, ""))
     ) {
       touched.add(episode.collection);
     }

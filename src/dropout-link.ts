@@ -20,7 +20,11 @@ import { normalizeTitle } from "./common.ts";
  * show's home and would match a show's name misleadingly.
  */
 export function isAggregate(slug: string): boolean {
-  return /complete-(series|experience)/.test(slug) ||
+  // `complete-collection` belongs here too: Dimension 20's live shows are
+  // gathered under `dimension-20-live-complete-collection`, so without it a
+  // playlist that carries one live show was treated as drawing on all of
+  // them, and the rest were reported as gaps in it.
+  return /complete-(series|experience|collection)/.test(slug) ||
     slug === "dip-your-toe-in" || slug === "dropout-24-7";
 }
 

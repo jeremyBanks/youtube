@@ -225,6 +225,19 @@ out of an archive or a revival made for Patreon is not something we can tell
 from here. It does not change the outcome — a clip is an excerpt either way —
 but it should not be written down as though it were settled.
 
+The rest of that channel contributes nothing either, which was checked rather
+than assumed. All 1,060 videos were matched on title and description against
+"dropout", "dropout.tv" and "@dropout", and against all 38 show names the
+curation holds. **Not one mentions Dropout in any form** — no dropout.tv link
+anywhere, which stands out, since every Dropout-adjacent channel we scan is full
+of them. 371 mention CollegeHumor and all are the 2008–2015 Jake and Amir
+shorts, CollegeHumor-branded and so out of scope, none of them a prequel to a
+Dropout show. The single apparent Troopers hit, `yfLSTg87xVc` "Would you
+Rather?" from 2011, is a false positive: its description opens with a
+cross-promo link for the 2011 CollegeHumor Troopers series, which we do curate
+as the Troopers precursor, but the video is a Jake and Amir sketch advertising
+it.
+
 **Toonout's "Wealwell's Guide to Reposed Standing" stays in Toonout only.** It
 animates a Cloudward, Ho! moment, and the rule for animated shorts would
 otherwise file it as an `animation:` inside that season as well. It is not

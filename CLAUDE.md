@@ -56,6 +56,40 @@ wants review. If any step failed, push what did succeed (scan data is always
 worth keeping, since a video pulled between scans is unrecoverable) and say
 plainly which steps did not run.
 
+## Before concluding something is absent
+
+Three times in one session a search that could not have found a thing was
+reported as evidence the thing did not exist. Each time the claim was wrong, and
+twice it was published or committed before anyone asked how we knew.
+
+- **Lonely and Horny** was written off as "not on YouTube" on the strength of a
+  search across `data/`, when the Jake and Amir channel — the one channel likely
+  to carry it — was not being scanned at all.
+- **"No tests exist"**, from globbing `*_test.ts` and `*.test.ts`. The suite is
+  `test.ts` in the repo root, 617 lines and 28 cases.
+- **See Plum Run "was pulled from watch.dropout.tv"**, from a count grouped by
+  `showTitle`. It is on the site, and that sentence reached the published
+  playlist description on a channel with real subscribers.
+
+So: before writing down that something is missing, say what query was run and
+why that query would have found it if it were there. If that sentence cannot be
+written, the finding is "not looked for", which is a different claim.
+
+**`showTitle` is the specific trap.** 443 of the 3,601 records in
+`data/dropout.yaml` do not carry one — every Precious Plum and See Plum Run
+record, 9 Unsleeping City, Ultramechatron's web series, Dirty Laundry's season
+69, 94 trailers, and the old CH web series generally. `gaps.md` has listed this
+since it was written. Group by `collection` with the collection's title as the
+fallback, the way `curation`'s linker does, which leaves 4 records unattributed
+rather than 443. **A zero in a `showTitle` grouping means nothing.**
+
+## Tests
+
+`deno test --allow-all` runs `test.ts`: 28 cases covering the sitemap and
+episode-page parsers, title normalisation, the playlist diff, and storage
+flushing on an aborted run. There is no `deno task` for it, so it is easy to
+miss and was missed. `deno task check` does not run it.
+
 ## Project Structure
 
 ```

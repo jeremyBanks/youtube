@@ -7640,3 +7640,207 @@ videos:
     published: 2020-12-15
   # Dropout numbers these 1 to 10 but has no episode 9 at all; the numbering
   # here follows theirs rather than closing the gap silently.
+
+---
+
+# Ally Beardsley and Grant O'Brien doing anything for money. Episode 1 is on
+# YouTube as "Leeches, Exes, and Loans [Full Episode]" -- free, seven months
+# before the members batch, and the only episode with no members upload.
+
+show: Total Forgiveness
+season: Season 1
+videos:
+  - episode: "1. Leeches / Ex"
+    public: wzQDifGMnPE
+    published: 2019-02-14
+  - episode: "2. Makeover / Shock Collar"
+    members: hl5oUorNBT8
+    published: 2019-09-06
+  - episode: "3. Coffins / Camping"
+    members: KIE_SLg9J5Y
+    published: 2019-09-06
+  - episode: "4. Stand-up / Diaries"
+    members: H0pwEogDi-o
+    published: 2019-09-06
+  - episode: "5. National Anthem / Lock-In"
+    members: -4nW-Z5jPHU
+    published: 2019-09-06
+  - episode: "6. Needle / Snake"
+    members: JPKNUXJ1vKA
+    published: 2019-09-06
+  - episode: "7. Drunk / Bell"
+    members: e5xHYk15XpY
+    published: 2019-09-06
+  - episode: "8. Scam / Flea Market"
+    members: Zkq5EIegHfY
+    published: 2019-09-06
+  - episode: "9. Tattoo / Performance Art"
+    members: OD2Ry9NwzjI
+    published: 2019-09-06
+  - episode: "10. Finale"
+    members: lMt49X8_ONc
+    published: 2019-09-06
+  - bts: Reunion
+    members: yZyU8asbH9U
+    published: 2019-09-06
+  - bts: "Grant O'Brien: It's All Love (Full Stand-up)"
+    members: rw_1qH_8uXs
+    published: 2019-09-09
+  - bts: "Ally Beardsley: What's Wrong With Me? (Full Stand-up)"
+    members: HnpewK9Yzps
+    published: 2019-09-09
+
+---
+
+# Ally Beardsley's game show about being secretly high. Eight of the fifteen
+# episodes also went up free under completely different titles -- "Way Too
+# Stoned on Parents' Weekend" for "Parents' Weekend", "High In Another Country"
+# for "Study Abroad", "Political Paranoia" for "Politics". Each free cut runs
+# fifteen to twenty seconds longer than its members version, which is how the
+# pairs were matched; the titles share no words at all.
+
+show: Paranoia
+season: Season 1
+videos:
+  - episode: "101. Finals Week"
+    public: ck1JW-_G2Yc
+    published: 2019-04-20
+  - episode: "102. Parents' Weekend"
+    public: s5_JVmcDK5c
+    published: 2019-05-17
+  - episode: "103. Study Abroad"
+    public: a0nBDwBFPI4
+    published: 2019-05-24
+  - episode: "104. Thanksgiving at Home"
+    members: DpVyPxBAitQ
+    published: 2019-09-13
+  - episode: "105. Homecoming Weekend"
+    public: eQXc_4SZ__g
+    members: U6oHk93JfFo
+    published: 2019-06-29
+  - episode: "106. The Internship"
+    public: XmMOFWMJabA
+    members: M3gCprYbvgE
+    published: 2019-07-06
+
+---
+
+show: Paranoia
+season: Season 2
+videos:
+  - episode: "201. Family Visiting"
+    public: 7TBCkgJBt4I
+    members: EPTgS3YfptU
+    published: 2019-10-30
+  - episode: "202. Arts & Culture"
+    members: rIyZSSAe9XM
+    published: 2019-11-06
+  - episode: "203. Travel"
+    members: oKDuonLgy_U
+    published: 2019-11-15
+  - episode: "204. Politics"
+    public: IJKR0O3BfOs
+    members: bAgckbJbX0A
+    published: 2019-11-21
+  - episode: "205. Romance"
+    members: aiM0gqh-Dy8
+    published: 2019-11-21
+  - episode: "206. Moving Day"
+    members: j_EbsACTRgI
+    published: 2019-12-05
+  - episode: "207. First Job"
+    members: sId5GgBWcyg
+    published: 2019-12-11
+  - episode: "208. Holidays"
+    public: dTs1Q2VYYSU
+    members: gYi_wavBj8Y
+    published: 2019-12-18
+  - episode: "209. Shitty Job"
+    members: Iez4LEl2Eu0
+    published: 2019-12-20
+
+---
+
+# Katie Marovitch's Breaking Bad origin story. The CollegeHumor web series of
+# the same name goes in the precursor doc: seven shorts of about 150 seconds
+# each, against episodes of fifteen minutes.
+
+show: Kingpin Katie
+videos:
+  - episode: "001. Dare"
+    members: uvqgtnpuazs
+    published: 2019-09-11
+  - episode: "002. Wrongful Arrest"
+    members: kGk1sWOxRDA
+    published: 2019-09-11
+  - episode: "003. Sketch Ideas"
+    members: mBH0HCKCAbo
+    published: 2019-09-11
+  - episode: "004. Should You Handle That?"
+    members: 9X9AH-oEFlo
+    published: 2019-09-11
+  - episode: "005. Wobbly Table"
+    members: NzRops3H9zI
+    published: 2019-09-11
+  - episode: "006. Menu Pictures"
+    members: us4F03lSuOc
+    published: 2019-09-11
+  - episode: "007. How Are You Going to Spend the Money?"
+    members: KkKfj6kagJA
+    published: 2019-09-11
+
+---
+
+show: Kingpin Katie
+season: Season 1
+videos:
+  - episode: "1. Going Clean"
+    members: y2Dh28TdWfE
+    published: 2019-09-13
+  - episode: "2. A Fresh Cold Cut"
+    members: 6aAR1K8GJWg
+    published: 2019-09-13
+  - episode: "3. Fake-Ass"
+    members: qaBJRfOaPKs
+    published: 2019-09-13
+  - episode: "4. KOOM"
+    members: lJvOsKbdMGM
+    published: 2019-09-09
+  - episode: "5. One Little Sip"
+    members: qciVUkPeD1o
+    published: 2019-09-09
+  - episode: "6. The Breakup"
+    members: k5BTijfctDk
+    published: 2019-09-09
+  - episode: "7. Who Is Katie Marovitch?"
+    members: ylaC7S2k2vU
+    published: 2019-09-09
+  - episode: "8. Cat and Mouse"
+    members: CBwTVVtSWfU
+    published: 2019-09-09
+
+---
+
+# Rekha Shankar as a woman who cannot stop turning up where she is not wanted.
+
+show: Where in the Eff is Sarah Cincinnati
+season: Season 1
+videos:
+  - episode: "1. Sarah Attends a Wedding"
+    members: HoJTI00CAEs
+    published: 2019-12-13
+  - episode: "2. Sarah Takes a Slaycation"
+    members: 5Ky7ibv7ra8
+    published: 2019-12-18
+  - episode: "3. Sarah Goes to a Bachelorette Party"
+    members: hehuO4HC94A
+    published: 2019-12-18
+  - episode: "4. Sarah Crashes Her Sister's Birthday"
+    members: f5qQpDe-1LU
+    published: 2020-01-03
+  - episode: "5. Sarah Visits Her Auntie"
+    members: Gf5T7gQpSvg
+    published: 2020-01-09
+  - episode: "6. Sarah Gets Enlightened"
+    members: 94Q1IxvZt1g
+    published: 2020-01-09

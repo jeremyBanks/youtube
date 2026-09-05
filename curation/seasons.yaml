@@ -303,25 +303,32 @@ videos:
     members: mpQ7hkuTf2A
     published: 2020-12-25
   - bts: "Behind the Scenes: Brennan"
+    dropout: behind-the-scenes-brennan
     public: 5Gov0t2HOas
     members: Gbr9AGX58pE
     published: 2019-11-16
   - bts: "Behind the Scenes: Murph"
+    dropout: behind-the-scenes-murph
     members: GtkWIOkOMIw
     published: 2019-11-14
   - bts: "Behind the Scenes: Ally"
+    dropout: behind-the-scenes-ally
     members: Eb5wey1ZBgA
     published: 2019-11-14
   - bts: "Behind the Scenes: Zac"
+    dropout: behind-the-scenes-zac
     members: LYo8Tr9K0Eg
     published: 2019-11-14
   - bts: "Behind the Scenes: Siobhan"
+    dropout: behind-the-scenes-siobhan
     members: Cku2ZO43TaA
     published: 2019-11-08
   - bts: "Behind the Scenes: Lou"
+    dropout: behind-the-scenes-lou
     members: g2EfECoV2nI
     published: 2019-11-08
   - bts: "Behind the Scenes: Emily"
+    dropout: behind-the-scenes-emily
     members: BDhea1lB4jk
     published: 2019-11-08
   - bts: How the Editors Make Dimension 20 Come To Life
@@ -462,6 +469,7 @@ videos:
     members: 7rjNgO-YUos
     published: 2020-10-28
   - bts: Making Chungledown Bim (with Lou Wilson)
+    dropout: making-chungledown-bim-with-lou-wilson
     members: z2sn-g35LFQ
     published: 2021-01-08
 
@@ -1965,6 +1973,7 @@ videos:
     members: 3WGeM64PEHY
     published: 2023-04-19
   - bts: "Behind the Scenes: How It Began"
+    dropout: behind-the-scenes-how-it-began
     public: Whsv1g5ws60
     members: zplZEDC-nj4
     published: 2023-05-03
@@ -8613,9 +8622,15 @@ videos:
 ---
 
 # Precious Plum, the 2013 CollegeHumor original that See Plum Run continues.
-# Precursor doc, no `season:` key. Neither show is on watch.dropout.tv any
-# more -- See Plum Run was pulled at some point and the scrape, which reads
-# today's sitemap, cannot see it. The YouTube capture is all there is.
+# Precursor doc, no `season:` key.
+#
+# This used to say both shows had been pulled from watch.dropout.tv. They have
+# not. Both are there, as the collections `see-plum-run` (25 episodes) and
+# `precious-plum` (27). The mistake was reading a count that grouped Dropout
+# episodes by `showTitle`, a field 443 of the 3,601 scraped records simply do
+# not carry -- every Plum record among them. Absent from a grouping is not
+# absent from the site, and the difference was invisible until somebody asked
+# how we knew.
 
 show: See Plum Run
 videos:
@@ -8623,36 +8638,45 @@ videos:
     public: qseH6-DV2gc
     published: 2013-05-23
   - episode: 002. Hitchhiking
+    dropout: hitchhiking
     public: 5go5uFVzPdU
     published: 2013-06-06
   - episode: 003. Tow Truck
+    dropout: tow-truck
     public: PXLiW9IB5bU
     published: 2013-06-13
   - episode: 004. A Bat Named Dog
+    dropout: a-bat-named-dog
     public: m7PZBLvpMas
     published: 2013-10-17
   - episode: 005. A Good Sword
+    dropout: a-good-sword
     public: UaiNoRmhCg0
     published: 2013-10-24
   - episode: 006. A Swim in Sh*t
     public: 6f9cFLYW6ZY
     published: 2013-11-01
   - episode: 007. A Blood Drive
+    dropout: a-blood-drive
     public: -99epVQuAKk
     published: 2013-11-14
   - episode: 008. A Holy Man
     public: BFGEGksIm28
     published: 2013-11-14
   - episode: 009. Some Vampire Teeth
+    dropout: some-vampire-teeth
     public: B4gVdTr8klc
     published: 2013-12-05
   - episode: 010. A Gator Fight
+    dropout: a-gator-fight
     public: NUrFeWJDByw
     published: 2013-12-12
   - episode: 011. A Tormado
+    dropout: a-tormado
     public: wS_MeKdz9Uw
     published: 2013-12-20
   - episode: 012. A Car House
+    dropout: a-car-house
     public: YfReIQEQeDA
     published: 2014-01-09
   - bts: Precious Plum Bonus Footage
@@ -8677,39 +8701,50 @@ videos:
     public: Myo_5KYx_YI
     published: 2018-10-06
   - episode: 2. We Want Dessert
+    dropout: we-want-dessert
     members: Lc1PlDM47Nk
     published: 2019-09-16
   - episode: 3. Don't Make Me Move
+    dropout: don-t-make-me-move
     members: Laxiv7L4b3w
     published: 2019-09-16
   - episode: 4. The Cock Hog
+    dropout: the-cock-hog
     members: lQigoqsK6Kg
     published: 2019-09-16
   - episode: 5. The Rumor Mill
+    dropout: the-rumor-mill
     members: wn02HGYTgmw
     published: 2019-09-16
   - episode: 6. The Belly Button Ring
+    dropout: the-belly-button-ring
     members: ZybLCYiyyl4
     published: 2019-09-16
   - episode: 7. Dirty Talk
+    dropout: dirty-talk
     members: kGekK7ESwsI
     published: 2019-09-16
   - episode: 8. The Kennedy Conspiracy
+    dropout: the-kennedy-conspiracy
     members: whYNovyDGnA
     published: 2019-09-16
   - episode: 9. Busted
+    dropout: busted
     members: qDKORo7TKn8
     published: 2019-09-16
   - bts: "See Plum Run: Official Music Video"
+    dropout: see-plum-run-official-music-video
     public: j6s4gg0KKFs
     published: 2018-12-11
   - bts: Plum and Mama Bloopers
     public: eJtpMoE707w
     published: 2018-12-16
   - bts: "See Plum Run: Bloopers"
+    dropout: see-plum-run-bloopers
     members: iSaW6HFHCBk
     published: 2019-09-16
   - bts: "See Plum Run: Behind the Scenes"
+    dropout: see-plum-run-behind-the-scenes
     members: 2bZM1EO8YSg
     published: 2019-09-16
 

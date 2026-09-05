@@ -36,21 +36,23 @@ function withDropoutLinks(
   // collection links when the description will not fit, since a partial list
   // of what is missing is worse than none: it reads as the whole of it.
   //
-  // **Nothing passes `missing` today.** The list shipped once and 18 of its
-  // 158 entries were on YouTube all along, curated into a different playlist,
-  // because the test is "absent from this playlist" while the heading claims
-  // "not on YouTube". Worse were the ones no filter would catch: Crown of
-  // Candy's behind-the-scenes is `hdQKi3wf_zw`, which we carry under our own
-  // title, and Cloudward, Ho!'s mid-season recap is `vBJv-RDz52c`. Both were
-  // announced as unavailable because our title and Dropout's differ and
-  // neither entry had a `dropout:` link.
+  // The heading says "not in this playlist", which is exactly the test. It
+  // first said "not on YouTube", which is a different and larger claim, and 18
+  // of the 158 entries broke it: they were on YouTube, curated into some other
+  // playlist. Those are real gaps in this playlist and belong on the list --
+  // the wording was wrong, not the test.
   //
-  // The mechanism is sound and the argument for it stands. It goes back when
-  // the links are good enough that "we could not find it" means we looked.
+  // What the test cannot see is an entry we hold under a different title with
+  // no `dropout:` link. Crown of Candy's behind-the-scenes and Cloudward,
+  // Ho!'s mid-season recap were both announced as absent while sitting in the
+  // playlist under our own names for them. Every such false report is a
+  // missing link, so the list is also a queue of links to add.
   let keptMissing = [...missing];
   while (true) {
     const tail = keptMissing.length
-      ? `\n\nNot on YouTube. Watch these on Dropout:\n${keptMissing.join("\n")}`
+      ? `\n\nNot in this playlist. Watch these on Dropout:\n${
+        keptMissing.join("\n")
+      }`
       : "";
     let kept = [...urls];
     while (true) {
@@ -104,6 +106,7 @@ type CuratedEntry = {
  */
 function episodesMissingFrom(
   included: Array<CuratedEntry>,
+  excluded: Array<CuratedEntry>,
   dropoutEpisodes: Array<DropoutEpisode>,
   prefixes: Array<string>,
 ): Array<DropoutEpisode> | undefined {
@@ -117,6 +120,17 @@ function episodesMissingFrom(
     if (title) titles.add(normalizeTitle(title));
   }
   if (!slugs.size) return undefined;
+
+  // Accounted for without being carried: the playlist knows about these and
+  // chose not to include them, so they are not missing from it.
+  const declined = new Set<string>();
+  const declinedTitles = new Set<string>();
+  for (const entry of excluded) {
+    if (entry.dropout) declined.add(entry.dropout);
+    const title = entry.episode ?? entry.special ?? entry.trailer ??
+      entry.bts ?? entry.animation;
+    if (title) declinedTitles.add(normalizeTitle(title));
+  }
 
   const byCollection = new Map<string, Array<DropoutEpisode>>();
   const touched = new Set<string>();
@@ -145,9 +159,11 @@ function episodesMissingFrom(
     // read, so an unscraped collection is skipped rather than called missing.
     if (episodes.some((e) => !e.title)) continue;
     for (const episode of episodes) {
-      if (
-        !slugs.has(episode.slug) && !titles.has(normalizeTitle(episode.title!))
-      ) {
+      const known = slugs.has(episode.slug) ||
+        titles.has(normalizeTitle(episode.title!));
+      const turnedAway = declined.has(episode.slug) ||
+        declinedTitles.has(normalizeTitle(episode.title!));
+      if (!known && !turnedAway) {
         missing.push(episode);
       }
     }
@@ -274,6 +290,12 @@ async function main() {
     // The curation entries this playlist actually took, for working out
     // which Dropout collections it covers in full.
     const included: Array<CuratedEntry> = [];
+    // The entries this playlist's own filters turned away. Not gaps: an
+    // episodes-only playlist is not missing the behind-the-scenes it was
+    // configured to leave out. Counting them made "Dimension 20 (All
+    // Episodes)" report 52 missing, nearly all of them extras it excludes by
+    // design, and a free-only playlist report every members video.
+    const excluded: Array<CuratedEntry> = [];
 
     let seasonCount = 0;
     let episodeCount = 0;
@@ -332,12 +354,14 @@ async function main() {
               .length ===
             0
         ) {
+          excluded.push(episode);
           continue;
         }
         if (
           config.talkback !== undefined &&
           (episode.talkback ?? false) !== config.talkback
         ) {
+          excluded.push(episode);
           continue;
         }
         if (episode.public) {
@@ -361,6 +385,7 @@ async function main() {
             if (!episode.trailer) bonusCount += 1;
           }
         } else if (episode.members) {
+          if (config.free) excluded.push(episode);
           if (!config.free) {
             videoIds.push(episode.members);
             included.push(episode);
@@ -373,6 +398,7 @@ async function main() {
             }
           }
         } else if (episode.paid) {
+          if (config.free) excluded.push(episode);
           if (!config.free) {
             videoIds.push(episode.paid);
             included.push(episode);
@@ -436,6 +462,7 @@ async function main() {
     // clips channels -- the thing a viewer is actually asking when they look.
     const missingEpisodes = episodesMissingFrom(
       included,
+      excluded,
       dropoutEpisodes,
       (config.shows ?? []).flatMap((show) => prefixesFor(show) ?? []),
     );
@@ -494,14 +521,33 @@ async function main() {
         .replaceAll(/\b1 video are\b/g, "1 video is")
         .replaceAll(/\b1 require \b/g, "1 requires ");
 
+    // `--report` prints the completeness judgement rather than reimplementing
+    // it somewhere else and having the two disagree, which is how the show
+    // mapping ended up with four versions.
+    if (Deno.args.includes("--report")) {
+      console.log(
+        [
+          missingEpisodes === undefined
+            ? "unknown"
+            : String(missingEpisodes.length),
+          episodeCount,
+          bonusCount,
+          applyTemplates(config.name),
+          Deno.args.includes("--missing")
+            ? (missingEpisodes ?? []).map((e) => e.slug).join(",")
+            : "",
+        ].join("\t"),
+      );
+    }
+
     upsert(playlists, {
       name: applyTemplates(config.name),
       description: withDropoutLinks(
         applyTemplates(config.description ?? ""),
         coveredCollectionUrls(included, episodesByCollection),
-        // Not passed for now. See `withDropoutLinks`: the list was published
-        // and was wrong often enough not to be trusted.
-        [],
+        (missingEpisodes ?? []).map((e) => e.url).filter((u): u is string =>
+          typeof u === "string"
+        ),
       ),
       playlistId: config.playlistId,
       unlisted: config.unlisted,

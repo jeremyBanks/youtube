@@ -142,16 +142,21 @@ Passed one million subscribers by October. CAA signed the company in July.
 Done: Cartoon Hell, Troopers, Ultramechatron Team Go!, WTF 101, The Rank Room,
 Toonout, and everything from Game Changer onward.
 
-Outstanding, in the order agreed:
+Also done and published: Fatal Decision's date, TablePop, Gods of Food, See Plum
+Run with Precious Plum, Raph's Hall of Fame, Erotic Book Club with Erotic
+Clubhouse as its second season.
 
-1. Fatal Decision — description should say 2015
-2. TablePop, including the Dorkly material
-3. Gods of Food
-4. See Plum Run
-5. Lonely and Horny — note it was pulled from Dropout in 2019
-6. Raph's Hall of Fame
-7. Erotic Book Club and Erotic Clubhouse, as seasons of one show
-8. Total Forgiveness
-9. Paranoia
-10. Kingpin Katie, with its CollegeHumor web-series version
-11. Where in the Eff is Sarah Cincinnati
+**Curated but not yet published**, because the YouTube API daily quota ran out:
+Total Forgiveness, Paranoia, Kingpin Katie with its web series, and Where in the
+Eff is Sarah Cincinnati. Their playlists are still `[todo-...]` keys in
+`config/aggregate.toml` and need one `publish --create-missing` run once the
+quota resets. Creating a playlist and inserting an entry cost 50 units each.
+
+Outstanding:
+
+1. **Lonely and Horny** — not on watch.dropout.tv at all, and no episodes found
+   on YouTube either. It was pulled from Dropout in 2019 and appears to be
+   genuinely gone from both. Needs a look before it can be curated or written
+   off.
+2. Whether Toonout's "Wealwell's Guide to Reposed Standing" should also appear
+   as an `animation:` inside Dimension 20: Cloudward, Ho!, which it adapts.

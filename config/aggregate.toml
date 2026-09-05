@@ -589,6 +589,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from ${SEASONS} seasons of Cartoon Hell, the Drawfee show in which artists are made to draw the worst ideas anyone can think of. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLJsbcZca7RJU]
+name = "Toonout (${ALL_SEASONS})"
+show = "Toonout"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Toonout, Dropout's anthology of animated shorts, each one made by a different creator. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

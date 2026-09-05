@@ -7146,3 +7146,66 @@ videos:
   - episode: 210. The Most Powerful Things
     members: _59UxIbgBRE
     published: 2019-09-13
+
+---
+
+# An anthology of animated shorts, each from a different creator. Every episode
+# goes up members-only and returns free about eight weeks later, and the free
+# cut is reliably eleven or twelve seconds longer -- the same outro every time,
+# which is what confirms each pair. Four are still members-only, being the four
+# most recent.
+#
+# The @toonoutanimation channel carries nothing but promos and character
+# introductions of thirteen to sixty seconds, so none of it is curated.
+
+show: Toonout
+season: Season 1
+videos:
+  - trailer: Toonout Trailer
+    public: LTba5203dGc
+    public copy: DuUH_nMv3-4
+    published: 2026-03-10
+  - episode: 1. The Legend of Legendarius
+    public: YejpEQLuwaA
+    members: 3L7JT6_PtRQ
+    published: 2026-03-24
+  - episode: 2. Blink Twice If You're Dead
+    public: hCsRvPlr6tU
+    members: 10wJSFpUGqI
+    published: 2026-04-07
+  - episode: 3. The Burbank Beetleboy
+    public: ym4KYnqi4Gc
+    members: pA77HJjZpC8
+    published: 2026-04-21
+  - episode: 4. Wealwell's Guide to Reposed Standing
+    public: o-CncU5RZqo
+    members: xMJsmMop8xc
+    published: 2026-05-05
+  - episode: 5. Josh's Deli
+    public: 4hG-FQrPkuw
+    members: shGH7VUXTIY
+    published: 2026-05-19
+  - episode: 6. Crossed Animals
+    public: fZB24KlD2s8
+    members: JJiW8_fliqM
+    published: 2026-06-02
+  - episode: 7. My Husband
+    members: mTHJSEAYH0E
+    published: 2026-06-16
+  - episode: 8. Last Meal
+    public: fpMibWuDWpc
+    members: rV78KIYSWuY
+    published: 2026-06-30
+  - episode: 9. Boring Guys
+    public: qy9TJK4WhX8
+    members: EYbhUbOBqac
+    published: 2026-07-14
+  - episode: 10. Winky's Speakeasy
+    members: eY0iVJhHh-s
+    published: 2026-07-28
+  - episode: 11. Hot Peasant Summer
+    members: dBu3iAJWBrA
+    published: 2026-08-11
+  - episode: 12. Off the Reservation
+    members: xSsmid74Lv4
+    published: 2026-08-25

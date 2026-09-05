@@ -4602,6 +4602,29 @@ videos:
 
 ---
 
+name:        Toonout (All Episodes and Extras)
+description: |-
+  0-hour playlist of 12 episodes and 1 extras of Toonout, Dropout's anthology of animated shorts, each one made by a different creator. 9 videos are free and 4 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/toonout
+playlistId:  PLJsbcZca7RJU
+videos:
+  LTba5203dGc: 'Toonout Trailer [New Animation Series]'
+  YejpEQLuwaA: 'The Legend of Legendarius | Toonout [New Animated Series]'
+  hCsRvPlr6tU: 'Blink Twice If You''re Dead | Toonout [Animated Shorts]'
+  ym4KYnqi4Gc: 'The Burbank Beetleboy | Toonout [Animated Shorts]'
+  o-CncU5RZqo: 'Wealwell''s Guide to Reposed Standing | Toonout [Animated Shorts]'
+  4hG-FQrPkuw: 'Josh''s Deli | Toonout [Animated Shorts]'
+  fZB24KlD2s8: 'Crossed Animals | Toonout [Animated Shorts]'
+  mTHJSEAYH0E: My Husband | Toonout Season 1 | Ep. 7
+  fpMibWuDWpc: 'Last Meal | Toonout [Animated Shorts]'
+  qy9TJK4WhX8: 'Boring Guys | Toonout [Animated Shorts]'
+  eY0iVJhHh-s: Winky's Speakeasy | Toonout Season 1 | Ep. 10
+  dBu3iAJWBrA: Hot Peasant Summer | Toonout Season 1 | Ep. 11
+  xSsmid74Lv4: Off the Reservation | Toonout Season 1 | Ep. 12
+
+---
+
 name:        'Dropout: Unlisted Videos'
 description: |
   The 33 unlisted videos that Dropout's own playlists point at. YouTube hides these from the channel, from search and from the uploads feed, so they are reachable only by direct link; every one was found by reading the playlists rather than the channel.

@@ -631,6 +631,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes of Raph's Hall of Fame, in which Raphael Chestang invites a guest to argue for the induction of the sporting moment they cannot let go of. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLfkFRYanpkdc]
+name = "Erotic Book Club (${ALL_SEASONS})"
+show = "Erotic Book Club"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Erotic Book Club, in which the cast reads aloud from the worst erotica ever committed to print, and its 2020 successor Erotic Clubhouse. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

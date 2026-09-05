@@ -618,10 +618,10 @@ ${HOURS}-hour playlist of ${EPISODES} episodes of Gods of Food, Rekha Shankar's 
 """
 
 [PLPNgfM25VfMo]
-name = "See Plum Run (${ALL_SEASONS})"
+name = "See Plum Run / Precious Plum (${ALL_SEASONS})"
 show = "See Plum Run"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of See Plum Run, and the 2013 CollegeHumor series Precious Plum that it continues. Neither is on watch.dropout.tv any longer, so this is the only place the run survives intact. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of See Plum Run and the 2013 CollegeHumor series Precious Plum that it continues. Neither is on watch.dropout.tv any longer, so this is the only place the run survives intact. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLO4kO0zgZvjU]

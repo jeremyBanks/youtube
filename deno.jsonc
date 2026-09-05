@@ -12,7 +12,8 @@
   },
   "unstable": ["temporal"],
   "tasks": {
-    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/seasoning.ts src/bin/dropout.ts src/bin/verify-dates.ts src/bin/resolve.ts src/bin/playlists.ts src/bin/verify-playlists.ts && deno lint && deno fmt --check",
+    "check": "deno check src/bin/scan.ts src/bin/aggregate.ts src/bin/publish.ts src/bin/seasoning.ts src/bin/dropout.ts src/bin/verify-dates.ts src/bin/resolve.ts src/bin/playlists.ts src/bin/verify-playlists.ts && deno lint && deno fmt --check && deno task test",
+    "test": "deno test --allow-all",
     "scan": "deno run --allow-read --allow-write=./data --allow-env --allow-net ./src/bin/scan.ts",
     "aggregate": "deno run --allow-read --allow-write=./data ./src/bin/aggregate.ts",
     "publish": "deno run --allow-read --allow-write=./data,./config --allow-env --allow-net ./src/bin/publish.ts",

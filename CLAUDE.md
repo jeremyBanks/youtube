@@ -85,10 +85,18 @@ rather than 443. **A zero in a `showTitle` grouping means nothing.**
 
 ## Tests
 
-`deno test --allow-all` runs `test.ts`: 28 cases covering the sitemap and
-episode-page parsers, title normalisation, the playlist diff, and storage
-flushing on an aborted run. There is no `deno task` for it, so it is easy to
-miss and was missed. `deno task check` does not run it.
+`deno task test` runs `test.ts`: 28 cases covering the sitemap and episode-page
+parsers, title normalisation, the playlist diff, and storage flushing on an
+aborted run. They take under a second.
+
+`deno task check` runs it, along with the type check, the linter and the
+formatter, and the GitHub Action runs `deno task check` and nothing else. One
+gate, so CI and a local run cannot disagree about what passing means.
+
+They used to. CI ran the tests but never type-checked; `deno task check`
+type-checked but never ran the tests. Each gate was incomplete in the direction
+the other covered, and the suite was invisible locally -- invisible enough to be
+reported as not existing.
 
 ## Project Structure
 

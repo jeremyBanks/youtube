@@ -21,14 +21,12 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Run tests
-        run: deno test --allow-all
-
-      - name: Verify formatting
-        run: deno fmt --check
-
-      - name: Run linter
-        run: deno lint
+      # One gate, so CI and a local run cannot disagree about what passing
+      # means. They used to: CI ran the tests but never type-checked, and
+      # `deno task check` type-checked but never ran the tests, so the suite
+      # was invisible locally and got declared nonexistent.
+      - name: Check
+        run: deno task check
 
   # publish:
   #   needs: test

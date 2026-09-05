@@ -6777,16 +6777,17 @@ videos:
 show: Ultramechatron Team Go!
 season: Season 1
 videos:
+  # The free upload is titled "Ultramechatron Team Go! Is Back" and went up
+  # eight days after the members one, but both run 100 seconds and it is the
+  # same trailer.
   - trailer: Ultramechatron Team Go! Trailer
+    public: 9LHi8rg6-_0
     members: gipk8HMglH0
     published: 2019-09-25
   - episode: 1. Ultramechatron Team Start!
     dropout: ultramechatron-team-start
     members: ME2tAseop9A
     published: 2019-09-30
-  - trailer: Ultramechatron Team Go! Is Back
-    public: 9LHi8rg6-_0
-    published: 2019-10-03
   - episode: 2. Ultramechatron Team Party!
     members: yUHo6eEsDys
     published: 2019-10-07

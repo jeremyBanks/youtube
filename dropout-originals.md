@@ -152,26 +152,46 @@ Where in the Eff is Sarah Cincinnati (`PLZPDSrk5XDEA`).
 
 **Paranoia is curated, and its playlist exists but is empty and private.**
 
-The sixteen consecutive 429s on `playlists.insert` looked request-specific,
-because three other playlists were created in the same window. They are not.
-Four controlled inserts settle it: the real title with a neutral description, a
-neutral title with the real description, and neutral/neutral all succeeded and
-were deleted again — but every one of those was created **private**, and a
-neutral, entirely innocuous **public** playlist fails with the same 429 while
-the identical private one succeeds immediately.
+Seventeen `playlists.insert` attempts for it have answered 429. What is
+established by experiment, all of it as of those failures:
 
-So the limit is on public playlists, and Paranoia was only the one still queued
-when the day's allowance ran out; fourteen went out across two days. That the
-window is daily is inference from the fourteen-then-wall pattern rather than
-something tested.
+- **Private is the only visibility that can be created.** A private playlist is
+  created immediately; an identical **public** one is refused, and so is an
+  identical **unlisted** one. The line is not public versus the rest — it is
+  private versus anything reachable by somebody other than the owner.
+- **Transitions are refused on the same line.** `playlists.update` moving the
+  playlist from private to public fails, and private to unlisted fails too.
+- **The content of the request is irrelevant.** The real title with a neutral
+  description, a neutral title with the real description, and neutral with
+  neutral all succeeded as private playlists and were deleted again.
+- **It is not the daily unit budget.** Reads cost a unit each and never failed.
 
-`PLTC6zTYElgZ4` is therefore created private, and `config/aggregate.toml` points
-at it. The limit covers transitions as well as creation: `playlists.
-update`
-flipping it private→public answers 429 too, and since that update comes before
-the entries are inserted, the playlist is still empty. One ordinary
-`deno task publish` on a later day does the rest — the flip and all fifteen
-entries — and needs no special handling.
+Both failure modes are 429; `insert` reports `RATE_LIMIT_EXCEEDED` and `update`
+reports `SERVICE_UNAVAILABLE`, which is worth knowing only so neither is
+mistaken for a different problem.
+
+What is **not** established is why. A daily allowance for visible playlists,
+exhausted at fourteen across two days, is the obvious story and does not fit the
+order things happened in. Paranoia failed once, then Sarah Cincinnati was
+created, then Paranoia failed four more times, then Kingpin Katie was created on
+its third try; only after that did everything fail. Successes and failures were
+genuinely interleaved rather than falling either side of a wall, and during that
+window Paranoia went nought for five while the other playlists went three for
+six.
+
+A slowly-refilling bucket near empty would explain the interleaving and bad luck
+would explain Paranoia's share of it, but both are stories fitted afterwards.
+The probes that ruled out title and description were run later, once everything
+visible was already failing, so they cannot speak to that earlier window;
+distinguishing the possibilities would have meant probing while it was open, and
+it has closed.
+
+`PLTC6zTYElgZ4` is created private and `config/aggregate.toml` points at it.
+Because the privacy update runs before entries are inserted, and every
+transition out of private is refused, the playlist is still empty. One ordinary
+`deno task publish` on a later day does the flip and all fifteen entries with no
+special handling — and whether that first attempt succeeds is the cheapest
+remaining evidence about what the limit actually is.
 
 Reading it back at all required a fix. `playlistMetadata` and `playlistVideos`
 authenticated with the API key alone, which is enough for a public or unlisted

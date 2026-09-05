@@ -632,10 +632,10 @@ ${HOURS}-hour playlist of ${EPISODES} episodes of Raph's Hall of Fame, in which 
 """
 
 [PLfkFRYanpkdc]
-name = "Erotic Book Club (${ALL_SEASONS})"
+name = "Erotic Book Club / Erotic Clubhouse (${ALL_SEASONS})"
 show = "Erotic Book Club"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Erotic Book Club, in which the cast reads aloud from the worst erotica ever committed to print, and its 2020 successor Erotic Clubhouse. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Erotic Book Club / Erotic Clubhouse, in which the cast reads aloud from the worst erotica ever committed to print. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLAlJUqPWY0HI]

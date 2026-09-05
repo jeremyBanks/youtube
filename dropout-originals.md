@@ -146,11 +146,19 @@ Also done and published: Fatal Decision's date, TablePop, Gods of Food, See Plum
 Run with Precious Plum, Raph's Hall of Fame, Erotic Book Club with Erotic
 Clubhouse as its second season.
 
-**Curated but not yet published**, because the YouTube API daily quota ran out:
-Total Forgiveness, Paranoia, Kingpin Katie with its web series, and Where in the
-Eff is Sarah Cincinnati. Their playlists are still `[todo-...]` keys in
-`config/aggregate.toml` and need one `publish --create-missing` run once the
-quota resets. Creating a playlist and inserting an entry cost 50 units each.
+Also published, once the quota reset the following day: Total Forgiveness
+(`PLAlJUqPWY0HI`), Kingpin Katie with its web series (`PLJSGOqilPCJA`), and
+Where in the Eff is Sarah Cincinnati (`PLZPDSrk5XDEA`).
+
+**Paranoia is curated but still unpublished**, and not for want of quota.
+`playlists.insert` has answered 429 `RATE_LIMIT_EXCEEDED` to fifteen consecutive
+attempts spread over about forty minutes, while the three creations interleaved
+with them succeeded and every read went through untouched. So it is not the
+daily unit budget. Whether it is a per-day cap on creating playlists that we are
+pushing against — fourteen in two days — or something about this particular
+request is not established, and finding out costs 50 units an attempt. It stays
+`[todo-paranoia]` in `config/aggregate.toml`; try again on a later day, when a
+first attempt succeeding or failing is itself the answer.
 
 Both of the questions this file used to leave open have been answered.
 

@@ -617,6 +617,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes of Gods of Food, Rekha Shankar's mockumentary in which six of the world's most revolutionary chefs explain, at length, what they are doing to dinner. ${MAYBE_MEMBERS_ONLY}
 """
 
+[PLPNgfM25VfMo]
+name = "See Plum Run (${ALL_SEASONS})"
+show = "See Plum Run"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of See Plum Run, and the 2013 CollegeHumor series Precious Plum that it continues. Neither is on watch.dropout.tv any longer, so this is the only place the run survives intact. ${MAYBE_MEMBERS_ONLY}
+"""
+
 [PLBteTePChj38]
 name = "Dropout: Unlisted Videos"
 unlisted = true

@@ -7390,3 +7390,106 @@ videos:
   - episode: "6. Laura Sepanowitz: The Passionate Tastemaker"
     members: fQPE01RL3zg
     published: 2019-09-09
+
+---
+
+# Precious Plum, the 2013 CollegeHumor original that See Plum Run continues.
+# Precursor doc, no `season:` key. Neither show is on watch.dropout.tv any
+# more -- See Plum Run was pulled at some point and the scrape, which reads
+# today's sitemap, cannot see it. The YouTube capture is all there is.
+
+show: See Plum Run
+videos:
+  - episode: 001. Honey Boo Boo Parody Series
+    public: qseH6-DV2gc
+    published: 2013-05-23
+  - episode: 002. Hitchhiking
+    public: 5go5uFVzPdU
+    published: 2013-06-06
+  - episode: 003. Tow Truck
+    public: PXLiW9IB5bU
+    published: 2013-06-13
+  - episode: 004. A Bat Named Dog
+    public: m7PZBLvpMas
+    published: 2013-10-17
+  - episode: 005. A Good Sword
+    public: UaiNoRmhCg0
+    published: 2013-10-24
+  - episode: 006. A Swim in Sh*t
+    public: 6f9cFLYW6ZY
+    published: 2013-11-01
+  - episode: 007. A Blood Drive
+    public: -99epVQuAKk
+    published: 2013-11-14
+  - episode: 008. A Holy Man
+    public: BFGEGksIm28
+    published: 2013-11-14
+  - episode: 009. Some Vampire Teeth
+    public: B4gVdTr8klc
+    published: 2013-12-05
+  - episode: 010. A Gator Fight
+    public: NUrFeWJDByw
+    published: 2013-12-12
+  - episode: 011. A Tormado
+    public: wS_MeKdz9Uw
+    published: 2013-12-20
+  - episode: 012. A Car House
+    public: YfReIQEQeDA
+    published: 2014-01-09
+  - bts: Precious Plum Bonus Footage
+    public: fZpGjTkyCQs
+    published: 2014-01-25
+  - bts: Precious Plum Outtakes
+    public: ZorqPh3Mshk
+    published: 2014-02-07
+  - bts: The Best of Precious Plum & Mama
+    public: -CaUzL6QLOk
+    published: 2018-09-19
+
+---
+
+show: See Plum Run
+season: Season 1
+videos:
+  - trailer: Precious Plum in SEE PLUM RUN
+    public: t4BgDxVQiuU
+    published: 2018-09-29
+  - episode: 1. Precious Plum for President!
+    public: Myo_5KYx_YI
+    published: 2018-10-06
+  - episode: 2. We Want Dessert
+    members: Lc1PlDM47Nk
+    published: 2019-09-16
+  - episode: 3. Don't Make Me Move
+    members: Laxiv7L4b3w
+    published: 2019-09-16
+  - episode: 4. The Cock Hog
+    members: lQigoqsK6Kg
+    published: 2019-09-16
+  - episode: 5. The Rumor Mill
+    members: wn02HGYTgmw
+    published: 2019-09-16
+  - episode: 6. The Belly Button Ring
+    members: ZybLCYiyyl4
+    published: 2019-09-16
+  - episode: 7. Dirty Talk
+    members: kGekK7ESwsI
+    published: 2019-09-16
+  - episode: 8. The Kennedy Conspiracy
+    members: whYNovyDGnA
+    published: 2019-09-16
+  - episode: 9. Busted
+    members: qDKORo7TKn8
+    published: 2019-09-16
+  - bts: "See Plum Run: Official Music Video"
+    public: j6s4gg0KKFs
+    published: 2018-12-11
+  - bts: Plum and Mama Bloopers
+    public: eJtpMoE707w
+    published: 2018-12-16
+  - bts: "See Plum Run: Bloopers"
+    members: iSaW6HFHCBk
+    published: 2019-09-16
+  - bts: "See Plum Run: Behind the Scenes"
+    members: 2bZM1EO8YSg
+    published: 2019-09-16

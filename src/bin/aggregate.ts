@@ -52,6 +52,64 @@ type CuratedEntry = {
  * scraped and is present in the playlist: a partial match would misleadingly
  * promise the whole show.
  */
+/**
+ * Whether this playlist can honestly call itself "All Episodes".
+ *
+ * "All Episodes and Extras" used to be a fixed string, so it claimed both
+ * halves whether or not either was true: the TablePop playlist carries 14 of
+ * Dropout's 38 and announced all of them.
+ *
+ * Scope is the collections the playlist actually draws from, taken from the
+ * canonical `collection` of each entry it linked -- not the show. Judging a
+ * single-campaign playlist against the whole of Dimension 20 would mark every
+ * campaign incomplete, which is true of the show and false of the playlist.
+ *
+ * A playlist that links nothing on Dropout returns `false`, because nothing is
+ * known about what it might be missing. Critical Role is not on Dropout at
+ * all, and reading that silence as completeness is the same mistake as reading
+ * an empty search result as proof a thing does not exist.
+ */
+function coversEveryEpisode(
+  included: Array<CuratedEntry>,
+  dropoutEpisodes: Array<DropoutEpisode>,
+): boolean {
+  const slugs = new Set<string>();
+  const titles = new Set<string>();
+  for (const entry of included) {
+    if (entry.dropout) slugs.add(entry.dropout);
+    const title = entry.episode ?? entry.special ?? entry.trailer ??
+      entry.bts ?? entry.animation;
+    if (title) titles.add(normalizeTitle(title));
+  }
+  if (!slugs.size) return false;
+
+  const byCollection = new Map<string, Array<DropoutEpisode>>();
+  const touched = new Set<string>();
+  for (const episode of dropoutEpisodes) {
+    byCollection.set(episode.collection, [
+      ...(byCollection.get(episode.collection) ?? []),
+      episode,
+    ]);
+    if (slugs.has(episode.slug)) touched.add(episode.collection);
+  }
+  if (!touched.size) return false;
+
+  for (const collection of touched) {
+    const episodes = byCollection.get(collection) ?? [];
+    // Coverage cannot be judged against episodes whose titles we have never
+    // read, so an unscraped collection is skipped rather than called missing.
+    if (episodes.some((e) => !e.title)) continue;
+    for (const episode of episodes) {
+      if (
+        !slugs.has(episode.slug) && !titles.has(normalizeTitle(episode.title!))
+      ) {
+        return false;
+      }
+    }
+  }
+  return true;
+}
+
 function coveredCollectionUrls(
   included: Array<CuratedEntry>,
   episodesByCollection: Map<string, Array<DropoutEpisode>>,
@@ -172,6 +230,9 @@ async function main() {
     let seasonCount = 0;
     let episodeCount = 0;
     let extrasCount = 0;
+    // Extras that are not trailers. A trailer is not "extras": every show has
+    // one and it says nothing about there being bonus material.
+    let bonusCount = 0;
     let freeCount = 0;
     let membersCount = 0;
     let paidCount = 0;
@@ -239,6 +300,7 @@ async function main() {
             episodeCount += 1;
           } else {
             extrasCount += 1;
+            if (!episode.trailer) bonusCount += 1;
           }
         } else if (episode["public parts"]) {
           freeCount += 1;
@@ -248,6 +310,7 @@ async function main() {
             episodeCount += 1;
           } else {
             extrasCount += 1;
+            if (!episode.trailer) bonusCount += 1;
           }
         } else if (episode.members) {
           if (!config.free) {
@@ -258,6 +321,7 @@ async function main() {
               episodeCount += 1;
             } else {
               extrasCount += 1;
+              if (!episode.trailer) bonusCount += 1;
             }
           }
         } else if (episode.paid) {
@@ -269,6 +333,7 @@ async function main() {
               episodeCount += 1;
             } else {
               extrasCount += 1;
+              if (!episode.trailer) bonusCount += 1;
             }
           }
         } else {
@@ -313,6 +378,14 @@ async function main() {
       } free.`
       : "";
 
+    // "All Episodes and Extras" was a fixed string, so it claimed both halves
+    // whether or not either was true. "All" now requires that no episode of
+    // the show is missing from the playlist, and "and Extras" requires at
+    // least one extra that is not a trailer.
+    const completeness = `${
+      coversEveryEpisode(included, dropoutEpisodes) ? "All " : ""
+    }Episodes${bonusCount > 0 ? " and Extras" : ""}`;
+
     const applyTemplates = (s: string) =>
       s.replaceAll(
         "${D20_PLUG}",
@@ -343,10 +416,10 @@ async function main() {
         String(seasonCount),
       ).replaceAll(
         "${ALL_EPISODES}",
-        "All Episodes and Extras",
+        completeness,
       ).replaceAll(
         "${ALL_SEASONS}",
-        "All Episodes and Extras",
+        completeness,
       )
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")

@@ -156,9 +156,15 @@ videos:
   - trailer: Escape from the Bloodkeep Trailer
     public: Ih6ZdHE2kvo
     published: 2019-05-04
+  # The `public copy` is Dorkly's, titled "What If Mordor Was a Tabletop RPG?"
+  # and sharing no words with the episode. 7655s against Dropout's own free cut
+  # at 7636s and the members version at 7607s, so it is the whole episode and
+  # not a clip. Recorded, not published: the playlist already carries one free
+  # version and does not want two.
   - episode: 1. Welcome to the Dark Side
     dropout: welcome-to-the-dark-side
     public: GiEQO77PV9Q
+    public copy: lx0OZQAkbGc
     members: gmbEkxuo6h0
     published: 2020-02-29
   - episode: 2. Volcano of Violence

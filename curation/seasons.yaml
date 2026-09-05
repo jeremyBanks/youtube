@@ -2681,7 +2681,7 @@ videos:
     members: WcepHeSHN2E
     published: 2023-01-09
   - bts: A Game Most Changed
-    dropout: a-game-most-changed
+    dropout: behind-the-scenes-of-a-game-most-changed
     members: c00FGuoK8qM
     published: 2023-01-17
   - episode: 506. As a Cucumber
@@ -3050,6 +3050,7 @@ videos:
     members: f0WSha0EbTQ
     published: 2023-08-22
   - episode: 208. XXX
+    dropout: joust-because
     members: yoohc7-Ke3o
     published: 2023-09-05
   - episode: 209. Elevator Pitch
@@ -3057,6 +3058,7 @@ videos:
     members: 2587_TRmR4M
     published: 2023-09-19
   - episode: 210. XXX
+    dropout: heebie-jeebies
     members: 2K_Uo-aKaJs
     published: 2023-10-03
   - episode: "211. Dress Rehearsal: Legend of the Lake"
@@ -3273,6 +3275,7 @@ videos:
     members: IYR5M5Rk92E
     published: 2019-06-14
   - bts: Behind the Scenes
+    dropout: um-actually-behind-the-scenes
     members: ZIUd3fnnets
     published: 2019-06-21
 
@@ -3555,6 +3558,7 @@ videos:
     members: gvIv6rxsaYs
     published: 2021-04-09
   - episode: 506. Kim Possible, Princess Bride, Sliders
+    dropout: kim-possible-the-princess-bride-sliders
     public: N1j1evf4I3U
     members: OMM6OyM_NwY
     published: 2021-04-23
@@ -3864,6 +3868,7 @@ videos:
     members: C_lAK4vivoY
     published: 2022-06-20
   - episode: 107. Cut For Time
+    dropout: dirty-laundry-season-1-cut-for-time
     members: "-2sX3Wf9g8Y"
     published: 2023-05-23
 
@@ -6704,7 +6709,7 @@ videos:
     members: yHJ42w2Gllk
     published: 2025-03-10
   - bts: Crowd Control
-    dropout: crowd-control
+    dropout: behind-the-scenes-of-crowd-control
     members: BewzkIpecaI
     published: 2025-05-28
   - episode: 705. The Drinking Game
@@ -6831,7 +6836,7 @@ videos:
     members: 4P8A6WB1sUk
     published: 2026-07-27
   - bts: Noise Some Makes
-    dropout: noise-some-makes
+    dropout: behind-the-scenes-of-noise-some-makes
     members: Jsr4LkHE-hg
     published: 2026-08-03
   - episode: 807. Earwigs
@@ -8083,6 +8088,7 @@ videos:
     members: spVTn9m9p5k
     published: 2026-08-04
   - episode: "World of Tomorrow Episode 3: The Absent Destinations of David Prime"
+    dropout: world-of-tomorrow-episode-three-the-absent-destinations-of-david-prime
     members: 5YJc2u2RTy0
     published: 2026-08-04
   - episode: On Memory
@@ -8538,6 +8544,21 @@ videos:
     dropout: the-parasite-you-probably-have
     public: kat_9n_AmEk
     published: 2019-04-30
+  # Three more of the same, and extras for the same reason: Jake interviewing
+  # a real expert rather than the cartoon. Dropout carries them unnumbered,
+  # beside the twelve that are numbered.
+  - bts: How Far Would You Go For Science?
+    dropout: how-far-would-you-go-for-science
+    public: gSlrLC4iqjQ
+    published: 2019-05-07
+  - bts: Mating Isn't Like Dating
+    dropout: mating-isn-t-like-dating
+    public: eFMVDSLd_0k
+    published: 2019-05-14
+  - bts: Remember When Murder Was Legal?
+    dropout: remember-when-murder-was-legal
+    public: 3zpb1HSdWv0
+    published: 2019-05-21
   # Dropout's episode 11, "WTF 101: Behind the Scenes", has no YouTube upload
   # at all -- one of the handful of things that exist only on Dropout:
   # https://watch.dropout.tv/wtf-101/season:1/videos/wtf-101-behind-the-scenes
@@ -8655,6 +8676,7 @@ videos:
     members: H5_2-Hnu98k
     published: 2019-09-13
   - bts: How We Made Drawfee's New Show
+    dropout: cartoon-hell-behind-the-scenes
     public: UReaSwB6NaA
     published: 2018-10-19
 
@@ -9075,7 +9097,11 @@ videos:
   - trailer: Precious Plum in SEE PLUM RUN
     public: t4BgDxVQiuU
     published: 2018-09-29
+  # Dropout calls this one "We Back". Same episode: its synopsis and the
+  # YouTube description share "'Redneck' meets 'blue blood' as Plum and Mama
+  # find fancy new digs" almost word for word.
   - episode: 1. Precious Plum for President!
+    dropout: dt-see-plum-run-101
     public: Myo_5KYx_YI
     published: 2018-10-06
   - episode: 2. We Want Dessert
@@ -9170,6 +9196,7 @@ videos:
     public: d2WhRzEGOLU
     published: 2019-04-22
   - episode: "9. Lily Du and Paul Robalino on the 1973 Yankees"
+    dropout: lily-du-and-paul-robalino-on-the-1973-yankee-marriage-swap
     public: 997Do9YSBqM
     published: 2019-05-06
   - episode: "10. Janie Stolar and Katie Marovitch on Elizabeth Swaney"
@@ -9234,6 +9261,7 @@ videos:
     public: -ATZUs00kFc
     published: 2019-06-08
   - episode: "112. Barely Tamed Grizzly: A Sexy Shapeshifter Hunt"
+    dropout: barely-tamed-grizzly-a-sexy-shapeshifter-hunts-for-his-mate
     public: i0p_vKpJwhQ
     published: 2019-06-22
   - episode: "113. Cream for Stepfather"
@@ -9257,6 +9285,7 @@ videos:
     public: zjGk6iaIffc
     published: 2019-08-31
   - episode: "118. The Secret Lives of Women: A Man's Astrological Guide to Sex"
+    dropout: the-secret-lives-of-women-a-man-s-astrological-guide-to-love-and-intimacy
     public: xiebzXDCDGk
     published: 2019-09-14
   - episode: "119. My Five Bosses: A Steamy Silicon Valley Fantasy"
@@ -9535,6 +9564,14 @@ videos:
   - episode: "8. Cat and Mouse"
     dropout: cat-and-mouse
     members: CBwTVVtSWfU
+    published: 2019-09-09
+  - bts: "Kingpin Katie: Behind the Scenes"
+    dropout: kingpin-katie-behind-the-scenes
+    members: FPvkS11KAkE
+    published: 2019-09-10
+  - bts: "Kingpin Katie: Bloopers"
+    dropout: kingpin-katie-bloopers
+    members: v8QNrPJXMlE
     published: 2019-09-09
 
 ---

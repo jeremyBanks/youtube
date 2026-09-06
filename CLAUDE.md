@@ -83,6 +83,33 @@ since it was written. Group by `collection` with the collection's title as the
 fallback, the way `curation`'s linker does, which leaves 4 records unattributed
 rather than 443. **A zero in a `showTitle` grouping means nothing.**
 
+## Finding an episode whose title matches nothing
+
+`uploadedAt` and Dropout's own playlists find what a title never will.
+
+Cartoon Hell was missing exactly one episode of 36, which is the wrong shape for
+a real gap. YouTube calls it "Thicc Cyborgs (featuring Rekha)" and Dropout calls
+it "Cyborg Band" -- no shared word, so no title match could reach it. Two things
+found it. Members episodes are uploaded in one backfill at a steady cadence, so
+a gap in `uploadedAt` marks a missing slot: Cartoon Hell's episodes went up two
+minutes apart and 6 to 8 was five minutes. Then Dropout's own "Cartoon Hell:
+Season 1 (Full Episodes)" playlist named what belongs in it, at the position
+between them.
+
+The same playlists found WTF 101's behind-the-scenes, uploaded as "Inside Mike
+Trapp's Gross New Animated Series", whose description carries Dropout's synopsis
+verbatim. These are in `data/channel-playlists.yaml`, and they are Dropout's
+editorial ordering rather than ours, which is what makes a position in one
+evidence.
+
+A sweep of every show for cadence gaps found 13, and only Cartoon Hell's held a
+missing episode. Worth re-running after a bulk curation; not worth running
+often.
+
+**Watch the leading dash.** 372 video ids begin with `-`, so YAML quotes them,
+and a membership test against the raw id silently fails on every one. That
+produced two false findings in the first pass of this sweep.
+
 ## Tests
 
 `deno task test` runs `test.ts`: 28 cases covering the sitemap and episode-page

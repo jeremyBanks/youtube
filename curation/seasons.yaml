@@ -8689,6 +8689,11 @@ videos:
 show: Cartoon Hell
 season: Season 2
 videos:
+  # Xb2dt-KlneY, "Drawing Dungeons & Doggos (with Adam Conover)", is not a
+  # second version of this: 655s against 1302s, published four months earlier,
+  # so it is the first half as a preview. An excerpt, and excerpts are not
+  # curated. Recorded here because its description mentions WTF 101 and it
+  # keeps turning up in sweeps for uncurated Dropout-channel uploads.
   - episode: 201. Dungeons and Doggos (with Adam Conover)
     dropout: dungeons-doggos-with-adam-conover
     members: MTELEnhfWiE

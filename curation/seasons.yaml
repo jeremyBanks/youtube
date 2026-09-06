@@ -3337,7 +3337,10 @@ videos:
     public: LwZ00vkM_Cg
     members: Gq3kZQC-RsY
     published: 2019-09-20
+  # Owned by the Um, Actually channel rather than Dropout's, which is why it
+  # is in Dropout's playlists but not in its uploads.
   - episode: 211. Um, Actually LIVE @ NYCC
+    dropout: um-actually-live-new-york-comic-con
     public: 3yQYVRzuP7M
     published: 2019-10-04
   - episode: 212. Star Trek, Godzilla Island, Babylon 5
@@ -3360,7 +3363,8 @@ videos:
     public: S_OgBiXMjRc
     members: t7UL7c0_Epk
     published: 2019-11-08
-  - episode: 216. Buffy the Vampire Slayer, M. Night Shymalan, Final Fantasy X
+  - episode: 216. Buffy the Vampire Slayer, M. Night Shyamalan, Final Fantasy X
+    dropout: buffy-the-vampire-slayer-m-night-shyamalan-final-fantasy-x
     public: FBAP8g4G45c
     members: POgUkGE3Y9o
     published: 2019-11-15

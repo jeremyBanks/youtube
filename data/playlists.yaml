@@ -135,18 +135,12 @@ videos:
 
 ---
 
-name:        'Um, Actually (Full Episodes and Extras)'
+name:        'Um, Actually (All Episodes and Extras)'
 description: |-
   98-hour playlist of 184 episodes and 10 extras (trailers and behind-the-scenes videos) from 11 seasons of Um Actually, the game show where nerds correct nerds. 124 videos are free and 70 require a @Dropout channel membership on YouTube.
 
-  https://watch.dropout.tv/brennan-lee-mulligan-on-um-actually
-  https://watch.dropout.tv/ify-nwadiwe-reigning-champion-on-um-actually
+  https://watch.dropout.tv/um-actually
   https://watch.dropout.tv/um-actually-the-web-series
-  https://watch.dropout.tv/um-actually-tournament-of-champions
-
-  Not in this playlist. Watch these on Dropout:
-  https://watch.dropout.tv/um-actually/season:2/videos/buffy-the-vampire-slayer-m-night-shyamalan-final-fantasy-x
-  https://watch.dropout.tv/um-actually/season:2/videos/um-actually-live-new-york-comic-con
 playlistId:  PLObfuAmZm9pBtHSq5HewgAKihMK6kaeJS
 videos:
   Qam4iiya1q0: 'Um, Actually: The Game Show Where Nerds Correct Nerds'

@@ -3306,11 +3306,13 @@ videos:
   - episode: 202. A Very Special TV Themed Episode
     dropout: a-very-special-tv-themed-episode
     public: bd8-sUQzb7w
+    removed public: y18W1N6mR88
     members: I4g4OhcP6sg
     published: 2019-07-26
   - episode: 203. Homestar Runner, Hearthstone, Demolition Man
     dropout: homestar-runner-hearthstone-demolition-man
     public: 0_wA2f1ZTd4
+    removed public: _flE3p0VJVQ
     members: "-9eEtN8OJRM"
     published: 2019-08-02
   - episode: 204. The Dresden Files, Settlers of Catan, Fallout 4
@@ -3336,6 +3338,7 @@ videos:
   - episode: 208. Stephen King, Warhammer 40000, Dragon Age
     dropout: stephen-king-warhammer-40-000-dragon-age
     public: JHdM7aVqfbU
+    removed public: hczHJS9u1fE
     members: X1h7dW6tHVQ
     published: 2019-09-06
   - episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night
@@ -3362,6 +3365,7 @@ videos:
   - episode: "213. Um, Aaah!ctually: Halloween Edition"
     dropout: um-aaah-ctually-halloween-edition
     public: FqqiHhXg1_w
+    removed public: qH9-FmJE8-8
     members: RdzgdT13Ss4
     published: 2019-10-25
   - episode: 214. E.T., Green Lantern, Robin Hobb
@@ -3382,6 +3386,7 @@ videos:
   - episode: 217. Borderlands, Ticket to Ride, Into the Spider-Verse
     dropout: borderlands-ticket-to-ride-into-the-spider-verse
     public: DGEFliHCUW4
+    removed public: spSxQjDguzM
     members: fyKisPgxbYI
     published: 2019-11-22
   - episode: 218. Rick & Morty, The Muppets, Superman
@@ -3397,6 +3402,7 @@ videos:
   - episode: 220. Ender's Game, Good Omens, Secret Wars
     dropout: ender-s-game-good-omens-secret-wars
     public: 7lI4xD53DRE
+    removed public: cH6xfRhTKFQ
     members: H1bCYbwtzZk
     published: 2019-12-13
   - episode: 221. Pokémon, South Park, Discworld (With John Darnielle)

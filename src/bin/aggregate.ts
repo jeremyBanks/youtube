@@ -7,7 +7,12 @@ import {
 import { isAggregate, showPrefixes } from "../dropout-link.ts";
 import * as yaml from "../yaml.ts";
 import { normalizeTitle } from "../common.ts";
-import { DropoutCollection, DropoutEpisode } from "../storage.ts";
+import {
+  Channel,
+  ChannelPlaylist,
+  DropoutCollection,
+  DropoutEpisode,
+} from "../storage.ts";
 import {
   openPlaylistsStorage,
   openResolvedVideoStorage,
@@ -272,6 +277,28 @@ async function main() {
   }
 
   const prefixesFor = showPrefixes(dropoutCollections, dropoutConfig.shows);
+
+  // The playlists the scanned channels publish themselves, so that a playlist
+  // of ours holding exactly the same videos can say so and point at theirs.
+  // Read plainly: aggregate never writes to the scan's files.
+  const channelPlaylists = ChannelPlaylist.array().parse(
+    await yaml.load("./data/channel-playlists.yaml"),
+  ).filter((playlist) => !playlist.removedBefore);
+  const channelName = new Map(
+    Channel.array().parse(await yaml.load("./data/channels.yaml"))
+      .map((channel) => [channel.channelId, channel.name] as const),
+  );
+  const officialByVideoSet = new Map<string, ChannelPlaylist>();
+  for (const playlist of channelPlaylists) {
+    const ids = (playlist.entries ?? [])
+      .filter((entry) => !entry.removedBefore)
+      .map((entry) => entry.videoId);
+    if (!ids.length) continue;
+    const key = [...new Set(ids)].sort().join(",");
+    // Ties keep the first seen; two official playlists with identical
+    // contents is not a distinction worth encoding.
+    if (!officialByVideoSet.has(key)) officialByVideoSet.set(key, playlist);
+  }
 
   const resolvedById = new Map(
     (await openResolvedVideoStorage())
@@ -544,10 +571,25 @@ async function main() {
       );
     }
 
+    // An official playlist holding exactly our videos, ignoring order and
+    // repeats. Computed rather than configured, so it stops being claimed the
+    // moment either side changes.
+    const official = officialByVideoSet.get(
+      [...new Set(videoIds)].sort().join(","),
+    );
+    // Named for whoever publishes it: six of these are Dropout's own "Full
+    // Episodes" playlists, but Critical Role's Exandria Unlimited is Critical
+    // Role's.
+    const officialLead = official
+      ? `${channelName.get(official.channelId) ?? "The channel"}` +
+        ` publishes this same set themselves: ` +
+        `https://www.youtube.com/playlist?list=${official.playlistId}\n\n`
+      : "";
+
     upsert(playlists, {
       name: applyTemplates(config.name),
       description: withDropoutLinks(
-        applyTemplates(config.description ?? ""),
+        officialLead + applyTemplates(config.description ?? ""),
         coveredCollectionUrls(included, episodesByCollection),
         (missingEpisodes ?? []).map((e) => e.url).filter((u): u is string =>
           typeof u === "string"

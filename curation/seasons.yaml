@@ -3142,6 +3142,13 @@ videos:
     public: aLz9XCAGBSY
     members: YIXoIiZ5m80
     published: 2018-10-04
+  # The `removed public` ids below are INFERRED, not observed. A private video
+  # appears in no uploads feed and `videos.list` will not serve it, so all we
+  # have is its presence in Dropout's own Um, Actually playlist and the date it
+  # was added there. These two were added on the days 105 and 106 aired, while
+  # the `public:` we carry for each was uploaded to the Um, Actually channel in
+  # 2020, two years later. Nothing confirms the content: no title, description
+  # or duration survives for a private video.
   - episode: 105. Animalities, Maple Street Monsters, Mutagen Ooze
     dropout: animalities-maple-street-monsters-mutagen-ooze
     public: J8ZuoNkkt88
@@ -3303,6 +3310,17 @@ videos:
     public: Ft6N64pPll0
     members: 3VDoedv3J6U
     published: 2019-07-19
+  # Six `removed public` ids in this season are INFERRED, not observed, on the
+  # release cadence: Dropout published each free version on the Saturday after
+  # the Friday members release, and each of these private entries sits exactly
+  # one day after its episode in Dropout's own Um, Actually playlist. Every
+  # `public:` here was re-uploaded to the Um, Actually channel in 2021, when
+  # the show moved to its own channel, which is what the private ids replaced.
+  # No title, description or duration survives for a private video, so there is
+  # nothing to check the content against. Four further private entries in that
+  # playlist are deliberately unrecorded: their dates fall on no episode's
+  # slot, one of them on Halloween and two a single day apart, which no weekly
+  # run explains.
   - episode: 202. A Very Special TV Themed Episode
     dropout: a-very-special-tv-themed-episode
     public: bd8-sUQzb7w
@@ -3346,9 +3364,18 @@ videos:
     public: C51TuAxhUY0
     members: OOZqpqTSbI4
     published: 2019-09-13
+  # This one is INFERRED and weaker than the six above, by elimination. The
+  # free run beats every seven days and 2019-09-21, where this episode's free
+  # version belongs, is empty; the next beat, 2019-09-28, holds a private entry
+  # that fits no episode, because Dropout's season 2 is exactly 21 episodes and
+  # nothing aired on the 27th. A single slipped week explains both, and the
+  # show itself paused there -- 210 on the 20th, then NYCC on 2019-10-04. The
+  # alternative is that 210's free upload never entered the playlist and this
+  # is an unrelated clip, which needs two coincidences instead of one.
   - episode: 210. Ghostbusters, Gateway, Gravity Falls
     dropout: ghostbusters-gateway-gravity-falls
     public: LwZ00vkM_Cg
+    removed public: M1QiS3SoNPU
     members: Gq3kZQC-RsY
     published: 2019-09-20
   # Owned by the Um, Actually channel rather than Dropout's, which is why it

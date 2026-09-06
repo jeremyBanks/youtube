@@ -8500,6 +8500,10 @@ videos:
   - trailer: WTF 101 Sneak Preview
     public: idBMYf397nA
     published: 2019-01-08
+  # A second, shorter trailer the same day; Dropout carries neither.
+  - trailer: "Science and History Get Weird in WHAT THE F 101"
+    public: qwwBJ4U_sMA
+    published: 2019-01-08
   # Dropout's slug for this one is literally "test", left over from their CMS.
   - episode: 1. Parasites
     dropout: test
@@ -8563,9 +8567,16 @@ videos:
     dropout: remember-when-murder-was-legal
     public: 3zpb1HSdWv0
     published: 2019-05-21
-  # Dropout's episode 11, "WTF 101: Behind the Scenes", has no YouTube upload
-  # at all -- one of the handful of things that exist only on Dropout:
-  # https://watch.dropout.tv/wtf-101/season:1/videos/wtf-101-behind-the-scenes
+  # It does have one, under a title sharing no word with Dropout's: "Inside
+  # Mike Trapp's Gross New Animated Series". Its description carries Dropout's
+  # synopsis verbatim -- "Creator Mike Trapp, Sam Reich and the voice cast
+  # discuss DROPOUT's bold new cartoon" -- and it sits in Dropout's own WTF101
+  # playlist. This comment used to say it existed only on Dropout, which was a
+  # title match failing rather than a video missing.
+  - bts: "WTF 101: Behind the Scenes"
+    dropout: wtf-101-behind-the-scenes
+    public: JyR_9Mopz1w
+    published: 2019-01-18
 
 ---
 

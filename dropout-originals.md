@@ -174,40 +174,29 @@ again.
 
 Both of the questions this file used to leave open have been answered.
 
-**Lonely and Horny is omitted, and now for a checked reason.** It was written
-off once on the strength of a search across `data/` that found nothing, which
-proved nothing: the Jake and Amir channel was the one channel not being scanned,
-so the corpus searched could never have contained their show. `@jakeandamir` is
-now in `config/scan.toml` and its 1,060 videos are captured.
+**Lonely and Horny was on the channel, and its episodes are now private.**
 
-The show is still not curatable, but the evidence is real this time. Five videos
-there carry the name. One is a 2016 _If I Were You_ podcast episode called after
-it. The other four are two-to-four minute clips, and their own descriptions say
-what they are: "Clip from Lonely and Horny Season 2. Watch the whole thing now
-at patreon.com/JA", "Opening Scene from Season 2, Episode 6". The full episodes
-live on Patreon; YouTube has only promos for them. Excerpts are never curated,
-so there is nothing here to add — and, unlike before, we know why rather than
-merely failing to find it.
+It was written off twice. First on a search across `data/` that could not have
+found it, since the Jake and Amir channel was not being scanned. Then, once it
+was, on the five videos there carrying the name -- a 2016 _If I Were You_
+podcast episode and four clips whose own descriptions say they are clips.
 
-What the data does **not** say is which season those clips come from. The
-descriptions name a Season 2 without dating it, and the fourth clip has no
-description at all, so whether this is the 2017 Dropout season being promoted
-out of an archive or a revival made for Patreon is not something we can tell
-from here. It does not change the outcome — a clip is an excerpt either way —
-but it should not be written down as though it were settled.
+Both of those are still true and both missed it. Dropout's own channel has a
+`Lonely and Horny` playlist, `PLuKg-WhduhknxTkx11dSofBdM75GUAgpn`, holding five
+videos: `TRnffpn-Zt4`, `r7fYlsPumm8`, `TqcSQPobYvc`, `vrhiOsYznNA`,
+`XDlwsGeek6g`. Every one is **private**. A private video appears in no uploads
+feed, so no scan can see it, and `videos.list` will not serve it, so `resolve`
+cannot either. The playlist listing is the only place it exists for us, and that
+is exactly what `scan-playlists` was built to catch.
 
-The rest of that channel contributes nothing either, which was checked rather
-than assumed. All 1,060 videos were matched on title and description against
-"dropout", "dropout.tv" and "@dropout", and against all 38 show names the
-curation holds. **Not one mentions Dropout in any form** — no dropout.tv link
-anywhere, which stands out, since every Dropout-adjacent channel we scan is full
-of them. 371 mention CollegeHumor and all are the 2008–2015 Jake and Amir
-shorts, CollegeHumor-branded and so out of scope, none of them a prequel to a
-Dropout show. The single apparent Troopers hit, `yfLSTg87xVc` "Would you
-Rather?" from 2011, is a false positive: its description opens with a
-cross-promo link for the 2011 CollegeHumor Troopers series, which we do curate
-as the Troopers precursor, but the video is a Jake and Amir sketch advertising
-it.
+It still cannot be curated: the API refuses to add a private video to a
+playlist. But "no episodes found" was wrong, and the right statement is that
+five episode ids are known and none is watchable.
+
+This is not unique to the show. **222 private video ids sit in the playlists of
+channels we scan and appear nowhere in `data/videos/`** -- 61 in Dropout's
+"Latest", 25 in "CH Greatest Hits", 10 in "Um, Actually", 9 in "Fatal Decision".
+They are the only trace we have of them.
 
 **Toonout's "Wealwell's Guide to Reposed Standing" stays in Toonout only.** It
 animates a Cloudward, Ho! moment, and the rule for animated shorts would

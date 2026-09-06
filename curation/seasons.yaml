@@ -8607,6 +8607,18 @@ videos:
   # Episode 7, "Cyborg Band", has no full-length upload anywhere: the only
   # YouTube copy is the 468-second Drawfee cut, against episodes of a thousand
   # seconds and more. It exists in full on Dropout only.
+  # YouTube calls this "Thicc Cyborgs (featuring Rekha)" and shares no word
+  # with Dropout's title for it. Three things place it: it sits at position 6
+  # of Dropout's own "Cartoon Hell: Season 1 (Full Episodes)" playlist, between
+  # episodes 6 and 8; it runs 1087s like the rest; and its description says
+  # "Rekha guest stars as Caldwell and Nathan's overseer on Cartoon Hell who
+  # just can't get enough of wide, wide, musical robots". It went up free in
+  # December 2018, which is why its upload date sits outside the September 2019
+  # members backfill -- as Weed Anime's and Rejected Toys' do.
+  - episode: 107. Cyborg Band
+    dropout: cyborg-band
+    public: BetBI4f6MpU
+    published: 2018-12-30
   - episode: 108. Combined Animals
     dropout: combined-animals
     members: UpKrLGQtU7E

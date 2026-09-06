@@ -3844,6 +3844,11 @@ videos:
 
 ---
 
+# Dropout's `dirty-laundry-season-69` holds 60-odd "Cocktail Recipes" videos,
+# two to six minutes each, and every one is on YouTube. They are excerpts cut
+# from the full episodes, so none is curated. They will keep showing up in any
+# sweep for uncurated Dropout material; this is why they are not gaps.
+
 show: Dirty Laundry
 videos:
   - episode: 001. Never Have I Ever on Game Changer

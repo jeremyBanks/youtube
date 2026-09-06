@@ -9125,12 +9125,13 @@ videos:
 
 show: See Plum Run
 videos:
-  # Dropout has one Precious Plum record left over, `at-the-wheel`, "The one
-  # where Plum done deadens a dog". It is one of this entry, 008 or the bonus
-  # footage, and nothing distinguishes them: this video carries no YouTube
-  # description and Dropout gives the record no date. Left unlinked rather
-  # than guessed.
+  # Dropout calls this "At the Wheel". Its collection lists episodes in order
+  # and puts `at-the-wheel` immediately before `hitchhiking`, exactly where
+  # this sits before 002; the two sequences then run together to the end. The
+  # titles have nothing in common and neither does the date, which Dropout
+  # does not carry for these.
   - episode: 001. Honey Boo Boo Parody Series
+    dropout: at-the-wheel
     public: qseH6-DV2gc
     published: 2013-05-23
   - episode: 002. Hitchhiking

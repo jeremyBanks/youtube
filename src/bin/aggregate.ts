@@ -596,7 +596,12 @@ async function main() {
         ),
       ),
       playlistId: config.playlistId,
-      unlisted: config.unlisted,
+      // A playlist that duplicates an official one, video for video, is
+      // published unlisted: it stays reachable by link and by anyone we point
+      // at it, without competing in search or on the channel with the version
+      // the show's own people maintain. It goes back to listed by itself if
+      // either set ever changes, since `official` is recomputed every run.
+      unlisted: config.unlisted || (official !== undefined ? true : undefined),
       private: config.private,
       videos: Object.fromEntries(
         videoIds.map((id) => [id, detailsFor(id)?.title ?? "unknown"]),

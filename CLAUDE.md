@@ -397,6 +397,23 @@ an episode, or a short promo cut down from a longer trailer. The full version is
 the entry; the excerpt is noise. This is why the shorts channels are scanned but
 almost never curated.
 
+## When one of ours duplicates an official one
+
+`aggregate` compares every playlist it generates against the observed playlists
+in `data/channel-playlists.yaml`, by set of video ids with order and repeats
+ignored. Where a channel already publishes exactly the same set, ours does two
+things: its description opens with a line pointing at theirs, and it is
+published **unlisted**.
+
+Unlisted rather than deleted: it stays reachable by link and from anywhere we
+have pointed at it, while not competing on the channel or in search with the
+version the show's own people maintain.
+
+Both are computed on every run, never configured, so a playlist goes back to
+listed by itself the moment either set changes. Eight qualify today, and they
+are not all Dropout's -- Raph's Hall of Fame is the Um, Actually channel's and
+Exandria Unlimited: Divergence is Critical Role's.
+
 ## Channel Playlists
 
 `deno task scan-playlists` records the playlists of the channels we scan into

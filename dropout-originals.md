@@ -150,56 +150,27 @@ Also published, once the quota reset the following day: Total Forgiveness
 (`PLAlJUqPWY0HI`), Kingpin Katie with its web series (`PLJSGOqilPCJA`), and
 Where in the Eff is Sarah Cincinnati (`PLZPDSrk5XDEA`).
 
-**Paranoia is curated, and its playlist exists but is empty and private.**
+**Paranoia is published**, as `PLTC6zTYElgZ4`, fifteen entries, public.
 
-Seventeen `playlists.insert` attempts for it have answered 429. What is
-established by experiment, all of it as of those failures:
+Getting there took a day and is worth recording. Seventeen attempts to create
+its playlist answered 429, and the experiments that followed established that
+**private was the only visibility the API would accept at all**: an identical
+public playlist was refused, so was an identical unlisted one, and so was moving
+the private one to either. Title and description were irrelevant -- the real
+title with a neutral description, a neutral title with the real one, and neutral
+with neutral all succeeded as private playlists and were deleted again. It was
+not the daily unit budget either; reads cost a unit each and never failed.
 
-- **Private is the only visibility that can be created.** A private playlist is
-  created immediately; an identical **public** one is refused, and so is an
-  identical **unlisted** one. The line is not public versus the rest — it is
-  private versus anything reachable by somebody other than the owner.
-- **Transitions are refused on the same line.** `playlists.update` moving the
-  playlist from private to public fails, and private to unlisted fails too.
-- **The content of the request is irrelevant.** The real title with a neutral
-  description, a neutral title with the real description, and neutral with
-  neutral all succeeded as private playlists and were deleted again.
-- **It is not the daily unit budget.** Reads cost a unit each and never failed.
+What it was is still not established. A daily allowance does not fit the order
+things happened in: Paranoia failed, Sarah Cincinnati was created, Paranoia
+failed four more times, Kingpin Katie was created on its third try, and only
+then did everything fail. Successes and failures interleaved rather than falling
+either side of a wall. The next day the same call went through first try.
 
-Both failure modes are 429; `insert` reports `RATE_LIMIT_EXCEEDED` and `update`
-reports `SERVICE_UNAVAILABLE`, which is worth knowing only so neither is
-mistaken for a different problem.
-
-What is **not** established is why. A daily allowance for visible playlists,
-exhausted at fourteen across two days, is the obvious story and does not fit the
-order things happened in. Paranoia failed once, then Sarah Cincinnati was
-created, then Paranoia failed four more times, then Kingpin Katie was created on
-its third try; only after that did everything fail. Successes and failures were
-genuinely interleaved rather than falling either side of a wall, and during that
-window Paranoia went nought for five while the other playlists went three for
-six.
-
-A slowly-refilling bucket near empty would explain the interleaving and bad luck
-would explain Paranoia's share of it, but both are stories fitted afterwards.
-The probes that ruled out title and description were run later, once everything
-visible was already failing, so they cannot speak to that earlier window;
-distinguishing the possibilities would have meant probing while it was open, and
-it has closed.
-
-`PLTC6zTYElgZ4` is created private, filled with all fifteen entries, and carries
-the correct title and description. `private = true` on its entry in
-`config/aggregate.toml` is what makes that a stable state rather than a failure
-every run: without it `publish` tries the transition out of private on every
-pass, is refused, and gives up before inserting anything. **To release it,
-delete that one line and publish.** Nothing else about it is provisional.
-
-Reading it back at all required a fix. `playlistMetadata` and `playlistVideos`
-authenticated with the API key alone, which is enough for a public or unlisted
-playlist and is what lets `--dry-run` work without OAuth, but a key-only read of
-a **private** playlist you own returns zero items — indistinguishable from one
-that does not exist — and `only` throws on the empty iterator. Both now accept
-an optional `auth` and `updatePlaylist` passes its authenticated client's, so a
-dry run is unchanged and a real publish can see its own private playlists.
+So the playlist was created private and filled, with `private = true` in
+`config/aggregate.toml` to stop `publish` retrying a transition it would be
+refused -- and the flag stays in the tool, because whatever this was can happen
+again.
 
 Both of the questions this file used to leave open have been answered.
 

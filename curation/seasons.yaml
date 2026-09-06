@@ -470,7 +470,7 @@ videos:
     members: 6xcd7vfjo0o
     published: 2020-03-24
   - bts: Fireside Chat with Brennan & Friends (Part 2)
-    dropout: fireside-chat-with-brennan-friends-part-1
+    dropout: fireside-chat-with-brennan-friends-part-2
     members: "-OcNWYpthsM"
     published: 2020-03-29
   - special: College Visit
@@ -4796,6 +4796,7 @@ videos:
     public copy: hnHhTAvbqlU
     published: 2024-01-10
   - bts: The Legendary Rick Perry and the Art of Dimension 20
+    dropout: the-legendary-rick-perry-and-the-art-of-dimension-20
     public: n_YOZhhvHZQ
     published: 2023-12-21
 
@@ -5927,6 +5928,7 @@ videos:
     members: zGhiJTTdq_U
     published: 2024-12-05
   - bts: "Behind the Scenes: Brennan Lee Mulligan"
+    dropout: behind-the-scenes-brennan-lee-mulligan-1
     members: P373-rjCxUM
     published: 2024-09-18
   - bts: "Behind the Scenes: Erika Ishii"
@@ -5938,6 +5940,7 @@ videos:
     members: caZrrKFXg-Y
     published: 2024-09-20
   - bts: "Behind the Scenes: Lou Wilson"
+    dropout: behind-the-scenes-lou-wilson-1
     members: 7eIsBXFteW0
     published: 2024-09-23
   - bts: "Behind the Scenes: Aabria Iyengar"
@@ -5984,6 +5987,7 @@ videos:
     members: j_26Lp7JGok
     published: 2024-12-05
   - bts: "Behind the Scenes: The Crew"
+    dropout: behind-the-scenes-the-crew-1
     members: l51NKtzVd_8
     published: 2024-12-11
 
@@ -8236,15 +8240,19 @@ videos:
 show: Ultramechatron Team Go!
 videos:
   - episode: 001. The Torso Pilot
+    dropout: our-giant-robot-doesn-t-need-a-torso-pilot
     public: M2_IcT456xM
     published: 2018-11-30
   - episode: 002. What's Beeping in the Giant Robot?
+    dropout: what-s-that-beeping
     public: J6XGHVJytmc
     published: 2018-12-07
   - episode: 003. Parking a Giant Robot is Hard
+    dropout: parking-a-giant-robot-is-hard
     public: dn6JRF0X7xQ
     published: 2018-12-14
   - episode: 004. Subletting a Giant Robot
+    dropout: subletting-one-part-of-a-giant-robot
     public: 0lDRiOQGWXs
     published: 2018-12-21
 

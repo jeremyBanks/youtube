@@ -33,7 +33,11 @@ priority = [
 # The campaigns live under their own slugs rather than one Dimension 20
 # collection, and the collection actually named "Dimension 20" is the
 # complete-series aggregate, which is never a home.
-"Dimension 20" = ["dimension-20", "mice-murder"]
+"Dimension 20" = [
+  "dimension-20",
+  "mice-murder",
+  "the-legendary-rick-perry-and-the-art-of-dimension-20",
+]
 # Dropout calls it "Dimension 20's Adventuring Party"; we do not.
 "Adventuring Party" = "dimension-20-s-adventuring-party"
 # No collection of its own at all: each stand-up special is its own
@@ -52,4 +56,20 @@ priority = [
   "mark-vigeant-the-best-man-show",
   "michael-cruz-kayne-sorry-for-your-loss",
   "the-big-team",
+]
+
+# A show whose runs live under more than one collection. Without these the
+# linker cannot see past the first, so the web series and the renamed
+# continuations read as uncurated shows of their own.
+#
+# Deliberately NOT here: the `game-changer` collection, which several of these
+# shows link one crossover episode into, and the shared `trailers` collection.
+# Mapping either would pull a whole foreign catalogue into the show's scope and
+# report all of it as missing.
+"Erotic Book Club" = ["erotic-book-club", "erotic-clubhouse"]
+"See Plum Run" = ["see-plum-run", "precious-plum"]
+"Troopers" = ["troopers-1", "troopers-the-web-series", "troopers-animated"]
+"Ultramechatron Team Go!" = [
+  "ultramechatron-team-go-1",
+  "ultramechatron-team-go-the-web-series",
 ]

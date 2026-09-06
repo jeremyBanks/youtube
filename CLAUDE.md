@@ -110,6 +110,34 @@ often.
 and a membership test against the raw id silently fails on every one. That
 produced two false findings in the first pass of this sweep.
 
+## A private video in a playlist, and what it was
+
+A private video is in no uploads feed, so no scan sees it, and `videos.list`
+will not serve it, so `resolve` cannot either. A playlist listing is the only
+place one exists for us -- `addedAt`, `position` and the placeholder title are
+all that survive, and 346 entries are in that state. Dropout's
+`Lonely and Horny` playlist is five of them and is the show's only trace
+anywhere.
+
+Where the playlist is a show's free run, the release cadence names them. Dropout
+dropped Um, Actually's free version on the Saturday after each Friday members
+release, so a private entry exactly one day after a curated episode is that
+episode's original upload -- and the surviving `public:` for all of them turns
+out to be a 2021 re-upload on the Um, Actually channel, made when the show moved
+to its own. Eight are recorded as `removed public` on that evidence.
+
+**Do not match `addedAt` against `published:`.** `published:` describes the id
+we hold, which for a replaced video is the replacement and is dated later. The
+original's `addedAt` has no reason to agree with it; the two that appeared to
+agree did so only because their entries carry the original air date. Dropout's
+`releaseDate` is the right anchor where it has been scraped, and the cadence is
+the anchor where it has not.
+
+A candidate that does not fit the rhythm is usually a clip. That playlist is
+half clips, and the four entries left unrecorded all fall on dates with no
+episode a day before -- one of them on Halloween, and two of them a single day
+apart, which no weekly run explains.
+
 ## Tests
 
 `deno task test` runs `test.ts`: 28 cases covering the sitemap and episode-page

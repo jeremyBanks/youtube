@@ -290,8 +290,15 @@ async function main() {
   );
   const officialByVideoSet = new Map<string, ChannelPlaylist>();
   for (const playlist of channelPlaylists) {
+    // Private entries are dropped before comparing. The API refuses to add a
+    // private video to a playlist, so one of ours can never contain it and
+    // would be judged different for a video it was never able to carry --
+    // Dropout's "A Message From the CEO" is twelve videos of which one is
+    // private, so a complete copy of ours would still have looked unequal.
     const ids = (playlist.entries ?? [])
-      .filter((entry) => !entry.removedBefore)
+      .filter((entry) =>
+        !entry.removedBefore && entry.privacyStatus !== "private"
+      )
       .map((entry) => entry.videoId);
     if (!ids.length) continue;
     const key = [...new Set(ids)].sort().join(",");

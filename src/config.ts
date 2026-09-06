@@ -190,6 +190,16 @@ const SeasonsCurationYaml = z.array(
         external: z.string().optional(),
         members: VideoId.optional(),
         "removed members": VideoId.or(VideoId.array()).optional(),
+        /**
+         * A free upload that has since been replaced and made private.
+         *
+         * Dropout re-uploads an episode when something in it needs fixing, or
+         * when a show moves to its own channel, and privates the original. The
+         * id survives only in a playlist listing, which is where these come
+         * from -- a private video is in no uploads feed and `videos.list` will
+         * not serve it.
+         */
+        "removed public": VideoId.or(VideoId.array()).optional(),
         public: VideoId.optional(),
         "public compilation": VideoId.optional(),
         "public copy": VideoId.optional(),

@@ -4607,7 +4607,11 @@ videos:
   - episode: 408. Grant Uses Others as Puppets To Voice His Opinions
     dropout: grant-uses-others-as-puppets-to-voice-his-opinions
     public: bTkmKYYimWQ
-    members: LMu9CVHWPXo
+    # Not a guess: a scan saw this members upload, then saw it leave the
+    # listing, and a direct lookup answered 404 at the oEmbed endpoint. It is
+    # the only id in the curation confirmed deleted rather than hidden. The
+    # free version above survives and runs the same 495 seconds.
+    removed members: LMu9CVHWPXo
     published: 2021-07-21
 
 ---

@@ -521,6 +521,15 @@ async function main() {
       ).replaceAll(
         "${MAYBE_MEMBERS_ONLY}",
         membership,
+        // Every description says "${HOURS}-hour playlist", which reads as
+        // "0-hour playlist" for anything under an hour. Under an hour it
+        // becomes minutes instead, so the pair is replaced together rather
+        // than the number alone.
+      ).replaceAll(
+        "${HOURS}-hour",
+        durationSeconds >= 3600
+          ? `${Math.floor(durationSeconds / 3600)}-hour`
+          : `${Math.max(1, Math.round(durationSeconds / 60))}-minute`,
       ).replaceAll(
         "${HOURS}",
         String(Math.floor(durationSeconds / 60 / 60)),

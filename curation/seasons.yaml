@@ -155,6 +155,15 @@ videos:
 season: Escape from the Bloodkeep
 show: Dimension 20
 videos:
+  # Six private videos sit in Dropout's general Dimension 20 playlist
+  # (PLuKg-WhduhklthTX9cY4b4VENMVPhdJyK) added weekly from 2019-05-07, three
+  # days after this trailer, and every one of our six episodes below is a 2020
+  # re-upload -- so the 2019 originals are unaccounted for and the count looked
+  # exact. It is not: `y2FMYu4d6yY` is "Welcome to the Dark Side (Ep. 1 Part
+  # 1)", so the 2019 run was split into parts and six entries cannot be six
+  # episodes. Nothing is recorded from them. The ids, all confirmed private by
+  # direct lookup, are y2FMYu4d6yY, lW7hMVhLDew, aGSmwhjdf84, yMAay7iaw08,
+  # 3kSH7viLAC4 and IyaQNipWyZ4.
   - trailer: Escape from the Bloodkeep Trailer
     public: Ih6ZdHE2kvo
     published: 2019-05-04

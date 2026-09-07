@@ -3142,23 +3142,27 @@ videos:
     public: aLz9XCAGBSY
     members: YIXoIiZ5m80
     published: 2018-10-04
-  # The `removed public` ids below are INFERRED, not observed. A private video
-  # appears in no uploads feed and `videos.list` will not serve it, so all we
-  # have is its presence in Dropout's own Um, Actually playlist and the date it
-  # was added there. These two were added on the days 105 and 106 aired, while
-  # the `public:` we carry for each was uploaded to the Um, Actually channel in
-  # 2020, two years later. Nothing confirms the content: no title, description
-  # or duration survives for a private video.
+  # Nine private video ids sit in Dropout's own "Um, Actually" playlist
+  # (PLuKg-WhduhkmztJgPlUeD6c5RwnkqEjd1) on this show's weekly beat, and are
+  # deliberately NOT recorded as `removed public`. They were, briefly, on the
+  # reasoning that a private entry one day after an episode had to be that
+  # episode's replaced free upload. Duration killed it: every non-private entry
+  # in that playlist from 2018-10-25 onwards is a six-to-fourteen minute cut on
+  # Dropout's channel, while the episodes themselves run twenty-eight to
+  # thirty-seven minutes. The playlist is a weekly clip run, so its private
+  # entries are removed clips, and excerpts are never curated.
+  #
+  # The ids, all confirmed private by direct lookup, are aL8nQokoc2Y,
+  # q2DO-mlhg2U, y18W1N6mR88, _flE3p0VJVQ, hczHJS9u1fE, M1QiS3SoNPU,
+  # qH9-FmJE8-8, spSxQjDguzM and cH6xfRhTKFQ.
   - episode: 105. Animalities, Maple Street Monsters, Mutagen Ooze
     dropout: animalities-maple-street-monsters-mutagen-ooze
     public: J8ZuoNkkt88
-    removed public: aL8nQokoc2Y
     members: twqpBL8EoyE
     published: 2018-10-11
   - episode: 106. Pevensie Reign, Foreign Mutants, Kanto Clones
     dropout: pevensie-reign-foreign-mutants-kanto-clones
     public: nMedD6E6BZ8
-    removed public: q2DO-mlhg2U
     members: yxQ1K20PyS4
     published: 2018-10-18
   - episode: 107. Mouth of Sauron, Saiyan Tails, Bothan Spies
@@ -3310,27 +3314,14 @@ videos:
     public: Ft6N64pPll0
     members: 3VDoedv3J6U
     published: 2019-07-19
-  # Six `removed public` ids in this season are INFERRED, not observed, on the
-  # release cadence: Dropout published each free version on the Saturday after
-  # the Friday members release, and each of these private entries sits exactly
-  # one day after its episode in Dropout's own Um, Actually playlist. Every
-  # `public:` here was re-uploaded to the Um, Actually channel in 2021, when
-  # the show moved to its own channel, which is what the private ids replaced.
-  # No title, description or duration survives for a private video, so there is
-  # nothing to check the content against. Four further private entries in that
-  # playlist are deliberately unrecorded: their dates fall on no episode's
-  # slot, one of them on Halloween and two a single day apart, which no weekly
-  # run explains.
   - episode: 202. A Very Special TV Themed Episode
     dropout: a-very-special-tv-themed-episode
     public: bd8-sUQzb7w
-    removed public: y18W1N6mR88
     members: I4g4OhcP6sg
     published: 2019-07-26
   - episode: 203. Homestar Runner, Hearthstone, Demolition Man
     dropout: homestar-runner-hearthstone-demolition-man
     public: 0_wA2f1ZTd4
-    removed public: _flE3p0VJVQ
     members: "-9eEtN8OJRM"
     published: 2019-08-02
   - episode: 204. The Dresden Files, Settlers of Catan, Fallout 4
@@ -3356,7 +3347,6 @@ videos:
   - episode: 208. Stephen King, Warhammer 40000, Dragon Age
     dropout: stephen-king-warhammer-40-000-dragon-age
     public: JHdM7aVqfbU
-    removed public: hczHJS9u1fE
     members: X1h7dW6tHVQ
     published: 2019-09-06
   - episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night
@@ -3364,18 +3354,9 @@ videos:
     public: C51TuAxhUY0
     members: OOZqpqTSbI4
     published: 2019-09-13
-  # This one is INFERRED and weaker than the six above, by elimination. The
-  # free run beats every seven days and 2019-09-21, where this episode's free
-  # version belongs, is empty; the next beat, 2019-09-28, holds a private entry
-  # that fits no episode, because Dropout's season 2 is exactly 21 episodes and
-  # nothing aired on the 27th. A single slipped week explains both, and the
-  # show itself paused there -- 210 on the 20th, then NYCC on 2019-10-04. The
-  # alternative is that 210's free upload never entered the playlist and this
-  # is an unrelated clip, which needs two coincidences instead of one.
   - episode: 210. Ghostbusters, Gateway, Gravity Falls
     dropout: ghostbusters-gateway-gravity-falls
     public: LwZ00vkM_Cg
-    removed public: M1QiS3SoNPU
     members: Gq3kZQC-RsY
     published: 2019-09-20
   # Owned by the Um, Actually channel rather than Dropout's, which is why it
@@ -3392,7 +3373,6 @@ videos:
   - episode: "213. Um, Aaah!ctually: Halloween Edition"
     dropout: um-aaah-ctually-halloween-edition
     public: FqqiHhXg1_w
-    removed public: qH9-FmJE8-8
     members: RdzgdT13Ss4
     published: 2019-10-25
   - episode: 214. E.T., Green Lantern, Robin Hobb
@@ -3413,7 +3393,6 @@ videos:
   - episode: 217. Borderlands, Ticket to Ride, Into the Spider-Verse
     dropout: borderlands-ticket-to-ride-into-the-spider-verse
     public: DGEFliHCUW4
-    removed public: spSxQjDguzM
     members: fyKisPgxbYI
     published: 2019-11-22
   - episode: 218. Rick & Morty, The Muppets, Superman
@@ -3429,7 +3408,6 @@ videos:
   - episode: 220. Ender's Game, Good Omens, Secret Wars
     dropout: ender-s-game-good-omens-secret-wars
     public: 7lI4xD53DRE
-    removed public: cH6xfRhTKFQ
     members: H1bCYbwtzZk
     published: 2019-12-13
   - episode: 221. Pokémon, South Park, Discworld (With John Darnielle)

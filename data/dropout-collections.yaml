@@ -1,6 +1,6 @@
-slug:        a-court-of-fey-flowers-the-complete-experience
-title:       'Dimension 20: A Court of Fey & Flowers (The Complete Experience)'
-description: Every episode of A Court of Fey & Flowers and Adventuring Party - in order!
+slug:          a-court-of-fey-flowers-the-complete-experience
+title:         'Dimension 20: A Court of Fey & Flowers (The Complete Experience)'
+description:   Every episode of A Court of Fey & Flowers and Adventuring Party - in order!
 episodes:
 - a-bloom-to-remember
 - i-demand-satisfaction
@@ -45,15 +45,15 @@ itemIds:
 - 2351101
 - 2356175
 - 2363218
-size:        21
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:15:50.364Z
+size:          21
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:15:50.364Z
 
 ---
 
-slug:        a-crown-of-candy-the-complete-experience
-title:       'Dimension 20: A Crown of Candy (The Complete Experience)'
-description: 'Every episode of A Crown of Candy with every respective talkback episode of Adventuring Party - finally, in one place!'
+slug:          a-crown-of-candy-the-complete-experience
+title:         'Dimension 20: A Crown of Candy (The Complete Experience)'
+description:   'Every episode of A Crown of Candy with every respective talkback episode of Adventuring Party - finally, in one place!'
 episodes:
 - there-is-strength-in-sweetness
 - are-the-dice-scripted
@@ -104,15 +104,15 @@ itemIds:
 - 939530
 - 924475
 - 945882
-size:        35
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:13:21.373Z
+size:          35
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:13:21.373Z
 
 ---
 
-slug:        a-message-from-the-ceo
-title:       A Message From the CEO
-description: Brennan Lee Mulligan plays a CEO on the worst day of his life in these satirical sketches that take aim at some of today's most newsworthy brands.
+slug:          a-message-from-the-ceo
+title:         A Message From the CEO
+description:   Brennan Lee Mulligan plays a CEO on the worst day of his life in these satirical sketches that take aim at some of today's most newsworthy brands.
 seasons:
 - 1
 episodes:
@@ -147,15 +147,15 @@ itemIds:
 - 1468301
 - 1533187
 - 1533204
-size:        15
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:18:06.379Z
+size:          15
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:18:06.379Z
 
 ---
 
-slug:        a-starstruck-odyssey-the-complete-experience-1
-title:       'Dimension 20: A Starstruck Odyssey (The Complete Experience)'
-description: Every episode of A Starstruck Odyssey and Adventuring Party - in order!
+slug:          a-starstruck-odyssey-the-complete-experience-1
+title:         'Dimension 20: A Starstruck Odyssey (The Complete Experience)'
+description:   Every episode of A Starstruck Odyssey and Adventuring Party - in order!
 episodes:
 - starstruck-origins-with-elaine-lee-part-1
 - starstruck-origins-with-elaine-lee-part-2
@@ -206,30 +206,30 @@ itemIds:
 - 2057580
 - 2049575
 - 2070320
-size:        40
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:12:44.107Z
+size:          40
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:12:44.107Z
 
 ---
 
-slug:        adam-conover-unmedicated
-title:       'Adam Conover: Unmedicated'
-description: 'Adam Conover talks about society’s short attention span, prescription drugs, and American car culture.'
+slug:          adam-conover-unmedicated
+title:         'Adam Conover: Unmedicated'
+description:   'Adam Conover talks about society’s short attention span, prescription drugs, and American car culture.'
 episodes:
 - adam-conover-unmedicated
 - get-your-act-together-with-adam-conover
 itemIds:
 - 3349898
 - 3326206
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:33:17.937Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:33:17.937Z
 
 ---
 
-slug:        adventuring-academy
-title:       Adventuring Academy
-description: 'Adventurers, alight! Veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros. New episodes every month.'
+slug:          adventuring-academy
+title:         Adventuring Academy
+description:   'Adventurers, alight! Veteran gamemaster Brennan Lee Mulligan dives deep into role-playing games, with tips for everyone from first-time players to other pros. New episodes every month.'
 seasons:
 - 1
 - 2
@@ -276,15 +276,15 @@ itemIds:
 - 551265
 - 560155
 - 584597
-size:        72
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:11:54.476Z
+size:          72
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:11:54.476Z
 
 ---
 
-slug:        all-nighters
-title:       All-Nighters
-description: 'The glistening fruits of our ill-conceived annual tradition of guerrilla video making. We do it for you, and you''re so welcome. Behold the bounty or whatever.'
+slug:          all-nighters
+title:         All-Nighters
+description:   'The glistening fruits of our ill-conceived annual tradition of guerrilla video making. We do it for you, and you''re so welcome. Behold the bounty or whatever.'
 seasons:
 - 1
 episodes:
@@ -337,14 +337,14 @@ itemIds:
 - 263511
 - 263512
 - 234016
-size:        32
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:13:58.660Z
+size:          32
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:13:58.660Z
 
 ---
 
-slug:        amy-vorpahl-on-breaking-news
-title:       Amy Vorpahl on Breaking News
+slug:          amy-vorpahl-on-breaking-news
+title:         Amy Vorpahl on Breaking News
 episodes:
 - bummer-tornado-destroys-cool-jail
 - mom-disappointed-in-son-again
@@ -383,30 +383,30 @@ itemIds:
 - 2922512
 - 3166843
 - 3310346
-size:        18
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:16:52.289Z
+size:          18
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:16:52.289Z
 
 ---
 
-slug:        aparna-nancherla-hopeful-potato
-title:       'Aparna Nancherla: Hopeful Potato'
-description: 'Aparna Nancherla talks about social anxiety, relationship dynamics, and the benefits of aging.'
+slug:          aparna-nancherla-hopeful-potato
+title:         'Aparna Nancherla: Hopeful Potato'
+description:   'Aparna Nancherla talks about social anxiety, relationship dynamics, and the benefits of aging.'
 episodes:
 - aparna-nancherla-hopeful-potato
 - get-your-act-together-with-aparna-nancherla
 itemIds:
 - 3889024
 - 3887586
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:33:30.221Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:33:30.221Z
 
 ---
 
-slug:        bad-internet
-title:       Bad Internet
-description: A satirical anthology series about the terrifying potential futures of internet technology and culture. Not at all similar to any other shows about technological overreaching.
+slug:          bad-internet
+title:         Bad Internet
+description:   A satirical anthology series about the terrifying potential futures of internet technology and culture. Not at all similar to any other shows about technological overreaching.
 seasons:
 - 1
 episodes:
@@ -431,15 +431,15 @@ itemIds:
 - 1932383
 - 1941630
 - 1947468
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:23:02.516Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:23:02.516Z
 
 ---
 
-slug:        badman
-title:       Badman
-description: 'Badman, the world''s most petulant detective and least competent caped crusader, annoys iconic foes and allies in this superhero parody (starring Pete Holmes).'
+slug:          badman
+title:         Badman
+description:   'Badman, the world''s most petulant detective and least competent caped crusader, annoys iconic foes and allies in this superhero parody (starring Pete Holmes).'
 seasons:
 - 1
 episodes:
@@ -466,15 +466,15 @@ itemIds:
 - 233615
 - 233616
 - 233617
-size:        11
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:22:13.165Z
+size:          11
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:22:13.165Z
 
 ---
 
-slug:        bearshark-1
-title:       BearShark
-description: 'Two of nature''s bloodlustiest predators, one solitary mission: eat this dude.'
+slug:          bearshark-1
+title:         BearShark
+description:   'Two of nature''s bloodlustiest predators, one solitary mission: eat this dude.'
 seasons:
 - 1
 episodes:
@@ -491,29 +491,29 @@ itemIds:
 - 233625
 - 233626
 - 233627
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:26:44.253Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:26:44.253Z
 
 ---
 
-slug:        bigger-with-brennan-and-izzy
-title:       Bigger! With Brennan and Izzy
-description: Brennan Lee Mulligan and Izzy Roland turn odd real life stories into outrageous improv scenes.
+slug:          bigger-with-brennan-and-izzy
+title:         Bigger! With Brennan and Izzy
+description:   Brennan Lee Mulligan and Izzy Roland turn odd real life stories into outrageous improv scenes.
 episodes:
 - bigger-with-brennan-and-izzy
 - get-your-act-together-with-brennan-and-izzy
 itemIds:
 - 3300849
 - 3284756
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:33:42.465Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:33:42.465Z
 
 ---
 
-slug:        bonus-scenes-extras-new-shelf
-title:       Bonus Scenes & Extras
+slug:          bonus-scenes-extras-new-shelf
+title:         Bonus Scenes & Extras
 episodes:
 - behind-the-scenes-of-dimension-20-a-crown-of-candy
 - escape-from-the-bloodkeep-behind-the-scenes
@@ -524,14 +524,14 @@ itemIds:
 - 517277
 - 1468301
 - 1400471
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:29:36.621Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:29:36.621Z
 
 ---
 
-slug:        breaking-news
-title:       Breaking News
+slug:          breaking-news
+title:         Breaking News
 episodes:
 - i-bow-to-you
 - i-m-a-goldmember-but-for-diamonds
@@ -582,15 +582,15 @@ itemIds:
 - 2796659
 - 2819932
 - 2796652
-size:        106
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:11:29.704Z
+size:          106
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:11:29.704Z
 
 ---
 
-slug:        breaking-news-no-laugh-newsroom
-title:       'Breaking News: No Laugh Newsroom'
-description: 'In this newsroom, breaking means losing. Our reporters don''t know what''s about to be on the teleprompter, and every laugh is a point against them.'
+slug:          breaking-news-no-laugh-newsroom
+title:         'Breaking News: No Laugh Newsroom'
+description:   'In this newsroom, breaking means losing. Our reporters don''t know what''s about to be on the teleprompter, and every laugh is a point against them.'
 seasons:
 - 1
 - 2
@@ -609,15 +609,15 @@ itemIds:
 - 355592
 - 355594
 - 361417
-size:        108
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:11:17.287Z
+size:          108
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:11:17.287Z
 
 ---
 
-slug:        brennan-being-pedantic-on-make-some-noise
-title:       Brennan Being Pedantic on Make Some Noise
-description: 'Has Brennan seen these prompts before? Well, he won''t know if he''s ever seen them before until he sees them for the first time.'
+slug:          brennan-being-pedantic-on-make-some-noise
+title:         Brennan Being Pedantic on Make Some Noise
+description:   'Has Brennan seen these prompts before? Well, he won''t know if he''s ever seen them before until he sees them for the first time.'
 episodes:
 - hbo-s-a-game-of-rock-paper-scissors
 - the-cut-plunger-s-song-from-beauty-and-the-beast
@@ -642,15 +642,15 @@ itemIds:
 - 3824859
 - 3959118
 - 4004333
-size:        11
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:22:25.473Z
+size:          11
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:22:25.473Z
 
 ---
 
-slug:        brennan-lee-mulligan-on-um-actually
-title:       'Brennan Lee Mulligan on Um, Actually'
-description: Because SOMEONE needs to tell you when to get in the comments.
+slug:          brennan-lee-mulligan-on-um-actually
+title:         'Brennan Lee Mulligan on Um, Actually'
+description:   Because SOMEONE needs to tell you when to get in the comments.
 episodes:
 - tournament-of-champions-26-part-3
 - planet-of-the-apes-deadpool-alien
@@ -677,14 +677,14 @@ itemIds:
 - 1110375
 - 1346897
 - 1893379
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:20:09.885Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:20:09.885Z
 
 ---
 
-slug:        bullying-sam-reich
-title:       Bullying Sam Reich
+slug:          bullying-sam-reich
+title:         Bullying Sam Reich
 episodes:
 - sam-reich-launches-dropout-america
 - dropout-america-2
@@ -703,30 +703,30 @@ itemIds:
 - 2922512
 - 3260819
 - 3386090
-size:        8
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:24:53.470Z
+size:          8
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:24:53.470Z
 
 ---
 
-slug:        cameron-esposito-four-pills
-title:       'Cameron Esposito: Four Pills'
-description: Cameron Esposito discusses being diagnosed with bipolar disorder and the events that led up to it.
+slug:          cameron-esposito-four-pills
+title:         'Cameron Esposito: Four Pills'
+description:   Cameron Esposito discusses being diagnosed with bipolar disorder and the events that led up to it.
 episodes:
 - cameron-esposito-four-pills
 - get-your-act-together-with-cameron-esposito
 itemIds:
 - 3586126
 - 3579458
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:33:54.718Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:33:54.718Z
 
 ---
 
-slug:        camp
-title:       CAMP
-description: 'Welcome to Camp Wanaykaka, where childhoods get scarred, counsellors get weird, and Milana''s bodacious bazongas are legend. Starring Josh Ruben and Thomas Middleditch.'
+slug:          camp
+title:         CAMP
+description:   'Welcome to Camp Wanaykaka, where childhoods get scarred, counsellors get weird, and Milana''s bodacious bazongas are legend. Starring Josh Ruben and Thomas Middleditch.'
 seasons:
 - 1
 episodes:
@@ -747,15 +747,15 @@ itemIds:
 - 233620
 - 331739
 - 233621
-size:        8
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:25:05.861Z
+size:          8
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:25:05.861Z
 
 ---
 
-slug:        canon-city-comic-club
-title:       Canon City Comic Club
-description: Tristan Cooper and Andrew Bridgman nerd out over the iconic comic books that fueled the fandom and inspired movie multiverses. (Formerly Back Issue Book Club)
+slug:          canon-city-comic-club
+title:         Canon City Comic Club
+description:   Tristan Cooper and Andrew Bridgman nerd out over the iconic comic books that fueled the fandom and inspired movie multiverses. (Formerly Back Issue Book Club)
 seasons:
 - 1
 episodes:
@@ -806,15 +806,15 @@ itemIds:
 - 592148
 - 602915
 - 613548
-size:        23
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:15:00.797Z
+size:          23
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:15:00.797Z
 
 ---
 
-slug:        cartoon-hell
-title:       Cartoon Hell
-description: Drawfee's Caldwell Tanner and Nathan Yaffe must spend eternity in Hell unless they make killer cartoons from viewers' suggestions.
+slug:          cartoon-hell
+title:         Cartoon Hell
+description:   Drawfee's Caldwell Tanner and Nathan Yaffe must spend eternity in Hell unless they make killer cartoons from viewers' suggestions.
 seasons:
 - 1
 - 2
@@ -868,15 +868,15 @@ itemIds:
 - 438617
 - 438619
 - 438665
-size:        36
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:13:08.957Z
+size:          36
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:13:08.957Z
 
 ---
 
-slug:        celebrity-slumber-party
-title:       Celebrity Slumber Party
-description: 'Rekha Shankar invites her famous best friends over to play games, answer questions, and tell spooky stories.'
+slug:          celebrity-slumber-party
+title:         Celebrity Slumber Party
+description:   'Rekha Shankar invites her famous best friends over to play games, answer questions, and tell spooky stories.'
 seasons:
 - 1
 episodes:
@@ -887,15 +887,15 @@ itemIds:
 - 341201
 - 356252
 - 358754
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:31:51.702Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:31:51.702Z
 
 ---
 
-slug:        ch-does-the-purge
-title:       CH Does the Purge
-description: Office alliances and basic common sense fall to shit when HR mandates a one-night criminal free-for-all.
+slug:          ch-does-the-purge
+title:         CH Does the Purge
+description:   Office alliances and basic common sense fall to shit when HR mandates a one-night criminal free-for-all.
 seasons:
 - 1
 episodes:
@@ -908,15 +908,15 @@ itemIds:
 - 449033
 - 449034
 - 449035
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:29:48.896Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:29:48.896Z
 
 ---
 
-slug:        ch-goes-to-hell
-title:       CH Goes to Hell
-description: 'With all the personally tailored torments, satanic sexpots, and historical monsters, it''s almost like a Hell away from home.'
+slug:          ch-goes-to-hell
+title:         CH Goes to Hell
+description:   'With all the personally tailored torments, satanic sexpots, and historical monsters, it''s almost like a Hell away from home.'
 seasons:
 - 1
 episodes:
@@ -931,15 +931,15 @@ itemIds:
 - 263515
 - 263516
 - 263517
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:28:22.708Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:28:22.708Z
 
 ---
 
-slug:        ch-live
-title:       CH Live
-description: 'Get a front row seat for live performances from classic CollegeHumor sketch and stand up shows, featuring some of today''s best comedians before they were big.'
+slug:          ch-live
+title:         CH Live
+description:   'Get a front row seat for live performances from classic CollegeHumor sketch and stand up shows, featuring some of today''s best comedians before they were big.'
 seasons:
 - 1
 episodes:
@@ -954,22 +954,22 @@ itemIds:
 - 449038
 - 449039
 - 449041
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:28:34.977Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:28:34.977Z
 
 ---
 
-slug:        ch-miniseries
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:20:22.214Z
+slug:          ch-miniseries
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:20:22.214Z
 
 ---
 
-slug:        ch-shorts
-title:       CH Shorts
-description: 'Original sketches, music videos, and pop culture parodies spanning the last CollegeHumor decade.'
+slug:          ch-shorts
+title:         CH Shorts
+description:   'Original sketches, music videos, and pop culture parodies spanning the last CollegeHumor decade.'
 seasons:
 - 1
 - 2
@@ -1036,29 +1036,29 @@ itemIds:
 - 449065
 - 449066
 - 233634
-size:        453
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:10:52.681Z
+size:          453
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:10:52.681Z
 
 ---
 
-slug:        chris-grace-as-scarlett-johansson
-title:       'Chris Grace: As Scarlett Johansson'
-description: Chris Grace wrestles with the ideas of casting and diversity in Hollywood in this meta comedy special.
+slug:          chris-grace-as-scarlett-johansson
+title:         'Chris Grace: As Scarlett Johansson'
+description:   Chris Grace wrestles with the ideas of casting and diversity in Hollywood in this meta comedy special.
 episodes:
 - chris-grace-as-scarlett-johansson
 - get-your-act-together-with-chris-grace
 itemIds:
 - 3326283
 - 3319906
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:34:06.956Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:34:06.956Z
 
 ---
 
-slug:        coffin-run-the-complete-experience-1
-title:       'Dimension 20: Coffin Run (The Complete Experience)'
+slug:          coffin-run-the-complete-experience-1
+title:         'Dimension 20: Coffin Run (The Complete Experience)'
 episodes:
 - down-for-the-count
 - all-you-need-is-stab
@@ -1087,15 +1087,15 @@ itemIds:
 - 2248958
 - 2249977
 - 2258487
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:18:43.448Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:18:43.448Z
 
 ---
 
-slug:        collegehumor-chaos
-title:       CollegeHumor Chaos
-description: 'Join the CollegeHumor cast LIVE for original games, silly challenges, audience Q and A, rejected sketches, behind-the-scenes trivia, and who knows what else by the time you finish reading this?'
+slug:          collegehumor-chaos
+title:         CollegeHumor Chaos
+description:   'Join the CollegeHumor cast LIVE for original games, silly challenges, audience Q and A, rejected sketches, behind-the-scenes trivia, and who knows what else by the time you finish reading this?'
 seasons:
 - 1
 episodes:
@@ -1108,15 +1108,15 @@ itemIds:
 - 616203
 - 616280
 - 618364
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:30:01.205Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:30:01.205Z
 
 ---
 
-slug:        collegehumor-storytime
-title:       CollegeHumor Storytime
-description: 'Our wildest, weirdest, and worst experiences are brought to life with animation in these unscripted storytelling shorts.'
+slug:          collegehumor-storytime
+title:         CollegeHumor Storytime
+description:   'Our wildest, weirdest, and worst experiences are brought to life with animation in these unscripted storytelling shorts.'
 seasons:
 - 1
 episodes:
@@ -1127,30 +1127,30 @@ itemIds:
 - 354638
 - 361745
 - 377338
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:32:04.002Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:32:04.002Z
 
 ---
 
-slug:        courtney-pauroso-vanessa-5000
-title:       'Courtney Pauroso: Vanessa 5000'
-description: Courtney Pauroso examines society's relationship with technology as sex robot Vanessa 5000.
+slug:          courtney-pauroso-vanessa-5000
+title:         'Courtney Pauroso: Vanessa 5000'
+description:   Courtney Pauroso examines society's relationship with technology as sex robot Vanessa 5000.
 episodes:
 - courtney-pauroso-vanessa-5000
 - get-your-act-together-with-courtney-pauroso
 itemIds:
 - 3390241
 - 3373023
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:34:19.228Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:34:19.228Z
 
 ---
 
-slug:        crowd-control
-title:       Crowd Control
-description: The improvised stand-up show where the audience is the material. New episodes every other Monday.
+slug:          crowd-control
+title:         Crowd Control
+description:   The improvised stand-up show where the audience is the material. New episodes every other Monday.
 seasons:
 - 1
 - 2
@@ -1168,30 +1168,30 @@ itemIds:
 - 3828018
 - 3848919
 - 3863424
-size:        9
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:25:18.145Z
+size:          9
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:25:18.145Z
 
 ---
 
-slug:        demi-adejuyigbe-is-going-to-do-one-1-backflip
-title:       'Demi Adejuyigbe: Is Going to Do One (1) Backflip'
-description: 'Demi Adejuyigbe explores authenticity through original songs, comedic bits, and a single backflip.'
+slug:          demi-adejuyigbe-is-going-to-do-one-1-backflip
+title:         'Demi Adejuyigbe: Is Going to Do One (1) Backflip'
+description:   'Demi Adejuyigbe explores authenticity through original songs, comedic bits, and a single backflip.'
 episodes:
 - demi-adejuyigbe-is-going-to-do-one-1-backflip
 - get-your-act-together-with-demi-adejuyigbe
 itemIds:
 - 3867989
 - 3857502
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:34:31.475Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:34:31.475Z
 
 ---
 
-slug:        dimension-20-a-court-of-fey-flowers
-title:       'Dimension 20: A Court of Fey & Flowers'
-description: GM Aabria Iyengar and her pack of pixies prepare for the most magical event of the season.
+slug:          dimension-20-a-court-of-fey-flowers
+title:         'Dimension 20: A Court of Fey & Flowers'
+description:   GM Aabria Iyengar and her pack of pixies prepare for the most magical event of the season.
 seasons:
 - 1
 episodes:
@@ -1216,15 +1216,15 @@ itemIds:
 - 2339146
 - 2350844
 - 2351101
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:02:51.175Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:02:51.175Z
 
 ---
 
-slug:        dimension-20-a-crown-of-candy
-title:       'Dimension 20: A Crown Of Candy'
-description: Welcome to the realm of Calorum - a realm made of six food-themed lands. But this tale of sorrow and sweetness is that of the candy kingdom of Candia...
+slug:          dimension-20-a-crown-of-candy
+title:         'Dimension 20: A Crown Of Candy'
+description:   Welcome to the realm of Calorum - a realm made of six food-themed lands. But this tale of sorrow and sweetness is that of the candy kingdom of Candia...
 seasons:
 - 1
 episodes:
@@ -1265,15 +1265,15 @@ itemIds:
 - 936445
 - 936702
 - 1013093
-size:        18
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:01:37.106Z
+size:          18
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:01:37.106Z
 
 ---
 
-slug:        dimension-20-a-starstruck-odyssey
-title:       'Dimension 20: A Starstruck Odyssey'
-description: 'It''s a tough galaxy out there, but somebody''s gotta live in it...it might as well be you.'
+slug:          dimension-20-a-starstruck-odyssey
+title:         'Dimension 20: A Starstruck Odyssey'
+description:   'It''s a tough galaxy out there, but somebody''s gotta live in it...it might as well be you.'
 seasons:
 - 1
 episodes:
@@ -1322,15 +1322,15 @@ itemIds:
 - 1949924
 - 2145743
 - 2156698
-size:        22
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:59:45.463Z
+size:          22
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:59:45.463Z
 
 ---
 
-slug:        dimension-20-animated
-title:       Dimension 20 Animated
-description: Animators bring to life some of your favorite Dimension 20 moments.
+slug:          dimension-20-animated
+title:         Dimension 20 Animated
+description:   Animators bring to life some of your favorite Dimension 20 moments.
 seasons:
 - 1
 episodes:
@@ -1373,15 +1373,15 @@ itemIds:
 - 3896880
 - 3903233
 - 3906717
-size:        19
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:01:12.298Z
+size:          19
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:01:12.298Z
 
 ---
 
-slug:        dimension-20-animated-episodes
-title:       Dimension 20 Animated
-description: Animators bring to life some of your favorite Dimension 20 moments.
+slug:          dimension-20-animated-episodes
+title:         Dimension 20 Animated
+description:   Animators bring to life some of your favorite Dimension 20 moments.
 episodes:
 - operation-slippery-puppet
 - proldier-s-license
@@ -1422,15 +1422,15 @@ itemIds:
 - 1795709
 - 1737701
 - 1653887
-size:        19
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:01:24.710Z
+size:          19
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:01:24.710Z
 
 ---
 
-slug:        dimension-20-audio-only
-title:       'Dimension 20 [Audio Only]'
-description: 'Welcome to Dimension 20, where comedians, improvisers, and all assortments of goofs play TTRPGs! Led by Game Master Brennan Lee Mulligan and special guests, each season of Dimension 20 will bring you to a new world, filled with new characters and new dangers. These are the audio-only versions of ...'
+slug:          dimension-20-audio-only
+title:         'Dimension 20 [Audio Only]'
+description:   'Welcome to Dimension 20, where comedians, improvisers, and all assortments of goofs play TTRPGs! Led by Game Master Brennan Lee Mulligan and special guests, each season of Dimension 20 will bring you to a new world, filled with new characters and new dangers. These are the audio-only versions of ...'
 seasons:
 - 1
 - 2
@@ -1501,15 +1501,15 @@ itemIds:
 - 1996864
 - 1996865
 - 1996866
-size:        313
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:57:16.394Z
+size:          313
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:57:16.394Z
 
 ---
 
-slug:        dimension-20-burrow-s-end
-title:       'Dimension 20: Burrow''s End'
-description: 'A family of stoats must sacrifice everything to survive in a harsh, cruel world.'
+slug:          dimension-20-burrow-s-end
+title:         'Dimension 20: Burrow''s End'
+description:   'A family of stoats must sacrifice everything to survive in a harsh, cruel world.'
 seasons:
 - 1
 episodes:
@@ -1534,15 +1534,15 @@ itemIds:
 - 2969981
 - 2992852
 - 3000749
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:03:03.495Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:03:03.495Z
 
 ---
 
-slug:        dimension-20-burrow-s-end-the-complete-experience
-title:       'Dimension 20: Burrow''s End (The Complete Experience)'
-description: Every episode of Burrow's End and Adventuring Party - in order!
+slug:          dimension-20-burrow-s-end-the-complete-experience
+title:         'Dimension 20: Burrow''s End (The Complete Experience)'
+description:   Every episode of Burrow's End and Adventuring Party - in order!
 episodes:
 - the-red-warren
 - stoatal-recall
@@ -1585,15 +1585,15 @@ itemIds:
 - 2984147
 - 3000749
 - 2994423
-size:        20
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:00:10.285Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:00:10.285Z
 
 ---
 
-slug:        dimension-20-city-council-of-darkness
-title:       'Dimension 20: City Council of Darkness'
-description: 'A coterie of misfit vampires establish dominion over a small, quaint town.'
+slug:          dimension-20-city-council-of-darkness
+title:         'Dimension 20: City Council of Darkness'
+description:   'A coterie of misfit vampires establish dominion over a small, quaint town.'
 seasons:
 - 1
 episodes:
@@ -1628,15 +1628,15 @@ itemIds:
 - 4086045
 - 4093779
 - 3993188
-size:        15
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:02:01.885Z
+size:          15
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:02:01.885Z
 
 ---
 
-slug:        dimension-20-city-council-of-darkness-the-complete-experience
-title:       'Dimension 20: City Council of Darkness (The Complete Experience)'
-description: Every episode of City Council of Darkness and Adventuring Party - in order!
+slug:          dimension-20-city-council-of-darkness-the-complete-experience
+title:         'Dimension 20: City Council of Darkness (The Complete Experience)'
+description:   Every episode of City Council of Darkness and Adventuring Party - in order!
 episodes:
 - mishaps-a-maw-and-the-masquerade
 - it-s-a-banksy
@@ -1687,15 +1687,15 @@ itemIds:
 - 4073618
 - 4079253
 - 4080362
-size:        28
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:58:55.960Z
+size:          28
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:58:55.960Z
 
 ---
 
-slug:        dimension-20-cloudward-ho
-title:       'Dimension 20: Cloudward, Ho!'
-description: 'In a world of machine wonder, six explorers set out to search for new lands and wild adventure.'
+slug:          dimension-20-cloudward-ho
+title:         'Dimension 20: Cloudward, Ho!'
+description:   'In a world of machine wonder, six explorers set out to search for new lands and wild adventure.'
 seasons:
 - 1
 episodes:
@@ -1742,15 +1742,15 @@ itemIds:
 - 3826838
 - 3834563
 - 3743422
-size:        21
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:59:57.887Z
+size:          21
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:59:57.887Z
 
 ---
 
-slug:        dimension-20-cloudward-ho-the-complete-experience
-title:       'Dimension 20: Cloudward, Ho! (The Complete Experience)'
-description: 'Every episode of Cloudward, Ho and Adventuring Party - in order!'
+slug:          dimension-20-cloudward-ho-the-complete-experience
+title:         'Dimension 20: Cloudward, Ho! (The Complete Experience)'
+description:   'Every episode of Cloudward, Ho and Adventuring Party - in order!'
 episodes:
 - on-high-we-go
 - pure-whimsy
@@ -1801,15 +1801,15 @@ itemIds:
 - 3751992
 - 3752901
 - 3751995
-size:        41
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:58:06.158Z
+size:          41
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:58:06.158Z
 
 ---
 
-slug:        dimension-20-coffin-run
-title:       'Dimension 20: Coffin Run'
-description: 'GM Jasmine Bhullar weaves a tale as old as many lifetimes, in the gloomy land of Transylvania.'
+slug:          dimension-20-coffin-run
+title:         'Dimension 20: Coffin Run'
+description:   'GM Jasmine Bhullar weaves a tale as old as many lifetimes, in the gloomy land of Transylvania.'
 seasons:
 - 1
 episodes:
@@ -1826,15 +1826,15 @@ itemIds:
 - 2217812
 - 2233567
 - 2248958
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:04:29.738Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:04:29.738Z
 
 ---
 
-slug:        dimension-20-dungeons-and-drag-queens
-title:       'Dimension 20: Dungeons and Drag Queens'
-description: Four drag queen adventurers death drop into the underworld.
+slug:          dimension-20-dungeons-and-drag-queens
+title:         'Dimension 20: Dungeons and Drag Queens'
+description:   Four drag queen adventurers death drop into the underworld.
 seasons:
 - 1
 - 2
@@ -1848,15 +1848,15 @@ itemIds:
 - 2785268
 - 3172464
 - 2807063
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:03:15.786Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:03:15.786Z
 
 ---
 
-slug:        dimension-20-dungeons-and-drag-queens-the-complete-experience
-title:       'Dimension 20: Dungeons and Drag Queens (The Complete Experience)'
-description: Every episode of Dungeons and Drag Queens and Adventuring Party - in order!
+slug:          dimension-20-dungeons-and-drag-queens-the-complete-experience
+title:         'Dimension 20: Dungeons and Drag Queens (The Complete Experience)'
+description:   Every episode of Dungeons and Drag Queens and Adventuring Party - in order!
 episodes:
 - queens-on-a-quest
 - the-illuminati-invented-sandwiches
@@ -1899,15 +1899,15 @@ itemIds:
 - 3507112
 - 3513766
 - 3514923
-size:        20
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:00:22.669Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:00:22.669Z
 
 ---
 
-slug:        dimension-20-escape-from-the-bloodkeep
-title:       'Dimension 20: Escape From the Bloodkeep'
-description: 'Game Master Brennan Lee Mulligan returns to Dimension 20 for an evil side quest, and this time, the villains are the heroes. Featuring an all-new cast full of familiar faces, Escape From The Bloodkeep proves that being bad can be very, very good.'
+slug:          dimension-20-escape-from-the-bloodkeep
+title:         'Dimension 20: Escape From the Bloodkeep'
+description:   'Game Master Brennan Lee Mulligan returns to Dimension 20 for an evil side quest, and this time, the villains are the heroes. Featuring an all-new cast full of familiar faces, Escape From The Bloodkeep proves that being bad can be very, very good.'
 seasons:
 - 1
 episodes:
@@ -1930,15 +1930,15 @@ itemIds:
 - 517277
 - 518360
 - 538040
-size:        9
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:03:52.783Z
+size:          9
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:03:52.783Z
 
 ---
 
-slug:        dimension-20-fantasy-high
-title:       'Dimension 20: Fantasy High'
-description: 'It''s John Hughes meets D&D - join DM Brennan Lee Mulligan as he guides a group of new students at the Aguefort Adventuring Academy through their tumultuous, heartwarming, and hilarious freshman year.'
+slug:          dimension-20-fantasy-high
+title:         'Dimension 20: Fantasy High'
+description:   'It''s John Hughes meets D&D - join DM Brennan Lee Mulligan as he guides a group of new students at the Aguefort Adventuring Academy through their tumultuous, heartwarming, and hilarious freshman year.'
 seasons:
 - 1
 - 2
@@ -1993,15 +1993,15 @@ itemIds:
 - 321664
 - 545147
 - 607204
-size:        80
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:57:41.264Z
+size:          80
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:57:41.264Z
 
 ---
 
-slug:        dimension-20-fantasy-high-junior-year
-title:       'Dimension 20: Fantasy High Junior Year'
-description: 'The Bad Kids return for a new year at the Aguefort Adventuring Academy - filled with new challenges, new enemies, and new allies.'
+slug:          dimension-20-fantasy-high-junior-year
+title:         'Dimension 20: Fantasy High Junior Year'
+description:   'The Bad Kids return for a new year at the Aguefort Adventuring Academy - filled with new challenges, new enemies, and new allies.'
 seasons:
 - 1
 episodes:
@@ -2054,15 +2054,15 @@ itemIds:
 - 3033951
 - 3033952
 - 3033956
-size:        31
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:58:43.531Z
+size:          31
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:58:43.531Z
 
 ---
 
-slug:        dimension-20-fantasy-high-junior-year-the-complete-experience
-title:       'Dimension 20: Fantasy High Junior Year (The Complete Experience)'
-description: 'Every episode of Fantasy High: Junior Year and Adventuring Party - in order!'
+slug:          dimension-20-fantasy-high-junior-year-the-complete-experience
+title:         'Dimension 20: Fantasy High Junior Year (The Complete Experience)'
+description:   'Every episode of Fantasy High: Junior Year and Adventuring Party - in order!'
 episodes:
 - summer-scaries
 - yaaath-queen
@@ -2113,36 +2113,36 @@ itemIds:
 - 3137365
 - 3145142
 - 3144180
-size:        40
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:58:31.069Z
+size:          40
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:58:31.069Z
 
 ---
 
-slug:        dimension-20-fantasy-high-sophomore-year
-size:        24
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:59:20.746Z
+slug:          dimension-20-fantasy-high-sophomore-year
+size:          24
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:59:20.746Z
 
 ---
 
-slug:        dimension-20-featured
-title:       Dimension 20 Featured
+slug:          dimension-20-featured
+title:         Dimension 20 Featured
 episodes:
 - dimension-20-toylight-trailer
 - how-to-watch-dimension-20
 itemIds:
 - 4142194
 - 3579389
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:06:32.928Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:06:32.928Z
 
 ---
 
-slug:        dimension-20-gladlands
-title:       'Dimension 20: Gladlands'
-description: 'Welcome to the Gladlands— The world might have ended, but manners didn''t!'
+slug:          dimension-20-gladlands
+title:         'Dimension 20: Gladlands'
+description:   'Welcome to the Gladlands— The world might have ended, but manners didn''t!'
 seasons:
 - 1
 episodes:
@@ -2159,15 +2159,15 @@ itemIds:
 - 3932142
 - 3937399
 - 3943257
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:04:42.086Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:04:42.086Z
 
 ---
 
-slug:        dimension-20-gladlands-the-complete-experience
-title:       'Dimension 20: Gladlands (The Complete Experience)'
-description: Every episode of Gladlands and Adventuring Party - in order!
+slug:          dimension-20-gladlands-the-complete-experience
+title:         'Dimension 20: Gladlands (The Complete Experience)'
+description:   Every episode of Gladlands and Adventuring Party - in order!
 episodes:
 - welcome-to-the-wastes
 - a-bouquet-of-teeth
@@ -2194,15 +2194,15 @@ itemIds:
 - 3937788
 - 3943257
 - 3943681
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:02:14.211Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:02:14.211Z
 
 ---
 
-slug:        dimension-20-leviathan
-title:       'Dimension 20: Leviathan'
-description: It's a pirate's life for everyone in this RPG sidequest! Follow along as a group of buccaneer buddies cause all kinds of mayhem in the name of saving the floating city of Leviathan!
+slug:          dimension-20-leviathan
+title:         'Dimension 20: Leviathan'
+description:   It's a pirate's life for everyone in this RPG sidequest! Follow along as a group of buccaneer buddies cause all kinds of mayhem in the name of saving the floating city of Leviathan!
 seasons:
 - 1
 episodes:
@@ -2219,28 +2219,28 @@ itemIds:
 - 1110379
 - 1110373
 - 1131414
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:04:54.376Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:04:54.376Z
 
 ---
 
-slug:        dimension-20-live-battle-at-the-bowl
-title:       'Dimension 20 Live: Battle at the Bowl'
-description: The Bad Kids face-off against Chungledown Bim one last time in this canon live show event.
+slug:          dimension-20-live-battle-at-the-bowl
+title:         'Dimension 20 Live: Battle at the Bowl'
+description:   The Bad Kids face-off against Chungledown Bim one last time in this canon live show event.
 episodes:
 - dimension-20-live-2025-battle-at-the-bowl
 itemIds:
 - 3859738
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:07:09.687Z
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:07:09.687Z
 
 ---
 
-slug:        dimension-20-live-complete-collection
-title:       Dimension 20 Live
-description: Brennan Lee Mulligan and the Intrepid Heroes play dungeons and dragons in front of a live audience.
+slug:          dimension-20-live-complete-collection
+title:         Dimension 20 Live
+description:   Brennan Lee Mulligan and the Intrepid Heroes play dungeons and dragons in front of a live audience.
 seasons:
 - 1
 - 2
@@ -2259,43 +2259,43 @@ itemIds:
 - 3459849
 - 3465949
 - 3466199
-size:        11
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:02:38.832Z
+size:          11
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:02:38.832Z
 
 ---
 
-slug:        dimension-20-live-gauntlet-at-the-garden
-title:       'Dimension 20 Live: Gauntlet at the Garden'
-description: 'The Intrepid Heroes take over Madison Square Garden for a night of thrills, chills, and tomfoolery.'
+slug:          dimension-20-live-gauntlet-at-the-garden
+title:         'Dimension 20 Live: Gauntlet at the Garden'
+description:   'The Intrepid Heroes take over Madison Square Garden for a night of thrills, chills, and tomfoolery.'
 episodes:
 - gauntlet-at-the-garden-live-from-madison-square-garden
 - the-roll-of-a-lifetime-how-dimension-20-sold-out-madison-square-garden
 itemIds:
 - 3605939
 - 3605884
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:06:45.183Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:06:45.183Z
 
 ---
 
-slug:        dimension-20-live-quangle-quest
-title:       'Dimension 20 Live: Quangle Quest'
-description: The Bad Kids journey through the Dimension 20 multiverse to save Kristen Applebees.
+slug:          dimension-20-live-quangle-quest
+title:         'Dimension 20 Live: Quangle Quest'
+description:   The Bad Kids journey through the Dimension 20 multiverse to save Kristen Applebees.
 episodes:
 - dimension-20-live-quangle-quest
 itemIds:
 - 3889977
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:07:22.009Z
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:07:22.009Z
 
 ---
 
-slug:        dimension-20-live-time-quangle
-title:       'Dimension 20 Live: Time Quangle'
-description: The Intrepid Heroes traverse through the Dimension 20 multiverse and get into some shenanigans.
+slug:          dimension-20-live-time-quangle
+title:         'Dimension 20 Live: Time Quangle'
+description:   The Intrepid Heroes traverse through the Dimension 20 multiverse and get into some shenanigans.
 seasons:
 - 1
 episodes:
@@ -2312,28 +2312,28 @@ itemIds:
 - 3459849
 - 3465949
 - 3466199
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:05:06.712Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:05:06.712Z
 
 ---
 
-slug:        dimension-20-live-viva-mas-vegas
-title:       'Dimension 20 Live: Viva Más Vegas'
-description: The Gunner Channel heads to Más Vegas for another action-packed adventure.
+slug:          dimension-20-live-viva-mas-vegas
+title:         'Dimension 20 Live: Viva Más Vegas'
+description:   The Gunner Channel heads to Más Vegas for another action-packed adventure.
 episodes:
 - dimension-20-live-viva-mas-vegas
 itemIds:
 - 3965462
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:07:34.247Z
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:07:34.247Z
 
 ---
 
-slug:        dimension-20-mentopolis
-title:       'Dimension 20: Mentopolis'
-description: Welcome to Mentopolis - the city that exists only in your mind.
+slug:          dimension-20-mentopolis
+title:         'Dimension 20: Mentopolis'
+description:   Welcome to Mentopolis - the city that exists only in your mind.
 seasons:
 - 1
 episodes:
@@ -2350,15 +2350,15 @@ itemIds:
 - 2853970
 - 2880746
 - 2885547
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:05:19.022Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:05:19.022Z
 
 ---
 
-slug:        dimension-20-mentopolis-the-complete-experience
-title:       'Dimension 20: Mentopolis (The Complete Experience)'
-description: Every episode of Mentopolis and Adventuring Party - in order!
+slug:          dimension-20-mentopolis-the-complete-experience
+title:         'Dimension 20: Mentopolis (The Complete Experience)'
+description:   Every episode of Mentopolis and Adventuring Party - in order!
 episodes:
 - the-big-guy
 - key-lime-pie-is-a-marketing-invention
@@ -2385,15 +2385,15 @@ itemIds:
 - 2882575
 - 2885547
 - 2888249
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:02:26.550Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:02:26.550Z
 
 ---
 
-slug:        dimension-20-misfits-and-magic
-title:       'Dimension 20: Misfits and Magic'
-description: GM Aabria Iyengar brings you the tale of four American high schoolers swept into a world of wizards.
+slug:          dimension-20-misfits-and-magic
+title:         'Dimension 20: Misfits and Magic'
+description:   GM Aabria Iyengar brings you the tale of four American high schoolers swept into a world of wizards.
 seasons:
 - 1
 - 2
@@ -2408,28 +2408,28 @@ itemIds:
 - 1623028
 - 1637153
 - 1647198
-size:        24
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:59:33.037Z
+size:          24
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:59:33.037Z
 
 ---
 
-slug:        dimension-20-misfits-and-magic-holiday-special
-title:       'Dimension 20: Misfits and Magic Holiday Special'
-description: GM Aabria Iyengar returns with the four magical misfits stuck at wizarding school over winter break.
+slug:          dimension-20-misfits-and-magic-holiday-special
+title:         'Dimension 20: Misfits and Magic Holiday Special'
+description:   GM Aabria Iyengar returns with the four magical misfits stuck at wizarding school over winter break.
 episodes:
 - misfits-magic-holiday-special
 itemIds:
 - 1915774
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:07:46.506Z
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:07:46.506Z
 
 ---
 
-slug:        dimension-20-never-stop-blowing-up
-title:       'Dimension 20: Never Stop Blowing Up'
-description: Six nobodies are about to step into the spotlight and reload all the action.
+slug:          dimension-20-never-stop-blowing-up
+title:         'Dimension 20: Never Stop Blowing Up'
+description:   Six nobodies are about to step into the spotlight and reload all the action.
 seasons:
 - 1
 episodes:
@@ -2454,15 +2454,15 @@ itemIds:
 - 3318754
 - 3326263
 - 3326315
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:03:28.113Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:03:28.113Z
 
 ---
 
-slug:        dimension-20-never-stop-blowing-up-the-complete-experience
-title:       'Dimension 20: Never Stop Blowing Up (The Complete Experience)'
-description: Every episode of Never Stop Blowing Up and Adventuring Party - in order!
+slug:          dimension-20-never-stop-blowing-up-the-complete-experience
+title:         'Dimension 20: Never Stop Blowing Up (The Complete Experience)'
+description:   Every episode of Never Stop Blowing Up and Adventuring Party - in order!
 episodes:
 - be-kind-rewind
 - yoshi-thicc
@@ -2505,15 +2505,15 @@ itemIds:
 - 3326276
 - 3326315
 - 3326327
-size:        20
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:00:35.114Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:00:35.114Z
 
 ---
 
-slug:        dimension-20-neverafter
-title:       'Dimension 20: Neverafter'
-description: 'In the world of the Neverafter, not all fairy tales have happy endings.'
+slug:          dimension-20-neverafter
+title:         'Dimension 20: Neverafter'
+description:   'In the world of the Neverafter, not all fairy tales have happy endings.'
 seasons:
 - 1
 episodes:
@@ -2558,15 +2558,15 @@ itemIds:
 - 2652820
 - 2663213
 - 2668957
-size:        20
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:00:47.519Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:00:47.519Z
 
 ---
 
-slug:        dimension-20-neverafter-the-complete-experience
-title:       'Dimension 20: Neverafter (The Complete Experience)'
-description: Every episode of Neverafter and Adventuring Party - in order!
+slug:          dimension-20-neverafter-the-complete-experience
+title:         'Dimension 20: Neverafter (The Complete Experience)'
+description:   Every episode of Neverafter and Adventuring Party - in order!
 episodes:
 - the-times-of-shadow
 - royals-scamps-and-townies
@@ -2617,14 +2617,14 @@ itemIds:
 - 2577436
 - 2588771
 - 2589256
-size:        41
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:58:18.588Z
+size:          41
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:58:18.588Z
 
 ---
 
-slug:        dimension-20-new-releases
-title:       New Releases
+slug:          dimension-20-new-releases
+title:         New Releases
 episodes:
 - a-deep-investment-in-frivolity-with-mica-burton
 - dimension-20-toylight-trailer
@@ -2667,15 +2667,15 @@ itemIds:
 - 4053153
 - 4052260
 - 4049215
-size:        19
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:00:59.898Z
+size:          19
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:00:59.898Z
 
 ---
 
-slug:        dimension-20-on-a-bus
-title:       'Dimension 20: On a Bus'
-description: Dragon Master Katie Marovitch leads four veteran game masters on the quest of a lifetime.
+slug:          dimension-20-on-a-bus
+title:         'Dimension 20: On a Bus'
+description:   Dragon Master Katie Marovitch leads four veteran game masters on the quest of a lifetime.
 seasons:
 - 1
 - 2
@@ -2683,15 +2683,15 @@ episodes:
 - dimension-20-on-a-bus-extended-cut
 itemIds:
 - 3749187
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:06:57.433Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:06:57.433Z
 
 ---
 
-slug:        dimension-20-on-a-bus-the-complete-experience
-title:       'Dimension 20: On a Bus (The Complete Experience)'
-description: Every episode of D20 on a Bus and Adventuring Party - in order!
+slug:          dimension-20-on-a-bus-the-complete-experience
+title:         'Dimension 20: On a Bus (The Complete Experience)'
+description:   Every episode of D20 on a Bus and Adventuring Party - in order!
 episodes:
 - dimension-20-on-a-bus-extended-cut
 - d20-on-a-bus-season-2
@@ -2700,14 +2700,14 @@ itemIds:
 - 3749187
 - 3986893
 - 3988728
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:06:20.543Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:06:20.543Z
 
 ---
 
-slug:        dimension-20-one-shots
-title:       Dimension 20 One Shots
+slug:          dimension-20-one-shots
+title:         Dimension 20 One Shots
 episodes:
 - fantasy-high-live-in-brooklyn
 - fantasy-high-live-at-rtx-austin
@@ -2720,15 +2720,15 @@ itemIds:
 - 1092209
 - 1142115
 - 2328758
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:05:43.608Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:05:43.608Z
 
 ---
 
-slug:        dimension-20-s-adventuring-party
-title:       Dimension 20's Adventuring Party
-description: A Dimension 20 talkback show where GM and players discuss the events of the latest episode.
+slug:          dimension-20-s-adventuring-party
+title:         Dimension 20's Adventuring Party
+description:   A Dimension 20 talkback show where GM and players discuss the events of the latest episode.
 seasons:
 - 1
 - 2
@@ -2792,15 +2792,15 @@ itemIds:
 - 976407
 - 991343
 - 1050342
-size:        248
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:57:28.809Z
+size:          248
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:57:28.809Z
 
 ---
 
-slug:        dimension-20-shriek-week
-title:       'Dimension 20: Shriek Week'
-description: 'Four monstrous students at Bram University face off against hormones, mysteries, and the most epic party in monster history.'
+slug:          dimension-20-shriek-week
+title:         'Dimension 20: Shriek Week'
+description:   'Four monstrous students at Bram University face off against hormones, mysteries, and the most epic party in monster history.'
 seasons:
 - 1
 episodes:
@@ -2813,15 +2813,15 @@ itemIds:
 - 1861208
 - 1873227
 - 1885033
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:05:55.883Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:05:55.883Z
 
 ---
 
-slug:        dimension-20-the-complete-series
-title:       Dimension 20
-description: 'Heed the call of adventure and enter Dimension 20, where Game Master Brennan Lee Mulligan, joined by comedians and pro gamers, blends comedy with tabletop RPGs.'
+slug:          dimension-20-the-complete-series
+title:         Dimension 20
+description:   'Heed the call of adventure and enter Dimension 20, where Game Master Brennan Lee Mulligan, joined by comedians and pro gamers, blends comedy with tabletop RPGs.'
 seasons:
 - 1
 - 2
@@ -2895,15 +2895,15 @@ itemIds:
 - 321664
 - 545147
 - 607204
-size:        349
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:57:03.981Z
+size:          349
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:57:03.981Z
 
 ---
 
-slug:        dimension-20-the-ravening-war
-title:       'Dimension 20: The Ravening War'
-description: 'In an age before A Crown of Candy, the seeds of conflict began to take root - and soon, all of Calorum was enveloped in The Ravening War.'
+slug:          dimension-20-the-ravening-war
+title:         'Dimension 20: The Ravening War'
+description:   'In an age before A Crown of Candy, the seeds of conflict began to take root - and soon, all of Calorum was enveloped in The Ravening War.'
 seasons:
 - 1
 episodes:
@@ -2926,15 +2926,15 @@ itemIds:
 - 2683141
 - 2765915
 - 2766684
-size:        9
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:04:05.090Z
+size:          9
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:04:05.090Z
 
 ---
 
-slug:        dimension-20-the-ravening-war-the-complete-experience
-title:       'Dimension 20: The Ravening War (The Complete Experience)'
-description: Every episode of The Ravening War and Adventuring Party - in order!
+slug:          dimension-20-the-ravening-war-the-complete-experience
+title:         'Dimension 20: The Ravening War (The Complete Experience)'
+description:   Every episode of The Ravening War and Adventuring Party - in order!
 episodes:
 - the-seeds-of-conflict
 - that-s-war-baby
@@ -2969,15 +2969,15 @@ itemIds:
 - 2683141
 - 2765915
 - 2766684
-size:        16
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:01:49.500Z
+size:          16
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:01:49.500Z
 
 ---
 
-slug:        dimension-20-the-seven
-title:       'Dimension 20: The Seven'
-description: Seven student adventurers must face their greatest challenge yet - graduation.
+slug:          dimension-20-the-seven
+title:         'Dimension 20: The Seven'
+description:   Seven student adventurers must face their greatest challenge yet - graduation.
 seasons:
 - 1
 episodes:
@@ -3002,15 +3002,15 @@ itemIds:
 - 1797208
 - 1807254
 - 1820262
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:03:40.466Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:03:40.466Z
 
 ---
 
-slug:        dimension-20-the-unsleeping-city
-title:       'Dimension 20: The Unsleeping City'
-description: 'It''s DnD meets NYC with an epic new adventure set in New York City - city of dreams, talking rats, pixie mobsters, and Stephen Sondheim.'
+slug:          dimension-20-the-unsleeping-city
+title:         'Dimension 20: The Unsleeping City'
+description:   'It''s DnD meets NYC with an epic new adventure set in New York City - city of dreams, talking rats, pixie mobsters, and Stephen Sondheim.'
 seasons:
 - 1
 - 2
@@ -3064,15 +3064,15 @@ itemIds:
 - 645728
 - 645731
 - 645724
-size:        44
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:57:53.715Z
+size:          44
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:57:53.715Z
 
 ---
 
-slug:        dimension-20-tiny-heist
-title:       'Dimension 20: Tiny Heist'
-description: 'A world of big crimes... and small people. Join GM Brennan Lee Mulligan as he welcomes a slew of new players to Dimension 20 to pull off one last job: Griffin McElroy, Travis McElroy, Justin McElroy, Clint McElroy, Lily Du, and Jessica Ross!'
+slug:          dimension-20-tiny-heist
+title:         'Dimension 20: Tiny Heist'
+description:   'A world of big crimes... and small people. Join GM Brennan Lee Mulligan as he welcomes a slew of new players to Dimension 20 to pull off one last job: Griffin McElroy, Travis McElroy, Justin McElroy, Clint McElroy, Lily Du, and Jessica Ross!'
 seasons:
 - 1
 episodes:
@@ -3089,15 +3089,15 @@ itemIds:
 - 707775
 - 707738
 - 707789
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:05:31.344Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:05:31.344Z
 
 ---
 
-slug:        dimension-20-titan-takedown
-title:       'Dimension 20: Titan Takedown'
-description: Four wrestlers step into the ring and battle the gods for ultimate glory.
+slug:          dimension-20-titan-takedown
+title:         'Dimension 20: Titan Takedown'
+description:   Four wrestlers step into the ring and battle the gods for ultimate glory.
 seasons:
 - 1
 episodes:
@@ -3110,15 +3110,15 @@ itemIds:
 - 3587923
 - 3595325
 - 3604084
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:06:08.160Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:06:08.160Z
 
 ---
 
-slug:        dimension-20-titan-takedown-the-complete-experience
-title:       'Dimension 20: Titan Takedown (The Complete Experience)'
-description: Every episode of Titan Takedown and Adventuring Party - in order!
+slug:          dimension-20-titan-takedown-the-complete-experience
+title:         'Dimension 20: Titan Takedown (The Complete Experience)'
+description:   Every episode of Titan Takedown and Adventuring Party - in order!
 episodes:
 - party-animals
 - cat-s-out-of-the-bag
@@ -3137,14 +3137,14 @@ itemIds:
 - 3601356
 - 3604084
 - 3605280
-size:        8
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:04:17.430Z
+size:          8
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:04:17.430Z
 
 ---
 
-slug:        dimension-20-trailers
-title:       Dimension 20 Trailers
+slug:          dimension-20-trailers
+title:         Dimension 20 Trailers
 episodes:
 - dimension-20-fantasy-high-trailer
 - escape-from-the-bloodkeep-trailer
@@ -3195,15 +3195,15 @@ itemIds:
 - 3327046
 - 3458205
 - 3529124
-size:        28
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:59:08.399Z
+size:          28
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:59:08.399Z
 
 ---
 
-slug:        dinosaur-office
-title:       Dinosaur Office
-description: 'These relatable average Joes work for a stupid boss in a stupid office and hate their stupid jobs -- just like you, but animated and, also, dinosaurs.'
+slug:          dinosaur-office
+title:         Dinosaur Office
+description:   'These relatable average Joes work for a stupid boss in a stupid office and hate their stupid jobs -- just like you, but animated and, also, dinosaurs.'
 seasons:
 - 1
 episodes:
@@ -3218,15 +3218,15 @@ itemIds:
 - 263463
 - 263464
 - 263465
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:28:47.300Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:28:47.300Z
 
 ---
 
-slug:        dip-your-toe-in
-title:       Dip Your Toe In
-description: Don't know where to start? Well here's every season premiere of Dimension 20.
+slug:          dip-your-toe-in
+title:         Dip Your Toe In
+description:   Don't know where to start? Well here's every season premiere of Dimension 20.
 episodes:
 - episode-1
 - welcome-to-the-dark-side
@@ -3277,15 +3277,15 @@ itemIds:
 - 3264804
 - 3362770
 - 3468728
-size:        30
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:14:11.065Z
+size:          30
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:14:11.065Z
 
 ---
 
-slug:        dirty-laundry
-title:       Dirty Laundry
-description: 'Host Lily Du gathers together four guests to tell secrets, guess who they belong to, and enjoy a few drinks.'
+slug:          dirty-laundry
+title:         Dirty Laundry
+description:   'Host Lily Du gathers together four guests to tell secrets, guess who they belong to, and enjoy a few drinks.'
 seasons:
 - 1
 - 2
@@ -3309,15 +3309,15 @@ itemIds:
 - 2172862
 - 2200652
 - 2722823
-size:        122
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:11:04.973Z
+size:          122
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:11:04.973Z
 
 ---
 
-slug:        dirty-laundry-new
-title:       Dirty Laundry
-description: 'Host Lily Du gathers together four guests to tell secrets, guess who they belong to, and enjoy a few drinks.'
+slug:          dirty-laundry-new
+title:         Dirty Laundry
+description:   'Host Lily Du gathers together four guests to tell secrets, guess who they belong to, and enjoy a few drinks.'
 episodes:
 - who-joined-an-ex-on-their-honeymoon
 - who-ended-a-relationship-using-sorcery
@@ -3368,14 +3368,14 @@ itemIds:
 - 3346257
 - 3327074
 - 3317198
-size:        56
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:12:19.300Z
+size:          56
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:12:19.300Z
 
 ---
 
-slug:        dirty-laundry-presents-grant-what-are-we-drinking
-title:       'Dirty Laundry Presents: Grant, What Are We Drinking?'
+slug:          dirty-laundry-presents-grant-what-are-we-drinking
+title:         'Dirty Laundry Presents: Grant, What Are We Drinking?'
 episodes:
 - jack-rose
 - ruby-shrub
@@ -3426,15 +3426,15 @@ itemIds:
 - 3403331
 - 3386071
 - 3371074
-size:        67
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:12:06.904Z
+size:          67
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:12:06.904Z
 
 ---
 
-slug:        don-t-hug-me-i-m-scared
-title:       Don't Hug Me I'm Scared
-description: 'Red Guy, Yellow Guy, and Green Duck learn about everything there is to know with help from some friendly talking objects.'
+slug:          don-t-hug-me-i-m-scared
+title:         Don't Hug Me I'm Scared
+description:   'Red Guy, Yellow Guy, and Green Duck learn about everything there is to know with help from some friendly talking objects.'
 seasons:
 - 1
 - 69
@@ -3454,15 +3454,15 @@ itemIds:
 - 3979498
 - 3979495
 - 3979553
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:18:55.746Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:18:55.746Z
 
 ---
 
-slug:        dora-the-explorer-and-the-destiny-medallion
-title:       Dora the Explorer and the Destiny Medallion
-description: Dora (Ariel Winter) and her badass monkey go all Indiana Jones on some chicos malos in the jungle.
+slug:          dora-the-explorer-and-the-destiny-medallion
+title:         Dora the Explorer and the Destiny Medallion
+description:   Dora (Ariel Winter) and her badass monkey go all Indiana Jones on some chicos malos in the jungle.
 seasons:
 - 1
 episodes:
@@ -3473,15 +3473,15 @@ itemIds:
 - 263466
 - 263467
 - 263468
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:32:16.334Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:32:16.334Z
 
 ---
 
-slug:        dropout-music
-title:       Dropout Music
-description: 'Songs so catchy, you''ll be singing along in no time. Featuring Precious Plum, Nick Lutzko, and more.'
+slug:          dropout-music
+title:         Dropout Music
+description:   'Songs so catchy, you''ll be singing along in no time. Featuring Precious Plum, Nick Lutzko, and more.'
 seasons:
 - 1
 episodes:
@@ -3506,14 +3506,14 @@ itemIds:
 - 1098340
 - 1214474
 - 398915
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:23:14.886Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:23:14.886Z
 
 ---
 
-slug:        episodes-featuring-brennan-s-tim-curry-impression
-title:       Episodes Featuring Brennan's Tim Curry Impression
+slug:          episodes-featuring-brennan-s-tim-curry-impression
+title:         Episodes Featuring Brennan's Tim Curry Impression
 episodes:
 - dinosaurs-were-technically-birds
 - a-cutscene-in-a-video-game-that-s-glitching-out
@@ -3524,15 +3524,16 @@ itemIds:
 - 3260782
 - 2911343
 - 3271060
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:30:13.461Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:30:13.461Z
+removedBefore: 2026-09-09T15:07:51.269Z
 
 ---
 
-slug:        erotic-book-club
-title:       Erotic Book Club
-description: 'Things get steamy when Jessica Ross, Rekha Shankar, and their hilarious guests review the finest erotic literature the internet has to offer.'
+slug:          erotic-book-club
+title:         Erotic Book Club
+description:   'Things get steamy when Jessica Ross, Rekha Shankar, and their hilarious guests review the finest erotic literature the internet has to offer.'
 seasons:
 - 1
 episodes:
@@ -3575,15 +3576,15 @@ itemIds:
 - 578309
 - 589272
 - 601050
-size:        19
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:16:27.547Z
+size:          19
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:16:27.547Z
 
 ---
 
-slug:        erotic-clubhouse
-title:       Erotic Clubhouse
-description: Things get steamy when Jessica Ross and Rekha Shankar create original erotic literature before your very eyes.
+slug:          erotic-clubhouse
+title:         Erotic Clubhouse
+description:   Things get steamy when Jessica Ross and Rekha Shankar create original erotic literature before your very eyes.
 seasons:
 - 1
 episodes:
@@ -3608,15 +3609,15 @@ itemIds:
 - 1110376
 - 1171729
 - 1230009
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:23:27.196Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:23:27.196Z
 
 ---
 
-slug:        everyday-acting-1
-title:       Everyday Acting
-description: Bring the drama. Live the drama. Be the drama.
+slug:          everyday-acting-1
+title:         Everyday Acting
+description:   Bring the drama. Live the drama. Be the drama.
 seasons:
 - 1
 episodes:
@@ -3629,15 +3630,15 @@ itemIds:
 - 233629
 - 233630
 - 233631
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:30:25.764Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:30:25.764Z
 
 ---
 
-slug:        fantasy-high-extra-credit
-title:       'Fantasy High: Extra Credit'
-description: 'After the final bell, game master Brennan Lee Mulligan chats with your favorite cast & crew members.'
+slug:          fantasy-high-extra-credit
+title:         'Fantasy High: Extra Credit'
+description:   'After the final bell, game master Brennan Lee Mulligan chats with your favorite cast & crew members.'
 seasons:
 - 1
 episodes:
@@ -3650,15 +3651,15 @@ itemIds:
 - 594498
 - 600304
 - 604737
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:30:38.021Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:30:38.021Z
 
 ---
 
-slug:        fatal-decision
-title:       Fatal Decision
-description: 'Zach Reino plays IT guy Josh Mullens playing Special Ops Agent Jack Maxwell on an action-gun-packed mission to save pizza, America, and your ass, on company time.'
+slug:          fatal-decision
+title:         Fatal Decision
+description:   'Zach Reino plays IT guy Josh Mullens playing Special Ops Agent Jack Maxwell on an action-gun-packed mission to save pizza, America, and your ass, on company time.'
 seasons:
 - 1
 episodes:
@@ -3711,15 +3712,15 @@ itemIds:
 - 3708230
 - 3708243
 - 3708254
-size:        49
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:12:31.723Z
+size:          49
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:12:31.723Z
 
 ---
 
-slug:        featured
-title:       Featured
-description: Dropout featured series and episodes.
+slug:          featured
+title:         Featured
+description:   Dropout featured series and episodes.
 episodes:
 - off-the-reservation
 - dimension-20-toylight-trailer
@@ -3728,15 +3729,15 @@ itemIds:
 - 4150250
 - 4142194
 - 4142150
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:32:28.845Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:32:28.845Z
 
 ---
 
-slug:        final-destination
-title:       Final Destination
-description: 'When Murph has a premonition of a breakroom bloodbath, it sets off a chain of deadly events in the CollegeHumor offices. They can run, but they can''t hide.'
+slug:          final-destination
+title:         Final Destination
+description:   'When Murph has a premonition of a breakroom bloodbath, it sets off a chain of deadly events in the CollegeHumor offices. They can run, but they can''t hide.'
 seasons:
 - 1
 episodes:
@@ -3751,15 +3752,15 @@ itemIds:
 - 449818
 - 449819
 - 449820
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:28:59.599Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:28:59.599Z
 
 ---
 
-slug:        from-ally-to-zacky
-title:       From Ally to Zacky
-description: 'Ally Beardsley, Zac Oyama, and friends take audience suggestions and perform absurd monoscenes.'
+slug:          from-ally-to-zacky
+title:         From Ally to Zacky
+description:   'Ally Beardsley, Zac Oyama, and friends take audience suggestions and perform absurd monoscenes.'
 episodes:
 - from-ally-to-zacky
 - from-ally-to-zacky-a-bonus-tracky
@@ -3768,15 +3769,15 @@ itemIds:
 - 3421705
 - 3523779
 - 3409927
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:32:41.074Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:32:41.074Z
 
 ---
 
-slug:        full-benefits
-title:       Full Benefits
-description: 'After hours, co-workers Sarah and David secretly "dip" their "respective pens" into each other''s "corporate ink," so to "speak."'
+slug:          full-benefits
+title:         Full Benefits
+description:   'After hours, co-workers Sarah and David secretly "dip" their "respective pens" into each other''s "corporate ink," so to "speak."'
 seasons:
 - 1
 episodes:
@@ -3805,15 +3806,15 @@ itemIds:
 - 462244
 - 233740
 - 449824
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:20:34.544Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:20:34.544Z
 
 ---
 
-slug:        game-changer
-title:       Game Changer
-description: 'The game show where there''s a new, surprise premise every episode. New episodes every other Monday.'
+slug:          game-changer
+title:         Game Changer
+description:   'The game show where there''s a new, surprise premise every episode. New episodes every other Monday.'
 seasons:
 - 1
 - 2
@@ -3835,15 +3836,15 @@ itemIds:
 - 616304
 - 623253
 - 629314
-size:        118
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:55:52.833Z
+size:          118
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:55:52.833Z
 
 ---
 
-slug:        game-changer-animated
-title:       Game Changer Animated
-description: Animators bring to life some of your favorite Game Changer moments.
+slug:          game-changer-animated
+title:         Game Changer Animated
+description:   Animators bring to life some of your favorite Game Changer moments.
 seasons:
 - 1
 episodes:
@@ -3860,15 +3861,15 @@ itemIds:
 - 3735706
 - 3751980
 - 3803629
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:08:23.624Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:08:23.624Z
 
 ---
 
-slug:        game-changer-battle-royale
-title:       'Game Changer: Battle Royale'
-description: '10 contestants, 1 question: Who will survive?'
+slug:          game-changer-battle-royale
+title:         'Game Changer: Battle Royale'
+description:   '10 contestants, 1 question: Who will survive?'
 seasons:
 - 1
 episodes:
@@ -3881,15 +3882,15 @@ itemIds:
 - 2671656
 - 2671696
 - 2714134
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:08:48.221Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:08:48.221Z
 
 ---
 
-slug:        game-changer-battle-royale-1
-title:       "Game Changer: Battle Royale ⚔️\U0001FA78"
-description: '10 contestants, 1 question: who will survive?'
+slug:          game-changer-battle-royale-1
+title:         "Game Changer: Battle Royale ⚔️\U0001FA78"
+description:   '10 contestants, 1 question: who will survive?'
 episodes:
 - survivor-part-1
 - survivor-part-2
@@ -3904,14 +3905,14 @@ itemIds:
 - 2671656
 - 2671696
 - 2714134
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:08:35.928Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:08:35.928Z
 
 ---
 
-slug:        game-changer-behind-the-scenes
-title:       'Game Changer: Behind The Scenes'
+slug:          game-changer-behind-the-scenes
+title:         'Game Changer: Behind The Scenes'
 episodes:
 - behind-the-scenes-of-earwigs
 - behind-the-scenes-of-count-the-rice
@@ -3962,15 +3963,15 @@ itemIds:
 - 3135460
 - 3125327
 - 3105700
-size:        35
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:08:11.347Z
+size:          35
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:08:11.347Z
 
 ---
 
-slug:        game-changer-new
-title:       Game Changer
-description: 'In this game show, the game changes every show! Players begin each round without knowing the rules -- and must figure them out while competing to win.'
+slug:          game-changer-new
+title:         Game Changer
+description:   'In this game show, the game changes every show! Players begin each round without knowing the rules -- and must figure them out while competing to win.'
 episodes:
 - what-s-the-catch
 - earwigs
@@ -4021,15 +4022,15 @@ itemIds:
 - 3201420
 - 3179629
 - 3151803
-size:        80
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:07:58.905Z
+size:          80
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:07:58.905Z
 
 ---
 
-slug:        gastronauts
-title:       Gastronauts
-description: Culinary masterminds compete in a series of challenges created by the most unhinged comedians.
+slug:          gastronauts
+title:         Gastronauts
+description:   Culinary masterminds compete in a series of challenges created by the most unhinged comedians.
 seasons:
 - 1
 - 2
@@ -4047,15 +4048,15 @@ itemIds:
 - 3433092
 - 3445372
 - 3461096
-size:        16
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:17:41.733Z
+size:          16
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:17:41.733Z
 
 ---
 
-slug:        gods-of-food
-title:       Gods of Food
-description: 'Food is art, and art is food. In this spicy mockumentary, we meet six of the world''s most revolutionary chefs -- each redefining the dining experience.'
+slug:          gods-of-food
+title:         Gods of Food
+description:   'Food is art, and art is food. In this spicy mockumentary, we meet six of the world''s most revolutionary chefs -- each redefining the dining experience.'
 seasons:
 - 1
 episodes:
@@ -4072,30 +4073,30 @@ itemIds:
 - 587025
 - 587690
 - 597775
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:26:56.536Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:26:56.536Z
 
 ---
 
-slug:        hank-green-pissing-out-cancer
-title:       'Hank Green: Pissing Out Cancer'
-description: 'Hank Green reflects on the good, the bad, and the weird parts of having cancer.'
+slug:          hank-green-pissing-out-cancer
+title:         'Hank Green: Pissing Out Cancer'
+description:   'Hank Green reflects on the good, the bad, and the weird parts of having cancer.'
 episodes:
 - hank-green-pissing-out-cancer
 - get-your-act-together-with-hank-green
 itemIds:
 - 3256792
 - 3243311
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:34:43.722Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:34:43.722Z
 
 ---
 
-slug:        hardly-working
-title:       Hardly Working
-description: 'What really goes on in CollegeHumor offices may surprise you, unless you''re already familiar with unprofessional, inappropriate slackoffs getting nothing done.'
+slug:          hardly-working
+title:         Hardly Working
+description:   'What really goes on in CollegeHumor offices may surprise you, unless you''re already familiar with unprofessional, inappropriate slackoffs getting nothing done.'
 seasons:
 - 1
 - 2
@@ -4163,27 +4164,27 @@ itemIds:
 - 233756
 - 233757
 - 233758
-size:        473
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:10:39.776Z
+size:          473
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:10:39.776Z
 
 ---
 
-slug:        hardly-working-1
-title:       Hardly Working
+slug:          hardly-working-1
+title:         Hardly Working
 episodes:
 - when-you-re-too-good-at-cpr
 itemIds:
 - 722220
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:36:09.739Z
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:36:09.739Z
 
 ---
 
-slug:        heist-night
-title:       Heist Night
-description: 'When Rekha and Sam plan a charity casino night, Trapp and Grant can’t resist putting together a crack team to pull off the dumbest heist ever.'
+slug:          heist-night
+title:         Heist Night
+description:   'When Rekha and Sam plan a charity casino night, Trapp and Grant can’t resist putting together a crack team to pull off the dumbest heist ever.'
 seasons:
 - 1
 episodes:
@@ -4200,15 +4201,15 @@ itemIds:
 - 449921
 - 449922
 - 449920
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:27:08.893Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:27:08.893Z
 
 ---
 
-slug:        hello-my-name-is
-title:       'Hello, My Name Is'
-description: Pat Cassels interviews a cast of unscripted improv characters all played by comedian and wig addict Josh Ruben.
+slug:          hello-my-name-is
+title:         'Hello, My Name Is'
+description:   Pat Cassels interviews a cast of unscripted improv characters all played by comedian and wig addict Josh Ruben.
 seasons:
 - 1
 episodes:
@@ -4237,15 +4238,15 @@ itemIds:
 - 234040
 - 355130
 - 234041
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:20:46.882Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:20:46.882Z
 
 ---
 
-slug:        hot-date-the-web-series
-title:       'Hot Date: The Web Series'
-description: 'Brian Murphy and Emily Axford attempt a lovely night out for a romantic meal, but sadly blow their chances by bringing themselves.'
+slug:          hot-date-the-web-series
+title:         'Hot Date: The Web Series'
+description:   'Brian Murphy and Emily Axford attempt a lovely night out for a romantic meal, but sadly blow their chances by bringing themselves.'
 seasons:
 - 1
 episodes:
@@ -4270,15 +4271,15 @@ itemIds:
 - 234049
 - 234050
 - 234051
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:23:39.517Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:23:39.517Z
 
 ---
 
-slug:        if-google-was-a-guy-1
-title:       If Google Was A Guy
-description: 'He''s here to help, but you''re not helping.'
+slug:          if-google-was-a-guy-1
+title:         If Google Was A Guy
+description:   'He''s here to help, but you''re not helping.'
 seasons:
 - 1
 episodes:
@@ -4299,15 +4300,15 @@ itemIds:
 - 449925
 - 233632
 - 233633
-size:        8
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:25:30.466Z
+size:          8
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:25:30.466Z
 
 ---
 
-slug:        ify-nwadiwe-reigning-champion-on-um-actually
-title:       'Ify Nwadiwe (Reigning Champion) on Um, Actually'
-description: 'No one has won as many games of Um, Actually as Ify Nwadiwe - here''s the proof.'
+slug:          ify-nwadiwe-reigning-champion-on-um-actually
+title:         'Ify Nwadiwe (Reigning Champion) on Um, Actually'
+description:   'No one has won as many games of Um, Actually as Ify Nwadiwe - here''s the proof.'
 episodes:
 - ganondorf-gremlins-geography-of-westeros
 - mouth-of-sauron-saiyan-tails-bothan-spies
@@ -4336,15 +4337,15 @@ itemIds:
 - 1863327
 - 2293802
 - 2642060
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:19:08.091Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:19:08.091Z
 
 ---
 
-slug:        inside-the-ch-vault
-title:       Inside the CH Vault
-description: Peek behind the CollegeHumor curtain with these classic compilations and behind-the-scenes intel from our cast and crew.
+slug:          inside-the-ch-vault
+title:         Inside the CH Vault
+description:   Peek behind the CollegeHumor curtain with these classic compilations and behind-the-scenes intel from our cast and crew.
 seasons:
 - 1
 episodes:
@@ -4357,15 +4358,15 @@ itemIds:
 - 449927
 - 449928
 - 449930
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:30:50.296Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:30:50.296Z
 
 ---
 
-slug:        josh-s-mindhouse
-title:       Josh's Mindhouse
-description: 'Step inside the mind of Josh Ruben, but make sure to wear protective clothing.'
+slug:          josh-s-mindhouse
+title:         Josh's Mindhouse
+description:   'Step inside the mind of Josh Ruben, but make sure to wear protective clothing.'
 seasons:
 - 1
 episodes:
@@ -4378,15 +4379,15 @@ itemIds:
 - 234348
 - 263535
 - 234349
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:31:02.580Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:31:02.580Z
 
 ---
 
-slug:        katie-marovitch-is-unbreakable
-title:       Katie Marovitch Is Unbreakable
-description: Can anything make Katie Marovitch break? Here's every appearance Katie has had on Breaking News for you to investigate.
+slug:          katie-marovitch-is-unbreakable
+title:         Katie Marovitch Is Unbreakable
+description:   Can anything make Katie Marovitch break? Here's every appearance Katie has had on Breaking News for you to investigate.
 episodes:
 - no-laugh-newsroom-birthday-cake-bird-birth
 - freaky-lobsters-form-fashion-fad
@@ -4437,15 +4438,15 @@ itemIds:
 - 1855148
 - 1969258
 - 2733594
-size:        27
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:14:23.489Z
+size:          27
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:14:23.489Z
 
 ---
 
-slug:        kingpin-katie
-title:       Kingpin Katie
-description: Slacker comedy writer-turned-hapless drug dealer Katie Marovitch makes coke a joke in this darkly funny origin story inspired by Breaking Bad.
+slug:          kingpin-katie
+title:         Kingpin Katie
+description:   Slacker comedy writer-turned-hapless drug dealer Katie Marovitch makes coke a joke in this darkly funny origin story inspired by Breaking Bad.
 seasons:
 - 1
 episodes:
@@ -4470,15 +4471,15 @@ itemIds:
 - 550168
 - 565183
 - 558843
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:23:51.871Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:23:51.871Z
 
 ---
 
-slug:        kingpin-katie-the-web-series
-title:       'Kingpin Katie: The Web Series'
-description: Get an extra bump of Kingpin Katie with these expanded adventures of everyone’s favorite inept drug dealer and would-be dirty cop.
+slug:          kingpin-katie-the-web-series
+title:         'Kingpin Katie: The Web Series'
+description:   Get an extra bump of Kingpin Katie with these expanded adventures of everyone’s favorite inept drug dealer and would-be dirty cop.
 seasons:
 - 1
 episodes:
@@ -4497,15 +4498,15 @@ itemIds:
 - 548704
 - 555414
 - 556694
-size:        7
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:25:55.081Z
+size:          7
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:25:55.081Z
 
 ---
 
-slug:        make-some-noise
-title:       Make Some Noise
-description: A game show where talented contestants compete to bring to life silly prompts.
+slug:          make-some-noise
+title:         Make Some Noise
+description:   A game show where talented contestants compete to bring to life silly prompts.
 seasons:
 - 1
 - 2
@@ -4535,15 +4536,15 @@ itemIds:
 - 2362171
 - 2374979
 - 2409262
-size:        63
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:09:50.031Z
+size:          63
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:09:50.031Z
 
 ---
 
-slug:        make-some-noise-new
-title:       Make Some Noise
-description: A game show where talented contestants compete to bring to life silly prompts.
+slug:          make-some-noise-new
+title:         Make Some Noise
+description:   A game show where talented contestants compete to bring to life silly prompts.
 episodes:
 - make-some-noise-season-4-cut-for-time
 - the-noise-boys-hype-each-other-up
@@ -4594,30 +4595,30 @@ itemIds:
 - 3466256
 - 3463811
 - 3449873
-size:        63
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:10:02.444Z
+size:          63
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:10:02.444Z
 
 ---
 
-slug:        mark-vigeant-the-best-man-show
-title:       'Mark Vigeant: The Best Man Show'
-description: 'Mark Vigeant examines loneliness, toxic masculinity, and the meaning of love as best man Paul Rose.'
+slug:          mark-vigeant-the-best-man-show
+title:         'Mark Vigeant: The Best Man Show'
+description:   'Mark Vigeant examines loneliness, toxic masculinity, and the meaning of love as best man Paul Rose.'
 episodes:
 - mark-vigeant-the-best-man-show
 - get-your-act-together-with-mark-vigeant
 itemIds:
 - 3953778
 - 3948334
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:34:55.985Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:34:55.985Z
 
 ---
 
-slug:        mice-murder
-title:       'Dimension 20: Mice & Murder'
-description: 'A dark and stormy night, a deadly mystery, and...a bunch of woodland critters. Watch this party of CollegeHumor alums solve the case...or die trying.'
+slug:          mice-murder
+title:         'Dimension 20: Mice & Murder'
+description:   'A dark and stormy night, a deadly mystery, and...a bunch of woodland critters. Watch this party of CollegeHumor alums solve the case...or die trying.'
 seasons:
 - 1
 episodes:
@@ -4642,15 +4643,15 @@ itemIds:
 - 1540458
 - 1551813
 - 1540459
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:56:05.179Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:56:05.179Z
 
 ---
 
-slug:        mice-murder-the-complete-experience
-title:       'Dimension 20: Mice & Murder (The Complete Experience)'
-description: Every episode of Mice & Murder and Adventuring Party - in order!
+slug:          mice-murder-the-complete-experience
+title:         'Dimension 20: Mice & Murder (The Complete Experience)'
+description:   Every episode of Mice & Murder and Adventuring Party - in order!
 episodes:
 - it-was-a-dark-and-stormy-night
 - say-hi-sylvan-sleuths
@@ -4695,30 +4696,30 @@ itemIds:
 - 1540459
 - 1584052
 - 1595737
-size:        21
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:10:27.284Z
+size:          21
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:10:27.284Z
 
 ---
 
-slug:        michael-cruz-kayne-sorry-for-your-loss
-title:       'Michael Cruz Kayne: Sorry For Your Loss'
-description: Michael Cruz Kayne reflects on his son's death and society's relationship with grief.
+slug:          michael-cruz-kayne-sorry-for-your-loss
+title:         'Michael Cruz Kayne: Sorry For Your Loss'
+description:   Michael Cruz Kayne reflects on his son's death and society's relationship with grief.
 episodes:
 - michael-cruz-kayne-sorry-for-your-loss
 - get-your-act-together-with-michael-cruz-kayne
 itemIds:
 - 3980680
 - 3975330
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:35:08.232Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:35:08.232Z
 
 ---
 
-slug:        misfits-and-magic-the-complete-experience
-title:       'Dimension 20: Misfits and Magic (The Complete Experience)'
-description: Every episode of Misfits and Magic and Adventuring Party - in order!
+slug:          misfits-and-magic-the-complete-experience
+title:         'Dimension 20: Misfits and Magic (The Complete Experience)'
+description:   Every episode of Misfits and Magic and Adventuring Party - in order!
 episodes:
 - the-chosen-ones
 - in-a-room-with-people
@@ -4769,15 +4770,15 @@ itemIds:
 - 3405028
 - 3406339
 - 3412266
-size:        33
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:13:46.219Z
+size:          33
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:13:46.219Z
 
 ---
 
-slug:        monet-s-slumber-party
-title:       Monét's Slumber Party
-description: Host Monét X Change gathers the funniest people you know to kiki and play some salacious games.
+slug:          monet-s-slumber-party
+title:         Monét's Slumber Party
+description:   Host Monét X Change gathers the funniest people you know to kiki and play some salacious games.
 seasons:
 - 1
 episodes:
@@ -4794,15 +4795,15 @@ itemIds:
 - 3326970
 - 3353355
 - 3366536
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:27:21.204Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:27:21.204Z
 
 ---
 
-slug:        most-insane-vo-booth-ever
-title:       Most Insane VO Booth Ever
-description: Josh Ruben gets some of the least helpful notes ever while recording voice-over.
+slug:          most-insane-vo-booth-ever
+title:         Most Insane VO Booth Ever
+description:   Josh Ruben gets some of the least helpful notes ever while recording voice-over.
 seasons:
 - 1
 episodes:
@@ -4813,14 +4814,14 @@ itemIds:
 - 449974
 - 449975
 - 449976
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:32:53.391Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:32:53.391Z
 
 ---
 
-slug:        music-to-your-ears
-title:       Music To Your Ears
+slug:          music-to-your-ears
+title:         Music To Your Ears
 episodes:
 - the-official-cast-recording
 - karaoke-night
@@ -4847,14 +4848,14 @@ itemIds:
 - 457793
 - 1098340
 - 449097
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:20:59.221Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:20:59.221Z
 
 ---
 
-slug:        new-releases
-title:       New Releases
+slug:          new-releases
+title:         New Releases
 episodes:
 - smartyshorts-morning-showers-or-night-showers
 - a-deep-investment-in-frivolity-with-mica-burton
@@ -4905,15 +4906,15 @@ itemIds:
 - 4113147
 - 4112082
 - 4106141
-size:        21
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:14:48.372Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:14:48.372Z
 
 ---
 
-slug:        nobody-asked
-title:       Nobody Asked
-description: Comedians find the smartest answers to the dumbest questions.
+slug:          nobody-asked
+title:         Nobody Asked
+description:   Comedians find the smartest answers to the dumbest questions.
 seasons:
 - 1
 episodes:
@@ -4928,15 +4929,15 @@ itemIds:
 - 3466036
 - 3467648
 - 3492513
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:29:11.901Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:29:11.901Z
 
 ---
 
-slug:        noise-boys
-title:       Noise Boys
-description: 'Time to make some noise with Josh Ruben, Zac Oyama, and Brennan Lee Mulligan!'
+slug:          noise-boys
+title:         Noise Boys
+description:   'Time to make some noise with Josh Ruben, Zac Oyama, and Brennan Lee Mulligan!'
 episodes:
 - make-some-noise
 - round-4
@@ -4965,15 +4966,15 @@ itemIds:
 - 3824859
 - 4004333
 - 4117101
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:19:20.412Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:19:20.412Z
 
 ---
 
-slug:        not-a-yule-log
-title:       Not a Yule Log
-description: 'Rather than watching yet another crackling fire on your TV, enjoy these festive, oddly satisfying scenes (emphasis on "odd").'
+slug:          not-a-yule-log
+title:         Not a Yule Log
+description:   'Rather than watching yet another crackling fire on your TV, enjoy these festive, oddly satisfying scenes (emphasis on "odd").'
 seasons:
 - 1
 episodes:
@@ -4982,15 +4983,15 @@ episodes:
 itemIds:
 - 679883
 - 681073
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:35:20.538Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:35:20.538Z
 
 ---
 
-slug:        paranoia
-title:       Paranoia
-description: Ally Beardsley hosts this highly entertaining game show where contestants make a joint effort to weed out who among them is secretly stoned.
+slug:          paranoia
+title:         Paranoia
+description:   Ally Beardsley hosts this highly entertaining game show where contestants make a joint effort to weed out who among them is secretly stoned.
 seasons:
 - 1
 - 2
@@ -5008,15 +5009,15 @@ itemIds:
 - 508540
 - 512639
 - 513159
-size:        15
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:18:18.738Z
+size:          15
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:18:18.738Z
 
 ---
 
-slug:        parlor-room
-title:       Parlor Room
-description: Host Becca Scott gathers her comedian friends for a game night like no other. New episodes every other Thursday.
+slug:          parlor-room
+title:         Parlor Room
+description:   Host Becca Scott gathers her comedian friends for a game night like no other. New episodes every other Thursday.
 seasons:
 - 1
 - 2
@@ -5044,15 +5045,15 @@ itemIds:
 - 3737700
 - 3752025
 - 3752899
-size:        24
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:15:13.120Z
+size:          24
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:15:13.120Z
 
 ---
 
-slug:        phantom-of-the-office
-title:       Phantom of the Office
-description: 'The Phantom (Streeter Seidell) isn''t here to make friends. He isn''t here to work or haunt, either. Honestly, we think he''s a freelance corporate loiterer.'
+slug:          phantom-of-the-office
+title:         Phantom of the Office
+description:   'The Phantom (Streeter Seidell) isn''t here to make friends. He isn''t here to work or haunt, either. Honestly, we think he''s a freelance corporate loiterer.'
 seasons:
 - 1
 episodes:
@@ -5071,15 +5072,15 @@ itemIds:
 - 233818
 - 263473
 - 234015
-size:        7
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:26:07.383Z
+size:          7
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:26:07.383Z
 
 ---
 
-slug:        pirates-of-leviathan-the-complete-experience
-title:       'Dimension 20: Pirates of Leviathan (The Complete Experience)'
-description: Every episode of Pirates of Leviathan and Adventuring Party - in order!
+slug:          pirates-of-leviathan-the-complete-experience
+title:         'Dimension 20: Pirates of Leviathan (The Complete Experience)'
+description:   Every episode of Pirates of Leviathan and Adventuring Party - in order!
 episodes:
 - a-heaping-helping-of-trouble
 - the-daughter-of-storms
@@ -5098,15 +5099,15 @@ itemIds:
 - 1110373
 - 1131414
 - 1133259
-size:        8
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:25:42.761Z
+size:          8
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:25:42.761Z
 
 ---
 
-slug:        play-it-by-ear
-title:       Play It By Ear
-description: A musical improv show where players craft an original musical out of thin air and silly prompts.
+slug:          play-it-by-ear
+title:         Play It By Ear
+description:   A musical improv show where players craft an original musical out of thin air and silly prompts.
 seasons:
 - 1
 - 2
@@ -5122,15 +5123,15 @@ itemIds:
 - 2371762
 - 2405773
 - 2423709
-size:        16
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:17:54.021Z
+size:          16
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:17:54.021Z
 
 ---
 
-slug:        pov
-title:       POV
-description: Just a regular dude's point of view in this crazy world.
+slug:          pov
+title:         POV
+description:   Just a regular dude's point of view in this crazy world.
 seasons:
 - 1
 episodes:
@@ -5155,15 +5156,15 @@ itemIds:
 - 449979
 - 449980
 - 234367
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:24:04.222Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:24:04.222Z
 
 ---
 
-slug:        precious-plum
-title:       Precious Plum
-description: 'Precious Plum (Elaine Carroll) and her stage monster Mama (Josh Ruben) are hellbent for beauty pageant fame and free famburgers, in this Honey Boo Boo parody.'
+slug:          precious-plum
+title:         Precious Plum
+description:   'Precious Plum (Elaine Carroll) and her stage monster Mama (Josh Ruben) are hellbent for beauty pageant fame and free famburgers, in this Honey Boo Boo parody.'
 seasons:
 - 1
 episodes:
@@ -5194,15 +5195,15 @@ itemIds:
 - 234375
 - 234376
 - 355178
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:19:32.815Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:19:32.815Z
 
 ---
 
-slug:        raph-s-hall-of-fame
-title:       Raph's Hall of Fame
-description: 'Welcome to the funny, moving, and downright weird side of sports, when guests tell Raphael Chestang the stories of their favorite underrated athletes and teams.'
+slug:          raph-s-hall-of-fame
+title:         Raph's Hall of Fame
+description:   'Welcome to the funny, moving, and downright weird side of sports, when guests tell Raphael Chestang the stories of their favorite underrated athletes and teams.'
 seasons:
 - 1
 episodes:
@@ -5227,14 +5228,14 @@ itemIds:
 - 469275
 - 482043
 - 499239
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:24:16.553Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:24:16.553Z
 
 ---
 
-slug:        sam-s-lesser-known-faves
-title:       Sam's Lesser-Known Faves
+slug:          sam-s-lesser-known-faves
+title:         Sam's Lesser-Known Faves
 episodes:
 - 7-way-meet-cute
 - are-we-ready-to-go-yet
@@ -5283,15 +5284,15 @@ itemIds:
 - 449836
 - 233761
 - 233763
-size:        23
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:15:25.528Z
+size:          23
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:15:25.528Z
 
 ---
 
-slug:        see-plum-run
-title:       See Plum Run
-description: 'Hungry for power, fame, and anything else, Mama and Plum invade cushy New England with sights set on Plum''s most ambitious title yet: student body president.'
+slug:          see-plum-run
+title:         See Plum Run
+description:   'Hungry for power, fame, and anything else, Mama and Plum invade cushy New England with sights set on Plum''s most ambitious title yet: student body president.'
 seasons:
 - 1
 episodes:
@@ -5320,14 +5321,14 @@ itemIds:
 - 386807
 - 318484
 - 398915
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:21:11.560Z
+size:          12
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:21:11.560Z
 
 ---
 
-slug:        shriek-week-the-complete-experience
-title:       'Dimension 20: Shriek Week (The Complete Experience)'
+slug:          shriek-week-the-complete-experience
+title:         'Dimension 20: Shriek Week (The Complete Experience)'
 episodes:
 - the-club-fair
 - i-pretended-to-be-a-wolf-for-awhile-as-a-child
@@ -5348,15 +5349,15 @@ itemIds:
 - 1885033
 - 1892988
 - 1902046
-size:        9
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:24:41.181Z
+size:          9
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:24:41.181Z
 
 ---
 
-slug:        smartypants
-title:       Smartypants
-description: The greatest thinkers/comedians of our time ask the questions no one else will. New episodes every other Friday.
+slug:          smartypants
+title:         Smartypants
+description:   The greatest thinkers/comedians of our time ask the questions no one else will. New episodes every other Friday.
 seasons:
 - 1
 - 2
@@ -5381,15 +5382,15 @@ itemIds:
 - 3284557
 - 3301204
 - 3310248
-size:        38
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T04:56:17.510Z
+size:          38
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T04:56:17.510Z
 
 ---
 
-slug:        soap-box
-title:       Soap Box
-description: 'Hard-hitting, brutally honest opinions about irrelevant matters and inconsequential things.'
+slug:          soap-box
+title:         Soap Box
+description:   'Hard-hitting, brutally honest opinions about irrelevant matters and inconsequential things.'
 seasons:
 - 1
 episodes:
@@ -5398,15 +5399,15 @@ episodes:
 itemIds:
 - 263538
 - 263539
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:35:32.795Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:35:32.795Z
 
 ---
 
-slug:        sock-or-hat
-title:       Sock or Hat?
-description: 'The crazy popular, wildly mundane game show where celebrities guess if it''s a sock or a hat. Really, that''s it.'
+slug:          sock-or-hat
+title:         Sock or Hat?
+description:   'The crazy popular, wildly mundane game show where celebrities guess if it''s a sock or a hat. Really, that''s it.'
 seasons:
 - 1
 episodes:
@@ -5417,15 +5418,15 @@ itemIds:
 - 449981
 - 449982
 - 462282
-size:        3
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:33:05.689Z
+size:          3
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:33:05.689Z
 
 ---
 
-slug:        tablepop
-title:       TablePop
-description: 'Pop culture gets gamed when Brian Miller, Eli Yudin, Carolyn Page, and special guests grab dice and turn your favorite movies and TV shows into tabletop RPGs.'
+slug:          tablepop
+title:         TablePop
+description:   'Pop culture gets gamed when Brian Miller, Eli Yudin, Carolyn Page, and special guests grab dice and turn your favorite movies and TV shows into tabletop RPGs.'
 seasons:
 - 1
 episodes:
@@ -5478,15 +5479,15 @@ itemIds:
 - 598717
 - 609767
 - 621437
-size:        27
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:14:35.966Z
+size:          27
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:14:35.966Z
 
 ---
 
-slug:        tablepop-presents-megadungeon-live
-title:       'TablePop Presents: MEGADUNGEON LIVE!'
-description: 'The TablePop crew go live with an OG D&D game with a twist: you''re a part of the adventure! It''s a tabletop RPG with dungeons, monsters, epic battles, and you!'
+slug:          tablepop-presents-megadungeon-live
+title:         'TablePop Presents: MEGADUNGEON LIVE!'
+description:   'The TablePop crew go live with an OG D&D game with a twist: you''re a part of the adventure! It''s a tabletop RPG with dungeons, monsters, epic battles, and you!'
 seasons:
 - 1
 episodes:
@@ -5513,15 +5514,15 @@ itemIds:
 - 656441
 - 661839
 - 673225
-size:        11
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:22:37.807Z
+size:          11
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:22:37.807Z
 
 ---
 
-slug:        tales-from-the-closet
-title:       Tales From the Closet
-description: The crypt has nothing on the closet when Ally Beardsley and guests share terrifying tales from before they came out.
+slug:          tales-from-the-closet
+title:         Tales From the Closet
+description:   The crypt has nothing on the closet when Ally Beardsley and guests share terrifying tales from before they came out.
 seasons:
 - 1
 episodes:
@@ -5562,15 +5563,15 @@ itemIds:
 - 565594
 - 587677
 - 597768
-size:        18
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:17:04.685Z
+size:          18
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:17:04.685Z
 
 ---
 
-slug:        the-adventures-of-kim-jong-un
-title:       The Adventures of Kim Jong Un
-description: 'The incredibly accurate, animated documentary about North Korean Supreme Leader/heart throb/genius/beloved #1 son Kim Jong Un.'
+slug:          the-adventures-of-kim-jong-un
+title:         The Adventures of Kim Jong Un
+description:   'The incredibly accurate, animated documentary about North Korean Supreme Leader/heart throb/genius/beloved #1 son Kim Jong Un.'
 seasons:
 - 1
 episodes:
@@ -5595,15 +5596,15 @@ itemIds:
 - 335029
 - 335031
 - 335032
-size:        10
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:24:28.878Z
+size:          10
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:24:28.878Z
 
 ---
 
-slug:        the-best-of-grant-shaming-1
-title:       The Best of Grant-Shaming
-description: Grant Anthony O'Brien has suffered many indignities for content. Here are a lot of them.
+slug:          the-best-of-grant-shaming-1
+title:         The Best of Grant-Shaming
+description:   Grant Anthony O'Brien has suffered many indignities for content. Here are a lot of them.
 episodes:
 - true-facts-about-grant-anthony-o-brien
 - true-facts-about-grant-anthony-o-brien-part-2
@@ -5640,30 +5641,30 @@ itemIds:
 - 738152
 - 2724249
 - 2747789
-size:        17
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:17:17.012Z
+size:          17
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:17:17.012Z
 
 ---
 
-slug:        the-big-team
-title:       The Big Team
-description: The Big Team use audience stories as inspiration for ridiculous improv scenes.
+slug:          the-big-team
+title:         The Big Team
+description:   The Big Team use audience stories as inspiration for ridiculous improv scenes.
 episodes:
 - the-big-team
 - get-your-act-together-with-the-big-team
 itemIds:
 - 3456639
 - 3434148
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:35:45.022Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:35:45.022Z
 
 ---
 
-slug:        the-collegehumor-podcast
-title:       The CollegeHumor Podcast
-description: 'Want to know how the funny gets made? Hear behind-the-scenes stories, play games, and read rejected sketches with your favorite CollegeHumor cast and crew.'
+slug:          the-collegehumor-podcast
+title:         The CollegeHumor Podcast
+description:   'Want to know how the funny gets made? Hear behind-the-scenes stories, play games, and read rejected sketches with your favorite CollegeHumor cast and crew.'
 seasons:
 - 1
 episodes:
@@ -5706,15 +5707,15 @@ itemIds:
 - 559704
 - 581394
 - 592746
-size:        19
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:16:39.924Z
+size:          19
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:16:39.924Z
 
 ---
 
-slug:        the-comment-show
-title:       The Comment Show
-description: It all goes down in the comment section when the CollegeHumor cast responds to some of their favorite YouTube comments and fan questions.
+slug:          the-comment-show
+title:         The Comment Show
+description:   It all goes down in the comment section when the CollegeHumor cast responds to some of their favorite YouTube comments and fan questions.
 seasons:
 - 1
 episodes:
@@ -5729,15 +5730,15 @@ itemIds:
 - 449994
 - 449995
 - 449996
-size:        5
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:29:24.213Z
+size:          5
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:29:24.213Z
 
 ---
 
-slug:        the-don-hertzfeldt-collection
-title:       The Don Hertzfeldt Collection
-description: Experience the pioneering animated films of Don Hertzfeldt that merge absurdity with existentialism.
+slug:          the-don-hertzfeldt-collection
+title:         The Don Hertzfeldt Collection
+description:   Experience the pioneering animated films of Don Hertzfeldt that merge absurdity with existentialism.
 seasons:
 - 1
 episodes:
@@ -5766,14 +5767,14 @@ itemIds:
 - 4126461
 - 4126448
 - 4126443
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:21:23.899Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:21:23.899Z
 
 ---
 
-slug:        the-don-hertzfeldt-collection-new
-title:       The Don Hertzfeldt Collection
+slug:          the-don-hertzfeldt-collection-new
+title:         The Don Hertzfeldt Collection
 episodes:
 - rejected
 - it-s-such-a-beautiful-day
@@ -5800,28 +5801,28 @@ itemIds:
 - 4126509
 - 4126429
 - 4126440
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:21:36.206Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:21:36.206Z
 
 ---
 
-slug:        the-legendary-rick-perry-and-the-art-of-dimension-20
-title:       The Legendary Rick Perry and the Art of Dimension 20
-description: Take an inside look at Rick Perry’s strange and wonderful life as Creative Producer for Dimension 20.
+slug:          the-legendary-rick-perry-and-the-art-of-dimension-20
+title:         The Legendary Rick Perry and the Art of Dimension 20
+description:   Take an inside look at Rick Perry’s strange and wonderful life as Creative Producer for Dimension 20.
 episodes:
 - the-legendary-rick-perry-and-the-art-of-dimension-20
 itemIds:
 - 3012752
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:36:22.020Z
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:36:22.020Z
 
 ---
 
-slug:        the-rank-room
-title:       The Rank Room
-description: 'Host and philosopher Katie Marovitch recruits comedians to answer life’s important questions, like “What’s the sexiest way to die?”'
+slug:          the-rank-room
+title:         The Rank Room
+description:   'Host and philosopher Katie Marovitch recruits comedians to answer life’s important questions, like “What’s the sexiest way to die?”'
 seasons:
 - 1
 episodes:
@@ -5860,15 +5861,15 @@ itemIds:
 - 520111
 - 532018
 - 537563
-size:        17
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:17:29.439Z
+size:          17
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:17:29.439Z
 
 ---
 
-slug:        the-rank-room-the-web-series
-title:       'The Rank Room: The Web Series'
-description: Great philosopher Katie Marovitch hosts a roundtable debate with other comedians to answer the deepest questions of our time.
+slug:          the-rank-room-the-web-series
+title:         'The Rank Room: The Web Series'
+description:   Great philosopher Katie Marovitch hosts a roundtable debate with other comedians to answer the deepest questions of our time.
 seasons:
 - 1
 episodes:
@@ -5881,15 +5882,15 @@ itemIds:
 - 355724
 - 357796
 - 376284
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:31:14.845Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:31:14.845Z
 
 ---
 
-slug:        the-schining
-title:       The sCHining
-description: 'When the gang take a writer''s retreat, a homicidal Trapp becomes hell-bent on producing just one damn sketch. Meanwhile, haunted by premonitions, Sam valiantly dawdles.'
+slug:          the-schining
+title:         The sCHining
+description:   'When the gang take a writer''s retreat, a homicidal Trapp becomes hell-bent on producing just one damn sketch. Meanwhile, haunted by premonitions, Sam valiantly dawdles.'
 seasons:
 - 1
 episodes:
@@ -5906,15 +5907,15 @@ itemIds:
 - 234028
 - 234029
 - 234030
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:27:33.511Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:27:33.511Z
 
 ---
 
-slug:        the-seven-the-complete-experience
-title:       'Dimension 20: The Seven (The Complete Experience)'
-description: Every episode of The Seven and Adventuring Party - in order!
+slug:          the-seven-the-complete-experience
+title:         'Dimension 20: The Seven (The Complete Experience)'
+description:   Every episode of The Seven and Adventuring Party - in order!
 episodes:
 - party-of-seven
 - i-ve-never-been-in-a-campaign-that-is-hornier
@@ -5961,15 +5962,15 @@ itemIds:
 - 1821857
 - 1830344
 - 1839842
-size:        22
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:15:37.955Z
+size:          22
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:15:37.955Z
 
 ---
 
-slug:        the-six
-title:       The Six
-description: Meet the six people you'll discover in pretty much any phase of your life.
+slug:          the-six
+title:         The Six
+description:   Meet the six people you'll discover in pretty much any phase of your life.
 seasons:
 - 1
 episodes:
@@ -5988,15 +5989,15 @@ itemIds:
 - 234384
 - 234385
 - 234386
-size:        7
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:26:19.683Z
+size:          7
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:26:19.683Z
 
 ---
 
-slug:        the-unsleeping-city-chapter-ii-complete-experience
-title:       'Dimension 20: The Unsleeping City Chapter II (The Complete Experience)'
-description: 'Every episode of The Unsleeping City: Chapter II and Adventuring Party - in order!'
+slug:          the-unsleeping-city-chapter-ii-complete-experience
+title:         'Dimension 20: The Unsleeping City Chapter II (The Complete Experience)'
+description:   'Every episode of The Unsleeping City: Chapter II and Adventuring Party - in order!'
 episodes:
 - the-fall-of-new-york-city
 - a-ferry-special-episode
@@ -6047,15 +6048,15 @@ itemIds:
 - 1300401
 - 1286862
 - 1323777
-size:        35
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:13:33.810Z
+size:          35
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:13:33.810Z
 
 ---
 
-slug:        thousandaires
-title:       Thousandaires
-description: Comedians are given a thousand dollars to spend on their friends and their wildest dreams.
+slug:          thousandaires
+title:         Thousandaires
+description:   Comedians are given a thousand dollars to spend on their friends and their wildest dreams.
 seasons:
 - 1
 episodes:
@@ -6072,15 +6073,15 @@ itemIds:
 - 3282777
 - 3298259
 - 3314239
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:27:45.824Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:27:45.824Z
 
 ---
 
-slug:        toonout
-title:       Toonout
-description: Original animated shorts created by independent artists. New episodes every other Tuesday.
+slug:          toonout
+title:         Toonout
+description:   Original animated shorts created by independent artists. New episodes every other Tuesday.
 seasons:
 - 1
 episodes:
@@ -6109,14 +6110,14 @@ itemIds:
 - 4118860
 - 4142150
 - 4150250
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:21:48.551Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:21:48.551Z
 
 ---
 
-slug:        toonout-new
-title:       Toonout
+slug:          toonout-new
+title:         Toonout
 episodes:
 - off-the-reservation
 - hot-peasant-summer
@@ -6143,15 +6144,15 @@ itemIds:
 - 3991668
 - 4045303
 - 4004351
-size:        12
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:22:00.849Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:22:00.849Z
 
 ---
 
-slug:        total-forgiveness
-title:       Total Forgiveness
-description: 'Crippled with debt, Grant and Ally go head-to-head in this agonizing competition show to prove they''ll do ANYTHING to pay off their student loans.'
+slug:          total-forgiveness
+title:         Total Forgiveness
+description:   'Crippled with debt, Grant and Ally go head-to-head in this agonizing competition show to prove they''ll do ANYTHING to pay off their student loans.'
 seasons:
 - 1
 episodes:
@@ -6182,15 +6183,15 @@ itemIds:
 - 498146
 - 446117
 - 446167
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:19:45.200Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:19:45.200Z
 
 ---
 
-slug:        total-forgiveness-early-payoff
-title:       'Total Forgiveness: Early Payoff'
-description: Get even more of Ally & Grant cringing for cash in these exclusive bonus scenes from Total Forgiveness.
+slug:          total-forgiveness-early-payoff
+title:         'Total Forgiveness: Early Payoff'
+description:   Get even more of Ally & Grant cringing for cash in these exclusive bonus scenes from Total Forgiveness.
 seasons:
 - 1
 episodes:
@@ -6199,14 +6200,14 @@ episodes:
 itemIds:
 - 446117
 - 446167
-size:        2
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:35:57.314Z
+size:          2
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:35:57.314Z
 
 ---
 
-slug:        trailers
-title:       Trailers
+slug:          trailers
+title:         Trailers
 episodes:
 - dimension-20-gladlands-trailer
 - dimension-20-the-ravening-war-trailer
@@ -6257,15 +6258,15 @@ itemIds:
 - 2988663
 - 3235105
 - 3219401
-size:        95
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:11:42.114Z
+size:          95
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:11:42.114Z
 
 ---
 
-slug:        troopers-1
-title:       Troopers
-description: 'A new generation of troopers search for purpose away from Dreadlord Sinister and the intergalactic grind, in this stellar sequel to the classic web series.'
+slug:          troopers-1
+title:         Troopers
+description:   'A new generation of troopers search for purpose away from Dreadlord Sinister and the intergalactic grind, in this stellar sequel to the classic web series.'
 seasons:
 - 1
 episodes:
@@ -6292,15 +6293,15 @@ itemIds:
 - 512654
 - 516658
 - 521082
-size:        11
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:22:50.153Z
+size:          11
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:22:50.153Z
 
 ---
 
-slug:        troopers-animated
-title:       'Troopers: Animated'
-description: 'Rich, Larry, and Dread Lord are back! And slightly more animated!'
+slug:          troopers-animated
+title:         'Troopers: Animated'
+description:   'Rich, Larry, and Dread Lord are back! And slightly more animated!'
 seasons:
 - 1
 episodes:
@@ -6317,15 +6318,15 @@ itemIds:
 - 1278393
 - 1301058
 - 1336133
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:27:58.138Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:27:58.138Z
 
 ---
 
-slug:        troopers-the-web-series
-title:       'Troopers: The Web Series'
-description: 'The intergalactic exploits of Dreadlord Sinister''s deadly elite troopers Rich and Larry, in a space saga of epic incompetence. Guest starring Aubrey Plaza.'
+slug:          troopers-the-web-series
+title:         'Troopers: The Web Series'
+description:   'The intergalactic exploits of Dreadlord Sinister''s deadly elite troopers Rich and Larry, in a space saga of epic incompetence. Guest starring Aubrey Plaza.'
 seasons:
 - 1
 - 2
@@ -6351,15 +6352,15 @@ itemIds:
 - 234393
 - 234394
 - 234395
-size:        20
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:16:02.693Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:16:02.693Z
 
 ---
 
-slug:        ultramechatron-team-go-1
-title:       Ultramechatron Team Go!
-description: 'The leader, the braniac, the fighter, & the party guy: Watch them work and live together inside a giant robot, saving the city from monsters.'
+slug:          ultramechatron-team-go-1
+title:         Ultramechatron Team Go!
+description:   'The leader, the braniac, the fighter, & the party guy: Watch them work and live together inside a giant robot, saving the city from monsters.'
 seasons:
 - 1
 episodes:
@@ -6390,15 +6391,15 @@ itemIds:
 - 671929
 - 681012
 - 681699
-size:        13
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:19:57.552Z
+size:          13
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:19:57.552Z
 
 ---
 
-slug:        ultramechatron-team-go-the-web-series
-title:       'Ultramechatron Team Go!: The Web Series'
-description: 'Kaiju monsters beware! Outside, they''re a giant robot defending their city; inside, they defend against each other''s incompetence.'
+slug:          ultramechatron-team-go-the-web-series
+title:         'Ultramechatron Team Go!: The Web Series'
+description:   'Kaiju monsters beware! Outside, they''re a giant robot defending their city; inside, they defend against each other''s incompetence.'
 seasons:
 - 1
 episodes:
@@ -6411,15 +6412,15 @@ itemIds:
 - 393561
 - 402803
 - 404822
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:31:27.165Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:31:27.165Z
 
 ---
 
-slug:        um-actually
-title:       'Um, Actually'
-description: 'Introducing a game show of fandom minutiae one-upmanship, where nerds do what nerds do best: flaunt encyclopedic nerd knowledge at Millennium Falcon nerd-speed.'
+slug:          um-actually
+title:         'Um, Actually'
+description:   'Introducing a game show of fandom minutiae one-upmanship, where nerds do what nerds do best: flaunt encyclopedic nerd knowledge at Millennium Falcon nerd-speed.'
 seasons:
 - 1
 - 2
@@ -6482,15 +6483,15 @@ itemIds:
 - 433583
 - 437047
 - 439186
-size:        174
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:09:00.681Z
+size:          174
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:09:00.681Z
 
 ---
 
-slug:        um-actually-new
-title:       'Um, Actually'
-description: 'Introducing a game show of fandom minutiae one-upmanship, where nerds do what nerds do best: flaunt encyclopedic nerd knowledge at Millennium Falcon nerd-speed.'
+slug:          um-actually-new
+title:         'Um, Actually'
+description:   'Introducing a game show of fandom minutiae one-upmanship, where nerds do what nerds do best: flaunt encyclopedic nerd knowledge at Millennium Falcon nerd-speed.'
 episodes:
 - tournament-of-champions-26-part-4
 - tournament-of-champions-26-part-3
@@ -6541,15 +6542,15 @@ itemIds:
 - 3526973
 - 3512220
 - 3496282
-size:        168
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:09:13.077Z
+size:          168
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:09:13.077Z
 
 ---
 
-slug:        um-actually-the-web-series
-title:       'Um, Actually: The Web Series'
-description: The original CollegeHumor sci-fi/fantasy trivia game show web series that pits nerd against fanboy against poindexter.
+slug:          um-actually-the-web-series
+title:         'Um, Actually: The Web Series'
+description:   The original CollegeHumor sci-fi/fantasy trivia game show web series that pits nerd against fanboy against poindexter.
 seasons:
 - 1
 episodes:
@@ -6572,15 +6573,15 @@ itemIds:
 - 340427
 - 349627
 - 355099
-size:        9
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:09:25.406Z
+size:          9
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:09:25.406Z
 
 ---
 
-slug:        um-actually-tournament-of-champions
-title:       'Um, Actually: Tournament of Champions'
-description: It's time to find out once and for all who the principal pedant is.
+slug:          um-actually-tournament-of-champions
+title:         'Um, Actually: Tournament of Champions'
+description:   It's time to find out once and for all who the principal pedant is.
 episodes:
 - tournament-of-champions-26-part-1
 - tournament-of-champions-26-part-2
@@ -6599,15 +6600,15 @@ itemIds:
 - 455296
 - 465639
 - 469265
-size:        8
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:09:37.700Z
+size:          8
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:09:37.700Z
 
 ---
 
-slug:        very-important-people
-title:       Very Important People
-description: 'Comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis.'
+slug:          very-important-people
+title:         Very Important People
+description:   'Comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis.'
 seasons:
 - 1
 - 2
@@ -6662,15 +6663,15 @@ itemIds:
 - 3198724
 - 3203075
 - 3203130
-size:        89
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:10:14.886Z
+size:          89
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:10:14.886Z
 
 ---
 
-slug:        very-mary-kate
-title:       Very Mary-Kate
-description: 'The unofficial celebrity biography of Mary-Kate Olsen, brought to spoiled rotten life by Elaine Carroll. Featuring Bodyguard, Fat Professor, and obscene wealth.'
+slug:          very-mary-kate
+title:         Very Mary-Kate
+description:   'The unofficial celebrity biography of Mary-Kate Olsen, brought to spoiled rotten life by Elaine Carroll. Featuring Bodyguard, Fat Professor, and obscene wealth.'
 seasons:
 - 1
 - 2
@@ -6712,22 +6713,22 @@ itemIds:
 - 234418
 - 234419
 - 234420
-size:        39
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:12:56.486Z
+size:          39
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:12:56.486Z
 
 ---
 
-slug:        welcome
-size:        1
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:36:34.367Z
+slug:          welcome
+size:          1
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:36:34.367Z
 
 ---
 
-slug:        what-the-facts-101
-title:       What the Facts 101
-description: 'Jake Young sits down with real experts to discuss the disturbing lessons of WTF 101, from famous fights to fungi.'
+slug:          what-the-facts-101
+title:         What the Facts 101
+description:   'Jake Young sits down with real experts to discuss the disturbing lessons of WTF 101, from famous fights to fungi.'
 seasons:
 - 1
 episodes:
@@ -6740,15 +6741,15 @@ itemIds:
 - 494019
 - 499108
 - 502650
-size:        4
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:31:39.429Z
+size:          4
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:31:39.429Z
 
 ---
 
-slug:        where-in-the-eff-is-sarah-cincinnati
-title:       Where in the Eff is Sarah Cincinnati
-description: 'In this Carmen Sandiego send-up, everyone''s flakiest friend, Sarah Cincinnati, asks for geography trivia help as she travels the world, getting lost and buzzed.'
+slug:          where-in-the-eff-is-sarah-cincinnati
+title:         Where in the Eff is Sarah Cincinnati
+description:   'In this Carmen Sandiego send-up, everyone''s flakiest friend, Sarah Cincinnati, asks for geography trivia help as she travels the world, getting lost and buzzed.'
 seasons:
 - 1
 episodes:
@@ -6765,15 +6766,15 @@ itemIds:
 - 690898
 - 700482
 - 700635
-size:        6
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:28:10.435Z
+size:          6
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:28:10.435Z
 
 ---
 
-slug:        wtf-101
-title:       WTF 101
-description: 'Afternoon detention with Ms. Foxtrot leads to magical, educational, and extremely gross journeys.'
+slug:          wtf-101
+title:         WTF 101
+description:   'Afternoon detention with Ms. Foxtrot leads to magical, educational, and extremely gross journeys.'
 seasons:
 - 1
 episodes:
@@ -6808,15 +6809,15 @@ itemIds:
 - 494019
 - 499108
 - 502650
-size:        15
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:18:31.089Z
+size:          15
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:18:31.089Z
 
 ---
 
-slug:        yay-or-nay
-title:       Yay or Nay
-description: 'For the final rulings on controversial questions about life and pop culture, we ask the most judgmental people we know: comedians.'
+slug:          yay-or-nay
+title:         Yay or Nay
+description:   'For the final rulings on controversial questions about life and pop culture, we ask the most judgmental people we know: comedians.'
 seasons:
 - 1
 episodes:
@@ -6861,14 +6862,14 @@ itemIds:
 - 450043
 - 450044
 - 450045
-size:        20
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:16:15.085Z
+size:          20
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:16:15.085Z
 
 ---
 
-slug:        zoom-energy-adventuring-party
-title:       Zoom Energy Adventuring Party
+slug:          zoom-energy-adventuring-party
+title:         Zoom Energy Adventuring Party
 episodes:
 - a-ferry-special-episode
 - gatorade-shampoo
@@ -6885,6 +6886,6 @@ itemIds:
 - 2546993
 - 2551248
 - 912707
-size:        7
-firstSeen:   2026-08-31T04:55:27.499Z
-scrapedAt:   2026-08-31T05:26:31.967Z
+size:          7
+firstSeen:     2026-08-31T04:55:27.499Z
+scrapedAt:     2026-08-31T05:26:31.967Z

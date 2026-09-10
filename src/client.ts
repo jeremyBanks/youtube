@@ -58,6 +58,40 @@ export const getClientAndKey = async (): Promise<Client> => {
 };
 
 /** The client, API key, and an authenticated OAuth2 client. Writes need this. */
+/**
+ * The authenticated client, but only if stored credentials still work.
+ *
+ * `getClientAuthAndKey` starts an interactive authorisation when the stored
+ * tokens are missing *or stale*, and that flow prints a URL and waits, so a
+ * caller that merely prefers authentication cannot use it: an expired refresh
+ * token turns "nice to have" into a hang. This refreshes in place and answers
+ * undefined on any failure, never beginning a flow it cannot finish.
+ */
+export const storedClientAuthAndKey = async (): Promise<
+  AuthenticatedClient | undefined
+> => {
+  if (!localStorage.clientAccessToken || !localStorage.clientRefreshToken) {
+    return undefined;
+  }
+  const { youtube, key } = await getClientAndKey();
+  const auth = new googleapis.google.auth.OAuth2({
+    clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
+    clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
+    redirectUri: "http://localhost:8783",
+  });
+  auth.setCredentials({
+    token_type: "Bearer",
+    scope: "https://www.googleapis.com/auth/youtube",
+    access_token: localStorage.clientAccessToken,
+    refresh_token: localStorage.clientRefreshToken,
+    expiry_date: localStorage.clientExpiryDate,
+  });
+  return await auth.getAccessToken().then(
+    () => ({ youtube, auth, key }),
+    () => undefined,
+  );
+};
+
 export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   return await (authenticatedClient ??= (async () => {
     const { youtube, key } = await getClientAndKey();
@@ -397,21 +431,15 @@ export async function updatePlaylist(
   // the API key, so a dry run works without OAuth -- except on a private
   // playlist, which a key-only read cannot see at all (see `playlistMetadata`).
   //
-  // So a dry run uses stored credentials when they are already there, and
-  // otherwise stays key-only. The condition is deliberately "tokens are on
-  // disk" rather than a try/catch around the call: without them
-  // `getClientAuthAndKey` starts an interactive authorisation, which prints a
-  // URL and exits the process rather than throwing, so catching would not save
-  // us. This way a dry run never begins a flow it did not already have the
-  // means to finish.
-  const storedCredentials = Boolean(
-    localStorage.clientAccessToken && localStorage.clientRefreshToken,
-  );
-  const client = !dryRun
-    ? await getClientAuthAndKey()
-    : storedCredentials
-    ? await getClientAuthAndKey()
-    : undefined;
+  // So a dry run uses stored credentials when they still work, and otherwise
+  // stays key-only. It must never call `getClientAuthAndKey`, which starts an
+  // interactive authorisation when the tokens are missing *or stale* and then
+  // waits on a browser that is not there. Checking only that tokens exist on
+  // disk was not enough: they expire, and a dry run then hung instead of
+  // reading, which is the one thing it is documented never to need.
+  const client = dryRun
+    ? await storedClientAuthAndKey()
+    : await getClientAuthAndKey();
   const youtube = client?.youtube ?? (await getClientAndKey()).youtube;
   const auth = client?.auth;
   const key = client?.key ?? (await getClientAndKey()).key;

@@ -6934,6 +6934,10 @@ videos:
     dropout: jay-behpoornia-2026-acting-reel-extended-cut
     members: KekWfweSyZc
     published: 2026-08-31
+  - episode: 809. I Spy
+    dropout: i-spy
+    members: nS2x00J89Bw
+    published: 2026-09-07
 
 ---
 
@@ -7072,6 +7076,17 @@ videos:
     dropout: noise-some-makes
     members: 4P8A6WB1sUk
     published: 2026-07-27
+
+---
+
+show: Make Some Noise
+season: Season 5
+videos:
+  # The teaser went up on both channels 45 minutes apart, same 35 seconds.
+  - trailer: Make Some Noise Season 5 Teaser
+    public: vwFYqOHMf6U
+    public copy: GwHaNJh3meg
+    published: 2026-09-02
 
 ---
 
@@ -7489,6 +7504,9 @@ videos:
     published: 2026-07-10
   - special: "Smartyshorts: School Subjects"
     dropout: smartyshorts-school-subjects
+    # YouTube titles the free cut "What Colors Are School Subjects?"; 304s
+    # against the members version's 292s, the usual few seconds longer.
+    public: qwyZPmfNztU
     members: gQRF9a9PUlM
     published: 2026-07-17
   - episode: 304. The Power of Words
@@ -7592,6 +7610,10 @@ videos:
     dropout: a-deep-investment-in-frivolity-with-mica-burton
     members: _84OxGv0LyI
     published: 2026-08-26
+  - episode: 708. Questions of Taste (with Quinns Smith)
+    dropout: questions-of-taste-with-quinns-smith
+    members: 9JJVGDeBWbs
+    published: 2026-09-09
 
 ---
 
@@ -8922,6 +8944,10 @@ videos:
     dropout: off-the-reservation
     members: xSsmid74Lv4
     published: 2026-08-25
+  - episode: 13. The Pickle
+    dropout: the-pickle
+    members: 1Nf0e07oOIA
+    published: 2026-09-08
 
 ---
 

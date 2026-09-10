@@ -1,5 +1,5 @@
 import { parseArgs } from "@std/cli";
-import { channelMetadata, playlistVideos, setAuthMode } from "../client.ts";
+import { channelMetadata, playlistVideos } from "../client.ts";
 import type { Scan, Video } from "../storage.ts";
 import { upsertMerge } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
@@ -17,25 +17,16 @@ if (import.meta.main) {
 /** Command-line entry point. */
 export async function main() {
   const args = parseArgs(Deno.args, {
-    string: ["auth-url", "window", "channel"],
+    string: ["window", "channel"],
     boolean: [
-      "headless",
       "incremental-only",
       "playlists-only",
       "skip-playlists",
     ],
     default: {
-      headless: false,
       "incremental-only": false,
     },
   });
-
-  // Set authentication mode based on command-line arguments
-  if (args.headless) {
-    setAuthMode({ mode: "print-url-and-exit" });
-  } else if (args["auth-url"]) {
-    setAuthMode({ mode: "complete-with-url", redirectUrl: args["auth-url"] });
-  }
 
   // Forces a scan back a given ISO duration for every configured channel,
   // ignoring the cadences in config/scan.toml. For backfilling a

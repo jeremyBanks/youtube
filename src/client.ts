@@ -138,11 +138,22 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           console.log(
             "Copy the full URL from your browser's address bar and run:",
           );
-          console.log(`  deno task scan --auth-url="<paste-url-here>"\n`);
+          // `publish`, not `scan`: only `createPlaylist` and `updatePlaylist`
+          // ever authenticate, so telling somebody to run `scan --auth-url=`
+          // sent them to a command that reads the flag, never reaches this
+          // code, and silently leaves the single-use code unspent.
+          console.log(`  deno task publish --auth-url="<paste-url-here>"\n`);
           Deno.exit(0);
         } else if (authMode.mode === "complete-with-url") {
           const redirectUrl = authMode.redirectUrl;
-          const url = new URL(redirectUrl);
+          // A browser address bar shows "localhost:8783/?..." and that is what
+          // gets pasted back; `new URL` reads the bare "localhost:" as the
+          // scheme and finds no query at all, so the code looks missing.
+          const url = new URL(
+            /^https?:\/\//.test(redirectUrl)
+              ? redirectUrl
+              : `http://${redirectUrl.replace(/^\/\//, "")}`,
+          );
           const code = url.searchParams.get("code");
           if (!code) {
             throw new Error(

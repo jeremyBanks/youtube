@@ -50,6 +50,15 @@ without changing anything, and needs no OAuth since it only reads.
 need OAuth, and writes to a channel with real subscribers, so never publish a
 diff you have not read.
 
+**When the OAuth token has lapsed**, `publish` needs re-authorising and nothing
+else does: `createPlaylist` and `updatePlaylist` are the only authenticated
+calls in the codebase. `deno task publish --headless` prints the Google
+authorisation URL and exits; open it, approve, and the browser lands on a
+`localhost:8783` page that cannot load — that is expected, and the address bar
+now carries the `?code=`. Paste that whole URL into
+`deno task publish --auth-url="…"`, with or without its `http://`, and the
+tokens are stored for every task. The refresh token lasts weeks, not forever.
+
 **Then push to `trunk`.** If everything above succeeded, commit and push
 directly to `trunk` — this is routine catalogue maintenance, not a change that
 wants review. If any step failed, push what did succeed (scan data is always

@@ -1,5 +1,5 @@
 import { parseArgs } from "@std/cli";
-import { createPlaylist, updatePlaylist } from "../client.ts";
+import { createPlaylist, setAuthMode, updatePlaylist } from "../client.ts";
 import { openPlaylistsStorage } from "../storage.ts";
 
 if (import.meta.main) {
@@ -33,16 +33,31 @@ function escapeRegExp(string: string): string {
 
 async function main() {
   const args = parseArgs(Deno.args, {
-    boolean: ["create-missing", "help", "dry-run"],
-    string: ["playlist"],
+    boolean: ["create-missing", "help", "dry-run", "headless"],
+    string: ["playlist", "auth-url"],
     default: { "create-missing": false, "dry-run": false },
   });
+
+  // Authorisation lives here because publishing is the only thing that needs
+  // it: `createPlaylist` and `updatePlaylist` are the sole authenticated
+  // calls, and everything else runs on the API key. These flags used to sit on
+  // `scan`, which never reaches the OAuth path, so following the instructions
+  // it printed did nothing at all and spent nothing of the single-use code.
+  if (args.headless) {
+    setAuthMode({ mode: "print-url-and-exit" });
+  } else if (args["auth-url"]) {
+    setAuthMode({ mode: "complete-with-url", redirectUrl: args["auth-url"] });
+  }
 
   if (args.help) {
     console.log(`Usage: deno task publish [options]
 
 Options:
   --playlist=NAME    Only publish a specific playlist (by name or ID)
+  --headless         Print the authorisation URL and exit, instead of
+                     opening a local server for the redirect
+  --auth-url=URL     Complete authorisation with the URL the browser was
+                     redirected to after --headless
   --create-missing   Create playlists that have no ID or start with 'todo-'
   --dry-run          Show what would be done without making changes
   --help             Show this help message

@@ -37090,7 +37090,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-10T00:00:00.000Z
 title:         Josh's Deli
 seasonNumber:  1
 episodeNumber: 5
@@ -44220,7 +44220,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-10T00:00:00.000Z
 title:         My Husband
 seasonNumber:  1
 episodeNumber: 7
@@ -49424,7 +49424,7 @@ slug:          please-grade-me
 collection:    hardly-working-season-15
 collections:
 - hardly-working-season-15
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-09T00:00:00.000Z
 title:         Please Grade Me
 seasonNumber:  15
 episodeNumber: 20
@@ -50919,6 +50919,33 @@ upNextIds:
 - 2807865
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T11:44:36.074Z
+
+---
+
+slug:          questions-of-taste-with-quinns-smith
+collection:    adventuring-academy-season-7
+collections:
+- adventuring-academy-season-7
+- dimension-20-new-releases
+- new-releases
+lastmod:       2026-09-09T00:00:00.000Z
+title:         Questions of Taste (with Quinns Smith)
+seasonNumber:  7
+episodeNumber: 8
+releaseDate:   '2026-09-09'
+url:           'https://watch.dropout.tv/adventuring-academy/season:7/videos/questions-of-taste-with-quinns-smith'
+showTitle:     Adventuring Academy
+showSlug:      adventuring-academy
+description:   |-
+  Quinns Smith joins Brennan to discuss why people should stop playing D&D and good game design.
+
+  Content Warning: 
+  Misophonia (Eating sounds) - [throughout 51:58-1:00:01]
+  Descriptions of Car Accidents - [1:19:15-1:20:31]
+itemId:        4180935
+collectionId:  1484924
+firstSeen:     2026-09-10T06:07:23.029Z
+scrapedAt:     2026-09-10T06:07:48.340Z
 
 ---
 
@@ -65283,7 +65310,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-10T00:00:00.000Z
 title:         The Legend of Legendarius
 seasonNumber:  1
 episodeNumber: 1

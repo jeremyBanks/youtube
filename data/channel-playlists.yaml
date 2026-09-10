@@ -174966,19 +174966,22 @@ privacyStatus: public
 itemCount:     4
 createdAt:     2026-09-06T20:54:04.915Z
 entries:
-- videoId: Cu7cadLskrg
+- videoId: XpNISRkDM3U
   position: 0
   addedAt: 2026-09-06T20:54:06.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
-- videoId: UGPuD8U3As0
+  videoPublishedAt: 2026-09-09T17:00:15.000Z
+  privacyStatus: public
+  ownerChannelId: UCW32eQWUwE3HkCJ9WH3U8Wg
+  ownerChannelTitle: toonout
+  title: Toonout | Look at this pickle
+  description: "This pickle is so crazy #shorts #short #dropout #animation \n\n\U0001F6A8 A new wave of animation is on Dropout! Get ready for Toonout — original animated shorts made by indie artists.\n\n➡️ Go to Dropout.tv to watch previously released animated shorts now!"
+- videoId: Cu7cadLskrg
   position: 1
   addedAt: 2026-09-06T20:54:06.000Z
   privacyStatus: private
   title: Private video
   description: This video is private.
-- videoId: XpNISRkDM3U
+- videoId: UGPuD8U3As0
   position: 2
   addedAt: 2026-09-06T20:54:06.000Z
   privacyStatus: private
@@ -174991,8 +174994,8 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-07T16:27:51.786Z
-scrapedAt:     2026-09-09T15:07:39.975Z
-lastChangedAt: 2026-09-07T16:27:51.786Z
+scrapedAt:     2026-09-10T15:00:00.768Z
+lastChangedAt: 2026-09-10T15:00:00.026Z
 
 ---
 

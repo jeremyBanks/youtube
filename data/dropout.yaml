@@ -2564,7 +2564,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         A Rorschach Test But On Their Face
 seasonNumber:  3
 episodeNumber: 7
@@ -11372,7 +11372,7 @@ slug:          bonk-and-vibes
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         Bonk and Vibes
 seasonNumber:  3
 episodeNumber: 2
@@ -14394,7 +14394,7 @@ slug:          choppedness-cannot-be-outrun
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         Choppedness Cannot Be Outrun
 seasonNumber:  3
 episodeNumber: 3
@@ -31413,7 +31413,6 @@ scrapedAt:     2026-08-31T16:44:37.036Z
 slug:          hot-peasant-summer
 collection:    toonout-season-1
 collections:
-- new-releases
 - toonout-new
 - toonout-season-1
 lastmod:       2026-09-03T00:00:00.000Z
@@ -56354,7 +56353,7 @@ slug:          smartyshorts-audiobooks
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: Audiobooks'
 seasonNumber:  3
 episodeNumber: 4
@@ -56379,7 +56378,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: Morning Showers or Night Showers'
 seasonNumber:  3
 episodeNumber: 12
@@ -56399,7 +56398,7 @@ slug:          smartyshorts-nice-to-meet-you
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: Nice to Meet You'
 seasonNumber:  3
 episodeNumber: 2
@@ -56423,7 +56422,7 @@ slug:          smartyshorts-school-subjects
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: School Subjects'
 seasonNumber:  3
 episodeNumber: 6
@@ -56447,7 +56446,7 @@ slug:          smartyshorts-spoiler-etiquette
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: Spoiler Etiquette'
 seasonNumber:  3
 episodeNumber: 8
@@ -56467,12 +56466,37 @@ scrapedAt:     2026-08-31T07:03:33.530Z
 
 ---
 
+slug:          smartyshorts-when-does-the-week-start
+collection:    smartypants-season-3
+collections:
+- new-releases
+- smartypants-season-3
+lastmod:       2026-09-11T00:00:00.000Z
+title:         'Smartyshorts: When Does the Week Start?'
+seasonNumber:  3
+episodeNumber: 14
+releaseDate:   '2026-09-11'
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-when-does-the-week-start'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   |-
+  The Smartypants Society decides what day the week actually starts on.
+
+  Content Warning: 
+  Comedic References to Suicidality  - [1:38-1:50, 3:49-4:00]
+itemId:        4184058
+collectionId:  1498226
+firstSeen:     2026-09-12T14:09:03.803Z
+scrapedAt:     2026-09-12T14:09:28.822Z
+
+---
+
 slug:          smartyshorts-which-type-of-french-fry-is-the-best
 collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: Which Type of French Fry Is the Best?'
 seasonNumber:  3
 episodeNumber: 10
@@ -60166,7 +60190,7 @@ slug:          tax-the-tall
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         Tax the Tall
 seasonNumber:  3
 episodeNumber: 5
@@ -66987,7 +67011,7 @@ collections:
 - new-releases
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-08T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         The Pickle
 seasonNumber:  1
 episodeNumber: 13
@@ -67107,7 +67131,7 @@ slug:          the-power-of-words
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         The Power of Words
 seasonNumber:  3
 episodeNumber: 4
@@ -67646,7 +67670,7 @@ slug:          the-rules-of-content
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         The Rules of Content
 seasonNumber:  3
 episodeNumber: 1
@@ -81429,7 +81453,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         Winky's Speakeasy
 seasonNumber:  1
 episodeNumber: 10
@@ -82616,7 +82640,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-04T00:00:00.000Z
+lastmod:       2026-09-11T00:00:00.000Z
 title:         You Cannot Be You Without Yourself
 seasonNumber:  3
 episodeNumber: 6

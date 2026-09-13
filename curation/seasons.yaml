@@ -7538,6 +7538,10 @@ videos:
     dropout: a-rorschach-test-but-on-their-face
     members: ITA1fH_XBjw
     published: 2026-09-04
+  - special: "Smartyshorts: When Does the Week Start?"
+    dropout: smartyshorts-when-does-the-week-start
+    members: 8QcCW6N8hPY
+    published: 2026-09-11
 
 ---
 
@@ -8890,8 +8894,17 @@ videos:
     published: 2026-03-10
   - episode: 1. The Legend of Legendarius
     dropout: the-legend-of-legendarius
-    public: YejpEQLuwaA
-    members: 3L7JT6_PtRQ
+    # Re-uploaded 2026-09-10. Dropout put the new ids in this episode's slots
+    # in their own "Toonout: Season 1 (Full Episodes)" and "Toonout (Full
+    # Animated Shorts)" playlists and dropped the old ones, same titles and
+    # same synopses; the boilerplate link changed from signup.dropout.tv to
+    # www.dropout.tv. The old ids were still in the channel's uploads feed
+    # when this was written, so "removed" here is removal from those
+    # playlists, not from YouTube.
+    public: 5_xG9rUHoO4
+    removed public: YejpEQLuwaA
+    members: NgrJZoaTna4
+    removed members: 3L7JT6_PtRQ
     published: 2026-03-24
   - episode: 2. Blink Twice If You're Dead
     dropout: blink-twice-if-you-re-dead
@@ -8910,8 +8923,17 @@ videos:
     published: 2026-05-05
   - episode: 5. Josh's Deli
     dropout: josh-s-deli
-    public: 4hG-FQrPkuw
-    members: shGH7VUXTIY
+    # Re-uploaded 2026-09-10. Dropout put the new ids in this episode's slots
+    # in their own "Toonout: Season 1 (Full Episodes)" and "Toonout (Full
+    # Animated Shorts)" playlists and dropped the old ones, same titles and
+    # same synopses; the boilerplate link changed from signup.dropout.tv to
+    # www.dropout.tv. The old ids were still in the channel's uploads feed
+    # when this was written, so "removed" here is removal from those
+    # playlists, not from YouTube.
+    public: -gyAOFz1FWU
+    removed public: 4hG-FQrPkuw
+    members: 51PJjmRy7zA
+    removed members: shGH7VUXTIY
     published: 2026-05-19
   - episode: 6. Crossed Animals
     dropout: crossed-animals
@@ -8920,7 +8942,13 @@ videos:
     published: 2026-06-02
   - episode: 7. My Husband
     dropout: my-husband
-    members: mTHJSEAYH0E
+    # Re-uploaded 2026-09-10. Dropout put the new id in this episode's slot in
+    # their own "Toonout: Season 1 (Full Episodes)" playlist and dropped the
+    # old one, same title and synopsis. The old id was still in the channel's
+    # uploads feed when this was written, so "removed" here is removal from
+    # that playlist, not from YouTube.
+    members: DCIQ_4MhhBc
+    removed members: mTHJSEAYH0E
     published: 2026-06-16
   - episode: 8. Last Meal
     dropout: last-meal
@@ -8934,7 +8962,13 @@ videos:
     published: 2026-07-14
   - episode: 10. Winky's Speakeasy
     dropout: winky-s-speakeasy
-    members: eY0iVJhHh-s
+    # Re-uploaded 2026-09-11. Dropout put the new id in this episode's slot in
+    # their own "Toonout: Season 1 (Full Episodes)" playlist and dropped the
+    # old one, same title and synopsis. The old id was still in the channel's
+    # uploads feed when this was written, so "removed" here is removal from
+    # that playlist, not from YouTube.
+    members: rdz0clvf0kE
+    removed members: eY0iVJhHh-s
     published: 2026-07-28
   - episode: 11. Hot Peasant Summer
     dropout: hot-peasant-summer
@@ -8946,7 +8980,13 @@ videos:
     published: 2026-08-25
   - episode: 13. The Pickle
     dropout: the-pickle
-    members: 1Nf0e07oOIA
+    # Re-uploaded 2026-09-11. Dropout put the new id in this episode's slot in
+    # their own "Toonout: Season 1 (Full Episodes)" playlist and dropped the
+    # old one, same title and synopsis. The old id was still in the channel's
+    # uploads feed when this was written, so "removed" here is removal from
+    # that playlist, not from YouTube.
+    members: 49hYURUTcwM
+    removed members: 1Nf0e07oOIA
     published: 2026-09-08
 
 ---

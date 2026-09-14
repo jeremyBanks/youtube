@@ -10140,6 +10140,16 @@ videos:
   - episode: "2026-06-29. UNSEEN Very Important People Footage, New Game Changer with Brennan, Vic, and Aabria, and More!"
     public: ttcknrd0S7w
     published: 2026-06-29
+  # Found by the cadence, not by the description: this one carries no schedule
+  # at all, only the channel boilerplate, so no description rule could reach
+  # it. Monday, 47 seconds, vertical, the series' own "X, Y, And More!" title,
+  # and the only such video in a week that otherwise had none. It also turned
+  # out to be an accurate forecast: the Crowd Control season 2 trailer went up
+  # on the 7th and Vivian Wilson and Kylie Brakeman were on Smartypants on the
+  # 10th.
+  - episode: "2026-07-06. Vivian Wilson & Kylie Brakeman Dropout Debut, Crowd Control Season 2 Trailer, And More!"
+    public: 5U03IXFEblA
+    published: 2026-07-06
   - episode: "2026-07-14. The CRAZIEST Game Changer Yet, Mysterious Teaser, and more on Dropout This Week!"
     public: OHX-dev2xl4
     published: 2026-07-14
@@ -10149,6 +10159,12 @@ videos:
   - episode: "2026-07-27. Noise Boys On Game Changer, Brennan Interviews Dr. Emily Friedman, and more!"
     public: zTrE9Ij7Ff8
     published: 2026-07-27
+  # Also found by the cadence. Its description is the weekly schedule in the
+  # current one-emoji-per-day format, but without the "This week on Dropout"
+  # line above it, which is the only thing the match was keyed on.
+  - episode: "2026-08-03. Crowd Control S2 Premiere, SungWon Cho + Damien Haas on Parlor Room, and More!"
+    public: sa7W469MnWw
+    published: 2026-08-03
   - episode: "2026-08-10. Wigs On New Game Changer, Toonout, And Smartyshorts This Week On Dropout!"
     public: FOU-jAIamQM
     published: 2026-08-10

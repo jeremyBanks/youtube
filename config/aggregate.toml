@@ -680,3 +680,17 @@ The ${EPISODES} unlisted videos that Dropout's own playlists point at. YouTube h
 Unlisted itself, and in the order the videos were originally uploaded.
 """
 
+
+# No ${ALL_EPISODES} in the name, deliberately. The completeness label resolves
+# to "Full Episodes" here, because the claim is unknowable by design: nothing in
+# this playlist links to watch.dropout.tv, and episodesMissingFrom refuses to
+# read that silence as completeness. But the label exists to tell a real episode
+# from a clips channel, and this playlist is sixty-second announcements
+# throughout -- so both halves of that distinction are false, and the word
+# "Episodes" misleads whichever way it lands.
+[PLO1fxb_kFQvY]
+name = "This Week on Dropout"
+show = "This Week on Dropout"
+description = """
+${HOURS}-hour playlist of ${EPISODES} weekly schedule announcements from the @Dropout channel: a minute each, posted every Monday, naming what the week is about to bring. ${MAYBE_MEMBERS_ONLY}
+"""

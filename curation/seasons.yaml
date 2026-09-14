@@ -9811,3 +9811,359 @@ videos:
     dropout: sarah-gets-enlightened
     members: 94Q1IxvZt1g
     published: 2020-01-09
+
+---
+
+# Dropout's weekly schedule Short, posted each Monday: 60 seconds naming what
+# the week is about to bring. Not an excerpt of anything -- which is why these
+# are curated where the rest of the channel's Shorts are not -- and not on
+# watch.dropout.tv, so no entry carries a dropout: link.
+#
+# Entries are dated because the titles are not a series: they run from "Weekly
+# Schedule for 8/5/2024" through "A Big Week For Dropout" to "Smosh, Time
+# Quangle, and Monet's Slumber Party", and nothing in them says which week is
+# which. The date does.
+#
+# No season: key. There are no seasons -- it is one continuous weekly run --
+# and the published description does not use ${SEASONS}, so nothing needs one.
+show: This Week on Dropout
+videos:
+  - episode: "2024-07-01. Dropout Has a Big Week Ahead (07/01/2024)"
+    public: N01RawUb8rU
+    published: 2024-07-01
+  - episode: '2024-07-08. What''s On Dropout This Week (July 8th, 2024)'
+    public: YzZ5rUaesJc
+    published: 2024-07-08
+  - episode: "2024-07-15. This Week on Dropout (Week of July 15th, 2024)"
+    public: buLKMUP5m6I
+    published: 2024-07-15
+  - episode: "2024-07-22. A Big Week For Dropout (Week of July 22nd, 2024)"
+    public: pETija2Utxw
+    published: 2024-07-22
+  - episode: "2024-07-29. A Ridiculously Huge Week for Dropout (07/29/2024)"
+    public: anOIX2ZER4E
+    published: 2024-07-29
+  - episode: "2024-08-05. Weekly Schedule for 8/5/2024"
+    public: 3QXdhhtmdkE
+    published: 2024-08-05
+  - episode: '2024-08-12. Dropout''s Very Big Schedule For The Week of August 12th, 2024'
+    public: 27CTGaZFBK0
+    published: 2024-08-12
+  - episode: "2024-08-19. Everything Happening On Dropout This Week (August 19th, 2024)"
+    public: Rki_iioEwrE
+    published: 2024-08-19
+  - episode: "2024-08-26. Survivor Dirty Laundry, Never Stop Blowing Up Finale, and more (This Week In Dropout)"
+    public: xCz31W-Iytc
+    published: 2024-08-26
+  - episode: "2024-09-02. A Wild Week on Dropout (Make Some Noise, Dimension 20 Trailer, & More!)"
+    public: q7ZGKIJGGP4
+    published: 2024-09-02
+  - episode: '2024-09-09. Smosh, Time Quangle, and Monét''s Slumber Party - This Week on Dropout!'
+    public: C_sU3hMvEQY
+    published: 2024-09-09
+  - episode: "2024-09-16. Make Some Noise, Adam Conover Stand-Up, more Time Quangle - This Week on Dropout!"
+    public: r7eenTIifZg
+    published: 2024-09-16
+  - episode: "2024-09-23. Misfits & Magic Premiere Week On Dropout!"
+    public: oUfw9bvZwSc
+    published: 2024-09-23
+  - episode: "2024-09-30. Make Some Noise, Breaking News, and Grant Being Extremely Grant - This Week on Dropout"
+    public: 3KoppZPp-O4
+    published: 2024-09-30
+  - episode: "2024-10-07. This Week on Dropout: CollegeHumor Reunion on Dirty Laundry, Premiere of Gastronauts, and more!"
+    public: R8wAKcZclkM
+    published: 2024-10-07
+  - episode: "2024-10-14. Very Important People S2 Trailer, New Make Some Noise, and MORE! (This Week On Dropout)"
+    public: rMT4HB4J8Dc
+    published: 2024-10-14
+  - episode: "2024-10-21. Smosh Dirty Laundry, New Gastronauts, and More! (This Week on Dropout)"
+    public: KH0MAWllGpg
+    published: 2024-10-21
+  - episode: "2024-10-28. Make Some Noise with Josh, Anna, and Hannah and more! (Dropout Schedule - 10/27/24)"
+    public: 3YLEs9wZbo0
+    published: 2024-10-28
+  - episode: "2024-11-04. Jet Lag Dirty Laundry, Very Important People Returns, and More! (Schedule for 11/4/24)"
+    public: dd0wLIODrj0
+    published: 2024-11-04
+  - episode: "2024-11-11. Brennan, Izzy, & Erika on Make Some Noise, New Dropout Presents, and more! (Schedule for 11/11/24)"
+    public: bq3PJ8N4p7Y
+    published: 2024-11-11
+  - episode: "2024-11-18. BDG on Adventuring Academy, Jacob Wysocki on Very Important People, and more! (Schedule for Nov. 18)"
+    public: PAjbQDTY8Kc
+    published: 2024-11-18
+  - episode: "2024-11-25. Ben Schwartz on Make Some Noise, Nobody Asked Premiere, and More! (Schedule for 11/25/24)"
+    public: bd5Ad001bug
+    published: 2024-11-25
+  - episode: "2024-12-02. Chris Redd on Very Important People, Dimension 20 Finale, and more! (Schedule for Dec. 2nd)"
+    public: Ms2JHJ-sF3g
+    published: 2024-12-02
+  - episode: "2024-12-09. New Make Some Noise, Time Quangle Returns, and More! (Dec. 9th Schedule)"
+    public: 9PHhKqK6Kgs
+    published: 2024-12-09
+  - episode: "2024-12-16. ✨New Dropout Presents, New Dimension 20 Trailer, and Gastronauts Finale (Schedule For 12/16/24)"
+    public: jcC7XWyO-PE
+    published: 2024-12-16
+  - episode: "2024-12-30. Game Changer Animated, New Very Important People, and more! (Schedule For 12/30/24)"
+    public: Qfmt9g9bpTc
+    published: 2024-12-30
+  - episode: "2025-01-06. Dungeons & Drag Queens New Season, Make Some Noise, and More! (Schedule for Week of 1/6/25)"
+    public: LQCY-q0SL1k
+    published: 2025-01-06
+  - episode: "2025-01-13. Star Trek: Lower Decks Dirty Laundry, Dungeons & Drag Queens, and more! (Schedule for Jan. 13)"
+    public: lJAPrhUGOBc
+    published: 2025-01-13
+  - episode: "2025-01-20. Make Some Noise, Dungeons & Drag Queens, and more! (Schedule for January 20th, 2025)"
+    public: x45v7M7SE8I
+    published: 2025-01-20
+  - episode: "2025-01-27. Um, Actually Premiere, Zac Oyama on VIP, and more! (Dropout Schedule For Jan. 27)"
+    public: xaA6PeQm_WQ
+    published: 2025-01-27
+  - episode: "2025-02-03. Make Some Noise w/ Jess, Anna, and DJ & New Dimension 20! (Dropout Schedule For Feb. 3rd)"
+    public: MMrDwNGqm6M
+    published: 2025-02-03
+  - episode: "2025-02-10. Paul F. Tompkins on VIP, Dimension 20 Finale, New Um Actually & More (Schedule For Feb. 10th)"
+    public: lauQJuDDeh0
+    published: 2025-02-10
+  - episode: "2025-02-17. Make Some Noise with Vic, Jacob, and Ally, Game Changer Teaser, and more! (Schedule For Feb. 17th)"
+    public: F4b7LOo5xPg
+    published: 2025-02-17
+  - episode: "2025-02-24. New Um Actually, Dimension 20 Trailer, and Very Important People! (Dropout Schedule For Feb. 24th)"
+    public: Fz7-3F-EsWM
+    published: 2025-02-24
+  - episode: "2025-03-03. The Noise Boys Return to Make Some Noise + Smartypants Premiere! (Schedule for March 3rd, 2025)"
+    public: un1m95BeFno
+    published: 2025-03-03
+  - episode: "2025-03-10. Sam, Raph, and Katie on Um, Actually & Bobby Moynihan on VIP (Dropout Schedule For March 10th)"
+    public: TRTLmFNzsbY
+    published: 2025-03-10
+  - episode: "2025-03-17. Make Some Noise Cut-For-Time Special & New Smartypants! (Schedule for March 17th)"
+    public: rHw1IjWW0pE
+    published: 2025-03-17
+  - episode: "2025-03-24. Game Changer New Season Trailer, New Um Actually, and more! (March 24th Schedule)"
+    public: pSkrNABctB0
+    published: 2025-03-24
+  - episode: "2025-03-31. Dimension 20: Titan Takedown Premiere, Smartypants, and more! (March 31st Schedule)"
+    public: kt8ojfUudI0
+    published: 2025-03-31
+  - episode: "2025-04-07. Game Changer Premiere, Very Important People, and more! (Dropout Schedule for April 7th)"
+    public: K9KQO3OxG14
+    published: 2025-04-07
+  - episode: "2025-04-14. Game Changer BTS, New Smartypants, and the Parlor Room Premiere! (Schedule for April 13th)"
+    public: 9L8U4GtOeEw
+    published: 2025-04-14
+  - episode: "2025-04-21. New Game Changer, Titan Takedown Finale, and more! (Dropout Schedule For April 21st)"
+    public: DR2qCQxO6yA
+    published: 2025-04-21
+  - episode: "2025-04-28. Adventuring Academy with Izzy, New Smartypants with Hank Green, and more! (Schedule for 4/28)"
+    public: iHeIV7xBJyI
+    published: 2025-04-28
+  - episode: "2025-05-05. New Game Changer, Brennan & Izzy on Very Important People, and more! (Dropout Schedule for 5/5)"
+    public: g8NrnwQP9Jc
+    published: 2025-05-05
+  - episode: '2025-05-12. Game Changer BTS, Dimension 20''s Madison Square Garden Show, and More! (Dropout Schedule for 5/12)'
+    public: a-EdMUM8MxQ
+    published: 2025-05-12
+  - episode: "2025-05-19. New Game Changer, New Very Important People, and More! (Dropout Schedule For 5/19)"
+    public: mT1Z5ludWuE
+    published: 2025-05-19
+  - episode: "2025-05-26. Game Changer BTS, New Smartypants, and more! (Dropout Schedule for 5/25)"
+    public: YLNMdDSs1zU
+    published: 2025-05-26
+  - episode: "2025-06-02. New Game Changer, Dimension 20 Season Premiere, and Lisa Gilroy on VIP! (This Week on Dropout)"
+    public: S2dY8HmGZkA
+    published: 2025-06-02
+  - episode: "2025-06-09. Game Changer BTS, New D20, New Smartypants, and more! (Dropout Schedule For 6/9)"
+    public: HNxqCtBvjMM
+    published: 2025-06-09
+  - episode: "2025-06-16. New Game Changer, VIP Cut for Time, and More! (Dropout Schedule for June 16th)"
+    public: zlcu34h2Kzc
+    published: 2025-06-16
+  - episode: "2025-06-23. Game Changer BTS, New Smartypants, and more! (Dropout Schedule For 6/23)"
+    public: QRw9OyKkcck
+    published: 2025-06-23
+  - episode: '2025-06-30. New Game Changer, Um Actually Finale, and more! (what''s on Dropout this week)'
+    public: ipkaV0OWm3E
+    published: 2025-06-30
+  - episode: '2025-07-07. New Dimension 20, Game Changer Animated, Smartypants, and more! (what''s on Dropout this week)'
+    public: zZt4b1FMj6I
+    published: 2025-07-07
+  - episode: '2025-07-14. New Game Changer, Dirty Laundry Premiere, and more! (what''s on Dropout this week 🤫)'
+    public: dqVZO1Y0bus
+    published: 2025-07-14
+  - episode: "2025-07-21. New Smartypants, New Parlor Room, Game Changer BTS, and more! (this week on Dropout)"
+    public: H4VD8rr5-xE
+    published: 2025-07-21
+  - episode: '2025-07-28. New Game Changer, StarKid Dirty Laundry, and more! (what''s on Dropout this week) 👀'
+    public: DJR1ukd41gA
+    published: 2025-07-28
+  - episode: '2025-08-04. Game Changer BTS, New Smartypants, and more! (what''s on Dropout this week) 🌠'
+    public: qeZ5NmOwRv4
+    published: 2025-08-04
+  - episode: '2025-08-11. Game Changer Season Finale, Gastronauts Premiere, and more! (what''s on this week on Dropout)'
+    public: oweUTLPstpw
+    published: 2025-08-11
+  - episode: '2025-08-18. Game Changer BTS, New Dimension 20, Crowd Control Trailer, and more! (what''s on Dropout this week)'
+    public: "-fo2B0t3Abg"
+    published: 2025-08-18
+  - episode: "2025-08-25. New Dirty Laundry, Smosh Gastronauts, Parlor Room season finale, and more! (this week on Dropout)"
+    public: v9WqBc12aoY
+    published: 2025-08-25
+  - episode: '2025-09-01. Game Changer''s Secret Ep Behind-the-Scenes, Make Some Noise Teaser, and more! (this week on Dropout)'
+    public: NXCi1Dm60vY
+    published: 2025-09-01
+  - episode: '2025-09-08. Crowd Control Series Premiere, Try Guys x Dirty Laundry, and more! 🚨 (what''s on Dropout this week)'
+    public: s-lcv0xYIsk
+    published: 2025-09-08
+  - episode: '2025-09-15. New Dimension 20: Cloudward Ho!, Smartypants, and more! (what''s on this week on Dropout)'
+    public: 9h3ozIsaZzo
+    published: 2025-09-15
+  - episode: "2025-09-22. New Crowd Control, new Gastronauts, and LOTS of Paul F. Tompkins (this week on Dropout)"
+    public: cnLjMrEdc2g
+    published: 2025-09-22
+  - episode: "2025-09-29. New Dimension 20, Extra Smartypants, and Luis Carazo on Adventuring Academy! (this week on Dropout)"
+    public: ac04vQku5AM
+    published: 2025-09-29
+  - episode: '2025-10-06. It''s a great week on Dropout (new Crowd Control, Dirty Laundry, D20, and Gastronauts!!)'
+    public: hk8MdPLJ3Sg
+    published: 2025-10-06
+  - episode: "2025-10-13. Make Some Noise premiere, Dimension 20 nears the finale, and more! (this week on Dropout)"
+    public: tQmQy6_dOCs
+    published: 2025-10-13
+  - episode: "2025-10-20. New Crowd Control, Watcher x Dirty Laundry, & Dimension 20 Finale! (this week on Dropout)"
+    public: BFxKcnsUJYo
+    published: 2025-10-20
+  - episode: "2025-10-27. New Make Some Noise, Adventuring Party Crew Edition, and more! (this week on Dropout)"
+    public: Yoi87PPHwIU
+    published: 2025-10-27
+  - episode: "2025-11-03. New Crowd Control, Dirty Laundry, Dimension 20 Live Trailer, and more! (this week on Dropout)"
+    public: 0hhBDwH-9vM
+    published: 2025-11-03
+  - episode: "2025-11-10. Make Some Noise with Angela Giarratana, Lisa Gilroy, & Izzy Roland and more! (this week on Dropout)"
+    public: o_c3r1qghGg
+    published: 2025-11-10
+  - episode: "2025-11-17. Crowd Control Finale, New Dropout Presents with Demi Adejuyigbe, and more! (this week on Dropout)"
+    public: r6IAHoHg8d0
+    published: 2025-11-17
+  - episode: "2025-11-24. New Make Some Noise with Zac, Jacob, and Devin, and more! (this week on Dropout)"
+    public: zLLpAVmCh8s
+    published: 2025-11-24
+  - episode: "2025-12-01. Very Important People premiere, Gastronauts w/ Emily, Siobhan, & Ally, and more! (Dropout this week)"
+    public: W_A1CJqhMss
+    published: 2025-12-01
+  - episode: "2025-12-08. New Make Some Noise with Caitlin, Nick, & Geoff, Dimension 20 Live, and more! (this week on Dropout)"
+    public: VKbAym_2WpM
+    published: 2025-12-08
+  - episode: "2025-12-15. Aparna Nancherla, Critical Role on Dirty Laundry, Try Guys on Gastronauts, & more (Dropout schedule)"
+    public: xDtd6Kfih14
+    published: 2025-12-15
+  - episode: "2025-12-22. Make Some Noise with Josh, Anna, & Jiavani and more! (this week on Dropout)"
+    public: WQk9OfPKOGg
+    published: 2025-12-22
+  - episode: "2025-12-29. Jacob Wysocki & Brennan Lee Mulligan on Very Important People and more! (this week on Dropout)"
+    public: Hr4hExdj6d4
+    published: 2025-12-29
+  - episode: "2026-01-05. New Make Some Noise, Dimension 20: Gladlands season premiere, and more! (this week on Dropout)"
+    public: uTizvVkZx00
+    published: 2026-01-05
+  - episode: "2026-01-12. Angela Giarratana on Very Important People and more! (this week on Dropout) 🎤"
+    public: 4yf2L3_9d-8
+    published: 2026-01-12
+  - episode: "2026-01-19. Um, Actually Premiere + Make Some Noise w/ Angela, Jacob, & Kurt - and more! (this week on Dropout)"
+    public: I9JmBAKdREE
+    published: 2026-01-19
+  - episode: "2026-01-26. New Dimension 20 Gladlands + Eugene Cordero on VIP! (this week on Dropout)"
+    public: o_ey9b3otP0
+    published: 2026-01-26
+  - episode: "2026-02-02. Zach, Jess, and Paul on Make Some Noise, M:TG Um, Actually, and more! (this week on Dropout)"
+    public: 4cRT089wOh0
+    published: 2026-02-02
+  - episode: "2026-02-09. Demi Adejuyigbe on Very Important People, Dimension 20 Finale, and more! (this week on Dropout)"
+    public: XgN7zWm0XpA
+    published: 2026-02-09
+  - episode: "2026-02-16. New Make Some Noise w/ Anna, Geoff, & Jeremy, all duos Um, Actually, & more! (this week on Dropout)"
+    public: cBO08cyvzM0
+    published: 2026-02-16
+  - episode: "2026-02-23. Very Important People with Lisa Gilroy, and more! (this week on Dropout)"
+    public: fAdy35kAgpE
+    published: 2026-02-23
+  - episode: "2026-03-02. Make Some Noise with Ally, Brennan, & Talia, new D20 Live trailer, and more! (this week on Dropout)"
+    public: FVFURCDF3kc
+    published: 2026-03-02
+  - episode: "2026-03-09. Frankie Quiñones on VIP, Dimension 20 in Las Vegas, and more! (this week on Dropout)"
+    public: LMvqIm0X9A4
+    published: 2026-03-09
+  - episode: "2026-03-16. Ben Schwartz, Lisa Gilroy, & Colton Dunn on Make Some Noise and more! (this week on Droout)"
+    public: N4i2tToBAh0
+    published: 2026-03-16
+  - episode: "2026-03-23. Toonout Premiere, Very Important People w/ Caitlin Reilly, and more! (this week on Dropout)"
+    public: fIiaDRMYGuA
+    published: 2026-03-23
+  - episode: "2026-03-30. Make Some Noise with Kimia, Jacob, Jeremy, D20 Special Announcement, & more! (this week on Dropout)"
+    public: 9IfetBxaN3Q
+    published: 2026-03-30
+  - episode: "2026-04-06. Dimension 20 Season Premiere, VIP w/ Laci Mosley, and more! (this week on Dropout)"
+    public: hgOB6M0UMA8
+    published: 2026-04-06
+  - episode: "2026-04-13. Make Some Noise w/ Ross, Jess, & Jiavani, Parlor Room w/ Vic, and more! (this week on Dropout)"
+    public: hI4xRNrVyO4
+    published: 2026-04-13
+  - episode: "2026-04-20. Game Changer Season 8 Trailer, Zac Oyama on VIP, and more! (this week on Dropout)"
+    public: ihV-mLfS2bE
+    published: 2026-04-20
+  - episode: "2026-04-27. Make Some Noise Season Finale, Baby Bracket Um, Actually, and more! (this week on Dropout)"
+    public: qvoCUkUo89o
+    published: 2026-04-27
+  - episode: "2026-05-04. Katya on Very Important People, Game Changer: Home Edition Launch Announcement, and more!"
+    public: ieWo2OZdSYg
+    published: 2026-05-04
+  - episode: "2026-05-11. Dropout Faves Plays Game Changer: Home Edition, More Make Some Noise, and more!"
+    public: 1NoSzF4WyxE
+    published: 2026-05-11
+  - episode: "2026-05-18. Game Changer RETURNS With S8, Very Important People with Rachel Pegram, and more!"
+    public: RDQymteOV4s
+    published: 2026-05-18
+  - episode: "2026-05-25. Um, Actually Tournament, Game Changer BTS, and more! (this week on Dropout)"
+    public: q3HVGrH7IEw
+    published: 2026-05-25
+  - episode: "2026-06-01. New Game Changer, Chelsea Peretti on Very Important People, and more!"
+    public: XTzkIYprQ9E
+    published: 2026-06-01
+  - episode: "2026-06-08. Smartypants Season 3 Premiere This Week, Game Changer BTS, And More!"
+    public: lwAbkSRa0bE
+    published: 2026-06-08
+  - episode: "2026-06-15. Very Important People and Um, Actually Finales, new Game Changer, and more!"
+    public: ZtudcguyIdc
+    published: 2026-06-15
+  - episode: "2026-06-22. Team StarKid on Dropout, Aabria Iyengar on Adventuring Academy, and more!"
+    public: phl2YDm-2V0
+    published: 2026-06-22
+  - episode: "2026-06-29. UNSEEN Very Important People Footage, New Game Changer with Brennan, Vic, and Aabria, and More!"
+    public: ttcknrd0S7w
+    published: 2026-06-29
+  - episode: "2026-07-14. The CRAZIEST Game Changer Yet, Mysterious Teaser, and more on Dropout This Week!"
+    public: OHX-dev2xl4
+    published: 2026-07-14
+  - episode: "2026-07-20. Angela Giarratana & Kendahl Landreth Smartypants DEBUT, Zac Oyama On Parlor Room, and MORE!"
+    public: V-qpbo7GQd4
+    published: 2026-07-20
+  - episode: "2026-07-27. Noise Boys On Game Changer, Brennan Interviews Dr. Emily Friedman, and more!"
+    public: zTrE9Ij7Ff8
+    published: 2026-07-27
+  - episode: "2026-08-10. Wigs On New Game Changer, Toonout, And Smartyshorts This Week On Dropout!"
+    public: FOU-jAIamQM
+    published: 2026-08-10
+  - episode: "2026-08-17. Taylor Tomlinson on Crowd Control, Joey Richter On Smartypants, And More On Dropout!"
+    public: zcMNEHZooyg
+    published: 2026-08-17
+  - episode: "2026-08-24. Mica Burton on Adventuring Academy, A Wild New Game Changer, And More On Dropout!"
+    public: 1LA7GtpefWs
+    published: 2026-08-24
+  - episode: "2026-08-31. Dropout Plays Magic The Gathering, Bob The Drag Queen On Crowd Control, And More!"
+    public: O09AMA4kZEY
+    published: 2026-08-31
+  - episode: "2026-09-07. Mysterious NEW Game Changer, Quinns Smith On Adventuring Academy, And More!"
+    public: 9jTpGJ_HJ7I
+    published: 2026-09-07
+  - episode: "2026-09-14. Make Some Noise Season 5 Trailer, Dimension 20 Toylight Premiere, And More!"
+    public: 1hO2u2sG6lk
+    published: 2026-09-14

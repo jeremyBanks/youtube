@@ -148,6 +148,15 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
 
         let userAuthCode: string;
 
+        // Everything but --headless goes on to redeem a code, so demand the
+        // secret before waiting rather than after. Interactive mode otherwise
+        // blocks on a local server for a browser that, in a remote container,
+        // is never going to arrive -- and the thing it was missing only gets
+        // reported once that wait ends, which it does not.
+        if (authMode.mode !== "print-url-and-exit") {
+          requireCredentials("YOUTUBE_CLIENT_SECRET");
+        }
+
         if (authMode.mode === "print-url-and-exit") {
           console.log("\n=== AUTHENTICATION REQUIRED ===");
           console.log("Please open this URL in your browser to authenticate:");
@@ -204,8 +213,6 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           });
         }
 
-        // Redeeming the code is the first thing that presents the secret.
-        requireCredentials("YOUTUBE_CLIENT_SECRET");
         const { tokens } = await auth.getToken(userAuthCode);
 
         localStorage.clientAccessToken = tokens.access_token;

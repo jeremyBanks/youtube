@@ -658,25 +658,30 @@ Deno.test("the advice covers only the credentials that are missing", () => {
 });
 
 Deno.test("requireCredentials reports every absent name at once", () => {
-  Deno.env.delete("YOUTUBE_CLIENT_ID");
+  // Not the client id: that one resolves from builtIn now, which is what the
+  // test below asserts. These two are the ones with no value in source.
+  Deno.env.delete("YOUTUBE_API_KEY");
   Deno.env.delete("YOUTUBE_CLIENT_SECRET");
-  Deno.env.set("YOUTUBE_API_KEY", "present");
   try {
-    requireCredentials(
-      "YOUTUBE_API_KEY",
-      "YOUTUBE_CLIENT_ID",
-      "YOUTUBE_CLIENT_SECRET",
-    );
+    requireCredentials("YOUTUBE_API_KEY", "YOUTUBE_CLIENT_SECRET");
   } catch (error) {
     if (!(error instanceof MissingCredentials)) throw error;
-    if (error.missing.join() !== "YOUTUBE_CLIENT_ID,YOUTUBE_CLIENT_SECRET") {
+    if (error.missing.join() !== "YOUTUBE_API_KEY,YOUTUBE_CLIENT_SECRET") {
       throw new Error(error.missing.join());
     }
     return;
-  } finally {
-    Deno.env.delete("YOUTUBE_API_KEY");
   }
   throw new Error("should have thrown");
+});
+
+// The point of builtIn: a credential that is in source is never asked for, so
+// setting up a new machine is the secret and nothing else.
+Deno.test("a built-in credential satisfies the requirement by itself", () => {
+  Deno.env.delete("YOUTUBE_CLIENT_ID");
+  const got = requireCredentials("YOUTUBE_CLIENT_ID");
+  if (!got.YOUTUBE_CLIENT_ID.endsWith(".apps.googleusercontent.com")) {
+    throw new Error(got.YOUTUBE_CLIENT_ID);
+  }
 });
 
 // The consent URL is built from the client id, the redirect, the scope and the
@@ -699,7 +704,10 @@ Deno.test("the client id alone is enough to ask for", () => {
 
 // Knowing the client id is what turns "find your client in this list" into a
 // link at the one page showing its secret, so the id being in source pays for
-// itself twice: once in not being asked for, once here.
+// itself twice: once in not being asked for, once here. The override is set
+// explicitly rather than relying on builtIn, so this still says something if
+// builtIn is ever emptied -- at which point oauthClientUrl returns undefined
+// and the message falls back to listing the clients.
 Deno.test("a known client id links straight at its secret", () => {
   Deno.env.set("YOUTUBE_CLIENT_ID", "0-example.apps.googleusercontent.com");
   try {
@@ -712,18 +720,5 @@ Deno.test("a known client id links straight at its secret", () => {
     if (!message.includes(url)) throw new Error(message);
   } finally {
     Deno.env.delete("YOUTUBE_CLIENT_ID");
-  }
-});
-
-Deno.test("an unknown client id falls back to the list of clients", () => {
-  Deno.env.delete("YOUTUBE_CLIENT_ID");
-  if (oauthClientUrl() !== undefined) {
-    // Only reachable once builtIn carries an id, which is the intended end
-    // state; the fallback below is then dead and this test says so.
-    return;
-  }
-  const message = missingCredentialsMessage(["YOUTUBE_CLIENT_SECRET"]);
-  if (!message.includes('under "OAuth 2.0 Client IDs"')) {
-    throw new Error(message);
   }
 });

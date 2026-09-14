@@ -42,9 +42,10 @@ export const project = () =>
  * repository; a copy here would be a copy anybody could drain.
  */
 const builtIn: Partial<Record<CredentialName, string>> = {
-  // Paste the OAuth client id here -- "<digits>-<hash>.apps.googleusercontent
-  // .com" -- and nothing has to supply it again. An environment variable of
-  // the same name still wins, for a fork authorising as its own client.
+  // An environment variable of the same name still wins, for a fork
+  // authorising as its own client.
+  YOUTUBE_CLIENT_ID:
+    "633369424328-38f11octlj2pdggdnt32s0jmgs5erjao.apps.googleusercontent.com",
 };
 
 /** The client id, from the environment or from source, if it is known at all. */

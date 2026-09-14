@@ -3,6 +3,7 @@ Deno.permissions.request({ name: "read", path: "xxx://///example///\\" });
 import {
   MissingCredentials,
   missingCredentialsMessage,
+  oauthClientUrl,
   project,
   requireCredentials,
 } from "./src/credentials.ts";
@@ -693,5 +694,36 @@ Deno.test("the client id alone is enough to ask for", () => {
     }
   } finally {
     Deno.env.delete("YOUTUBE_CLIENT_ID");
+  }
+});
+
+// Knowing the client id is what turns "find your client in this list" into a
+// link at the one page showing its secret, so the id being in source pays for
+// itself twice: once in not being asked for, once here.
+Deno.test("a known client id links straight at its secret", () => {
+  Deno.env.set("YOUTUBE_CLIENT_ID", "0-example.apps.googleusercontent.com");
+  try {
+    const message = missingCredentialsMessage(["YOUTUBE_CLIENT_SECRET"]);
+    const url = oauthClientUrl();
+    if (url === undefined) throw new Error("no url for a known client");
+    if (!url.includes("/oauthclient/0-example.apps.googleusercontent.com")) {
+      throw new Error(url);
+    }
+    if (!message.includes(url)) throw new Error(message);
+  } finally {
+    Deno.env.delete("YOUTUBE_CLIENT_ID");
+  }
+});
+
+Deno.test("an unknown client id falls back to the list of clients", () => {
+  Deno.env.delete("YOUTUBE_CLIENT_ID");
+  if (oauthClientUrl() !== undefined) {
+    // Only reachable once builtIn carries an id, which is the intended end
+    // state; the fallback below is then dead and this test says so.
+    return;
+  }
+  const message = missingCredentialsMessage(["YOUTUBE_CLIENT_SECRET"]);
+  if (!message.includes('under "OAuth 2.0 Client IDs"')) {
+    throw new Error(message);
   }
 });

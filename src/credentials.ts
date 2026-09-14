@@ -27,6 +27,45 @@ export const project = () =>
   Deno.env.get("GOOGLE_CLOUD_PROJECT") || "jeremy-ca";
 
 /**
+ * Credentials that live in source because they never change and are not secret.
+ *
+ * The client id is the case that qualifies: it travels in the query string of
+ * the consent URL, so it is visible in the address bar of anybody who
+ * authorises, and Google treats an installed app's id as public. Keeping it in
+ * .env bought nothing and cost a step every time the project was set up
+ * somewhere new -- and knowing it is also what makes `oauthClientUrl` able to
+ * link straight at the secret instead of at a list of clients.
+ *
+ * Deliberately absent: the client secret, and the API key. The key carries the
+ * daily quota that the scheduled scans spend, and .github/workflows/scan.yaml
+ * takes it from `secrets.YOUTUBE_API_KEY` precisely so it is not in the
+ * repository; a copy here would be a copy anybody could drain.
+ */
+const builtIn: Partial<Record<CredentialName, string>> = {
+  // Paste the OAuth client id here -- "<digits>-<hash>.apps.googleusercontent
+  // .com" -- and nothing has to supply it again. An environment variable of
+  // the same name still wins, for a fork authorising as its own client.
+};
+
+/** The client id, from the environment or from source, if it is known at all. */
+export const clientId = () =>
+  Deno.env.get("YOUTUBE_CLIENT_ID") || builtIn.YOUTUBE_CLIENT_ID;
+
+/**
+ * The page for one OAuth client, which is where its secret is shown.
+ *
+ * Undefined until the client id is known, because the id *is* the path
+ * segment. That is the whole reason the id is worth having in source: with it
+ * this points at the secret, and without it the best available is a list of
+ * clients and an instruction to pick the right one.
+ */
+export const oauthClientUrl = () => {
+  const id = clientId();
+  return id === undefined ? undefined : "https://console.cloud.google.com" +
+    `/apis/credentials/oauthclient/${id}?project=${project()}`;
+};
+
+/**
  * The YouTube Data API's own credentials page, scoped to the project.
  *
  * The generic console.cloud.google.com/apis/credentials lands on whichever
@@ -130,21 +169,29 @@ Restricting the key is optional, but if you restrict it, restrict it to the YouT
 
 The key reads public data only -- it cannot change a playlist -- so it is the only credential the scans ever need.`);
 
-const oauthAdvice = (names: ReadonlyArray<string>) =>
-  wrap(`\
-${list(names)} ${names.length > 1 ? "are" : "is"} not set. Only publish needs ${
-    names.length > 1 ? "these" : "this"
-  }, because publish is the one task that writes to YouTube. Everything else runs on the API key alone.
-
-They are on the same page as the key, under "OAuth 2.0 Client IDs":
+const oauthAdvice = (names: ReadonlyArray<string>) => {
+  const known = oauthClientUrl();
+  const where = known === undefined
+    ? `They are on the same page as the key, under "OAuth 2.0 Client IDs":
 
   ${credentialsUrl()}
 
 If there is no client there, "Create credentials" then "OAuth client ID" makes one; application type "Desktop app" is simplest, and a "Web application" client instead needs ${REDIRECT_URI} listed as an authorised redirect URI, which is where the flow sends you back. A consent screen has to exist first, once per project:
 
-  ${consentUrl()}
+  ${consentUrl()}`
+    : `This is the page for the client, and the secret is on it:
 
-The two halves are needed at different moments. The client id alone builds the consent URL, so "deno task publish --headless" will print it and exit with the id and nothing else -- the id is not secret, and can be pasted into builtIn in src/credentials.ts so it never has to be supplied again. The client secret is presented only when the code that comes back is redeemed, by "deno task publish --auth-url=...", and when a stored token is later refreshed.`);
+  ${known}`;
+
+  return wrap(`\
+${list(names)} ${names.length > 1 ? "are" : "is"} not set. Only publish needs ${
+    names.length > 1 ? "these" : "this"
+  }, because publish is the one task that writes to YouTube. Everything else runs on the API key alone.
+
+${where}
+
+The two halves are wanted at different moments. The client id alone builds the consent URL, so "deno task publish --headless" prints it and exits knowing only the id; the id is not secret and belongs in builtIn in src/credentials.ts, where it never has to be supplied again. The secret is presented only when the code that comes back is redeemed, by "deno task publish --auth-url=...", and when a stored token is later refreshed.`);
+};
 
 const storeAdvice = (missing: ReadonlyArray<CredentialName>) =>
   wrap(`\
@@ -179,24 +226,6 @@ export function missingCredentialsMessage(
 
   return sections.join("\n\n");
 }
-
-/**
- * Credentials that live in source because they never change and are not secret.
- *
- * The client id is the clear case: it travels in the query string of the
- * consent URL, so it is visible in the browser's address bar of anybody who
- * authorises, and Google treats an installed app's id as public. Keeping it in
- * .env bought nothing and cost a step every time somebody set the project up.
- *
- * The client *secret* is not here and should not be. Nor is the API key: it
- * carries the daily quota, so a copy in the repository is a copy anybody can
- * spend.
- */
-const builtIn: Partial<Record<CredentialName, string>> = {
-  // Paste the OAuth client id here -- "<digits>-<hash>.apps.googleusercontent
-  // .com" -- and nothing has to supply it again. An environment variable of
-  // the same name still wins, for a fork authorising as its own client.
-};
 
 /**
  * The named credentials, or a `MissingCredentials` naming all that are absent.

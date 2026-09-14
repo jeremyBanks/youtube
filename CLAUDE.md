@@ -59,6 +59,43 @@ now carries the `?code=`. Paste that whole URL into
 `deno task publish --auth-url="…"`, with or without its `http://`, and the
 tokens are stored for every task. The refresh token lasts weeks, not forever.
 
+## Credentials, and which of them are secret
+
+`src/credentials.ts` holds everything about getting authorised, and the rule is
+that anything not secret lives in source so nobody is ever asked for it twice.
+
+Hardcoded, because none of it changes and none of it is confidential: the Cloud
+project (`jeremy-ca`, overridable by `GOOGLE_CLOUD_PROJECT`), the scope
+(`.../auth/youtube` — the token makes exactly two calls, `createPlaylist` and
+`updatePlaylist`, and no narrower scope covers them), the redirect
+(`http://localhost:8783`), `access_type=offline`, and the OAuth **client id**,
+which belongs in the `builtIn` table.
+
+The client id is not a secret: it travels in the query string of the consent
+URL, so it is in the address bar of anybody who authorises. Having it in source
+pays twice — nothing has to supply it, and `oauthClientUrl()` can then link at
+`/apis/credentials/oauthclient/<id>?project=…`, the one page showing that
+client's secret, instead of at a list of clients.
+
+Not hardcoded, and not to be:
+
+- **`YOUTUBE_CLIENT_SECRET`.**
+- **`YOUTUBE_API_KEY`** — it carries the 10,000-unit daily quota the scheduled
+  scans spend, and `.github/workflows/scan.yaml` takes it from
+  `secrets.YOUTUBE_API_KEY` precisely so it is not in the repository. A copy
+  here is a copy anybody can drain.
+
+**The secret is not needed to build the consent URL.** `generateAuthUrl` reads
+the client id, redirect, scope and access type and nothing else, so
+`publish --headless` prints the URL knowing only the id. The secret is presented
+at exactly two moments: redeeming the code from `--auth-url=`, and refreshing a
+stored token. A version that demanded both up front broke `--headless` on the
+machine least likely to hold a secret.
+
+When something is missing, the task prints what it is, which tasks need it, and
+the console link that produces it, then exits 1 — `requireCredentials` reports
+every absent name at once, so nobody makes two trips to the console.
+
 **Then push to `trunk`.** If everything above succeeded, commit and push
 directly to `trunk` — this is routine catalogue maintenance, not a change that
 wants review. If any step failed, push what did succeed (scan data is always

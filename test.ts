@@ -677,3 +677,21 @@ Deno.test("requireCredentials reports every absent name at once", () => {
   }
   throw new Error("should have thrown");
 });
+
+// The consent URL is built from the client id, the redirect, the scope and the
+// access type -- `generateAuthUrl` reads nothing else -- so `publish
+// --headless`, which prints that URL and exits, must not demand the secret.
+// Requiring both up front broke exactly that, on the machine least likely to
+// hold a secret.
+Deno.test("the client id alone is enough to ask for", () => {
+  Deno.env.set("YOUTUBE_CLIENT_ID", "0-example.apps.googleusercontent.com");
+  Deno.env.delete("YOUTUBE_CLIENT_SECRET");
+  try {
+    const got = requireCredentials("YOUTUBE_CLIENT_ID");
+    if (!got.YOUTUBE_CLIENT_ID.endsWith(".apps.googleusercontent.com")) {
+      throw new Error(got.YOUTUBE_CLIENT_ID);
+    }
+  } finally {
+    Deno.env.delete("YOUTUBE_CLIENT_ID");
+  }
+});

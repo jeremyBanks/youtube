@@ -3,7 +3,12 @@ import * as dotenv from "@std/dotenv";
 import { delay } from "@std/async";
 
 import { retryWithBackoff, spinning } from "./common.ts";
-import { REDIRECT_URI, requireCredentials } from "./credentials.ts";
+import {
+  ACCESS_TYPE,
+  REDIRECT_URI,
+  requireCredentials,
+  SCOPE,
+} from "./credentials.ts";
 import { openChannelStorage } from "./storage.ts";
 import type { Channel } from "./storage.ts";
 import { only } from "./common.ts";
@@ -82,7 +87,7 @@ export const storedClientAuthAndKey = async (): Promise<
   });
   auth.setCredentials({
     token_type: "Bearer",
-    scope: "https://www.googleapis.com/auth/youtube",
+    scope: SCOPE,
     access_token: localStorage.clientAccessToken,
     refresh_token: localStorage.clientRefreshToken,
     expiry_date: localStorage.clientExpiryDate,
@@ -100,14 +105,20 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
     // Demanded here rather than left to the OAuth2 constructor, which accepts
     // undefined and fails much later, at the token exchange, as an opaque
     // invalid_client from Google.
-    const credentials = requireCredentials(
+    //
+    // The id only. `generateAuthUrl` builds the consent URL out of the client
+    // id, the redirect, the scope and the access type, and nothing else, so
+    // `--headless` -- which prints that URL and exits -- has never needed the
+    // secret. Demanding both here made it fail on a machine that had no reason
+    // to hold one. The secret is required below, at the two places that
+    // actually present it to Google.
+    const { YOUTUBE_CLIENT_ID: clientId } = requireCredentials(
       "YOUTUBE_CLIENT_ID",
-      "YOUTUBE_CLIENT_SECRET",
     );
 
     const auth = new googleapis.google.auth.OAuth2({
-      clientId: credentials.YOUTUBE_CLIENT_ID,
-      clientSecret: credentials.YOUTUBE_CLIENT_SECRET,
+      clientId,
+      clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
       redirectUri: REDIRECT_URI,
     });
 
@@ -115,7 +126,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
     if (localStorage.clientAccessToken && localStorage.clientRefreshToken) {
       auth.setCredentials({
         token_type: "Bearer",
-        scope: "https://www.googleapis.com/auth/youtube",
+        scope: SCOPE,
         access_token: localStorage.clientAccessToken,
         refresh_token: localStorage.clientRefreshToken,
         expiry_date: localStorage.clientExpiryDate,
@@ -130,8 +141,8 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
         )
       ) {
         const authUrl = auth.generateAuthUrl({
-          access_type: "offline",
-          scope: "https://www.googleapis.com/auth/youtube",
+          access_type: ACCESS_TYPE,
+          scope: SCOPE,
           redirect_uri: REDIRECT_URI,
         });
 
@@ -193,6 +204,8 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
           });
         }
 
+        // Redeeming the code is the first thing that presents the secret.
+        requireCredentials("YOUTUBE_CLIENT_SECRET");
         const { tokens } = await auth.getToken(userAuthCode);
 
         localStorage.clientAccessToken = tokens.access_token;
@@ -201,7 +214,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
 
         auth.setCredentials({
           token_type: "Bearer",
-          scope: "https://www.googleapis.com/auth/youtube",
+          scope: SCOPE,
           access_token: localStorage.clientAccessToken,
           refresh_token: localStorage.clientRefreshToken,
           expiry_date: localStorage.clientExpiryDate,
@@ -216,7 +229,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
 
         auth.setCredentials({
           token_type: "Bearer",
-          scope: "https://www.googleapis.com/auth/youtube",
+          scope: SCOPE,
           access_token: localStorage.clientAccessToken,
           refresh_token: localStorage.clientRefreshToken,
           expiry_date: localStorage.clientExpiryDate,

@@ -1,6 +1,7 @@
 import { parseArgs } from "@std/cli";
 import { getSeasonsCuration } from "../config.ts";
 import { getVideoDetails } from "../client.ts";
+import { runMain } from "../credentials.ts";
 import {
   openChannelStorage,
   openVideoStorage,
@@ -8,7 +9,7 @@ import {
 } from "../storage.ts";
 
 if (import.meta.main) {
-  await main();
+  await runMain(main);
 }
 
 async function main() {

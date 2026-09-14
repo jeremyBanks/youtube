@@ -1,5 +1,12 @@
 Deno.permissions.request({ name: "read", path: "xxx://///example///\\" });
 
+import {
+  MissingCredentials,
+  missingCredentialsMessage,
+  project,
+  requireCredentials,
+} from "./src/credentials.ts";
+
 // The yaml storage suppresses Deno's default crash on an unhandled rejection so
 // that in-memory data still reaches disk instead of being lost. That suppression
 // used to swallow the failure as well: a run that aborted partway still exited
@@ -614,4 +621,59 @@ Deno.test("entries not wanted at all are always removed", () => {
 Deno.test("a fully reversed playlist keeps one entry", () => {
   const keep = keepIndices([4, 3, 2, 1, 0]);
   if (keep.length !== 1) throw new Error(String(keep));
+});
+
+// A missing credential used to surface as "attempted to unwrap falsey value
+// (undefined)" and a stack trace, which says nothing about the console page
+// that fixes it. These pin the parts of the replacement that are easy to break
+// without noticing: that the link names the project, that asking for one
+// credential does not lecture about the other two, and that every name asked
+// for is actually reported as missing.
+Deno.test("the advice links to the project's own credentials page", () => {
+  const message = missingCredentialsMessage(["YOUTUBE_API_KEY"]);
+  if (!message.includes(`?project=${project()}`)) {
+    throw new Error("no project-scoped link:\n" + message);
+  }
+  if (!message.includes("YOUTUBE_API_KEY=...")) {
+    throw new Error("does not say where to put it:\n" + message);
+  }
+});
+
+Deno.test("the advice covers only the credentials that are missing", () => {
+  const key = missingCredentialsMessage(["YOUTUBE_API_KEY"]);
+  if (key.includes("YOUTUBE_CLIENT_SECRET")) {
+    throw new Error("mentions OAuth when only the key is missing:\n" + key);
+  }
+  const oauth = missingCredentialsMessage([
+    "YOUTUBE_CLIENT_ID",
+    "YOUTUBE_CLIENT_SECRET",
+  ]);
+  if (!oauth.includes("--headless")) {
+    throw new Error("does not say how to authorise:\n" + oauth);
+  }
+  if (oauth.split("YOUTUBE_API_KEY").length > 2) {
+    throw new Error("dwells on the key that is already set:\n" + oauth);
+  }
+});
+
+Deno.test("requireCredentials reports every absent name at once", () => {
+  Deno.env.delete("YOUTUBE_CLIENT_ID");
+  Deno.env.delete("YOUTUBE_CLIENT_SECRET");
+  Deno.env.set("YOUTUBE_API_KEY", "present");
+  try {
+    requireCredentials(
+      "YOUTUBE_API_KEY",
+      "YOUTUBE_CLIENT_ID",
+      "YOUTUBE_CLIENT_SECRET",
+    );
+  } catch (error) {
+    if (!(error instanceof MissingCredentials)) throw error;
+    if (error.missing.join() !== "YOUTUBE_CLIENT_ID,YOUTUBE_CLIENT_SECRET") {
+      throw new Error(error.missing.join());
+    }
+    return;
+  } finally {
+    Deno.env.delete("YOUTUBE_API_KEY");
+  }
+  throw new Error("should have thrown");
 });

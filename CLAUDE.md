@@ -453,16 +453,18 @@ Exandria Unlimited: Divergence is Critical Role's.
 
 ## Channel Playlists
 
-`deno task scan-playlists` records the playlists of the channels we scan into
+`deno task scan` records the playlists of the channels it scans into
 `data/channel-playlists.yaml` — observed, unlike `data/playlists.yaml`, which is
 what we intend to publish. Scope follows `config/scan.toml`: a channel counts as
 tracked when it has a `recent-window`, so the parked ones are excluded without a
-second list. `--channel=` restricts a run.
+second list. `--channel=` restricts a run, `--playlists-only` does the playlist
+pass and skips the videos, and `--skip-playlists` the reverse. There is no
+`scan-playlists` task; this file claimed one for a while.
 
-It runs daily in the same GitHub Action as the channel scan, and first: at
-roughly 300 quota units against a 10,000-unit day it is cheap, and it sees what
-nothing else can, so it should not be the thing that gets skipped when the
-channel scan exhausts the quota.
+The playlist pass runs daily in the same GitHub Action as the channel scan, and
+first: at roughly 300 quota units against a 10,000-unit day it is cheap, and it
+sees what nothing else can, so it should not be the thing that gets skipped when
+the channel scan exhausts the quota.
 
 These hold **YouTube video ids**, the same identifiers the curation uses, so
 comparing them needs no title matching — unlike the Dropout.tv join, where every

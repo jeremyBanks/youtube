@@ -1,9 +1,10 @@
 import { parseArgs } from "@std/cli";
 import { createPlaylist, setAuthMode, updatePlaylist } from "../client.ts";
 import { openPlaylistsStorage } from "../storage.ts";
+import { runMain } from "../credentials.ts";
 
 if (import.meta.main) {
-  await main();
+  await runMain(main);
 }
 
 async function persistPlaylistId(

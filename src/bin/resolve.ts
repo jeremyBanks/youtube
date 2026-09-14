@@ -11,6 +11,7 @@ import { getSeasonsCuration } from "../config.ts";
 import { openVideoStorage } from "../storage.ts";
 import type { ResolvedVideo, Video } from "../storage.ts";
 import { DAY_MS, isDue } from "../schedule.ts";
+import { runMain } from "../credentials.ts";
 
 /** How long to leave an id alone, by what the last lookup concluded. */
 const INTERVAL_DAYS = {
@@ -96,7 +97,7 @@ const ID_FIELDS = [
 ] as const;
 
 if (import.meta.main) {
-  await main();
+  await runMain(main);
 }
 
 /**

@@ -9,9 +9,10 @@ import { durationMs, isDue } from "../schedule.ts";
 import { videoDetails } from "../video.ts";
 import { scanChannelPlaylists } from "./playlists.ts";
 import { openChannelPlaylistStorage } from "../storage.ts";
+import { runMain } from "../credentials.ts";
 
 if (import.meta.main) {
-  await main();
+  await runMain(main);
 }
 
 /** Command-line entry point. */

@@ -2,7 +2,8 @@ import * as googleapis from "googleapis";
 import * as dotenv from "@std/dotenv";
 import { delay } from "@std/async";
 
-import { retryWithBackoff, spinning, truthy } from "./common.ts";
+import { retryWithBackoff, spinning } from "./common.ts";
+import { REDIRECT_URI, requireCredentials } from "./credentials.ts";
 import { openChannelStorage } from "./storage.ts";
 import type { Channel } from "./storage.ts";
 import { only } from "./common.ts";
@@ -52,7 +53,7 @@ export const getClientAndKey = async (): Promise<Client> => {
 
     return {
       youtube: googleapis.google.youtube("v3"),
-      key: truthy(Deno.env.get("YOUTUBE_API_KEY")),
+      key: requireCredentials("YOUTUBE_API_KEY").YOUTUBE_API_KEY,
     };
   })());
 };
@@ -77,7 +78,7 @@ export const storedClientAuthAndKey = async (): Promise<
   const auth = new googleapis.google.auth.OAuth2({
     clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
     clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
-    redirectUri: "http://localhost:8783",
+    redirectUri: REDIRECT_URI,
   });
   auth.setCredentials({
     token_type: "Bearer",
@@ -96,10 +97,18 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
   return await (authenticatedClient ??= (async () => {
     const { youtube, key } = await getClientAndKey();
 
+    // Demanded here rather than left to the OAuth2 constructor, which accepts
+    // undefined and fails much later, at the token exchange, as an opaque
+    // invalid_client from Google.
+    const credentials = requireCredentials(
+      "YOUTUBE_CLIENT_ID",
+      "YOUTUBE_CLIENT_SECRET",
+    );
+
     const auth = new googleapis.google.auth.OAuth2({
-      clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
-      clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
-      redirectUri: "http://localhost:8783",
+      clientId: credentials.YOUTUBE_CLIENT_ID,
+      clientSecret: credentials.YOUTUBE_CLIENT_SECRET,
+      redirectUri: REDIRECT_URI,
     });
 
     // Load stored tokens from localStorage if they exist
@@ -123,7 +132,7 @@ export const getClientAuthAndKey = async (): Promise<AuthenticatedClient> => {
         const authUrl = auth.generateAuthUrl({
           access_type: "offline",
           scope: "https://www.googleapis.com/auth/youtube",
-          redirect_uri: "http://localhost:8783",
+          redirect_uri: REDIRECT_URI,
         });
 
         let userAuthCode: string;

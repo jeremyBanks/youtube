@@ -8491,7 +8491,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Count the Rice"
 seasonNumber:  8
 episodeNumber: 10
@@ -8583,7 +8583,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Don't Wake Standards & Practices"
 seasonNumber:  8
 episodeNumber: 2
@@ -8661,7 +8661,7 @@ collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
 - new-releases
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Earwigs"
 seasonNumber:  8
 episodeNumber: 14
@@ -8762,7 +8762,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Kangaroo Court"
 seasonNumber:  8
 episodeNumber: 8
@@ -8862,7 +8862,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Night Shift"
 seasonNumber:  8
 episodeNumber: 6
@@ -8887,7 +8887,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Noise Some Makes"
 seasonNumber:  8
 episodeNumber: 12
@@ -9067,7 +9067,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "Rulette 2"
 seasonNumber:  8
 episodeNumber: 4
@@ -9271,7 +9271,7 @@ collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
 - new-releases
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Behind the Scenes of "What's the Catch"
 seasonNumber:  8
 episodeNumber: 16
@@ -16077,7 +16077,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-new
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Count the Rice
 seasonNumber:  8
 episodeNumber: 5
@@ -20267,7 +20267,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-new
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Don't Wake Standards & Practices
 seasonNumber:  8
 episodeNumber: 1
@@ -21371,7 +21371,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-new
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Earwigs
 seasonNumber:  8
 episodeNumber: 7
@@ -33623,7 +33623,7 @@ collections:
 - game-changer-new
 - game-changer-season-8
 - new-releases
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         I Spy
 seasonNumber:  8
 episodeNumber: 9
@@ -36733,7 +36733,7 @@ slug:          jay-behpoornia-2026-acting-reel-extended-cut
 collection:    game-changer-season-8
 collections:
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         'Jay Behpoornia 2026 Acting Reel: Extended Cut'
 seasonNumber:  8
 episodeNumber: 17
@@ -37543,7 +37543,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-new
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Kangaroo Court
 seasonNumber:  8
 episodeNumber: 4
@@ -37814,6 +37814,34 @@ upNextIds:
 - 437468
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T21:00:38.020Z
+
+---
+
+slug:          kids-are-trash
+collection:    crowd-control-season-2
+collections:
+- crowd-control-season-2
+- new-releases
+lastmod:       2026-09-14T00:00:00.000Z
+title:         Kids Are Trash
+seasonNumber:  2
+episodeNumber: 4
+releaseDate:   '2026-09-14'
+url:           'https://watch.dropout.tv/crowd-control/season:2/videos/kids-are-trash'
+showTitle:     Crowd Control
+showSlug:      crowd-control
+description:   |-
+  The clock is ticking for Ron, Joyelle, and Tony.
+
+  Content Warning: 
+  Discussions of Harrowing Personal Situations and Descriptions of Physical Injuries
+  Discussions of Cults - [throughout]
+  Entomophobia (Descriptions of being force fed insects)- [13:32-13:34, 18:43-19:16]
+  Discussions of Stalking [14...
+itemId:        4190233
+collectionId:  1503904
+firstSeen:     2026-09-15T15:34:48.383Z
+scrapedAt:     2026-09-15T15:35:13.392Z
 
 ---
 
@@ -45161,7 +45189,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-new
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Night Shift
 seasonNumber:  8
 episodeNumber: 3
@@ -45668,7 +45696,7 @@ collections:
 - game-changer-new
 - game-changer-season-8
 - noise-boys
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Noise Some Makes
 seasonNumber:  8
 episodeNumber: 6
@@ -53048,7 +53076,7 @@ collection:    game-changer-season-8
 collections:
 - game-changer-new
 - game-changer-season-8
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         Rulette 2
 seasonNumber:  8
 episodeNumber: 2
@@ -56515,7 +56543,6 @@ scrapedAt:     2026-09-12T14:09:28.822Z
 slug:          smartyshorts-which-type-of-french-fry-is-the-best
 collection:    smartypants-season-3
 collections:
-- new-releases
 - smartypants-season-3
 lastmod:       2026-09-11T00:00:00.000Z
 title:         'Smartyshorts: Which Type of French Fry Is the Best?'
@@ -78200,7 +78227,7 @@ collections:
 - game-changer-new
 - game-changer-season-8
 - new-releases
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-09-14T00:00:00.000Z
 title:         What's the Catch
 seasonNumber:  8
 episodeNumber: 8

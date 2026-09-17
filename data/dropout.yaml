@@ -19050,14 +19050,12 @@ scrapedAt:     2026-08-31T09:31:21.690Z
 ---
 
 slug:          dimension-20-toylight-trailer
-collection:    featured
+collection:    trailers
 collections:
-- dimension-20-featured
 - dimension-20-new-releases
 - dimension-20-trailers
-- featured
 - trailers
-lastmod:       2026-08-12T00:00:00.000Z
+lastmod:       2026-09-16T00:00:00.000Z
 title:         'Dimension 20: Toylight Trailer'
 releaseDate:   '2026-08-12'
 url:           'https://watch.dropout.tv/videos/dimension-20-toylight-trailer'
@@ -41576,9 +41574,8 @@ scrapedAt:     2026-08-31T09:38:53.018Z
 ---
 
 slug:          make-some-noise-season-5-teaser
-collection:    featured
+collection:    new-releases
 collections:
-- featured
 - new-releases
 lastmod:       2026-09-02T00:00:00.000Z
 title:         Make Some Noise Season 5 Teaser
@@ -55788,6 +55785,54 @@ upNextIds:
 - 1231021
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T07:25:36.077Z
+
+---
+
+slug:          sing-a-song-of-six
+collection:    dimension-20-toylight-season-1
+collections:
+- dimension-20-new-releases
+- dimension-20-the-complete-series-season-31
+- dimension-20-toylight-season-1
+- new-releases
+lastmod:       2026-09-16T00:00:00.000Z
+title:         Sing A Song of Six
+seasonNumber:  1
+episodeNumber: 1
+releaseDate:   '2026-09-16'
+url:           'https://watch.dropout.tv/dimension-20-toylight/season:1/videos/sing-a-song-of-six'
+showTitle:     'Dimension 20: Toylight'
+showSlug:      dimension-20-toylight
+description:   |-
+  Six grizzled toys reunite to guard the sacred nursery Toylight.
+
+  Content Warning: 
+  Themes of Childhood Illness and References to Child Death 
+  Coulrophobia (Clown Illustrations) - [throughout]
+  Suicide Joke [50:16-50:17]
+itemId:        4192580
+collectionId:  1503707
+firstSeen:     2026-09-17T02:06:46.933Z
+scrapedAt:     2026-09-17T02:07:24.550Z
+
+---
+
+slug:          sing-a-song-of-six-audio-only
+collection:    dimension-20-audio-only-season-30
+collections:
+- dimension-20-audio-only-season-30
+lastmod:       2026-09-16T00:00:00.000Z
+title:         'Sing A Song of Six [Audio Only] - Toylight'
+seasonNumber:  30
+episodeNumber: 1
+url:           'https://watch.dropout.tv/dimension-20-audio-only/season:30/videos/sing-a-song-of-six-audio-only'
+showTitle:     'Dimension 20 [Audio Only]'
+showSlug:      dimension-20-audio-only
+description:   Six grizzled toys reunite to guard the sacred nursery Toylight.
+itemId:        4200139
+collectionId:  1503708
+firstSeen:     2026-09-17T02:06:46.933Z
+scrapedAt:     2026-09-17T02:07:36.810Z
 
 ---
 

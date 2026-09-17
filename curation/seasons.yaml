@@ -6574,6 +6574,11 @@ videos:
     published: 2025-04-18
   - episode: 102. Cash 'N Guns
     dropout: cash-n-guns
+    # YouTube titles the free cut "El Dragon Declares Pasta Noche", a line from
+    # the episode, which shares no word with the Dropout title. Its description
+    # names the game -- Cash 'N Guns -- and it runs 2297s against the members
+    # version's 2285s, the same handful of seconds longer that 101's pair shows.
+    public: GF9MmD8Zly4
     members: w-XGl-C6_Nw
     published: 2025-05-02
   - episode: 103. Monikers
@@ -7929,6 +7934,10 @@ videos:
     public: 84kZcc5TEzY
     public short: MNPykW1n5nc
     published: 2026-08-12
+  - episode: 1. Sing A Song of Six
+    dropout: sing-a-song-of-six
+    members: nkxLPvyt1xE
+    published: 2026-09-16
 
 ---
 

@@ -1007,7 +1007,7 @@ videos:
 
 name:        Dimension 20 (All Episodes and Extras)
 description: |-
-  881-hour playlist of 324 episodes and 346 extras (behind-the-scenes videos, talkback shows, and trailers) from 36 seasons of Dimension 20. 152 videos are free and 518 require a @Dropout channel membership on YouTube.
+  883-hour playlist of 325 episodes and 346 extras (behind-the-scenes videos, talkback shows, and trailers) from 36 seasons of Dimension 20. 152 videos are free and 519 require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -1714,12 +1714,13 @@ videos:
   HMK7QO1KgM8: 'D20 on a Bus: Season 2 | Dimension 20: On a Bus Season 2 | Ep. 1'
   '-PYbqEgXYGM': Here's Come the Water | Adventuring Party Season 23 | Ep. 1
   84kZcc5TEzY: 'Dimension 20: Toylight Trailer [Dropout Exclusive Series]'
+  nkxLPvyt1xE: 'Sing A Song of Six | Dimension 20: Toylight Season 1 | Ep. 1'
 
 ---
 
 name:        Dimension 20 (All Episodes)
 description: |-
-  697-hour playlist of 324 episodes of from 36 seasons of Dimension 20 in order. 87 videos are free and 237 require a @Dropout channel membership on YouTube.
+  698-hour playlist of 325 episodes of from 36 seasons of Dimension 20 in order. 87 videos are free and 238 require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -1742,6 +1743,7 @@ description: |-
   https://watch.dropout.tv/dimension-20-the-seven
   https://watch.dropout.tv/dimension-20-tiny-heist
   https://watch.dropout.tv/dimension-20-titan-takedown
+  https://watch.dropout.tv/dimension-20-toylight
   https://watch.dropout.tv/dip-your-toe-in
   https://watch.dropout.tv/mice-murder
 playlistId:  PLObfuAmZm9pDqgg3_8kXgd7uFrOFmGVUG
@@ -2072,6 +2074,7 @@ videos:
   mVG3cnnMmIw: 'An Undead Denouement | Dimension 20: City Council of Darkness Season 1 | Ep. 14'
   LLBeQRTrZWY: 'Dimension 20 Live: Viva Más Vegas | Dimension 20 Live'
   HMK7QO1KgM8: 'D20 on a Bus: Season 2 | Dimension 20: On a Bus Season 2 | Ep. 1'
+  nkxLPvyt1xE: 'Sing A Song of Six | Dimension 20: Toylight Season 1 | Ep. 1'
 
 ---
 
@@ -3984,14 +3987,14 @@ videos:
 
 name:        Parlor Room (All Episodes)
 description: |-
-  20-hour playlist of 24 episodes and 2 trailers from Parlor Room, where host Becca Scott and guests play board games and tabletop games. 4 videos are free and 22 require a @Dropout channel membership on YouTube.
+  20-hour playlist of 24 episodes and 2 trailers from Parlor Room, where host Becca Scott and guests play board games and tabletop games. 5 videos are free and 21 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/parlor-room
 playlistId:  PLObfuAmZm9pCKmzmqJaEkRUfbUZnY1Kll
 videos:
   v0Cr6S8Vep0: 'Parlor Room Trailer [Dropout Exclusive Series]'
   sKTlEDAuwfY: 'Comedians Play Wavelength for the First Time | Parlor Room [Full Episode]'
-  w-XGl-C6_Nw: Cash 'N Guns | Parlor Room Season 1 | Ep. 2
+  GF9MmD8Zly4: 'El Dragón Declares Pasta Noche | Parlor Room [Full Episode]'
   zN6n-JKPvhM: Monikers | Parlor Room Season 1 | Ep. 3
   hS4w8XyTmEM: Betrayal at House on the Hill | Parlor Room Season 1 | Ep. 4
   ldVrCqN9hrY: Taboo | Parlor Room Season 1 | Ep. 5
@@ -4424,14 +4427,20 @@ videos:
 
 ---
 
-name:        'Dimension 20: Toylight'
+name:        'Dimension 20: Toylight (All Episodes)'
 description: |-
-  3-minute playlist of 0 episodes and 1 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Toylight, a campaign from Dimension 20. The one video is free.
+  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLFYgxAeMzCCA
+
+  1-hour playlist of 1 episodes and 1 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Toylight, a campaign from Dimension 20. 1 video is free and 1 requires a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
+
+  https://watch.dropout.tv/dimension-20-toylight
 playlistId:  PLQS8225KRyrc
+unlisted:    true
 videos:
   84kZcc5TEzY: 'Dimension 20: Toylight Trailer [Dropout Exclusive Series]'
+  nkxLPvyt1xE: 'Sing A Song of Six | Dimension 20: Toylight Season 1 | Ep. 1'
 
 ---
 

@@ -657,7 +657,6 @@ collection:    dimension-20-city-council-of-darkness-season-1
 collections:
 - dimension-20-city-council-of-darkness-season-1
 - dimension-20-city-council-of-darkness-the-complete-experience
-- dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-30T00:00:00.000Z
 title:         'A Bid, a Banksy, and the Bird in the Basement'
@@ -44019,7 +44018,6 @@ slug:          murph-s-most-sensual-episode
 collection:    dimension-20-s-adventuring-party-season-24
 collections:
 - dimension-20-city-council-of-darkness-the-complete-experience
-- dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-24
 lastmod:       2026-08-10T00:00:00.000Z
 title:         Murph's Most Sensual Episode
@@ -55795,7 +55793,7 @@ collections:
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
 - new-releases
-lastmod:       2026-09-16T00:00:00.000Z
+lastmod:       2026-09-17T00:00:00.000Z
 title:         Sing A Song of Six
 seasonNumber:  1
 episodeNumber: 1
@@ -55821,7 +55819,7 @@ slug:          sing-a-song-of-six-audio-only
 collection:    dimension-20-audio-only-season-30
 collections:
 - dimension-20-audio-only-season-30
-lastmod:       2026-09-16T00:00:00.000Z
+lastmod:       2026-09-17T00:00:00.000Z
 title:         'Sing A Song of Six [Audio Only] - Toylight'
 seasonNumber:  30
 episodeNumber: 1
@@ -72423,6 +72421,28 @@ description:   The one where Mama and Plum almost get crushed.
 itemId:        331498
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T15:09:06.805Z
+
+---
+
+slug:          toy-o-like-boyo
+collection:    dimension-20-s-adventuring-party-season-25
+collections:
+- dimension-20-new-releases
+- dimension-20-s-adventuring-party-season-25
+- new-releases
+lastmod:       2026-09-17T00:00:00.000Z
+title:         'Toy-O, Like Boyo'
+seasonNumber:  25
+episodeNumber: 1
+releaseDate:   '2026-09-17'
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:25/videos/toy-o-like-boyo'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'The cast recalls their childhood toys, childhood pets, and learns the truth about chinchillas.'
+itemId:        4192840
+collectionId:  1510269
+firstSeen:     2026-09-18T15:00:01.450Z
+scrapedAt:     2026-09-18T15:00:26.670Z
 
 ---
 

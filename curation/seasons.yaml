@@ -7559,6 +7559,10 @@ videos:
     dropout: smartyshorts-when-does-the-week-start
     members: 8QcCW6N8hPY
     published: 2026-09-11
+  - episode: 308. One to Two Is Fine
+    dropout: one-to-two-is-fine
+    members: elycQJIb8EE
+    published: 2026-09-18
 
 ---
 
@@ -7938,6 +7942,11 @@ videos:
     dropout: sing-a-song-of-six
     members: nkxLPvyt1xE
     published: 2026-09-16
+  - bts: Toy-O, Like Boyo
+    dropout: toy-o-like-boyo
+    talkback: true
+    members: DT3lpVlVgqw
+    published: 2026-09-17
 
 ---
 
@@ -8968,6 +8977,12 @@ videos:
     # old one, same title and synopsis. The old id was still in the channel's
     # uploads feed when this was written, so "removed" here is removal from
     # that playlist, not from YouTube.
+    # The free cut arrived 2026-09-17. It is the id that sat as a private
+    # entry in Dropout's "Toonout (Full Animated Shorts)" playlist from
+    # 2026-09-11, which was guessed at the time to be episode 12's; it is
+    # this one. 224s against the members version's 211s, the same few
+    # seconds longer the other free cuts run.
+    public: EzeRMyRU26I
     members: DCIQ_4MhhBc
     removed members: mTHJSEAYH0E
     published: 2026-06-16

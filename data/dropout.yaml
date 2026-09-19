@@ -2563,7 +2563,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         A Rorschach Test But On Their Face
 seasonNumber:  3
 episodeNumber: 7
@@ -11392,7 +11392,7 @@ slug:          bonk-and-vibes
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         Bonk and Vibes
 seasonNumber:  3
 episodeNumber: 2
@@ -14414,7 +14414,7 @@ slug:          choppedness-cannot-be-outrun
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         Choppedness Cannot Be Outrun
 seasonNumber:  3
 episodeNumber: 3
@@ -29135,7 +29135,6 @@ slug:          hal-rose-said-to-watch-this-episode
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-- new-releases
 lastmod:       2026-09-09T00:00:00.000Z
 title:         Hal Rose Said to Watch This Episode
 seasonNumber:  2
@@ -47160,6 +47159,31 @@ scrapedAt:     2026-08-31T16:47:53.903Z
 
 ---
 
+slug:          one-to-two-is-fine
+collection:    smartypants-season-3
+collections:
+- new-releases
+- smartypants-season-3
+lastmod:       2026-09-18T00:00:00.000Z
+title:         One to Two Is Fine
+seasonNumber:  3
+episodeNumber: 8
+releaseDate:   '2026-09-18'
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/one-to-two-is-fine'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   |-
+  Paul examines funny numbers. Dhruv presents rules for the group chat. Waleed creates a new religion.
+
+  Content Warning: 
+  Comedic Reference to Self Harm - [39:25-39:29]
+itemId:        4193743
+collectionId:  1498226
+firstSeen:     2026-09-19T14:26:08.096Z
+scrapedAt:     2026-09-19T14:26:33.209Z
+
+---
+
 slug:          one-un-donkey-hot-dog
 collection:    dimension-20-s-adventuring-party-season-11
 collections:
@@ -55819,7 +55843,7 @@ slug:          sing-a-song-of-six-audio-only
 collection:    dimension-20-audio-only-season-30
 collections:
 - dimension-20-audio-only-season-30
-lastmod:       2026-09-17T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Sing A Song of Six [Audio Only] - Toylight'
 seasonNumber:  30
 episodeNumber: 1
@@ -56461,7 +56485,7 @@ slug:          smartyshorts-audiobooks
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: Audiobooks'
 seasonNumber:  3
 episodeNumber: 4
@@ -56486,7 +56510,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: Morning Showers or Night Showers'
 seasonNumber:  3
 episodeNumber: 12
@@ -56506,7 +56530,7 @@ slug:          smartyshorts-nice-to-meet-you
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: Nice to Meet You'
 seasonNumber:  3
 episodeNumber: 2
@@ -56530,7 +56554,7 @@ slug:          smartyshorts-school-subjects
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: School Subjects'
 seasonNumber:  3
 episodeNumber: 6
@@ -56554,7 +56578,7 @@ slug:          smartyshorts-spoiler-etiquette
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: Spoiler Etiquette'
 seasonNumber:  3
 episodeNumber: 8
@@ -56579,7 +56603,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: When Does the Week Start?'
 seasonNumber:  3
 episodeNumber: 14
@@ -56603,7 +56627,7 @@ slug:          smartyshorts-which-type-of-french-fry-is-the-best
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: Which Type of French Fry Is the Best?'
 seasonNumber:  3
 episodeNumber: 10
@@ -59487,7 +59511,6 @@ scrapedAt:     2026-08-31T11:50:20.399Z
 slug:          success-with-consequences
 collection:    parlor-room-season-2
 collections:
-- new-releases
 - parlor-room-season-2
 lastmod:       2026-09-03T00:00:00.000Z
 title:         Success With Consequences
@@ -60297,7 +60320,7 @@ slug:          tax-the-tall
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         Tax the Tall
 seasonNumber:  3
 episodeNumber: 5
@@ -67238,7 +67261,7 @@ slug:          the-power-of-words
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         The Power of Words
 seasonNumber:  3
 episodeNumber: 4
@@ -67777,7 +67800,7 @@ slug:          the-rules-of-content
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         The Rules of Content
 seasonNumber:  3
 episodeNumber: 1
@@ -82767,9 +82790,8 @@ scrapedAt:     2026-09-06T14:12:43.837Z
 slug:          you-cannot-be-you-without-yourself
 collection:    smartypants-season-3
 collections:
-- new-releases
 - smartypants-season-3
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-18T00:00:00.000Z
 title:         You Cannot Be You Without Yourself
 seasonNumber:  3
 episodeNumber: 6

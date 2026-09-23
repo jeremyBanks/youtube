@@ -10327,7 +10327,7 @@ collection:    dropout-music-season-1
 collections:
 - dropout-music-season-1
 - music-to-your-ears
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         Stardust
 url:           'https://watch.dropout.tv/videos/bill-nye'
 description:   'TV’s favorite scientist, Bill Nye, brings you an interplanetary bop worthy of a Nobel and a Grammy.'
@@ -23633,7 +23633,7 @@ slug:          fake-news-tv
 collection:    dropout-music-season-1
 collections:
 - dropout-music-season-1
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         Fake News TV
 url:           'https://watch.dropout.tv/videos/fake-news-tv'
 description:   Tune into the Fake News Network to hear about all the deep state conspiracies you’ve been missing.
@@ -30831,7 +30831,7 @@ collections:
 - ch-shorts-season-3
 - dropout-music-season-1
 - music-to-your-ears
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         Honest Holiday Card Song
 seasonNumber:  3
 episodeNumber: 10
@@ -34379,7 +34379,7 @@ collections:
 - ch-shorts-season-15
 - dropout-music-season-1
 - music-to-your-ears
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         If I Had the Money That Bezos Had
 seasonNumber:  15
 episodeNumber: 27
@@ -40782,7 +40782,7 @@ collections:
 - ch-shorts-season-15
 - dropout-music-season-1
 - music-to-your-ears
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         Livin' Mask Free (Music Video)
 seasonNumber:  15
 episodeNumber: 22
@@ -42335,7 +42335,7 @@ collection:    dropout-music-season-1
 collections:
 - dropout-music-season-1
 - music-to-your-ears
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         Mayor of Flavortown
 url:           'https://watch.dropout.tv/videos/mayor-of-flavortown'
 description:   There's only one Guy who can rule the kingdom of big bold taste and Fieri flavor.
@@ -54821,7 +54821,7 @@ collection:    see-plum-run-season-1
 collections:
 - dropout-music-season-1
 - see-plum-run-season-1
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         'See Plum Run: Official Music Video'
 url:           'https://watch.dropout.tv/videos/see-plum-run-official-music-video'
 description:   Plum and Mama bust a move in this original music video for “She Got Dem Books” from See Plum Run
@@ -61942,7 +61942,7 @@ slug:          the-brand-of-logan-paul
 collection:    dropout-music-season-1
 collections:
 - dropout-music-season-1
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         The Brand of Logan Paul
 url:           'https://watch.dropout.tv/videos/the-brand-of-logan-paul'
 description:   The ballad of an internet star who became the most hated man in the world.
@@ -67164,7 +67164,6 @@ scrapedAt:     2026-08-31T15:51:34.752Z
 slug:          the-pickle
 collection:    toonout-season-1
 collections:
-- featured
 - new-releases
 - toonout-new
 - toonout-season-1
@@ -69736,7 +69735,7 @@ collection:    ch-shorts-season-3
 collections:
 - ch-shorts-season-3
 - dropout-music-season-1
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         The Ultimate Internet Love Song
 seasonNumber:  3
 episodeNumber: 8
@@ -81705,7 +81704,7 @@ collections:
 - ch-shorts-season-3
 - dropout-music-season-1
 - music-to-your-ears
-lastmod:       2026-03-24T00:00:00.000Z
+lastmod:       2026-09-22T00:00:00.000Z
 title:         Wish I Had a Portal Gun
 seasonNumber:  3
 episodeNumber: 27
@@ -83588,6 +83587,29 @@ itemId:        2351102
 collectionId:  749014
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T12:09:45.893Z
+
+---
+
+slug:          young-spencer-goes-to-school
+collection:    toonout-season-1
+collections:
+- featured
+- new-releases
+- toonout-new
+- toonout-season-1
+lastmod:       2026-09-22T00:00:00.000Z
+title:         Young Spencer Goes to School
+seasonNumber:  1
+episodeNumber: 14
+releaseDate:   '2026-09-08'
+url:           'https://watch.dropout.tv/toonout/season:1/videos/young-spencer-goes-to-school'
+showTitle:     Toonout
+showSlug:      toonout
+description:   A day in the life of everyone's favorite demon from Very Important People. He's just a baby!
+itemId:        4150329
+collectionId:  1489017
+firstSeen:     2026-09-23T15:27:46.231Z
+scrapedAt:     2026-09-23T15:28:11.090Z
 
 ---
 

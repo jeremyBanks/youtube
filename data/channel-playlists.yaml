@@ -79473,7 +79473,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-23T15:27:24.234Z
+scrapedAt:     2026-09-24T15:49:18.885Z
 lastChangedAt: 2026-09-21T17:04:41.094Z
 
 ---
@@ -175105,28 +175105,11 @@ playlistId:    PLFYgxAeMzCCA
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 title:         'Dimension 20: Toylight (Full Episodes)'
 privacyStatus: public
-itemCount:     2
+itemCount:     3
 createdAt:     2026-09-16T22:49:05.885Z
 entries:
-- videoId: 84kZcc5TEzY
-  position: 0
-  addedAt: 2026-09-16T22:49:53.000Z
-  videoPublishedAt: 2026-08-12T17:30:33.000Z
-  privacyStatus: public
-  ownerChannelId: UCC8zWIx8aBQme-x1nX9iZ0A
-  ownerChannelTitle: Dimension 20
-  title: 'Dimension 20: Toylight Trailer [Dropout Exclusive Series]'
-  description: |-
-    Even the smallest heroes can make the greatest stand. New series premieres September 16th, only on Dropout. 
-
-    FAQ here: https://www.dropout.tv/faq/d20-toylight
-
-
-    Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
-
-    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: nkxLPvyt1xE
-  position: 1
+  position: 0
   addedAt: 2026-09-16T23:01:22.000Z
   videoPublishedAt: 2026-09-15T00:26:42.000Z
   privacyStatus: public
@@ -175156,9 +175139,35 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
+- videoId: 84kZcc5TEzY
+  position: 1
+  addedAt: 2026-09-16T22:49:53.000Z
+  videoPublishedAt: 2026-08-12T17:30:33.000Z
+  privacyStatus: public
+  ownerChannelId: UCC8zWIx8aBQme-x1nX9iZ0A
+  ownerChannelTitle: Dimension 20
+  title: 'Dimension 20: Toylight Trailer [Dropout Exclusive Series]'
+  description: |-
+    Even the smallest heroes can make the greatest stand. New series premieres September 16th, only on Dropout. 
+
+    FAQ here: https://www.dropout.tv/faq/d20-toylight
+
+
+    Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: YH9MdfO0sz8
+  position: 2
+  addedAt: 2026-09-23T23:00:16.000Z
+  videoPublishedAt: 2026-09-17T19:53:03.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: 'Run, Run, As Fast As You Can | Dimension 20: Toylight Season 1 | Ep. 2'
+  description: "The toys reconnoiter, have an angelic encounter, and send a diplomatic envoy to enemy lines.  \n\nContent Warning:\_\nThemes of Childhood Illness and References to Child Death\_\nCoulrophobia (Clown Illustrations) - [throughout]\n\nWelcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv\n\nWant to pay us more? Then sign up for Dropout Superfan, our optional \"pay more if you feel like it\" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan\n\nAnd if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!\n\nIn the meantime, leave us some nice comments on this video. It's a good one, right?\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv\n\nFOLLOW US EVERYWHERE:\nhttps://www.twitter.com/dropout\nhttps://www.instagram.com/dropouttv\nhttps://www.tiktok.com/@dropoutdottv\nhttps://www.facebook.com/dropouttv"
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-09-23T15:27:24.467Z
-lastChangedAt: 2026-09-17T02:06:51.027Z
+scrapedAt:     2026-09-24T15:49:18.997Z
+lastChangedAt: 2026-09-24T15:49:16.332Z
 
 ---
 
@@ -176476,7 +176485,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-09-22T15:33:38.971Z
+scrapedAt:     2026-09-24T15:49:19.085Z
 lastChangedAt: 2026-09-18T14:59:34.232Z
 
 ---
@@ -177287,7 +177296,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-21T17:04:43.664Z
+scrapedAt:     2026-09-24T15:49:19.187Z
 lastChangedAt: 2026-09-15T15:34:09.636Z
 
 ---
@@ -243942,7 +243951,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-19T22:37:36.175Z
+scrapedAt:     2026-09-24T15:49:19.283Z
 lastChangedAt: 2026-09-02T03:53:22.080Z
 
 ---
@@ -249869,9 +249878,22 @@ entries:
 - videoId: aRwqsFWEO6c
   position: 0
   addedAt: 2026-09-18T22:33:05.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
+  videoPublishedAt: 2026-09-23T17:30:39.000Z
+  privacyStatus: public
+  ownerChannelId: UCC8zWIx8aBQme-x1nX9iZ0A
+  ownerChannelTitle: Dimension 20
+  title: 'Sing A Song of Six | Dimension 20: Toylight [Full Season Premiere]'
+  description: |-
+    Six grizzled toys reunite to guard the sacred nursery Toylight.
+
+    Content Warning: 
+    Themes of Childhood Illness and References to Child Death 
+    Coulrophobia (Clown Illustrations) - [throughout]
+    Suicide Joke [50:16-50:17]
+
+    Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: 84kZcc5TEzY
   position: 1
   addedAt: 2026-08-10T22:13:10.000Z
@@ -253614,7 +253636,7 @@ entries:
   title: 'FANTASY HIGH: D&D Meets High School [Official Trailer]'
   description: "Support Dimension 20 by signing up for Dropout.tv: https://dimension20.dropout.tv, where you can get EVERY season, EVERY behind-the-scenes feature, and EVERY Adventuring Party talkback! It's only $5 a month! That's like 17 cents a day!\n\nBrennan Lee Mulligan is your game master in FANTASY HIGH, the first season in the DIMENSION 20 roleplaying anthology! Your CH cast favorites return to take on the Aguefort Adventuring Academy. Watch full episodes on DROPOUT.TV now.\n\nFOLLOW THE CAST:\nALLY:\_http://www.twitter.com/lilbeardsley\nGRANT:\_http://www.twitter.com/grantob\nKATIE:\_http://www.twitter.com/katiemarovitch\nTRAPP:\_http://www.twitter.com/mikewtrapp\nRAPH:\_http://www.twitter.com/chestangraphael\nREKHA:\_http://www.twitter.com/rekhalshankar\nBRENNAN: https://twitter.com/brennanlm\nSAM:\_http://www.twitter.com/samreich\n\nSee more\_http://www.collegehumor.com\nLIKE us on:\_http://www.facebook.com/collegehumor\nFOLLOW us on:\_http://www.twitter.com/collegehumor\nFOLLOW us on:\_http://www.collegehumor.tumblr.com\n\nD20 is a series from CollegeHumor and DROPOUT.TV, created and DM'd by Brennan Lee Mulligan.  It includes includes Fantasy High, Escape from the Bloodkeep and The Unsleeping City.\n\n#collegehumor\n#dropout\n#BrennanLeeMulligan\n#dnd"
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-22T15:33:53.747Z
+scrapedAt:     2026-09-24T15:49:35.372Z
 lastChangedAt: 2026-09-19T14:25:47.785Z
 
 ---
@@ -379319,7 +379341,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-23T15:27:24.813Z
+scrapedAt:     2026-09-24T15:49:19.417Z
 lastChangedAt: 2026-09-23T15:27:17.854Z
 
 ---
@@ -388423,9 +388445,12 @@ entries:
 - videoId: QeaxW0reRCU
   position: 0
   addedAt: 2026-09-18T22:14:13.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
+  videoPublishedAt: 2026-09-23T17:30:06.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: The First 11 Minutes of Game Changer's Season 8 Finale Episode
+  description: "Get ready for a Game Changer clip! In \"Last Talent Standing,\" host Sam Reich gathers 23 of Dropout's most brilliant and gifted players for a talent show like no other. Each player must show off their skills to celebrity judges Gianmarco Soresi, Maria Bamford, and Kumail Nanjiani until only one player remains. If they fail to impress the judges then they'll have to face the terrifying Grim Reaperino.\n\nYou can watch the full 90 minute season finale here: https://watch.dropout.tv/videos/last-talent-standing\n\nSign up for Dropout to watch past seasons of Game Changer:\_https://www.dropout.tv/plans\n\n\nWelcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv\n\nWant to pay us more? Then sign up for Dropout Superfan, our optional \"pay more if you feel like it\" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan\n\nAnd if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!\n\nIn the meantime, leave us some nice comments on this video. It's a good one, right?\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv\n\nFOLLOW US EVERYWHERE:\nhttps://www.twitter.com/dropout\nhttps://www.instagram.com/dropouttv\nhttps://www.tiktok.com/@dropoutdottv\nhttps://www.facebook.com/dropouttv"
 - videoId: GF9MmD8Zly4
   position: 1
   addedAt: 2026-09-11T22:25:41.000Z
@@ -425385,7 +425410,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-22T15:33:50.177Z
+scrapedAt:     2026-09-24T15:49:33.137Z
 lastChangedAt: 2026-09-19T14:25:38.415Z
 
 ---
@@ -444583,7 +444608,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-23T15:27:24.930Z
+scrapedAt:     2026-09-24T15:49:33.258Z
 lastChangedAt: 2026-09-22T15:33:35.912Z
 
 ---
@@ -450427,7 +450452,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-19T14:25:47.784Z
+scrapedAt:     2026-09-24T15:49:33.347Z
 lastChangedAt: 2026-09-04T14:57:34.384Z
 
 ---

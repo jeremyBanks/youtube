@@ -1444,7 +1444,6 @@ collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
-- new-releases
 lastmod:       2026-09-03T00:00:00.000Z
 title:         A Deep Investment in Frivolity (with Mica Burton)
 seasonNumber:  7
@@ -46404,7 +46403,6 @@ scrapedAt:     2026-08-31T11:40:18.505Z
 slug:          off-the-reservation
 collection:    toonout-season-1
 collections:
-- new-releases
 - toonout-new
 - toonout-season-1
 lastmod:       2026-09-03T00:00:00.000Z
@@ -53281,6 +53279,49 @@ upNextIds:
 - 3820247
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T11:47:03.858Z
+
+---
+
+slug:          run-run-as-fast-as-you-can
+collection:    dimension-20-toylight-season-1
+collections:
+- dimension-20-new-releases
+- dimension-20-the-complete-series-season-31
+- dimension-20-toylight-season-1
+- new-releases
+lastmod:       2026-09-23T00:00:00.000Z
+title:         'Run, Run, As Fast As You Can'
+seasonNumber:  1
+episodeNumber: 2
+releaseDate:   '2026-09-23'
+url:           'https://watch.dropout.tv/dimension-20-toylight/season:1/videos/run-run-as-fast-as-you-can'
+showTitle:     'Dimension 20: Toylight'
+showSlug:      dimension-20-toylight
+description:   "The toys reconnoiter, have an angelic encounter, and send a diplomatic envoy to enemy lines.\n\nContent Warning:\_\nThemes of Childhood Illness and References to Child Death\_\nCoulrophobia (Clown Illustrations) - [throughout]"
+itemId:        4201379
+collectionId:  1503707
+firstSeen:     2026-09-24T15:49:56.843Z
+scrapedAt:     2026-09-24T15:50:21.786Z
+
+---
+
+slug:          run-run-as-fast-as-you-can-audio-only
+collection:    dimension-20-audio-only-season-30
+collections:
+- dimension-20-audio-only-season-30
+lastmod:       2026-09-23T00:00:00.000Z
+title:         'Run, Run, As Fast As You Can [Audio Only] - Toylight'
+seasonNumber:  30
+episodeNumber: 2
+releaseDate:   '2026-09-23'
+url:           'https://watch.dropout.tv/dimension-20-audio-only/season:30/videos/run-run-as-fast-as-you-can-audio-only'
+showTitle:     'Dimension 20 [Audio Only]'
+showSlug:      dimension-20-audio-only
+description:   'The toys reconnoiter, have an angelic encounter, and send a diplomatic envoy to enemy lines.'
+itemId:        4201400
+collectionId:  1503708
+firstSeen:     2026-09-24T15:49:56.843Z
+scrapedAt:     2026-09-24T15:50:34.028Z
 
 ---
 

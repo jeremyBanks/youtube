@@ -79473,7 +79473,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-24T15:49:18.885Z
+scrapedAt:     2026-09-25T15:49:36.585Z
 lastChangedAt: 2026-09-21T17:04:41.094Z
 
 ---
@@ -175055,7 +175055,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-23T15:27:24.381Z
+scrapedAt:     2026-09-25T15:49:36.725Z
 lastChangedAt: 2026-09-19T14:25:38.415Z
 
 ---
@@ -175108,8 +175108,17 @@ privacyStatus: public
 itemCount:     3
 createdAt:     2026-09-16T22:49:05.885Z
 entries:
-- videoId: nkxLPvyt1xE
+- videoId: YH9MdfO0sz8
   position: 0
+  addedAt: 2026-09-23T23:00:16.000Z
+  videoPublishedAt: 2026-09-17T19:53:03.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: 'Run, Run, As Fast As You Can | Dimension 20: Toylight Season 1 | Ep. 2'
+  description: "The toys reconnoiter, have an angelic encounter, and send a diplomatic envoy to enemy lines.  \n\nContent Warning:\_\nThemes of Childhood Illness and References to Child Death\_\nCoulrophobia (Clown Illustrations) - [throughout]\n\nWelcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv\n\nWant to pay us more? Then sign up for Dropout Superfan, our optional \"pay more if you feel like it\" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan\n\nAnd if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!\n\nIn the meantime, leave us some nice comments on this video. It's a good one, right?\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv\n\nFOLLOW US EVERYWHERE:\nhttps://www.twitter.com/dropout\nhttps://www.instagram.com/dropouttv\nhttps://www.tiktok.com/@dropoutdottv\nhttps://www.facebook.com/dropouttv"
+- videoId: nkxLPvyt1xE
+  position: 1
   addedAt: 2026-09-16T23:01:22.000Z
   videoPublishedAt: 2026-09-15T00:26:42.000Z
   privacyStatus: public
@@ -175140,7 +175149,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: 84kZcc5TEzY
-  position: 1
+  position: 2
   addedAt: 2026-09-16T22:49:53.000Z
   videoPublishedAt: 2026-08-12T17:30:33.000Z
   privacyStatus: public
@@ -175156,18 +175165,9 @@ entries:
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
-- videoId: YH9MdfO0sz8
-  position: 2
-  addedAt: 2026-09-23T23:00:16.000Z
-  videoPublishedAt: 2026-09-17T19:53:03.000Z
-  privacyStatus: public
-  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
-  ownerChannelTitle: Dropout
-  title: 'Run, Run, As Fast As You Can | Dimension 20: Toylight Season 1 | Ep. 2'
-  description: "The toys reconnoiter, have an angelic encounter, and send a diplomatic envoy to enemy lines.  \n\nContent Warning:\_\nThemes of Childhood Illness and References to Child Death\_\nCoulrophobia (Clown Illustrations) - [throughout]\n\nWelcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv\n\nWant to pay us more? Then sign up for Dropout Superfan, our optional \"pay more if you feel like it\" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan\n\nAnd if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!\n\nIn the meantime, leave us some nice comments on this video. It's a good one, right?\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv\n\nFOLLOW US EVERYWHERE:\nhttps://www.twitter.com/dropout\nhttps://www.instagram.com/dropouttv\nhttps://www.tiktok.com/@dropoutdottv\nhttps://www.facebook.com/dropouttv"
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-09-24T15:49:18.997Z
-lastChangedAt: 2026-09-24T15:49:16.332Z
+scrapedAt:     2026-09-25T15:49:36.819Z
+lastChangedAt: 2026-09-25T15:49:34.371Z
 
 ---
 
@@ -176455,7 +176455,7 @@ playlistId:    PLQ4CkdjprOqo
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 title:         'Adventuring Party: Season 25 (Full Episodes)'
 privacyStatus: public
-itemCount:     1
+itemCount:     2
 createdAt:     2026-09-17T17:32:45.971Z
 entries:
 - videoId: DT3lpVlVgqw
@@ -176484,9 +176484,39 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
+- videoId: 7l3xmZy8Q80
+  position: 1
+  addedAt: 2026-09-24T17:30:34.000Z
+  videoPublishedAt: 2026-09-17T20:58:12.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: Street Sharts | Adventuring Party Season 25 | Ep. 2
+  description: |-
+    The cast draws each other, learns about gluten contamination, and prepares for the upcoming battle.
+
+    Content Warning:
+    Brief Mentions of Childhood Illness and Death
+    Suicide Joke [12:45-12:56]
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-09-24T15:49:19.085Z
-lastChangedAt: 2026-09-18T14:59:34.232Z
+scrapedAt:     2026-09-25T15:49:36.934Z
+lastChangedAt: 2026-09-25T15:49:34.371Z
 
 ---
 
@@ -249021,8 +249051,27 @@ privacyStatus: public
 itemCount:     28
 createdAt:     2020-08-04T05:29:02.776Z
 entries:
-- videoId: KW3erx7NBsA
+- videoId: aRwqsFWEO6c
   position: 0
+  addedAt: 2026-09-18T22:33:05.000Z
+  videoPublishedAt: 2026-09-23T17:30:39.000Z
+  privacyStatus: public
+  ownerChannelId: UCC8zWIx8aBQme-x1nX9iZ0A
+  ownerChannelTitle: Dimension 20
+  title: 'Sing A Song of Six | Dimension 20: Toylight [Full Season Premiere]'
+  description: |-
+    Six grizzled toys reunite to guard the sacred nursery Toylight.
+
+    Content Warning: 
+    Themes of Childhood Illness and References to Child Death 
+    Coulrophobia (Clown Illustrations) - [throughout]
+    Suicide Joke [50:16-50:17]
+
+    Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: KW3erx7NBsA
+  position: 1
   addedAt: 2026-07-31T20:52:25.000Z
   videoPublishedAt: 2026-07-31T20:53:11.000Z
   privacyStatus: public
@@ -249045,7 +249094,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: W63ILhEsvGY
-  position: 1
+  position: 2
   addedAt: 2026-01-12T18:16:50.000Z
   videoPublishedAt: 2026-01-14T18:30:51.000Z
   privacyStatus: public
@@ -249062,7 +249111,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: jW0HiXgrfZs
-  position: 2
+  position: 3
   addedAt: 2025-06-07T00:26:37.000Z
   videoPublishedAt: 2025-06-11T17:30:16.000Z
   privacyStatus: public
@@ -249080,7 +249129,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: V7AlcIyvaoI
-  position: 3
+  position: 4
   addedAt: 2025-04-07T17:23:11.000Z
   videoPublishedAt: 2025-04-09T17:30:04.000Z
   privacyStatus: public
@@ -249098,7 +249147,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: YCXG4GcaOno
-  position: 4
+  position: 5
   addedAt: 2025-01-11T00:31:01.000Z
   videoPublishedAt: 2025-01-15T18:30:25.000Z
   privacyStatus: public
@@ -249112,7 +249161,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: _Vs3wkltoOQ
-  position: 5
+  position: 6
   addedAt: 2024-11-12T01:27:22.000Z
   videoPublishedAt: 2024-11-13T18:30:22.000Z
   privacyStatus: public
@@ -249121,7 +249170,7 @@ entries:
   title: 'Quangle in Queal Quife | Dimension 20: Time Quangle [Full Episode]'
   description: "Familiar faces from across Dimension 20 are quangled together for this live show adventure. New episodes of Dimension 20: Time Quangle premiere in December. For the rest of the series (as well as the Adventuring Party talkbacks and more exclusive series), sign up for Dropout here: https://dimension20.dropout.tv \n\nContent Warning: \nChild Endangerment - [throughout]\_\nChild Death - [27:11-27:33]\nLoss of Autonomy (Possession) - [throughout]\n\nWelcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv"
 - videoId: 0RQOAawrzxo
-  position: 6
+  position: 7
   addedAt: 2024-09-27T23:47:30.000Z
   videoPublishedAt: 2024-10-02T17:30:00.000Z
   privacyStatus: public
@@ -249135,7 +249184,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: MM9-dbT4FuI
-  position: 7
+  position: 8
   addedAt: 2024-07-02T23:03:43.000Z
   videoPublishedAt: 2024-07-03T17:30:03.000Z
   privacyStatus: public
@@ -249154,7 +249203,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: G4o_mJKAJxY
-  position: 8
+  position: 9
   addedAt: 2024-01-17T17:48:21.000Z
   videoPublishedAt: 2024-01-17T18:30:14.000Z
   privacyStatus: public
@@ -249169,7 +249218,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: N-sOmXthcp8
-  position: 9
+  position: 10
   addedAt: 2023-10-11T01:36:11.000Z
   videoPublishedAt: 2023-10-11T17:30:02.000Z
   privacyStatus: public
@@ -249184,7 +249233,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: 9pT1OhH3F1Y
-  position: 10
+  position: 11
   addedAt: 2023-08-10T23:32:49.000Z
   videoPublishedAt: 2023-08-16T17:30:02.000Z
   privacyStatus: public
@@ -249205,7 +249254,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: MZhCgp-GRQ8
-  position: 11
+  position: 12
   addedAt: 2023-07-05T16:34:28.000Z
   videoPublishedAt: 2023-07-05T17:30:01.000Z
   privacyStatus: public
@@ -249224,7 +249273,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: LiBe4WJaLo0
-  position: 12
+  position: 13
   addedAt: 2023-05-16T19:05:42.000Z
   videoPublishedAt: 2023-05-17T17:30:03.000Z
   privacyStatus: public
@@ -249244,7 +249293,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: 7GTogwQVmYE
-  position: 13
+  position: 14
   addedAt: 2022-12-16T16:12:57.000Z
   videoPublishedAt: 2022-12-21T18:30:04.000Z
   privacyStatus: public
@@ -249268,7 +249317,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: hMNzZiN0-P0
-  position: 14
+  position: 15
   addedAt: 2022-08-05T17:36:02.000Z
   videoPublishedAt: 2022-08-16T17:30:04.000Z
   privacyStatus: public
@@ -249284,7 +249333,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: GiEQO77PV9Q
-  position: 15
+  position: 16
   addedAt: 2020-08-04T05:30:42.000Z
   videoPublishedAt: 2020-02-29T19:00:01.000Z
   privacyStatus: public
@@ -249296,7 +249345,7 @@ entries:
 
     Support Dimension 20 by signing up for Dropout.tv: https://dimension20.dropout.tv, where you can get EVERY season, EVERY behind-the-scenes feature, and EVERY Adventuring Party talkback! It's only $5 a month! That's like 17 cents a day!
 - videoId: 6I7cZG_RoWI
-  position: 16
+  position: 17
   addedAt: 2022-01-25T18:33:55.000Z
   videoPublishedAt: 2022-01-25T18:30:05.000Z
   privacyStatus: public
@@ -249310,7 +249359,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 - videoId: C1VffF1Z5-Y
-  position: 17
+  position: 18
   addedAt: 2021-07-26T17:09:29.000Z
   videoPublishedAt: 2021-07-27T17:30:00.000Z
   privacyStatus: public
@@ -249324,7 +249373,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 - videoId: REnc_wXkHnc
-  position: 18
+  position: 19
   addedAt: 2020-08-04T05:30:42.000Z
   videoPublishedAt: 2020-04-08T23:00:10.000Z
   privacyStatus: public
@@ -249345,7 +249394,7 @@ entries:
     #acrownofcandy
     #dimension20
 - videoId: _zZxCVBi7-k
-  position: 19
+  position: 20
   addedAt: 2020-08-04T05:30:42.000Z
   videoPublishedAt: 2018-10-09T17:30:01.000Z
   privacyStatus: public
@@ -249385,7 +249434,7 @@ entries:
     #BrennanLeeMulligan
     #dnd
 - videoId: l-y98OYaXu8
-  position: 20
+  position: 21
   addedAt: 2020-08-04T05:30:42.000Z
   videoPublishedAt: 2020-01-15T18:30:05.000Z
   privacyStatus: public
@@ -249403,7 +249452,7 @@ entries:
     #BrennanLeeMulligan
     #dnd
 - videoId: 2Kktwa0kqaU
-  position: 21
+  position: 22
   addedAt: 2020-08-04T05:30:42.000Z
   videoPublishedAt: 2019-07-23T00:21:19.000Z
   privacyStatus: public
@@ -249427,7 +249476,7 @@ entries:
     #BrennanLeeMulligan
     #dnd
 - videoId: 9_LkwjqQ_mo
-  position: 22
+  position: 23
   addedAt: 2021-10-22T18:13:12.000Z
   videoPublishedAt: 2021-09-21T17:30:00.000Z
   privacyStatus: public
@@ -249443,7 +249492,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 - videoId: _GX8075fX3k
-  position: 23
+  position: 24
   addedAt: 2021-08-24T18:51:41.000Z
   videoPublishedAt: 2021-08-24T17:30:02.000Z
   privacyStatus: public
@@ -249457,7 +249506,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 - videoId: msr-i7SwcN0
-  position: 24
+  position: 25
   addedAt: 2022-03-10T05:19:50.000Z
   videoPublishedAt: 2022-03-08T18:30:44.000Z
   privacyStatus: public
@@ -249469,7 +249518,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 - videoId: J5D0ij7cv-c
-  position: 25
+  position: 26
   addedAt: 2020-08-04T05:30:42.000Z
   videoPublishedAt: 2019-11-20T18:30:01.000Z
   privacyStatus: public
@@ -249488,7 +249537,7 @@ entries:
     #BrennanLeeMulligan
     #dnd
 - videoId: ul8iK77Cl-k
-  position: 26
+  position: 27
   addedAt: 2022-06-28T19:48:09.000Z
   videoPublishedAt: 2022-06-28T17:30:04.000Z
   privacyStatus: public
@@ -249501,15 +249550,9 @@ entries:
     Note: there are no plans for the remainder of the season to be uploaded to Youtube.
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
-- videoId: aRwqsFWEO6c
-  position: 27
-  addedAt: 2026-09-18T22:33:05.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-23T15:27:25.806Z
-lastChangedAt: 2026-09-19T14:25:47.785Z
+scrapedAt:     2026-09-25T15:49:38.459Z
+lastChangedAt: 2026-09-25T15:49:37.329Z
 
 ---
 
@@ -374559,7 +374602,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-20T14:41:58.093Z
+scrapedAt:     2026-09-25T15:49:37.085Z
 lastChangedAt: 2026-09-10T06:06:24.350Z
 
 ---
@@ -379341,7 +379384,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-24T15:49:19.417Z
+scrapedAt:     2026-09-25T15:49:37.218Z
 lastChangedAt: 2026-09-23T15:27:17.854Z
 
 ---
@@ -444608,7 +444651,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-24T15:49:33.258Z
+scrapedAt:     2026-09-25T15:49:37.328Z
 lastChangedAt: 2026-09-22T15:33:35.912Z
 
 ---

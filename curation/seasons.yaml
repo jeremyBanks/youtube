@@ -6951,6 +6951,10 @@ videos:
     dropout: behind-the-scenes-of-i-spy
     members: i1GsD1EhuI8
     published: 2026-09-14
+  - episode: 810. Last Talent Standing
+    dropout: last-talent-standing
+    members: kStwcIffMdE
+    published: 2026-09-21
 
 ---
 
@@ -7563,6 +7567,10 @@ videos:
     dropout: one-to-two-is-fine
     members: elycQJIb8EE
     published: 2026-09-18
+  - special: "Smartyshorts: How Many Holes Does a Straw Have?"
+    dropout: smartyshorts-how-many-holes-does-a-straw-have
+    members: 8mu5mEKNhDM
+    published: 2026-09-25
 
 ---
 
@@ -7940,6 +7948,7 @@ videos:
     published: 2026-08-12
   - episode: 1. Sing A Song of Six
     dropout: sing-a-song-of-six
+    public: aRwqsFWEO6c
     members: nkxLPvyt1xE
     published: 2026-09-16
   - bts: Toy-O, Like Boyo
@@ -7947,6 +7956,15 @@ videos:
     talkback: true
     members: DT3lpVlVgqw
     published: 2026-09-17
+  - episode: 2. Run, Run, As Fast As You Can
+    dropout: run-run-as-fast-as-you-can
+    members: YH9MdfO0sz8
+    published: 2026-09-23
+  - bts: Street Sharts
+    dropout: street-sharts
+    talkback: true
+    members: 7l3xmZy8Q80
+    published: 2026-09-24
 
 ---
 
@@ -9024,6 +9042,14 @@ videos:
     members: 49hYURUTcwM
     removed members: 1Nf0e07oOIA
     published: 2026-09-08
+  - episode: 14. Young Spencer Goes to School
+    dropout: young-spencer-goes-to-school
+    # Dated from YouTube, not Dropout. Dropout gives this the same release
+    # date as episode 13, 2026-09-08, which cannot be right: the show runs
+    # fortnightly and 11, 12 and 13 fall on 08-11, 08-25 and 09-08, so 14
+    # belongs on 09-22 -- which is when YouTube published it.
+    members: SmtonlOiRuA
+    published: 2026-09-22
 
 ---
 
@@ -10219,3 +10245,6 @@ videos:
   - episode: "2026-09-14. Make Some Noise Season 5 Trailer, Dimension 20 Toylight Premiere, And More!"
     public: 1hO2u2sG6lk
     published: 2026-09-14
+  - episode: "2026-09-21. Game Changer Season 8 Finale, New Dimension 20, And More!"
+    public: H8zVxUl2kuY
+    published: 2026-09-21

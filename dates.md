@@ -83,6 +83,20 @@ within days or weeks of Dropout's date while ours is a year or more out:
 
 Not yet applied.
 
+## Where Dropout itself is wrong
+
+One entry deliberately carries a date Dropout disagrees with, so `verify-dates`
+reports it every run and the reason should not have to be re-derived:
+
+- **Toonout 14, "Young Spencer Goes to School".** Dropout gives it 2026-09-08,
+  the same date as episode 13. Toonout runs fortnightly and episodes 11, 12 and
+  13 fall on 08-11, 08-25 and 09-08, so 14 belongs on 09-22 -- which is when
+  YouTube published it. Curated as 2026-09-22.
+
+This is the exception to "the official release date lives on watch.dropout.tv",
+and it is narrow: the official date is wrong only where it duplicates an
+adjacent episode's and the show's own cadence says otherwise.
+
 ## What not to touch
 
 - The ±2–3 day band. Some dates were adjusted deliberately to control ordering,

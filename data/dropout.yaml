@@ -9267,7 +9267,6 @@ collection:    game-changer-season-8
 collections:
 - game-changer-behind-the-scenes
 - game-changer-season-8
-- new-releases
 lastmod:       2026-09-21T00:00:00.000Z
 title:         Behind the Scenes of "What's the Catch"
 seasonNumber:  8
@@ -56572,10 +56571,30 @@ scrapedAt:     2026-08-31T07:06:01.750Z
 
 ---
 
-slug:          smartyshorts-morning-showers-or-night-showers
+slug:          smartyshorts-how-many-holes-does-a-straw-have
 collection:    smartypants-season-3
 collections:
 - new-releases
+- smartypants-season-3
+lastmod:       2026-09-25T00:00:00.000Z
+title:         'Smartyshorts: How Many Holes Does a Straw Have?'
+seasonNumber:  3
+episodeNumber: 16
+releaseDate:   '2026-09-25'
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-how-many-holes-does-a-straw-have'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society argues how many holes does a straw actually have.
+itemId:        4202679
+collectionId:  1498226
+firstSeen:     2026-09-26T14:58:51.308Z
+scrapedAt:     2026-09-26T14:59:16.251Z
+
+---
+
+slug:          smartyshorts-morning-showers-or-night-showers
+collection:    smartypants-season-3
+collections:
 - smartypants-season-3
 lastmod:       2026-09-18T00:00:00.000Z
 title:         'Smartyshorts: Morning Showers or Night Showers'

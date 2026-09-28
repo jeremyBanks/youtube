@@ -79479,7 +79479,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-27T15:39:51.113Z
+scrapedAt:     2026-09-28T18:36:11.793Z
 lastChangedAt: 2026-09-26T14:58:17.452Z
 
 ---
@@ -175087,7 +175087,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-27T15:39:51.212Z
+scrapedAt:     2026-09-28T18:36:11.883Z
 lastChangedAt: 2026-09-26T14:58:17.452Z
 
 ---
@@ -175198,7 +175198,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-09-27T15:39:51.280Z
+scrapedAt:     2026-09-28T18:36:11.953Z
 lastChangedAt: 2026-09-25T15:49:34.371Z
 
 ---
@@ -175467,7 +175467,7 @@ itemCount:     0
 createdAt:     2026-08-26T14:23:22.406Z
 entries:       []
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-19T14:25:55.002Z
+scrapedAt:     2026-09-28T18:36:27.737Z
 
 ---
 
@@ -176547,7 +176547,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-09-27T15:39:51.356Z
+scrapedAt:     2026-09-28T18:36:12.024Z
 lastChangedAt: 2026-09-26T14:58:17.452Z
 
 ---
@@ -249583,7 +249583,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-27T15:40:00.270Z
+scrapedAt:     2026-09-28T18:36:20.813Z
 lastChangedAt: 2026-09-25T15:49:37.329Z
 
 ---
@@ -375224,7 +375224,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-01T15:28:17.921Z
+scrapedAt:     2026-09-28T18:36:12.129Z
 
 ---
 
@@ -425497,7 +425497,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-27T15:39:59.478Z
+scrapedAt:     2026-09-28T18:36:19.405Z
 lastChangedAt: 2026-09-26T14:58:17.452Z
 
 ---
@@ -444115,7 +444115,7 @@ playlistId:    PLuKg-WhduhknG6ds8t0CmJsOarC-YY0CO
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 title:         'Game Changer: Season 8 (Full Episodes)'
 privacyStatus: public
-itemCount:     21
+itemCount:     22
 createdAt:     2026-05-18T22:13:24.453Z
 entries:
 - videoId: DkB7Q3r09SM
@@ -444694,9 +444694,35 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
+- videoId: yhRbJlgCLq4
+  position: 21
+  addedAt: 2026-09-28T17:30:36.000Z
+  videoPublishedAt: 2026-09-21T23:16:13.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: Behind the Scenes of "Last Talent Standing" | Game Changer (Bonus Content)
+  description: |-
+    Take a look behind the scenes of Game Changer's season 8 finale episode, “Last Talent Standing.”
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-26T19:16:03.613Z
-lastChangedAt: 2026-09-22T15:33:35.912Z
+scrapedAt:     2026-09-28T18:36:19.504Z
+lastChangedAt: 2026-09-28T18:36:08.831Z
 
 ---
 

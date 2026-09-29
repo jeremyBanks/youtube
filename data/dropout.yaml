@@ -2562,7 +2562,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         A Rorschach Test But On Their Face
 seasonNumber:  3
 episodeNumber: 7
@@ -3388,7 +3388,6 @@ slug:          a-witch-hunt
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-- new-releases
 lastmod:       2026-09-21T00:00:00.000Z
 title:         A Witch Hunt
 seasonNumber:  2
@@ -11413,7 +11412,7 @@ slug:          bonk-and-vibes
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         Bonk and Vibes
 seasonNumber:  3
 episodeNumber: 2
@@ -14435,7 +14434,7 @@ slug:          choppedness-cannot-be-outrun
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         Choppedness Cannot Be Outrun
 seasonNumber:  3
 episodeNumber: 3
@@ -22673,6 +22672,33 @@ upNextIds:
 - 263409
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T17:50:25.163Z
+
+---
+
+slug:          everybody-pregnant
+collection:    crowd-control-season-2
+collections:
+- crowd-control-season-2
+- new-releases
+lastmod:       2026-09-28T00:00:00.000Z
+title:         Everybody Pregnant
+seasonNumber:  2
+episodeNumber: 5
+releaseDate:   '2026-09-28'
+url:           'https://watch.dropout.tv/crowd-control/season:2/videos/everybody-pregnant'
+showTitle:     Crowd Control
+showSlug:      crowd-control
+description:   |-
+  Kristin, Dulcé, and Debra showcase their hidden talents.
+
+  Content Warning: 
+  Discussions of Harrowing Personal Situations, Medical Conditions, and Extreme Body Modifications - [throughout]
+  Description of BDSM-Related Skin Piercing, Needle Use - [27:04-27:55, 29:16-29:18]
+  Emetophobia (Gagging) - [2...
+itemId:        4207589
+collectionId:  1503904
+firstSeen:     2026-09-29T16:54:51.039Z
+scrapedAt:     2026-09-29T16:55:15.768Z
 
 ---
 
@@ -39563,6 +39589,7 @@ scrapedAt:     2026-08-31T07:30:54.223Z
 slug:          last-talent-standing
 collection:    game-changer-season-8
 collections:
+- game-changer-battle-royale-1
 - game-changer-new
 - game-changer-season-8
 - new-releases
@@ -47210,7 +47237,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         One to Two Is Fine
 seasonNumber:  3
 episodeNumber: 8
@@ -48198,7 +48225,6 @@ scrapedAt:     2026-08-31T17:13:24.307Z
 slug:          paper-trail
 collection:    the-don-hertzfeldt-collection-season-1
 collections:
-- new-releases
 - the-don-hertzfeldt-collection-new
 - the-don-hertzfeldt-collection-season-1
 lastmod:       2026-09-21T00:00:00.000Z
@@ -56574,7 +56600,7 @@ slug:          smartyshorts-audiobooks
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: Audiobooks'
 seasonNumber:  3
 episodeNumber: 4
@@ -56599,7 +56625,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-25T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: How Many Holes Does a Straw Have?'
 seasonNumber:  3
 episodeNumber: 16
@@ -56619,7 +56645,7 @@ slug:          smartyshorts-morning-showers-or-night-showers
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: Morning Showers or Night Showers'
 seasonNumber:  3
 episodeNumber: 12
@@ -56639,7 +56665,7 @@ slug:          smartyshorts-nice-to-meet-you
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: Nice to Meet You'
 seasonNumber:  3
 episodeNumber: 2
@@ -56663,7 +56689,7 @@ slug:          smartyshorts-school-subjects
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: School Subjects'
 seasonNumber:  3
 episodeNumber: 6
@@ -56687,7 +56713,7 @@ slug:          smartyshorts-spoiler-etiquette
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: Spoiler Etiquette'
 seasonNumber:  3
 episodeNumber: 8
@@ -56712,7 +56738,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: When Does the Week Start?'
 seasonNumber:  3
 episodeNumber: 14
@@ -56736,7 +56762,7 @@ slug:          smartyshorts-which-type-of-french-fry-is-the-best
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         'Smartyshorts: Which Type of French Fry Is the Best?'
 seasonNumber:  3
 episodeNumber: 10
@@ -60456,7 +60482,7 @@ slug:          tax-the-tall
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         Tax the Tall
 seasonNumber:  3
 episodeNumber: 5
@@ -67396,7 +67422,7 @@ slug:          the-power-of-words
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         The Power of Words
 seasonNumber:  3
 episodeNumber: 4
@@ -67935,7 +67961,7 @@ slug:          the-rules-of-content
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         The Rules of Content
 seasonNumber:  3
 episodeNumber: 1
@@ -82926,7 +82952,7 @@ slug:          you-cannot-be-you-without-yourself
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-09-18T00:00:00.000Z
+lastmod:       2026-09-28T00:00:00.000Z
 title:         You Cannot Be You Without Yourself
 seasonNumber:  3
 episodeNumber: 6

@@ -4292,6 +4292,19 @@ scrapedAt:     2026-08-31T05:23:39.517Z
 
 ---
 
+slug:          hundreds-of-beavers
+title:         Hundreds of Beavers
+description:   A drunk salesman battles hundreds of beavers to become North America's greatest 19th century trapper.
+episodes:
+- hundreds-of-beavers
+itemIds:
+- 4209088
+size:          1
+firstSeen:     2026-09-30T16:49:52.493Z
+scrapedAt:     2026-09-30T16:50:17.805Z
+
+---
+
 slug:          if-google-was-a-guy-1
 title:         If Google Was A Guy
 description:   'He''s here to help, but you''re not helping.'
@@ -4921,7 +4934,7 @@ itemIds:
 - 4113147
 - 4112082
 - 4106141
-size:          20
+size:          21
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:14:48.372Z
 
@@ -6273,7 +6286,7 @@ itemIds:
 - 2988663
 - 3235105
 - 3219401
-size:          96
+size:          97
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:11:42.114Z
 

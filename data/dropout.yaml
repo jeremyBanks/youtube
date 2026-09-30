@@ -10844,7 +10844,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Blink Twice If You’re Dead
 seasonNumber:  1
 episodeNumber: 2
@@ -11662,7 +11662,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Boring Guys
 seasonNumber:  1
 episodeNumber: 9
@@ -16418,7 +16418,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Crossed Animals
 seasonNumber:  1
 episodeNumber: 6
@@ -31477,7 +31477,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Hot Peasant Summer
 seasonNumber:  1
 episodeNumber: 11
@@ -32476,6 +32476,45 @@ upNextIds:
 - 2405773
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T15:38:55.563Z
+
+---
+
+slug:          hundreds-of-beavers
+collection:    new-releases
+collections:
+- hundreds-of-beavers
+- new-releases
+lastmod:       2026-09-29T00:00:00.000Z
+title:         Hundreds of Beavers
+releaseDate:   '2026-09-29'
+url:           'https://watch.dropout.tv/hundreds-of-beavers/videos/hundreds-of-beavers'
+description:   |-
+  Drunk salesman battles hundreds of beavers to become North America's greatest 19th century trapper.
+
+  Content Warning: 
+  Comedic Injuries and Slapstick Violence 
+  Photosensitive Epilepsy Warning (Flashing) - [1:30:24-1:45:18]
+  Comedic References to Suicide - [18:19-18:26, 22:33-22:47]
+  Emetophobia (Re...
+itemId:        4209088
+collectionId:  1515421
+firstSeen:     2026-09-30T16:49:52.493Z
+scrapedAt:     2026-09-30T16:50:30.017Z
+
+---
+
+slug:          hundreds-of-beavers-trailer
+collection:    trailers
+collections:
+- trailers
+lastmod:       2026-09-29T00:00:00.000Z
+title:         Hundreds of Beavers Trailer
+releaseDate:   '2026-09-29'
+url:           'https://watch.dropout.tv/videos/hundreds-of-beavers-trailer'
+description:   'The black and white, indie, slapstick comedy comes to Dropout. The entire film is available now to stream, US only.'
+itemId:        4209143
+firstSeen:     2026-09-30T16:49:52.493Z
+scrapedAt:     2026-09-30T16:50:42.207Z
 
 ---
 
@@ -37149,7 +37188,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-10T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Josh's Deli
 seasonNumber:  1
 episodeNumber: 5
@@ -39562,7 +39601,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Last Meal
 seasonNumber:  1
 episodeNumber: 8
@@ -44350,7 +44389,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-10T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         My Husband
 seasonNumber:  1
 episodeNumber: 7
@@ -46453,7 +46492,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Off the Reservation
 seasonNumber:  1
 episodeNumber: 12
@@ -62149,7 +62188,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         The Burbank Beetleboy
 seasonNumber:  1
 episodeNumber: 3
@@ -65623,7 +65662,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-10T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         The Legend of Legendarius
 seasonNumber:  1
 episodeNumber: 1
@@ -67302,7 +67341,7 @@ collections:
 - new-releases
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         The Pickle
 seasonNumber:  1
 episodeNumber: 13
@@ -77083,7 +77122,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Wealwell's Guide to Reposed Standing
 seasonNumber:  1
 episodeNumber: 4
@@ -81766,7 +81805,7 @@ collection:    toonout-season-1
 collections:
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-11T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Winky's Speakeasy
 seasonNumber:  1
 episodeNumber: 10
@@ -83732,7 +83771,7 @@ collections:
 - new-releases
 - toonout-new
 - toonout-season-1
-lastmod:       2026-09-22T00:00:00.000Z
+lastmod:       2026-09-29T00:00:00.000Z
 title:         Young Spencer Goes to School
 seasonNumber:  1
 episodeNumber: 14

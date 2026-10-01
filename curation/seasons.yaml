@@ -6750,6 +6750,10 @@ videos:
     dropout: kids-are-trash
     members: 7ZEMdPf4srQ
     published: 2026-09-14
+  - episode: 205. Everybody Pregnant
+    dropout: everybody-pregnant
+    members: _7ftW79qe08
+    published: 2026-09-28
 
 ---
 
@@ -6955,6 +6959,10 @@ videos:
     dropout: last-talent-standing
     members: kStwcIffMdE
     published: 2026-09-21
+  - bts: Last Talent Standing
+    dropout: behind-the-scenes-of-last-talent-standing
+    members: yhRbJlgCLq4
+    published: 2026-09-28
 
 ---
 
@@ -7965,6 +7973,10 @@ videos:
     talkback: true
     members: 7l3xmZy8Q80
     published: 2026-09-24
+  - episode: 3. The Worms Crawl In, The Worms Crawl Out
+    dropout: the-worms-crawl-in-the-worms-crawl-out
+    members: e5e46PgF7mk
+    published: 2026-09-30
 
 ---
 
@@ -9021,6 +9033,7 @@ videos:
     # old one, same title and synopsis. The old id was still in the channel's
     # uploads feed when this was written, so "removed" here is removal from
     # that playlist, not from YouTube.
+    public: d9hqqqeEht4
     members: rdz0clvf0kE
     removed members: eY0iVJhHh-s
     published: 2026-07-28
@@ -10248,3 +10261,6 @@ videos:
   - episode: "2026-09-21. Game Changer Season 8 Finale, New Dimension 20, And More!"
     public: H8zVxUl2kuY
     published: 2026-09-21
+  - episode: "2026-09-28. New Dimension 20, Crowd Control, And Smartypants!"
+    public: Jbz6DRjlBms
+    published: 2026-09-28

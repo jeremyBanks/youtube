@@ -32507,7 +32507,7 @@ slug:          hundreds-of-beavers-trailer
 collection:    trailers
 collections:
 - trailers
-lastmod:       2026-09-29T00:00:00.000Z
+lastmod:       2026-09-30T00:00:00.000Z
 title:         Hundreds of Beavers Trailer
 releaseDate:   '2026-09-29'
 url:           'https://watch.dropout.tv/videos/hundreds-of-beavers-trailer'
@@ -33005,7 +33005,6 @@ scrapedAt:     2026-08-31T18:04:09.492Z
 slug:          i-have-enough-butt
 collection:    parlor-room-season-2
 collections:
-- new-releases
 - parlor-room-season-2
 lastmod:       2026-09-03T00:00:00.000Z
 title:         I Have Enough Butt
@@ -41696,6 +41695,7 @@ description:   'Please take your seats. New season coming soon, only on Dropout.
 itemId:        4150305
 firstSeen:     2026-09-03T15:00:42.631Z
 scrapedAt:     2026-09-03T15:01:07.351Z
+removedBefore: 2026-10-01T03:10:08.915Z
 
 ---
 
@@ -53375,7 +53375,7 @@ collections:
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
 - new-releases
-lastmod:       2026-09-24T00:00:00.000Z
+lastmod:       2026-10-01T00:00:00.000Z
 title:         'Run, Run, As Fast As You Can'
 seasonNumber:  1
 episodeNumber: 2
@@ -53395,7 +53395,7 @@ slug:          run-run-as-fast-as-you-can-audio-only
 collection:    dimension-20-audio-only-season-30
 collections:
 - dimension-20-audio-only-season-30
-lastmod:       2026-09-24T00:00:00.000Z
+lastmod:       2026-10-01T00:00:00.000Z
 title:         'Run, Run, As Fast As You Can [Audio Only] - Toylight'
 seasonNumber:  30
 episodeNumber: 2
@@ -55971,7 +55971,7 @@ collections:
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
 - new-releases
-lastmod:       2026-09-24T00:00:00.000Z
+lastmod:       2026-10-01T00:00:00.000Z
 title:         Sing A Song of Six
 seasonNumber:  1
 episodeNumber: 1
@@ -55997,7 +55997,7 @@ slug:          sing-a-song-of-six-audio-only
 collection:    dimension-20-audio-only-season-30
 collections:
 - dimension-20-audio-only-season-30
-lastmod:       2026-09-24T00:00:00.000Z
+lastmod:       2026-10-01T00:00:00.000Z
 title:         'Sing A Song of Six [Audio Only] - Toylight'
 seasonNumber:  30
 episodeNumber: 1
@@ -70287,6 +70287,62 @@ upNextIds:
 - 463877
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T12:14:29.488Z
+
+---
+
+slug:          the-worms-crawl-in-the-worms-crawl-out
+collection:    dimension-20-toylight-season-1
+collections:
+- dimension-20-new-releases
+- dimension-20-the-complete-series-season-31
+- dimension-20-toylight-season-1
+- new-releases
+lastmod:       2026-10-01T00:00:00.000Z
+title:         'The Worms Crawl In, The Worms Crawl Out'
+seasonNumber:  1
+episodeNumber: 3
+releaseDate:   '2026-09-30'
+url:           'https://watch.dropout.tv/dimension-20-toylight/season:1/videos/the-worms-crawl-in-the-worms-crawl-out'
+showTitle:     'Dimension 20: Toylight'
+showSlug:      dimension-20-toylight
+description:   |-
+  The Dark Prince of the Ratkin lays siege to the Nursery as the Toys attempt to hold the line.
+
+  Content Warning: 
+  References to Childhood Illness
+  Violence (Light descriptions of) - [throughout] 
+  Coulrophobia (Clown Illustrations) - [throughout]
+  Arachnophobia (Light description of spiders) [1:30:28...
+itemId:        4211829
+collectionId:  1503707
+firstSeen:     2026-10-01T03:10:08.915Z
+scrapedAt:     2026-10-01T03:10:34.211Z
+
+---
+
+slug:          the-worms-crawl-in-the-worms-crawl-out-audio-only
+collection:    dimension-20-audio-only-season-30
+collections:
+- dimension-20-audio-only-season-30
+lastmod:       2026-10-01T00:00:00.000Z
+title:         'The Worms Crawl In, The Worms Crawl Out [Audio Only] - Toylight'
+seasonNumber:  30
+episodeNumber: 3
+releaseDate:   '2026-09-30'
+url:           'https://watch.dropout.tv/dimension-20-audio-only/season:30/videos/the-worms-crawl-in-the-worms-crawl-out-audio-only'
+showTitle:     'Dimension 20 [Audio Only]'
+showSlug:      dimension-20-audio-only
+description:   |-
+  The Dark Prince of the Ratkin lays siege to the Nursery as the Toys attempt to hold the line.
+
+  Content Warning: 
+  References to Childhood Illness
+  Violence (Light descriptions of) - [throughout] 
+  Arachnophobia (Light description of spiders) [1:30:28-1:30:35]
+itemId:        4211846
+collectionId:  1503708
+firstSeen:     2026-10-01T03:10:08.915Z
+scrapedAt:     2026-10-01T03:10:46.413Z
 
 ---
 

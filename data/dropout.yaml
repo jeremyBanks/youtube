@@ -2559,7 +2559,6 @@ scrapedAt:     2026-08-31T13:28:32.650Z
 slug:          a-rorschach-test-but-on-their-face
 collection:    smartypants-season-3
 collections:
-- new-releases
 - smartypants-season-3
 lastmod:       2026-09-28T00:00:00.000Z
 title:         A Rorschach Test But On Their Face
@@ -36361,6 +36360,28 @@ scrapedAt:     2026-08-31T20:59:24.387Z
 
 ---
 
+slug:          j-r-j-r-b-nks
+collection:    dimension-20-s-adventuring-party-season-25
+collections:
+- dimension-20-new-releases
+- dimension-20-s-adventuring-party-season-25
+- new-releases
+lastmod:       2026-10-01T00:00:00.000Z
+title:         J*r J*r B*nks
+seasonNumber:  25
+episodeNumber: 3
+releaseDate:   '2026-10-01'
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:25/videos/j-r-j-r-b-nks'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   The cast gives our legal team nightmares.
+itemId:        4211853
+collectionId:  1510269
+firstSeen:     2026-10-02T02:26:37.168Z
+scrapedAt:     2026-10-02T02:27:02.486Z
+
+---
+
 slug:          j-w-smokes
 collection:    very-important-people-season-3
 collections:
@@ -59157,7 +59178,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
 - new-releases
-lastmod:       2026-09-24T00:00:00.000Z
+lastmod:       2026-10-01T00:00:00.000Z
 title:         Street Sharts
 seasonNumber:  25
 episodeNumber: 2
@@ -72708,7 +72729,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
 - new-releases
-lastmod:       2026-09-24T00:00:00.000Z
+lastmod:       2026-10-01T00:00:00.000Z
 title:         'Toy-O, Like Boyo'
 seasonNumber:  25
 episodeNumber: 1

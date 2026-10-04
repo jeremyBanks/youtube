@@ -1034,11 +1034,8 @@ channelTitle:    LRR Streams
 title:           '007: First Light with Graham || LRR2026 Sub-A-Thon'
 uploadedAt:      2026-09-11T17:34:03.000Z
 duration:        10474
-resolvedAt:      2026-09-15T15:34:33.194Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   public
-regionsBlocked:
-- BY
-- RU
 licensedContent: false
 description:     |-
   Broadcast 2026-08-24
@@ -1485,8 +1482,9 @@ channelTitle:    LoadingReadyRun
 title:           Phailhaüs - 25
 uploadedAt:      2009-08-12T13:23:42.000Z
 duration:        601
-resolvedAt:      2026-09-01T17:52:48.404Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   unlisted
+description:     'Graham and Kathleen recount their trip to Japan: An Adventure in Engrish.'
 
 ---
 
@@ -2405,8 +2403,9 @@ channelTitle:    Dropout
 title:           Brennan Creates a Tiny Pirate Shipwreck (Game Changer Clip)
 uploadedAt:      2020-02-28T20:19:06.000Z
 duration:        31
-resolvedAt:      2026-09-01T16:54:14.639Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   unlisted
+description:     'Game Changer season 2 has premiered on DROPOUT. Sign up for DROPOUT using code GAMECHANGER and get 10% off your first 3 months: https://www.dropout.tv'
 
 ---
 
@@ -4850,8 +4849,24 @@ channelTitle:    Geek & Sundry
 title:           'Critical Role: Critical Trolls for Extra Life!'
 uploadedAt:      2015-10-05T19:13:36.000Z
 duration:        11304
-resolvedAt:      2026-09-01T16:54:14.639Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   unlisted
+description:     |-
+  We asked Geek & Sundry and Nerdist fans to open up your hearts for kids in need, and you showed us that we have one of the best fan communities on Earth. 
+
+  Not only did we manage to reach multiple goals during Board Game Appreciation Weekend for Extra Life, but we have raised over $76,000 to help kids in local Children’s Miracle Network Hospitals. 
+
+  Go to our Extra Life charity page at http://bit.ly/GnS_ExtraLife, hit the donate button, and start giving. Remember that all the proceeds are tax deductible and that all of your money goes directly to the kids.
+
+  Check out the Geek and Sundry Twitch stream for more.
+
+  Visit us on http://geekandsundry.com
+  Subscribe to Geek and Sundry: http://goo.gl/B62jl
+  Join our community at: http://geekandsundry.com/community
+  Twitter: http://twitter.com/geekandsundry
+  Facebook: http://facebook.com/geekandsundry
+  Instagram: http://instagram.com/geekandsundry
+  Google+: https://plus.google.com/+GeekandSundry/
 
 ---
 
@@ -6547,7 +6562,7 @@ channelTitle:    Dorkly
 title:           'Super Mario Bros 2, Zelda, DC & More - Dorkly Bits Grab Bag #46'
 uploadedAt:      2026-09-10T16:15:05.000Z
 duration:        798
-resolvedAt:      2026-09-15T15:34:33.194Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   public
 description:     |-
   Huh? Neat! 
@@ -10002,8 +10017,9 @@ channelTitle:    Dropout
 title:           'Mascara: How to Look Not Sick'
 uploadedAt:      2018-02-08T18:07:50.000Z
 duration:        33
-resolvedAt:      2026-09-01T16:54:14.639Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   unlisted
+description:     ''
 
 ---
 
@@ -15280,8 +15296,12 @@ channelTitle:    Dropout
 title:           'Bad Internet :60 Ad'
 uploadedAt:      2016-05-14T01:45:01.000Z
 duration:        65
-resolvedAt:      2026-09-01T16:54:14.639Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   unlisted
+description:     |-
+  From the minds of CollegeHumor comes Bad Internet, a YouTube Red Original Series featuring 10 darkly comedic stories about technology and the Internet failing in surprising ways.
+
+  Watch on May 25.
 
 ---
 
@@ -15927,8 +15947,11 @@ channelTitle:    shanniiine
 title:           Dimension 20 but it’s just Gilear Faeth dodging
 uploadedAt:      2020-01-02T01:04:00.000Z
 duration:        84
-resolvedAt:      2026-09-01T16:54:14.639Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   unlisted
+licensedContent: false
+embedSize:       1276x720
+description:     ''
 
 ---
 
@@ -18010,7 +18033,7 @@ channelTitle:    Darrington Press
 title:           The ABCs of Rest and Recovery | Get Your Sheet Together
 uploadedAt:      2026-08-26T16:00:17.000Z
 duration:        337
-resolvedAt:      2026-09-15T15:34:33.194Z
+resolvedAt:      2026-10-04T15:48:48.710Z
 privacyStatus:   public
 description:     |-
   Become a rest master in Daggerheart with Liam O'Brien, who guides you through all the different ways you and your party can best use your time in between adventuring!

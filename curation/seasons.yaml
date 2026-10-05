@@ -6957,7 +6957,12 @@ videos:
     published: 2026-09-14
   - episode: 810. Last Talent Standing
     dropout: last-talent-standing
-    members: kStwcIffMdE
+    # Re-uploaded 2026-10-05, and this one is a replacement outright: the old
+    # id left the channel's uploads feed as well as Dropout's own "Game
+    # Changer: Season 8 (Full Episodes)" playlist, where gd9qzhVjoDI took its
+    # position 20. Same title, same synopsis, identical 5,234 seconds.
+    members: gd9qzhVjoDI
+    removed members: kStwcIffMdE
     published: 2026-09-21
   - bts: Last Talent Standing
     dropout: behind-the-scenes-of-last-talent-standing
@@ -7579,6 +7584,10 @@ videos:
     dropout: smartyshorts-how-many-holes-does-a-straw-have
     members: 8mu5mEKNhDM
     published: 2026-09-25
+  - episode: 309. That's a Bang-Off
+    dropout: that-s-a-bang-off
+    members: oqxqtUBOCtA
+    published: 2026-10-02
 
 ---
 
@@ -10269,3 +10278,6 @@ videos:
   - episode: "2026-09-28. New Dimension 20, Crowd Control, And Smartypants!"
     public: Jbz6DRjlBms
     published: 2026-09-28
+  - episode: "2026-10-05. Make Some Noise Is BACK, Dimension 20, And More!"
+    public: xQZcb9FOSvM
+    published: 2026-10-05

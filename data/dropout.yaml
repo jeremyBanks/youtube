@@ -3386,7 +3386,7 @@ slug:          a-witch-hunt
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-09-21T00:00:00.000Z
+lastmod:       2026-10-06T00:00:00.000Z
 title:         A Witch Hunt
 seasonNumber:  2
 episodeNumber: 3
@@ -22678,7 +22678,7 @@ collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
 - new-releases
-lastmod:       2026-09-28T00:00:00.000Z
+lastmod:       2026-10-06T00:00:00.000Z
 title:         Everybody Pregnant
 seasonNumber:  2
 episodeNumber: 5
@@ -29179,7 +29179,7 @@ slug:          hal-rose-said-to-watch-this-episode
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-09-21T00:00:00.000Z
+lastmod:       2026-10-06T00:00:00.000Z
 title:         Hal Rose Said to Watch This Episode
 seasonNumber:  2
 episodeNumber: 2
@@ -36364,6 +36364,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
 - new-releases
+- zoom-energy-adventuring-party
 lastmod:       2026-10-01T00:00:00.000Z
 title:         J*r J*r B*nks
 seasonNumber:  25
@@ -37919,7 +37920,7 @@ collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
 - new-releases
-lastmod:       2026-09-21T00:00:00.000Z
+lastmod:       2026-10-06T00:00:00.000Z
 title:         Kids Are Trash
 seasonNumber:  2
 episodeNumber: 4
@@ -40040,7 +40041,7 @@ slug:          lesbian-applause-break
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-09-21T00:00:00.000Z
+lastmod:       2026-10-06T00:00:00.000Z
 title:         Lesbian Applause Break
 seasonNumber:  2
 episodeNumber: 1
@@ -41718,9 +41719,8 @@ removedBefore: 2026-10-01T03:10:08.915Z
 ---
 
 slug:          make-some-noise-season-5-trailer
-collection:    featured
+collection:    trailers
 collections:
-- featured
 - new-releases
 - trailers
 lastmod:       2026-09-15T00:00:00.000Z
@@ -66824,6 +66824,34 @@ scrapedAt:     2026-08-31T09:24:26.590Z
 
 ---
 
+slug:          the-noise-boys-make-one-noise
+collection:    make-some-noise-season-5
+collections:
+- brennan-being-pedantic-on-make-some-noise
+- make-some-noise-season-5
+- new-releases
+- noise-boys
+lastmod:       2026-10-05T00:00:00.000Z
+title:         The Noise Boys Make One Noise
+seasonNumber:  5
+episodeNumber: 1
+releaseDate:   '2026-10-05'
+url:           'https://watch.dropout.tv/make-some-noise/season:5/videos/the-noise-boys-make-one-noise'
+showTitle:     Make Some Noise
+showSlug:      make-some-noise
+description:   |-
+  Josh, Zac, and Brennan alienate members of the jury and axe through the bathroom door.
+
+  Content Warning: 
+  Misophonia (Repeated mouth noises) - [throughout 3:17-6:02]
+  Emetophobia (Imitated vomiting) [8:53-8:58]
+itemId:        4216005
+collectionId:  1510286
+firstSeen:     2026-10-06T17:12:01.050Z
+scrapedAt:     2026-10-06T17:12:25.842Z
+
+---
+
 slug:          the-noise-boys-ride-again
 collection:    make-some-noise-season-4
 collections:
@@ -67377,7 +67405,6 @@ scrapedAt:     2026-08-31T15:51:34.752Z
 slug:          the-pickle
 collection:    toonout-season-1
 collections:
-- new-releases
 - toonout-new
 - toonout-season-1
 lastmod:       2026-09-29T00:00:00.000Z

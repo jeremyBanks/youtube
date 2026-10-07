@@ -30007,6 +30007,29 @@ scrapedAt:     2026-08-31T15:38:30.974Z
 
 ---
 
+slug:          heaven
+collection:    toonout-season-1
+collections:
+- featured
+- new-releases
+- toonout-new
+- toonout-season-1
+lastmod:       2026-10-06T00:00:00.000Z
+title:         Heaven
+seasonNumber:  1
+episodeNumber: 15
+releaseDate:   '2026-10-06'
+url:           'https://watch.dropout.tv/toonout/season:1/videos/heaven'
+showTitle:     Toonout
+showSlug:      toonout
+description:   'After flatlining in the hospital, young April learns paradise is a LOT wilder than she''d thought.'
+itemId:        4217433
+collectionId:  1489017
+firstSeen:     2026-10-07T17:49:57.440Z
+scrapedAt:     2026-10-07T17:50:22.798Z
+
+---
+
 slug:          heaven-and-hell-on-earth
 collection:    dimension-20-the-unsleeping-city-season-2
 collections:
@@ -83889,7 +83912,6 @@ scrapedAt:     2026-08-31T12:09:45.893Z
 slug:          young-spencer-goes-to-school
 collection:    toonout-season-1
 collections:
-- featured
 - new-releases
 - toonout-new
 - toonout-season-1

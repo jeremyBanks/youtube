@@ -7121,6 +7121,10 @@ videos:
     dropout: make-some-noise-season-5-trailer
     public: XxHOfFxAIYY
     published: 2026-09-15
+  - episode: 501. The Noise Boys Make One Noise
+    dropout: the-noise-boys-make-one-noise
+    members: rph-IC6MOpQ
+    published: 2026-10-05
 
 ---
 
@@ -7588,6 +7592,10 @@ videos:
     dropout: that-s-a-bang-off
     members: oqxqtUBOCtA
     published: 2026-10-02
+  - special: "Smartyshorts: Can You Move Someone Else's Laundry From the Dryer?"
+    dropout: smartyshorts-can-you-move-someone-else-s-laundry-from-the-dryer
+    members: 9qQmP-C2o2I
+    published: 2026-10-09
 
 ---
 
@@ -7991,6 +7999,15 @@ videos:
     talkback: true
     members: _I2eJM-L-Cg
     published: 2026-10-01
+  - episode: 4. Ashes, Ashes, We All Fall
+    dropout: ashes-ashes-we-all-fall
+    members: SLliyObumzI
+    published: 2026-10-07
+  - bts: War Council
+    dropout: war-council
+    talkback: true
+    members: siaIgo6MKOI
+    published: 2026-10-08
 
 ---
 
@@ -9077,6 +9094,10 @@ videos:
     # belongs on 09-22 -- which is when YouTube published it.
     members: SmtonlOiRuA
     published: 2026-09-22
+  - episode: 15. Heaven
+    dropout: heaven
+    members: m-iUiGvonJw
+    published: 2026-10-06
 
 ---
 

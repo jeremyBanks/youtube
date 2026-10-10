@@ -104,9 +104,9 @@ plainly which steps did not run.
 
 ## Before concluding something is absent
 
-Three times in one session a search that could not have found a thing was
-reported as evidence the thing did not exist. Each time the claim was wrong, and
-twice it was published or committed before anyone asked how we knew.
+Four times a search that could not have found a thing was reported as evidence
+the thing did not exist. Each time the claim was wrong, and three times it was
+published or committed before anyone asked how we knew.
 
 - **Lonely and Horny** was written off as "not on YouTube" on the strength of a
   search across `data/`, when the Jake and Amir channel — the one channel likely
@@ -116,6 +116,19 @@ twice it was published or committed before anyone asked how we knew.
 - **See Plum Run "was pulled from watch.dropout.tv"**, from a count grouped by
   `showTitle`. It is on the site, and that sentence reached the published
   playlist description on a channel with real subscribers.
+- **"trunk is an orphan history that severed three years of commits"**, from
+  `git merge-base` finding nothing and `git rev-list --max-parents=0` naming a
+  September commit as a root. The session's clone was **shallow**, so that
+  commit only looked parentless because its parent had never been downloaded.
+  The history was attached the whole time. The claim reached the owner as a
+  catastrophe and produced a merge commit, `baf1302`, that attached zero commits
+  and whose message describes a severance that never happened.
+
+**Cloud containers clone shallow.** Before any finding about git history -- a
+missing ancestor, a root commit, a commit count -- run
+`git rev-parse --is-shallow-repository`, and if it says `true`, run
+`git fetch --unshallow` first. A shallow boundary is indistinguishable from a
+root, and it is the default here.
 
 So: before writing down that something is missing, say what query was run and
 why that query would have found it if it were there. If that sentence cannot be

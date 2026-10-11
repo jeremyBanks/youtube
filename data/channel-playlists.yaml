@@ -79508,7 +79508,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-10T23:58:52.485Z
+scrapedAt:     2026-10-11T16:38:56.279Z
 lastChangedAt: 2026-10-10T04:54:00.571Z
 
 ---
@@ -175168,7 +175168,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-10T23:58:52.781Z
+scrapedAt:     2026-10-11T16:38:56.397Z
 lastChangedAt: 2026-10-10T04:54:00.571Z
 
 ---
@@ -175677,7 +175677,7 @@ itemCount:     0
 createdAt:     2026-08-26T14:23:22.406Z
 entries:       []
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-28T18:36:27.737Z
+scrapedAt:     2026-10-11T16:39:12.143Z
 
 ---
 
@@ -175767,11 +175767,11 @@ entries:
 - videoId: UGPuD8U3As0
   position: 3
   addedAt: 2026-09-06T20:54:06.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
+  privacyStatus: privacyStatusUnspecified
+  title: Deleted video
+  description: This video is unavailable.
 firstSeen:     2026-09-07T16:27:51.786Z
-scrapedAt:     2026-10-03T15:10:58.417Z
+scrapedAt:     2026-10-11T16:39:12.268Z
 lastChangedAt: 2026-09-12T14:08:49.333Z
 
 ---
@@ -176858,7 +176858,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-10-10T23:58:53.461Z
+scrapedAt:     2026-10-11T16:38:56.475Z
 lastChangedAt: 2026-10-08T17:52:31.524Z
 
 ---
@@ -248430,7 +248430,7 @@ entries:
     #BrennanLeeMulligan
     #dnd
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-10T16:14:39.074Z
+scrapedAt:     2026-10-11T16:39:05.098Z
 lastChangedAt: 2026-10-07T17:49:28.852Z
 
 ---
@@ -426577,7 +426577,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-10T23:59:05.756Z
+scrapedAt:     2026-10-11T16:39:04.278Z
 lastChangedAt: 2026-10-10T04:54:00.571Z
 
 ---

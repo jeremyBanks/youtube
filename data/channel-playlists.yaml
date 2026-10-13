@@ -175342,7 +175342,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-10-12T20:17:46.164Z
+scrapedAt:     2026-10-13T06:14:36.742Z
 lastChangedAt: 2026-10-12T20:17:43.355Z
 
 ---
@@ -176749,8 +176749,34 @@ privacyStatus: public
 itemCount:     4
 createdAt:     2026-09-17T17:32:45.971Z
 entries:
-- videoId: _I2eJM-L-Cg
+- videoId: siaIgo6MKOI
   position: 0
+  addedAt: 2026-10-08T17:30:48.000Z
+  videoPublishedAt: 2026-10-01T23:10:42.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: War Council | Adventuring Party Season 25 | Ep. 4
+  description: |-
+    With a focus never before seen in AP, the cast locks in & strategizes for their upcoming battle.
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
+- videoId: _I2eJM-L-Cg
+  position: 1
   addedAt: 2026-10-01T17:31:19.000Z
   videoPublishedAt: 2026-09-24T18:53:30.000Z
   privacyStatus: public
@@ -176776,7 +176802,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: 7l3xmZy8Q80
-  position: 1
+  position: 2
   addedAt: 2026-09-24T17:30:34.000Z
   videoPublishedAt: 2026-09-17T20:58:12.000Z
   privacyStatus: public
@@ -176806,7 +176832,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: DT3lpVlVgqw
-  position: 2
+  position: 3
   addedAt: 2026-09-17T17:32:55.000Z
   videoPublishedAt: 2026-09-10T22:11:28.000Z
   privacyStatus: public
@@ -176831,35 +176857,9 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
-- videoId: siaIgo6MKOI
-  position: 3
-  addedAt: 2026-10-08T17:30:48.000Z
-  videoPublishedAt: 2026-10-01T23:10:42.000Z
-  privacyStatus: public
-  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
-  ownerChannelTitle: Dropout
-  title: War Council | Adventuring Party Season 25 | Ep. 4
-  description: |-
-    With a focus never before seen in AP, the cast locks in & strategizes for their upcoming battle.
-
-    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
-
-    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
-
-    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
-
-    In the meantime, leave us some nice comments on this video. It's a good one, right?
-
-    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
-
-    FOLLOW US EVERYWHERE:
-    https://www.twitter.com/dropout
-    https://www.instagram.com/dropouttv
-    https://www.tiktok.com/@dropoutdottv
-    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-10-11T16:38:56.475Z
-lastChangedAt: 2026-10-08T17:52:31.524Z
+scrapedAt:     2026-10-13T06:14:36.959Z
+lastChangedAt: 2026-10-13T06:14:32.565Z
 
 ---
 
@@ -177930,7 +177930,7 @@ playlistId:    PLUu2uuvY0feY
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 title:         'Crowd Control: Season 2 (Full Episodes)'
 privacyStatus: public
-itemCount:     6
+itemCount:     7
 createdAt:     2026-07-07T17:57:20.526Z
 entries:
 - videoId: w0R8F3KEP6E
@@ -178111,9 +178111,42 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
+- videoId: w03up30I-K0
+  position: 6
+  addedAt: 2026-10-12T23:00:11.000Z
+  videoPublishedAt: 2026-10-06T00:37:34.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: Can I Have Your Leg? | Crowd Control Season 2 | Ep. 6
+  description: |-
+    Amber, Demi, and Roz are ready for take off! 
+
+    Content Warning: 
+    Discussions of Harrowing Personal Situations and Descriptions of Physical Injuries
+    Emetophobia (Descriptions and imitations of vomiting, nausea)  [9:27-9:41]
+    Description of Murder (Non-graphic)  [21:53-22:03, 22:55-23:14]
+    Discussions of Fatal Car Accidents (Non-graphic) [26:38-27:10]
+    Discussions of Conversion and Shock therapy [28:32-29:13]
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-09T17:26:43.711Z
-lastChangedAt: 2026-09-29T16:53:42.462Z
+scrapedAt:     2026-10-13T06:14:37.222Z
+lastChangedAt: 2026-10-13T06:14:32.565Z
 
 ---
 
@@ -246545,7 +246578,7 @@ entries:
 
     Welcome to Very Important People - the show about the most interesting voices in society. To watch full episodes, just sign up for Dropout! It's only $6/month, and you get tons of exclusive shows like Game Changer, Dimension 20, Make Some Noise, Dirty Laundry, Breaking News, Um Actually, and more! https://veryimportantpeople.dropout.tv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-12T20:18:02.875Z
+scrapedAt:     2026-10-13T06:14:45.792Z
 lastChangedAt: 2026-10-12T20:18:01.964Z
 
 ---

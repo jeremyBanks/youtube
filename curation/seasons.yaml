@@ -2820,7 +2820,7 @@ videos:
     published: 2024-05-13
   - trailer: Game Changer Season 6 Finale Trailer
     public: EIRxM7W1qzg
-    public copy: GpdjOZQRlhE
+    public short: GpdjOZQRlhE
     published: 2024-05-27
   - episode: 608. Ratfish (Part 1)
     dropout: ratfish-part-1
@@ -6121,7 +6121,7 @@ show: Dimension 20
 videos:
   - trailer: Titan Takedown Trailer
     public: "-91PjwLRk0I"
-    public copy: __DYbtP2YG4
+    public short: __DYbtP2YG4
     published: 2025-02-26
   - episode: 1. Party Animals
     dropout: party-animals
@@ -6876,12 +6876,12 @@ season: Season 8
 videos:
   - trailer: Game Changer Season 8 Teaser
     public: mujrCGRPgLs
-    public copy: J90g94Ube1k
+    public short: J90g94Ube1k
     published: 2026-04-06
   - trailer: Game Changer Season 8 Trailer
     dropout: game-changer-season-8-trailer
     public: DkB7Q3r09SM
-    public copy: 0493iyI--nk
+    public short: 0493iyI--nk
     published: 2026-04-20
   - episode: 801. Don't Wake Standards & Practices
     dropout: don-t-wake-standards-practices
@@ -6981,7 +6981,7 @@ videos:
   - trailer: Dirty Laundry Season 5 Trailer
     dropout: dirty-laundry-season-5-trailer
     public: HHoGMR_qNpI
-    public copy: ublWViUo8aM
+    public short: ublWViUo8aM
     published: 2025-06-17
   - episode: 501. Who Got Yelled at by a Real Housewife?
     dropout: who-got-yelled-at-by-a-real-housewife
@@ -7116,10 +7116,11 @@ videos:
 show: Make Some Noise
 season: Season 5
 videos:
-  # The teaser went up on both channels 45 minutes apart, same 35 seconds.
+  # The teaser went up on both channels 45 minutes apart, same 35 seconds; the
+  # show channel's is the vertical cut.
   - trailer: Make Some Noise Season 5 Teaser
     public: vwFYqOHMf6U
-    public copy: GwHaNJh3meg
+    public short: GwHaNJh3meg
     published: 2026-09-02
   - trailer: Make Some Noise Season 5 Trailer
     dropout: make-some-noise-season-5-trailer
@@ -7261,7 +7262,7 @@ videos:
   - trailer: Very Important People Season 3 Trailer
     dropout: very-important-people-season-3-trailer
     public: kvjWaYi9tMQ
-    public copy: S38Qli_Fz1U
+    public short: S38Qli_Fz1U
     published: 2025-11-20
   - episode: 301. Mother Hot Dog
     dropout: mother-hot-dog
@@ -7448,7 +7449,7 @@ videos:
   - trailer: Smartypants Season 2 Trailer
     dropout: smartypants-season-2-trailer
     public: SPNQ8fGFHFA
-    public copy: KSGivr6pEwg
+    public short: KSGivr6pEwg
     published: 2025-02-13
   - episode: 201. Standardization, Dogs, Procrastination
     dropout: standardization-dogs-procrastination
@@ -7730,7 +7731,7 @@ videos:
   - trailer: "Dimension 20: Gladlands Trailer"
     dropout: dimension-20-gladlands-trailer
     public: gczIk6MGl-o
-    public copy: FFan7no-0MI
+    public short: FFan7no-0MI
     published: 2025-12-17
   - episode: 1. Welcome to the Wastes
     dropout: welcome-to-the-wastes
@@ -8259,7 +8260,7 @@ season: Season 1
 videos:
   - trailer: The Don Hertzfeldt Collection Is Now On Dropout
     public: fS4aHNB5WRo
-    public copy: ZrvBUiDK8Gc
+    public short: ZrvBUiDK8Gc
     published: 2026-08-04
   - bts: How Dropout Got the Don Hertzfeldt Collection
     public: c3_2MQliYHc
@@ -8985,7 +8986,7 @@ videos:
   - trailer: Toonout Trailer
     dropout: toonout-trailer
     public: LTba5203dGc
-    public copy: DuUH_nMv3-4
+    public short: DuUH_nMv3-4
     published: 2026-03-10
   - episode: 1. The Legend of Legendarius
     dropout: the-legend-of-legendarius
@@ -10313,9 +10314,10 @@ videos:
 show: MP3
 season: Season 1
 videos:
-  # The show's own channel posted the same 107 seconds half an hour later.
+  # The show's own channel posted a vertical cut of the same 107 seconds half
+  # an hour later.
   - trailer: MP3 Trailer
     dropout: mp3-trailer
     public: Q9Uvlu_mDAU
-    public copy: Yz5TOaWpOvw
+    public short: Yz5TOaWpOvw
     published: 2026-10-13

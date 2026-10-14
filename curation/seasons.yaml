@@ -10309,3 +10309,11 @@ videos:
   - episode: "2026-10-12. Emily Takes Over Dimension 20, Demi Adejuyigbe on New Crowd Control, And More!"
     public: TN3sl6rpSVU
     published: 2026-10-12
+---
+show: MP3
+season: Season 1
+videos:
+  - trailer: MP3 Trailer
+    dropout: mp3-trailer
+    public: Q9Uvlu_mDAU
+    published: 2026-10-13

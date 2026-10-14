@@ -694,3 +694,10 @@ show = "This Week on Dropout"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} weekly schedule announcements from the @Dropout channel: a minute each, posted every Monday, naming what the week is about to bring. ${MAYBE_MEMBERS_ONLY}
 """
+
+[PLeFofbWq1F4s]
+name = "MP3 (${ALL_SEASONS})"
+show = "MP3"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. ${MAYBE_MEMBERS_ONLY}
+"""

@@ -5183,3 +5183,15 @@ videos:
   Jbz6DRjlBms: 'New Dimension 20, Crowd Control, And Smartypants!'
   xQZcb9FOSvM: 'Make Some Noise Is BACK, Dimension 20, And More!'
   TN3sl6rpSVU: 'Emily Takes Over Dimension 20, Demi Adejuyigbe on New Crowd Control, And More!'
+
+---
+
+name:        MP3
+description: |-
+  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLA6HQcdpkBB0
+
+  2-minute playlist of 0 episodes and 1 trailers from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. The one video is free.
+playlistId:  PLeFofbWq1F4s
+unlisted:    true
+videos:
+  Q9Uvlu_mDAU: 'MP3 Trailer [New Dropout Series]'

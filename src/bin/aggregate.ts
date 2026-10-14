@@ -276,6 +276,62 @@ async function main() {
     );
   }
 
+  // Where an entry has both a `public` and a `public copy`, the copy on the
+  // channel we draw fewer curated videos from is the one published: a show's
+  // own channel over Dropout's, Dorkly's over Dimension 20's. Counted over
+  // every id the curation names, published or not, and resolved per entry, so
+  // a tie or a channel we know nothing about keeps `public` where it was.
+  //
+  // Only when the two are the same video. A copy at another shape is a Shorts
+  // cut, whatever its length, and one more than 30 seconds apart is an edit;
+  // Dorkly's runs 19 seconds over Dimension 20's for a bumper, and that is
+  // fine.
+  const curatedFromChannel = new Map<string, number>();
+  for (const season of seasons) {
+    for (const entry of season.videos) {
+      for (const value of Object.values(entry)) {
+        for (const id of Array.isArray(value) ? value : [value]) {
+          const channelId = typeof id === "string"
+            ? videosById.get(id)?.channelId
+            : undefined;
+          if (channelId) {
+            curatedFromChannel.set(
+              channelId,
+              (curatedFromChannel.get(channelId) ?? 0) + 1,
+            );
+          }
+        }
+      }
+    }
+  }
+  const curatedCount = (id: string) => {
+    const channelId = videosById.get(id)?.channelId;
+    return channelId === undefined
+      ? undefined
+      : curatedFromChannel.get(channelId);
+  };
+  const preferredPublic = (
+    episode: { public?: string; "public copy"?: string },
+  ) => {
+    const main = episode.public;
+    const copy = episode["public copy"];
+    if (!main || !copy) return main;
+    const [left, right] = [videosById.get(main), videosById.get(copy)];
+    if (
+      !left?.duration || !right?.duration ||
+      (left.embedSize ?? "1280x720") !== (right.embedSize ?? "1280x720") ||
+      Math.abs(left.duration - right.duration) > 30
+    ) {
+      return main;
+    }
+    const mainCount = curatedCount(main);
+    const copyCount = curatedCount(copy);
+    return mainCount !== undefined && copyCount !== undefined &&
+        copyCount < mainCount
+      ? copy
+      : main;
+  };
+
   const prefixesFor = showPrefixes(dropoutCollections, dropoutConfig.shows);
 
   // The playlists the scanned channels publish themselves, so that a playlist
@@ -403,7 +459,7 @@ async function main() {
           continue;
         }
         if (episode.public) {
-          videoIds.push(episode.public);
+          videoIds.push(preferredPublic(episode)!);
           included.push(episode);
           freeCount += 1;
           if (episode.episode || episode.special) {

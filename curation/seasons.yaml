@@ -10313,7 +10313,9 @@ videos:
 show: MP3
 season: Season 1
 videos:
+  # The show's own channel posted the same 107 seconds half an hour later.
   - trailer: MP3 Trailer
     dropout: mp3-trailer
     public: Q9Uvlu_mDAU
+    public copy: Yz5TOaWpOvw
     published: 2026-10-13

@@ -78881,7 +78881,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-10-13T18:18:44.634Z
-scrapedAt:     2026-10-13T18:18:47.198Z
+scrapedAt:     2026-10-14T15:49:34.786Z
 lastChangedAt: 2026-10-13T18:18:44.634Z
 
 ---
@@ -79547,7 +79547,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-12T20:17:45.961Z
+scrapedAt:     2026-10-14T15:49:34.933Z
 lastChangedAt: 2026-10-10T04:54:00.571Z
 
 ---
@@ -175207,7 +175207,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-12T20:17:46.072Z
+scrapedAt:     2026-10-14T15:49:35.044Z
 lastChangedAt: 2026-10-10T04:54:00.571Z
 
 ---
@@ -175381,7 +175381,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-10-13T18:18:46.849Z
+scrapedAt:     2026-10-14T15:49:35.154Z
 lastChangedAt: 2026-10-12T20:17:43.355Z
 
 ---
@@ -175764,7 +175764,7 @@ entries:
   title: Deleted video
   description: This video is unavailable.
 firstSeen:     2026-09-30T16:49:21.972Z
-scrapedAt:     2026-10-10T23:58:53.222Z
+scrapedAt:     2026-10-14T15:49:35.219Z
 lastChangedAt: 2026-09-30T16:49:21.972Z
 
 ---
@@ -176897,7 +176897,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-10-13T18:18:46.933Z
+scrapedAt:     2026-10-14T15:49:35.283Z
 lastChangedAt: 2026-10-13T06:14:32.565Z
 
 ---
@@ -178184,7 +178184,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-13T18:18:47.021Z
+scrapedAt:     2026-10-14T15:49:35.348Z
 lastChangedAt: 2026-10-13T06:14:32.565Z
 
 ---
@@ -246617,7 +246617,7 @@ entries:
 
     Welcome to Very Important People - the show about the most interesting voices in society. To watch full episodes, just sign up for Dropout! It's only $6/month, and you get tons of exclusive shows like Game Changer, Dimension 20, Make Some Noise, Dirty Laundry, Breaking News, Um Actually, and more! https://veryimportantpeople.dropout.tv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-13T18:18:52.671Z
+scrapedAt:     2026-10-14T15:49:47.904Z
 lastChangedAt: 2026-10-12T20:18:01.964Z
 
 ---
@@ -380476,7 +380476,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-12T20:17:46.457Z
+scrapedAt:     2026-10-14T15:49:35.449Z
 lastChangedAt: 2026-10-07T17:49:18.804Z
 
 ---
@@ -389586,9 +389586,29 @@ entries:
 - videoId: Q9Uvlu_mDAU
   position: 1
   addedAt: 2026-10-09T21:47:49.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
+  videoPublishedAt: 2026-10-13T17:30:28.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: 'MP3 Trailer [New Dropout Series]'
+  description: |-
+    Welcome to the world of MP3 - where every episode brings new outrageous music videos, ridiculous hosts, and surprise guests. Premieres November 4th only on Dropout.
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
 - videoId: NvOIzNyFo1o
   position: 2
   addedAt: 2026-10-03T01:11:08.000Z
@@ -426650,7 +426670,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-12T20:17:55.037Z
+scrapedAt:     2026-10-14T15:49:42.942Z
 lastChangedAt: 2026-10-10T04:54:00.571Z
 
 ---

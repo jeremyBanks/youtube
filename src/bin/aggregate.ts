@@ -283,9 +283,10 @@ async function main() {
   // a tie or a channel we know nothing about keeps `public` where it was.
   //
   // Only when the two are the same video. A copy at another shape is a Shorts
-  // cut, whatever its length, and one more than 30 seconds apart is an edit;
+  // cut, whatever its length, and one more than 64 seconds apart is an edit;
   // Dorkly's runs 19 seconds over Dimension 20's for a bumper, and that is
-  // fine.
+  // fine, and so is the Um, Actually channel's Simpsons special, 58 seconds
+  // over Dropout's for an ad read in the middle.
   const curatedFromChannel = new Map<string, number>();
   for (const season of seasons) {
     for (const entry of season.videos) {
@@ -320,7 +321,7 @@ async function main() {
     if (
       !left?.duration || !right?.duration ||
       (left.embedSize ?? "1280x720") !== (right.embedSize ?? "1280x720") ||
-      Math.abs(left.duration - right.duration) > 30
+      Math.abs(left.duration - right.duration) > 64
     ) {
       return main;
     }

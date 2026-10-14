@@ -88,6 +88,12 @@ recent-interval = "P14D"
 recent-window = "P96D"
 complete-interval = "P55D"
 
+[mp3show]
+incremental-interval = "PT8H"
+recent-interval = "P14D"
+recent-window = "P96D"
+complete-interval = "P55D"
+
 [nobodyaskedshow]
 incremental-interval = "PT8H"
 recent-interval = "P14D"

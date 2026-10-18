@@ -79570,7 +79570,7 @@ entries:
     https://www.facebook.com/dropouttv
   removedBefore: 2026-09-11T15:02:12.790Z
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-18T03:04:38.413Z
+scrapedAt:     2026-10-18T14:34:48.963Z
 lastChangedAt: 2026-10-17T05:30:57.308Z
 
 ---
@@ -175260,7 +175260,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-18T03:04:38.650Z
+scrapedAt:     2026-10-18T14:34:49.073Z
 lastChangedAt: 2026-10-17T05:30:57.308Z
 
 ---
@@ -175916,9 +175916,10 @@ entries:
   privacyStatus: privacyStatusUnspecified
   title: Deleted video
   description: This video is unavailable.
+  removedBefore: 2026-10-18T14:35:03.490Z
 firstSeen:     2026-09-07T16:27:51.786Z
-scrapedAt:     2026-10-11T16:39:12.268Z
-lastChangedAt: 2026-10-16T15:22:57.868Z
+scrapedAt:     2026-10-18T14:35:04.314Z
+lastChangedAt: 2026-10-18T14:35:03.490Z
 
 ---
 
@@ -376062,7 +376063,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-18T03:04:39.752Z
+scrapedAt:     2026-10-18T14:34:49.207Z
 lastChangedAt: 2026-10-17T05:30:57.308Z
 
 ---
@@ -427093,7 +427094,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-18T03:04:52.506Z
+scrapedAt:     2026-10-18T14:34:56.698Z
 lastChangedAt: 2026-10-17T05:30:57.308Z
 
 ---

@@ -188,6 +188,7 @@ async function* channelPlaylists(channelId: string) {
 async function* playlistEntries(playlistId: string) {
   const { youtube, key } = await getClientAndKey();
   let pageToken: string | undefined = undefined;
+  const followed = new Set<string>();
   do {
     console.debug(`youtube.playlistItems.list ${playlistId}`);
     const response: { data: youtube_v3.Schema$PlaylistItemListResponse } =
@@ -202,6 +203,18 @@ async function* playlistEntries(playlistId: string) {
       yield item;
     }
     pageToken = response.data.nextPageToken ?? undefined;
+    // YouTube has been seen to hand back a next-page token forever: a Toonout
+    // playlist of three entries was paged 35,549 times in one run, until the
+    // task was killed. A token already followed means the listing is
+    // cycling, and a thousand pages is 50,000 entries, more than any playlist
+    // here holds.
+    if (pageToken && (followed.has(pageToken) || followed.size >= 1000)) {
+      console.warn(
+        `Stopped paging ${playlistId}: next-page token repeats after ${followed.size} pages.`,
+      );
+      break;
+    }
+    if (pageToken) followed.add(pageToken);
   } while (pageToken);
 }
 

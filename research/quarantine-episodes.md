@@ -231,3 +231,9 @@ Their Game Changer precursors are dealt with above.
 6. CH Shorts 2020 beyond If Google Was a Guy, especially the cast catch-up video.
 7. Should Fantasy High Sophomore Year's Twitch run (web-streamed from the Dome, no audience) get its own marker, separate from quarantine?
 8. Should the 2022 Zoom talkbacks (AP S10–S11) be marked? They are remote but not quarantine.
+
+## Notes for a playlist, if one is made
+
+- **End on `Dimension 20 Update: A Safe Return to the Dome`** (BKiox8GK4MI, 2021-05-21), whatever the chronology. The owner
+  asked for this. Mice and Murder episodes released after it still go before it.
+- Ranges for a person to verify by eye are in `quarantine-boundaries.md`.

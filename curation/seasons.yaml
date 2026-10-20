@@ -2213,8 +2213,9 @@ videos:
 
 ---
 
-season: Dungeons and Drag Queens
 show: Dimension 20
+season: Dungeons and Drag Queens (Chapter 1)
+world: Dungeons and Drag Queens
 videos:
   - trailer: Dungeons and Drag Queens Trailer
     public: khZVjQL74qE
@@ -6054,6 +6055,7 @@ videos:
 
 show: Dimension 20
 season: Dungeons and Drag Queens (Chapter 2)
+world: Dungeons and Drag Queens
 videos:
   - trailer: Dungeons and Drag Queens Season 2 Trailer
     public: tbZILayxJ2I

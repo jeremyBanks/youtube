@@ -301,10 +301,10 @@ ${D20_PLUG}
 [PLObfuAmZm9pA8zs8-4LcmeA8m494S6Qhr]
 name = "Dimension 20: Dungeons and Drag Queens (${ALL_SEASONS})"
 show = "Dimension 20"
-season = "Dungeons and Drag Queens"
+world = "Dungeons and Drag Queens"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Dungeons and Drag Queens, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from ${SEASONS} seasons of Dungeons and Drag Queens, a series of campaigns from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """

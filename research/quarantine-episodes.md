@@ -6,9 +6,11 @@ same shot), do **not** count. They are listed as negatives.
 
 This is research only. Second pass, 2026-10-20. Nothing in `curation/`, `config/`, `src/` or `data/` was changed.
 
-Dates: **curated** means `published:` in `curation/seasons.yaml`, which is usually the YouTube date. **Dropout** means
-`releaseDate` in `data/dropout.yaml`. Where they differ, both are given. Several curated episode 1s carry a late YouTube date
-(for example, Pirates ep 1 is 2021-11-16), so stretches are given by Dropout release order.
+Dates: **curated** means `published:` in `curation/seasons.yaml`, our best understanding of the original release date and
+the one chronology should use. **Dropout** means `releaseDate` in `data/dropout.yaml`. Where they differ, both are given.
+Some stretches below were worked out in Dropout release order, because a few curated dates look wrong (Pirates of
+Leviathan ep 1 is curated 2021-11-16, a year after the season aired). Those are candidate curation errors to check with
+`deno task verify-dates`, not a reason to prefer Dropout's date.
 
 Confidence:
 - **confirmed**: a sourced statement covers the whole stretch.
@@ -79,7 +81,7 @@ The best company-wide figure is that studio production resumed between **late Ma
   takes place in the 'theater of the mind'" (D20 wiki, page `Pirates_of_Leviathan`). TheGamer interview with Brennan Lee Mulligan,
   2020-10-09: https://www.thegamer.com/brennan-lee-mulligan-dnd-dimension-20-covid-interview/
 - Stretch: everything curated, from the trailer (2020-08-12) through ep 6 (2020-10-20), plus AP S2 `Look At All My Friends!` and
-  `The Buccaneer Buddies Reunite`. Ep 1 carries a 2021-11-16 YouTube date. The animation (2022) is outside the stretch.
+  `The Buccaneer Buddies Reunite`. Ep 1 is curated 2021-11-16, which looks wrong: a candidate date correction. The animation (2022) is outside the stretch.
 
 ### The Unsleeping City (Chapter 2) — **quarantine** (confirmed)
 - Our own YouTube trailer description: "Remotely-shot to keep everyone in the cast and production team as safe as possible".
@@ -155,7 +157,7 @@ The best company-wide figure is that studio production resumed between **late Ma
   conference": https://en.wikipedia.org/wiki/Dropout_(streaming_service)
 
 ## Breaking News
-- **Season 3: likely in studio.** 8 of its 25 curated episodes carry YouTube dates of 2020-01-22/30/31, so they were made before
+- **Season 3: likely in studio.** 8 of its 25 curated episodes are dated 2020-01-22/30/31, so they were made before
   lockdown. The rest have Dropout dates from April to June 2020. `309. A Report From the CollegeHumor Office` (2020-04-20) is set in
   the office. No source was found for whether any S3 episode was made at home.
 - **Seasons 4–5: unknown.** Season 4 runs 2021-04-28 → 2021-07-21; Season 5 runs 2021-08-20 → 2022-03-17. We searched the web for

@@ -179,6 +179,11 @@ const SeasonsCurationYaml = z.array(
         // indistinguishable from any other extra; this flag is what lets a
         // playlist select them without disturbing that placement.
         talkback: z.boolean().optional(),
+        // Marks one entry as performed on stage in front of an audience, in a
+        // campaign that otherwise was not: Fantasy High's Brooklyn and Austin
+        // shows, Misfits and Magic at GenCon. The season-level `live:` covers
+        // a run that was live throughout.
+        live: z.boolean().optional(),
         // Explicitly links this entry to a watch.dropout.tv episode slug,
         // for verify-dates cross-referencing when title matching can't.
         dropout: z.string().optional(),

@@ -430,13 +430,18 @@ async function main() {
       ) {
         continue;
       }
+      // A season qualifies for a live playlist when it was live throughout,
+      // and otherwise only its entries marked `live:` do. Each of those is a
+      // performance of its own, so it counts where a season would.
+      const seasonLive = (season.live ?? false) === config.live;
       if (
-        config.live !== undefined && season.live !== config.live
+        config.live !== undefined && !seasonLive &&
+        !season.videos.some((episode) => episode.live === config.live)
       ) {
         continue;
       }
 
-      if (season.season) {
+      if (season.season && (config.live === undefined || seasonLive)) {
         seasonCount += 1;
       }
 
@@ -451,6 +456,16 @@ async function main() {
         ) {
           excluded.push(episode);
           continue;
+        }
+        if (
+          config.live !== undefined && !seasonLive &&
+          episode.live !== config.live
+        ) {
+          excluded.push(episode);
+          continue;
+        }
+        if (episode.live !== undefined && config.live !== undefined) {
+          seasonCount += seasonLive ? 0 : 1;
         }
         if (
           config.talkback !== undefined &&

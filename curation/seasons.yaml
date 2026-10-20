@@ -143,10 +143,12 @@ videos:
     published: 2018-12-27
   - special: Live in Brooklyn
     dropout: fantasy-high-live-in-brooklyn
+    live: true
     members: "-ulIYMA0sqg"
     published: 2019-06-24
   - special: Live in Austin
     dropout: fantasy-high-live-at-rtx-austin
+    live: true
     members: Ekgd2ePymD8
     published: 2019-09-18
 
@@ -1160,6 +1162,7 @@ videos:
     published: 2021-12-17
   - special: Live at GenCon
     dropout: misfits-and-magic-live-at-gencon-2022
+    live: true
     members: 4c4yMS4Zhlg
     published: 2022-09-16
 

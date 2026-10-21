@@ -275,3 +275,5 @@ No source found. Check whether the anchors share a set.
 One video per run, watched to confirm what the sources say.
 
 - ☑ Pirates of Leviathan, `1. A Heaping Helping of Trouble` (HuMbE1G2O2c)
+- ☑ Adventuring Party season 2 (Pirates of Leviathan), `Look At All My Friends!`
+  (GCBoHjAdyfo)

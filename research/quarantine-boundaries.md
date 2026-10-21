@@ -87,21 +87,43 @@ Misfits and Magic talkbacks: shared room or video call?
 | ✗ in person | 2021-07-08 (Dropout: 2021-07-15) | Misfits and Magic (Chapter 1) | bts (talkback) | Wet Fire (and Bad News Brooms)        | [members](https://youtu.be/GfqePzMJoM4) · [Dropout](https://watch.dropout.tv/videos/wet-fire-and-bad-news-brooms)          |
 | ✗ in person | 2021-07-21 (Dropout: 2021-07-22) | Misfits and Magic (Chapter 1) | bts (talkback) | That's the Squad                      | [members](https://youtu.be/qYVlar0YboE) · [Dropout](https://watch.dropout.tv/videos/that-s-the-squad)                      |
 
+## Adventuring Party: The Seven (autumn 2021)
+
+Found by bisection after Misfits' talkbacks proved in person and Shriek Week's
+remote. Rows marked inferred sit between two answers that agree.
+
+| Quarantine?            | Date       | Season      | Kind           | Title                                                         | Watch                                   |
+| ---------------------- | ---------- | ----------- | -------------- | ------------------------------------------------------------- | --------------------------------------- |
+| ✗ in person            | 2021-08-19 | The Seven   | bts (talkback) | I've Never Been in a Campaign That Is Hornier                 | [members](https://youtu.be/pfbC-eFk9Tc) |
+| ✗ in person (inferred) | 2021-09-02 | The Seven   | bts (talkback) | Schrödinger's Double Slit                                     | [members](https://youtu.be/-bh4EseQymY) |
+| ✗ in person (inferred) | 2021-09-08 | The Seven   | bts (talkback) | How Was This All One Episode                                  | [members](https://youtu.be/yDV7xQYIdbc) |
+| ✗ in person (inferred) | 2021-09-09 | The Seven   | bts (talkback) | Party Fowl                                                    | [members](https://youtu.be/ACjCoEoUW1I) |
+| ✗ in person (inferred) | 2021-09-14 | The Seven   | bts (talkback) | Everybody's In Freaking Mirrors                               | [members](https://youtu.be/hUiAoZh2fkc) |
+| ✗ in person            | 2021-09-20 | The Seven   | bts (talkback) | You Did a Murder, Girl                                        | [members](https://youtu.be/zqS7qyr7cX4) |
+| ✗ in person (inferred) | 2021-09-27 | The Seven   | bts (talkback) | Booger Lee Mulligan                                           | [members](https://youtu.be/fyLGKXmnkuo) |
+| ✗ in person (inferred) | 2021-10-05 | The Seven   | bts (talkback) | There Is Nothing These Women Cannot Do                        | [members](https://youtu.be/azIQ9K5rt0E) |
+| ✗ in person            | 2021-10-12 | The Seven   | bts (talkback) | I Get This Insight Into How Your Nasty Little Mind Works      | [members](https://youtu.be/s0dDUvaCgRw) |
+| ✗ in person            | 2021-10-20 | The Seven   | bts (talkback) | The Ending of All Things                                      | [members](https://youtu.be/cbydaI1LaIk) |
+|                        |            |             |                | **— boundary —**                                              |                                         |
+| ☑ remote               | 2021-10-26 | The Seven   | bts (talkback) | Have You Heard of This Thing Called Talespire?                | [members](https://youtu.be/TrQe-zniCpA) |
+| ☑                      | 2021-11-01 | The Seven   | bts (talkback) | We All Felt Like It Was Therapy with Brennan During This Game | [members](https://youtu.be/UVDaRZssWzQ) |
+| ☑ (inferred)           | 2021-11-11 | Shriek Week | bts (talkback) | I Pretended to be a Wolf for Awhile as a Child                | [members](https://youtu.be/hwZlEc2l4dM) |
+
 ## Adventuring Party: end of 2021 → season 8 (early 2022)
 
 The Dimension 20 wiki calls the season 8 opener 'the first in-person Adventuring
 Party'. Check the last talkbacks of 2021 and the first of 2022.
 
-| Quarantine? | Date                             | Season               | Kind           | Title                                                 | Watch                                                                                                                                     |
-| ----------- | -------------------------------- | -------------------- | -------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| ☐           | 2021-11-18                       | Shriek Week          | bts (talkback) | Everyone Put a Finger Down If You Smelled a Chair     | [members](https://youtu.be/tEHj5v-mUtw) · [Dropout](https://watch.dropout.tv/videos/everyone-put-a-finger-down-if-you-smelled-a-chair)    |
-| ☐           | 2021-11-24 (Dropout: 2021-11-25) | Shriek Week          | bts (talkback) | That's The Beauty of D&D                              | [members](https://youtu.be/vujC_Uk_nSQ) · [Dropout](https://watch.dropout.tv/videos/that-s-the-beauty-of-d-d)                             |
-| ☐           | 2021-12-01 (Dropout: 2021-12-02) | Shriek Week          | bts (talkback) | I Wish I Had Bitten More People                       | [members](https://youtu.be/OyVhJi7hr0g) · [Dropout](https://watch.dropout.tv/videos/i-wish-i-had-bitten-more-people)                      |
-| ☑           | 2021-12-08 (Dropout: 2021-12-09) | Shriek Week          | bts (talkback) | Oh No, I'm In Love With Chupacabra                    | [members](https://youtu.be/_BYg4oX3juA) · [Dropout](https://watch.dropout.tv/videos/oh-no-i-m-in-love-with-a-chupacabra)                  |
-|             |                                  |                      |                | **— suspected boundary —**                            |                                                                                                                                           |
-| ☐           | 2022-01-13                       | A Starstruck Odyssey | bts (talkback) | Our Tail Was Not Between Our Legs                     | [members](https://youtu.be/QFqHarfv_w8) · [Dropout](https://watch.dropout.tv/videos/our-tail-was-not-between-our-legs)                    |
-| ☐           | 2022-01-18 (Dropout: 2022-01-20) | A Starstruck Odyssey | bts (talkback) | Was That the Worst Social Interaction in D20 History? | [members](https://youtu.be/qfF_IOKBSg8) · [Dropout](https://watch.dropout.tv/videos/was-that-the-worst-social-interaction-in-d20-history) |
-| ☐           | 2022-01-26 (Dropout: 2022-01-27) | A Starstruck Odyssey | bts (talkback) | The Ball Continues Rolling Up                         | [members](https://youtu.be/UdXqBE0E-R0) · [Dropout](https://watch.dropout.tv/videos/the-ball-continues-rolling-up)                        |
+| Quarantine?  | Date                             | Season               | Kind           | Title                                                 | Watch                                                                                                                                     |
+| ------------ | -------------------------------- | -------------------- | -------------- | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| ☑ (inferred) | 2021-11-18                       | Shriek Week          | bts (talkback) | Everyone Put a Finger Down If You Smelled a Chair     | [members](https://youtu.be/tEHj5v-mUtw) · [Dropout](https://watch.dropout.tv/videos/everyone-put-a-finger-down-if-you-smelled-a-chair)    |
+| ☑ (inferred) | 2021-11-24 (Dropout: 2021-11-25) | Shriek Week          | bts (talkback) | That's The Beauty of D&D                              | [members](https://youtu.be/vujC_Uk_nSQ) · [Dropout](https://watch.dropout.tv/videos/that-s-the-beauty-of-d-d)                             |
+| ☑ (inferred) | 2021-12-01 (Dropout: 2021-12-02) | Shriek Week          | bts (talkback) | I Wish I Had Bitten More People                       | [members](https://youtu.be/OyVhJi7hr0g) · [Dropout](https://watch.dropout.tv/videos/i-wish-i-had-bitten-more-people)                      |
+| ☑            | 2021-12-08 (Dropout: 2021-12-09) | Shriek Week          | bts (talkback) | Oh No, I'm In Love With Chupacabra                    | [members](https://youtu.be/_BYg4oX3juA) · [Dropout](https://watch.dropout.tv/videos/oh-no-i-m-in-love-with-a-chupacabra)                  |
+|              |                                  |                      |                | **— suspected boundary —**                            |                                                                                                                                           |
+| ☐            | 2022-01-13                       | A Starstruck Odyssey | bts (talkback) | Our Tail Was Not Between Our Legs                     | [members](https://youtu.be/QFqHarfv_w8) · [Dropout](https://watch.dropout.tv/videos/our-tail-was-not-between-our-legs)                    |
+| ☐            | 2022-01-18 (Dropout: 2022-01-20) | A Starstruck Odyssey | bts (talkback) | Was That the Worst Social Interaction in D20 History? | [members](https://youtu.be/qfF_IOKBSg8) · [Dropout](https://watch.dropout.tv/videos/was-that-the-worst-social-interaction-in-d20-history) |
+| ☐            | 2022-01-26 (Dropout: 2022-01-27) | A Starstruck Odyssey | bts (talkback) | The Ball Continues Rolling Up                         | [members](https://youtu.be/UdXqBE0E-R0) · [Dropout](https://watch.dropout.tv/videos/the-ball-continues-rolling-up)                        |
 
 ## Game Changer: season 2 → 3
 

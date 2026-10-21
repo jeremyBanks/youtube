@@ -279,3 +279,5 @@ One video per run, watched to confirm what the sources say.
   (GCBoHjAdyfo)
 - ☑ The Unsleeping City (Chapter 2), `1. The Fall of New York City`
   (-Ho5CdsUIQc)
+- ☑ Adventuring Party season 3 (Unsleeping City 2), `A Ferry Special Episode`
+  (7r9nmTsdDG0)

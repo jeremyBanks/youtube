@@ -102,6 +102,11 @@ The plan and the case-by-case reasoning are in
   stands: A Starstruck Odyssey's and Coffin Run's season openers carried a date
   a day before their own episode. A talkback cannot precede what it discusses.
 
+**A date correction never moves an entry.** Three entries were moved to match
+their corrected dates in this batch and moved straight back: placement in the
+file is the owner's editorial order, and an entry dated out of sequence with its
+neighbours is expected, not a fault to fix by reordering.
+
 Left as they were, on purpose: Welcome to Denny's and Misfits and Magic 2, whose
 neighbours carry earlier dates of ours that this file says to keep; Game
 Changer's Crowd Control behind-the-scenes (2 days); the Um, Actually Simpsons

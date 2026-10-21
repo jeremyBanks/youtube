@@ -4803,10 +4803,6 @@ videos:
   - trailer: Fantasy High Junior Year Trailer
     public: 8Jr7dyVCmFM
     published: 2023-12-13
-  - bts: The Legendary Rick Perry and the Art of Dimension 20
-    dropout: the-legendary-rick-perry-and-the-art-of-dimension-20
-    public: n_YOZhhvHZQ
-    published: 2023-12-20
   - trailer: Fantasy High Seasons 1 and 2 Full Recap
     dropout: dimension-20-fantasy-high-seasons-1-2-full-recap
     public: HgGZvg8gbBM
@@ -4850,6 +4846,10 @@ videos:
     public: D46t1vdcoSM
     public copy: hnHhTAvbqlU
     published: 2024-01-10
+  - bts: The Legendary Rick Perry and the Art of Dimension 20
+    dropout: the-legendary-rick-perry-and-the-art-of-dimension-20
+    public: n_YOZhhvHZQ
+    published: 2023-12-20
 
   - episode: 1. Summer Scaries
     dropout: summer-scaries
@@ -5163,15 +5163,15 @@ videos:
     members: umC08_t6KpE
     removed members: _eJULrtRYn4
     published: 2024-01-26
+  - bts: Marionette Conqui and Zonton de la Doll
+    dropout: last-looks-marionette-conqui-and-zonton-de-la-doll
+    members: EAThBVYo1TE
+    published: 2024-02-02
   - episode: 105. Kepl and Dr. Milk
     dropout: kepl-and-dr-milk
     members: z-6VT3yWq1E
     removed members: 4uAcB43RHls
     published: 2024-01-26
-  - bts: Marionette Conqui and Zonton de la Doll
-    dropout: last-looks-marionette-conqui-and-zonton-de-la-doll
-    members: EAThBVYo1TE
-    published: 2024-02-02
   - bts: Kepl and Dr. Milk
     dropout: last-looks-kepl-and-dr-milk
     members: De05yC7sy8Y
@@ -6861,6 +6861,10 @@ videos:
     dropout: samalamadingdong
     members: OxPaVj1pXVA
     published: 2025-05-12
+  - bts: Samalamadingdong (Brennan's Revenge)
+    dropout: behind-the-scenes-of-samalamadingdong
+    members: 6O3OlfthmJ0
+    published: 2025-09-01
   - bts: Why I'm Leaving Dropout (Extended Cut)
     dropout: brennan-s-exit-extended-cut
     public: av2ZRRCOgro
@@ -6869,10 +6873,6 @@ videos:
     dropout: dimension-20-on-a-bus-extended-cut
     public: plGNmsegcJc
     published: 2025-08-15
-  - bts: Samalamadingdong (Brennan's Revenge)
-    dropout: behind-the-scenes-of-samalamadingdong
-    members: 6O3OlfthmJ0
-    published: 2025-09-01
 
 ---
 

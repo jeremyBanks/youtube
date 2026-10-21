@@ -9901,7 +9901,7 @@ entries:
 
     Can Jared Logan, Daniel O'Brien, and Haley Mancini identify droids by sight and monsters by sound?
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-01T15:28:50.223Z
+scrapedAt:     2026-10-21T15:57:48.365Z
 
 ---
 
@@ -79605,7 +79605,7 @@ entries:
   title: Toonout | "Winky's Speakeasy" From David Kantrowitz
   description: "\U0001F6A8 A new episode of Toonout is OUT NOW! \n\nFeaturing a new animated short by David Kantrowitz \"Winky's Speakeasy\"! \n\nWelcome to the saloon for washed-up cartoons.\n\n#shorts #short #dropout #animation \n\n\U0001F6A8 A new wave of animation is on Dropout! Get ready for Toonout — original animated shorts made by indie artists.\n\n➡️ Go to Dropout.tv to watch previously released animated shorts now!"
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-27T15:40:06.610Z
+scrapedAt:     2026-10-21T15:57:58.722Z
 
 ---
 
@@ -79979,7 +79979,7 @@ entries:
     https://www.facebook.com/dropouttv
   removedBefore: 2026-09-11T15:02:12.790Z
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-20T15:39:10.627Z
+scrapedAt:     2026-10-21T15:57:36.348Z
 lastChangedAt: 2026-10-19T17:28:38.801Z
 
 ---
@@ -175875,7 +175875,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-10-19T17:28:41.939Z
+scrapedAt:     2026-10-21T15:57:36.439Z
 lastChangedAt: 2026-10-15T15:35:42.010Z
 
 ---
@@ -176296,9 +176296,12 @@ entries:
 - videoId: 0fdiZ1kkeBc
   position: 0
   addedAt: 2026-10-20T00:17:43.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
+  videoPublishedAt: 2026-10-20T17:30:03.000Z
+  privacyStatus: public
+  ownerChannelId: UCW32eQWUwE3HkCJ9WH3U8Wg
+  ownerChannelTitle: toonout
+  title: Toonout | The Ribbon from Darcy Fowler & Rosie Kaller
+  description: "\U0001F6A8 A new episode of Toonout is OUT NOW!\n\nFeaturing a new animated short by Darcy Fowler & Rosie Kaller \"\"The Ribbon\"\" – featuring voice acting from Rekha Shankar, Seth Kirschner, Katie Marovitch, and Kim Cooper! \n\nShe's just a regular teen who definitely ISN'T headless, if that's what you're wondering.\n\n#short #dropout #animation \n\n\U0001F6A8 A new wave of animation is on Dropout! Get ready for Toonout — original animated shorts made by indie artists.\n\n➡️ Go to Dropout.tv to watch previously released animated shorts now!"
 - videoId: X9aeO4lT4jM
   position: 1
   addedAt: 2026-10-20T00:17:43.000Z
@@ -176318,7 +176321,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-10-20T03:27:19.855Z
-scrapedAt:     2026-10-20T15:39:26.427Z
+scrapedAt:     2026-10-21T15:57:58.894Z
 lastChangedAt: 2026-10-20T03:27:19.855Z
 
 ---
@@ -176365,7 +176368,7 @@ entries:
   description: This video is unavailable.
   removedBefore: 2026-10-18T14:35:03.490Z
 firstSeen:     2026-09-07T16:27:51.786Z
-scrapedAt:     2026-10-20T15:39:26.573Z
+scrapedAt:     2026-10-21T15:57:59.060Z
 lastChangedAt: 2026-10-18T14:35:03.490Z
 
 ---
@@ -177343,8 +177346,34 @@ privacyStatus: public
 itemCount:     5
 createdAt:     2026-09-17T17:32:45.971Z
 entries:
-- videoId: siaIgo6MKOI
+- videoId: ahVBVDWOe54
   position: 0
+  addedAt: 2026-10-15T17:32:16.000Z
+  videoPublishedAt: 2026-10-09T20:31:10.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: American Pass the Parcel with Emily Axford | Adventuring Party Season 25 | Ep. 5
+  description: |-
+    The cast plays a rousing game of (American) Pass the Parcel. 
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
+- videoId: siaIgo6MKOI
+  position: 1
   addedAt: 2026-10-08T17:30:48.000Z
   videoPublishedAt: 2026-10-01T23:10:42.000Z
   privacyStatus: public
@@ -177370,7 +177399,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: _I2eJM-L-Cg
-  position: 1
+  position: 2
   addedAt: 2026-10-01T17:31:19.000Z
   videoPublishedAt: 2026-09-24T18:53:30.000Z
   privacyStatus: public
@@ -177396,7 +177425,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: 7l3xmZy8Q80
-  position: 2
+  position: 3
   addedAt: 2026-09-24T17:30:34.000Z
   videoPublishedAt: 2026-09-17T20:58:12.000Z
   privacyStatus: public
@@ -177426,7 +177455,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: DT3lpVlVgqw
-  position: 3
+  position: 4
   addedAt: 2026-09-17T17:32:55.000Z
   videoPublishedAt: 2026-09-10T22:11:28.000Z
   privacyStatus: public
@@ -177451,35 +177480,9 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
-- videoId: ahVBVDWOe54
-  position: 4
-  addedAt: 2026-10-15T17:32:16.000Z
-  videoPublishedAt: 2026-10-09T20:31:10.000Z
-  privacyStatus: public
-  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
-  ownerChannelTitle: Dropout
-  title: American Pass the Parcel with Emily Axford | Adventuring Party Season 25 | Ep. 5
-  description: |-
-    The cast plays a rousing game of (American) Pass the Parcel. 
-
-    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
-
-    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
-
-    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
-
-    In the meantime, leave us some nice comments on this video. It's a good one, right?
-
-    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
-
-    FOLLOW US EVERYWHERE:
-    https://www.twitter.com/dropout
-    https://www.instagram.com/dropouttv
-    https://www.tiktok.com/@dropoutdottv
-    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-10-19T17:28:42.015Z
-lastChangedAt: 2026-10-16T15:22:33.280Z
+scrapedAt:     2026-10-21T15:57:36.524Z
+lastChangedAt: 2026-10-21T15:57:32.666Z
 
 ---
 
@@ -177775,7 +177778,7 @@ entries:
   title: Toonout | "Hot Peasant Summer" From Laura Hodkin
   description: "\U0001F6A8 A new episode of Toonout is OUT NOW! \n\nFeaturing a new animated short by Laura Jayne Hodkin \"\"Hot Peasant Summer\"\" – featuring voice acting from Kaya Scodelario an Hannah Pilkes! \n\nNothing can stop the party for Brooke & Hayley, not even getting flushed back to the 14th century.\n#shorts #short #dropout #animation \n\n\U0001F6A8 A new wave of animation is on Dropout! Get ready for Toonout — original animated shorts made by indie artists.\n\n➡️ Go to Dropout.tv to watch previously released animated shorts now!"
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-01T17:22:51.094Z
+scrapedAt:     2026-10-21T15:57:59.133Z
 
 ---
 
@@ -245464,7 +245467,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-15T19:12:41.550Z
-scrapedAt:     2026-10-20T15:39:10.918Z
+scrapedAt:     2026-10-21T15:57:36.630Z
 lastChangedAt: 2026-10-20T03:27:01.511Z
 
 ---
@@ -380785,7 +380788,7 @@ playlistId:    PLuKg-Whduhklvg6rA4DJ75T_rJ-XB-mTw
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 title:         'Toonout: Season 1 (Full Episodes)'
 privacyStatus: public
-itemCount:     16
+itemCount:     17
 createdAt:     2026-03-24T17:11:24.141Z
 entries:
 - videoId: LTba5203dGc
@@ -381343,9 +381346,35 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
+- videoId: lnKpU-7LvsQ
+  position: 16
+  addedAt: 2026-10-20T17:30:39.000Z
+  videoPublishedAt: 2026-10-15T01:47:16.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: The Ribbon | Toonout Season 1 | Ep. 16
+  description: |-
+    She's just a regular teen who definitely ISN'T headless, if that's what you're wondering.
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-18T03:04:40.097Z
-lastChangedAt: 2026-10-07T17:49:18.804Z
+scrapedAt:     2026-10-21T15:57:36.734Z
+lastChangedAt: 2026-10-21T15:57:32.666Z
 
 ---
 
@@ -427567,7 +427596,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-20T15:39:18.968Z
+scrapedAt:     2026-10-21T15:57:46.399Z
 lastChangedAt: 2026-10-17T05:30:57.308Z
 
 ---
@@ -452645,7 +452674,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-09T17:26:51.287Z
+scrapedAt:     2026-10-21T15:57:46.499Z
 lastChangedAt: 2026-09-04T14:57:34.384Z
 
 ---
@@ -457056,4 +457085,4 @@ entries:
   title: Toonout | "The Legend of Legendarius"
   description: "\U0001F6A8 The series premiere of Toonout is OUT NOW! \n\n➡️ Go to Dropout.tv to watch the series premiere of Toonout now! \n\nFeaturing a new animated short by Raj Brueggemann in \"\"The Legend of Legendarius\"\" \U0001F5E1️ Follow the adventure of the brave warrior Legendarius as he tries find a way back to his son Junior. \n\nAnd featuring voice actors Raj Brueggemann, Ross Bryant, and Katie Marovitch!"
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-01T15:28:56.452Z
+scrapedAt:     2026-10-21T15:57:59.218Z

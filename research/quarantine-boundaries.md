@@ -130,15 +130,15 @@ Party'. Check the last talkbacks of 2021 and the first of 2022.
 Season 3 is reported recorded entirely by video conference. Check the last of
 season 2 and the first of 3.
 
-| Quarantine? | Date       | Season   | Kind    | Title                                  | Watch                                                                                                                                              |
-| ----------- | ---------- | -------- | ------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ☐           | 2020-04-10 | Season 2 | episode | 204. A Sponsored Episode               | [members](https://youtu.be/4WS23aWnGgA) · [Dropout](https://watch.dropout.tv/videos/a-sponsored-episode)                                           |
-| ☐           | 2020-04-24 | Season 2 | episode | 205. The Everything Factory            | [members](https://youtu.be/puT6xVIsCuQ) · [Dropout](https://watch.dropout.tv/videos/the-everything-factory)                                        |
-| ☐           | 2020-05-08 | Season 2 | episode | 206. Yes or No                         | [members](https://youtu.be/r0c1n35WySE) · [Dropout](https://watch.dropout.tv/videos/yes-or-no)                                                     |
-|             |            |          |         | **— suspected boundary —**             |                                                                                                                                                    |
-| ☐           | 2020-09-15 | Season 3 | episode | 301. Tell Us About Yourself            | [members](https://youtu.be/eanRlRK0N8o) · [free](https://youtu.be/xg1ShXqTNkg) · [Dropout](https://watch.dropout.tv/videos/tell-us-about-yourself) |
-| ☐           | 2020-10-05 | Season 3 | episode | 302. Sell Outs (A Sponsored Episode 2) | [members](https://youtu.be/BFFy78gMPp8) · [Dropout](https://watch.dropout.tv/videos/sell-outs)                                                     |
-| ☐           | 2020-10-16 | Season 3 | episode | 303. ChangerCon                        | [members](https://youtu.be/0nhC4M3zyCE) · [Dropout](https://watch.dropout.tv/videos/changercon)                                                    |
+| Quarantine?            | Date       | Season   | Kind    | Title                                  | Watch                                                                                                                                              |
+| ---------------------- | ---------- | -------- | ------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ✗ in person (inferred) | 2020-04-10 | Season 2 | episode | 204. A Sponsored Episode               | [members](https://youtu.be/4WS23aWnGgA) · [Dropout](https://watch.dropout.tv/videos/a-sponsored-episode)                                           |
+| ✗ in person (inferred) | 2020-04-24 | Season 2 | episode | 205. The Everything Factory            | [members](https://youtu.be/puT6xVIsCuQ) · [Dropout](https://watch.dropout.tv/videos/the-everything-factory)                                        |
+| ✗ in person            | 2020-05-08 | Season 2 | episode | 206. Yes or No                         | [members](https://youtu.be/r0c1n35WySE) · [Dropout](https://watch.dropout.tv/videos/yes-or-no)                                                     |
+|                        |            |          |         | **— suspected boundary —**             |                                                                                                                                                    |
+| ☐                      | 2020-09-15 | Season 3 | episode | 301. Tell Us About Yourself            | [members](https://youtu.be/eanRlRK0N8o) · [free](https://youtu.be/xg1ShXqTNkg) · [Dropout](https://watch.dropout.tv/videos/tell-us-about-yourself) |
+| ☐                      | 2020-10-05 | Season 3 | episode | 302. Sell Outs (A Sponsored Episode 2) | [members](https://youtu.be/BFFy78gMPp8) · [Dropout](https://watch.dropout.tv/videos/sell-outs)                                                     |
+| ☐                      | 2020-10-16 | Season 3 | episode | 303. ChangerCon                        | [members](https://youtu.be/0nhC4M3zyCE) · [Dropout](https://watch.dropout.tv/videos/changercon)                                                    |
 
 ## Game Changer: season 3 → 4
 

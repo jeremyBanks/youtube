@@ -269,3 +269,9 @@ No source found. Check whether the anchors share a set.
 |                        |                                  |          |         | **— suspected boundary —**     |                                                                                                                                                     |
 | ✗ in person (inferred) | 2023-05-29                       | Season 6 | trailer | Breaking News Season 6 Trailer | [free](https://youtu.be/8_SYzil1e-Y) · [Dropout](https://watch.dropout.tv/videos/breaking-news-season-6-trailer)                                    |
 | ✗ in person (inferred) | 2023-06-12                       | Season 6 | episode | 601. Dropout America 2         | [members](https://youtu.be/5yPEoAhZKvE) · [free](https://youtu.be/HjG3vEVQfJo) · [Dropout](https://watch.dropout.tv/videos/dropout-america-2)       |
+
+## Spot checks of runs the sources settled
+
+One video per run, watched to confirm what the sources say.
+
+- ☑ Pirates of Leviathan, `1. A Heaping Helping of Trouble` (HuMbE1G2O2c)

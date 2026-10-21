@@ -281,3 +281,4 @@ One video per run, watched to confirm what the sources say.
   (-Ho5CdsUIQc)
 - ☑ Adventuring Party season 3 (Unsleeping City 2), `A Ferry Special Episode`
   (7r9nmTsdDG0)
+- ☑ Fantasy High (Chapter 2) special, `College Visit` (Sr0Zi59jpEc)

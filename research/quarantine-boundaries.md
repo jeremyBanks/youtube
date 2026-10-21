@@ -136,9 +136,9 @@ season 2 and the first of 3.
 | ✗ in person (inferred) | 2020-04-24 | Season 2 | episode | 205. The Everything Factory            | [members](https://youtu.be/puT6xVIsCuQ) · [Dropout](https://watch.dropout.tv/videos/the-everything-factory)                                        |
 | ✗ in person            | 2020-05-08 | Season 2 | episode | 206. Yes or No                         | [members](https://youtu.be/r0c1n35WySE) · [Dropout](https://watch.dropout.tv/videos/yes-or-no)                                                     |
 |                        |            |          |         | **— suspected boundary —**             |                                                                                                                                                    |
-| ☐                      | 2020-09-15 | Season 3 | episode | 301. Tell Us About Yourself            | [members](https://youtu.be/eanRlRK0N8o) · [free](https://youtu.be/xg1ShXqTNkg) · [Dropout](https://watch.dropout.tv/videos/tell-us-about-yourself) |
-| ☐                      | 2020-10-05 | Season 3 | episode | 302. Sell Outs (A Sponsored Episode 2) | [members](https://youtu.be/BFFy78gMPp8) · [Dropout](https://watch.dropout.tv/videos/sell-outs)                                                     |
-| ☐                      | 2020-10-16 | Season 3 | episode | 303. ChangerCon                        | [members](https://youtu.be/0nhC4M3zyCE) · [Dropout](https://watch.dropout.tv/videos/changercon)                                                    |
+| ☑                      | 2020-09-15 | Season 3 | episode | 301. Tell Us About Yourself            | [members](https://youtu.be/eanRlRK0N8o) · [free](https://youtu.be/xg1ShXqTNkg) · [Dropout](https://watch.dropout.tv/videos/tell-us-about-yourself) |
+| ☑ (inferred)           | 2020-10-05 | Season 3 | episode | 302. Sell Outs (A Sponsored Episode 2) | [members](https://youtu.be/BFFy78gMPp8) · [Dropout](https://watch.dropout.tv/videos/sell-outs)                                                     |
+| ☑ (inferred)           | 2020-10-16 | Season 3 | episode | 303. ChangerCon                        | [members](https://youtu.be/0nhC4M3zyCE) · [Dropout](https://watch.dropout.tv/videos/changercon)                                                    |
 
 ## Game Changer: season 3 → 4
 
@@ -199,13 +199,13 @@ No source found either way. Check whether the guest is in the room or on a call.
 
 No source found either way. Check whether the guest is in the room or on a call.
 
-| Quarantine? | Date                             | Season   | Kind    | Title                                           | Watch                                                                                                                                                                |
-| ----------- | -------------------------------- | -------- | ------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ☐           | 2020-12-17 (Dropout: 2021-01-11) | Season 2 | episode | 219. Sincerity Is the Key (with Travis McElroy) | [members](https://youtu.be/f2dkDAt2XzY) · [free](https://youtu.be/A0Ynnz0Yfas) · [Dropout](https://watch.dropout.tv/videos/sincerity-is-the-key-with-travis-mcelroy) |
-| ☐           | 2020-12-17 (Dropout: 2021-01-18) | Season 2 | episode | 220. You've Been Called (with Dael Kingsmill)   | [members](https://youtu.be/7n30-QLxmzI) · [free](https://youtu.be/ICXN0K2X3C8) · [Dropout](https://watch.dropout.tv/videos/you-ve-been-called-with-dael-kingsmill)   |
-|             |                                  |          |         | **— suspected boundary —**                      |                                                                                                                                                                      |
-| ☐           | 2021-02-04 (Dropout: 2021-02-22) | Season 3 | episode | 301. Artwork is 360 Degrees (with Carlos Luna)  | [members](https://youtu.be/PNLyY_8D9Rc) · [free](https://youtu.be/Sao9SUs_rqQ) · [Dropout](https://watch.dropout.tv/videos/artwork-is-360-degrees-with-carlos-luna)  |
-| ☐           | 2021-02-04 (Dropout: 2021-03-08) | Season 3 | episode | 302. What Does 'Ready' Mean? (with Zac Oyama)   | [members](https://youtu.be/bdOE5LiB_2M) · [free](https://youtu.be/KwBosPZkUDk) · [Dropout](https://watch.dropout.tv/videos/what-does-ready-mean-with-zac-oyama)      |
+| Quarantine?  | Date                             | Season   | Kind    | Title                                           | Watch                                                                                                                                                                |
+| ------------ | -------------------------------- | -------- | ------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ☐            | 2020-12-17 (Dropout: 2021-01-11) | Season 2 | episode | 219. Sincerity Is the Key (with Travis McElroy) | [members](https://youtu.be/f2dkDAt2XzY) · [free](https://youtu.be/A0Ynnz0Yfas) · [Dropout](https://watch.dropout.tv/videos/sincerity-is-the-key-with-travis-mcelroy) |
+| ☐            | 2020-12-17 (Dropout: 2021-01-18) | Season 2 | episode | 220. You've Been Called (with Dael Kingsmill)   | [members](https://youtu.be/7n30-QLxmzI) · [free](https://youtu.be/ICXN0K2X3C8) · [Dropout](https://watch.dropout.tv/videos/you-ve-been-called-with-dael-kingsmill)   |
+|              |                                  |          |         | **— suspected boundary —**                      |                                                                                                                                                                      |
+| ☐            | 2021-02-04 (Dropout: 2021-02-22) | Season 3 | episode | 301. Artwork is 360 Degrees (with Carlos Luna)  | [members](https://youtu.be/PNLyY_8D9Rc) · [free](https://youtu.be/Sao9SUs_rqQ) · [Dropout](https://watch.dropout.tv/videos/artwork-is-360-degrees-with-carlos-luna)  |
+| ☑ (inferred) | 2021-02-04 (Dropout: 2021-03-08) | Season 3 | episode | 302. What Does 'Ready' Mean? (with Zac Oyama)   | [members](https://youtu.be/bdOE5LiB_2M) · [free](https://youtu.be/KwBosPZkUDk) · [Dropout](https://watch.dropout.tv/videos/what-does-ready-mean-with-zac-oyama)      |
 
 ## Adventuring Academy: into season 4
 

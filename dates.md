@@ -81,7 +81,36 @@ within days or weeks of Dropout's date while ours is a year or more out:
 | 1. Party of Seven                 | 2021-09-21 | 2021-08-18 |
 | 1. Down For The Count             | 2022-06-28 | 2022-06-08 |
 
-Not yet applied.
+Applied 2026-10-21, with the rest of the batch below.
+
+## The 2026-10-21 batch
+
+264 curated dates were moved to an earlier official date, as one reviewed batch.
+The plan and the case-by-case reasoning are in
+`research/dropout-date-adoption.md`.
+
+- **222 from Dropout's release date**, where it was earlier than ours, the
+  change was 1 day or 4 or more, and the season stayed no more out of date order
+  than it already was. The 2–3 day band was left alone, as above.
+- **42 from the audio-only version's release date**, where Dropout's video page
+  carries no date at all. This covers Fantasy High (Chapter 1), Escape from the
+  Bloodkeep, The Unsleeping City (Chapter 1) and the start of Fantasy High
+  (Chapter 2). Across the 252 episodes that have both, the audio date equals the
+  video's in 239 and is later in the other 13, never earlier. So it bounds the
+  release from above, and every one used is earlier than the date it replaced.
+- **Two talkbacks moved later**, against the rule that an earlier date of ours
+  stands: A Starstruck Odyssey's and Coffin Run's season openers carried a date
+  a day before their own episode. A talkback cannot precede what it discusses.
+
+Left as they were, on purpose: Welcome to Denny's and Misfits and Magic 2, whose
+neighbours carry earlier dates of ours that this file says to keep; Game
+Changer's Crowd Control behind-the-scenes (2 days); the Um, Actually Simpsons
+special, whose number fixes its place; and Adventuring Academy 105, which has no
+dated neighbour to check against.
+
+`verify-dates` reports `slug … not yet scraped` for a page that was scraped and
+simply has no release date. Most of The Unsleeping City (Chapter 1) and all of
+Adventuring Academy season 1 are in that state.
 
 ## Where Dropout itself is wrong
 

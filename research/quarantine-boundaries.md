@@ -105,7 +105,7 @@ remote. Rows marked inferred sit between two answers that agree.
 | ✗ in person            | 2021-10-12 | The Seven   | bts (talkback) | I Get This Insight Into How Your Nasty Little Mind Works      | [members](https://youtu.be/s0dDUvaCgRw) |
 | ✗ in person            | 2021-10-20 | The Seven   | bts (talkback) | The Ending of All Things                                      | [members](https://youtu.be/cbydaI1LaIk) |
 |                        |            |             |                | **— boundary —**                                              |                                         |
-| ☑ remote               | 2021-10-26 | The Seven   | bts (talkback) | Have You Heard of This Thing Called Talespire?                | [members](https://youtu.be/TrQe-zniCpA) |
+| ☑                      | 2021-10-26 | The Seven   | bts (talkback) | Have You Heard of This Thing Called Talespire?                | [members](https://youtu.be/TrQe-zniCpA) |
 | ☑                      | 2021-11-01 | The Seven   | bts (talkback) | We All Felt Like It Was Therapy with Brennan During This Game | [members](https://youtu.be/UVDaRZssWzQ) |
 | ☑ (inferred)           | 2021-11-11 | Shriek Week | bts (talkback) | I Pretended to be a Wolf for Awhile as a Child                | [members](https://youtu.be/hwZlEc2l4dM) |
 

@@ -277,3 +277,5 @@ One video per run, watched to confirm what the sources say.
 - ☑ Pirates of Leviathan, `1. A Heaping Helping of Trouble` (HuMbE1G2O2c)
 - ☑ Adventuring Party season 2 (Pirates of Leviathan), `Look At All My Friends!`
   (GCBoHjAdyfo)
+- ☑ The Unsleeping City (Chapter 2), `1. The Fall of New York City`
+  (-Ho5CdsUIQc)

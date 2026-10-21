@@ -523,7 +523,7 @@ ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don He
 # Fixed rather than "${ALL_SEASONS}": every entry is a `bts:` selected by its
 # talkback flag, so nothing here counts as an episode, yet for this show the
 # talkbacks are the episodes.
-name = "Adventuring Party (All Episodes and Extras)"
+name = "Dimension 20: Adventuring Party (All Episodes and Extras)"
 talkback = true
 description = """
 ${HOURS}-hour playlist of ${EXTRAS} episodes/extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. ${MAYBE_MEMBERS_ONLY}

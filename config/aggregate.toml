@@ -704,8 +704,8 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from MP3, 
 # Selected by `quarantine:` in the curation, on a season made remotely
 # throughout or on single entries. Settled one video at a time in
 # research/quarantine-boundaries.md: on a call, or one person alone in the
-# Dome, counts; a distanced in-person shoot does not, and neither does
-# animation. Release order across every show, closing on the announcement of
+# Dome, counts; a distanced in-person shoot does not. Original animation made
+# at home counts; an `animation:` of an existing episode never does. Release order across every show, closing on the announcement of
 # the return to the Dome even though remote episodes kept airing after it.
 [PLcoHmxw6kiHA]
 name = "Dropout in Quarantine"

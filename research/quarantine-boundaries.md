@@ -283,7 +283,9 @@ One video per run, watched to confirm what the sources say.
   (7r9nmTsdDG0)
 - ☑ Fantasy High (Chapter 2) special, `College Visit` (Sr0Zi59jpEc)
 - ☑ Fantasy High (Chapter 2) special, `Boys' Night` (7TaGYFCmVS8)
-- ✗ `Meet Bob` (TJI2c2E_9vk): animated. Animations are not eligible either way.
+- ✗ `Meet Bob` (TJI2c2E_9vk): animated. Animations of existing episodes are not
+  eligible either way; original animated work, such as If Google Was a Guy:
+  Quarantine Edition, is.
 - ✗ `Cody Sells His Soul`, `Casting Silence`: animated, so not eligible.
 - ✗ `Gauntlet at the Garden Trailer` (-XCew5KFnts): a 2024 live show, filed in
   The Unsleeping City (Chapter 2).

@@ -203,8 +203,9 @@ const SeasonsCurationYaml = z.array(
         // a run that was live throughout.
         live: z.boolean().optional(),
         // Made remotely during the pandemic: on a call, or one person alone
-        // in the Dome. Distanced in-person shoots do not count, and neither
-        // does animation, which was made remotely regardless.
+        // in the Dome. Distanced in-person shoots do not count. Original
+        // animation made at home does; an `animation:` retelling an existing
+        // episode never does, since it says nothing about how that was made.
         quarantine: z.boolean().optional(),
         // Explicitly links this entry to a watch.dropout.tv episode slug,
         // for verify-dates cross-referencing when title matching can't.

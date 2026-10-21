@@ -1201,6 +1201,7 @@ videos:
     published: 2021-09-01
   - bts: Schrödinger's Double Slit
     dropout: schrodinger-s-double-slit
+    talkback: true
     members: "-bh4EseQymY"
     published: 2021-09-02
   - episode: 4. Stone Temple Pile-Up
@@ -1485,6 +1486,7 @@ videos:
     published: 2022-04-12
   - bts: Life After Debt
     dropout: life-after-debt
+    talkback: true
     members: "-ak0NiTE9js"
     published: 2022-04-11
   - episode: 15. Face to Face
@@ -2349,6 +2351,7 @@ videos:
     published: 2023-09-13
   - bts: Bit City USA
     dropout: bit-city-usa
+    talkback: true
     members: RQSyTzmsavs
     published: 2023-09-14
   - external: Hank Green Describes The Worst Part About Being on Dimension 20
@@ -2436,6 +2439,7 @@ videos:
     published: 2023-11-22
   - bts: Everything, Every Stoat, All at Once
     dropout: everything-every-stoat-all-at-once
+    talkback: true
     members: "-Ao9xTYjfq4"
     published: 2023-11-23
   - episode: 9. Human
@@ -6032,6 +6036,7 @@ videos:
     published: 2024-11-07
   - bts: Fighting for Bottom, Baby
     dropout: fighting-for-bottom-baby
+    talkback: true
     members: "-NoT_XXz0CQ"
     published: 2024-11-14
   - bts: Evan Kelmp Smells Like Cocoa Butter
@@ -6215,6 +6220,7 @@ videos:
     published: 2025-06-11
   - bts: Meaty, Meaty Combat
     dropout: meaty-meaty-combat
+    talkback: true
     members: "-6zzI34knAg"
     published: 2025-06-12
   - episode: 3. Secrets at the South Pole Station

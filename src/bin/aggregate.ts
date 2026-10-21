@@ -8,7 +8,6 @@ import { isAggregate, showPrefixes } from "../dropout-link.ts";
 import * as yaml from "../yaml.ts";
 import { normalizeTitle } from "../common.ts";
 import {
-  Channel,
   ChannelPlaylist,
   DropoutCollection,
   DropoutEpisode,
@@ -341,10 +340,6 @@ async function main() {
   const channelPlaylists = ChannelPlaylist.array().parse(
     await yaml.load("./data/channel-playlists.yaml"),
   ).filter((playlist) => !playlist.removedBefore);
-  const channelName = new Map(
-    Channel.array().parse(await yaml.load("./data/channels.yaml"))
-      .map((channel) => [channel.channelId, channel.name] as const),
-  );
   const officialByVideoSet = new Map<string, ChannelPlaylist>();
   for (const playlist of channelPlaylists) {
     // Private entries are dropped before comparing. The API refuses to add a
@@ -605,6 +600,11 @@ async function main() {
       ).replaceAll(
         "${HOURS}",
         String(Math.floor(durationSeconds / 60 / 60)),
+        // A playlist of nothing but extras would otherwise open "0 episodes
+        // and 247 extras"; the zero term is dropped rather than announced.
+      ).replace(
+        /\$\{EPISODES\} episodes and /gi,
+        (match) => episodeCount === 0 ? "" : match,
       ).replaceAll(
         "${EPISODES}",
         String(episodeCount),
@@ -632,6 +632,7 @@ async function main() {
       )
         .replaceAll(" ()", "")
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
+        .replaceAll(/\b1 trailers\b/g, "1 trailer")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")
         .replaceAll(/\b1 Seasons\b/g, "1 Season")
         .replaceAll(/\b1 Videos\b/g, "1 Video")
@@ -665,12 +666,10 @@ async function main() {
     const official = officialByVideoSet.get(
       [...new Set(videoIds)].sort().join(","),
     );
-    // Named for whoever publishes it: six of these are Dropout's own "Full
-    // Episodes" playlists, but Critical Role's Exandria Unlimited is Critical
-    // Role's.
+    // Pointed at plainly, without naming who maintains it: the line is for a
+    // viewer deciding which to watch, not a credit.
     const officialLead = official
-      ? `${channelName.get(official.channelId) ?? "The channel"}` +
-        ` publishes this same set themselves: ` +
+      ? `An official version of this playlist is available at ` +
         `https://www.youtube.com/playlist?list=${official.playlistId}\n\n`
       : "";
 

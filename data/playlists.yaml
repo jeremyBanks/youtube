@@ -810,9 +810,9 @@ videos:
 
 name:        Thousandaires (All Episodes)
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLuKg-Whduhkm-ITGE0wM0AZDigiNfzPxB
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLuKg-Whduhkm-ITGE0wM0AZDigiNfzPxB
 
-  3-hour playlist of 6 episodes and 1 trailers from Thousandaires. 1 video is free and 6 require a @Dropout channel membership on YouTube.
+  3-hour playlist of 6 episodes and 1 trailer from Thousandaires. 1 video is free and 6 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/thousandaires
 playlistId:  PLObfuAmZm9pCDwDKLDD8-UBsNRXKEOFHu
@@ -881,7 +881,7 @@ videos:
 
 name:        Monét's Slumber Party (All Episodes)
 description: |-
-  3-hour playlist of 6 episodes and 1 trailers from Monét's Slumber Party. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
+  3-hour playlist of 6 episodes and 1 trailer from Monét's Slumber Party. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/monet-s-slumber-party
 playlistId:  PLObfuAmZm9pArudk1FiNVZhEE9iNiUJny
@@ -3876,7 +3876,7 @@ videos:
 
 name:        'Critical Role: Exandria Unlimited: Divergence (Full Episodes)'
 description: |-
-  Critical Role publishes this same set themselves: https://www.youtube.com/playlist?list=PL1tiwbzkOjQw_Q6CICX-9Rmoj2-OOvgPF
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PL1tiwbzkOjQw_Q6CICX-9Rmoj2-OOvgPF
 
   20-hour playlist of 4 episodes from Exandria Unlimited: Divergence, a Critical Role campaign run by Brennan Lee Mulligan.
 playlistId:  PLLBRdJfysGfI
@@ -4012,7 +4012,7 @@ videos:
 
 name:        Nobody Asked (All Episodes)
 description: |-
-  3-hour playlist of 5 episodes and 1 trailers from Nobody Asked, where comedians find the smartest answers to the dumbest questions. 2 videos are free and 4 require a @Dropout channel membership on YouTube.
+  3-hour playlist of 5 episodes and 1 trailer from Nobody Asked, where comedians find the smartest answers to the dumbest questions. 2 videos are free and 4 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/nobody-asked
 playlistId:  PLObfuAmZm9pCHD32Lg3ZYNL0NGEwRjH-A
@@ -4157,7 +4157,7 @@ videos:
 
 name:        Don't Hug Me I'm Scared (All Episodes and Extras)
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLuKg-WhduhkkA3o1ZsEWsXKNpmjauLXAG
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLuKg-WhduhkkA3o1ZsEWsXKNpmjauLXAG
 
   2-hour playlist of 6 episodes and 2 extras from Don't Hug Me I'm Scared, the surreal puppet series. 1 video is free and 7 require a @Dropout channel membership on YouTube.
 playlistId:  PLCGfO9fEuZSQ
@@ -4199,15 +4199,14 @@ videos:
 
 ---
 
-name:        Adventuring Party
+name:        Adventuring Party (All Episodes and Extras)
 description: |-
-  160-hour playlist of 0 episodes and 247 extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. All 247 videos require a @Dropout channel membership on YouTube.
+  163-hour playlist of 253 episodes/extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. All 253 videos require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
-  https://watch.dropout.tv/zoom-energy-adventuring-party
+  https://watch.dropout.tv/dimension-20-s-adventuring-party
 playlistId:  PLZQz_bbjUbkE
-unlisted:    true
 videos:
   PvM2yQ12t70: Are the Dice Scripted? | Dimension 20's Adventuring Party | Ep. 1
   5qlemDfjl1U: For the Corn Cuties! | Dimension 20's Adventuring Party | Ep. 2
@@ -4264,6 +4263,7 @@ videos:
   aYstKw4VHwQ: Everybody Put Their Little Stank On It | D20's Adventuring Party Season 5 | Ep. 5
   pfbC-eFk9Tc: I've Never Been in a Campaign That is Hornier | D20's Adventuring Party Season 6 | Ep. 1
   yDV7xQYIdbc: How Was This All One Episode? | D20's Adventuring Party Season 6 | Ep. 2
+  '-bh4EseQymY': Schrödinger's Double Slit | D20's Adventuring Party Season 6 | Ep. 3
   ACjCoEoUW1I: Party Fowl | D20's Adventuring Party Season 6 | Ep. 4
   hUiAoZh2fkc: Everybody's In Freaking Mirrors |  D20's Adventuring Party Season 6 | Ep. 5
   zqS7qyr7cX4: 'You Did a Murder, Girl | D20''s Adventuring Party Season 6 | Ep. 6'
@@ -4291,6 +4291,7 @@ videos:
   b6NS8Y7Jxks: Randomness Lets Something Amazing Happen | Dimension 20's Adventuring Party | Season 8 | Ep. 11
   iwAuC38xNIk: Prelude to the Tight Pony Episode | Dimension 20's Adventuring Party | Season 8 | Ep. 12
   eWePbnhli4E: Riva Más Vegas | Dimension 20's Adventuring Party | Season 8 | Ep. 13
+  '-ak0NiTE9js': Life After Debt | Dimension 20's Adventuring Party | Season 8 | Ep. 14
   NCIps1gDGWQ: Snake Eyes | Dimension 20's Adventuring Party | Season 8 | Ep. 15
   QRnkGR4NLqk: Plug's Butt Ugly Podcast | Dimension 20's Adventuring Party | Season 8 | Ep. 16
   AnNV1XNMli4: Prilbus! | Dimension 20's Adventuring Party | Season 8 | Ep. 17
@@ -4351,6 +4352,7 @@ videos:
   ssw1eJhbEAk: We Are Feeling Machines That Think | Adventuring Party Season 14 | Ep. 3
   wSYhoqYOXto: A Random Sequence of Events | Adventuring Party Season 14 | Ep. 4
   seSxC5c-vj4: You Must Know What You Don't Know | Adventuring Party Season 14 | Ep. 5
+  RQSyTzmsavs: Bit City USA
   __95s5BbD6c: Stoatal Recall | Adventuring Party Season 15 | Ep. 1
   TpmvXBXLoK4: Does a Bear Get Eaten Out in the Woods? | Adventuring Party Season 15 | Ep. 2
   bj-OWNWpwCc: I'm Here and I'm Jaysohn | Adventuring Party Season 15 | Ep. 3
@@ -4358,6 +4360,7 @@ videos:
   iFXiCI-xJS4: Big Emotions Are So Fun | Adventuring Party Season 15 | Ep. 5
   GjgCSSvEWj4: The Burrito Was Achieved | Adventuring Party Season 15 | Ep. 6
   Opwo3LLBXvk: If I Had a Nickel | Adventuring Party Season 15 | Ep. 7
+  '-Ao9xTYjfq4': 'Everything, Every Stoat, All at Once | Adventuring Party Season 15 | Ep. 8'
   BMxXKR-0X-0: Hey Girl Hey | Adventuring Party Season 15 | Ep. 9
   umQn1zG_wD4: Welcome to the Honk Honk Club | Adventuring Party Season 15 | Ep. 10
   40hE083Ly9Y: Yaaath Queen | Adventuring Party Season 16 | Ep. 1
@@ -4397,6 +4400,7 @@ videos:
   4jGybt88qeI: How to Save a Life | Adventuring Party Season 18 | Ep. 5
   3TdkMbwYcOk: I'm a Good Boy | Adventuring Party Season 18 | Ep. 6
   PxXQarS_uao: Pigeon Lord Ishii | Adventuring Party Season 18 | Ep. 7
+  '-NoT_XXz0CQ': 'Fighting for Bottom, Baby | Adventuring Party Season 18 | Ep. 8'
   dQohfWQRkeA: Evan Kelmp Smells Like Cocoa Butter | Adventuring Party Season 18 | Ep. 9
   NY-91_BTBE4: Making the Magic | Adventuring Party Season 18 | Ep. 10
   j_26Lp7JGok: The Casablanca of It All | Adventuring Party Season 18 | Ep. 11
@@ -4411,6 +4415,7 @@ videos:
   mO2JYe8A2TE: A Cheeseburger Intimidation Check | Adventuring Party Season 20 | Ep. 3
   CO673qHVxYE: Hotties and Hot Hearts | Adventuring Party Season 20 | Ep. 4
   LgapHYvZLZE: Pure Whimsy | Adventuring Party Season 21 | Ep. 1
+  '-6zzI34knAg': 'Meaty, Meaty Combat | Adventuring Party Season 21 | Ep. 2'
   4kWwsu-XE4E: Wonder Awaits | Adventuring Party Season 21 | Ep. 3
   xHeYGuMXhN4: Rachael Ray Ramantsu | Adventuring Party Season 21 | Ep. 4
   mmNiyIn-fn4: Two Guys and a Brachiosaurus | Adventuring Party Season 21 | Ep. 5
@@ -4500,7 +4505,7 @@ videos:
 
 name:        Fatal Decision (All Episodes)
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLuKg-WhduhkmU1vx3-oyt7OlTLaDh1tC0
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLuKg-WhduhkmU1vx3-oyt7OlTLaDh1tC0
 
   2-hour playlist of 49 episodes of Fatal Decision, in which Zach Reino plays an IT guy playing a special ops agent. Made in 2015 by CollegeHumor subsidiary Big Breakfast for Verizon's go90, and released on Dropout a decade later. All 49 videos require a @Dropout channel membership on YouTube.
 
@@ -4821,7 +4826,7 @@ videos:
 
 name:        Gods of Food (All Episodes)
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLuKg-WhduhklqxQG3wXn8RucFV2KJJUrB
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLuKg-WhduhklqxQG3wXn8RucFV2KJJUrB
 
   1-hour playlist of 6 episodes of Gods of Food, Rekha Shankar's mockumentary in which six of the world's most revolutionary chefs explain, at length, what they are doing to dinner. All 6 videos require a @Dropout channel membership on YouTube.
 
@@ -4880,7 +4885,7 @@ videos:
 
 name:        Raph's Hall of Fame (All Episodes)
 description: |-
-  Um, Actually publishes this same set themselves: https://www.youtube.com/playlist?list=PL0C8kTuE-OeNxSdPUuJSw3x17TR6UaPVg
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PL0C8kTuE-OeNxSdPUuJSw3x17TR6UaPVg
 
   4-hour playlist of 10 episodes of Raph's Hall of Fame, in which Raphael Chestang invites a guest to argue for the induction of the sporting moment they cannot let go of. All 10 videos are free.
 
@@ -4943,7 +4948,7 @@ videos:
 
 name:        Total Forgiveness (All Episodes and Extras)
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLuKg-Whduhkl9NqmqYv9LzcillePncbjI
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLuKg-Whduhkl9NqmqYv9LzcillePncbjI
 
   5-hour playlist of 10 episodes and 3 extras of Total Forgiveness, in which Ally Beardsley and Grant O'Brien compete to have their student debt paid off and agree to almost anything on the way. 1 video is free and 12 require a @Dropout channel membership on YouTube.
 
@@ -5022,7 +5027,7 @@ videos:
 
 name:        Where in the Eff is Sarah Cincinnati (All Episodes)
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLuKg-Whduhkl1NYlKbWhLPvuaU9FridwH
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLuKg-Whduhkl1NYlKbWhLPvuaU9FridwH
 
   1-hour playlist of 6 episodes of Where in the Eff is Sarah Cincinnati, Rekha Shankar as a woman who cannot stop turning up where she is not wanted. All 6 videos require a @Dropout channel membership on YouTube.
 
@@ -5211,9 +5216,9 @@ videos:
 
 name:        MP3
 description: |-
-  Dropout publishes this same set themselves: https://www.youtube.com/playlist?list=PLA6HQcdpkBB0
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLA6HQcdpkBB0
 
-  2-minute playlist of 0 episodes and 1 trailers from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. The one video is free.
+  2-minute playlist of 1 trailer from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. The one video is free.
 playlistId:  PLeFofbWq1F4s
 unlisted:    true
 videos:

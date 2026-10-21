@@ -520,14 +520,13 @@ ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don He
 # so they cannot be selected by `show` or `season`. The `talkback` flag on the
 # entry is what distinguishes them from every other kind of extra.
 [PLZQz_bbjUbkE]
-name = "Adventuring Party (${ALL_SEASONS})"
-# Unlisted: nothing here is curated for this playlist's sake. Every entry is a
-# `bts:` inside the campaign it accompanies, and this selects them by their
-# talkback flag. A gathering of extras rather than a show of its own.
-unlisted = true
+# Fixed rather than "${ALL_SEASONS}": every entry is a `bts:` selected by its
+# talkback flag, so nothing here counts as an episode, yet for this show the
+# talkbacks are the episodes.
+name = "Adventuring Party (All Episodes and Extras)"
 talkback = true
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EXTRAS} episodes/extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """

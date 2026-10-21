@@ -3385,7 +3385,7 @@ slug:          a-witch-hunt
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-10-06T00:00:00.000Z
+lastmod:       2026-10-21T00:00:00.000Z
 title:         A Witch Hunt
 seasonNumber:  2
 episodeNumber: 3
@@ -13195,7 +13195,7 @@ collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
 - new-releases
-lastmod:       2026-10-12T00:00:00.000Z
+lastmod:       2026-10-21T00:00:00.000Z
 title:         Can I Have Your Leg?
 seasonNumber:  2
 episodeNumber: 6
@@ -22780,7 +22780,7 @@ collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
 - new-releases
-lastmod:       2026-10-06T00:00:00.000Z
+lastmod:       2026-10-21T00:00:00.000Z
 title:         Everybody Pregnant
 seasonNumber:  2
 episodeNumber: 5
@@ -29281,7 +29281,7 @@ slug:          hal-rose-said-to-watch-this-episode
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-10-06T00:00:00.000Z
+lastmod:       2026-10-21T00:00:00.000Z
 title:         Hal Rose Said to Watch This Episode
 seasonNumber:  2
 episodeNumber: 2
@@ -38065,7 +38065,7 @@ slug:          kids-are-trash
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-10-06T00:00:00.000Z
+lastmod:       2026-10-21T00:00:00.000Z
 title:         Kids Are Trash
 seasonNumber:  2
 episodeNumber: 4
@@ -40185,7 +40185,7 @@ slug:          lesbian-applause-break
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-lastmod:       2026-10-06T00:00:00.000Z
+lastmod:       2026-10-21T00:00:00.000Z
 title:         Lesbian Applause Break
 seasonNumber:  2
 episodeNumber: 1
@@ -68140,7 +68140,18 @@ collections:
 - toonout-new
 - toonout-season-1
 lastmod:       2026-10-20T00:00:00.000Z
+title:         The Ribbon
+seasonNumber:  1
+episodeNumber: 16
+releaseDate:   '2026-10-20'
+url:           'https://watch.dropout.tv/toonout/season:1/videos/the-ribbon'
+showTitle:     Toonout
+showSlug:      toonout
+description:   'She''s just a regular teen who definitely ISN''T headless, if that''s what you''re wondering.'
+itemId:        4243109
+collectionId:  1489017
 firstSeen:     2026-10-21T00:33:27.480Z
+scrapedAt:     2026-10-21T15:58:42.917Z
 
 ---
 

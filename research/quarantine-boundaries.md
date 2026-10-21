@@ -231,6 +231,9 @@ Season 2 (2020) is a strong candidate, but nothing confirms it.
 | ☑             | 2020-06-25                       | Season 2 | episode | 201. Rye Rye Rye: An NSYNC Orgy Tale                              | [members](https://youtu.be/oYi80qb4SP4) · [Dropout](https://watch.dropout.tv/videos/rye-rye-rye-nsync)                                                      |
 | ☑ (inferred)  | 2020-07-03 (Dropout: 2020-07-09) | Season 2 | episode | 202. Fist and the Furryous: Yoshi's Island Drift                  | [members](https://youtu.be/hm62uGruALU) · [Dropout](https://watch.dropout.tv/videos/fist-and-the-furryous-yoshi-s-island-drift)                             |
 
+Settled: the season 2 finale, `210. Little Gremlnans: The Nude Batch`
+(2020-12-15), is also on Zoom, so all ten episodes of season 2 are quarantine.
+
 ## Breaking News: into season 4
 
 No source found. Check whether the anchors share a set.

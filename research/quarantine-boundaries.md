@@ -12,6 +12,9 @@ host and guest never in the same shot. An in-studio shoot under distancing
 rules, such as Misfits and Magic, with one camera per person and nobody in the
 same shot, does **not** count.
 
+One person alone in the Dome because they are isolating, such as Brennan in Mice
+and Murder or in "A Safe Return to the Dome", **does** count.
+
 Order and dates are the curation's `published:`, our best understanding of each
 video's original release. Where Dropout's own release date differs it is shown
 beside it, as a prompt to check the curated date, not a correction. Release can
@@ -43,17 +46,17 @@ Mice and Murder is reported hybrid (Brennan in the Dome, players at home);
 Misfits and Magic was filmed in the Dome in late March 2021. Confirm where the
 line falls.
 
-| Quarantine? | Date                             | Season                        | Kind    | Title                                          | Watch                                                                                                                                       |
-| ----------- | -------------------------------- | ----------------------------- | ------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| ☑           | 2021-05-16 (Dropout: 2021-06-09) | Mice and Murder               | episode | 10. Unfinished Business                        | [members](https://youtu.be/eeyoMM9Rpt4) · [Dropout](https://watch.dropout.tv/videos/unfinished-business)                                    |
-| ☑           | 2021-05-21 (Dropout: 2021-06-02) | Mice and Murder               | episode | 9. The Belly of the Beast                      | [members](https://youtu.be/siJ8N-FU-g4) · [Dropout](https://watch.dropout.tv/videos/the-belly-of-the-beast)                                 |
-| ☐           | 2021-05-21                       | (no season)                   | bts     | Dimension 20 Update: A Safe Return to the Dome | [members](https://youtu.be/BKiox8GK4MI)                                                                                                     |
-| ☐           | 2021-06-06                       | (no season)                   | trailer | Dimension 20 Trailer                           | [free](https://youtu.be/aDXDopl3YA0)                                                                                                        |
-|             |                                  |                               |         | **— suspected boundary —**                     |                                                                                                                                             |
-| ☐           | 2021-06-16                       | Misfits and Magic (Chapter 1) | trailer | Misfits and Magic Trailer                      | [members](https://youtu.be/2gajEs0WM88) · [free](https://youtu.be/yKHP2mPv7Ws)                                                              |
-| ☐           | 2021-06-30                       | Misfits and Magic (Chapter 1) | episode | 1. The Chosen Ones                             | [members](https://youtu.be/HSV2WQnH_A0) · [free](https://youtu.be/C1VffF1Z5-Y) · [Dropout](https://watch.dropout.tv/videos/the-chosen-ones) |
-| ☐           | 2021-06-30 (Dropout: 2021-07-14) | Misfits and Magic (Chapter 1) | episode | 3. Family On Six                               | [members](https://youtu.be/R3hq2zf55SE) · [Dropout](https://watch.dropout.tv/videos/family-on-six)                                          |
-| ☐           | 2021-07-12 (Dropout: 2021-07-07) | Misfits and Magic (Chapter 1) | episode | 2. Class Conflict                              | [members](https://youtu.be/Y5gw8bpe1Bc) · [Dropout](https://watch.dropout.tv/videos/class-conflict)                                         |
+| Quarantine?                | Date                             | Season                        | Kind    | Title                                          | Watch                                                                                                                                       |
+| -------------------------- | -------------------------------- | ----------------------------- | ------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| ☑                          | 2021-05-16 (Dropout: 2021-06-09) | Mice and Murder               | episode | 10. Unfinished Business                        | [members](https://youtu.be/eeyoMM9Rpt4) · [Dropout](https://watch.dropout.tv/videos/unfinished-business)                                    |
+| ☑                          | 2021-05-21 (Dropout: 2021-06-02) | Mice and Murder               | episode | 9. The Belly of the Beast                      | [members](https://youtu.be/siJ8N-FU-g4) · [Dropout](https://watch.dropout.tv/videos/the-belly-of-the-beast)                                 |
+| ☑ Brennan alone, isolating | 2021-05-21                       | (no season)                   | bts     | Dimension 20 Update: A Safe Return to the Dome | [members](https://youtu.be/BKiox8GK4MI)                                                                                                     |
+| ☐                          | 2021-06-06                       | (no season)                   | trailer | Dimension 20 Trailer                           | [free](https://youtu.be/aDXDopl3YA0)                                                                                                        |
+|                            |                                  |                               |         | **— suspected boundary —**                     |                                                                                                                                             |
+| ☐                          | 2021-06-16                       | Misfits and Magic (Chapter 1) | trailer | Misfits and Magic Trailer                      | [members](https://youtu.be/2gajEs0WM88) · [free](https://youtu.be/yKHP2mPv7Ws)                                                              |
+| ☐                          | 2021-06-30                       | Misfits and Magic (Chapter 1) | episode | 1. The Chosen Ones                             | [members](https://youtu.be/HSV2WQnH_A0) · [free](https://youtu.be/C1VffF1Z5-Y) · [Dropout](https://watch.dropout.tv/videos/the-chosen-ones) |
+| ☐                          | 2021-06-30 (Dropout: 2021-07-14) | Misfits and Magic (Chapter 1) | episode | 3. Family On Six                               | [members](https://youtu.be/R3hq2zf55SE) · [Dropout](https://watch.dropout.tv/videos/family-on-six)                                          |
+| ☐                          | 2021-07-12 (Dropout: 2021-07-07) | Misfits and Magic (Chapter 1) | episode | 2. Class Conflict                              | [members](https://youtu.be/Y5gw8bpe1Bc) · [Dropout](https://watch.dropout.tv/videos/class-conflict)                                         |
 
 ## Adventuring Party: start (2020)
 

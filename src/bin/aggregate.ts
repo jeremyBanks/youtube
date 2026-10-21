@@ -660,6 +660,7 @@ async function main() {
         .replaceAll(" ()", "")
         .replaceAll(/\b1 Extras\b/g, "1 Extra")
         .replaceAll(/\b1 trailers\b/g, "1 trailer")
+        .replaceAll(/\b1 extras\b/g, "1 extra")
         .replaceAll(/\b1 Episodes\b/g, "1 Episode")
         .replaceAll(/\b1 Seasons\b/g, "1 Season")
         .replaceAll(/\b1 Videos\b/g, "1 Video")

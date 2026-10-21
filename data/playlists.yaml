@@ -2597,7 +2597,7 @@ videos:
 
 name:        'Dimension 20: Tiny Heist (All Episodes)'
 description: |-
-  12-hour playlist of 6 episodes and 1 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Tiny Heist, a campaign from Dimension 20. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
+  12-hour playlist of 6 episodes and 1 extra (talkbacks, trailers, behind-the-scenes videos, and interviews) from Tiny Heist, a campaign from Dimension 20. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -3166,7 +3166,7 @@ videos:
 
 name:        'Dimension 20: Time Quangle (All Episodes)'
 description: |-
-  12-hour playlist of 6 episodes and 1 extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Time Quangle, a campaign from Dimension 20. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
+  12-hour playlist of 6 episodes and 1 extra (talkbacks, trailers, behind-the-scenes videos, and interviews) from Time Quangle, a campaign from Dimension 20. 2 videos are free and 5 require a @Dropout channel membership on YouTube.
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
@@ -4720,7 +4720,10 @@ videos:
 ---
 
 name:        Toonout (All Episodes)
-description: '60-minute playlist of 15 episodes and 1 extras of Toonout, Dropout''s anthology of animated shorts, each one made by a different creator. 12 videos are free and 4 require a @Dropout channel membership on YouTube.'
+description: |-
+  1-hour playlist of 16 episodes and 1 extra of Toonout, Dropout's anthology of animated shorts, each one made by a different creator. 12 videos are free and 5 require a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/toonout
 playlistId:  PLJsbcZca7RJU
 videos:
   LTba5203dGc: 'Toonout Trailer [New Animation Series]'
@@ -4739,12 +4742,13 @@ videos:
   49hYURUTcwM: The Pickle | Toonout Season 1 | Ep. 13
   SmtonlOiRuA: Young Spencer Goes to School | Toonout Season 1 | Ep. 14
   m-iUiGvonJw: Heaven | Toonout Season 1 | Ep. 15
+  lnKpU-7LvsQ: The Ribbon | Toonout Season 1 | Ep. 16
 
 ---
 
 name:        The Rank Room (All Episodes and Extras)
 description: |-
-  6-hour playlist of 20 episodes and 1 extras of The Rank Room, the show in which comedians argue their way to a definitive ranking of things nobody has ever needed ranked. Begins with the four CollegeHumor episodes from 2018. 6 videos are free and 15 require a @Dropout channel membership on YouTube.
+  6-hour playlist of 20 episodes and 1 extra of The Rank Room, the show in which comedians argue their way to a definitive ranking of things nobody has ever needed ranked. Begins with the four CollegeHumor episodes from 2018. 6 videos are free and 15 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/the-rank-room
   https://watch.dropout.tv/the-rank-room-the-web-series

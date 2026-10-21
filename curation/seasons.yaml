@@ -9169,11 +9169,15 @@ videos:
     # fortnightly and 11, 12 and 13 fall on 08-11, 08-25 and 09-08, so 14
     # belongs on 09-22 -- which is when YouTube published it.
     members: SmtonlOiRuA
-    published: 2026-09-08
+    published: 2026-09-22
   - episode: 15. Heaven
     dropout: heaven
     members: m-iUiGvonJw
     published: 2026-10-06
+  - episode: 16. The Ribbon
+    dropout: the-ribbon
+    members: lnKpU-7LvsQ
+    published: 2026-10-20
 
 ---
 

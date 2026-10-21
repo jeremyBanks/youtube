@@ -386,6 +386,7 @@ async function main() {
     // Episodes)" report 52 missing, nearly all of them extras it excludes by
     // design, and a free-only playlist report every members video.
     const excluded: Array<CuratedEntry> = [];
+    const segments: Array<{ start: number; published?: Date }> = [];
 
     let seasonCount = 0;
     let episodeCount = 0;
@@ -469,6 +470,17 @@ async function main() {
           excluded.push(episode);
           continue;
         }
+        if (
+          config.quarantine !== undefined &&
+          (episode.animation !== undefined
+              ? false
+              : episode.quarantine ?? season.quarantine ?? false) !==
+            config.quarantine
+        ) {
+          excluded.push(episode);
+          continue;
+        }
+        segments.push({ start: videoIds.length, published: episode.published });
         if (episode.public) {
           videoIds.push(preferredPublic(episode)!);
           included.push(episode);
@@ -519,6 +531,21 @@ async function main() {
           console.error(`no video ID specified for ${JSON.stringify(episode)}`);
         }
       }
+    }
+
+    // Each entry's run of ids, so that a playlist spanning shows can be put
+    // in release order without splitting a multi-part episode apart.
+    if (config.chronological) {
+      const runs = segments.map((segment, i) => ({
+        published: segment.published,
+        ids: videoIds.slice(segment.start, segments[i + 1]?.start),
+      }));
+      runs.sort((a, b) => +(a.published ?? 0) - +(b.published ?? 0));
+      videoIds.splice(0, videoIds.length, ...runs.flatMap((run) => run.ids));
+    }
+    if (config.last && videoIds.includes(config.last)) {
+      videoIds.splice(videoIds.indexOf(config.last), 1);
+      videoIds.push(config.last);
     }
 
     const videos: Record<string, string> = {};

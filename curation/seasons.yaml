@@ -467,28 +467,34 @@ videos:
     members: FuCA0JgxFTc
     published: 2020-03-16
   - episode: 19. Spring Break! I Believe In You! (Part 1)
+    quarantine: true
     dropout: spring-break-i-believe-in-you-part-1
     public: 44Dmda_anto
     members: d43Hl6_hq24
     published: 2020-04-05
   - episode: 20. Spring Break! I Believe In You! (Part 2)
+    quarantine: true
     dropout: spring-break-i-believe-in-you-part-2
     public: MnJI_KQhkR8
     members: USDoNZ-Ygdc
     published: 2020-04-07
   - bts: Fireside Chat with Brennan & Friends (Part 1)
+    quarantine: true
     dropout: fireside-chat-with-brennan-friends-part-1
     members: 6xcd7vfjo0o
     published: 2020-03-24
   - bts: Fireside Chat with Brennan & Friends (Part 2)
+    quarantine: true
     dropout: fireside-chat-with-brennan-friends-part-2
     members: "-OcNWYpthsM"
     published: 2020-03-29
   - special: College Visit
+    quarantine: true
     dropout: college-visit-rtx-home-live
     members: Sr0Zi59jpEc
     published: 2020-09-28
   - special: Boys' Night
+    quarantine: true
     dropout: boys-night
     public: 7TaGYFCmVS8
     members: 7rjNgO-YUos
@@ -554,6 +560,7 @@ videos:
     members: mA7BlfOsYng
     published: 2020-04-08
   - bts: Are The Dice Scripted?
+    quarantine: true
     dropout: are-the-dice-scripted
     talkback: true
     members: PvM2yQ12t70
@@ -563,6 +570,7 @@ videos:
     members: t8mO8UlfDho
     published: 2020-03-08
   - bts: For The Corn Cuties!
+    quarantine: true
     dropout: for-the-corn-cuties
     talkback: true
     members: 5qlemDfjl1U
@@ -572,6 +580,7 @@ videos:
     members: rKXhP1mV5A8
     published: 2020-04-22
   - bts: Choices and Voices
+    quarantine: true
     dropout: choices-voices
     talkback: true
     members: mQN4hJ8IdWE
@@ -586,6 +595,7 @@ videos:
     members: y6UJtVbY-Yw
     published: 2021-12-07
   - bts: Zac's Big Day
+    quarantine: true
     dropout: zac-s-big-day
     talkback: true
     members: 79WG3mN4AW4
@@ -595,6 +605,7 @@ videos:
     members: 2AkMeUhcTT0
     published: 2020-05-05
   - bts: The Jeff Goldblum Episode
+    quarantine: true
     dropout: the-jeff-goldblum-episode
     talkback: true
     members: cQPiAC6vfhA
@@ -604,6 +615,7 @@ videos:
     members: YpbxZ7CBTwU
     published: 2020-05-08
   - bts: Welcome to Denny's
+    quarantine: true
     dropout: welcome-to-denny-s
     talkback: true
     members: iJl_qUA-4gc
@@ -613,6 +625,7 @@ videos:
     members: VRpIyUkeRY4
     published: 2020-05-15
   - bts: We've Got Ink On Our Hands
+    quarantine: true
     dropout: we-ve-got-ink-on-our-hands
     talkback: true
     members: BtONMuscCOQ
@@ -622,6 +635,7 @@ videos:
     members: zjkhYwst2tE
     published: 2020-05-15
   - bts: War Crimes and Good Times
+    quarantine: true
     dropout: war-crimes-good-times
     talkback: true
     members: IZmvdLrmZTY
@@ -636,11 +650,13 @@ videos:
     members: 4bJ3Hr5bi6s
     published: 2022-07-05
   - bts: Protest, Justice, and Black Lives Matter (Special Episode)
+    quarantine: true
     dropout: protest-justice-and-black-lives-matter-special-episode
     talkback: true
     members: "-F1oAsEWQ4Q"
     published: 2020-06-09
   - bts: "Slammed Down, Big-Style"
+    quarantine: true
     dropout: slammed-down-big-style
     talkback: true
     members: kZy0mmTLf_g
@@ -650,6 +666,7 @@ videos:
     members: XMaGdEKIfiI
     published: 2020-05-29
   - bts: Soft Hugs
+    quarantine: true
     dropout: soft-hugs
     talkback: true
     members: wD8Gi-AUKkw
@@ -659,6 +676,7 @@ videos:
     members: l-AUIcjoln4
     published: 2020-05-31
   - bts: "Twinned Down, Big Business-Style"
+    quarantine: true
     dropout: twinned-down-big-business-style
     talkback: true
     members: ZIP50ZxigK0
@@ -668,6 +686,7 @@ videos:
     members: KbOetf8U6TY
     published: 2020-06-19
   - bts: Choppy Skullduggery
+    quarantine: true
     dropout: choppy-skullduggery
     talkback: true
     members: aYY-vGsxfMY
@@ -677,6 +696,7 @@ videos:
     members: bSvcfWDgC7I
     published: 2020-06-30
   - bts: Dom or Be Dommed
+    quarantine: true
     dropout: dom-or-be-dommed
     talkback: true
     members: JN2QzaQcpSo
@@ -686,6 +706,7 @@ videos:
     members: i9OczQ1vCvo
     published: 2020-06-23
   - bts: "Rude Goldberg and Eartha Crit, Explained"
+    quarantine: true
     dropout: rude-goldberg-and-eartha-crit-explained
     talkback: true
     members: jUcxLbad31I
@@ -695,6 +716,7 @@ videos:
     members: u6nBCXfCUVE
     published: 2020-06-23
   - bts: I Stan The Protestant Work Ethic!
+    quarantine: true
     dropout: i-stan-the-protestant-work-ethic
     talkback: true
     members: intsLWmLjxE
@@ -704,6 +726,7 @@ videos:
     members: yPDSSCV02xc
     published: 2020-06-23
   - bts: "Burt From Ohio, Thankyousomuch"
+    quarantine: true
     dropout: burt-from-ohio-thankyousomuch
     talkback: true
     members: aqqNBb3-l5c
@@ -713,6 +736,7 @@ videos:
     members: he8QU5a9HfA
     published: 2020-06-27
   - bts: The Wild Childs
+    quarantine: true
     dropout: the-wild-childs
     talkback: true
     members: JqRJ4TEZmvs
@@ -725,6 +749,7 @@ videos:
 ---
 
 season: Pirates of Leviathan
+quarantine: true
 show: Dimension 20
 world: Spyre
 videos:
@@ -775,6 +800,7 @@ videos:
 ---
 
 season: The Unsleeping City (Chapter 2)
+quarantine: true
 show: Dimension 20
 cast: Intrepid Heroes
 world: The Unsleeping City
@@ -951,12 +977,14 @@ videos:
     members: 6f5pfudBaGU
     published: 2021-03-22
   - trailer: Gauntlet at the Garden Trailer
+    quarantine: false
     public: "-XCew5KFnts"
     published: 2024-04-08
 
 ---
 
 season: Mice and Murder
+quarantine: true
 show: Dimension 20
 videos:
   - trailer: Mice and Murder Trailer
@@ -1084,6 +1112,7 @@ videos:
   # /videos/dimension-20-update-a-safe-return-to-the-dome. It survives only as
   # this members upload, which is the whole point of keeping the archive.
   - bts: "Dimension 20 Update: A Safe Return to the Dome"
+    quarantine: true
     members: BKiox8GK4MI
     published: 2021-05-21
 
@@ -1268,11 +1297,13 @@ videos:
     members: cbydaI1LaIk
     published: 2021-10-20
   - bts: Have You Heard of This Thing Called Talespire?
+    quarantine: true
     dropout: have-you-heard-of-this-thing-called-talespire
     talkback: true
     members: TrQe-zniCpA
     published: 2021-10-26
   - bts: We All Felt Like It Was Therapy with Brennan During This Game
+    quarantine: true
     dropout: we-all-felt-like-it-was-therapy-with-brennan-during-this-game
     talkback: true
     members: UVDaRZssWzQ
@@ -1293,6 +1324,7 @@ videos:
     members: JqMPN9_5OG8
     published: 2021-11-10
   - bts: I Pretended to be a Wolf for Awhile as a Child
+    quarantine: true
     dropout: i-pretended-to-be-a-wolf-for-awhile-as-a-child
     talkback: true
     members: hwZlEc2l4dM
@@ -1302,6 +1334,7 @@ videos:
     members: jKYykMZpad0
     published: 2021-11-15
   - bts: Everyone Put a Finger Down If You Smelled a Chair
+    quarantine: true
     dropout: everyone-put-a-finger-down-if-you-smelled-a-chair
     talkback: true
     members: tEHj5v-mUtw
@@ -1311,6 +1344,7 @@ videos:
     members: mZuaiaBIJyc
     published: 2021-11-20
   - bts: That's The Beauty of D&D
+    quarantine: true
     dropout: that-s-the-beauty-of-d-d
     talkback: true
     members: vujC_Uk_nSQ
@@ -1320,11 +1354,13 @@ videos:
     members: yb169Rb3UPU
     published: 2021-11-26
   - bts: I Wish I Had Bitten More People
+    quarantine: true
     dropout: i-wish-i-had-bitten-more-people
     talkback: true
     members: OyVhJi7hr0g
     published: 2021-12-01
   - bts: 'Oh No, I''m In Love With Chupacabra'
+    quarantine: true
     dropout: oh-no-i-m-in-love-with-a-chupacabra
     talkback: true
     members: _BYg4oX3juA
@@ -2533,6 +2569,7 @@ videos:
 
 show: Game Changer
 season: Season 3
+quarantine: true
 videos:
   - episode: 301. Tell Us About Yourself
     dropout: tell-us-about-yourself
@@ -3504,6 +3541,7 @@ videos:
 
 show: "Um, Actually"
 season: Season 4
+quarantine: true
 videos:
   - episode: 401. Muppets & Puppets
     dropout: muppets-puppets
@@ -3574,6 +3612,7 @@ videos:
 
 show: "Um, Actually"
 season: Season 5
+quarantine: true
 videos:
   - episode: 501. Return to Love, Actually
     dropout: return-to-love-actually
@@ -4137,6 +4176,7 @@ videos:
 
 show: Adventuring Academy
 season: Season 2
+quarantine: true
 videos:
   - episode: 201. Balancing Comedy and Drama (with Freddie Wong)
     dropout: balancing-comedy-and-drama-with-freddie-wong
@@ -4243,6 +4283,7 @@ videos:
 
 show: Adventuring Academy
 season: Season 3
+quarantine: true
 videos:
   - episode: 301. Artwork is 360 Degrees (with Carlos Luna)
     dropout: artwork-is-360-degrees-with-carlos-luna
@@ -4585,6 +4626,7 @@ videos:
 
 show: Breaking News
 season: Season 4
+quarantine: true
 videos:
   - episode: 401. A Cavalcade of Carreys
     dropout: a-cavalcade-of-carreys
@@ -9638,6 +9680,7 @@ videos:
 
 show: Erotic Book Club
 season: Season 2
+quarantine: true
 videos:
   - episode: "201. Rye Rye Rye: An NSYNC Orgy Tale"
     dropout: rye-rye-rye-nsync

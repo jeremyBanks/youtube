@@ -85,6 +85,15 @@ const AggregateConfigToml = z.record(
     live: z.boolean().optional(),
     free: z.boolean().optional(),
     talkback: z.boolean().optional(),
+    /** select entries made remotely in the pandemic, across every show */
+    quarantine: z.boolean().optional(),
+    /**
+     * Order by `published:` across every doc rather than in file order, which
+     * only means anything within one show.
+     */
+    chronological: z.boolean().optional(),
+    /** a video id held back to close the playlist, whatever its date */
+    last: z.string().optional(),
     /** publish it as unlisted rather than public, but keep updating it */
     unlisted: z.boolean().optional(),
     /**
@@ -112,6 +121,9 @@ type AggregateConfig = Array<{
   live?: boolean;
   free?: boolean;
   talkback?: boolean;
+  quarantine?: boolean;
+  chronological?: boolean;
+  last?: string;
   unlisted?: boolean;
   private?: boolean;
   skip?: boolean;
@@ -155,6 +167,9 @@ export async function getAggregateConfig(): Promise<AggregateConfig> {
         live: aggregateConfig.live,
         free: aggregateConfig.free,
         talkback: aggregateConfig.talkback,
+        quarantine: aggregateConfig.quarantine,
+        chronological: aggregateConfig.chronological,
+        last: aggregateConfig.last,
         unlisted: aggregateConfig.unlisted,
         private: aggregateConfig.private,
         skip: aggregateConfig.skip,
@@ -171,6 +186,9 @@ const SeasonsCurationYaml = z.array(
     cast: z.string().optional(),
     world: z.string().optional(),
     live: z.boolean().optional(),
+    // Made remotely during the pandemic, throughout. An entry's own
+    // `quarantine:` overrides it either way.
+    quarantine: z.boolean().optional(),
     videos: z.array(
       z.object({
         published: z.date().optional(), // XXX: should this be optional?
@@ -184,6 +202,10 @@ const SeasonsCurationYaml = z.array(
         // shows, Misfits and Magic at GenCon. The season-level `live:` covers
         // a run that was live throughout.
         live: z.boolean().optional(),
+        // Made remotely during the pandemic: on a call, or one person alone
+        // in the Dome. Distanced in-person shoots do not count, and neither
+        // does animation, which was made remotely regardless.
+        quarantine: z.boolean().optional(),
         // Explicitly links this entry to a watch.dropout.tv episode slug,
         // for verify-dates cross-referencing when title matching can't.
         dropout: z.string().optional(),

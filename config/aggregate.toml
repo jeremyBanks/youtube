@@ -700,3 +700,18 @@ show = "MP3"
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. ${MAYBE_MEMBERS_ONLY}
 """
+
+# Selected by `quarantine:` in the curation, on a season made remotely
+# throughout or on single entries. Settled one video at a time in
+# research/quarantine-boundaries.md: on a call, or one person alone in the
+# Dome, counts; a distanced in-person shoot does not, and neither does
+# animation. Release order across every show, closing on the announcement of
+# the return to the Dome even though remote episodes kept airing after it.
+[todo-dropout-in-quarantine]
+name = "Dropout in Quarantine"
+quarantine = true
+chronological = true
+last = "BKiox8GK4MI"
+description = """
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras that Dropout made remotely during the COVID-19 pandemic, from home, over video calls, and with Brennan alone in the Dome, in the order they were released. It ends with Dimension 20's announcement of the return to the Dome. ${MAYBE_MEMBERS_ONLY}
+"""

@@ -1121,7 +1121,7 @@ channelTitle:    LRR Streams
 title:           LRR Sims Overnight 3 || LRR2026 Sub-A-Thon
 uploadedAt:      2026-09-22T18:30:10.000Z
 duration:        13776
-resolvedAt:      2026-10-01T17:23:43.024Z
+resolvedAt:      2026-10-22T15:53:12.622Z
 privacyStatus:   public
 description:     |-
   Broadcast 2026-08-27
@@ -2988,7 +2988,7 @@ channelTitle:    Lowbrow Studios
 title:           Luigi's Bad Day - Video Game Hospital
 uploadedAt:      2021-09-07T16:30:01.000Z
 duration:        252
-resolvedAt:      2026-09-27T15:40:12.773Z
+resolvedAt:      2026-10-22T15:53:12.622Z
 privacyStatus:   public
 description:     |-
   This is why there was never a Dr. Luigi game.
@@ -9487,6 +9487,13 @@ description:     |-
   Google+: https://plus.google.com/+GeekandSundry/
 
   #criticalrole #dnd #ttrpg
+
+---
+
+videoId:         TRnffpn-Zt4
+resolvedAt:      2026-10-22T15:53:12.622Z
+absence:         private
+missing:         true
 
 ---
 
@@ -16722,7 +16729,7 @@ channelTitle:    LRR Tabletop
 title:           Heroes of Barcadia - Board Game Day || LRR2026 Sub-A-Thon
 uploadedAt:      2026-09-22T17:00:29.000Z
 duration:        7678
-resolvedAt:      2026-10-01T17:23:43.024Z
+resolvedAt:      2026-10-22T15:53:12.622Z
 privacyStatus:   public
 description:     |-
   Broadcast: 2026-08-26
@@ -19186,7 +19193,7 @@ channelTitle:    Dropout
 title:           Directions in Fantasy
 uploadedAt:      2018-02-08T18:18:10.000Z
 duration:        13
-resolvedAt:      2026-09-25T15:49:53.249Z
+resolvedAt:      2026-10-22T15:53:12.622Z
 privacyStatus:   unlisted
 description:     ''
 

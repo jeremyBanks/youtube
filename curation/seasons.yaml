@@ -8085,6 +8085,13 @@ videos:
 show: Fatal Decision
 season: Season 1
 videos:
+  # Dropout's "Fatal Decision : Season 1" playlist,
+  # PLuKg-Whduhkmk_O2u2-b2QAICCmn994s0, holds nine private uploads added within
+  # fifteen seconds on 2018-07-11, presumably the original 2018 release of
+  # episodes since re-uploaded. The season has more than nine episodes, so
+  # position cannot say which; unidentified until it can: 3GYbsqFzDNU,
+  # VJ7tTIwd-_s, qjrl0-yeg4Q, DG0GQZTaXrE, 3cyayV1qfe4, FiBRy2LNn4E,
+  # sYZ7M1xztXs, E5H_wxSicZY, VD6cO_q67wo.
   - episode: 1. Operation Birthday Cake
     dropout: operation-birthday-cake
     members: iX6RGPjnfUY
@@ -10423,3 +10430,81 @@ videos:
   - episode: 1. Episode 1
     removed public: TRnffpn-Zt4
     published: 2016-04-12
+---
+show: Badman
+season: Season 1
+videos:
+  # CollegeHumor's "Batman" sketches, 2009-2013, re-uploaded as "Badman" in
+  # 2024 when the originals were made private. Each `removed public` is the
+  # original upload; numbering and titles are Dropout's. Ordered by original
+  # release, so The Outtakes (Dropout's 11) sits before 10.
+  - episode: "1. Badman Vanishing"
+    dropout: badman-vanishing
+    public: Yd4zm4CvvvA
+    # The whole series in one upload, 2020: "Pete Holmes' Badman".
+    public compilation: MDdHYjb5sBk
+    removed public: HBsdV--kLoQ
+    published: 2009-11-23
+  - episode: "2. Badman Interrogation"
+    dropout: badman-interrogation
+    public: PvAJJvdeBMA
+    removed public: Svd4fe8HEZI
+    published: 2011-10-26
+  - episode: "3. Badman Meets the Riddler"
+    dropout: badman-meets-the-riddler
+    removed public:
+      - SVW6SH2bjYQ
+      - rikt_4obuqk
+    published: 2011-11-07
+  - episode: "4. Badman Chooses His Voice"
+    dropout: badman-chooses-his-voice
+    public: Plfr2zkfSLk
+    removed public: WOg3ZE3hNQc
+    published: 2011-12-26
+  - episode: "5. Badman Blows His Cover"
+    dropout: badman-blows-his-cover
+    public: v0ek7MWxTww
+    removed public: 01vWvocMc6M
+    published: 2012-07-09
+  - episode: "6. Badman Meets Two-Face"
+    dropout: badman-meets-two-face
+    public: kx_Ct1QQx7Y
+    removed public: MTLp14MKDDU
+    published: 2012-08-16
+  - episode: "7. Badman Vs. The Scarecrow"
+    dropout: badman-vs-the-scarecrow
+    public: K8L7donvek0
+    removed public: YpzKMr4fJwg
+    published: 2012-09-13
+  - episode: "8. Badman Can't Stop Thinking About Sex"
+    dropout: badman-can-t-stop-thinking-about-sex
+    public: GbBHSzOxp4c
+    removed public: enOHraf3LEk
+    published: 2012-12-17
+  # Not on watch.dropout.tv, and given no Badman re-upload.
+  - special: Batman Says His Goodbyes
+    removed public: FUDHcuLnMVc
+    published: 2013-03-31
+  - episode: "9. Badman Vs. The Penguin (with Patton Oswalt)"
+    dropout: badman-vs-the-penguin-with-patton-oswalt
+    public: LizbFqOmbc8
+    removed public: 1byycwl8qgc
+    published: 2013-04-25
+  - episode: "11. The Outtakes"
+    dropout: the-outtakes
+    public: tpZVj55-80M
+    published: 2013-05-22
+  - episode: "10. Badman and Superman Team Up"
+    dropout: badman-and-superman-team-up
+    public: vcaGUdGIQfU
+    removed public: prRySgsgtnM
+    published: 2013-10-30
+---
+show: Lonely and Horny
+season: Season 2
+videos:
+  # Known only from Dropout's "Lonely and Horny : Season 2" playlist,
+  # PLuKg-WhduhkmDcFLATC7eLUMT171uav3B, created 2018-11-06. Both entries are
+  # private and unidentified: ySlHVbrgxKQ (added 2018-11-12) and siv9t_0agaU
+  # (added 2018-11-17). See research/lonely-and-horny.md.
+  []

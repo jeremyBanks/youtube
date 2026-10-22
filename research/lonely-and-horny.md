@@ -29,3 +29,9 @@ weekly run from December 2018, Dropout's launch season, and are still to be
 identified. Wayback lookups for each:
 `https://web.archive.org/web/*/https://www.youtube.com/watch?v=<id>*`
 (archive.org is unreachable from the cloud sessions this project runs in).
+
+## Season 2
+
+A second Dropout playlist, "Lonely and Horny : Season 2"
+(PLuKg-WhduhkmDcFLATC7eLUMT171uav3B), created 2018-11-06, holds two more private
+videos: `ySlHVbrgxKQ` (added 2018-11-12) and `siv9t_0agaU` (added 2018-11-17).

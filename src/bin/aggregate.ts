@@ -527,6 +527,14 @@ async function main() {
               if (!episode.trailer) bonusCount += 1;
             }
           }
+        } else if (
+          episode["removed public"] || episode["removed members"] ||
+          episode["removed public parts"]
+        ) {
+          // Recorded because it existed, though nothing of it can be
+          // published: a show whose every upload has gone private still
+          // belongs in the catalogue.
+          excluded.push(episode);
         } else {
           console.error(`no video ID specified for ${JSON.stringify(episode)}`);
         }

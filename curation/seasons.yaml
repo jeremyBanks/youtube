@@ -10410,3 +10410,16 @@ videos:
   - episode: "3. If Google Was a Guy: Quarantine Edition (Part 3)"
     public: LTydy0lH33k
     published: 2020-12-31
+---
+show: Lonely and Horny
+season: Season 1
+videos:
+  # Jake and Amir's first show after Jake and Amir: ten episodes on Vimeo on
+  # Demand in 2016, with this one free on CollegeHumor's YouTube channel.
+  # Private now, and Dropout carries the show nowhere, so its playlist
+  # PLuKg-WhduhknxTkx11dSofBdM75GUAgpn is the only trace of it. The four other
+  # entries there, all private, are not yet identified: r7fYlsPumm8,
+  # TqcSQPobYvc, vrhiOsYznNA, XDlwsGeek6g. See research/lonely-and-horny.md.
+  - episode: 1. Episode 1
+    removed public: TRnffpn-Zt4
+    published: 2016-04-12

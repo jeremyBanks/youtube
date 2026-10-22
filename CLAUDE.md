@@ -416,6 +416,9 @@ videos:
 - `public compilation`: Compilation including this content
 - `public parts`: Array of video IDs for split episodes
 - `removed members`: Members version(s) no longer available (one id, or a list)
+- `removed public`: Free upload(s) since made private or replaced. An entry may
+  carry nothing else: a show whose every upload has gone, such as Lonely and
+  Horny, is still curated, and `aggregate` skips it quietly.
 - `removed public parts`: Split-episode parts that have since gone
 
 **"Removed" is not "deleted".** Everything the scan observes is removal: a video

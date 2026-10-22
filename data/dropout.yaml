@@ -4693,6 +4693,7 @@ collection:    dimension-20-s-adventuring-party-season-25
 collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-16T00:00:00.000Z
 title:         American Pass the Parcel with Emily Axford
@@ -6001,6 +6002,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         'Ashes, Ashes, We All Fall'
@@ -33358,7 +33360,6 @@ slug:          i-m-evil-baby-yeah
 collection:    dimension-20-s-adventuring-party-season-24
 collections:
 - dimension-20-city-council-of-darkness-the-complete-experience
-- dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-24
 lastmod:       2026-08-10T00:00:00.000Z
 title:         'I''m Evil Baby, Yeah'
@@ -36487,6 +36488,7 @@ collection:    dimension-20-s-adventuring-party-season-25
 collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
+- dimension-20-toylight-the-complete-experience
 - new-releases
 - zoom-energy-adventuring-party
 lastmod:       2026-10-16T00:00:00.000Z
@@ -47026,6 +47028,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         Ol' Block Bridge is Falling Down
@@ -53607,6 +53610,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         'Run, Run, As Fast As You Can'
@@ -56203,6 +56207,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
+- dimension-20-toylight-the-complete-experience
 - dip-your-toe-in
 lastmod:       2026-10-15T00:00:00.000Z
 title:         Sing A Song of Six
@@ -59410,6 +59415,7 @@ collection:    dimension-20-s-adventuring-party-season-25
 collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-16T00:00:00.000Z
 title:         Street Sharts
@@ -62959,6 +62965,68 @@ description:   Sarah and David throw their co-workers off the scent.
 itemId:        233735
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T14:58:45.915Z
+
+---
+
+slug:          the-cradle-will-fall
+collection:    dimension-20-toylight-season-1
+collections:
+- dimension-20-new-releases
+- dimension-20-the-complete-series-season-31
+- dimension-20-toylight-season-1
+- dimension-20-toylight-the-complete-experience
+- new-releases
+lastmod:       2026-10-21T00:00:00.000Z
+title:         The Cradle Will Fall
+seasonNumber:  1
+episodeNumber: 6
+releaseDate:   '2026-10-21'
+url:           'https://watch.dropout.tv/dimension-20-toylight/season:1/videos/the-cradle-will-fall'
+showTitle:     'Dimension 20: Toylight'
+showSlug:      dimension-20-toylight
+description:   |-
+  The Toys make one last stand to defend the Toylight.
+
+  Content Warning: 
+  References to Childhood Illness
+  Violence (Light descriptions of)
+  Suicide Joke [5:18-5:31]
+  Description of Drowning - [9:48-14:44]
+  Coulrophobia (Clown Illustrations) - [throughout]
+  Arachnophobia (Spider Infestation Illustration...
+itemId:        4243112
+collectionId:  1503707
+firstSeen:     2026-10-22T15:53:26.690Z
+scrapedAt:     2026-10-22T15:54:04.257Z
+
+---
+
+slug:          the-cradle-will-fall-audio-only
+collection:    dimension-20-audio-only-season-30
+collections:
+- dimension-20-audio-only-season-30
+lastmod:       2026-10-21T00:00:00.000Z
+title:         'The Cradle Will Fall [Audio Only] - Toylight'
+seasonNumber:  30
+episodeNumber: 6
+releaseDate:   '2026-10-21'
+url:           'https://watch.dropout.tv/dimension-20-audio-only/season:30/videos/the-cradle-will-fall-audio-only'
+showTitle:     'Dimension 20 [Audio Only]'
+showSlug:      dimension-20-audio-only
+description:   |-
+  The Toys make one last stand to defend the Toylight.
+
+  Content Warning: 
+  References to Childhood Illness
+  Violence (Light descriptions of)
+  Suicide Joke [5:18-5:31]
+  Description of Drowning - [9:48-14:44]
+  Coulrophobia (Clown Illustrations) - [throughout]
+  Arachnophobia (Spider Infestation Illustration...
+itemId:        4243116
+collectionId:  1503708
+firstSeen:     2026-10-22T15:53:26.690Z
+scrapedAt:     2026-10-22T15:54:16.503Z
 
 ---
 
@@ -70646,6 +70714,7 @@ collections:
 - dimension-20-new-releases
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         'The Worms Crawl In, The Worms Crawl Out'
@@ -73057,6 +73126,7 @@ collection:    dimension-20-s-adventuring-party-season-25
 collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
+- dimension-20-toylight-the-complete-experience
 lastmod:       2026-10-16T00:00:00.000Z
 title:         'Toy-O, Like Boyo'
 seasonNumber:  25
@@ -76564,6 +76634,7 @@ collection:    dimension-20-s-adventuring-party-season-25
 collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
+- dimension-20-toylight-the-complete-experience
 - new-releases
 lastmod:       2026-10-16T00:00:00.000Z
 title:         War Council

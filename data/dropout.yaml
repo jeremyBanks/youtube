@@ -1443,7 +1443,7 @@ collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         A Deep Investment in Frivolity (with Mica Burton)
 seasonNumber:  7
 episodeNumber: 7
@@ -1612,7 +1612,7 @@ collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         A Duty of Care (with Dr. Emily Friedman)
 seasonNumber:  7
 episodeNumber: 6
@@ -2560,7 +2560,7 @@ slug:          a-rorschach-test-but-on-their-face
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         A Rorschach Test But On Their Face
 seasonNumber:  3
 episodeNumber: 7
@@ -4993,7 +4993,6 @@ collection:    dimension-20-city-council-of-darkness-season-1
 collections:
 - dimension-20-city-council-of-darkness-season-1
 - dimension-20-city-council-of-darkness-the-complete-experience
-- dimension-20-new-releases
 - dimension-20-the-complete-series-season-30
 lastmod:       2026-07-30T00:00:00.000Z
 title:         An Undead Denouement
@@ -6850,7 +6849,7 @@ slug:          bandaid-on-a-bowling-ball-with-vic-michaelis
 collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Bandaid on a Bowling Ball (with Vic Michaelis)
 seasonNumber:  7
 episodeNumber: 1
@@ -11487,7 +11486,7 @@ slug:          bonk-and-vibes
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Bonk and Vibes
 seasonNumber:  3
 episodeNumber: 2
@@ -14537,7 +14536,7 @@ slug:          choppedness-cannot-be-outrun
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Choppedness Cannot Be Outrun
 seasonNumber:  3
 episodeNumber: 3
@@ -27414,7 +27413,7 @@ slug:          getting-thrown-to-the-wolves-with-robbie-daymond
 collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Getting Thrown to the Wolves (with Robbie Daymond)
 seasonNumber:  7
 episodeNumber: 2
@@ -36720,7 +36719,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - new-releases
-lastmod:       2026-10-19T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Jacob, Jess, and Carl Are Sooooo Close to Touching'
 seasonNumber:  5
 episodeNumber: 2
@@ -40381,6 +40380,29 @@ upNextIds:
 - 2249419
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T11:36:37.716Z
+
+---
+
+slug:          let-s-look-out-for-the-baddies
+collection:    dimension-20-s-adventuring-party-season-25
+collections:
+- dimension-20-new-releases
+- dimension-20-s-adventuring-party-season-25
+- dimension-20-toylight-the-complete-experience
+- new-releases
+lastmod:       2026-10-22T00:00:00.000Z
+title:         Let's Look Out for the Baddies
+seasonNumber:  25
+episodeNumber: 6
+releaseDate:   '2026-10-22'
+url:           'https://watch.dropout.tv/dimension-20-s-adventuring-party/season:25/videos/let-s-look-out-for-the-baddies'
+showTitle:     Dimension 20's Adventuring Party
+showSlug:      dimension-20-s-adventuring-party
+description:   'A recap on the final battle, unused strategies, & why no one likes Pimploe.'
+itemId:        4244440
+collectionId:  1510269
+firstSeen:     2026-10-23T15:45:29.651Z
+scrapedAt:     2026-10-23T15:45:55.247Z
 
 ---
 
@@ -47513,7 +47535,7 @@ slug:          one-to-two-is-fine
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         One to Two Is Fine
 seasonNumber:  3
 episodeNumber: 8
@@ -51356,7 +51378,7 @@ collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
 - dimension-20-new-releases
-lastmod:       2026-09-09T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Questions of Taste (with Quinns Smith)
 seasonNumber:  7
 episodeNumber: 8
@@ -53611,7 +53633,6 @@ collections:
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
 - dimension-20-toylight-the-complete-experience
-- new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         'Run, Run, As Fast As You Can'
 seasonNumber:  1
@@ -56877,7 +56898,7 @@ slug:          smartyshorts-audiobooks
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: Audiobooks'
 seasonNumber:  3
 episodeNumber: 4
@@ -56902,7 +56923,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: Can You Move Someone Else''s Laundry From the Dryer?'
 seasonNumber:  3
 episodeNumber: 18
@@ -56921,9 +56942,8 @@ scrapedAt:     2026-10-10T04:54:19.360Z
 slug:          smartyshorts-how-many-holes-does-a-straw-have
 collection:    smartypants-season-3
 collections:
-- new-releases
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: How Many Holes Does a Straw Have?'
 seasonNumber:  3
 episodeNumber: 16
@@ -56943,7 +56963,7 @@ slug:          smartyshorts-morning-showers-or-night-showers
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: Morning Showers or Night Showers'
 seasonNumber:  3
 episodeNumber: 12
@@ -56963,7 +56983,7 @@ slug:          smartyshorts-nice-to-meet-you
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: Nice to Meet You'
 seasonNumber:  3
 episodeNumber: 2
@@ -56987,7 +57007,7 @@ slug:          smartyshorts-school-subjects
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: School Subjects'
 seasonNumber:  3
 episodeNumber: 6
@@ -57011,7 +57031,7 @@ slug:          smartyshorts-spoiler-etiquette
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: Spoiler Etiquette'
 seasonNumber:  3
 episodeNumber: 8
@@ -57035,7 +57055,7 @@ slug:          smartyshorts-when-does-the-week-start
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: When Does the Week Start?'
 seasonNumber:  3
 episodeNumber: 14
@@ -57059,7 +57079,7 @@ slug:          smartyshorts-which-type-of-french-fry-is-the-best
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         'Smartyshorts: Which Type of French Fry Is the Best?'
 seasonNumber:  3
 episodeNumber: 10
@@ -59416,7 +59436,6 @@ collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
 - dimension-20-toylight-the-complete-experience
-- new-releases
 lastmod:       2026-10-16T00:00:00.000Z
 title:         Street Sharts
 seasonNumber:  25
@@ -60565,7 +60584,7 @@ slug:          swimming-in-the-pudding-with-kimia-behpoornia
 collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Swimming in the Pudding (with Kimia Behpoornia)
 seasonNumber:  7
 episodeNumber: 4
@@ -60780,7 +60799,7 @@ slug:          tax-the-tall
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Tax the Tall
 seasonNumber:  3
 episodeNumber: 5
@@ -61208,7 +61227,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         That's a Bang-Off
 seasonNumber:  3
 episodeNumber: 9
@@ -65462,7 +65481,7 @@ slug:          the-importance-of-being-goofy-with-oscar-montoya
 collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         The Importance of Being Goofy (with Oscar Montoya)
 seasonNumber:  7
 episodeNumber: 3
@@ -67135,7 +67154,7 @@ collections:
 - make-some-noise-season-5
 - new-releases
 - noise-boys
-lastmod:       2026-10-14T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         The Noise Boys Make One Noise
 seasonNumber:  5
 episodeNumber: 1
@@ -67831,7 +67850,7 @@ slug:          the-power-of-words
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         The Power of Words
 seasonNumber:  3
 episodeNumber: 4
@@ -68392,7 +68411,7 @@ slug:          the-rules-of-content
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         The Rules of Content
 seasonNumber:  3
 episodeNumber: 1
@@ -70010,7 +70029,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         The Tip of the Porcelain
 seasonNumber:  3
 episodeNumber: 10
@@ -72019,7 +72038,7 @@ slug:          three-timer-s-club-with-aabria-iyengar
 collection:    adventuring-academy-season-7
 collections:
 - adventuring-academy-season-7
-lastmod:       2026-09-03T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         Three Timer's Club (with Aabria Iyengar)
 seasonNumber:  7
 episodeNumber: 5
@@ -83512,7 +83531,7 @@ slug:          you-cannot-be-you-without-yourself
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-16T00:00:00.000Z
+lastmod:       2026-10-22T00:00:00.000Z
 title:         You Cannot Be You Without Yourself
 seasonNumber:  3
 episodeNumber: 6

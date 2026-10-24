@@ -104,7 +104,7 @@ name = "Dimension 20 (${ALL_SEASONS})"
 show = "Dimension 20"
 type = ["episode", "special"]
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes of from ${SEASONS} seasons of Dimension 20 in order. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Dimension 20 in order. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """

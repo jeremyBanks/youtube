@@ -2560,7 +2560,7 @@ slug:          a-rorschach-test-but-on-their-face
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         A Rorschach Test But On Their Face
 seasonNumber:  3
 episodeNumber: 7
@@ -11486,7 +11486,7 @@ slug:          bonk-and-vibes
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         Bonk and Vibes
 seasonNumber:  3
 episodeNumber: 2
@@ -14536,7 +14536,7 @@ slug:          choppedness-cannot-be-outrun
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         Choppedness Cannot Be Outrun
 seasonNumber:  3
 episodeNumber: 3
@@ -47535,7 +47535,7 @@ slug:          one-to-two-is-fine
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         One to Two Is Fine
 seasonNumber:  3
 episodeNumber: 8
@@ -56898,7 +56898,7 @@ slug:          smartyshorts-audiobooks
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: Audiobooks'
 seasonNumber:  3
 episodeNumber: 4
@@ -56923,7 +56923,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: Can You Move Someone Else''s Laundry From the Dryer?'
 seasonNumber:  3
 episodeNumber: 18
@@ -56943,7 +56943,7 @@ slug:          smartyshorts-how-many-holes-does-a-straw-have
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: How Many Holes Does a Straw Have?'
 seasonNumber:  3
 episodeNumber: 16
@@ -56963,7 +56963,7 @@ slug:          smartyshorts-morning-showers-or-night-showers
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: Morning Showers or Night Showers'
 seasonNumber:  3
 episodeNumber: 12
@@ -56983,7 +56983,7 @@ slug:          smartyshorts-nice-to-meet-you
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: Nice to Meet You'
 seasonNumber:  3
 episodeNumber: 2
@@ -57003,11 +57003,32 @@ scrapedAt:     2026-08-31T07:06:14.016Z
 
 ---
 
+slug:          smartyshorts-pausing-time-or-rewinding-time
+collection:    smartypants-season-3
+collections:
+- new-releases
+- smartypants-season-3
+lastmod:       2026-10-23T00:00:00.000Z
+title:         'Smartyshorts: Pausing Time or Rewinding Time'
+seasonNumber:  3
+episodeNumber: 20
+releaseDate:   '2026-10-23'
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-pausing-time-or-rewinding-time'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society debates if pausing time is better than rewinding time.
+itemId:        4246755
+collectionId:  1498226
+firstSeen:     2026-10-24T01:34:47.331Z
+scrapedAt:     2026-10-24T01:35:13.087Z
+
+---
+
 slug:          smartyshorts-school-subjects
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: School Subjects'
 seasonNumber:  3
 episodeNumber: 6
@@ -57031,7 +57052,7 @@ slug:          smartyshorts-spoiler-etiquette
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: Spoiler Etiquette'
 seasonNumber:  3
 episodeNumber: 8
@@ -57055,7 +57076,7 @@ slug:          smartyshorts-when-does-the-week-start
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: When Does the Week Start?'
 seasonNumber:  3
 episodeNumber: 14
@@ -57079,7 +57100,7 @@ slug:          smartyshorts-which-type-of-french-fry-is-the-best
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         'Smartyshorts: Which Type of French Fry Is the Best?'
 seasonNumber:  3
 episodeNumber: 10
@@ -60799,7 +60820,7 @@ slug:          tax-the-tall
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         Tax the Tall
 seasonNumber:  3
 episodeNumber: 5
@@ -61227,7 +61248,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         That's a Bang-Off
 seasonNumber:  3
 episodeNumber: 9
@@ -67850,7 +67871,7 @@ slug:          the-power-of-words
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         The Power of Words
 seasonNumber:  3
 episodeNumber: 4
@@ -68411,7 +68432,7 @@ slug:          the-rules-of-content
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         The Rules of Content
 seasonNumber:  3
 episodeNumber: 1
@@ -70029,7 +70050,7 @@ collection:    smartypants-season-3
 collections:
 - new-releases
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         The Tip of the Porcelain
 seasonNumber:  3
 episodeNumber: 10
@@ -83531,7 +83552,7 @@ slug:          you-cannot-be-you-without-yourself
 collection:    smartypants-season-3
 collections:
 - smartypants-season-3
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-23T00:00:00.000Z
 title:         You Cannot Be You Without Yourself
 seasonNumber:  3
 episodeNumber: 6

@@ -79290,7 +79290,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-10-13T18:18:44.634Z
-scrapedAt:     2026-10-22T15:52:54.348Z
+scrapedAt:     2026-10-25T14:56:58.119Z
 lastChangedAt: 2026-10-13T18:18:44.634Z
 
 ---
@@ -79985,7 +79985,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-24T14:33:19.829Z
+scrapedAt:     2026-10-25T14:56:58.214Z
 lastChangedAt: 2026-10-24T01:34:53.052Z
 
 ---
@@ -80325,20 +80325,8 @@ entries:
     Can you get someone on the phone to say "I love you" in an instant? It's not easy.
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: FKs_lc33Wmc
-  position: 4
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-05-12T17:30:01.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: 'Ally''s Most Shameful Photograph Ever #shorts'
-  description: |-
-    Ally - friend soup waster extraordinaire.
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: EtVMiO0_GoU
-  position: 5
+  position: 4
   addedAt: 2022-05-20T20:22:38.000Z
   videoPublishedAt: 2021-03-26T16:30:06.000Z
   privacyStatus: public
@@ -80349,20 +80337,20 @@ entries:
     The game show where the game changes every show (but shorter). Watch 'Make Some Noise' here: https://www.youtube.com/watch?v=V-6m0jW0X9E
 
     Check out every episode at https://gamechanger.dropout.tv.
-- videoId: ta9YN202gis
-  position: 6
+- videoId: FKs_lc33Wmc
+  position: 5
   addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-05-06T18:25:59.000Z
+  videoPublishedAt: 2021-05-12T17:30:01.000Z
   privacyStatus: public
   ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
   ownerChannelTitle: Game Changer Shorts
-  title: 'The Vase Smash Challenge #shorts'
+  title: 'Ally''s Most Shameful Photograph Ever #shorts'
   description: |-
-    When you don't know the rules, you don't always know whether you're SUPPOSED to smash the big vase or not.
+    Ally - friend soup waster extraordinaire.
 
-    Full Game Changer episodes here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: hHzKkuXsSwM
-  position: 7
+  position: 6
   addedAt: 2026-04-22T15:41:23.000Z
   videoPublishedAt: 2025-07-11T17:01:02.000Z
   privacyStatus: public
@@ -80378,6 +80366,18 @@ entries:
     Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
 
     Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: ta9YN202gis
+  position: 7
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-05-06T18:25:59.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: 'The Vase Smash Challenge #shorts'
+  description: |-
+    When you don't know the rules, you don't always know whether you're SUPPOSED to smash the big vase or not.
+
+    Full Game Changer episodes here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: 1ChpKJ3IrHQ
   position: 8
   addedAt: 2026-04-22T15:41:23.000Z
@@ -80432,8 +80432,20 @@ entries:
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
 
     Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
-- videoId: iEuOnChpxm4
+- videoId: odwnw2uvuL4
   position: 12
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-08-16T17:30:08.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: Yes...or No?
+  description: |-
+    It's a simple question. #shorts #gamechanger
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
+- videoId: iEuOnChpxm4
+  position: 13
   addedAt: 2022-05-20T20:22:38.000Z
   videoPublishedAt: 2022-02-15T18:30:28.000Z
   privacyStatus: public
@@ -80445,7 +80457,7 @@ entries:
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: VJtV2UkU-Fk
-  position: 13
+  position: 14
   addedAt: 2022-05-20T20:22:55.000Z
   videoPublishedAt: 2022-03-15T17:30:04.000Z
   privacyStatus: public
@@ -80457,7 +80469,7 @@ entries:
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: A5-MNZPQ8Cw
-  position: 14
+  position: 15
   addedAt: 2022-05-20T20:22:38.000Z
   videoPublishedAt: 2021-05-25T17:45:01.000Z
   privacyStatus: public
@@ -80468,32 +80480,8 @@ entries:
     Finally, a Rubik's cube that makes you feel smart.
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: BkqjBrJcQMI
-  position: 15
-  addedAt: 2022-05-20T20:22:55.000Z
-  videoPublishedAt: 2022-03-06T18:32:38.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Brennan Plays His Immunity Idol (aka Loop-de-Loop)
-  description: |-
-    Never underestimate Brennan. #shorts #gamechanger
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
-- videoId: odwnw2uvuL4
-  position: 16
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-08-16T17:30:08.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Yes...or No?
-  description: |-
-    It's a simple question. #shorts #gamechanger
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: mRZlE1jGVE0
-  position: 17
+  position: 16
   addedAt: 2026-04-22T15:41:23.000Z
   videoPublishedAt: 2025-04-20T20:00:34.000Z
   privacyStatus: public
@@ -80509,25 +80497,20 @@ entries:
     Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
 
     Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
-- videoId: 9nyeRnEIqjc
-  position: 18
-  addedAt: 2026-04-22T15:41:23.000Z
-  videoPublishedAt: 2024-03-16T21:57:47.000Z
+- videoId: BkqjBrJcQMI
+  position: 17
+  addedAt: 2022-05-20T20:22:55.000Z
+  videoPublishedAt: 2022-03-06T18:32:38.000Z
   privacyStatus: public
   ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
   ownerChannelTitle: Game Changer Shorts
-  title: "Sam Says DON'T LOOK at the cutest pig ever \U0001F437\U0001F440"
+  title: Brennan Plays His Immunity Idol (aka Loop-de-Loop)
   description: |-
-    Henry, you are too cute for this world #shorts #gamechanger #dropout
+    Never underestimate Brennan. #shorts #gamechanger
 
-    For the full episode, head over to Dropout: https://www.dropout.tv/videos/sam-says-3
-
-
-    Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
-
-    Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: WdNWfNxds_4
-  position: 19
+  position: 18
   addedAt: 2026-04-22T15:41:23.000Z
   videoPublishedAt: 2025-04-10T16:45:02.000Z
   privacyStatus: public
@@ -80538,6 +80521,23 @@ entries:
     That's showmanship #shorts #gamechanger #dropout
 
     For the full episode, head over to Dropout: https://www.dropout.tv/videos/one-year-later
+
+
+    Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
+
+    Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: 9nyeRnEIqjc
+  position: 19
+  addedAt: 2026-04-22T15:41:23.000Z
+  videoPublishedAt: 2024-03-16T21:57:47.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: "Sam Says DON'T LOOK at the cutest pig ever \U0001F437\U0001F440"
+  description: |-
+    Henry, you are too cute for this world #shorts #gamechanger #dropout
+
+    For the full episode, head over to Dropout: https://www.dropout.tv/videos/sam-says-3
 
 
     Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
@@ -80555,20 +80555,8 @@ entries:
     Clash of the titans. #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
-- videoId: Cb71TahobXY
-  position: 21
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2022-02-11T18:52:56.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Grant Takes a Bite of an Onion For $70
-  description: |-
-    Grant, stop making this sexual. #shorts #gamechanger
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: _C5da7UJLyM
-  position: 22
+  position: 21
   addedAt: 2022-05-20T20:22:38.000Z
   videoPublishedAt: 2022-03-11T18:30:24.000Z
   privacyStatus: public
@@ -80577,6 +80565,18 @@ entries:
   title: The Survivor Make Each Other Laugh Challenge
   description: |-
     I'm wet. #shorts #gamechanger
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
+- videoId: Cb71TahobXY
+  position: 22
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2022-02-11T18:52:56.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: Grant Takes a Bite of an Onion For $70
+  description: |-
+    Grant, stop making this sexual. #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: p5O4H0_S--8
@@ -80591,44 +80591,8 @@ entries:
     Get plucked. #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: Vtfs2ZVzBtM
-  position: 24
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-05-13T17:15:04.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: '6 Confronts 7 About Eating 9 #shorts'
-  description: |-
-    7...8...9...
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: KPBh-u4mS8g
-  position: 25
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-06-08T17:15:01.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Would You Let Someone Like Your Ex's Last 25 Instagram Posts On Your Phone?
-  description: |-
-    The last one was from 2018. Poor Raph. #shorts #gamechanger
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: uwhQ5RsSzVc
-  position: 26
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-11-02T17:30:04.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Sam Says...Hand On Your Stomach
-  description: |-
-    This is on you, Sam. #shorts #gamechanger #samsays
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: JptBcovmHQk
-  position: 27
+  position: 24
   addedAt: 2026-04-22T15:41:49.000Z
   videoPublishedAt: 2025-05-06T16:45:00.000Z
   privacyStatus: public
@@ -80644,6 +80608,42 @@ entries:
     Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
 
     Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: Vtfs2ZVzBtM
+  position: 25
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-05-13T17:15:04.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: '6 Confronts 7 About Eating 9 #shorts'
+  description: |-
+    7...8...9...
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
+- videoId: uwhQ5RsSzVc
+  position: 26
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-11-02T17:30:04.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: Sam Says...Hand On Your Stomach
+  description: |-
+    This is on you, Sam. #shorts #gamechanger #samsays
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
+- videoId: KPBh-u4mS8g
+  position: 27
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-06-08T17:15:01.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: Would You Let Someone Like Your Ex's Last 25 Instagram Posts On Your Phone?
+  description: |-
+    The last one was from 2018. Poor Raph. #shorts #gamechanger
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: i5Y0YCRs4Nk
   position: 28
   addedAt: 2022-05-20T20:22:38.000Z
@@ -80665,20 +80665,8 @@ entries:
   ownerChannelTitle: Game Changer Shorts
   title: 'The Most Honest Impression of a North Dakotan #shorts'
   description: Stereotypes??? Not here.
-- videoId: hLts_KyQPeU
-  position: 30
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-08-09T17:12:35.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Otamatone Jam Session
-  description: |-
-    Let's jam. #shorts #gamechanger #otamatone
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: AXoLBHAzqUw
-  position: 31
+  position: 30
   addedAt: 2026-04-22T15:41:49.000Z
   videoPublishedAt: 2025-07-27T16:30:03.000Z
   privacyStatus: public
@@ -80694,6 +80682,18 @@ entries:
     Watch a few full episodes of Game Changer & Make Some Noise here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer, Make Some Noise, and more exclusive series by signing up for Dropout here: https://gamechanger.dropout.tv
 
     Subscribe to the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: hLts_KyQPeU
+  position: 31
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-08-09T17:12:35.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: Otamatone Jam Session
+  description: |-
+    Let's jam. #shorts #gamechanger #otamatone
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
 - videoId: CijaI8RkpxE
   position: 32
   addedAt: 2022-05-20T20:22:55.000Z
@@ -80706,20 +80706,8 @@ entries:
     What Noise a Fox Make...a classic. #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: LeVZPrZ6KwY
-  position: 33
-  addedAt: 2022-05-20T20:22:55.000Z
-  videoPublishedAt: 2021-12-08T18:30:27.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: An Australian Spanish Teacher
-  description: |-
-    No me gusta! #shorts #gamechanger
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: x3TifGqm-sI
-  position: 34
+  position: 33
   addedAt: 2022-05-20T20:23:08.000Z
   videoPublishedAt: 2022-03-13T17:30:05.000Z
   privacyStatus: public
@@ -80730,20 +80718,20 @@ entries:
     Brennan is too powerful. #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
-- videoId: z9sVIkbHLms
-  position: 35
-  addedAt: 2022-05-20T20:22:38.000Z
-  videoPublishedAt: 2021-11-16T20:59:30.000Z
+- videoId: LeVZPrZ6KwY
+  position: 34
+  addedAt: 2022-05-20T20:22:55.000Z
+  videoPublishedAt: 2021-12-08T18:30:27.000Z
   privacyStatus: public
   ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
   ownerChannelTitle: Game Changer Shorts
-  title: I Like My Lovers Like I Like My Yard Work...
+  title: An Australian Spanish Teacher
   description: |-
-    Grant, no. #shorts #gamechanger
+    No me gusta! #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: nW1_lr8Fzlw
-  position: 36
+  position: 35
   addedAt: 2022-05-20T20:22:38.000Z
   videoPublishedAt: 2021-05-14T17:30:02.000Z
   privacyStatus: public
@@ -80754,6 +80742,18 @@ entries:
     Make content Raph again
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
+- videoId: z9sVIkbHLms
+  position: 36
+  addedAt: 2022-05-20T20:22:38.000Z
+  videoPublishedAt: 2021-11-16T20:59:30.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: I Like My Lovers Like I Like My Yard Work...
+  description: |-
+    Grant, no. #shorts #gamechanger
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: IWR9SkdI3j0
   position: 37
   addedAt: 2022-05-20T20:23:08.000Z
@@ -81008,8 +81008,20 @@ entries:
     Why, the whole world's a bag of bagels!
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: cM4H83iIS7A
+- videoId: 6-VUMNyysNU
   position: 58
+  addedAt: 2022-05-20T20:23:08.000Z
+  videoPublishedAt: 2021-05-18T17:15:01.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: 'Please Read These 10 Sleeper Agent Trigger Phrases #shorts'
+  description: |-
+    Sam made a game show out of The Winter Soldier.
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
+- videoId: cM4H83iIS7A
+  position: 59
   addedAt: 2022-05-20T20:23:08.000Z
   videoPublishedAt: 2021-11-11T18:07:04.000Z
   privacyStatus: public
@@ -81018,7 +81030,7 @@ entries:
   title: Sam Says...Don't Flinch
   description: 'Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv'
 - videoId: Zlt2KV9js2s
-  position: 59
+  position: 60
   addedAt: 2022-05-20T20:22:55.000Z
   videoPublishedAt: 2021-12-09T18:30:25.000Z
   privacyStatus: public
@@ -81030,7 +81042,7 @@ entries:
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: 8Zjbz4uljjw
-  position: 60
+  position: 61
   addedAt: 2022-05-20T20:22:55.000Z
   videoPublishedAt: 2021-12-28T21:05:33.000Z
   privacyStatus: public
@@ -81041,32 +81053,8 @@ entries:
     From "The Official Cast Recording," a fully improvised musical journey on Game Changer. #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
-- videoId: 6-VUMNyysNU
-  position: 61
-  addedAt: 2022-05-20T20:23:08.000Z
-  videoPublishedAt: 2021-05-18T17:15:01.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: 'Please Read These 10 Sleeper Agent Trigger Phrases #shorts'
-  description: |-
-    Sam made a game show out of The Winter Soldier.
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
-- videoId: YTyNq5Te1Zo
-  position: 62
-  addedAt: 2022-05-20T20:22:55.000Z
-  videoPublishedAt: 2022-02-12T18:30:23.000Z
-  privacyStatus: public
-  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
-  ownerChannelTitle: Game Changer Shorts
-  title: Lily Lets a Tarantula Crawl on Her Face
-  description: |-
-    My arachnophobia is in hyperdrive. #shorts #gamechanger
-
-    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: Fhz8guYmk6E
-  position: 63
+  position: 62
   addedAt: 2022-05-20T20:22:55.000Z
   videoPublishedAt: 2021-06-12T17:30:00.000Z
   privacyStatus: public
@@ -81077,6 +81065,18 @@ entries:
     Oui...or non? #shorts #gamechanger
 
     Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY
+- videoId: YTyNq5Te1Zo
+  position: 63
+  addedAt: 2022-05-20T20:22:55.000Z
+  videoPublishedAt: 2022-02-12T18:30:23.000Z
+  privacyStatus: public
+  ownerChannelId: UCTcw8GqWQlFcc6ioeJQOMAQ
+  ownerChannelTitle: Game Changer Shorts
+  title: Lily Lets a Tarantula Crawl on Her Face
+  description: |-
+    My arachnophobia is in hyperdrive. #shorts #gamechanger
+
+    Watch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY. You can watch every episode of Game Changer (and more exclusive series) by signing up for Dropout here: https://gamechanger.dropout.tv
 - videoId: GECmsIWIbq4
   position: 64
   addedAt: 2022-05-20T20:22:38.000Z
@@ -81509,7 +81509,8 @@ entries:
   title: Seeing Into Forever Isn't As Scary As People Say
   description: "\U0001F441\U0001F441\U0001F441 #shorts #gamechanger\n\nWatch a few full episodes of Game Changer here: https://www.youtube.com/playlist?list=PLuKg-WhduhknsLFxK4K5YDtGVJuCf51kY"
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-01T15:28:51.677Z
+scrapedAt:     2026-10-25T14:57:08.895Z
+lastChangedAt: 2026-10-25T14:57:07.724Z
 
 ---
 
@@ -175701,7 +175702,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-24T14:33:19.969Z
+scrapedAt:     2026-10-25T14:56:58.286Z
 lastChangedAt: 2026-10-24T01:34:53.052Z
 
 ---
@@ -175941,7 +175942,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-17T02:06:51.027Z
-scrapedAt:     2026-10-24T14:33:20.075Z
+scrapedAt:     2026-10-25T14:56:58.354Z
 lastChangedAt: 2026-10-22T15:52:51.866Z
 
 ---
@@ -176396,7 +176397,7 @@ entries:
   title: Toonout | The Ribbon from Darcy Fowler & Rosie Kaller
   description: "\U0001F6A8 A new episode of Toonout is OUT NOW!\n\nFeaturing a new animated short by Darcy Fowler & Rosie Kaller \"\"The Ribbon\"\" – featuring voice acting from Rekha Shankar, Seth Kirschner, Katie Marovitch, and Kim Cooper! \n\nShe's just a regular teen who definitely ISN'T headless, if that's what you're wondering.\n\n#short #dropout #animation \n\n\U0001F6A8 A new wave of animation is on Dropout! Get ready for Toonout — original animated shorts made by indie artists.\n\n➡️ Go to Dropout.tv to watch previously released animated shorts now!"
 firstSeen:     2026-10-20T03:27:19.855Z
-scrapedAt:     2026-10-24T14:33:36.027Z
+scrapedAt:     2026-10-25T14:57:13.515Z
 lastChangedAt: 2026-10-24T01:35:29.563Z
 
 ---
@@ -176443,7 +176444,7 @@ entries:
   description: This video is unavailable.
   removedBefore: 2026-10-18T14:35:03.490Z
 firstSeen:     2026-09-07T16:27:51.786Z
-scrapedAt:     2026-10-23T15:45:10.851Z
+scrapedAt:     2026-10-25T14:57:13.701Z
 lastChangedAt: 2026-10-18T14:35:03.490Z
 
 ---
@@ -177421,8 +177422,34 @@ privacyStatus: public
 itemCount:     6
 createdAt:     2026-09-17T17:32:45.971Z
 entries:
-- videoId: ahVBVDWOe54
+- videoId: I-ea4riUfcE
   position: 0
+  addedAt: 2026-10-22T17:30:31.000Z
+  videoPublishedAt: 2026-10-16T00:12:27.000Z
+  privacyStatus: public
+  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
+  ownerChannelTitle: Dropout
+  title: Let's Look Out for the Baddies | Adventuring Party Season 25 | Ep. 6
+  description: |-
+    A recap on the final battle, unused strategies, & why no one likes Pimploe.
+
+    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
+
+    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
+
+    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
+
+    In the meantime, leave us some nice comments on this video. It's a good one, right?
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+
+    FOLLOW US EVERYWHERE:
+    https://www.twitter.com/dropout
+    https://www.instagram.com/dropouttv
+    https://www.tiktok.com/@dropoutdottv
+    https://www.facebook.com/dropouttv
+- videoId: ahVBVDWOe54
+  position: 1
   addedAt: 2026-10-15T17:32:16.000Z
   videoPublishedAt: 2026-10-09T20:31:10.000Z
   privacyStatus: public
@@ -177448,7 +177475,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: siaIgo6MKOI
-  position: 1
+  position: 2
   addedAt: 2026-10-08T17:30:48.000Z
   videoPublishedAt: 2026-10-01T23:10:42.000Z
   privacyStatus: public
@@ -177474,7 +177501,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: _I2eJM-L-Cg
-  position: 2
+  position: 3
   addedAt: 2026-10-01T17:31:19.000Z
   videoPublishedAt: 2026-09-24T18:53:30.000Z
   privacyStatus: public
@@ -177500,7 +177527,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: 7l3xmZy8Q80
-  position: 3
+  position: 4
   addedAt: 2026-09-24T17:30:34.000Z
   videoPublishedAt: 2026-09-17T20:58:12.000Z
   privacyStatus: public
@@ -177530,7 +177557,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 - videoId: DT3lpVlVgqw
-  position: 4
+  position: 5
   addedAt: 2026-09-17T17:32:55.000Z
   videoPublishedAt: 2026-09-10T22:11:28.000Z
   privacyStatus: public
@@ -177555,35 +177582,9 @@ entries:
     https://www.instagram.com/dropouttv
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
-- videoId: I-ea4riUfcE
-  position: 5
-  addedAt: 2026-10-22T17:30:31.000Z
-  videoPublishedAt: 2026-10-16T00:12:27.000Z
-  privacyStatus: public
-  ownerChannelId: UCPDXXXJj9nax0fr0Wfc048g
-  ownerChannelTitle: Dropout
-  title: Let's Look Out for the Baddies | Adventuring Party Season 25 | Ep. 6
-  description: |-
-    A recap on the final battle, unused strategies, & why no one likes Pimploe.
-
-    Welcome to the Dropout channel! You can support us by signing up for Dropout.tv, our subscription video platform that features a ton of exclusive content and series for only $7/month (that's less than 25 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://www.dropout.tv
-
-    Want to pay us more? Then sign up for Dropout Superfan, our optional "pay more if you feel like it" tier. Same shows, more money, plus behind-the-scenes bits, 10% off of most merch, and early access to tickets for Dropout live events. Totally optional. https://www.dropout.tv/superfan
-
-    And if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!
-
-    In the meantime, leave us some nice comments on this video. It's a good one, right?
-
-    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
-
-    FOLLOW US EVERYWHERE:
-    https://www.twitter.com/dropout
-    https://www.instagram.com/dropouttv
-    https://www.tiktok.com/@dropoutdottv
-    https://www.facebook.com/dropouttv
 firstSeen:     2026-09-18T14:59:34.232Z
-scrapedAt:     2026-10-24T14:33:20.166Z
-lastChangedAt: 2026-10-23T15:44:52.535Z
+scrapedAt:     2026-10-25T14:56:58.500Z
+lastChangedAt: 2026-10-25T14:56:56.469Z
 
 ---
 
@@ -179022,7 +179023,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-21T19:05:55.995Z
+scrapedAt:     2026-10-25T14:56:58.552Z
 lastChangedAt: 2026-10-13T06:14:32.565Z
 
 ---
@@ -245568,7 +245569,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-15T19:12:41.550Z
-scrapedAt:     2026-10-23T15:44:54.830Z
+scrapedAt:     2026-10-25T14:56:58.596Z
 lastChangedAt: 2026-10-20T03:27:01.511Z
 
 ---
@@ -340849,7 +340850,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-09-01T15:28:07.891Z
+scrapedAt:     2026-10-25T14:56:58.650Z
 
 ---
 
@@ -381499,7 +381500,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-24T14:33:20.370Z
+scrapedAt:     2026-10-25T14:56:58.820Z
 lastChangedAt: 2026-10-21T15:57:32.666Z
 
 ---
@@ -427753,7 +427754,7 @@ entries:
   title: Private video
   description: This video is private.
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-24T14:33:28.181Z
+scrapedAt:     2026-10-25T14:57:05.734Z
 lastChangedAt: 2026-10-24T01:34:53.052Z
 
 ---
@@ -446987,7 +446988,7 @@ entries:
     https://www.tiktok.com/@dropoutdottv
     https://www.facebook.com/dropouttv
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-10-20T03:27:06.643Z
+scrapedAt:     2026-10-25T14:57:05.819Z
 lastChangedAt: 2026-10-05T18:25:08.187Z
 
 ---

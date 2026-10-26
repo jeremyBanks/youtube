@@ -35,3 +35,9 @@ identified. Wayback lookups for each:
 A second Dropout playlist, "Lonely and Horny : Season 2"
 (PLuKg-WhduhkmDcFLATC7eLUMT171uav3B), created 2018-11-06, holds two more private
 videos: `ySlHVbrgxKQ` (added 2018-11-12) and `siv9t_0agaU` (added 2018-11-17).
+
+## Open
+
+- Season 1 entries 2–5 (`r7fYlsPumm8`, `TqcSQPobYvc`, `vrhiOsYznNA`,
+  `XDlwsGeek6g`) and both Season 2 ids are unidentified; archive.org was not
+  loading when they were tried.

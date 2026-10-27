@@ -8883,7 +8883,6 @@ collections:
 - game-changer-behind-the-scenes
 - game-changer-new
 - game-changer-season-8
-- new-releases
 lastmod:       2026-09-28T00:00:00.000Z
 title:         Behind the Scenes of "Last Talent Standing"
 seasonNumber:  8
@@ -22780,7 +22779,6 @@ slug:          everybody-pregnant
 collection:    crowd-control-season-2
 collections:
 - crowd-control-season-2
-- new-releases
 lastmod:       2026-10-21T00:00:00.000Z
 title:         Everybody Pregnant
 seasonNumber:  2
@@ -57655,6 +57653,34 @@ upNextIds:
 - 233987
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-09-02T15:07:30.638Z
+
+---
+
+slug:          sort-of-a-papa-bear-mama-bear-baby-bear-situation
+collection:    crowd-control-season-2
+collections:
+- crowd-control-season-2
+- new-releases
+lastmod:       2026-10-26T00:00:00.000Z
+title:         'Sort of a Papa Bear, Mama Bear, Baby Bear Situation'
+seasonNumber:  2
+episodeNumber: 7
+releaseDate:   '2026-10-26'
+url:           'https://watch.dropout.tv/crowd-control/season:2/videos/sort-of-a-papa-bear-mama-bear-baby-bear-situation'
+showTitle:     Crowd Control
+showSlug:      crowd-control
+description:   |-
+  Drew, Guy, and Emily bare it all on stage.
+
+  Content Warning: 
+  Discussions of Harrowing Personal Situations, Physical Injuries, and Medical Conditions - [throughout]
+  Discussion of Cults - [12:10-13:11]
+  Sex Offender Joke - [12:10-13:11]
+  Entomophobia (Visual of eating bugs) - [21:15-22:24, 41:22-41:...
+itemId:        4251240
+collectionId:  1503904
+firstSeen:     2026-10-27T16:39:42.880Z
+scrapedAt:     2026-10-27T16:40:07.711Z
 
 ---
 

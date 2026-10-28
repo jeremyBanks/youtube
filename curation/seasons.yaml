@@ -1577,7 +1577,8 @@ show: Dimension 20
 cast: Intrepid Heroes
 world: A Starstruck Odyssey
 videos:
-  - trailer: The Ball Is Rolling Up (Dimension 20 New Season Teaser)
+  - trailer: The Ball Is Rolling Up
+    dropout: the-ball-is-rolling-up
     public: E3BLEpXi_Zo
     public short: BPrh4Yrp7EA
     published: 2026-10-27

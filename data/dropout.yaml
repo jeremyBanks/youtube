@@ -32600,10 +32600,9 @@ scrapedAt:     2026-08-31T15:38:55.563Z
 ---
 
 slug:          hundreds-of-beavers
-collection:    new-releases
+collection:    hundreds-of-beavers
 collections:
 - hundreds-of-beavers
-- new-releases
 lastmod:       2026-09-29T00:00:00.000Z
 title:         Hundreds of Beavers
 releaseDate:   '2026-09-29'
@@ -36717,7 +36716,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - new-releases
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-27T00:00:00.000Z
 title:         'Jacob, Jess, and Carl Are Sooooo Close to Touching'
 seasonNumber:  5
 episodeNumber: 2
@@ -61850,6 +61849,23 @@ scrapedAt:     2026-08-31T10:36:39.512Z
 
 ---
 
+slug:          the-ball-is-rolling-up
+collection:    new-releases
+collections:
+- dimension-20-featured
+- dimension-20-new-releases
+- new-releases
+lastmod:       2026-10-27T00:00:00.000Z
+title:         The Ball Is Rolling Up
+releaseDate:   '2026-10-27'
+url:           'https://watch.dropout.tv/videos/the-ball-is-rolling-up'
+description:   'The Gunner Channel returns. Dimension 20: A Starstruck Odyssey season 2 premieres in 2027.'
+itemId:        4252523
+firstSeen:     2026-10-28T01:41:22.203Z
+scrapedAt:     2026-10-28T01:41:47.895Z
+
+---
+
 slug:          the-banh-mi-debt
 collection:    dimension-20-s-adventuring-party-season-11
 collections:
@@ -67201,7 +67217,7 @@ collections:
 - make-some-noise-season-5
 - new-releases
 - noise-boys
-lastmod:       2026-10-22T00:00:00.000Z
+lastmod:       2026-10-27T00:00:00.000Z
 title:         The Noise Boys Make One Noise
 seasonNumber:  5
 episodeNumber: 1

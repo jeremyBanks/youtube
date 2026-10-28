@@ -1579,9 +1579,7 @@ world: A Starstruck Odyssey
 videos:
   - trailer: The Ball Is Rolling Up (Dimension 20 New Season Teaser)
     public: E3BLEpXi_Zo
-    published: 2026-10-27
-  - trailer: "Coming Soon: A Starstruck Odyssey Season 2! [Teaser]"
-    public: BPrh4Yrp7EA
+    public short: BPrh4Yrp7EA
     published: 2026-10-27
 
 ---

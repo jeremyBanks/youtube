@@ -1392,6 +1392,7 @@ videos:
     published: 2022-01-13
   - episode: 2. Rolling Up The Hill
     dropout: rolling-up-the-hill
+    public: 24B1MXTMaDQ
     members: "-PXnJ25vgec"
     published: 2022-01-17
   - bts: Was That the Worst Social Interaction in D20 History?
@@ -6807,6 +6808,10 @@ videos:
     dropout: can-i-have-your-leg
     members: w03up30I-K0
     published: 2026-10-12
+  - episode: 207. Sort of a Papa Bear, Mama Bear, Baby Bear Situation
+    dropout: sort-of-a-papa-bear-mama-bear-baby-bear-situation
+    members: cAnm-6HI5Ho
+    published: 2026-10-26
 
 ---
 

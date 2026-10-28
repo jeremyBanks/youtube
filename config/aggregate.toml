@@ -246,10 +246,10 @@ ${D20_PLUG}
 [PLObfuAmZm9pCQbgg-V2SlQBm9TNucLth4]
 name = "Dimension 20: A Starstruck Odyssey (${ALL_SEASONS})"
 show = "Dimension 20"
-season = "A Starstruck Odyssey"
+world = "A Starstruck Odyssey"
 type = ["episode", "special", "bts", "trailer", "external"]
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Starstruck Odyssey, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from ${SEASONS} seasons of A Starstruck Odyssey, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """

@@ -7758,6 +7758,10 @@ videos:
     dropout: questions-of-taste-with-quinns-smith
     members: 9JJVGDeBWbs
     published: 2026-09-09
+  - episode: 709. Make Things Happen (with Jasper William Cartwright)
+    dropout: make-things-happen-with-jasper-william-cartwright
+    members: 6YDM4Rx4vIE
+    published: 2026-10-28
 
 ---
 
@@ -9186,6 +9190,7 @@ videos:
     published: 2026-08-11
   - episode: 12. Off the Reservation
     dropout: off-the-reservation
+    public: hj11xxbyJW4
     members: xSsmid74Lv4
     published: 2026-08-25
   - episode: 13. The Pickle

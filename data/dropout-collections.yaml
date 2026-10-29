@@ -276,7 +276,7 @@ itemIds:
 - 551265
 - 560155
 - 584597
-size:          73
+size:          74
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:11:54.476Z
 
@@ -2667,7 +2667,7 @@ itemIds:
 - 4053153
 - 4052260
 - 4049215
-size:          19
+size:          20
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:00:59.898Z
 
@@ -4967,7 +4967,7 @@ itemIds:
 - 4113147
 - 4112082
 - 4106141
-size:          20
+size:          21
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:14:48.372Z
 
@@ -5482,6 +5482,55 @@ itemIds:
 size:          3
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:33:05.689Z
+
+---
+
+slug:          spooky-season
+title:         "Spooky Season \U0001F383"
+description:   'The spookiest content on Dropout, all here for you!'
+episodes:
+- um-aaah-ctually-halloween-edition
+- scream-uzumaki-train-to-busan
+- boo-actually
+- boo-actually-volume-2
+- the-ribbon
+- the-rise-of-count-dancula
+- the-5-true-horrors-of-halloween
+- as-a-cucumber
+- can-i-have-your-leg
+- the-person-who-takes-their-halloween-costume-too-seriously
+- girls-are-cold-on-halloween
+- black-mirror-episodes-from-medieval-times
+- the-internet-comes-trick-or-treating
+- this-twisted-freak-likes-halloween
+- tome-of-terror
+- why-scary-movies-aren-t-actually-scary
+- killer-s-mask-is-inconvenient
+- i-hate-scary-movies
+- slasher
+itemIds:
+- 633341
+- 2394342
+- 3239924
+- 3959123
+- 4243109
+- 2796659
+- 633739
+- 2537100
+- 4226603
+- 630398
+- 449144
+- 516460
+- 371240
+- 367783
+- 1418277
+- 625353
+- 371036
+- 369574
+- 233793
+size:          21
+firstSeen:     2026-10-29T01:51:36.470Z
+scrapedAt:     2026-10-29T01:52:02.214Z
 
 ---
 

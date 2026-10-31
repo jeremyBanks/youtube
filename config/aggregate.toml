@@ -516,6 +516,13 @@ description = """
 ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don Hertzfeldt Collection, spanning the animator's student shorts through World of Tomorrow and ME. ${MAYBE_MEMBERS_ONLY}
 """
 
+[todo-full-movies]
+name = "Full Movies"
+show = "Full Movies"
+description = """
+${HOURS}-hour playlist of full-length movies from Dropout. ${MAYBE_MEMBERS_ONLY}
+"""
+
 # Talkbacks live as bts entries interleaved into the campaign they accompany,
 # so they cannot be selected by `show` or `season`. The `talkback` flag on the
 # entry is what distinguishes them from every other kind of extra.

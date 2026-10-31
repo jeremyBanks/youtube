@@ -4213,6 +4213,17 @@ videos:
 
 ---
 
+name:        Full Movies
+description: |-
+  1-hour playlist of full-length movies from Dropout. The one video requires a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/hundreds-of-beavers
+playlistId:  todo-full-movies
+videos:
+  yjeMIuo_aPI: Hundreds of Beavers (Full Movie)
+
+---
+
 name:        'Dimension 20: Adventuring Party (All Episodes and Extras)'
 description: |-
   163-hour playlist of 254 episodes/extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. All 254 videos require a @Dropout channel membership on YouTube.

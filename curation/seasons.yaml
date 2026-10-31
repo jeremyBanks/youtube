@@ -1569,7 +1569,6 @@ videos:
     members: B9ne6D-Sfsk
     published: 2022-05-23
 
-
 ---
 
 season: A Starstruck Odyssey (Season 2)
@@ -10555,3 +10554,16 @@ videos:
   # private and unidentified: ySlHVbrgxKQ (added 2018-11-12) and siv9t_0agaU
   # (added 2018-11-17). See research/lonely-and-horny.md.
   []
+
+---
+
+show: Full Movies
+season: Season 1
+videos:
+  # Dropout's release date is 2026-09-29; the channel added the members upload
+  # to its feed a month later, on 2026-10-29. The file itself was uploaded on
+  # 2026-09-25.
+  - episode: Hundreds of Beavers
+    dropout: hundreds-of-beavers
+    members: yjeMIuo_aPI
+    published: 2026-09-29

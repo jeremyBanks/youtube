@@ -1253,6 +1253,31 @@ scrapedAt:     2026-08-31T18:10:59.906Z
 
 ---
 
+slug:          a-conflict-of-interests
+collection:    smartypants-season-3
+collections:
+- new-releases
+- smartypants-season-3
+lastmod:       2026-10-30T00:00:00.000Z
+title:         A Conflict of Interests
+seasonNumber:  3
+episodeNumber: 11
+releaseDate:   '2026-10-30'
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/a-conflict-of-interests'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   |-
+  Londale updates the Magical Negro. Catherine explains sapphic breakups. Grant makes an acting reel.
+
+  Content Warning: 
+  Misophonia (Extended alarm sounds) [18:49-18:55, 21:50-21:57, 24:03-24:09]
+itemId:        4258922
+collectionId:  1498226
+firstSeen:     2026-10-31T00:52:09.185Z
+scrapedAt:     2026-10-31T00:52:34.652Z
+
+---
+
 slug:          a-coterie-cracked
 collection:    dimension-20-city-council-of-darkness-season-1
 collections:
@@ -36493,7 +36518,6 @@ collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
 - dimension-20-toylight-the-complete-experience
-- new-releases
 - zoom-energy-adventuring-party
 lastmod:       2026-10-16T00:00:00.000Z
 title:         J*r J*r B*nks
@@ -70840,7 +70864,6 @@ collections:
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
 - dimension-20-toylight-the-complete-experience
-- new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         'The Worms Crawl In, The Worms Crawl Out'
 seasonNumber:  1

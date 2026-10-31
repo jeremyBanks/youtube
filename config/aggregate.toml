@@ -517,7 +517,7 @@ ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don He
 """
 
 [todo-full-movies]
-name = "Full Movies"
+name = "Full Movies on Dropout"
 show = "Full Movies"
 description = """
 ${HOURS}-hour playlist of full-length movies from Dropout. ${MAYBE_MEMBERS_ONLY}

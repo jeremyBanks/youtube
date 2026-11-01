@@ -1450,15 +1450,6 @@ videos:
     dropout: wallops-at-swallop-s
     members: fcOzNxk2PgA
     published: 2022-02-28
-  - bts: Starstruck Post Season Talkback With Elaine Lee
-    dropout: starstruck-post-season-talkback-with-elaine-lee
-    members: VLwPItrMW9M
-    published: 2022-05-16
-  - animation: The Magic of Plug
-    dropout: the-magic-of-plug
-    public: zQCxwYhhCcI
-    members: 4We1ITzYonE
-    published: 2022-05-31
   - bts: "Cool, This Is Not Going to Go According to Plan"
     dropout: cool-this-is-not-going-to-go-according-to-plan
     talkback: true
@@ -1486,11 +1477,6 @@ videos:
     dropout: flee-from-fantanimalland
     members: zzXwoZz-s58
     published: 2022-03-10
-  - animation: Gunnie Buys a Maple Cake
-    dropout: gunnie-buys-a-maple-cake
-    public: SC1C-HXFnUA
-    members: L8_hld6RW6s
-    published: 2022-08-02
   - bts: Randomness Lets Something Amazing Happen
     dropout: randomness-lets-something-amazing-happen
     talkback: true
@@ -1564,10 +1550,24 @@ videos:
     talkback: true
     members: Wxraddz_7Ds
     published: 2022-05-16
+  - bts: Starstruck Post Season Talkback With Elaine Lee
+    dropout: starstruck-post-season-talkback-with-elaine-lee
+    members: VLwPItrMW9M
+    published: 2022-05-16
   - bts: "A Starstruck Odyssey: Behind the Scenes"
     dropout: a-starstruck-odyssey-behind-the-scenes
     members: B9ne6D-Sfsk
     published: 2022-05-23
+  - animation: The Magic of Plug
+    dropout: the-magic-of-plug
+    public: zQCxwYhhCcI
+    members: 4We1ITzYonE
+    published: 2022-05-31
+  - animation: Gunnie Buys a Maple Cake
+    dropout: gunnie-buys-a-maple-cake
+    public: SC1C-HXFnUA
+    members: L8_hld6RW6s
+    published: 2022-08-02
 
 ---
 

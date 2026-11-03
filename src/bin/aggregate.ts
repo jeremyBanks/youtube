@@ -662,8 +662,14 @@ async function main() {
         "${ALL_EPISODES}",
         completeness,
       ).replaceAll(
+        // A playlist spanning seasons is complete in seasons, not episodes:
+        // "Calorum (All Seasons and Extras)", not "(All Episodes and
+        // Extras)". A single-season playlist, or one that cannot claim "All",
+        // reads exactly as ${ALL_EPISODES} does.
         "${ALL_SEASONS}",
-        completeness,
+        seasonCount >= 2
+          ? completeness.replace(/^All Episodes/, "All Seasons")
+          : completeness,
       )
         .replaceAll(" ()", "")
         .replaceAll(/\b1 Extras\b/g, "1 Extra")

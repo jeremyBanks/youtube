@@ -267,6 +267,14 @@ const DropoutConfigToml = z.object({
    * Dimension 20 campaign that does not sit under the dimension-20 prefix.
    */
   "shows": z.record(z.string(), z.string().or(z.string().array())).optional(),
+  /**
+   * episode slug -> release date, where watch.dropout.tv's own date is wrong.
+   * Wins over the scraped date in verify-dates; see dates.md.
+   */
+  "release-dates": z.record(
+    z.string(),
+    z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+  ).optional(),
 }).strict();
 
 export type DropoutConfig = {
@@ -274,6 +282,7 @@ export type DropoutConfig = {
   budget: number;
   priority: Array<string>;
   shows: Record<string, Array<string>>;
+  releaseDates: Record<string, string>;
 };
 
 let dropoutConfig: undefined | Promise<DropoutConfig> = undefined;
@@ -290,6 +299,7 @@ export async function getDropoutConfig(): Promise<DropoutConfig> {
           [show, prefixes],
         ) => [show, [prefixes].flat()]),
       ),
+      releaseDates: parsed["release-dates"] ?? {},
     };
   })());
 }

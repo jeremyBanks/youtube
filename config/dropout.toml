@@ -73,3 +73,22 @@ priority = [
   "ultramechatron-team-go-1",
   "ultramechatron-team-go-the-web-series",
 ]
+
+# Episode slug -> release date, where watch.dropout.tv's own date is wrong.
+# `verify-dates` uses these in place of the scraped date, so the curation can
+# carry the right date without being reported as a mismatch every run. Each
+# needs the evidence written beside it; dates.md explains the kinds of error.
+[release-dates]
+# Dropout gives it 2026-09-08, the same day as episode 13. Toonout runs
+# fortnightly (08-11, 08-25, 09-08), YouTube published 14 on 09-22, and
+# that is the next slot.
+"young-spencer-goes-to-school" = "2026-09-22"
+# Dropout files the Simpsons special at 02-22 and Zelda at 05-02, two slots
+# swapped on a fortnightly Saturday run. IMDb (04-17) and TVDB (04-18) put
+# the Simpsons special in April, which leaves Zelda the 04-04 slot and 308
+# the 05-02 one.
+"zelda-aquaman-neopets" = "2020-04-04"
+"d-oh-actually-a-special-simpsons-episode" = "2020-04-18"
+# Dropout gives it 02-19, a Tuesday off the season's fortnightly Wednesday
+# run; TVDB and the free upload both say 03-06.
+"being-the-mean-gm-with-noah-diamond" = "2019-03-06"

@@ -722,3 +722,71 @@ Deno.test("a known client id links straight at its secret", () => {
     Deno.env.delete("YOUTUBE_CLIENT_ID");
   }
 });
+
+import { expectedDate } from "./src/release-date.ts";
+
+// The members upload is scheduled ahead of release, so a date taken from it
+// is early; the catalogue date is the release. Crown of Candy episode 2 was
+// uploaded on 03-07 and released 04-15.
+Deno.test("a catalogue date replaces a members-upload date in either direction", () => {
+  const early = expectedDate({
+    catalogue: { date: "2020-04-15", source: "dropout" },
+    members: "2020-03-07",
+    curated: "2020-03-08",
+  });
+  const late = expectedDate({
+    catalogue: { date: "2021-11-15", source: "dropout" },
+    members: "2023-05-10",
+    curated: "2023-05-10",
+  });
+  if (early?.date !== "2020-04-15" || late?.date !== "2021-11-15") {
+    throw new Error(`${early?.date} ${late?.date}`);
+  }
+});
+
+// Breaking News went to YouTube before Dropout listed it, so the public
+// upload is the release and Dropout's date is a platform-add.
+Deno.test("an earlier public upload beats the catalogue", () => {
+  const got = expectedDate({
+    catalogue: { date: "2019-10-14", source: "dropout" },
+    public: "2019-10-02",
+    curated: "2019-10-02",
+  });
+  if (got?.date !== "2019-10-02" || got.source !== "public") {
+    throw new Error(JSON.stringify(got));
+  }
+});
+
+// Badman's 2009 sketches were re-uploaded in 2024. Without a catalogue, a
+// later upload never moves a date.
+Deno.test("without a catalogue a date only ever moves earlier", () => {
+  const kept = expectedDate({ public: "2024-06-07", curated: "2009-11-23" });
+  const lowered = expectedDate({ public: "2019-01-10", curated: "2019-01-15" });
+  if (kept?.date !== "2009-11-23" || lowered?.date !== "2019-01-10") {
+    throw new Error(`${kept?.date} ${lowered?.date}`);
+  }
+});
+
+// Starstruck 10 carried its members-upload date, which the audio-only page
+// shows to be a week early; the audio date is the release.
+Deno.test("the audio page's date replaces a date that is only the members upload", () => {
+  const got = expectedDate({
+    audio: "2022-03-16",
+    members: "2022-03-09",
+    curated: "2022-03-09",
+  });
+  if (got?.date !== "2022-03-16" || got.source !== "audio") {
+    throw new Error(JSON.stringify(got));
+  }
+});
+
+// The audio page is released with or after the video, so a catalogue date
+// later than it is wrong: Tiny Heist 6 is 02-29 on Dropout and 02-13 as audio.
+Deno.test("the audio page bounds the catalogue from above", () => {
+  const got = expectedDate({
+    catalogue: { date: "2020-02-29", source: "dropout" },
+    audio: "2020-02-13",
+    curated: "2020-01-15",
+  });
+  if (got?.date !== "2020-02-13") throw new Error(JSON.stringify(got));
+});

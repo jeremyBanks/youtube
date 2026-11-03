@@ -5866,6 +5866,13 @@ scannedTo:     null
 
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 channelHandle: dropout
+scannedAt:     2026-11-03T22:53:12.609Z
+scannedTo:     2026-11-03T18:27:37.351Z
+
+---
+
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+channelHandle: dropout
 scannedAt:     2026-11-03T18:27:37.351Z
 scannedTo:     2026-11-03T03:07:33.282Z
 

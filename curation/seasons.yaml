@@ -8757,6 +8757,8 @@ videos:
     dropout: bathroom-run
     public: 0z7p0oM4_RM
     published: 2012-12-13
+  # Dropout also carries "Scareduke - Outtakes" (scareduke-outtakes); no
+  # upload of it is on any channel we scan, searched by title 2026-11-03.
   - episode: 018. Scareduke
     dropout: scareduke
     public: VsulPjOqr6I

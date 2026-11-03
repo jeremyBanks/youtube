@@ -142,6 +142,7 @@ export async function main() {
   const ambiguous: Array<string> = [];
   const unmatched: Array<string> = [];
   const badSlugs: Array<string> = [];
+  const removedLinks: Array<string> = [];
   const sources = new Map<DateSource | "none", number>();
 
   for (const doc of curation) {
@@ -174,6 +175,24 @@ export async function main() {
         if (!match) {
           badSlugs.push(`${label} -> dropout: ${video.dropout} (no such slug)`);
           continue;
+        }
+        // Dropout re-creates pages under new slugs and drops the old ones, and
+        // a link left on the old page sees none of the new one's date.
+        if (match.removedBefore) {
+          const gone = match;
+          const replacements = episodes.filter((e) =>
+            !e.removedBefore && e.slug !== gone.slug && !!e.title &&
+            !!gone.title &&
+            normalizeTitle(e.title) === normalizeTitle(gone.title) &&
+            e.collections.some((c) => gone.collections.includes(c))
+          );
+          removedLinks.push(
+            `${label} -> dropout: ${gone.slug} (removed ` +
+              `${isoDate(gone.removedBefore!)}; ` +
+              (replacements.length
+                ? `now ${replacements.map((e) => e.slug).join(", ")})`
+                : "no replacement page)"),
+          );
         }
       } else if (prefixes?.length) {
         const candidates = candidatesFor(scraped, prefixes, named.title);
@@ -237,6 +256,57 @@ export async function main() {
     }
   }
 
+  // The same video filed twice -- a precursor and its Game Changer episode,
+  // a campaign's cast reunion and the Adventuring Academy episode it is --
+  // is one release, so both entries must say the same thing about it. Two
+  // precursors once carried dates nothing supported while their Game Changer
+  // entries were right, because only the linked copy was ever checked.
+  const VIDEO_FIELDS = [
+    "public",
+    "members",
+    "paid",
+    "public copy",
+    "public parts",
+    "removed members",
+    "removed public",
+    "removed public parts",
+  ];
+  const entriesById = new Map<string, Set<(typeof curation)[0]["videos"][0]>>();
+  const whereOf = new Map<unknown, string>();
+  for (const doc of curation) {
+    if (args.show && doc.show !== args.show) continue;
+    for (const video of doc.videos) {
+      const named = entryTitle(video);
+      whereOf.set(
+        video,
+        `${doc.season ? `${doc.show} / ${doc.season}` : doc.show}: ` +
+          (named?.title ?? "?"),
+      );
+      for (const id of ids(video, VIDEO_FIELDS)) {
+        if (!entriesById.has(id)) entriesById.set(id, new Set());
+        entriesById.get(id)!.add(video);
+      }
+    }
+  }
+  const disagreements = new Set<string>();
+  for (const [id, set] of entriesById) {
+    if (set.size < 2) continue;
+    const entries = [...set];
+    const dates = new Set(
+      entries.map((e) => e.published ? isoDate(e.published) : "none"),
+    );
+    const links = new Set(entries.map((e) => e.dropout ?? "none"));
+    if (dates.size > 1 || links.size > 1) {
+      disagreements.add(
+        `${id} is in ${entries.length} entries that disagree:\n` +
+          entries.map((e) =>
+            `    ${e.published ? isoDate(e.published) : "no date"} ` +
+            `dropout: ${e.dropout ?? "none"}  ${whereOf.get(e)}`
+          ).join("\n"),
+      );
+    }
+  }
+
   if (mismatches.length) {
     console.info(`\n${mismatches.length} date mismatches:`);
     for (const line of mismatches) {
@@ -252,6 +322,18 @@ export async function main() {
   if (badSlugs.length) {
     console.info(`\n${badSlugs.length} dangling dropout: slugs:`);
     for (const line of badSlugs) {
+      console.info(`  ${line}`);
+    }
+  }
+  if (disagreements.size) {
+    console.info(`\n${disagreements.size} videos filed twice, inconsistently:`);
+    for (const line of disagreements) {
+      console.info(`  ${line}`);
+    }
+  }
+  if (removedLinks.length) {
+    console.info(`\n${removedLinks.length} links to pages Dropout removed:`);
+    for (const line of removedLinks) {
       console.info(`  ${line}`);
     }
   }
@@ -273,7 +355,9 @@ export async function main() {
   console.info(
     `\n${compared} entries compared: ${agreements} agree, ` +
       `${mismatches.length} differ. ${ambiguous.length} ambiguous, ` +
-      `${badSlugs.length} dangling slugs, ${unmatched.length} without a ` +
+      `${badSlugs.length} dangling slugs, ${disagreements.size} videos ` +
+      `filed inconsistently, ${removedLinks.length} removed ` +
+      `pages linked, ${unmatched.length} without a ` +
       `catalogue date` +
       (args.unmatched ? "." : " (list with --unmatched; --sources counts)."),
   );

@@ -310,6 +310,15 @@ async function main() {
       ? undefined
       : curatedFromChannel.get(channelId);
   };
+  // Still served, as far as anything has observed: a video that left its
+  // uploads listing counts only once a direct lookup found it public or
+  // unlisted, and never with an `absence` verdict.
+  const served = (
+    video: { removedBefore?: Date; privacyStatus?: string; absence?: string },
+  ) =>
+    !video.absence &&
+    (!video.removedBefore || video.privacyStatus === "public" ||
+      video.privacyStatus === "unlisted");
   const preferredPublic = (
     episode: { public?: string; "public copy"?: string },
   ) => {
@@ -324,6 +333,10 @@ async function main() {
     ) {
       return main;
     }
+    // A copy that has gone is never preferred, and one still served stands in
+    // for a `public` that has gone, whatever the counts say.
+    if (!served(right)) return main;
+    if (!served(left)) return copy;
     const mainCount = curatedCount(main);
     const copyCount = curatedCount(copy);
     return mainCount !== undefined && copyCount !== undefined &&

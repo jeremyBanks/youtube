@@ -255,6 +255,13 @@ export const watchable = (
   video.regionsAllowed?.length !== 0 &&
   (video.regionsBlocked?.length ?? 0) < ALL_REGIONS;
 
+// Most show templates say "${EXTRAS} trailers", which is true only while
+// every extra is one. A set tour or a behind-the-scenes video makes it a lie,
+// as Dropout Presents' 18 "trailers" were, so the noun follows what the
+// playlist holds: `bonusCount` is the extras that are not trailers.
+export const trailersOrExtras = (phrase: string, bonusCount: number): string =>
+  bonusCount > 0 ? phrase.replace(/\btrailers\b/, "extras") : phrase;
+
 if (import.meta.main) {
   await main();
 }
@@ -706,6 +713,9 @@ async function main() {
       ).replace(
         /\$\{EPISODES\} episodes and /gi,
         (match) => episodeCount === 0 ? "" : match,
+      ).replace(
+        /\$\{EXTRAS\} trailers\b/g,
+        (match) => trailersOrExtras(match, bonusCount),
       ).replaceAll(
         "${EPISODES}",
         String(episodeCount),

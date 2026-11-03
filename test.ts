@@ -791,7 +791,7 @@ Deno.test("the audio page bounds the catalogue from above", () => {
   if (got?.date !== "2020-02-13") throw new Error(JSON.stringify(got));
 });
 
-import { watchable } from "./src/bin/aggregate.ts";
+import { trailersOrExtras, watchable } from "./src/bin/aggregate.ts";
 
 Deno.test("watchable refuses what has gone and what nobody can see", () => {
   const removedBefore = new Date("2026-01-01");
@@ -814,5 +814,15 @@ Deno.test("watchable refuses what has gone and what nobody can see", () => {
     if (watchable(video) !== expected) {
       throw new Error(`${label}: expected ${expected}`);
     }
+  }
+});
+
+Deno.test("a description calls its extras trailers only while they all are", () => {
+  const phrase = "${EXTRAS} trailers";
+  if (trailersOrExtras(phrase, 0) !== phrase) {
+    throw new Error("changed a playlist whose every extra is a trailer");
+  }
+  if (trailersOrExtras(phrase, 1) !== "${EXTRAS} extras") {
+    throw new Error("kept calling a set tour a trailer");
   }
 });

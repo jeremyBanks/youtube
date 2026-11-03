@@ -152,6 +152,11 @@ videos:
     live: true
     members: Ekgd2ePymD8
     published: 2019-07-17
+  # The charity auction's promo shows the season's minis, made for the table
+  # and seen in no episode in this form, so it is not an excerpt.
+  - bts: "Dimension 20: Fantasy High Minis Auction"
+    public: s-0Fc9ZGakY
+    published: 2024-02-26
 
 ---
 
@@ -747,6 +752,11 @@ videos:
     talkback: true
     members: aqqNBb3-l5c
     published: 2020-08-04
+  # Fan art submitted over the season, the evening the finale aired. Nothing in
+  # it is from an episode.
+  - bts: A Crown of Candy Fan Art Montage
+    public: 2Q9U_J5hibA
+    published: 2020-08-05
   - bts: The Wild Childs
     quarantine: true
     dropout: the-wild-childs
@@ -757,6 +767,23 @@ videos:
     dropout: behind-the-scenes-of-dimension-20-a-crown-of-candy
     members: hdQKi3wf_zw
     published: 2020-08-15
+  - bts: "Dimension 20: A Crown of Candy Minis Auction"
+    public: RgQFO0MO8Mc
+    published: 2022-07-15
+
+---
+
+# Brennan answering questions put to him on Tumblr, to a webcam at home, so it
+# was made remotely. It is about the show rather than a campaign, so it has no
+# `season:` key, for the reason given at the 2021 announcement below, and
+# follows the campaign that had started when it went up.
+
+show: Dimension 20
+videos:
+  - bts: Brennan Answers Your Most Important D20 Questions
+    quarantine: true
+    public: d5o1GMz8UVw
+    published: 2020-05-06
 
 ---
 
@@ -991,6 +1018,12 @@ videos:
     talkback: true
     members: 6f5pfudBaGU
     published: 2021-03-23
+  # It does not say which chapter's minis are being auctioned; filed here,
+  # after both, and in the same playlist either way.
+  - bts: "Dimension 20: The Unsleeping City Minis Auction"
+    quarantine: false
+    public: Fuh36a1-riw
+    published: 2022-11-04
   - trailer: Gauntlet at the Garden Trailer
     dropout: dimension-20-live-gauntlet-at-the-garden-trailer
     quarantine: false
@@ -1004,6 +1037,11 @@ season: Mice and Murder
 quarantine: true
 show: Dimension 20
 videos:
+  # "Full trailer coming next week. Season premieres April 7th", which is this
+  # season's premiere; it names no season.
+  - trailer: Dimension 20 New Season Reveal
+    public: XklwjzhSRwc
+    published: 2021-03-17
   - trailer: Mice and Murder Trailer
     dropout: dimension-20-mice-murder-trailer
     public: CokApJchV94
@@ -1293,6 +1331,12 @@ videos:
     talkback: true
     members: fyLGKXmnkuo
     published: 2021-09-30
+  # A primer on Fantasy High for anyone starting The Seven, filed as a recap
+  # like the season recaps elsewhere. It went up mid-season, the day before
+  # episode 8, so that is where it sits.
+  - trailer: Everything You Need To Know To Start Watching The Seven
+    public: edqrCL9IN8M
+    published: 2021-10-05
   - episode: 8. And Another Thing
     dropout: and-another-thing
     members: Ya1LxpI0LbU
@@ -2199,6 +2243,9 @@ videos:
     talkback: true
     members: Y0LtM5baLUA
     published: 2023-04-13
+  - bts: "Dimension 20: Neverafter Minis (and Maxis) Auction"
+    public: 0OPSuyI_wlo
+    published: 2023-04-13
   - bts: The Stories Behind the Stories
     dropout: the-stories-behind-the-stories
     talkback: true
@@ -2211,6 +2258,14 @@ season: The Ravening War
 show: Dimension 20
 world: Calorum
 videos:
+  # "Coming May 2023", and The Ravening War is the only season that premiered
+  # that May; it names no season. The same 31 seconds went up on the Dimension
+  # 20 channel, on Dropout's, and as a Short.
+  - trailer: Dimension 20 New Season Teaser
+    public: rM0CfvUbVNE
+    public copy: kQaPvjtQ2c8
+    public short: lWN_8r_U7Lg
+    published: 2023-02-27
   - trailer: The Ravening War Trailer
     dropout: dimension-20-the-ravening-war-trailer
     public: c4xTd-NjEj4
@@ -5172,6 +5227,9 @@ videos:
     dropout: behind-the-scenes-the-crew
     members: qhP2LbISdzw
     published: 2024-05-29
+  - bts: "Dimension 20: Fantasy High Junior Year Minis Auction"
+    public: W6BHedSUsX0
+    published: 2025-03-07
 
   # - external: Zac Discusses Fantasy High Junior Year on Screen Rant Plus
   #   public: GVbFYlgMwaM
@@ -5603,6 +5661,10 @@ videos:
   - bts: Getting a Tattoo on Friday the 13th
     public: bB1ESv06hkI
     published: 2025-02-26
+  - trailer: "Cameron Esposito: Four Pills Teaser"
+    public: zyvGVItB0sQ
+    public short: lRN5qy9opaM
+    published: 2025-03-21
   - trailer: Get Your Act Together with Cameron Esposito
     dropout: get-your-act-together-with-cameron-esposito
     public: q3AgIZwrcwE
@@ -6189,6 +6251,19 @@ videos:
 
 ---
 
+# The announcement of three live shows at once, so it belongs to no one of
+# them and has no `season:` key, for the reason given at the 2021 announcement
+# above. Each of the three has its own trailer in its own season.
+
+show: Dimension 20
+videos:
+  - bts: Dimension 20 2025 Tour Announcement
+    public: DYfW0UG7KV8
+    public short: kuGo_Szb_3M
+    published: 2024-10-15
+
+---
+
 show: Dimension 20
 season: Dungeons and Drag Queens (Chapter 2)
 world: Dungeons and Drag Queens
@@ -6345,6 +6420,10 @@ season: Cloudward, Ho!
 show: Dimension 20
 cast: Intrepid Heroes
 videos:
+  - trailer: "Dimension 20: Cloudward, Ho! Teaser"
+    public: iYglhKFGSuM
+    public short: p7hzCj4QsPU
+    published: 2025-04-16
   - trailer: Cloudward, Ho! Trailer
     dropout: dimension-20-cloudward-ho-trailer
     public: ubR-CRYTrZs
@@ -6722,7 +6801,13 @@ videos:
   - trailer: Parlor Room Trailer
     dropout: parlor-room-trailer
     public: v0Cr6S8Vep0
+    public short: MXoLdF0kyXk
     published: 2025-03-31
+  # A tour of the set the day before the premiere, filmed for the Short and in
+  # no episode.
+  - bts: Becca Scott Does Set Tour of New Dropout Show
+    public: 4rmMzJfalAI
+    published: 2025-04-17
   - episode: 101. Wavelength
     dropout: wavelength
     public: sKTlEDAuwfY
@@ -6782,6 +6867,7 @@ videos:
   - trailer: Parlor Room Season 2 Trailer
     dropout: parlor-room-season-2-trailer
     public: Y3snSLxYk_4
+    public short: r1Cc79n5w9Y
     published: 2026-03-05
   - episode: 201. To Be Seen Is to Be Loved
     dropout: to-be-seen-is-to-be-loved
@@ -6889,6 +6975,7 @@ videos:
   - trailer: Crowd Control Season 2 Trailer
     dropout: crowd-control-season-2-trailer
     public: w0R8F3KEP6E
+    public short: jOWW2-lzayM
     published: 2026-07-07
   - episode: 201. Lesbian Applause Break
     dropout: lesbian-applause-break
@@ -6926,10 +7013,12 @@ season: Season 7
 videos:
   - trailer: Game Changer Season 7 Teaser
     public: D6vlxIwNHOo
+    public short: 0B8D468e784
     published: 2025-02-19
   - trailer: Game Changer Season 7 Trailer
     dropout: game-changer-season-7-trailer
     public: 1eu0nZh9rfw
+    public short: Z2RfSP5u5-0
     published: 2025-03-24
   - episode: 701. One Year Later
     dropout: one-year-later
@@ -7143,6 +7232,11 @@ videos:
     public: HHoGMR_qNpI
     public short: ublWViUo8aM
     published: 2025-06-24
+  # Paul's tour of the season's new set, five days before the premiere; filmed
+  # for the Short and in no episode.
+  - bts: Paul Gives Tour of Dirty Laundry's New Set
+    public: yZMnqcVb-04
+    published: 2025-07-10
   - episode: 501. Who Got Yelled at by a Real Housewife?
     dropout: who-got-yelled-at-by-a-real-housewife
     members: H_ItBC-NdO8
@@ -7198,10 +7292,18 @@ videos:
 show: Make Some Noise
 season: Season 4
 videos:
+  - trailer: Make Some Noise Season 4 Teaser
+    public: 3EToVcRBqR8
+    published: 2025-09-02
   - trailer: Make Some Noise Season 4 Trailer
     dropout: make-some-noise-season-4-trailer
     public: tKBcWn-tqWE
+    public short: W5FqD9hGYgU
     published: 2025-09-22
+  # A sketch made for the Short, the day before the premiere, not a clip.
+  - bts: Sam Reich's Desk Tour
+    public: VZMJUtwx1rI
+    published: 2025-10-12
   - episode: 401. The Noise Boys Ride Again
     dropout: the-noise-boys-ride-again
     members: scIVn4N2u8E
@@ -7367,6 +7469,10 @@ videos:
     dropout: um-actually-season-11-trailer
     public: JWXQSmB3Rso
     published: 2026-01-06
+  # A tour of the set, filmed for the Short and in no episode.
+  - bts: Brian David Gilbert's Um, Actually Set Tour
+    public: 6fscUHzlZu0
+    published: 2026-01-15
   - episode: 1101. Zig, Garrick, and Thundercat Weeb Out
     dropout: zig-garrick-and-thundercat-weeb-out
     members: "-gbKsTOGuh0"
@@ -7401,7 +7507,8 @@ videos:
     members: OdSHtY2SFgk
     published: 2026-04-28
   - trailer: Um, Actually Season 11 Tournament of Champions Trailer
-    public: 8edJTC8gLM8
+    public: m9FnsFJowqc
+    public short: 8edJTC8gLM8
     published: 2026-05-12
   - episode: 1109. Tournament of Champions '26 Part 1
     dropout: tournament-of-champions-26-part-1
@@ -7427,6 +7534,7 @@ season: Season 3
 videos:
   - trailer: Very Important People Season 3 Teaser
     public: eXyEyWEt4uw
+    public short: EScIHQRPBnE
     published: 2025-11-06
   - trailer: Very Important People Season 3 Trailer
     dropout: very-important-people-season-3-trailer
@@ -7568,6 +7676,7 @@ videos:
   - trailer: Gastronauts Season 2 Trailer
     dropout: gastronauts-season-2-trailer
     public: t8ggBrRrFS4
+    public short: lxeDNOK-Kig
     published: 2025-07-18
   - episode: 201. Too Goo to Be True
     dropout: too-goo-to-be-true
@@ -7693,6 +7802,7 @@ videos:
   - trailer: Smartypants Season 3 Trailer
     dropout: smartypants-season-3-trailer
     public: 1Ng4_XNQWjk
+    public short: 3wyRs63E1qU
     published: 2026-05-15
   - episode: 301. The Rules of Content
     dropout: the-rules-of-content
@@ -7791,6 +7901,7 @@ videos:
   - trailer: Adventuring Academy Season 6 Trailer
     dropout: adventuring-academy-season-6-trailer
     public: bC9hwFJBv9U
+    public short: _FXr_A-du3o
     published: 2025-04-15
   - episode: 601. Hindsight Is Rose-Colored Glasses (with Izzy Roland)
     dropout: hindsight-is-rose-colored-glasses-with-izzy-roland
@@ -7825,6 +7936,7 @@ videos:
   - trailer: Adventuring Academy Season 7 Trailer
     dropout: adventuring-academy-season-7-trailer
     public: iJot20t5v4U
+    public short: nBhbRwrxVzQ
     published: 2026-02-06
   - episode: 701. Bandaid on a Bowling Ball (with Vic Michaelis)
     dropout: bandaid-on-a-bowling-ball-with-vic-michaelis
@@ -7898,6 +8010,11 @@ season: "Live: Quangle Quest"
 cast: Intrepid Heroes
 live: true
 videos:
+  # The week before the performance in Seattle; the trailer for the recording
+  # came in December.
+  - trailer: Quangle Quest Is Coming!
+    public: p30HLGCc_r0
+    published: 2025-07-14
   - trailer: "Dimension 20 Live: Quangle Quest Trailer"
     dropout: dimension-20-live-quangle-quest-trailer
     public: w3VFn9-Iv_I
@@ -7980,6 +8097,13 @@ show: Dimension 20
 season: City Council of Darkness
 cast: Intrepid Heroes
 videos:
+  # The season's first teaser, a week before the trailer, which names the town
+  # but not the season. The vertical cut went up a minute later as "Visit
+  # Purpee. It's Normal Here."
+  - trailer: Welcome to Purpee
+    public: VlYlQoGHnng
+    public short: mIsQXv8Oo7Y
+    published: 2026-03-18
   - trailer: "Dimension 20: City Council of Darkness Trailer"
     dropout: dimension-20-city-council-of-darkness-trailer
     public: beCy18i1LX8
@@ -8062,6 +8186,11 @@ videos:
     talkback: true
     members: ENwxTrCkme8
     published: 2026-05-28
+  # A Short, but not a clip: it shows the season's interactive map of Purpee,
+  # which is in no episode.
+  - bts: New Purpee Lore Just Dropped!
+    public: gnt3ZRXPP88
+    published: 2026-06-03
   - episode: 9. A Bid, a Banksy, & the Bird in the Basement
     dropout: a-bid-a-banksy-and-the-bird-in-the-basement
     members: egPW5pLJ4qI
@@ -8487,6 +8616,14 @@ videos:
 show: Don't Hug Me I'm Scared
 season: Season 1
 videos:
+  # The series' teasers for its first run, on Channel 4 in 2022, from the
+  # creators' channel.
+  - trailer: FLY
+    public: OrtrzIWfGYw
+    published: 2022-06-19
+  - trailer: LATE SEPTEMBER! (EGG)
+    public: UZN2BC8Z48U
+    published: 2022-09-06
   - trailer: Don't Hug Me I'm Scared Is Coming to Dropout
     public: ceIct-gJIsY
     published: 2026-02-23
@@ -9427,6 +9564,13 @@ videos:
 show: The Rank Room
 season: Season 1
 videos:
+  # YouTube's went up the day after episode 1, as "The RANK ROOM Returns", and
+  # says the series is streaming now. Dropout's page, which carries no date,
+  # says coming soon, so the two cuts may differ in their last card.
+  - trailer: The Rank Room Trailer
+    dropout: rank-room-trailer
+    public: _qbmXeylA_0
+    published: 2019-03-08
   - episode: 1. What Is the Best Invention That Has Yet to Be Invented?
     dropout: what-is-the-best-invention-that-has-yet-to-be-invented
     public: DYXEhEW-3mk

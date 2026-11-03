@@ -74,8 +74,9 @@ channels we scan:
 
 1. **Breaking News S3E9, "A Report From the CollegeHumor Office"** —
    <https://watch.dropout.tv/breaking-news-no-laugh-newsroom/season:3/videos/a-report-from-the-collegehumor-office>.
-   Our Breaking News Season 3 skips from 8 to 10. Multiple searches found
-   nothing.
+   Our Breaking News Season 3 skipped from 8 to 10 when this was written. Since
+   found and curated: a public upload from 2021-06-02, dated 2020-04-20 by the
+   season's weekly Monday run.
 2. **The six original Don't Hug Me I'm Scared web shorts** — CREATIVITY, TIME,
    LOVE, COMPUTERS, FOOD, DREAMS. On YouTube, but on the DHMIS channel, which is
    not one we scan. Dropout's own channel carries only the 2026 series.

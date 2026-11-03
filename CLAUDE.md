@@ -648,12 +648,24 @@ Two timestamp fields, with different meanings, both from the YouTube scan:
   For members videos this can trail the playlist-add by hours to months.
   Captured but not yet used.
 
-Neither is authoritative: **the official release date lives on
-watch.dropout.tv** and is scraped into `data/dropout.yaml`.
+Neither is authoritative. **For a members video, `publishedAt` is the upload,
+not the release**: Dropout schedules uploads days to weeks ahead and backfills
+old seasons years late, so a date copied from it is wrong in either direction.
+Whole seasons were dated that way until the 2026-11-03 review.
 
-See `dates.md` for how far apart the sources actually are, which of them to
-believe for which era, and the short list of entries known to carry the wrong
-date.
+**The release date lives on watch.dropout.tv** (`data/dropout.yaml`), or on
+TheTVDB where Dropout's page carries none (`data/tvdb-dates.yaml`, transcribed
+by hand), and `src/release-date.ts` ranks every kind of evidence: catalogue
+first, an earlier public upload over it, the audio-only page as an upper bound,
+the members upload last, and never a later date on upload evidence alone.
+`deno task verify-dates` applies that to every entry and prints each
+disagreement as `curated X, expected Y (source)`; `--sources` counts where the
+dates come from and `--unmatched` lists what rests on no catalogue. Where
+Dropout's own date is wrong, `[release-dates]` in `config/dropout.toml`
+overrides it, with the evidence beside each.
+
+See `dates.md` for the measurements behind the ranking, the four Dropout dates
+known to be wrong, and what still rests on nothing better.
 
 ```bash
 deno task scan-dropout                 # sitemap diff + budgeted detail fetches

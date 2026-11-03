@@ -1,7 +1,11 @@
 # Proposal: adopt Dropout's release date where it is earlier
 
-**Status: applied 2026-10-21, with the changes described under "The 2026-10-21
-batch" in `dates.md`.** The tables below are the proposal as written.
+**Status: applied 2026-10-21, then superseded on 2026-11-03.** This proposal
+only ever moved a date earlier, on the theory that an earlier date of ours was a
+YouTube-first release. For members-only videos that earlier date was the upload,
+scheduled weeks ahead, and the 2026-11-03 review (`dates.md`,
+`research/date-review-2026-11.md`) adopted Dropout's date in both directions.
+The tables below are the proposal as written.
 
 `published:` in the curation is our best understanding of each video's original
 release, and it is what chronology uses. `deno task verify-dates` compares it

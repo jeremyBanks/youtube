@@ -1,146 +1,135 @@
-# Where episode dates come from, and how far apart they are
+# Where episode dates come from
 
-Findings from cross-referencing `curation/seasons.yaml` against the scraped
-watch.dropout.tv index. **Tentative**: measured while the Dropout scrape was
-about 70% complete (2,456 of 3,594 episode pages), over 1,128 comparable
-entries. The proportions should hold, but the counts will grow.
+`published:` in `curation/seasons.yaml` is the first day a video could be
+watched, anywhere, in Pacific time. This file says which evidence decides it,
+how the sources disagree, and where each one is wrong. The rule itself lives in
+`src/release-date.ts`; `deno task verify-dates` applies it to every entry and
+reports the ones that disagree with their evidence.
 
-## What `published:` is meant to be
+Reviewed in full on 2026-11-03, when 462 dates were corrected. The findings
+below are from that review; `research/date-review-2026-11.md` has the method.
 
-The first date an episode was available to viewers, in Pacific time.
+## The rule
 
-With a single-digit number of exceptions, a YouTube members video and the
-Dropout release are **simultaneous** — not staggered. So for anything recent,
-either source answers the question. The free YouTube release comes later and is
-never the answer when a members release exists.
+Evidence is ranked, and the highest rank that exists decides:
 
-## What it actually is
+1. **A catalogue date**: the release date somebody published. Dropout's own page
+   (`data/dropout.yaml`), or TheTVDB where Dropout's page carries none
+   (`data/tvdb-dates.yaml`), or a hand override where Dropout's page is wrong
+   (`[release-dates]` in `config/dropout.toml`).
+2. **An earlier public YouTube upload** beats the catalogue. A public upload is
+   a real publication; the CollegeHumor-era shows reached YouTube before Dropout
+   listed them, and there Dropout's date is the day the platform got the video.
+3. **The audio-only page** on Dropout is released with or after the video. It
+   bounds the date from above, so a catalogue date later than it is wrong, and
+   where there is no catalogue date it replaces a date that was only ever the
+   members upload.
+4. **The members upload** is used only when nothing else exists, and is never
+   trusted over the curated date.
+5. **Without a catalogue date, a date only moves earlier.** A re-upload in 2024
+   says nothing about a release in 2012.
 
-Mostly the raw UTC date of the members video's playlist-add:
+Two things are ignored outright. A Dropout date shared by eight or more pages is
+the day a show reached the platform, not the day anything aired: Fatal
+Decision's 49 episodes all carry 2025-07-18. A members-upload date shared by
+five or more entries of a season is a backfill batch: all of Cartoon Hell went
+up on 2019-09-13.
 
-| our `published:` equals          | share |
-| -------------------------------- | ----- |
-| UTC date of members playlist-add | 77%   |
-| Pacific date of the same         | 72%   |
-| Dropout's official release date  | 58%   |
+## Why the members upload is the wrong source
 
-That is the mechanical origin of most small disagreements. A release at 16:00
-Pacific is already the next day in UTC, and 279 members videos land in the
-00:00–07:00 UTC window where that flip happens.
+Most wrong dates came from one mistake: taking a members video's YouTube
+timestamp for its release. For a members-only video that timestamp is the
+**upload**, and the video never becomes public, so nothing on YouTube records
+when members could first see it.
 
-Converting to Pacific is more correct but only moves agreement with Dropout from
-58% to 61%. Worth knowing; not worth calling a fix.
+Dropout schedules uploads ahead. Measured against Dropout's release dates:
 
-## Neither source is right everywhere
+- **Days to weeks early, routinely.** Crown of Candy's episodes were uploaded 1
+  to 5 weeks before they aired; Adventuring Academy season 2 went up in batches
+  of four; Breaking News season 3 in three batches between January and June for
+  a weekly run from March to August; Dirty Laundry season 5 exactly 21 days
+  early, every episode; Game Changer season 7 months early.
+- **Years late for the back catalogue.** Fantasy High's first episodes reached
+  the members playlist 1,139 days after their release. The CollegeHumor-era
+  shows were all backfilled in September 2019.
+- **Two or three days early is the normal case** for 2020-2022: Friday uploads
+  for a Monday release, Wednesday for Friday. The ±1 day cases are the same
+  thing plus the UTC date rolling over at 16:00 Pacific.
 
-Two opposite regimes, which is why no single rule works:
+None of this is visible from the timestamp itself, which is why the rule refuses
+it whenever anything better exists.
 
-- **Current content** — members and Dropout release together, so the YouTube
-  playlist-add is a good proxy once converted to Pacific.
-- **Back catalogue** — the material existed on Dropout, or on CollegeHumor, long
-  before it reached the YouTube members playlist. `1. The Beginning
-  Begins`
-  was added to YouTube **1,139 days** after its Dropout release. Here the
-  YouTube timestamp is meaningless and Dropout's is the answer.
+## What each source is good for
 
-There is a third case running the other way: 212 entries where ours is _earlier_
-than Dropout's, concentrated in the CollegeHumor-era shows (Breaking News,
-median −3 days; Adventuring Academy, median −5.5). That material aired on
-YouTube first, so Dropout's "release date" looks like a platform-add date.
-**Ours is probably the correct one there.**
+| source          | what it is                       | reliability                                                       |
+| --------------- | -------------------------------- | ----------------------------------------------------------------- |
+| Dropout page    | the release Dropout scheduled    | right for everything Dropout released first; see exceptions below |
+| TheTVDB         | fan catalogue                    | right in cadence; sometimes a day late (UTC); some placeholders   |
+| public upload   | a real publication               | right where it is the earliest; a re-upload where it is not       |
+| audio-only page | released with or after the video | an upper bound; equals the video's date in 239 of 252 cases       |
+| members upload  | an upload                        | wrong in either direction by days to years                        |
 
-## The disagreements, by kind
-
-Of 460 disagreements:
-
-| distance     | episodes | extras | reading                                     |
-| ------------ | -------- | ------ | ------------------------------------------- |
-| ±1 day       | 127      | 63     | timezone artifact of the UTC derivation     |
-| ±2–3 days    | 30       | 36     | mostly deliberate ordering nudges           |
-| 4–30 days    | 88       | 61     | mixed; back-catalogue lag and genuine drift |
-| over 30 days | 40       | 1      | the one class that is plainly wrong         |
-
-The asymmetry in the last row is the tell: extras do not drift by months, but an
-episode does when its date was taken from the free re-release.
-
-## The actionable set
-
-Only **nine** entries have a curated date more than 30 days _later_ than the
-official one, and each is the free-re-release error — the members video sits
-within days or weeks of Dropout's date while ours is a year or more out:
-
-| entry                             | curated    | official   |
-| --------------------------------- | ---------- | ---------- |
-| 402. Like My Coffee               | 2023-05-10 | 2021-11-15 |
-| 1. A Heaping Helping of Trouble   | 2021-11-16 | 2020-09-16 |
-| 7. We Need to Talk About Pete     | 2020-10-16 | 2019-08-20 |
-| 401. Sam Says                     | 2022-10-19 | 2021-11-01 |
-| 1. The Fall of New York City      | 2021-10-26 | 2020-11-11 |
-| 1. It Was a Dark and Stormy Night | 2021-08-24 | 2021-04-07 |
-| 1. The Club Fair                  | 2022-03-08 | 2021-11-10 |
-| 1. Party of Seven                 | 2021-09-21 | 2021-08-18 |
-| 1. Down For The Count             | 2022-06-28 | 2022-06-08 |
-
-Applied 2026-10-21, with the rest of the batch below.
-
-## The 2026-10-21 batch
-
-264 curated dates were moved to an earlier official date, as one reviewed batch.
-The plan and the case-by-case reasoning are in
-`research/dropout-date-adoption.md`.
-
-- **222 from Dropout's release date**, where it was earlier than ours, the
-  change was 1 day or 4 or more, and the season stayed no more out of date order
-  than it already was. The 2–3 day band was left alone, as above.
-- **42 from the audio-only version's release date**, where Dropout's video page
-  carries no date at all. This covers Fantasy High (Chapter 1), Escape from the
-  Bloodkeep, The Unsleeping City (Chapter 1) and the start of Fantasy High
-  (Chapter 2). Across the 252 episodes that have both, the audio date equals the
-  video's in 239 and is later in the other 13, never earlier. So it bounds the
-  release from above, and every one used is earlier than the date it replaced.
-- **Two talkbacks moved later**, against the rule that an earlier date of ours
-  stands: A Starstruck Odyssey's and Coffin Run's season openers carried a date
-  a day before their own episode. A talkback cannot precede what it discusses.
-
-**Moving an entry to match a corrected date is a question for the owner, not
-part of the correction.** Some entries were placed by date and some for
-editorial reasons, and the file does not say which. Three entries were moved to
-match their corrected dates in this batch and moved straight back for that
-reason. Propose a move with the evidence, and make it only once the owner is
-sure the old placement was not deliberate.
-
-Left as they were, on purpose: Welcome to Denny's and Misfits and Magic 2, whose
-neighbours carry earlier dates of ours that this file says to keep; Game
-Changer's Crowd Control behind-the-scenes (2 days); the Um, Actually Simpsons
-special, whose number fixes its place; and Adventuring Academy 105, which has no
-dated neighbour to check against.
-
-`verify-dates` reports `slug … not yet scraped` for a page that was scraped and
-simply has no release date. Most of The Unsleeping City (Chapter 1) and all of
-Adventuring Academy season 1 are in that state.
+TheTVDB's tables were transcribed by hand for thirteen shows and checked against
+each show's weekly cadence before use. See Plum Run's are placeholders (every
+episode 2018-01-01) and were left out.
 
 ## Where Dropout itself is wrong
 
-One entry deliberately carries a date Dropout disagrees with, so `verify-dates`
-reports it every run and the reason should not have to be re-derived:
+Four pages carry a date that the show's own cadence and a second source
+contradict. These are the `[release-dates]` overrides, with the evidence beside
+each:
 
-- **Toonout 14, "Young Spencer Goes to School".** Dropout gives it 2026-09-08,
-  the same date as episode 13. Toonout runs fortnightly and episodes 11, 12 and
-  13 fall on 08-11, 08-25 and 09-08, so 14 belongs on 09-22 -- which is when
-  YouTube published it. Curated as 2026-09-22.
+- **Toonout 14, "Young Spencer Goes to School"**: Dropout says 2026-09-08, the
+  same day as episode 13; the show runs fortnightly and YouTube published it on
+  09-22.
+- **Um, Actually 306 and 307**: Dropout files the Simpsons special at 02-22 and
+  Zelda at 05-02, two slots of a fortnightly Saturday run swapped. IMDb and
+  TheTVDB put the Simpsons special in mid-April.
+- **Adventuring Academy 105**: Dropout says 02-19, a Tuesday off the fortnightly
+  Wednesday run; TheTVDB and the free upload say 03-06.
 
-This is the exception to "the official release date lives on watch.dropout.tv",
-and it is narrow: the official date is wrong only where it duplicates an
-adjacent episode's and the show's own cadence says otherwise.
+Dropout's episode numbering is a separate matter and is sometimes not release
+order (Um, Actually season 3, Breaking News season 3). The curation's numbers
+are Dropout's; the dates are the releases; the two need not agree.
 
-## What not to touch
+## What rests on nothing better
 
-- The ±2–3 day band. Some dates were adjusted deliberately to control ordering,
-  and cannot be told from errors by inspection.
-- Um, Actually's episode numbering. Dropout was internally inconsistent between
-  its public, members and site listings; the curated order was worked out by
-  hand and is deliberate.
-- Anything where ours is earlier than Dropout's, absent a specific reason.
+Run `deno task verify-dates --unmatched` for the live list. As of the review:
 
-None of this affects what subscribers see: playlist order is file order, so
-`published:` is documentation rather than behaviour.
+- **Fatal Decision** (49): Dropout's dates are a bulk add and the members
+  uploads are one batch. The curated dates, five a week from 2024-11-11, are the
+  show's original run as shorts and could not be checked against a catalogue.
+- **The CollegeHumor-era shows with no TheTVDB table**: Um, Actually seasons 1
+  and 2 (hand-entered; season 2 was confirmed against TheTVDB), See Plum Run,
+  Kingpin Katie's shorts, the Unlisted doc.
+- **Entries with no Dropout page and no public upload**: a handful of talkbacks
+  and behind-the-scenes extras dated by their members upload, which for those is
+  usually within a day or two of the release.
+- **Four dates set by cadence**, each with a comment in the curation saying why:
+  Unsleeping City 2 episode 8, Adventuring Academy 304, Breaking News 304 and
+  318, and The Seven's episode 2 talkback.
+
+## What playlist order has to do with it
+
+Nothing, except in one playlist. Order is file order, so `published:` is
+documentation everywhere but the `chronological` playlist (Dropout in
+Quarantine), which sorts by it. Correcting the dates re-sorted 58 of its
+entries.
+
+Where a season's file order was found to contradict its dates, the file was
+fixed rather than the dates: Crown of Candy's second-half talkbacks sat before
+their own episodes, unlike the first half's, and Starstruck's post-season
+talkback sat in the middle of the season. Animations are placed inside the
+season they depict and are out of date order by design.
+
+## History
+
+- **2026-10-21**: 264 dates moved to Dropout's where it was earlier
+  (`research/dropout-date-adoption.md`). The rule then was that an earlier date
+  of ours stood, on the theory that the CollegeHumor-era shows aired on YouTube
+  first. That was true of those shows and wrong as a rule: for a members-only
+  video our earlier date was the upload, and whole seasons from 2020 onward were
+  weeks early.
+- **2026-11-03**: the review above. 290 dates from Dropout's pages, 172 from
+  TheTVDB; three entries with public and members ids swapped; the rule moved
+  into `verify-dates`.

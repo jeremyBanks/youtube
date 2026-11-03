@@ -234,6 +234,27 @@ function coveredCollectionUrls(
   return maximal.map(([slug]) => `https://watch.dropout.tv/${slug}`).sort();
 }
 
+// Watchable, as far as anything has observed. A video that left its uploads
+// listing counts only once a direct lookup found it public or unlisted, and
+// never with an `absence` verdict. A video served in full but blocked in
+// every region is watchable by nobody: two of ours carry a block list naming
+// all 249 regions, and an allow list naming none would say the same.
+const ALL_REGIONS = 249;
+export const watchable = (
+  video: {
+    removedBefore?: Date;
+    privacyStatus?: string;
+    absence?: string;
+    regionsAllowed?: Array<string>;
+    regionsBlocked?: Array<string>;
+  },
+): boolean =>
+  !video.absence &&
+  (!video.removedBefore || video.privacyStatus === "public" ||
+    video.privacyStatus === "unlisted") &&
+  video.regionsAllowed?.length !== 0 &&
+  (video.regionsBlocked?.length ?? 0) < ALL_REGIONS;
+
 if (import.meta.main) {
   await main();
 }
@@ -310,15 +331,12 @@ async function main() {
       ? undefined
       : curatedFromChannel.get(channelId);
   };
-  // Still served, as far as anything has observed: a video that left its
-  // uploads listing counts only once a direct lookup found it public or
-  // unlisted, and never with an `absence` verdict.
-  const served = (
-    video: { removedBefore?: Date; privacyStatus?: string; absence?: string },
-  ) =>
-    !video.absence &&
-    (!video.removedBefore || video.privacyStatus === "public" ||
-      video.privacyStatus === "unlisted");
+  // An id with no record is let through: nothing is known against it, and
+  // the "unknown video" report below already names it.
+  const playable = (id: string) => {
+    const video = videosById.get(id);
+    return video === undefined || watchable(video);
+  };
   const preferredPublic = (
     episode: { public?: string; "public copy"?: string },
   ) => {
@@ -335,8 +353,8 @@ async function main() {
     }
     // A copy that has gone is never preferred, and one still served stands in
     // for a `public` that has gone, whatever the counts say.
-    if (!served(right)) return main;
-    if (!served(left)) return copy;
+    if (!watchable(right)) return main;
+    if (!watchable(left)) return copy;
     const mainCount = curatedCount(main);
     const copyCount = curatedCount(copy);
     return mainCount !== undefined && copyCount !== undefined &&
@@ -400,6 +418,9 @@ async function main() {
     // design, and a free-only playlist report every members video.
     const excluded: Array<CuratedEntry> = [];
     const segments: Array<{ start: number; published?: Date }> = [];
+    // Curated free versions this playlist could not carry, named so that a
+    // video gone private between scans is noticed rather than silently lost.
+    const unplayable: Array<string> = [];
 
     let seasonCount = 0;
     let episodeCount = 0;
@@ -450,9 +471,12 @@ async function main() {
         continue;
       }
 
-      if (season.season && (config.live === undefined || seasonLive)) {
-        seasonCount += 1;
-      }
+      // A season is counted only when this playlist takes something from it.
+      // Counting every doc that passed the show filter had "Dimension 20 (All
+      // Free Episodes)" claim 37 seasons, six of which have no free episode,
+      // and the episodes-only playlist count a campaign that so far is one
+      // trailer.
+      const includedBefore = included.length;
 
       for (const episode of season.videos) {
         if (
@@ -473,9 +497,11 @@ async function main() {
           excluded.push(episode);
           continue;
         }
-        if (episode.live !== undefined && config.live !== undefined) {
-          seasonCount += seasonLive ? 0 : 1;
-        }
+        // In a season that was not live throughout, each live entry is a
+        // performance of its own and counts where a season would -- once it
+        // is actually taken.
+        const performance = episode.live !== undefined &&
+          config.live !== undefined && !seasonLive;
         if (
           config.talkback !== undefined &&
           (episode.talkback ?? false) !== config.talkback
@@ -493,9 +519,21 @@ async function main() {
           excluded.push(episode);
           continue;
         }
+        const takenBefore = included.length;
         segments.push({ start: videoIds.length, published: episode.published });
-        if (episode.public) {
-          videoIds.push(preferredPublic(episode)!);
+        // The free version, unless nobody can watch it, in which case the
+        // entry falls through to whatever else it has, as if it had none.
+        const publicId = episode.public && preferredPublic(episode);
+        if (publicId && !playable(publicId)) {
+          unplayable.push(
+            `${publicId} (${
+              episode.episode ?? episode.special ?? episode.trailer ??
+                episode.bts ?? episode.animation ?? "?"
+            })`,
+          );
+        }
+        if (publicId && playable(publicId)) {
+          videoIds.push(publicId);
           included.push(episode);
           freeCount += 1;
           if (episode.episode || episode.special) {
@@ -541,6 +579,7 @@ async function main() {
             }
           }
         } else if (
+          episode.public ||
           episode["removed public"] || episode["removed members"] ||
           episode["removed public parts"]
         ) {
@@ -551,6 +590,13 @@ async function main() {
         } else {
           console.error(`no video ID specified for ${JSON.stringify(episode)}`);
         }
+        if (performance && included.length > takenBefore) seasonCount += 1;
+      }
+      if (
+        season.season && (config.live === undefined || seasonLive) &&
+        included.length > includedBefore
+      ) {
+        seasonCount += 1;
       }
     }
 
@@ -569,6 +615,13 @@ async function main() {
       videoIds.push(config.last);
     }
 
+    if (unplayable.length) {
+      console.warn(
+        `${config.name}: skipped ${unplayable.length} free video(s) nobody ` +
+          `can watch: ${unplayable.join(", ")}`,
+      );
+    }
+
     const videos: Record<string, string> = {};
     let durationSeconds = 0;
 
@@ -584,7 +637,7 @@ async function main() {
       } else {
         videos[videoId] = "unknown";
         console.error(
-          `unknown video in playlist: ${videoId} in empty playlist: ${config.playlistId} ${config.name}`,
+          `unknown video in playlist: ${videoId} in ${config.playlistId} ${config.name}`,
         );
       }
     }

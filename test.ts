@@ -790,3 +790,29 @@ Deno.test("the audio page bounds the catalogue from above", () => {
   });
   if (got?.date !== "2020-02-13") throw new Error(JSON.stringify(got));
 });
+
+import { watchable } from "./src/bin/aggregate.ts";
+
+Deno.test("watchable refuses what has gone and what nobody can see", () => {
+  const removedBefore = new Date("2026-01-01");
+  const all = Array.from({ length: 249 }, (_, i) => `R${i}`);
+  const cases: Array<[string, Parameters<typeof watchable>[0], boolean]> = [
+    ["nothing known against it", {}, true],
+    // Left the uploads listing, then found alive by a direct lookup.
+    ["removed, then found unlisted", {
+      removedBefore,
+      privacyStatus: "unlisted",
+    }, true],
+    ["removed, never looked up", { removedBefore }, false],
+    ["private", { absence: "private" }, false],
+    ["blocked in every region", { regionsBlocked: all }, false],
+    ["blocked in most", { regionsBlocked: all.slice(3) }, true],
+    ["allowed nowhere", { regionsAllowed: [] }, false],
+    ["allowed in one", { regionsAllowed: ["US"] }, true],
+  ];
+  for (const [label, video, expected] of cases) {
+    if (watchable(video) !== expected) {
+      throw new Error(`${label}: expected ${expected}`);
+    }
+  }
+});

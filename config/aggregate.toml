@@ -681,7 +681,7 @@ name = "Dropout: Unlisted Videos"
 unlisted = true
 show = "Unlisted"
 description = """
-The ${EPISODES} unlisted videos that Dropout's own playlists point at. YouTube hides these from the channel, from search and from the uploads feed, so they are reachable only by direct link; every one was found by reading the playlists rather than the channel.
+The ${EPISODES} unlisted videos that Dropout's own playlists point at and that can still be watched. YouTube hides these from the channel, from search and from the uploads feed, so they are reachable only by direct link; every one was found by reading the playlists rather than the channel.
 
 Unlisted itself, and in the order the videos were originally uploaded.
 """

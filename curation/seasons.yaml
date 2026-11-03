@@ -8542,6 +8542,8 @@ videos:
 # `season:`, so it counts as no season.
 show: Unlisted
 videos:
+  # Served in full and blocked in all 249 regions, so nobody can watch it and
+  # aggregate leaves it out. Kept because Dropout's playlists still point at it.
   - special: "Exclusive \"Weird Al\" Yankovic Music Video: FOIL (Parody of \"Royals\" by Lorde)"
     public: w-0TEJMJOhk
     published: 2014-07-16
@@ -8887,8 +8889,8 @@ videos:
 ---
 
 # Original animated shorts, not animations of existing episodes -- which is why
-# these get a season of their own rather than the treatment CLAUDE.md gives
-# Dimension 20 Animated and Game Changer Animated.
+# these get a season of their own. Dimension 20 Animated and Game Changer
+# Animated depict moments of episodes, so they belong to the seasons they depict.
 
 show: Troopers
 season: Animated

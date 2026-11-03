@@ -84,7 +84,7 @@ videos:
     public: VPmwamOA7dg
     members: idvVx0aOOTE
     published: 2019-09-27
-  - episode: "11. Cool Kid, Cold Case"
+  - episode: "11. Cool Kids, Cold Case"
     dropout: cool-kids-cold-case
     public: nJKSJwYhxOw
     members: _GJK9P2LVdU
@@ -128,7 +128,7 @@ videos:
     dropout: prompocalypse-pt-2
     public: _F1gTeuVMb8
     members: ayGtElwiNTo
-    published: 2019-09-23
+    published: 2019-01-09
   - bts: The Greatest Nat 20 of All Time with Siobhan and Lou
     dropout: the-greatest-nat-20-of-all-time
     public: 2MIPr_Biw8U
@@ -226,7 +226,7 @@ videos:
   - trailer: The Unsleeping City Trailer
     public: AdJaWHk_HAk
     public copy: 39MLkF21rgs
-    published: 2019-07-22
+    published: 2019-07-09
   - episode: 1. Start Spreading the News
     dropout: start-spreading-the-news
     public: 2Kktwa0kqaU
@@ -400,42 +400,42 @@ videos:
     dropout: leviathan-rock-city
     public: oO8DSwxVdlY
     members: Df_mE-oF1OM
-    published: 2019-11-15
+    published: 2019-11-19
   - episode: 6. Pirate Brawl
     dropout: pirate-brawl
     public: GB8uv1jXSZQ
     members: Arq-6m91-oQ
-    published: 2019-11-22
+    published: 2019-11-27
   - episode: 7. The Friendship Section
     dropout: the-friendship-section
     public: d2lU8zhuVR4
     members: mWjkxC84foM
-    published: 2019-12-09
+    published: 2019-12-10
   - episode: 8. The Row and the Ruction
     dropout: the-row-and-the-ruction
     public: 8XQYpZQAcVk
     members: BRsAaAYdbmQ
-    published: 2019-12-13
+    published: 2019-12-17
   - episode: 9. Fallinel
     dropout: fallinel
     public: smiuY9H8DVM
     members: nXsCz9Hbv8M
-    published: 2019-12-20
-  - episode: 10. The Dangerous Mind of Aelwen Abernant
+    published: 2019-12-24
+  - episode: 10. The Dangerous Mind of Aelwyn Abernant
     dropout: the-dangerous-mind-of-aelwen-abernant
     public: ccnKkEUhLJs
     members: olqzGm7MSzw
-    published: 2020-01-17
+    published: 2020-01-21
   - episode: 11. Revelations & Revivifications
     dropout: revelations-revivifications
     public: 7Yn261pjkaY
     members: ll_Ft_LA4u0
-    published: 2020-01-24
+    published: 2020-01-28
   - episode: 12. Crustaceans and Crushes
     dropout: crustaceans-crushes
     public: mJQew0Z2Cqc
     members: moICMKn4f1c
-    published: 2020-01-30
+    published: 2020-02-04
   - episode: 13. Hellbound
     dropout: hellbound
     public: TSPIIehP488
@@ -455,23 +455,23 @@ videos:
     dropout: my-green-heaven
     public: RkE-YmIOSqI
     members: 9yNsjuMvEoE
-    published: 2020-02-28
+    published: 2020-03-03
   - episode: 17. The Forest of the Nightmare King
     dropout: the-forest-of-the-nightmare-king
     public: qvH6QPMgdys
     members: La_0tmztgVo
-    published: 2020-03-09
+    published: 2020-03-10
   - episode: 18. Fearful Symmetry
     dropout: fearful-symmetry
     public: gyQGz4UnJI8
     members: FuCA0JgxFTc
-    published: 2020-03-16
+    published: 2020-03-17
   - episode: 19. Spring Break! I Believe In You! (Part 1)
     quarantine: true
     dropout: spring-break-i-believe-in-you-part-1
     public: 44Dmda_anto
     members: d43Hl6_hq24
-    published: 2020-04-05
+    published: 2020-04-06
   - episode: 20. Spring Break! I Believe In You! (Part 2)
     quarantine: true
     dropout: spring-break-i-believe-in-you-part-2
@@ -487,7 +487,7 @@ videos:
     quarantine: true
     dropout: fireside-chat-with-brennan-friends-part-2
     members: "-OcNWYpthsM"
-    published: 2020-03-29
+    published: 2020-03-31
   - special: College Visit
     quarantine: true
     dropout: college-visit-rtx-home-live
@@ -502,7 +502,7 @@ videos:
   - bts: Making Chungledown Bim (with Lou Wilson)
     dropout: making-chungledown-bim-with-lou-wilson
     members: z2sn-g35LFQ
-    published: 2021-01-08
+    published: 2021-03-31
 
 ---
 
@@ -526,23 +526,23 @@ videos:
   - episode: 2. Chicanery at Shoeby's Casino
     dropout: chicanery-at-shoeby-s-casino
     members: 2ZnZRQlMIms
-    published: 2020-01-09
+    published: 2020-01-16
   - episode: 3. Scheming and Scoring Fairy Dust
     dropout: scheming-and-scoring-fairy-dust
     members: iDtVwR5IxTg
-    published: 2020-01-10
+    published: 2020-01-23
   - episode: 4. Breaking and Entering
     dropout: breaking-and-entering
     members: qX2Im7TwUSo
-    published: 2020-01-15
+    published: 2020-01-30
   - episode: 5. Fighting with Fire
     dropout: fighting-with-fire
     members: VesqRsUy7sc
-    published: 2020-01-15
+    published: 2020-02-06
   - episode: 6. The Great Chase
     dropout: the-great-chase
     members: uc0zK0IRMKM
-    published: 2020-01-15
+    published: 2020-02-13
 
 ---
 
@@ -564,17 +564,17 @@ videos:
     dropout: are-the-dice-scripted
     talkback: true
     members: PvM2yQ12t70
-    published: 2020-04-12
+    published: 2020-04-14
   - episode: 2. Ambush On the Sucrosi Road
     dropout: ambush-on-the-sucrosi-road
     members: t8mO8UlfDho
-    published: 2020-03-08
+    published: 2020-04-15
   - bts: For The Corn Cuties!
     quarantine: true
     dropout: for-the-corn-cuties
     talkback: true
     members: 5qlemDfjl1U
-    published: 2020-04-19
+    published: 2020-04-21
   - episode: 3. Keep Sharp
     dropout: keep-sharp
     members: rKXhP1mV5A8
@@ -599,41 +599,41 @@ videos:
     dropout: zac-s-big-day
     talkback: true
     members: 79WG3mN4AW4
-    published: 2020-05-04
+    published: 2020-05-05
   - episode: 5. Lapin's Big Day
     dropout: lapin-s-big-day
     members: 2AkMeUhcTT0
-    published: 2020-05-05
+    published: 2020-05-06
   - bts: The Jeff Goldblum Episode
     quarantine: true
     dropout: the-jeff-goldblum-episode
     talkback: true
     members: cQPiAC6vfhA
-    published: 2020-05-09
+    published: 2020-05-12
   - episode: 6. Chaos in the Cathedral
     dropout: chaos-in-the-cathedral
     members: YpbxZ7CBTwU
-    published: 2020-05-08
+    published: 2020-05-13
   - bts: Welcome to Denny's
     quarantine: true
     dropout: welcome-to-denny-s
     talkback: true
     members: iJl_qUA-4gc
-    published: 2020-05-26
+    published: 2020-05-19
   - episode: 7. Escape From the Bulb Creeps
     dropout: escape-from-the-bulb-creeps
     members: VRpIyUkeRY4
-    published: 2020-05-15
+    published: 2020-05-20
   - bts: We've Got Ink On Our Hands
     quarantine: true
     dropout: we-ve-got-ink-on-our-hands
     talkback: true
     members: BtONMuscCOQ
-    published: 2020-05-21
+    published: 2020-05-26
   - episode: 8. Deep Bleu Sea
     dropout: deep-bleu-sea
     members: zjkhYwst2tE
-    published: 2020-05-15
+    published: 2020-05-27
   - bts: War Crimes and Good Times
     quarantine: true
     dropout: war-crimes-good-times
@@ -643,7 +643,7 @@ videos:
   - episode: 9. Safe Harbor
     dropout: safe-harbor
     members: HJUWVd7byRI
-    published: 2020-05-27
+    published: 2020-06-03
   - animation: Liam Tries to Flirt
     dropout: liam-tries-to-flirt
     public: gI2KgJvft90
@@ -655,86 +655,86 @@ videos:
     talkback: true
     members: "-F1oAsEWQ4Q"
     published: 2020-06-09
+  - episode: 10. Blood and Bread
+    dropout: blood-bread
+    members: XMaGdEKIfiI
+    published: 2020-06-10
   - bts: "Slammed Down, Big-Style"
     quarantine: true
     dropout: slammed-down-big-style
     talkback: true
     members: kZy0mmTLf_g
-    published: 2020-06-13
-  - episode: 10. Blood and Bread
-    dropout: blood-bread
-    members: XMaGdEKIfiI
-    published: 2020-05-29
+    published: 2020-06-16
+  - episode: 11. At the Mountains of Sweetness
+    dropout: at-the-mountains-of-sweetness
+    members: l-AUIcjoln4
+    published: 2020-06-24
   - bts: Soft Hugs
     quarantine: true
     dropout: soft-hugs
     talkback: true
     members: wD8Gi-AUKkw
     published: 2020-06-23
-  - episode: 11. At the Mountains of Sweetness
-    dropout: at-the-mountains-of-sweetness
-    members: l-AUIcjoln4
-    published: 2020-05-31
+  - episode: 12. Rescue at Buzzybrook
+    dropout: rescue-at-buzzybrook
+    members: KbOetf8U6TY
+    published: 2020-07-01
   - bts: "Twinned Down, Big Business-Style"
     quarantine: true
     dropout: twinned-down-big-business-style
     talkback: true
     members: ZIP50ZxigK0
     published: 2020-06-30
-  - episode: 12. Rescue at Buzzybrook
-    dropout: rescue-at-buzzybrook
-    members: KbOetf8U6TY
-    published: 2020-06-19
+  - episode: 13. Family Ties
+    dropout: family-ties
+    members: bSvcfWDgC7I
+    published: 2020-07-08
   - bts: Choppy Skullduggery
     quarantine: true
     dropout: choppy-skullduggery
     talkback: true
     members: aYY-vGsxfMY
-    published: 2020-07-04
-  - episode: 13. Family Ties
-    dropout: family-ties
-    members: bSvcfWDgC7I
-    published: 2020-06-30
+    published: 2020-07-07
+  - episode: 14. Encounter in the Ice Cream Temple
+    dropout: encounter-in-the-ice-cream-temple
+    members: i9OczQ1vCvo
+    published: 2020-07-15
   - bts: Dom or Be Dommed
     quarantine: true
     dropout: dom-or-be-dommed
     talkback: true
     members: JN2QzaQcpSo
-    published: 2020-07-13
-  - episode: 14. Encounter in the Ice Cream Temple
-    dropout: encounter-in-the-ice-cream-temple
-    members: i9OczQ1vCvo
-    published: 2020-06-23
+    published: 2020-07-14
+  - episode: 15. The Two Balls
+    dropout: the-two-balls
+    members: u6nBCXfCUVE
+    published: 2020-07-22
   - bts: "Rude Goldberg and Eartha Crit, Explained"
     quarantine: true
     dropout: rude-goldberg-and-eartha-crit-explained
     talkback: true
     members: jUcxLbad31I
     published: 2020-07-21
-  - episode: 15. The Two Balls
-    dropout: the-two-balls
-    members: u6nBCXfCUVE
-    published: 2020-06-23
+  - episode: 16. For Candia! (Part 1)
+    dropout: for-candia-part-1
+    members: yPDSSCV02xc
+    published: 2020-07-29
   - bts: I Stan The Protestant Work Ethic!
     quarantine: true
     dropout: i-stan-the-protestant-work-ethic
     talkback: true
     members: intsLWmLjxE
-    published: 2020-07-24
-  - episode: 16. For Candia! (Part 1)
-    dropout: for-candia-part-1
-    members: yPDSSCV02xc
-    published: 2020-06-23
+    published: 2020-07-28
+  - episode: 17. For Candia! (Part 2)
+    dropout: for-candia-part-2
+    members: he8QU5a9HfA
+    published: 2020-08-05
   - bts: "Burt From Ohio, Thankyousomuch"
     quarantine: true
     dropout: burt-from-ohio-thankyousomuch
     talkback: true
     members: aqqNBb3-l5c
-    published: 2020-07-31
-  - episode: 17. For Candia! (Part 2)
-    dropout: for-candia-part-2
-    members: he8QU5a9HfA
-    published: 2020-06-27
+    published: 2020-08-04
   - bts: The Wild Childs
     quarantine: true
     dropout: the-wild-childs
@@ -769,28 +769,28 @@ videos:
   - episode: 2. The Daughter of Storms
     dropout: the-daughter-of-storms
     members: uofsyQtHjq0
-    published: 2020-09-22
+    published: 2020-09-23
   - episode: 3. Into The Sternwood
     dropout: into-the-sternwood
     members: qrllCdwZP3w
-    published: 2020-09-23
+    published: 2020-09-30
   - episode: 4. I'm Worth This
     dropout: i-m-worth-this
     members: VqTE22HU-1A
-    published: 2020-10-05
+    published: 2020-10-07
   - bts: Look At All My Friends!
     dropout: look-at-all-my-friends
     talkback: true
     members: GCBoHjAdyfo
-    published: 2020-10-06
+    published: 2020-10-07
   - episode: 5. Scramble to the Ramble
     dropout: scramble-to-the-ramble
     members: O0VHseTnWNM
-    published: 2020-10-06
+    published: 2020-10-14
   - episode: 6. The Horizon Beyond the Squall
     dropout: the-horizon-beyond-the-squall
     members: SshOcZR5_Do
-    published: 2020-10-20
+    published: 2020-10-21
   - bts: The Buccaneer Buddies Reunite
     dropout: the-buccaneer-buddies-reunite
     talkback: true
@@ -826,29 +826,29 @@ videos:
   - episode: 2. Heaven and Hell On Earth
     dropout: heaven-and-hell-on-earth
     members: Zacas5bn0Y4
-    published: 2020-11-17
+    published: 2020-11-18
   - bts: Bon Mots and Bánh Mìs
     dropout: bon-mots-and-banh-mis
     talkback: true
     members: 0XNeKl5g76s
-    published: 2020-11-21
+    published: 2020-11-24
   - episode: 3. The Mystery of the Haunted Subway
     dropout: the-mystery-of-the-haunted-subway
     members: EUtbkIyYbSs
-    published: 2020-11-17
+    published: 2020-11-25
   - episode: 4. We Need To Talk About Cody
     dropout: we-need-to-talk-about-cody
     members: sM9t4jCeL_o
-    published: 2020-12-01
+    published: 2020-12-02
   - bts: The Yellow M&M Is the Funniest Guy Alive
     dropout: the-yellow-m-m-is-the-funniest-guy-ever
     talkback: true
     members: WYQXUDy8Lvo
-    published: 2020-12-07
+    published: 2020-12-08
   - episode: 5. Trouble at the Tunnel
     dropout: trouble-at-the-tunnel
     members: gmU6DEXP4Q0
-    published: 2020-12-01
+    published: 2020-12-09
   - bts: The Perfect Stack of Pancakes
     dropout: the-perfect-stack-of-pancakes
     talkback: true
@@ -857,7 +857,7 @@ videos:
   - episode: 6. Collaborators
     dropout: collaborators
     members: AvwtIPtuWvQ
-    published: 2020-12-14
+    published: 2020-12-16
   - animation: Casting Silence
     dropout: casting-silence
     public: XweZBOiiqNg
@@ -867,24 +867,26 @@ videos:
     dropout: the-person-among-muppets
     talkback: true
     members: FLBEATzIiE4
-    published: 2020-12-21
+    published: 2020-12-22
   - episode: 7. Parade of Peril
     dropout: parade-of-peril
     members: d7HNkywItkU
-    published: 2020-12-14
+    published: 2020-12-23
   - episode: 8. Feasts and Families
     dropout: feasts-families
     members: hdv8-A75yEc
-    published: 2020-12-21
+    # Dropout's page carries no date; the season ran weekly on Wednesdays and
+    # episodes 7 and 9 are 12-23 and 01-06. 12-21 was the members upload.
+    published: 2020-12-30
   - bts: Thinking About True Clowns
     dropout: thinking-about-true-clowns
     talkback: true
     members: Crkmgrk2IGM
-    published: 2021-01-03
+    published: 2021-01-05
   - episode: 9. Fight at the Museum
     dropout: fight-at-the-museum
     members: LW1MkDhYTog
-    published: 2021-01-03
+    published: 2021-01-06
   - bts: Character Assassination
     dropout: character-assassination
     talkback: true
@@ -893,7 +895,7 @@ videos:
   - episode: 10. Nulla Dies Umquam Memori Vos Eximet Aevo
     dropout: nulla-dies-umquam-memori-vos-eximet-aevo
     members: Kff_E0jrPxU
-    published: 2020-12-21
+    published: 2021-01-13
   - bts: "#PrefluorideBoomers"
     dropout: prefluorideboomers
     talkback: true
@@ -902,25 +904,25 @@ videos:
   - episode: 11. Let's Get Tiny
     dropout: let-s-get-tiny
     members: HmSG1F97z1A
-    published: 2020-12-21
+    published: 2021-01-20
   - bts: The Bazathrax and Baby Podcast
     dropout: the-bazathrax-and-baby-podcast
     talkback: true
     members: O196GrtdD2Q
-    published: 2021-01-23
+    published: 2021-01-26
   - episode: 12. The Battle of the Hot Dog Cart
     dropout: the-battle-of-the-hot-dog-cart
     members: VEiSV8faeU0
-    published: 2021-01-20
+    published: 2021-01-27
   - bts: This Show is Not Frasier
     dropout: this-show-is-not-frasier
     talkback: true
     members: PN0jB0fZX24
-    published: 2021-01-30
+    published: 2021-02-02
   - episode: 13. Of Rats and Dragons
     dropout: of-rats-dragons
     members: dKLW2EgEmEo
-    published: 2021-01-23
+    published: 2021-02-03
   - bts: Referral Code ZACOYAMA40MILLION
     dropout: referral-code-zacoyama40million
     talkback: true
@@ -929,25 +931,25 @@ videos:
   - episode: 14. History Checks and Lost Dex
     dropout: history-checks-and-lost-dex
     members: CfldRVNPXNk
-    published: 2021-01-28
+    published: 2021-02-10
   - bts: Dog Singing and Flesh Papa
     dropout: dog-singing-and-flesh-papa
     talkback: true
     members: 2skzm6ViAd4
-    published: 2021-02-14
+    published: 2021-02-16
   - episode: 15. For the Hoard
     dropout: for-the-hoard
     members: aDvCAxLpJp0
-    published: 2021-02-04
+    published: 2021-02-17
   - bts: Intrepid Bunnies
     dropout: intrepid-bunnies
     talkback: true
     members: a7TWgWVOxyw
-    published: 2021-02-20
+    published: 2021-02-23
   - episode: 16. Treachery At Gramercy
     dropout: treachery-at-gramercy
     members: "-Ihu3sOYxGs"
-    published: 2021-02-12
+    published: 2021-02-24
   - bts: The Lou Show
     dropout: the-lou-show
     talkback: true
@@ -956,26 +958,26 @@ videos:
   - episode: 17. Two Sides of the Same Coin (Part 1)
     dropout: two-sides-of-the-same-coin-part-1
     members: 6T6pUOq2br4
-    published: 2021-02-20
+    published: 2021-03-03
   - bts: I Really Miss Smelling My Friends
     dropout: i-really-miss-smelling-my-friends
     talkback: true
     members: BxG3LFihVMc
-    published: 2021-03-07
+    published: 2021-03-09
   - episode: 18. Two Sides of the Same Coin (Part 2)
     dropout: two-sides-of-the-same-coin-part-2
     members: 2CfxlgkapJE
-    published: 2021-02-20
+    published: 2021-03-10
   - bts: "Cody, The Kids, and Lorne Michaels"
     dropout: cody-the-kids-and-lorne-michaels
     talkback: true
     members: _C43rGbNSfs
-    published: 2021-03-15
+    published: 2021-03-16
   - bts: Crew Edition
     dropout: crew-edition
     talkback: true
     members: 6f5pfudBaGU
-    published: 2021-03-22
+    published: 2021-03-23
   - trailer: Gauntlet at the Garden Trailer
     quarantine: false
     public: "-XCew5KFnts"
@@ -999,7 +1001,7 @@ videos:
     dropout: say-hi-sylvan-sleuths
     talkback: true
     members: zj8F-GqWaIs
-    published: 2021-04-07
+    published: 2021-04-08
   - animation: Do I Have A Fellow Student of the Stars Here As Well?
     dropout: do-i-have-a-fellow-student-of-the-stars-here-as-well
     public: lsizZEAw7K8
@@ -1013,7 +1015,7 @@ videos:
     dropout: tisching-all-over-the-place
     talkback: true
     members: dswptEabsho
-    published: 2021-04-12
+    published: 2021-04-15
   - episode: 3. A Time For Clues
     dropout: a-time-for-clues
     members: DAdOEaLlLqg
@@ -1022,11 +1024,11 @@ videos:
     dropout: the-donkey-vibe
     talkback: true
     members: dV_ZSMANHnU
-    published: 2021-04-12
+    published: 2021-04-22
   - episode: 4. The Stabber of the Evening
     dropout: the-stabber-of-the-evening
     members: efUbyvvZ-KM
-    published: 2021-04-21
+    published: 2021-04-28
   - bts: Masculine Fertile
     dropout: masculine-fertile
     talkback: true
@@ -1035,62 +1037,62 @@ videos:
   - episode: 5. The Eye of the Storm
     dropout: the-eye-of-the-storm
     members: oy75ccKpawE
-    published: 2021-04-28
+    published: 2021-05-05
   - bts: She Already Happened
     dropout: she-already-happened
     talkback: true
     members: Fwv7sCAKj7o
-    published: 2021-05-05
+    published: 2021-05-06
   - episode: 6. Busted
     dropout: busted-mice
     members: KLuAA_qeWRs
-    published: 2021-04-28
+    published: 2021-05-12
   - bts: The Roll that Broke Brennan
     dropout: the-roll-that-broke-brennan
     talkback: true
     members: yL1Jw3PrddQ
-    published: 2021-05-05
+    published: 2021-05-13
   - episode: 7. I've Been Here the Whole Time
     dropout: i-ve-been-here-the-whole-time
     members: X6K7qXawUuQ
-    published: 2021-04-28
+    published: 2021-05-19
   - bts: The Kevin Bacon of Crime
     dropout: the-kevin-bacon-of-crime
     talkback: true
     members: Qt9IWziXSq0
-    published: 2021-05-18
+    published: 2021-05-20
   - episode: 8. Outfoxed
     dropout: outfoxed
     members: 3WPs3tj9bl0
-    published: 2021-05-16
+    published: 2021-05-26
   - bts: Fashion Show!
     dropout: fashion-show
     talkback: true
     members: Lw2udFOdsSw
-    published: 2021-05-20
+    published: 2021-05-27
   - episode: 9. The Belly of the Beast
     dropout: the-belly-of-the-beast
     members: siJ8N-FU-g4
-    published: 2021-05-21
+    published: 2021-06-02
   - bts: Ass-Ass-I-Ate
     dropout: ass-ass-i-ate
     talkback: true
     members: UUtXjkwLUKY
-    published: 2021-05-26
+    published: 2021-06-03
   - episode: 10. Unfinished Business
     dropout: unfinished-business
     members: eeyoMM9Rpt4
-    published: 2021-05-16
+    published: 2021-06-09
   - bts: "Farewell, Sylvan Sleuths!"
     dropout: farewell-sylvan-sleuths
     talkback: true
     members: HdKObIkyoA8
-    published: 2021-06-04
+    published: 2021-06-10
   - bts: Behind-the-Screams (Crew Edition)
     dropout: behind-the-screams-crew-edition
     talkback: true
     members: b80RlW1vZhc
-    published: 2021-06-11
+    published: 2021-06-17
 
 ---
 
@@ -1139,21 +1141,21 @@ videos:
   - episode: 2. Class Conflict
     dropout: class-conflict
     members: Y5gw8bpe1Bc
-    published: 2021-07-12
+    published: 2021-07-07
   - bts: True Facts About McDonald's Apple Pie
     dropout: true-facts-about-mcdonald-s-apple-pie
     talkback: true
     members: oVEMU6j2ZPg
-    published: 2021-07-06
+    published: 2021-07-08
   - episode: 3. Family On Six
     dropout: family-on-six
     members: R3hq2zf55SE
-    published: 2021-06-30
+    published: 2021-07-14
   - bts: Wet Fire (and Bad News Brooms)
     dropout: wet-fire-and-bad-news-brooms
     talkback: true
     members: GfqePzMJoM4
-    published: 2021-07-08
+    published: 2021-07-15
   - episode: 4. We're the Heroes
     dropout: we-re-the-heroes
     members: nyEunKC1Y70
@@ -1172,7 +1174,7 @@ videos:
     dropout: that-s-the-squad
     talkback: true
     members: qYVlar0YboE
-    published: 2021-07-21
+    published: 2021-07-22
   - bts: Everybody Put Their Little Stank On It
     dropout: everybody-put-their-little-stank-on-it
     talkback: true
@@ -1188,7 +1190,7 @@ videos:
   - special: Holiday Special
     dropout: misfits-magic-holiday-special
     members: DCDpWKEPQzQ
-    published: 2021-12-17
+    published: 2021-12-15
   - special: Live at GenCon
     dropout: misfits-and-magic-live-at-gencon-2022
     live: true
@@ -1218,12 +1220,15 @@ videos:
   - episode: 2. In or Out
     dropout: in-or-out
     members: s1w3krwpU9Y
-    published: 2021-08-24
+    published: 2021-08-25
   - bts: How Was This All One Episode
     dropout: how-was-this-all-one-episode
     talkback: true
     members: yDV7xQYIdbc
-    published: 2021-09-08
+    # Dropout's page carries no date. It is the talkback for episode 2
+    # (08-25), and every other talkback this season came the day after its
+    # episode. 09-08 was the members upload.
+    published: 2021-08-26
   - episode: 3. Big City Connections
     dropout: big-city-connections
     members: 1I8te_xbk-M
@@ -1236,7 +1241,7 @@ videos:
   - episode: 4. Stone Temple Pile-Up
     dropout: stone-temple-pile-up
     members: xJVcO6QdZHo
-    published: 2021-09-07
+    published: 2021-09-08
   - bts: Party Fowl
     dropout: party-fowl
     talkback: true
@@ -1245,48 +1250,48 @@ videos:
   - episode: 5. Reflections
     dropout: reflections
     members: KYU-nznR5x4
-    published: 2021-09-14
+    published: 2021-09-15
   - bts: Everybody's In Freaking Mirrors
     dropout: everybody-s-in-freaking-mirrors
     talkback: true
     members: hUiAoZh2fkc
-    published: 2021-09-14
+    published: 2021-09-16
   - episode: 6. Belles of The Baronies
     dropout: belles-of-the-baronies
     members: C4ZxnN7lTuo
-    published: 2021-09-20
+    published: 2021-09-22
   - bts: "You Did a Murder, Girl"
     dropout: you-did-a-murder-girl
     talkback: true
     members: zqS7qyr7cX4
-    published: 2021-09-20
+    published: 2021-09-23
   - episode: 7. Bloppelganger Blitz
     dropout: bloppelganger-blitz
     members: tuDdqACkRp4
-    published: 2021-09-27
+    published: 2021-09-29
   - bts: Booger Lee Mulligan
     dropout: booger-lee-mulligan
     talkback: true
     members: fyLGKXmnkuo
-    published: 2021-09-27
+    published: 2021-09-30
   - episode: 8. And Another Thing
     dropout: and-another-thing
     members: Ya1LxpI0LbU
-    published: 2021-10-05
+    published: 2021-10-06
   - bts: There Is Nothing These Women Cannot Do
     dropout: there-is-nothing-these-women-cannot-do
     talkback: true
     members: azIQ9K5rt0E
-    published: 2021-10-05
+    published: 2021-10-07
   - episode: 9. Time and Space
     dropout: time-and-space
     members: jgxxwrybbNY
-    published: 2021-10-12
+    published: 2021-10-13
   - bts: I Get This Insight Into How Your Nasty Little Mind Works
     dropout: i-get-this-insight-into-how-your-nasty-little-mind-works
     talkback: true
     members: s0dDUvaCgRw
-    published: 2021-10-12
+    published: 2021-10-14
   - episode: 10. I Fucking Love You
     dropout: i-fucking-love-you
     members: F3dJqK_MriE
@@ -1295,19 +1300,19 @@ videos:
     dropout: the-ending-of-all-things
     talkback: true
     members: cbydaI1LaIk
-    published: 2021-10-20
+    published: 2021-10-21
   - bts: Have You Heard of This Thing Called Talespire?
     quarantine: true
     dropout: have-you-heard-of-this-thing-called-talespire
     talkback: true
     members: TrQe-zniCpA
-    published: 2021-10-26
+    published: 2021-10-28
   - bts: We All Felt Like It Was Therapy with Brennan During This Game
     quarantine: true
     dropout: we-all-felt-like-it-was-therapy-with-brennan-during-this-game
     talkback: true
     members: UVDaRZssWzQ
-    published: 2021-11-01
+    published: 2021-11-04
 
 ---
 
@@ -1331,7 +1336,7 @@ videos:
   - episode: 2. Quandary on the Quad
     dropout: quandary-on-the-quad
     members: jKYykMZpad0
-    published: 2021-11-15
+    published: 2021-11-17
   - bts: Everyone Put a Finger Down If You Smelled a Chair
     dropout: everyone-put-a-finger-down-if-you-smelled-a-chair
     talkback: true
@@ -1340,27 +1345,27 @@ videos:
   - episode: 3. Parents' Weekend
     dropout: parents-weekend-1
     members: mZuaiaBIJyc
-    published: 2021-11-20
+    published: 2021-11-24
   - bts: That's The Beauty of D&D
     dropout: that-s-the-beauty-of-d-d
     talkback: true
     members: vujC_Uk_nSQ
-    published: 2021-11-24
+    published: 2021-11-25
   - episode: 4. Van Helsing's Party
     dropout: van-helsing-s-party
     members: yb169Rb3UPU
-    published: 2021-11-26
+    published: 2021-12-01
   - bts: I Wish I Had Bitten More People
     dropout: i-wish-i-had-bitten-more-people
     talkback: true
     members: OyVhJi7hr0g
-    published: 2021-12-01
-  - bts: 'Oh No, I''m In Love With Chupacabra'
+    published: 2021-12-02
+  - bts: 'Oh No, I''m In Love With a Chupacabra'
     quarantine: true
     dropout: oh-no-i-m-in-love-with-a-chupacabra
     talkback: true
     members: _BYg4oX3juA
-    published: 2021-12-08
+    published: 2021-12-09
 
 ---
 
@@ -1376,7 +1381,7 @@ videos:
   - bts: Starstruck Origins with Elaine Lee (Part 1)
     dropout: starstruck-origins-with-elaine-lee-part-1
     members: Ai17lla31aU
-    published: 2021-12-27
+    published: 2021-12-29
   - bts: Starstruck Origins with Elaine Lee (Part 2)
     dropout: starstruck-origins-with-elaine-lee-part-2
     members: FfUHiMnkNoQ
@@ -1395,30 +1400,30 @@ videos:
     dropout: rolling-up-the-hill
     public: 24B1MXTMaDQ
     members: "-PXnJ25vgec"
-    published: 2022-01-17
+    published: 2022-01-19
   - bts: Was That the Worst Social Interaction in D20 History?
     dropout: was-that-the-worst-social-interaction-in-d20-history
     talkback: true
     members: qfF_IOKBSg8
-    published: 2022-01-18
+    published: 2022-01-20
   - episode: 3. Wrecked on Rec 97
     dropout: wrecked-on-rec-97
     members: 1aeZiZT9kjs
-    published: 2022-01-25
+    published: 2022-01-26
   - bts: The Ball Continues Rolling Up
     dropout: the-ball-continues-rolling-up
     talkback: true
     members: UdXqBE0E-R0
-    published: 2022-01-26
+    published: 2022-01-27
   - episode: 4. Every Day is Our Wurst Day
     dropout: every-day-is-our-wurst-day
     members: 3rV-tm8OiOU
-    published: 2022-02-01
+    published: 2022-02-02
   - bts: "The Chaos, the Chaos of this Episode"
     dropout: the-chaos-the-chaos-of-this-episode
     talkback: true
     members: 4ZIVGsbsET0
-    published: 2022-02-01
+    published: 2022-02-03
   - episode: 5. All In the Hot Exit
     dropout: all-in-the-hot-exit
     members: iiEf2E1kIOM
@@ -1427,16 +1432,16 @@ videos:
     dropout: to-me-this-is-a-perfect-battle
     talkback: true
     members: 5Qr-l3WM_eQ
-    published: 2022-02-07
+    published: 2022-02-10
   - episode: 6. On the Run In the Martini Nebula
     dropout: on-the-run-in-the-martini-nebula
     members: XsFcJ8eD9j0
-    published: 2022-02-15
+    published: 2022-02-16
   - bts: Hot Dog Wrapped in Ham
     dropout: hot-dog-wrapped-in-ham
     talkback: true
     members: AywIm9xP30g
-    published: 2022-02-08
+    published: 2022-02-17
   - episode: '7. Dying Tomorrow, It''s a Pleasure'
     dropout: dying-tomorrow-it-s-a-pleasure
     members: a5Uamf-JeW4
@@ -1445,43 +1450,43 @@ videos:
     dropout: we-ve-never-not-hot-exited
     talkback: true
     members: dx7EhwzpAAk
-    published: 2022-02-22
+    published: 2022-02-24
   - episode: 8. Wallops at Swallop's
     dropout: wallops-at-swallop-s
     members: fcOzNxk2PgA
-    published: 2022-02-28
+    published: 2022-03-02
   - bts: "Cool, This Is Not Going to Go According to Plan"
     dropout: cool-this-is-not-going-to-go-according-to-plan
     talkback: true
     members: cmoj-_F0Jag
-    published: 2022-03-02
+    published: 2022-03-03
   - episode: 9. Baustin Skiffy Limits
     dropout: baustin-skiffy-limits
     members: FaRQeh41ThQ
-    published: 2022-03-08
+    published: 2022-03-09
   - bts: No Heroes
     dropout: no-heroes
     talkback: true
     members: TH7Iypj5cUs
-    published: 2022-03-09
+    published: 2022-03-10
   - episode: 10. It's a Griivarr World After All
     dropout: it-s-a-griivarr-world-after-all
     members: EH3zr_EJfA4
-    published: 2022-03-09
+    published: 2022-03-16
   - bts: That's When the Slapping and Kissing Starts
     dropout: that-s-when-the-slapping-and-kissing-starts
     talkback: true
     members: KQ7Z1Hr_krc
-    published: 2022-03-15
+    published: 2022-03-17
   - episode: 11. Flee From Fantanimalland
     dropout: flee-from-fantanimalland
     members: zzXwoZz-s58
-    published: 2022-03-10
+    published: 2022-03-23
   - bts: Randomness Lets Something Amazing Happen
     dropout: randomness-lets-something-amazing-happen
     talkback: true
     members: b6NS8Y7Jxks
-    published: 2022-03-23
+    published: 2022-03-24
   - episode: 12. Go Big or Go Home
     dropout: go-big-or-go-home
     members: "-wtoiSfr_FU"
@@ -1490,74 +1495,74 @@ videos:
     dropout: developing-pieces
     talkback: true
     members: iwAuC38xNIk
-    published: 2022-03-29
+    published: 2022-03-31
   - episode: 13. Battle of the Brands
     dropout: battle-of-the-brands
     members: sqwSnG0o2es
-    published: 2022-03-24
+    published: 2022-04-06
   - bts: Riva Más Vegas
     dropout: riva-mas-vegas
     talkback: true
     members: eWePbnhli4E
-    published: 2022-04-04
+    published: 2022-04-07
   - episode: 14. The House Always Wins
     dropout: the-house-always-wins
     members: E2i_AQ1vO-Q
-    published: 2022-04-12
+    published: 2022-04-13
   - bts: Life After Debt
     dropout: life-after-debt
     talkback: true
     members: "-ak0NiTE9js"
-    published: 2022-04-11
+    published: 2022-04-14
   - episode: 15. Face to Face
     dropout: face-to-face
     members: nSqi34msqg0
-    published: 2022-04-15
+    published: 2022-04-20
   - bts: Snake Eyes
     dropout: snake-eyes
     talkback: true
     members: NCIps1gDGWQ
-    published: 2022-04-12
+    published: 2022-04-21
   - episode: 16. Jailbreak!
     dropout: jailbreak
     members: jCR9JfQo2hE
-    published: 2022-04-15
+    published: 2022-04-27
   - bts: Plug's Butt Ugly Podcast
     dropout: plug-s-butt-ugly-podcast
     talkback: true
     members: QRnkGR4NLqk
-    published: 2022-04-12
+    published: 2022-04-28
   - episode: "17. The Luckless, the Abandoned, and the Forsaked (Part 1)"
     dropout: the-luckless-the-abandoned-and-the-forsaked-part-1
     members: NxJi-1GLa4E
-    published: 2022-05-02
+    published: 2022-05-04
   - bts: Prilbus!
     dropout: prilbus
     talkback: true
     members: AnNV1XNMli4
-    published: 2022-05-02
+    published: 2022-05-05
   - episode: "18. The Luckless, the Abandoned, and the Forsaked (Part 2)"
     dropout: the-luckless-the-abandoned-and-the-forsaked-part-2
     members: renBy5RQG4I
-    published: 2022-05-10
+    published: 2022-05-11
   - bts: "From Running to Ramming, The Wurst Story"
     dropout: from-running-to-ramming-the-wurst-story
     talkback: true
     members: 2aae_QSoFJU
-    published: 2022-05-11
+    published: 2022-05-12
   - bts: No Middle Sliders
     dropout: no-middle-sliders
     talkback: true
     members: Wxraddz_7Ds
-    published: 2022-05-16
+    published: 2022-05-19
   - bts: Starstruck Post Season Talkback With Elaine Lee
     dropout: starstruck-post-season-talkback-with-elaine-lee
     members: VLwPItrMW9M
-    published: 2022-05-16
+    published: 2022-05-18
   - bts: "A Starstruck Odyssey: Behind the Scenes"
     dropout: a-starstruck-odyssey-behind-the-scenes
     members: B9ne6D-Sfsk
-    published: 2022-05-23
+    published: 2022-05-25
   - animation: The Magic of Plug
     dropout: the-magic-of-plug
     public: zQCxwYhhCcI
@@ -2102,7 +2107,7 @@ videos:
     dropout: terror-on-toy-island
     members: JBe4gSqbdus
     published: 2023-02-22
-  - bts: Level 20 Sciss-her Gal-a-them
+  - bts: Level 20 Cis-her Gal-a-them
     talkback: true
     dropout: level-20-sciss-her-gal-a-them
     members: gRrVFuPMz_M
@@ -2554,11 +2559,11 @@ videos:
   - episode: 201. Round 4 (Make Some Noise 2)
     dropout: round-4
     members: wZcyv12V5ME
-    published: 2019-02-25
+    published: 2020-02-28
   - episode: 202. Do I Hear $1?
     dropout: do-i-hear-1
     members: 50cLTrOR-Ag
-    published: 2020-03-06
+    published: 2020-03-13
   - episode: 203. Sleeper Agents
     dropout: sleeper-agents
     members: WvCcR-DMLZc
@@ -2634,7 +2639,7 @@ videos:
   - episode: 313. Make It Fashion (ChangerCon 2)
     dropout: make-it-fashion
     members: seSgDW0qSAM
-    published: 2021-03-09
+    published: 2021-03-19
   - episode: 314. Tome of Terror
     dropout: tome-of-terror
     members: OfLq9_q8_Ws
@@ -2667,7 +2672,7 @@ videos:
   - episode: 403. Noise Boys (Make Some Noise 4)
     dropout: noise-boys
     members: gqKBypg6a4E
-    published: 2021-11-20
+    published: 2021-11-29
   - episode: 404. Secret Samta 3
     dropout: secret-samta-3
     public: ZKr5-lnYJWU
@@ -2950,7 +2955,7 @@ videos:
   - episode: 108. Brennan's Wario, Wennan Wee Wulligan
     dropout: brennan-s-wario-wennan-wee-wulligan
     members: I2yjcG-Ry_0
-    published: 2022-09-21
+    published: 2022-09-19
   - episode: 109. Things Jimmy Stewart Would Give To Mary In Addition to the Moon
     dropout: things-jimmy-stewart-would-give-to-mary-in-addition-to-the-moon
     members: 0iSSfXWMFko
@@ -3121,7 +3126,7 @@ videos:
     dropout: backwards-compatible
     members: f0WSha0EbTQ
     published: 2023-08-22
-  - episode: 208. XXX
+  - episode: 208. Joust Because
     dropout: joust-because
     members: yoohc7-Ke3o
     published: 2023-09-05
@@ -3129,7 +3134,7 @@ videos:
     dropout: elevator-pitch
     members: 2587_TRmR4M
     published: 2023-09-19
-  - episode: 210. XXX
+  - episode: 210. Heebie Jeebies
     dropout: heebie-jeebies
     members: 2K_Uo-aKaJs
     published: 2023-10-03
@@ -3495,7 +3500,7 @@ videos:
     dropout: love-actually-a-special-valentine-s-episode
     public: dYa0SK_pUdc
     members: gzHURvBTY_c
-    published: 2020-02-07
+    published: 2020-02-08
   - episode: 303. Um, Academy! A Special Cinematic Episode
     dropout: um-academy-a-special-cinematic-episode
     public: XbAp9tSPTdU
@@ -3505,23 +3510,23 @@ videos:
     dropout: legion-lumberjanes-nicolas-flamel
     public: sj_Vf_zzuTk
     members: E70RGHIEeU0
-    published: 2020-03-06
+    published: 2020-03-07
   - episode: "305. Doom, A Wizard of Earthsea, Avengers: Endgame"
     dropout: doom-a-wizard-of-earthsea-avengers-endgame
     public: CQEdNzOTK0o
     members: 2q7kAJ_wUjY
-    published: 2020-03-20
+    published: 2020-03-21
   - episode: 306. Zelda, Aquaman, Neopets
     dropout: zelda-aquaman-neopets
     public: MBMAgkGjTcc
     members: tb5AC7vQa-Q
-    published: 2020-04-03
+    published: 2020-04-04
   - episode: "307. D'oh! Actually: A Special Simpsons Episode"
     dropout: d-oh-actually-a-special-simpsons-episode
     public: 7pNezfD7CLw
     public copy: HS6yJHLbhwU
     members: w5ySP13I-mY
-    published: 2020-04-17
+    published: 2020-04-18
   - episode: 308. God of War, Spirited Away, Dance Dance Revolution
     dropout: god-of-war-spirited-away-dance-dance-revolution
     public: 6RlH27uEwL4
@@ -3531,7 +3536,7 @@ videos:
     dropout: indiana-jones-futurama-starship-troopers
     public: pGJpnx5DZQw
     members: CxsU8QZRsq4
-    published: 2020-05-18
+    published: 2020-05-16
   - episode: 310. Invader Zim, Dark Souls, Stargate
     dropout: invader-zim-dark-souls-stargate
     public: W7UTMYMWx44
@@ -3568,7 +3573,7 @@ videos:
     dropout: disney
     public: ogNHJS598a0
     members: EkXkdzjPW9E
-    published: 2020-09-06
+    published: 2020-09-11
   - episode: 404. Anime
     dropout: anime
     public: l4PriW398WQ
@@ -3578,12 +3583,12 @@ videos:
     dropout: dungeons-dragons-all-stars
     public: JXTZSi6q3xE
     members: RZ25UBt5l9A
-    published: 2020-10-11
+    published: 2020-10-09
   - episode: 406. Stephen King
     dropout: stephen-king
     public: DIQzH5VXnL8
     members: wZKMNEbvzMc
-    published: 2020-10-25
+    published: 2020-10-23
   - episode: 407. Saturday Morning Cartoons
     dropout: saturday-morning-cartoons
     public: GQBV-Px-33w
@@ -3948,23 +3953,23 @@ videos:
     dropout: who-shot-a-softcore-porn
     public: xzhhbvUIWEs
     members: I54xXZhF_m0
-    published: 2022-04-04
+    published: 2022-04-11
   - episode: 102. Who Used To Regularly Poop on the Roof?
     dropout: who-used-to-regularly-poop-on-the-roof
     members: vcX_jbprOKg
-    published: 2022-04-12
+    published: 2022-04-25
   - episode: 103. Who Drank Breast Milk as an Adult?
     dropout: who-drank-breast-milk-as-an-adult
     members: bt-jpOty1AE
-    published: 2022-05-05
+    published: 2022-05-09
   - episode: 104. Who Stayed Up for 81 Hours?
     dropout: who-stayed-up-for-81-hours
     members: 8GTll-BqgLY
-    published: 2022-05-17
+    published: 2022-05-23
   - episode: 105. Who Hid $20,000 Inside a Bowflex?
     dropout: who-hid-20-000-inside-a-bowflex
     members: UH_dsMvqeXA
-    published: 2022-06-01
+    published: 2022-06-06
   - episode: 106. Who Got Railed on The Hood Of Their Car In Front of a Police Station?
     dropout: who-got-railed-on-the-hood-of-their-car-in-front-of-a-police-station
     members: C_lAK4vivoY
@@ -4116,7 +4121,7 @@ videos:
   - episode: 105. Being the Mean GM (with Noah Diamond)
     dropout: being-the-mean-gm-with-noah-diamond
     public: xn9wwrs-JXU
-    published: 2019-03-06
+    published: 2019-02-19
   - episode: 106. Finishing a Campaign (with Molly Ostertag)
     dropout: finishing-a-campaign-with-molly-ostertag
     public: 2PsUg2RWiA4
@@ -4175,13 +4180,13 @@ videos:
     published: 2019-11-14
   - special: How to Build Compelling Characters (Office Hours)
     public: Pbx-CSwU6rI
-    published: 2019-11-20
+    published: 2019-11-19
   - special: How To Plan For Encounters (Office Hours)
     public: 7NyGLheozCE
-    published: 2019-12-04
+    published: 2019-12-03
   - special: How To Bring the Party Together (Office Hours)
     public: GC1Fwjb0mvM
-    published: 2019-12-18
+    published: 2019-12-17
 
 ---
 
@@ -4193,52 +4198,52 @@ videos:
     dropout: balancing-comedy-and-drama-with-freddie-wong
     members: iqTDCtdlNMo
     public: WNX-PY7dL0w
-    published: 2020-09-03
+    published: 2020-09-07
   - episode: 202. See Me In Six Months (with Aabria Iyengar)
     dropout: see-me-in-six-months-with-aabria-iyengar
     members: "-GNVSwHWJc8"
     public: Y9v-pM2Wb6k
-    published: 2020-09-13
+    published: 2020-09-14
   - episode: 203. Bardic Inspiration (with Omega Jones)
     dropout: bardic-inspiration-with-omega-jones
     members: A-BSfeTI8BA
     public: IivF9g1_5vI
-    published: 2020-09-15
+    published: 2020-09-21
   - episode: 204. The Joy of Mistakes (with Kelly Lynne D'Angelo)
     dropout: the-joy-of-mistakes-with-kelly-lynne-d-angelo
     members: YBhnty635_w
     public: twtdCPyH5FM
-    published: 2020-09-23
+    published: 2020-09-28
   - episode: 205. Fantasy Shapes Reality (with Jennifer Kretchmer)
     dropout: fantasy-shapes-reality-with-jennifer-kretchmer
     members: ZM2ZjWEdouY
     public: aZcJRQF6Iqk
-    published: 2020-09-23
+    published: 2020-10-05
   - episode: 206. There Are Gray Areas In Life (with Orion Black)
     dropout: there-are-gray-areas-in-life-with-orion-black
     members: viTB0mEtaVE
     public: BEeifDtn8K4
-    published: 2020-10-06
+    published: 2020-10-12
   - episode: 207. I''m Gonna Have To Prod You, Sparta-Style (with Alicia Marie)
     dropout: i-m-gonna-have-to-prod-you-sparta-style-with-alicia-marie
     members: fYu3uWw6pfo
     public: 9y2L6HCUzIU
-    published: 2020-10-06
+    published: 2020-10-19
   - episode: 208. Murph and Emily's Friend (with Caldwell Tanner)
     dropout: murph-and-emily-s-friend-with-caldwell-tanner
     members: 0RynvIgcD4U
     public: WQBJlI3VrVo
-    published: 2020-10-06
+    published: 2020-10-26
   - episode: 209. No Introduction Needed (with Emily Axford)
     dropout: no-introduction-needed-with-emily-axford
     members: 8KmkcEygPg4
     public: c0Vbw86_aBw
-    published: 2020-10-06
+    published: 2020-11-02
   - episode: 210. Leave the Table Better Than You Found It (with Honey and Dice)
     dropout: leave-the-table-better-than-you-found-it-with-honey-and-dice
     members: Svhca-2Wj8o
     public: VCxMOrJS1TA
-    published: 2020-11-07
+    published: 2020-11-09
   - episode: 211. Story Pirates Reunited (with Branson Reese)
     dropout: story-pirates-reunited-with-branson-reese
     members: LS9peXFUTPM
@@ -4248,47 +4253,47 @@ videos:
     dropout: an-irl-paladin-with-tanya-depass
     members: FVb3mVHJNXk
     public: _Hpzr8XnNLg
-    published: 2020-11-21
+    published: 2020-11-23
   - episode: 213. The Story of Now (with Deborah Ann Woll)
     dropout: the-story-of-now-with-deborah-ann-woll
     members: IYRSabJu7zg
     public: 9rEtK9ucKGM
-    published: 2020-11-21
+    published: 2020-11-30
   - episode: 214. Control the Narrative (with Jasmine Bhullar)
     dropout: control-the-narrative-with-jasmine-bhullar
     members: Sp8NzvrHKFI
     public: qoJxgs707Ao
-    published: 2020-12-04
+    published: 2020-12-07
   - episode: 215. Chasing Noises (with Becca Scott)
     dropout: chasing-noises-with-becca-scott
     members: WW_Aac-EM9c
     public: ZVlovzM92lY
-    published: 2020-12-04
+    published: 2020-12-14
   - episode: 216. Animating Your Table (with Benjamin Scott)
     dropout: animating-your-table-with-benjamin-scott
     members: eY8AYOHsDh0
     public: 4IbVxEKpipo
-    published: 2020-12-17
+    published: 2020-12-21
   - episode: 217. Grand Design (with Gabriel Hicks)
     dropout: grand-design-with-gabriel-hicks
     members: wmPZYEJHFiw
     public: axFT5zXjgWg
-    published: 2020-12-17
+    published: 2020-12-28
   - episode: 218. Shout Out To Fluff (with Griffin McElroy)
     dropout: shout-out-to-fluff-with-griffin-mcelroy
     members: PPVe4E6_DG4
     public: fIyYnfQsB7A
-    published: 2020-12-17
+    published: 2021-01-04
   - episode: 219. Sincerity Is the Key (with Travis McElroy)
     dropout: sincerity-is-the-key-with-travis-mcelroy
     members: f2dkDAt2XzY
     public: A0Ynnz0Yfas
-    published: 2020-12-17
+    published: 2021-01-11
   - episode: 220. You've Been Called (with Dael Kingsmill)
     dropout: you-ve-been-called-with-dael-kingsmill
     members: 7n30-QLxmzI
     public: ICXN0K2X3C8
-    published: 2020-12-17
+    published: 2021-01-18
 
 ---
 
@@ -4300,27 +4305,30 @@ videos:
     dropout: artwork-is-360-degrees-with-carlos-luna
     members: PNLyY_8D9Rc
     public: Sao9SUs_rqQ
-    published: 2021-02-04
+    published: 2021-02-22
   - episode: 302. What Does 'Ready' Mean? (with Zac Oyama)
     dropout: what-does-ready-mean-with-zac-oyama
     members: bdOE5LiB_2M
     public: KwBosPZkUDk
-    published: 2021-02-04
+    published: 2021-03-08
   - episode: 303. Represent (with Daniel Kwan)
     dropout: represent-with-daniel-kwan
     members: H_Hbri0XVq8
     public: aq7PluF6EUQ
-    published: 2021-02-04
+    published: 2021-03-22
   - episode: 304. Conflict Resolution (with LaTia Jacquise)
     dropout: conflict-resolution-with-latia-jacquise
     members: JqzjxFlK20U
     public: aVhGSz_sbiI
-    published: 2021-02-12
+    # Dropout's page carries no date; the season ran fortnightly on Mondays
+    # (303 is 03-22, 305 is 04-19) and the free upload followed a week later
+    # on 04-12, as every other episode's did. 02-12 was the members upload.
+    published: 2021-04-05
   - episode: 305. Give People More Room (with Diana Gaeta)
     dropout: give-people-more-room-with-diana-gaeta
     members: 2R7Ntkq81QQ
     public: TxfRIOhElsw
-    published: 2021-02-24
+    published: 2021-04-19
   - episode: 306. Making Dinner For Friends (with Eric Silver)
     dropout: making-dinner-for-friends-with-eric-silver
     members: tr_WjEk1nrc
@@ -4347,7 +4355,7 @@ videos:
   - episode: 404. The Mythological Meets the Logistical (with Matthew Mercer)
     dropout: the-mythological-meets-the-logistical-with-matthew-mercer
     members: 04Lm2WmDUYw
-    published: 2022-12-02
+    published: 2022-11-29
   - episode: 405. The New Mr. Peanut (with Lou Wilson)
     dropout: the-new-mr-peanut
     members: FcHef-Qk4VI
@@ -4363,7 +4371,7 @@ videos:
   - episode: 408. Studying and Training (with Johnny Stanton)
     dropout: studying-and-training-with-johnny-stanton
     members: cvnf6p-4DBg
-    published: 2023-03-09
+    published: 2023-03-07
   - episode: 409. Honor the Absurd (with Jasmine Bhullar)
     dropout: honor-the-absurd-with-jasmine-bhullar
     members: ODaBAzc3d7A
@@ -4497,7 +4505,7 @@ videos:
     dropout: moose-running-loose-through-the-mall-of-america
     public: 3oBeO3tg1To
     members: uavl-DaIGaA
-    published: 2020-01-15
+    published: 2020-02-17
   - episode: 223. Delicious Kitchen Fire Caramelizes Dozens of People
     dropout: delicious-kitchen-fire-caramelizes-dozens-of-people
     public: ix5MyWZWA2M
@@ -4513,42 +4521,45 @@ videos:
     dropout: ymca-water-is-only-1-water-99-old-people-hair
     public: X4w6E3MuWUA
     members: ZG_13GfhTnE
-    published: 2020-01-22
+    published: 2020-03-02
   - episode: 302. News Anchor Wants to Sell You His Smelly Car
     dropout: news-anchor-wants-to-sell-you-his-smelly-car
     public: LaGrv7l1o70
     members: SwJ7ElHstto
-    published: 2020-01-22
+    published: 2020-03-09
   - episode: 303. "I Hate My Kids" Says Most Moms
     dropout: i-hate-my-kids-says-most-moms
-    public: 0KoKzyqyUIw
-    members: Jmm2OQy2oac
-    published: 2020-01-30
+    public: Jmm2OQy2oac
+    members: 0KoKzyqyUIw
+    published: 2020-03-16
   - episode: 304. Conservative Man Accidentally Donates $1 Million to Redtube
     dropout: conservative-man-accidentally-donates-1-million-to-redtube
     public: 7ij-DcveMEE
     members: G8hbr7Iejqs
-    published: 2020-01-30
+    # Dropout's page carries no date; the season ran weekly on Mondays and
+    # 03-23 is the one Monday between 303 (03-16) and 307 (03-30) with no
+    # episode. 01-30 was the members upload.
+    published: 2020-03-23
   - episode: 305. Announcing Frozen 3, Based on the Novel "Push" by Sapphire
     dropout: announcing-frozen-3-based-on-the-novel-push-by-sapphire
     public: 9PkU0I21zkk
     members: qMQR_ez7lyE
-    published: 2020-01-30
+    published: 2020-04-06
   - episode: 306. BTK Killer Gives a Foreboding Weather Forecast
     dropout: btk-killer-gives-a-foreboding-weather-forecast
     public: 3nfvjwQ2BhY
     members: 40aicHJaCAQ
-    published: 2020-01-30
+    published: 2020-04-27
   - episode: 307. News Crew Plans Terrible Trip to the Beach
     dropout: news-crew-plans-terrible-trip-to-the-beach
     public: yyDxwwn12Ds
     members: PC-bAvWw2RY
-    published: 2020-01-30
+    published: 2020-03-30
   - episode: 308. Special Musical Broadcast Really Wails
     dropout: special-musical-broadcast-really-wails
     public: l55WFSDc71Y
     members: 8v31H7xse5Q
-    published: 2020-01-30
+    published: 2020-04-13
   - episode: 309. A Report From the CollegeHumor Office
     dropout: a-report-from-the-collegehumor-office
     public: -g8DQSjFasE
@@ -4557,22 +4568,22 @@ videos:
     dropout: u2-gets-me-too-d-at-a-scooby-doo-read-through
     public: bJnp6mroWU0
     members: 7SxJsbN64sQ
-    published: 2020-01-31
+    published: 2020-05-04
   - episode: 311. Millennials Are Ruining Our Trash
     dropout: millennials-are-ruining-our-trash
     public: onNaQtnDM6Y
     members: SFUjVYTIZVY
-    published: 2020-05-06
+    published: 2020-05-11
   - episode: 312. Mom Disappointed In Son... Again
     dropout: mom-disappointed-in-son-again
     public: ReGERSthF-U
     members: jXEm_oJGdgI
-    published: 2020-01-31
+    published: 2020-05-18
   - episode: 313. God Does a Really Mean Impression of John Lithgow
     dropout: god-does-a-really-mean-impression-of-john-lithgow
     public: 765samey6MQ
     members: 4SoHQSNfOuI
-    published: 2020-05-19
+    published: 2020-05-25
   - episode: 314. My Weekend Was the Plot of Mrs. Doubtfire
     dropout: my-weekend-was-the-plot-of-mrs-doubtfire
     public: CZhARwkwag8
@@ -4582,56 +4593,56 @@ videos:
     dropout: hot-dogs-are-made-from-people-but-still-tasty
     public: t0xELMdGYeU
     members: E4ofpttqMms
-    published: 2020-05-12
+    published: 2020-06-22
   - episode: 316. Good Morning, River View High!
     dropout: good-morning-river-view-high
     public: fz3ayyI1kiU
     members: H3xttOAMzt4
-    published: 2020-06-01
+    published: 2020-06-08
   - episode: 317. Welcome to Bug News
     dropout: welcome-to-bug-news
     public: i5yDgJjfe5w
     members: DmjlVs_25_o
-    published: 2020-06-01
+    published: 2020-06-15
   - episode: 318. Brian Hitler Is One of the 10 Worst Brians
     dropout: brian-hitler-is-one-of-the-10-worst-brians
     public: L7vkadQZbeE
-    published: 2020-06-01
+    published: 2020-06-29
   - episode: 319. I'm Getting a FaceTime From a Greasy Little Puppet
     dropout: i-m-getting-a-facetime-from-a-greasy-little-puppet
     public: N66TQDa7ym0
     members: 5qG1x1zOcW0
-    published: 2020-06-01
+    published: 2020-07-06
   - episode: 320. Handshakes For Men, Hugs For Women
     dropout: handshakes-for-men-hugs-for-women
     public: pG8gl7q_ohk
     members: v_o1BNUAl0M
-    published: 2020-06-01
+    published: 2020-07-13
   - episode: 321. All Hail Cello Chigglers!
     dropout: all-hail-cello-chigglers
     public: uezjefMYRNg
     members: dWqZzDKPe6I
-    published: 2020-06-01
+    published: 2020-07-27
   - episode: 322. Spit In Your Hand To Honor the Troops
     dropout: spit-in-your-hand-to-honor-the-troops
     public: guUXnvUws5g
     members: vfrRKA2-OJo
-    published: 2020-06-01
+    published: 2020-08-03
   - episode: 323. True Confessions of Real Newscasters
     dropout: true-confessions-of-real-newscasters
     public: eBLaqloc6so
     members: HnsKu2E3_Xw
-    published: 2020-06-01
+    published: 2020-08-10
   - episode: 324. Making Peanut Butter Sandwiches With a Bowling Ball
     dropout: making-peanut-butter-sandwiches-with-a-bowling-ball
     public: XzqPGm0wVzE
     members: Mu9WENJ2zqo
-    published: 2020-06-01
+    published: 2020-08-17
   - episode: 325. Huge Idiot Climbs Mount Everest
     dropout: huge-idiot-climbs-mount-everest
     public: h2BBTH9ZPJU
     members: MSOy6Sp24k4
-    published: 2020-06-01
+    published: 2020-08-24
 
 ---
 
@@ -4643,37 +4654,37 @@ videos:
     dropout: a-cavalcade-of-carreys
     public: p_OGX8BJok8
     members: 4R4Mz90erUc
-    published: 2021-04-28
+    published: 2021-04-30
   - episode: 402. Grant Anthony O'Brien Has a Mouthful of Water
     dropout: grant-anthony-o-brien-has-a-mouthful-of-water
     public: 3kDdr8HBX8U
     members: 6G1f5PJjq6o
-    published: 2021-05-12
+    published: 2021-05-14
   - episode: 403. Bartending, Improv, and Other Trends of 2011
     dropout: bartending-improv-and-other-trends-of-2011
     public: xHqPgMzPXkg
     members: 2m0s-NIFlKg
-    published: 2021-05-21
+    published: 2021-05-28
   - episode: 404. Old Rude Donkey's Flamin' Anus Hot Sauce
     dropout: old-rude-donkey-s-flamin-anus-hot-sauce
     public: 9Nzkwl19KYE
     members: QccqjclDuZ0
-    published: 2021-06-09
+    published: 2021-06-11
   - episode: 405. The Italian Backstreet Boys' Biggest Hits
     dropout: the-italian-backstreet-boys-biggest-hits
     public: k7tws4a7HLE
     members: 80_YAh3X2As
-    published: 2021-06-19
+    published: 2021-06-25
   - episode: 406. Return of Streep Alert
     dropout: return-of-streep-alert
     public: d_K5nk_UJFQ
     members: jmQe3a25xaQ
-    published: 2021-07-06
+    published: 2021-07-09
   - episode: 407. Sorry That's My Genitals. They're Exploding
     dropout: sorry-thats-my-genitals-theyre-exploding
     public: grm_Bi0qQ0c
     members: T5sOfpVy2qM
-    published: 2021-07-21
+    published: 2021-07-23
   - episode: 408. Grant Uses Others as Puppets To Voice His Opinions
     dropout: grant-uses-others-as-puppets-to-voice-his-opinions
     public: bTkmKYYimWQ
@@ -4682,7 +4693,7 @@ videos:
     # the only id in the curation confirmed deleted rather than hidden. The
     # free version above survives and runs the same 495 seconds.
     removed members: LMu9CVHWPXo
-    published: 2021-07-21
+    published: 2021-08-06
 
 ---
 
@@ -4698,37 +4709,37 @@ videos:
     dropout: sam-reich-launches-dropout-america
     public: JzFuJDLd3cg
     members: Hu0MT9cY1fc
-    published: 2021-09-01
+    published: 2021-09-03
   - episode: 503. It's A Classic Virgin Tradition
     dropout: it-s-a-classic-virgin-tradition
     public: Wjb_bHXIFDk
     members: 2PRDeTaWlGM
-    published: 2021-09-15
+    published: 2021-09-17
   - episode: 504. We've Actually Met Before
     dropout: we-ve-actually-met-before
     public: mPsmNFI5ZPM
     members: DjxRBZtnabc
-    published: 2021-09-28
+    published: 2021-10-01
   - episode: 505. Amy Vorpahl Simply Loses Her Mind
     dropout: amy-vorpahl-simply-loses-her-mind
     public: jKwrYS2a8zA
     members: 7_rGOP4tHUw
-    published: 2021-10-12
+    published: 2021-10-15
   - episode: 506. I'm Here Outside of Gene Hackman's Movie Trailer
     dropout: i-m-here-outside-of-gene-hackman-s-movie-trailer
     public: XNjwTXvfXxQ
     members: vW4se3pWmI0
-    published: 2021-10-26
+    published: 2021-10-29
   - episode: 507. Why Did You Give a Wedgie to Malala?
     dropout: why-did-you-give-a-wedgie-to-malala
     public: ehTeymh1xgg
     members: lWu8yPMjObY
-    published: 2021-11-10
+    published: 2021-11-12
   - episode: 508. Honestly You Liking It Made Me Like It
     dropout: honestly-you-liking-it-made-me-like-it
     public: FMGWVdmRSpA
     members: Ypw6Vpydh0Y
-    published: 2021-11-24
+    published: 2021-11-26
   - episode: 509. True Facts About Grant Anthony O'Brien (Part 2)
     dropout: true-facts-about-grant-anthony-o-brien-part-2
     members: ZrmCF9GOAOU
@@ -4737,36 +4748,36 @@ videos:
     dropout: gengar-could-run-a-train-through-me
     public: oDRdYa-WWAc
     members: GnTkMy53Yj0
-    published: 2021-12-22
+    published: 2021-12-24
   - episode: 511. Gilchrest Savoy, The Wealthiest Man of 1906
     dropout: gilchrest-savoy-the-wealthiest-man-of-1906
     public: E-Hu3jsFw_I
     members: h9su_DIj4wE
-    published: 2022-01-04
+    published: 2022-01-07
   - episode: 512. I Don't Have Fingernails Because I Actually Know How to Finger a Woman
     dropout: i-don-t-have-fingernails-because-i-actually-know-how-to-finger-a-woman
     public: MJlVAIKb6o8
     members: Cw2khnL_V78
-    published: 2022-01-19
+    published: 2022-01-21
   - episode: 513. Mi Scusi
     dropout: mi-scusi
     public: Q9s7Ac3ZehA
     members: c5HClC8nAUQ
-    published: 2022-02-02
+    published: 2022-02-04
   - episode: 514. Cap'n Jim's Boating Tips
     dropout: cap-n-jim-s-boating-tips
     public: j8Ttyz7DoKM
     members: L3K--m-vgco
-    published: 2022-02-15
+    published: 2022-02-18
   - episode: 515. Fuck Austin Texas
     dropout: fuck-austin-texas
     members: 3W11L8xCGSY
-    published: 2022-03-03
+    published: 2022-03-04
   - episode: 516. Magic, Love, and Coldplay
     dropout: magic-love-and-coldplay
     public: 0Cm-cyNJGlg
     members: fAukKlwGzks
-    published: 2022-03-17
+    published: 2022-03-18
 
 ---
 
@@ -4901,11 +4912,11 @@ videos:
   - bts: Teenage Rebellion (Theme Song) Music Video
     dropout: teenage-rebellion-official-music-video-sarah-barrios
     public: D46t1vdcoSM
-    public copy: hnHhTAvbqlU
+    members: hnHhTAvbqlU
     published: 2024-01-10
   - bts: The Legendary Rick Perry and the Art of Dimension 20
     dropout: the-legendary-rick-perry-and-the-art-of-dimension-20
-    public: n_YOZhhvHZQ
+    members: n_YOZhhvHZQ
     published: 2023-12-20
 
   - episode: 1. Summer Scaries
@@ -5021,7 +5032,7 @@ videos:
     dropout: big-clue-energy
     talkback: true
     members: c5JFhxeCCis
-    published: 2024-03-02
+    published: 2024-03-28
   - episode: 13. Infernal Conflict
     dropout: infernal-conflict
     members: m9K0cd1eGEU
@@ -5260,7 +5271,7 @@ videos:
   - bts: Jasper and Casper
     dropout: last-looks-jasper-and-casper
     members: Ra287uegVE0
-    published: 2024-03-02
+    published: 2024-03-29
   - episode: 109. Leighanna-Jean Gruthers
     dropout: leighanna-jean-gruthers
     members: 8_UkuPb1La0
@@ -5386,7 +5397,7 @@ videos:
     dropout: wrestling-drag-cryptids-eggs
     members: GiaGot5L1Tw
     removed members: Od6DQ9x7pqg
-    published: 2024-05-09
+    published: 2024-05-10
   - episode: 103. Swing Music, Emails, The Moon
     dropout: swing-music-emails-the-moon
     members: P9ok2GoB7mU
@@ -5499,7 +5510,7 @@ videos:
   - trailer: Get Your Act Together with Courtney Pauroso
     dropout: get-your-act-together-with-courtney-pauroso
     public: 6m76IE-0mvc
-    published: 2024-10-07
+    published: 2024-10-04
   - episode: "Courtney Pauroso: Vanessa 5000"
     dropout: courtney-pauroso-vanessa-5000
     members: TDIl5e_0jYk
@@ -6469,7 +6480,7 @@ videos:
     dropout: hayes-steele
     public: 0-4JV7yHgmU
     members: z4gOthfqCWk
-    published: 2024-11-23
+    published: 2024-11-21
   - bts: Hayes Steele
     dropout: last-looks-hayes-steele
     members: 6Iqx13qCu4o
@@ -6752,7 +6763,7 @@ videos:
   - episode: 001. Crowd Control on Game Changer
     dropout: crowd-control
     members: yHJ42w2Gllk
-    published: 2025-03-10
+    published: 2025-05-19
 
 ---
 
@@ -6834,15 +6845,15 @@ season: Season 7
 videos:
   - trailer: Game Changer Season 7 Teaser
     public: D6vlxIwNHOo
-    published: 2025-01-20
+    published: 2025-02-19
   - trailer: Game Changer Season 7 Trailer
     dropout: game-changer-season-7-trailer
     public: 1eu0nZh9rfw
-    published: 2025-02-03
+    published: 2025-03-24
   - episode: 701. One Year Later
     dropout: one-year-later
     members: SRGxg0tE1Oo
-    published: 2025-02-17
+    published: 2025-04-07
   - bts: One Year Later
     dropout: behind-the-scenes-of-one-year-later
     members: GXXqrLStVzQ
@@ -6850,7 +6861,7 @@ videos:
   - episode: 702. You-lympics
     dropout: you-lympics
     members: wmxWsQmwuWY
-    published: 2025-02-24
+    published: 2025-04-21
   - bts: You-lympics
     dropout: behind-the-scenes-of-you-lympics
     members: _AjxvNtbVOc
@@ -6858,7 +6869,7 @@ videos:
   - episode: 703. Earnest-est
     dropout: earnest-est
     members: cWzefwxs0sI
-    published: 2025-03-03
+    published: 2025-05-05
   - bts: Earnest-est
     dropout: behind-the-scenes-of-earnest-est
     members: AoLbSM0g7fM
@@ -6866,16 +6877,16 @@ videos:
   - episode: 704. Crowd Control
     dropout: crowd-control
     members: yHJ42w2Gllk
-    published: 2025-03-10
+    published: 2025-05-19
   - bts: Crowd Control
     dropout: behind-the-scenes-of-crowd-control
     members: BewzkIpecaI
-    published: 2025-05-28
+    published: 2025-05-26
   - episode: 705. The Drinking Game
     dropout: the-drinking-game
     public: HqYTmgzZEiA
     members: "-OrTSllpPk0"
-    published: 2025-03-17
+    published: 2025-06-02
   - bts: The Drinking Game
     dropout: behind-the-scenes-of-the-drinking-game
     members: SuSWqYssPVU
@@ -6883,7 +6894,7 @@ videos:
   - episode: 706. One and Done
     dropout: one-and-done
     members: vibRAubBIMs
-    published: 2025-03-24
+    published: 2025-06-16
   - bts: One and Done
     dropout: behind-the-scenes-of-one-and-done
     members: laQOz-JGHs8
@@ -6891,7 +6902,7 @@ videos:
   - episode: 707. Rulette
     dropout: rulette
     members: 1VDoyBxUZ0U
-    published: 2025-03-31
+    published: 2025-06-30
   - bts: Rulette
     dropout: behind-the-scenes-of-rulette
     members: lZ17BynEOmY
@@ -6899,7 +6910,7 @@ videos:
   - episode: 708. Fool's Gold
     dropout: fool-s-gold
     members: YrJZjAae1WM
-    published: 2025-04-07
+    published: 2025-07-14
   - bts: Fool's Gold
     dropout: behind-the-scenes-of-fool-s-gold
     members: vL9gjjfGDhY
@@ -6907,7 +6918,7 @@ videos:
   - episode: 709. Who Wants to Be Jacob Wysocki?
     dropout: who-wants-to-be
     members: CgIoTygQoY4
-    published: 2025-04-14
+    published: 2025-07-28
   - bts: Who Wants to Be Jacob Wysocki?
     dropout: behind-the-scenes-of-who-wants-to-be-jacob-wysocki
     members: id_ymrQNNtw
@@ -6915,7 +6926,7 @@ videos:
   - episode: 710. Outvoted
     dropout: outvoted
     members: r1gxAM6IWis
-    published: 2025-04-28
+    published: 2025-08-11
   - bts: Outvoted
     dropout: behind-the-scenes-of-outvoted
     members: nc4Y-Z6enuw
@@ -6923,7 +6934,7 @@ videos:
   - episode: 711. Samalamadingdong
     dropout: samalamadingdong
     members: OxPaVj1pXVA
-    published: 2025-05-12
+    published: 2025-08-25
   - bts: Samalamadingdong (Brennan's Revenge)
     dropout: behind-the-scenes-of-samalamadingdong
     members: 6O3OlfthmJ0
@@ -7050,36 +7061,36 @@ videos:
     dropout: dirty-laundry-season-5-trailer
     public: HHoGMR_qNpI
     public short: ublWViUo8aM
-    published: 2025-06-17
+    published: 2025-06-24
   - episode: 501. Who Got Yelled at by a Real Housewife?
     dropout: who-got-yelled-at-by-a-real-housewife
     members: H_ItBC-NdO8
     public: j49tapPncR4
-    published: 2025-06-24
+    published: 2025-07-15
   - episode: 502. Who Hooked Up with Someone They Met on the Plane?
     dropout: who-hooked-up-with-someone-they-met-on-the-plane
     members: HCTb7QP4D7Y
-    published: 2025-07-08
+    published: 2025-07-29
   - episode: 503. Who Got Sued by McDonald's?
     dropout: who-got-sued-by-mcdonald-s
     members: aL0oHk98SYs
-    published: 2025-07-22
+    published: 2025-08-12
   - episode: 504. Who Stole Fire Extinguishers From a Hotel?
     dropout: who-stole-fire-extinguishers-from-a-hotel
     members: vE1PuqWHVNM
-    published: 2025-08-05
+    published: 2025-08-26
   - episode: 505. Who Got Detained in a Foreign Country?
     dropout: who-got-detained-in-a-foreign-country
     members: s4wf442wM8w
-    published: 2025-08-19
+    published: 2025-09-09
   - episode: 506. Who Got Walked In on with Their Hair on Fire?
     dropout: who-got-walked-in-on-with-their-hair-on-fire
     members: dGXM421HCok
-    published: 2025-09-02
+    published: 2025-09-23
   - episode: 507. Whose Mom Outshined Them at a Dance Party?
     dropout: whose-mom-outshined-them-at-a-dance-party
     members: 6W1ffB3Q_Cg
-    published: 2025-09-16
+    published: 2025-10-07
   - episode: 508. Who Passed Out at a Movie Theater?
     dropout: who-passed-out-at-a-movie-theater
     members: TKBPbjo2bkc
@@ -7247,7 +7258,7 @@ videos:
   - episode: 1009. SlayerFest '25
     dropout: slayerfest-25
     members: XinITDz3A6o
-    published: 2025-05-22
+    published: 2025-05-20
   - episode: 1010. 90s Television
     dropout: 90s-television
     members: VFArmmbeMpU
@@ -9174,7 +9185,7 @@ videos:
     dropout: boring-guys
     public: qy9TJK4WhX8
     members: EYbhUbOBqac
-    published: 2026-07-14
+    published: 2026-07-15
   - episode: 10. Winky's Speakeasy
     dropout: winky-s-speakeasy
     # Re-uploaded 2026-09-11. Dropout put the new id in this episode's slot in
@@ -9626,7 +9637,7 @@ videos:
     dropout: alfred-aquino-ii-on-the-skateboarder-who-comped-justin-bieber
     public: d2WhRzEGOLU
     published: 2019-04-22
-  - episode: "9. Lily Du and Paul Robalino on the 1973 Yankees"
+  - episode: "9. Lily Du and Paul Robalino on the 1973 Yankee Marriage Swap"
     dropout: lily-du-and-paul-robalino-on-the-1973-yankee-marriage-swap
     public: 997Do9YSBqM
     published: 2019-05-06
@@ -9691,7 +9702,7 @@ videos:
     dropout: sharing-samantha-a-steamy-thanksgiving-party
     public: -ATZUs00kFc
     published: 2019-06-08
-  - episode: "112. Barely Tamed Grizzly: A Sexy Shapeshifter Hunt"
+  - episode: "112. Barely Tamed Grizzly: A Sexy Shapeshifter Hunts for His Mate"
     dropout: barely-tamed-grizzly-a-sexy-shapeshifter-hunts-for-his-mate
     public: i0p_vKpJwhQ
     published: 2019-06-22
@@ -9715,7 +9726,7 @@ videos:
     dropout: i-m-gay-for-my-living-billionaire-jet-plane
     public: zjGk6iaIffc
     published: 2019-08-31
-  - episode: "118. The Secret Lives of Women: A Man's Astrological Guide to Sex"
+  - episode: "118. The Secret Lives of Women: A Man's Astrological Guide to Love and Intimacy"
     dropout: the-secret-lives-of-women-a-man-s-astrological-guide-to-love-and-intimacy
     public: xiebzXDCDGk
     published: 2019-09-14
@@ -9737,7 +9748,7 @@ videos:
   - episode: "202. Fist and the Furryous: Yoshi's Island Drift"
     dropout: fist-and-the-furryous-yoshi-s-island-drift
     members: hm62uGruALU
-    published: 2020-07-03
+    published: 2020-07-09
   - episode: "203. Animal XXX-ing"
     dropout: animal-xxx-ing
     members: YlzjTBdaZnk
@@ -9745,23 +9756,23 @@ videos:
   - episode: "204. Batman Rises, Sexually"
     dropout: batman-rises-sexually
     members: f4t3vIjJj7Q
-    published: 2020-08-01
+    published: 2020-08-06
   - episode: "205. Frasier"
     dropout: frasier
     members: w6s_jQr-bBY
-    published: 2020-08-18
+    published: 2020-08-20
   - episode: "206. The Great British Bake-Off"
     dropout: the-great-british-bake-off
     members: cdtq135uqp4
-    published: 2020-08-31
+    published: 2020-09-03
   - episode: "207. Power Rangers"
     dropout: power-rangers
     members: KdfDUqG93VM
-    published: 2020-09-15
+    published: 2020-09-17
   - episode: "208. Raph's Idea That Makes Him the Horniest"
     dropout: raph-s-idea-that-makes-him-the-horniest
     members: 88npP-RtTLA
-    published: 2020-10-05
+    published: 2020-10-08
   # Dropout carries this one with no episode number at all, and YouTube calls
   # it "Ep. 12". It is the missing ninth: 2020-11-12 sits between 208 on
   # 2020-10-05 and 210 on 2020-12-15, which is exactly the hole in Dropout's
@@ -9773,7 +9784,7 @@ videos:
   - episode: "210. Little Gremlnans: The Nude Batch"
     dropout: little-gremlnans-the-nude-batch
     members: t5S014ea18M
-    published: 2020-12-15
+    published: 2020-12-17
   # Dropout numbers these 1 to 10 with no 9, and carries The WWEst Wing with no
   # number; the dates place it in the gap, so 209 is filled and their numbering
   # still holds.

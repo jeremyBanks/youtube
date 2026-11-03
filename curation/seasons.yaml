@@ -6271,6 +6271,20 @@ videos:
 
 ---
 
+# A guide to the whole show, so it has no `season:` key, for the reason given
+# at the 2021 announcement above. It went up on Titan Takedown's premiere day.
+# It follows that campaign rather than interrupting it because Dimension 20's
+# docs are in order of when each one starts.
+
+show: Dimension 20
+videos:
+  - bts: How To Watch Dimension 20
+    dropout: how-to-watch-dimension-20
+    public: 4zZzsB0VBsY
+    published: 2025-04-02
+
+---
+
 season: Gauntlet at the Garden
 show: Dimension 20
 cast: Intrepid Heroes
@@ -8111,6 +8125,14 @@ videos:
 show: Dimension 20
 season: Toylight
 videos:
+  # The season's first teaser, which names no season. It is Toylight's
+  # because its title card spells DIMENSION 20 in the toy alphabet blocks of
+  # Toylight's set, and Dropout files it in dimension-20-new-releases beside
+  # the Toylight trailer, four weeks before it.
+  - trailer: Playtime Is Over
+    dropout: playtime-is-over
+    public: eudeGdkFLhM
+    published: 2026-07-15
   - trailer: "Dimension 20: Toylight Trailer"
     dropout: dimension-20-toylight-trailer
     public: 84kZcc5TEzY
@@ -9443,6 +9465,9 @@ videos:
 # proper, and most of it never reached YouTube: of the 27 main episodes, only
 # three are here. The other 24 exist on Dropout alone --
 # https://watch.dropout.tv/tablepop -- so there is nothing to curate for them.
+# How that is known: Dorkly's uploads, scanned complete back to 2010, carry
+# these three and no other; none of Dorkly's 48 playlists lists another, nor a
+# private entry that could be one; and Dropout's channel has only MEGADUNGEON.
 #
 # The three that did are titled nothing like their Dropout names: "Pro
 # Wrestling" is "We Play a Pro Wrestling RPG (w/ Kath Barbadoro)", "Minions" is

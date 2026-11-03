@@ -94,6 +94,6 @@ priority = [
 "being-the-mean-gm-with-noah-diamond" = "2019-03-06"
 # The page Dropout re-created on 2026-10-21, replacing
 # what-is-the-worst-tattoo-to-get-1, is the only one in the season with a
-# date, and it is a Wednesday. TVDB puts all 15 episodes on consecutive
-# Thursdays from 03-07, this one at 04-11, between 04-04 and 04-18.
+# date, and it is a Wednesday. TVDB and TVmaze put all 15 episodes on
+# consecutive Thursdays from 03-07, TVmaze at 09:00 Pacific, this one at 04-11.
 "what-is-the-worst-tattoo-to-get" = "2019-04-11"

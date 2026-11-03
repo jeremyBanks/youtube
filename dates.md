@@ -61,21 +61,27 @@ it whenever anything better exists.
 
 ## What each source is good for
 
-| source          | what it is                       | reliability                                                       |
-| --------------- | -------------------------------- | ----------------------------------------------------------------- |
-| Dropout page    | the release Dropout scheduled    | right for everything Dropout released first; see exceptions below |
-| TheTVDB         | fan catalogue                    | right in cadence; sometimes a day late (UTC); some placeholders   |
-| public upload   | a real publication               | right where it is the earliest; a re-upload where it is not       |
-| audio-only page | released with or after the video | an upper bound; equals the video's date in 239 of 252 cases       |
-| members upload  | an upload                        | wrong in either direction by days to years                        |
+| source          | what it is                       | reliability                                                         |
+| --------------- | -------------------------------- | ------------------------------------------------------------------- |
+| Dropout page    | the release Dropout scheduled    | right for everything Dropout released first; see exceptions below   |
+| TheTVDB         | fan catalogue                    | right in cadence; matches a same-day free upload; some placeholders |
+| public upload   | a real publication               | right where it is the earliest; a re-upload where it is not         |
+| audio-only page | released with or after the video | an upper bound; equals the video's date in 239 of 252 cases         |
+| members upload  | an upload                        | wrong in either direction by days to years                          |
 
 TheTVDB's tables were transcribed by hand for thirteen shows and checked against
 each show's weekly cadence before use. See Plum Run's are placeholders (every
 episode 2018-01-01) and were left out.
 
+This table once said TheTVDB was "sometimes a day late (UTC)". Nothing measured
+supports it. Of the 21 entries whose free upload went up on a TheTVDB date,
+every one matches the upload's Pacific date and none only its UTC date. Of the
+three entries carrying both a TheTVDB date and a Dropout one, the single one-day
+disagreement is Rank Room 6, where TVmaze independently sides with TheTVDB.
+
 ## Where Dropout itself is wrong
 
-Four pages carry a date that the show's own cadence and a second source
+Five pages carry a date that the show's own cadence and a second source
 contradict. These are the `[release-dates]` overrides, with the evidence beside
 each:
 
@@ -87,6 +93,10 @@ each:
   TheTVDB put the Simpsons special in mid-April.
 - **Adventuring Academy 105**: Dropout says 02-19, a Tuesday off the fortnightly
   Wednesday run; TheTVDB and the free upload say 03-06.
+- **The Rank Room 6, "What Is the Worst Tattoo to Get?"**: Dropout re-created
+  the page in October 2026 and it alone in its season carries a date, 04-10, a
+  Wednesday. TheTVDB and TVmaze put all 15 episodes on consecutive Thursdays,
+  TVmaze at 09:00 Pacific, this one at 04-11.
 
 Dropout's episode numbering is a separate matter and is sometimes not release
 order (Um, Actually season 3, Breaking News season 3). The curation's numbers
@@ -119,8 +129,8 @@ entries.
 Where a season's file order was found to contradict its dates, the file was
 fixed rather than the dates: Crown of Candy's second-half talkbacks sat before
 their own episodes, unlike the first half's, and Starstruck's post-season
-talkback sat in the middle of the season. Animations are placed inside the
-season they depict and are out of date order by design.
+talkback sat in the middle of the season. Animations, wherever any are curated,
+go inside the season they depict and are out of date order by design.
 
 ## History
 

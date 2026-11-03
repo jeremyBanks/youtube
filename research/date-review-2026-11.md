@@ -72,8 +72,12 @@ audio-only pages carried the Dimension 20 seasons.
   first nine after; Starstruck's post-season talkback sat after episode 8.
 - 31 trailers and specials had Dropout pages they were not linked to.
 - Breaking News S3E9, reported absent in `gaps.md`, has a public upload.
-- TablePop 22 "Minions" is on Dropout and has no upload on any channel we scan;
-  the season's gap is real.
+- ~~TablePop 22 "Minions" is on Dropout and has no upload on any channel we
+  scan; the season's gap is real.~~ Wrong when written: it had been curated
+  since 2026-09-05 as `dropout: minions`, from Dorkly's `x4wfY_cQTFk`, "We Made
+  an Amazing Minions RPG (w/ Tony Wilson)". The numbering gap around it (9, 22,
+  27) is real and is the 24 episodes that never reached YouTube; the evidence
+  for that is in the TablePop doc's comment.
 
 ## What is still uncertain
 

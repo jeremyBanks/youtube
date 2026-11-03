@@ -14,6 +14,7 @@ cast: Intrepid Heroes
 world: Spyre
 videos:
   - trailer: Fantasy High Trailer
+    dropout: dimension-20-fantasy-high-trailer
     public: p-eY2tDgXsY
     published: 2018-10-02
   - episode: 1. The Beginning Begins
@@ -167,6 +168,7 @@ videos:
   # direct lookup, are y2FMYu4d6yY, lW7hMVhLDew, aGSmwhjdf84, yMAay7iaw08,
   # 3kSH7viLAC4 and IyaQNipWyZ4.
   - trailer: Escape from the Bloodkeep Trailer
+    dropout: escape-from-the-bloodkeep-trailer
     public: Ih6ZdHE2kvo
     published: 2019-05-04
   # The `public copy` is Dorkly's, titled "What If Mordor Was a Tabletop RPG?"
@@ -224,6 +226,7 @@ cast: Intrepid Heroes
 world: The Unsleeping City
 videos:
   - trailer: The Unsleeping City Trailer
+    dropout: the-unsleeping-city-trailer
     public: AdJaWHk_HAk
     public copy: 39MLkF21rgs
     published: 2019-07-09
@@ -510,6 +513,7 @@ season: Tiny Heist
 show: Dimension 20
 videos:
   - trailer: Tiny Heist Trailer
+    dropout: tiny-heist-trailer
     public: kR6vADysaxM
     members: WUNnrvZNJyk
     published: 2019-11-27
@@ -754,6 +758,7 @@ show: Dimension 20
 world: Spyre
 videos:
   - trailer: Pirates of Leviathan Trailer
+    dropout: dimension-20-pirates-of-leviathan-trailer
     public: AdEuH8CYG_k
     published: 2020-08-12
   - episode: 1. A Heaping Helping of Trouble
@@ -979,6 +984,7 @@ videos:
     members: 6f5pfudBaGU
     published: 2021-03-23
   - trailer: Gauntlet at the Garden Trailer
+    dropout: dimension-20-live-gauntlet-at-the-garden-trailer
     quarantine: false
     public: "-XCew5KFnts"
     published: 2024-04-08
@@ -990,6 +996,7 @@ quarantine: true
 show: Dimension 20
 videos:
   - trailer: Mice and Murder Trailer
+    dropout: dimension-20-mice-murder-trailer
     public: CokApJchV94
     published: 2021-03-24
   - episode: 1. It Was a Dark and Stormy Night
@@ -1125,6 +1132,7 @@ show: Dimension 20
 world: Misfits and Magic
 videos:
   - trailer: Misfits and Magic Trailer
+    dropout: dimension-20-misfits-and-magic-trailer
     public: yKHP2mPv7Ws
     members: 2gajEs0WM88
     published: 2021-06-16
@@ -1184,6 +1192,7 @@ videos:
     public: 1suGx_0pSkI
     published: 2021-07-30
   - trailer: Holiday Special Trailer
+    dropout: misfits-and-magic-holiday-special-trailer
     public: xf2hV6GmrCk
     members: OzknT7IRikE
     published: 2021-12-02
@@ -1204,6 +1213,7 @@ show: Dimension 20
 world: Spyre
 videos:
   - trailer: The Seven Trailer
+    dropout: dimension-20-the-seven-trailer
     public: 0bJfIZyEP98
     members: DJo6OLsKXEQ
     published: 2021-07-28
@@ -1320,6 +1330,7 @@ season: Shriek Week
 show: Dimension 20
 videos:
   - trailer: Shriek Week Trailer
+    dropout: dimension-20-shriek-week-trailer
     public: 3mlLfl5ZNLI
     members: tZxqNRK0Qzo
     published: 2021-10-27
@@ -1375,6 +1386,7 @@ cast: Intrepid Heroes
 world: A Starstruck Odyssey
 videos:
   - trailer: A Starstruck Odyssey Trailer
+    dropout: dimension-20-a-starstruck-odyssey-trailer
     public: oVC-KqAgm38
     members: QHI41pbr-VE
     published: 2021-12-18
@@ -1806,6 +1818,7 @@ season: Coffin Run
 show: Dimension 20
 videos:
   - trailer: Coffin Run Trailer
+    dropout: dimension-20-coffin-run-trailer
     public: pdji4F1Ax_w
     members: mLkexago-CI
     published: 2022-05-25
@@ -1876,6 +1889,7 @@ season: A Court of Fey and Flowers
 show: Dimension 20
 videos:
   - trailer: A Court of Fey and Flowers Trailer
+    dropout: dimension-20-a-court-of-fey-flowers-trailer
     public: VFyHiykk2U4
     members: fPs4fn88hfc
     published: 2022-07-20
@@ -1991,6 +2005,7 @@ show: Dimension 20
 cast: Intrepid Heroes
 videos:
   - trailer: Neverafter Trailer
+    dropout: dimension-20-neverafter-trailer
     public: nwMxp7mRbx4
     members: iVsPeg6XT_4
     published: 2022-10-12
@@ -2188,6 +2203,7 @@ show: Dimension 20
 world: Calorum
 videos:
   - trailer: The Ravening War Trailer
+    dropout: dimension-20-the-ravening-war-trailer
     public: c4xTd-NjEj4
     members: 3WGeM64PEHY
     published: 2023-04-19
@@ -2275,6 +2291,7 @@ season: Dungeons and Drag Queens (Chapter 1)
 world: Dungeons and Drag Queens
 videos:
   - trailer: Dungeons and Drag Queens Trailer
+    dropout: dimension-20-dungeons-and-drag-queens-trailer
     public: khZVjQL74qE
     members: w664JpkrDio
     published: 2023-06-15
@@ -2341,6 +2358,7 @@ season: Mentopolis
 show: Dimension 20
 videos:
   - trailer: Mentopolis Trailer
+    dropout: dimension-20-mentopolis-trailer
     public: 9riE94Kkwq4
     published: 2023-07-26
   - bts: Hank Green Presents Facts He Didn't Get to Use In Mentopolis
@@ -2419,6 +2437,7 @@ season: Burrow's End
 show: Dimension 20
 videos:
   - trailer: Burrow's End Trailer
+    dropout: dimension-20-burrow-s-end-trailer
     public: 77sEmjobpjg
     published: 2023-09-20
   - episode: 1. The Red Warren
@@ -2975,6 +2994,7 @@ show: Make Some Noise
 season: Season 2
 videos:
   - trailer: Make Some Noise Season 2
+    dropout: make-some-noise-season-2-trailer
     public: iJQ93UuhkLA
     published: 2023-05-22
   - episode: 201. 100,000 Batmans
@@ -4869,6 +4889,7 @@ videos:
     public: XvDk6C1zvuI
     published: 2023-09-26
   - trailer: Fantasy High Junior Year Trailer
+    dropout: dimension-20-fantasy-high-junior-year-trailer
     public: 8Jr7dyVCmFM
     published: 2023-12-13
   - trailer: Fantasy High Seasons 1 and 2 Full Recap
@@ -5598,6 +5619,7 @@ show: Make Some Noise
 season: Season 3
 videos:
   - trailer: Make Some Noise Season 3
+    dropout: make-some-noise-season-3-trailer
     public: yMFzjVP17RQ
     published: 2024-05-20
   - episode: 301. A Cutscene in a Video Game That's Glitching Out
@@ -5992,6 +6014,7 @@ show: Dimension 20
 world: Misfits and Magic
 videos:
   - trailer: Misfits and Magic Season 2 Trailer
+    dropout: dimension-20-misfits-and-magic-season-2-trailer
     public: s02byVayinI
     published: 2024-09-04
   - trailer: Misfits and Magic Season 1 Recap
@@ -6130,6 +6153,7 @@ season: Dungeons and Drag Queens (Chapter 2)
 world: Dungeons and Drag Queens
 videos:
   - trailer: Dungeons and Drag Queens Season 2 Trailer
+    dropout: dimension-20-dungeons-and-drag-queens-season-2-trailer
     public: tbZILayxJ2I
     published: 2024-12-18
   - episode: 1. Princess and the Paramours
@@ -6194,6 +6218,7 @@ season: Titan Takedown
 show: Dimension 20
 videos:
   - trailer: Titan Takedown Trailer
+    dropout: dimension-20-titan-takedown-trailer
     public: "-91PjwLRk0I"
     public short: __DYbtP2YG4
     published: 2025-02-26
@@ -6266,6 +6291,7 @@ show: Dimension 20
 cast: Intrepid Heroes
 videos:
   - trailer: Cloudward, Ho! Trailer
+    dropout: dimension-20-cloudward-ho-trailer
     public: ubR-CRYTrZs
     published: 2025-05-14
   - episode: 1. On High We Go
@@ -7198,6 +7224,7 @@ videos:
   # The teaser went up on both channels 45 minutes apart, same 35 seconds; the
   # show channel's is the vertical cut.
   - trailer: Make Some Noise Season 5 Teaser
+    dropout: make-some-noise-season-5-teaser
     public: vwFYqOHMf6U
     public short: GwHaNJh3meg
     published: 2026-09-02
@@ -8072,6 +8099,7 @@ show: Dimension 20
 season: Toylight
 videos:
   - trailer: "Dimension 20: Toylight Trailer"
+    dropout: dimension-20-toylight-trailer
     public: 84kZcc5TEzY
     public short: MNPykW1n5nc
     published: 2026-08-12
@@ -8488,6 +8516,7 @@ videos:
     public: QNGmyy5agZs
     published: 2018-02-08
   - special: How to Neg Your Parents
+    dropout: how-to-neg-your-parents
     public: VH-KQ_C3WMg
     published: 2018-02-08
   - special: "Mascara: How to Look Not Sick"
@@ -10467,6 +10496,7 @@ videos:
     members: 0rmEytfr8L8
     published: 2020-06-08
   - episode: "3. If Google Was a Guy: Quarantine Edition (Part 3)"
+    dropout: google-is-a-guy-quarantine-edition-3
     public: LTydy0lH33k
     published: 2020-12-31
 ---

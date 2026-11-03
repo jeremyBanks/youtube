@@ -471,6 +471,11 @@ videos:
     public: gyQGz4UnJI8
     members: FuCA0JgxFTc
     published: 2020-03-17
+  # The 2023 free re-uploads of this two-parter run 25 minutes (Part 1) and
+  # 10 minutes (Part 2) shorter than the 2020 members uploads, where every
+  # other episode of the season agrees to within 76 seconds. Neither
+  # description says what was cut; both are the whole episode by title,
+  # synopsis and Dropout's playlists.
   - episode: 19. Spring Break! I Believe In You! (Part 1)
     quarantine: true
     dropout: spring-break-i-believe-in-you-part-1
@@ -990,6 +995,7 @@ videos:
     dropout: dimension-20-live-gauntlet-at-the-garden-trailer
     quarantine: false
     public: "-XCew5KFnts"
+    public short: kvIWqyIReGs
     published: 2024-04-08
 
 ---
@@ -4427,14 +4433,33 @@ videos:
     dropout: no-laugh-newsroom-birthday-cake-bird-birth
     public: lfv2slVWSRs
     published: 2018-10-08
+  # Not on watch.dropout.tv, and its description marks it sponsored, for NBC's
+  # Bring The Funny. TVmaze numbers it the season's fifth, and Dropout's own
+  # No Laugh Newsroom playlist files it straight after 104.
+  - episode: "105. The Don't Laugh Newsroom Challenge #5"
+    public: wByqVoXr-Xg
+    published: 2019-06-25
 
 ---
 
 show: Breaking News
 season: Season 2
 videos:
+  # The 2019 free uploads are titled "Don't Laugh News Challenge: ...". Each
+  # carries the episode's Dropout synopsis and runs 20 to 40 seconds longer
+  # than the members cut, the length of the Dropout plug it ends with.
+  #
+  # Dropout's pages have no dates for this season, and TheTVDB and TVmaze agree
+  # on every one. Six of the free uploads went up before those dates, by up to
+  # eight weeks, so those six episodes are dated by the free upload. 201 to 211
+  # went free on consecutive Wednesdays from 09-11, the odd numbers in order.
+  # That is what releasing two episodes every Monday from 09-09 would produce if
+  # the first of each pair went free two days later. On that reading the even
+  # numbers to 212 are dated late too, but nothing shows when any of them could
+  # first be watched.
   - episode: 201. Bummer Tornado Destroys Cool Jail
     dropout: bummer-tornado-destroys-cool-jail
+    public: QynCvny8ikQ
     members: ehJ41l_XiO0
     published: 2019-09-09
   - episode: 202. Freaky Lobsters Form Fashion Fad
@@ -4444,16 +4469,19 @@ videos:
     published: 2019-09-09
   - episode: 203. Unimpressive Colleges Join Cheating Scandal
     dropout: unimpressive-colleges-join-cheating-scandal
+    public: qtkuWMPi9dE
     members: bImZop3N59k
-    published: 2019-10-14
+    published: 2019-09-18
   - episode: 204. You Missed My Soccer Games, Dad
     dropout: you-missed-my-soccer-games-dad
+    public: mbH81YmhEPE
     members: KzUW7-oB6V0
     published: 2019-10-21
   - episode: 205. Climbing Gym Opens On Disappointing Riverwalk
     dropout: climbing-gym-opens-on-disappointing-riverwalk
+    public: ieIzMHoXzw4
     members: Ri7euyhgpmk
-    published: 2019-10-28
+    published: 2019-09-25
   - episode: 206. Disgruntled Sewer Men Demand to Meet Ninja Turtles
     dropout: disgruntled-sewer-men-demand-to-meet-ninja-turtles
     members: G-kfZEkjsQk
@@ -4461,8 +4489,9 @@ videos:
     published: 2019-11-04
   - episode: "207. On-Set Hijinks: George Clooney Refuses to Leave Trailer"
     dropout: on-set-hijinks-george-clooney-refuses-to-leave-trailer
+    public: "-mFcW3e82zc"
     members: xyqkkBW81aM
-    published: 2019-11-11
+    published: 2019-10-02
   - episode: 208. Man Turns Home into Home Depot
     dropout: man-turns-home-into-home-depot
     public: MVhKdGcL_Z0
@@ -4470,8 +4499,9 @@ videos:
     published: 2019-11-18
   - episode: 209. "Jazzy Taint" Sweeps the Nation
     dropout: jazzy-taint-sweeps-the-nation
+    public: xcYwGc67e-M
     members: 2amhAZIjVz4
-    published: 2019-11-25
+    published: 2019-10-09
   - episode: 210. Webster's Adds New Word for Friend-Zoning Dermatologist
     dropout: webster-s-adds-new-word-for-friend-zoning-dermatologist
     public: 1hEECLG_ZWA
@@ -4479,8 +4509,9 @@ videos:
     published: 2019-12-02
   - episode: 211. Weatherman Confuses El Niño with La Llorona
     dropout: weatherman-confuses-el-nino-with-la-llorona
+    public: Kiuen6EBWT4
     members: My7RqBFzdlA
-    published: 2019-12-09
+    published: 2019-10-16
   - episode: 212. Super Long Diner Menu Sets New, Stupid Record
     dropout: super-long-diner-menu-sets-new-stupid-record
     public: eJHDv7iZZ_A
@@ -4488,8 +4519,9 @@ videos:
     published: 2019-12-16
   - episode: 213. We're Here, We're Queer, We're Deer
     dropout: we-re-here-we-re-queer-we-re-deer
+    public: CaPZuhUX-8c
     members: JTHuCR5tC8E
-    published: 2019-12-23
+    published: 2019-12-21
   - episode: 214. One in Four Americans Attracted to Their Sexy Cars
     dropout: one-in-four-americans-attracted-to-their-sexy-cars
     public: 12bkWtxHrvQ
@@ -8599,8 +8631,10 @@ videos:
   - special: How to Prepare for Second Puberty
     public: QNGmyy5agZs
     published: 2018-02-08
+  # Not Dropout's How to Neg Your Parents, which is CH Shorts season 7, the
+  # 2015 sketches, and is the 198-second upload of 2015-08-12. This is a
+  # 31-second video of the same name with no description.
   - special: How to Neg Your Parents
-    dropout: how-to-neg-your-parents
     public: VH-KQ_C3WMg
     published: 2018-02-08
   - special: "Mascara: How to Look Not Sick"
@@ -8710,6 +8744,7 @@ videos:
     published: 2019-09-25
   - episode: 1. Ultramechatron Team Start!
     dropout: ultramechatron-team-start
+    public: zfY0U7wM03A
     members: ME2tAseop9A
     published: 2019-10-03
   - episode: 2. Ultramechatron Team Party!
@@ -9134,9 +9169,12 @@ videos:
     dropout: fancy-dads
     members: eedCu0jBen4
     published: 2019-02-12
+  # Drawfee's upload is the same length to the second and went up ten days
+  # before Dropout's.
   - episode: 121. Rejected Toys
     dropout: rejected-toys
     public: vvE7Yuk5lP8
+    public copy: s5nS6bAoHC0
     published: 2019-02-19
   - episode: 122. Pompaduels
     dropout: pompaduels
@@ -9553,6 +9591,7 @@ season: Season 1
 videos:
   - episode: "1. Anthony D'Anthony: The Motherfu*king Cheese Mogul"
     dropout: anthony-d-anthony-the-motherfu-king-cheese-mogul
+    public: SQGlCjzIPCc
     members: tvP61mx0FZY
     published: 2019-08-08
   - episode: "2. Pak Jang-mi: A Nun, Not A Chef"
@@ -9669,39 +9708,40 @@ videos:
   - episode: 1. Precious Plum for President!
     dropout: dt-see-plum-run-101
     public: Myo_5KYx_YI
-    published: 2018-10-06
+    published: 2018-09-26
   - episode: 2. We Want Dessert
     dropout: we-want-dessert
+    public: iC13unzETaA
     members: Lc1PlDM47Nk
-    published: 2019-09-16
+    published: 2018-10-01
   - episode: 3. Don't Make Me Move
     dropout: don-t-make-me-move
     members: Laxiv7L4b3w
-    published: 2019-09-16
+    published: 2018-10-08
   - episode: 4. The Cock Hog
     dropout: the-cock-hog
     members: lQigoqsK6Kg
-    published: 2019-09-16
+    published: 2018-10-15
   - episode: 5. The Rumor Mill
     dropout: the-rumor-mill
     members: wn02HGYTgmw
-    published: 2019-09-16
+    published: 2018-10-22
   - episode: 6. The Belly Button Ring
     dropout: the-belly-button-ring
     members: ZybLCYiyyl4
-    published: 2019-09-16
+    published: 2018-10-29
   - episode: 7. Dirty Talk
     dropout: dirty-talk
     members: kGekK7ESwsI
-    published: 2019-09-16
+    published: 2018-11-05
   - episode: 8. The Kennedy Conspiracy
     dropout: the-kennedy-conspiracy
     members: whYNovyDGnA
-    published: 2019-09-16
+    published: 2018-11-12
   - episode: 9. Busted
     dropout: busted
     members: qDKORo7TKn8
-    published: 2019-09-16
+    published: 2018-11-19
   - bts: "See Plum Run: Official Music Video"
     dropout: see-plum-run-official-music-video
     public: j6s4gg0KKFs
@@ -10069,28 +10109,40 @@ videos:
 
 ---
 
-# Katie Marovitch's Breaking Bad origin story. The CollegeHumor web series of
-# the same name goes in the precursor doc: seven shorts of about 150 seconds
-# each, against episodes of fifteen minutes.
+# Katie Marovitch's Breaking Bad origin story, and the CollegeHumor web series
+# of the same name: seven shorts of about 150 seconds each, against episodes of
+# fifteen minutes. The web series has no `season:` key so that it does not
+# count as a second season. It is filed ahead of Season 1, but it is not a
+# precursor: its free run went up on Thursdays and Mondays from 2019-07-04,
+# during the season. Those four are dated by it. The free cuts carry the
+# Dropout synopsis and run about 34 seconds longer than the members cut, the
+# length of the Dropout plug. 005 to 007 never went up free.
+#
+# The free uploads between them on 07-11 and 07-18 are clips of the season,
+# not web series: "Microcaine" is the product episode 4 launches.
 
 show: Kingpin Katie
 videos:
   - episode: "001. Dare"
     dropout: dare-1
+    public: i7m926xGRdQ
     members: uvqgtnpuazs
-    published: 2019-09-11
+    published: 2019-07-04
   - episode: "002. Wrongful Arrest"
     dropout: wrongful-arrest
+    public: Bq61bIwHqeQ
     members: kGk1sWOxRDA
-    published: 2019-09-11
+    published: 2019-07-08
   - episode: "003. Sketch Ideas"
     dropout: sketch-ideas
+    public: 5KvP4UFIyN4
     members: mBH0HCKCAbo
-    published: 2019-09-11
+    published: 2019-07-15
   - episode: "004. Should You Handle That?"
     dropout: should-you-handle-that
+    public: WXuopi18AvY
     members: 9X9AH-oEFlo
-    published: 2019-09-11
+    published: 2019-07-22
   - episode: "005. Wobbly Table"
     dropout: wobbly-table
     members: NzRops3H9zI
@@ -10106,19 +10158,32 @@ videos:
 
 ---
 
+# The first three episodes went up free a week after each one's release, under
+# new titles: "Praying Mantis Woman", "Katie Gets Dirty" and "Katie Hits Rock
+# Bottom". The first two carry Dropout's synopsis. The third's synopsis is its
+# own, and it is episode 3 by length (822 seconds against 824) and by the
+# weekly slot.
+
 show: Kingpin Katie
 season: Season 1
 videos:
+  - trailer: Kingpin Katie Trailer
+    dropout: kingpin-katie-trailer
+    public: kJ53SEwx7bw
+    published: 2019-06-10
   - episode: "1. Going Clean"
     dropout: going-clean
+    public: MLSsN_kQ_lY
     members: y2Dh28TdWfE
     published: 2019-06-10
   - episode: "2. A Fresh Cold Cut"
     dropout: a-fresh-cold-cut
+    public: cpfwG1Ds_3E
     members: 6aAR1K8GJWg
     published: 2019-06-17
   - episode: "3. Fake-Ass"
     dropout: fake-ass
+    public: zZdk30imQVs
     members: qaBJRfOaPKs
     published: 2019-06-24
   - episode: "4. KOOM"
@@ -10159,6 +10224,7 @@ season: Season 1
 videos:
   - episode: "1. Sarah Attends a Wedding"
     dropout: sarah-attends-a-wedding
+    public: aI3sCGdLlvY
     members: HoJTI00CAEs
     published: 2019-12-13
   - episode: "2. Sarah Takes a Slaycation"

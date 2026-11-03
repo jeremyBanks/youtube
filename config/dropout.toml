@@ -74,7 +74,8 @@ priority = [
   "ultramechatron-team-go-the-web-series",
 ]
 
-# Episode slug -> release date, where watch.dropout.tv's own date is wrong.
+# Episode slug -> release date, where watch.dropout.tv's own date is wrong or
+# absent and no other catalogue we hold has the show.
 # `verify-dates` uses these in place of the scraped date, so the curation can
 # carry the right date without being reported as a mismatch every run. Each
 # needs the evidence written beside it; dates.md explains the kinds of error.
@@ -97,3 +98,17 @@ priority = [
 # date, and it is a Wednesday. TVDB and TVmaze put all 15 episodes on
 # consecutive Thursdays from 03-07, TVmaze at 09:00 Pacific, this one at 04-11.
 "what-is-the-worst-tattoo-to-get" = "2019-04-11"
+# See Plum Run's pages carry no dates and TheTVDB has no table for it. TVmaze
+# and TMDB agree: episode 1 on Dropout's launch day, 2018-09-26, which is
+# where Wikipedia's list of Dropout originals starts it, then weekly Mondays
+# to 11-19, where it ends it. TVmaze stamps them 09:00 Pacific. The curation
+# had episode 1 at its free upload and the rest at the 2019 members backfill.
+"dt-see-plum-run-101" = "2018-09-26"
+"we-want-dessert" = "2018-10-01"
+"don-t-make-me-move" = "2018-10-08"
+"the-cock-hog" = "2018-10-15"
+"the-rumor-mill" = "2018-10-22"
+"the-belly-button-ring" = "2018-10-29"
+"dirty-talk" = "2018-11-05"
+"the-kennedy-conspiracy" = "2018-11-12"
+"busted" = "2018-11-19"

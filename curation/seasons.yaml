@@ -555,7 +555,8 @@ show: Dimension 20
 cast: Intrepid Heroes
 world: Calorum
 videos:
-  - trailer: Trailer
+  - trailer: A Crown of Candy Trailer
+    dropout: dimension-20-a-crown-of-candy-trailer
     public: zOnnqKPh5RY
     published: 2020-02-20
   - episode: 1. There Is Strength in Sweetness
@@ -8779,48 +8780,48 @@ videos:
   - episode: 1. The Series Reboots
     dropout: the-series-reboots
     public: WbH_QVzRgy8
-    published: 2019-04-15
+    published: 2019-04-08
   - episode: 2. A Disturbance in HR
     dropout: a-disturbance-in-hr
     public: hObjSjZ4M1E
     members: OUbiBjbXyyg
-    published: 2019-04-22
+    published: 2019-04-15
   - episode: 3. The Data Quest
     dropout: the-data-quest
     members: lrdLFqaUNqA
-    published: 2019-09-16
+    published: 2019-04-22
   - episode: 4. Birth of the Big Gun
     dropout: birth-of-the-big-gun
     members: XKMgXtzIMJ0
-    published: 2019-09-16
+    published: 2019-04-29
   - episode: 5. Way of the Wayfinder
     dropout: way-of-the-wayfinder
     members: xDOqyo6ScMM
-    published: 2019-09-16
+    published: 2019-05-13
   - episode: 6. The Secret of UUP
     dropout: the-secret-of-uup
     members: 6QkLTtJBuiA
-    published: 2019-09-16
+    published: 2019-05-20
   - episode: 7. Return of the Orb
     dropout: return-of-the-orb
     members: 3FJTLiFl1oI
-    published: 2019-09-16
+    published: 2019-05-20
   - episode: 8. The Telltale Trials
     dropout: the-telltale-trials
     members: qsB58PXz2sc
-    published: 2019-09-16
+    published: 2019-05-27
   - episode: 9. A Shift in Power
     dropout: a-shift-in-power
     members: PFc8XrwYxYM
-    published: 2019-09-16
+    published: 2019-06-03
   - bts: "Behind the Scenes: The Troopers Universe"
     dropout: behind-the-scenes-the-troopers-universe
     members: B3-HuOjjE74
-    published: 2019-09-16
+    published: 2019-06-10
   - bts: "Behind the Scenes: Production and Design"
     dropout: behind-the-scenes-production-and-design
     members: tVw5O4jThZA
-    published: 2019-09-16
+    published: 2019-06-10
 
 ---
 

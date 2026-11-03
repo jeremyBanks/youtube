@@ -212,9 +212,11 @@ videos:
     members: rqwcG_2upgk
     published: 2019-09-10
   - bts: Cast Reunion (Part 1)
+    dropout: reunion-with-the-cast-of-escape-from-the-bloodkeep
     public: RGb2VYNd4ws
     published: 2019-06-26
   - bts: Cast Reunion (Part 2)
+    dropout: reunion-with-the-cast-of-escape-from-the-bloodkeep-pt-2
     public: 63tcD2_hhHU
     published: 2019-07-10
 
@@ -2921,18 +2923,22 @@ videos:
 show: Make Some Noise
 videos:
   - episode: 001. Make Some Noise on Game Changer
+    dropout: make-some-noise
     public: V-6m0jW0X9E
     members: tX_wMAaJB_E
     published: 2019-09-27
   - episode: 002. Round 4 (Make Some Noise 2) on Game Changer
+    dropout: round-4
     members: wZcyv12V5ME
-    published: 2019-02-25
+    published: 2020-02-28
   - episode: 003. The Substitute (Make Some Noise 3) on Game Changer
+    dropout: the-substitute
     members: MSncX42YAq4
     published: 2021-01-22
   - episode: 004. Noise Boys (Make Some Noise 4) on Game Changer
+    dropout: noise-boys
     members: gqKBypg6a4E
-    published: 2021-11-20
+    published: 2021-11-29
 
 ---
 
@@ -3069,6 +3075,7 @@ videos:
 show: Play It By Ear
 videos:
   - episode: 001. The Official Cast Recording on Game Changer
+    dropout: the-official-cast-recording
     members: 6OG9JqD0goc
     published: 2021-12-27
   # Not a precursor -- this aired after season 1, so it sits here out of
@@ -3435,11 +3442,11 @@ videos:
     public: 98HzbcRmmHk
     members: 1gWa96jCU4M
     published: 2019-08-31
-  - episode: 208. Stephen King, Warhammer 40000, Dragon Age
+  - episode: 208. Stephen King, Warhammer 40,000, Dragon Age
     dropout: stephen-king-warhammer-40-000-dragon-age
     public: JHdM7aVqfbU
     members: X1h7dW6tHVQ
-    published: 2019-09-06
+    published: 2019-09-07
   - episode: 209. Sailor Moon, Pacific Rim, Fate/Stay Night
     dropout: sailor-moon-pacific-rim-fate-stay-night
     public: C51TuAxhUY0
@@ -3676,7 +3683,7 @@ videos:
     public: HCANF0pTmdU
     members: gvIv6rxsaYs
     published: 2021-04-09
-  - episode: 506. Kim Possible, Princess Bride, Sliders
+  - episode: 506. Kim Possible, The Princess Bride, Sliders
     dropout: kim-possible-the-princess-bride-sliders
     public: N1j1evf4I3U
     members: OMM6OyM_NwY
@@ -3958,6 +3965,7 @@ videos:
 show: Dirty Laundry
 videos:
   - episode: 001. Never Have I Ever on Game Changer
+    dropout: never-have-i-ever
     members: LMZrjxRAJ88
     published: 2020-11-27
 
@@ -8375,6 +8383,53 @@ videos:
 
 ---
 
+# The six original web shorts, 2011-2016, on Becky Sloan and Joe Pelling's own
+# channel. Dropout files them as a "Web Series" extra season and carries them
+# beside the 2026 series; their own channel is the only place they are on
+# YouTube. Titles are Dropout's. Not a season, so no `season:` key. The
+# teasers are kept as trailers, which is what they are: "HELP" and "HELP #2"
+# say "EPISODE 3 COMING OCTOBER 2014" in their descriptions.
+show: Don't Hug Me I'm Scared
+videos:
+  - episode: 001. CREATIVITY
+    dropout: creativity
+    public: 9C_HReR_McQ
+    published: 2011-07-29
+  - trailer: TIME Teaser
+    public: yoNFrDSLsLQ
+    published: 2014-01-01
+  - episode: 002. TIME
+    dropout: time
+    public: vtkGtXtDlQA
+    published: 2014-01-08
+  - trailer: HELP
+    public: lPVRsqLaars
+    published: 2014-05-20
+  - trailer: "HELP #2"
+    public: aLwiMFJ84ko
+    published: 2014-05-23
+  - trailer: LOVE Teaser
+    public: yCzeq4cD2dE
+    published: 2014-10-17
+  - episode: 003. LOVE
+    dropout: love-1
+    public: sXOdn6vLCuU
+    published: 2014-10-31
+  - episode: 004. COMPUTERS
+    dropout: computers
+    public: G9FGgwCQ22w
+    published: 2015-03-31
+  - episode: 005. FOOD
+    dropout: food
+    public: tS_Xq7gSCBM
+    published: 2015-10-14
+  - episode: 006. DREAMS
+    dropout: dreams
+    public: dbL-NSkXnl8
+    published: 2016-06-19
+
+---
+
 show: Don't Hug Me I'm Scared
 season: Season 1
 videos:
@@ -8454,7 +8509,7 @@ videos:
     dropout: world-of-tomorrow-episode-two-the-burden-of-other-people-s-thoughts
     members: spVTn9m9p5k
     published: 2026-08-04
-  - episode: "World of Tomorrow Episode 3: The Absent Destinations of David Prime"
+  - episode: "World of Tomorrow Episode Three: The Absent Destinations of David Prime"
     dropout: world-of-tomorrow-episode-three-the-absent-destinations-of-david-prime
     members: 5YJc2u2RTy0
     published: 2026-08-04
@@ -8965,6 +9020,8 @@ videos:
   - episode: 101. Weed Anime
     dropout: weed-anime
     public: 8ynclk6IS5g
+    # Drawfee's upload on release day, 18 days before Dropout's.
+    public copy: PLZZlILTF3M
     published: 2018-09-26
   - episode: 102. Swankiest Space Bugs
     dropout: swankiest-space-bugs
@@ -9329,7 +9386,7 @@ videos:
     members: F2fqL2WAkJg
     published: 2019-04-04
   - episode: 6. What Is the Worst Tattoo to Get?
-    dropout: what-is-the-worst-tattoo-to-get-1
+    dropout: what-is-the-worst-tattoo-to-get
     members: E4cH61eE5ZA
     published: 2019-04-11
   - episode: 7. What Is the Coolest Way to Quit Your Job?
@@ -9882,11 +9939,11 @@ videos:
     dropout: reunion
     members: yZyU8asbH9U
     published: 2019-05-01
-  - bts: "Grant O'Brien: It's All Love (Full Stand-up)"
+  - bts: "Grant O'Brien: It's All Love (Full Stand-up Set)"
     dropout: grant-o-brien-it-s-all-love-full-stand-up-set
     members: rw_1qH_8uXs
     published: 2019-03-08
-  - bts: "Ally Beardsley: What's Wrong With Me? (Full Stand-up)"
+  - bts: "Ally Beardsley: What's Wrong With Me? (Full Reading)"
     dropout: ally-beardsley-what-s-wrong-with-me-full-reading
     members: HnpewK9Yzps
     published: 2019-03-12
@@ -10493,11 +10550,43 @@ videos:
     public short: Yz5TOaWpOvw
     published: 2026-10-13
 ---
+
+# The original CollegeHumor sketches, 2014-2016, before the Quarantine Edition.
+# Dropout carries the first three; Parts 4 and 5 are on YouTube only. Dropout
+# counts all five ahead of the Quarantine Edition -- its members upload of that
+# run's second part is "Ep. 7" -- but they were never a season, so no
+# `season:` key.
+show: If Google Was a Guy
+videos:
+  - episode: 1. If Google Was a Guy
+    dropout: if-google-was-a-guy-pt-1
+    public: YuOBzWF0Aws
+    # All five parts in one upload, 2019.
+    public compilation: Cxqca4RQd_M
+    published: 2014-01-21
+  - episode: 2. If Google Was a Guy (Part 2)
+    dropout: if-google-was-a-guy-pt-2
+    public: B759dzymyoc
+    published: 2014-03-18
+  - episode: 3. If Google Was a Guy (Part 3)
+    dropout: if-google-was-a-guy-pt-3
+    public: yJD1Iwy5lUY
+    published: 2014-07-12
+  - episode: 4. If Google Was a Guy (Part 4)
+    public: ANzNCpsXrK4
+    published: 2015-10-20
+  - episode: 5. If Google Was a Guy (Part 5)
+    public: 9ze87zQFSak
+    published: 2016-01-29
+
+---
 show: If Google Was a Guy
 season: Quarantine Edition
 quarantine: true
 videos:
   - episode: "1. If Google Was a Guy: Quarantine Edition"
+    # All three parts in one upload, 2021.
+    public compilation: Ag86dYOG9iM
     dropout: if-google-was-a-guy-quarantine-edition
     public: aliY82008tk
     published: 2020-04-14

@@ -4109,7 +4109,7 @@ videos:
   - episode: 102. Keeping a Game Going (with Amy Vorpahl)
     dropout: keeping-a-game-going-with-amy-vorpahl
     public: 99LdpMvIDQ8
-    published: 2019-01-09
+    published: 2019-01-23
   - episode: 103. Raising the Stakes (with Brian Murphy)
     dropout: raising-the-stakes-with-brian-murphy
     public: AY8VqiswElI
@@ -4121,7 +4121,7 @@ videos:
   - episode: 105. Being the Mean GM (with Noah Diamond)
     dropout: being-the-mean-gm-with-noah-diamond
     public: xn9wwrs-JXU
-    published: 2019-02-19
+    published: 2019-03-06
   - episode: 106. Finishing a Campaign (with Molly Ostertag)
     dropout: finishing-a-campaign-with-molly-ostertag
     public: 2PsUg2RWiA4
@@ -8843,43 +8843,43 @@ videos:
   - episode: 1. Parasites
     dropout: test
     public: 3aZVgyUlSng
-    published: 2019-01-15
+    published: 2019-01-07
   - episode: 2. Self-Experimentation
     dropout: self-experimentation
     members: Jf2MdnxRx4I
-    published: 2019-09-07
+    published: 2019-01-14
   - episode: 3. Animal Sex
     dropout: animal-sex
     members: xuTUNbfxybE
-    published: 2019-09-07
+    published: 2019-01-21
   - episode: 4. Abandoned Military Ops
     dropout: abandoned-military-ops
     members: ohsZ_OUdrf8
-    published: 2019-09-07
+    published: 2019-01-28
   - episode: 5. Duels
     dropout: duels
     members: Z9OmqIDN6EQ
-    published: 2019-09-07
+    published: 2019-02-04
   - episode: 6. Cute Animals
     dropout: cute-animals
     members: rch09hhAlEo
-    published: 2019-09-07
+    published: 2019-02-11
   - episode: 7. Party Fouls
     dropout: party-fouls
     members: OvZlyapO0T0
-    published: 2019-09-07
+    published: 2019-02-18
   - episode: 8. Hoaxes and Scams
     dropout: hoaxes-and-scams
     members: rxU0tm2N-CY
-    published: 2019-09-07
+    published: 2019-02-25
   - episode: 9. Expeditions
     dropout: expeditions
     members: dCBaRkDs-a4
-    published: 2019-09-07
+    published: 2019-03-04
   - episode: 10. Crime and Punishment
     dropout: crime-punishment
     members: b0rTG1Ug2Uc
-    published: 2019-09-07
+    published: 2019-03-11
   # Dropout numbers this episode 12, but it is Jake Young interviewing a real
   # ecologist rather than an episode of the cartoon, so it is an extra here --
   # `episode:` would put it in the episodes-only playlists.
@@ -8929,27 +8929,27 @@ videos:
   - episode: 101. Weed Anime
     dropout: weed-anime
     public: 8ynclk6IS5g
-    published: 2018-10-14
+    published: 2018-09-26
   - episode: 102. Swankiest Space Bugs
     dropout: swankiest-space-bugs
     members: abc33F_5T3A
-    published: 2019-09-13
+    published: 2018-09-26
   - episode: 103. Fruits vs. Vegetables
     dropout: fruits-vs-vegetables
     members: 8DfAEtGhLnc
-    published: 2019-09-13
+    published: 2018-09-27
   - episode: 104. Elliot
     dropout: elliot
     members: lX5aoL3-6LM
-    published: 2019-09-13
+    published: 2018-10-04
   - episode: 105. Elderly Assassins
     dropout: elderly-assassins
     members: rtUMtvv7OkY
-    published: 2019-09-13
+    published: 2018-10-11
   - episode: 106. Cute Monsters
     dropout: cute-monsters
     members: VA-2v8EvYug
-    published: 2019-09-13
+    published: 2018-10-18
   # Episode 7, "Cyborg Band", has no full-length upload anywhere: the only
   # YouTube copy is the 468-second Drawfee cut, against episodes of a thousand
   # seconds and more. It exists in full on Dropout only.
@@ -8964,79 +8964,79 @@ videos:
   - episode: 107. Cyborg Band
     dropout: cyborg-band
     public: BetBI4f6MpU
-    published: 2018-12-30
+    published: 2018-10-25
   - episode: 108. Combined Animals
     dropout: combined-animals
     members: UpKrLGQtU7E
-    published: 2019-09-13
+    published: 2018-11-01
   - episode: 109. Knock-Off Norse Gods
     dropout: knock-off-norse-gods
     members: 1HX4Ks3lrN8
-    published: 2019-09-13
+    published: 2018-11-08
   - episode: 110. Lizards with Careers
     dropout: lizards-with-careers
     members: KsZJd75Uiks
-    published: 2019-09-13
+    published: 2018-11-15
   - episode: 111. The Worst Thing
     dropout: the-worst-thing
     members: b5ly14Do7NI
-    published: 2019-09-13
+    published: 2018-11-22
   - episode: 112. Wheely the Muse
     dropout: wheely-the-muse
     members: KoE6cy1kzj4
-    published: 2019-09-13
+    published: 2018-11-29
   - episode: 113. Sexy Boy Skeletons
     dropout: sexy-boy-skeletons
     members: ZL-oWc14KOM
-    published: 2019-09-13
+    published: 2018-12-06
   - episode: "114. Weed Anime 2: The Reboot"
     dropout: weed-anime-2-the-reboot
     members: ZPdpKjbJwf8
-    published: 2019-09-13
+    published: 2018-12-13
   - episode: 115. Ugly Babies
     dropout: ugly-babies
     members: 5z9aBMJ74Iw
-    published: 2019-09-13
+    published: 2018-12-20
   - episode: 116. Triple-A Game
     dropout: triple-a-game
     members: Cib2Svc2Poc
-    published: 2019-09-13
+    published: 2019-01-15
   - episode: 117. A Very Special Potato
     dropout: a-very-special-potato
     members: sV18Av3zIy8
-    published: 2019-09-13
+    published: 2019-01-22
   - episode: 118. Noggin
     dropout: noggin
     members: MsypWVnl7gM
-    published: 2019-09-13
+    published: 2019-01-29
   - episode: 119. What's Under the Bed
     dropout: what-s-under-the-bed
     members: UD1qbsU_XS0
-    published: 2019-09-13
+    published: 2019-02-05
   - episode: 120. Fancy Dads
     dropout: fancy-dads
     members: eedCu0jBen4
-    published: 2019-09-13
+    published: 2019-02-12
   - episode: 121. Rejected Toys
     dropout: rejected-toys
     public: vvE7Yuk5lP8
-    published: 2019-03-09
+    published: 2019-02-19
   - episode: 122. Pompaduels
     dropout: pompaduels
     members: BRqYwgJiIVs
-    published: 2019-09-13
+    published: 2019-02-26
   - episode: 123. Indoor Sharks
     dropout: 123-tbd
     members: NmYzjWDTEC0
-    published: 2019-09-13
+    published: 2019-03-05
   - episode: 124. Monsties
     dropout: 124-tbd
     members: XPbeUeooo0s
-    published: 2019-09-13
+    published: 2019-03-12
   - episode: 125. Big Booty Kaiju
     dropout: big-booty-kaiju
     members: H5_2-Hnu98k
-    published: 2019-09-13
+    published: 2019-03-19
   - bts: How We Made Drawfee's New Show
     dropout: cartoon-hell-behind-the-scenes
     public: UReaSwB6NaA
@@ -9055,43 +9055,43 @@ videos:
   - episode: 201. Dungeons and Doggos (with Adam Conover)
     dropout: dungeons-doggos-with-adam-conover
     members: MTELEnhfWiE
-    published: 2019-09-13
+    published: 2019-04-17
   - episode: 202. Untitled Bee Project (with Nicholas Gurewitch)
     dropout: untitled-bee-project-with-nicholas-gurewitch
     members: 9UTcVsayiJ0
-    published: 2019-09-13
+    published: 2019-04-24
   - episode: 203. The Ultimate Farm Animals (with Lisa Hanawalt)
     dropout: the-ultimate-farm-animals-with-lisa-hanawalt
     members: k0gDsYLZWt0
-    published: 2019-09-13
+    published: 2019-05-01
   - episode: 204. The Punish-Her
     dropout: the-punish-her
     members: _eJmQPiVwrY
-    published: 2019-09-13
+    published: 2019-05-08
   - episode: 205. Hell-O Baby (with the McElroy Brothers)
     dropout: hell-o-baby-with-the-mcelroy-brothers
     members: cSx3rrJX7So
-    published: 2019-09-13
+    published: 2019-05-15
   - episode: 206. Absolute Worst Dragons (with SungWon Cho)
     dropout: absolute-worst-dragons-with-sungwon-cho
     members: bo-Fi3RcQHo
-    published: 2019-09-13
+    published: 2019-05-22
   - episode: 207. Debt Note
     dropout: debt-note
     members: jJVnq1yLHx8
-    published: 2019-09-13
+    published: 2019-05-29
   - episode: 208. Haunted Cereal (with Rekha Shankar)
     dropout: haunted-cereal-with-rekha-shankar
     members: 5_oTpYYSsuM
-    published: 2019-09-13
+    published: 2019-06-05
   - episode: 209. Eldritch Horror Sitcom
     dropout: eldritch-horror-sitcom
     members: wnIrKXzBKCw
-    published: 2019-09-13
+    published: 2019-06-12
   - episode: 210. The Most Powerful Things
     dropout: the-most-powerful-things
     members: _59UxIbgBRE
-    published: 2019-09-13
+    published: 2019-06-19
 
 ---
 
@@ -9271,68 +9271,68 @@ videos:
   - episode: 1. What Is the Best Invention That Has Yet to Be Invented?
     dropout: what-is-the-best-invention-that-has-yet-to-be-invented
     public: DYXEhEW-3mk
-    published: 2019-03-15
+    published: 2019-03-07
   - episode: 2. What Is the Worst Marriage Proposal?
     dropout: what-is-the-worst-marriage-proposal
     members: O5_gxJ3S0l8
-    published: 2019-09-06
+    published: 2019-03-14
   - episode: 3. What Is the Coolest Accidental Death?
     dropout: what-is-the-coolest-accidental-death
     members: laW_xzh8-mA
-    published: 2019-09-17
+    published: 2019-03-21
   - episode: 4. What Is the Best Thing to Find in a Treasure Chest?
     dropout: what-is-the-best-thing-to-find-in-a-treasure-chest
     members: e6r7D7tA-QU
-    published: 2019-09-17
+    published: 2019-03-28
   - episode: 5. What Is the Worst Spell a Witch Could Curse You With?
     dropout: what-is-the-worst-spell-a-witch-could-curse-you-with
     members: F2fqL2WAkJg
-    published: 2019-09-17
+    published: 2019-04-04
   - episode: 6. What Is the Worst Tattoo to Get?
     dropout: what-is-the-worst-tattoo-to-get-1
     members: E4cH61eE5ZA
-    published: 2019-09-17
+    published: 2019-04-11
   - episode: 7. What Is the Coolest Way to Quit Your Job?
     dropout: what-is-the-coolest-way-to-quit-your-job-1
     members: NN4x16R34pM
-    published: 2019-09-07
+    published: 2019-04-18
   - episode: 8. What Is the Coolest Way to Murder Someone?
     dropout: what-is-the-coolest-way-to-murder-someone-1
     members: kiOcb5AvA9s
-    published: 2019-09-07
+    published: 2019-04-25
   - episode: 9. What Is the Worst Way to Find Out You Were Cheated On?
     dropout: rr-109
     members: hPwKyJbCISQ
-    published: 2019-09-17
+    published: 2019-05-02
   - episode: 10. What Is the Best Funeral You Can Imagine?
     dropout: what-is-the-best-funeral-you-can-imagine-1
     public: YkbArlB1FYA
     members: kmeHf0PgE5U
-    published: 2019-09-07
+    published: 2019-05-09
   - episode: 11. What Is the Coolest Way to Break Out of Jail?
     dropout: what-is-the-coolest-way-to-break-out-of-jail-1
     members: 0dj6vj9s-nk
-    published: 2019-09-07
+    published: 2019-05-16
   - episode: 12. What Is the Best Way to Spend Lotto Money?
     dropout: what-is-the-best-way-to-spend-lotto-money
     members: 7i2lCWDIIiY
-    published: 2019-09-17
+    published: 2019-05-23
   - episode: 13. What Is the Best Way to Spend Your Last Day on Earth?
     dropout: what-is-the-best-way-to-spend-your-last-day-on-earth
     members: jJlmu9F9DNI
-    published: 2019-09-17
+    published: 2019-05-30
   - episode: 14. What Is The Worst Reason For Getting Famous?
     dropout: what-is-the-worst-reason-for-getting-famous
     members: lYwfnht0Mjo
-    published: 2019-09-17
+    published: 2019-06-06
   - episode: 15. What Is the Best Way to Improve the Body?
     dropout: what-is-the-best-way-to-improve-the-body
     members: bzlFxWdznxM
-    published: 2019-09-17
+    published: 2019-06-13
   - episode: 16. What Is the Coolest Family Secret?
     dropout: what-is-the-coolest-family-secret
     members: QmEtv1Ha_4s
-    published: 2019-09-17
+    published: 2019-06-20
   - bts: "The Rank Room: Behind the Scenes"
     dropout: behind-the-scenes
     members: nOZRoM1HR-U
@@ -9430,27 +9430,27 @@ videos:
   - episode: "1. Anthony D'Anthony: The Motherfu*king Cheese Mogul"
     dropout: anthony-d-anthony-the-motherfu-king-cheese-mogul
     members: tvP61mx0FZY
-    published: 2019-09-11
+    published: 2019-08-08
   - episode: "2. Pak Jang-mi: A Nun, Not A Chef"
     dropout: pak-jang-mi-a-nun-not-a-chef
     members: wNOAhIB0nqI
-    published: 2019-09-09
+    published: 2019-08-15
   - episode: "3. Blynn: The Food Scientist"
     dropout: blynn-the-food-scientist
     members: tV9nkhaIOZM
-    published: 2019-09-09
+    published: 2019-08-22
   - episode: "4. Giuseppe Greco: The Sad Baker"
     dropout: giuseppe-greco-the-sad-baker
     members: JeKDg9CdqwQ
-    published: 2019-09-09
+    published: 2019-08-29
   - episode: "5. Julia Splenderpoot: The Farm-to-Table Extremist"
     dropout: julia-splenderpoot-the-farm-to-table-extremist
     members: ioIqW7TWq3o
-    published: 2019-09-09
+    published: 2019-10-05
   - episode: "6. Laura Sepanowitz: The Passionate Tastemaker"
     dropout: laura-sepanowitz-the-passionate-tastemaker
     members: fQPE01RL3zg
-    published: 2019-09-09
+    published: 2019-10-12
 
 ---
 
@@ -9801,55 +9801,55 @@ videos:
   - episode: "1. Leeches / Ex"
     dropout: leeches-and-ex-lovers
     public: wzQDifGMnPE
-    published: 2019-02-14
+    published: 2019-02-06
   - episode: "2. Makeover / Shock Collar"
     dropout: makeover-shock-collar
     members: hl5oUorNBT8
-    published: 2019-09-06
+    published: 2019-02-13
   - episode: "3. Coffins / Camping"
     dropout: coffins-camping
     members: KIE_SLg9J5Y
-    published: 2019-09-06
+    published: 2019-02-20
   - episode: "4. Stand-up / Diaries"
     dropout: stand-up-diaries
     members: H0pwEogDi-o
-    published: 2019-09-06
+    published: 2019-02-27
   - episode: "5. National Anthem / Lock-In"
     dropout: national-anthem-lock-in
     members: -4nW-Z5jPHU
-    published: 2019-09-06
+    published: 2019-03-06
   - episode: "6. Needle / Snake"
     dropout: needle-snake
     members: JPKNUXJ1vKA
-    published: 2019-09-06
+    published: 2019-03-13
   - episode: "7. Drunk / Bell"
     dropout: drunk-bell
     members: e5xHYk15XpY
-    published: 2019-09-06
+    published: 2019-03-20
   - episode: "8. Scam / Flea Market"
     dropout: scam-flea-market
     members: Zkq5EIegHfY
-    published: 2019-09-06
+    published: 2019-03-27
   - episode: "9. Tattoo / Performance Art"
     dropout: tattoo-performance-art
     members: OD2Ry9NwzjI
-    published: 2019-09-06
+    published: 2019-04-03
   - episode: "10. Finale"
     dropout: finale
     members: lMt49X8_ONc
-    published: 2019-09-06
+    published: 2019-04-10
   - bts: Reunion
     dropout: reunion
     members: yZyU8asbH9U
-    published: 2019-09-06
+    published: 2019-05-01
   - bts: "Grant O'Brien: It's All Love (Full Stand-up)"
     dropout: grant-o-brien-it-s-all-love-full-stand-up-set
     members: rw_1qH_8uXs
-    published: 2019-09-09
+    published: 2019-03-08
   - bts: "Ally Beardsley: What's Wrong With Me? (Full Stand-up)"
     dropout: ally-beardsley-what-s-wrong-with-me-full-reading
     members: HnpewK9Yzps
-    published: 2019-09-09
+    published: 2019-03-12
 
 ---
 
@@ -9878,7 +9878,7 @@ videos:
   - episode: "102. Parents' Weekend"
     dropout: parents-weekend
     public: s5_JVmcDK5c
-    published: 2019-05-17
+    published: 2019-05-10
   - episode: "103. Study Abroad"
     dropout: study-abroad
     public: a0nBDwBFPI4
@@ -9886,17 +9886,17 @@ videos:
   - episode: "104. Thanksgiving at Home"
     dropout: thanksgiving-at-home
     members: DpVyPxBAitQ
-    published: 2019-09-13
+    published: 2019-05-24
   - episode: "105. Homecoming Weekend"
     dropout: homecoming-weekend
     public: eQXc_4SZ__g
     members: U6oHk93JfFo
-    published: 2019-06-29
+    published: 2019-05-31
   - episode: "106. The Internship"
     dropout: the-internship
     public: XmMOFWMJabA
     members: M3gCprYbvgE
-    published: 2019-07-06
+    published: 2019-06-07
 
 ---
 
@@ -9907,41 +9907,41 @@ videos:
     dropout: family-visiting
     public: 7TBCkgJBt4I
     members: EPTgS3YfptU
-    published: 2019-10-30
+    published: 2019-11-05
   - episode: "202. Arts & Culture"
     dropout: arts-culture
     members: rIyZSSAe9XM
-    published: 2019-11-06
+    published: 2019-11-12
   - episode: "203. Travel"
     dropout: travel
     members: oKDuonLgy_U
-    published: 2019-11-15
+    published: 2019-11-19
   - episode: "204. Politics"
     dropout: politics
     public: IJKR0O3BfOs
     members: bAgckbJbX0A
-    published: 2019-11-21
+    published: 2019-11-26
   - episode: "205. Romance"
     dropout: romance
     members: aiM0gqh-Dy8
-    published: 2019-11-21
+    published: 2019-12-03
   - episode: "206. Moving Day"
     dropout: moving-day
     members: j_EbsACTRgI
-    published: 2019-12-05
+    published: 2019-12-10
   - episode: "207. First Job"
     dropout: first-job
     members: sId5GgBWcyg
-    published: 2019-12-11
+    published: 2019-12-17
   - episode: "208. Holidays"
     dropout: holidays
     public: dTs1Q2VYYSU
     members: gYi_wavBj8Y
-    published: 2019-12-18
+    published: 2019-12-24
   - episode: "209. Shitty Job"
     dropout: shitty-job
     members: Iez4LEl2Eu0
-    published: 2019-12-20
+    published: 2019-12-31
 
 ---
 
@@ -9988,43 +9988,43 @@ videos:
   - episode: "1. Going Clean"
     dropout: going-clean
     members: y2Dh28TdWfE
-    published: 2019-09-13
+    published: 2019-06-10
   - episode: "2. A Fresh Cold Cut"
     dropout: a-fresh-cold-cut
     members: 6aAR1K8GJWg
-    published: 2019-09-13
+    published: 2019-06-17
   - episode: "3. Fake-Ass"
     dropout: fake-ass
     members: qaBJRfOaPKs
-    published: 2019-09-13
+    published: 2019-06-24
   - episode: "4. KOOM"
     dropout: koom
     members: lJvOsKbdMGM
-    published: 2019-09-09
+    published: 2019-07-01
   - episode: "5. One Little Sip"
     dropout: one-little-sip
     members: qciVUkPeD1o
-    published: 2019-09-09
+    published: 2019-07-08
   - episode: "6. The Breakup"
     dropout: the-breakup
     members: k5BTijfctDk
-    published: 2019-09-09
+    published: 2019-07-15
   - episode: "7. Who Is Katie Marovitch?"
     dropout: who-is-katie-marovitch
     members: ylaC7S2k2vU
-    published: 2019-09-09
+    published: 2019-07-22
   - episode: "8. Cat and Mouse"
     dropout: cat-and-mouse
     members: CBwTVVtSWfU
-    published: 2019-09-09
+    published: 2019-07-29
   - bts: "Kingpin Katie: Behind the Scenes"
     dropout: kingpin-katie-behind-the-scenes
     members: FPvkS11KAkE
-    published: 2019-09-10
+    published: 2019-08-05
   - bts: "Kingpin Katie: Bloopers"
     dropout: kingpin-katie-bloopers
     members: v8QNrPJXMlE
-    published: 2019-09-09
+    published: 2019-08-13
 
 ---
 

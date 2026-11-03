@@ -4746,11 +4746,12 @@ videos:
 
 ---
 
-name:        Toonout (All Episodes)
+name:        Toonout (Full Episodes)
 description: |-
   1-hour playlist of 16 episodes and 1 extra of Toonout, Dropout's anthology of animated shorts, each one made by a different creator. 13 videos are free and 4 require a @Dropout channel membership on YouTube.
 
-  https://watch.dropout.tv/toonout
+  Not in this playlist. Watch these on Dropout:
+  https://watch.dropout.tv/toonout/season:1/videos/american-woodcock
 playlistId:  PLJsbcZca7RJU
 videos:
   LTba5203dGc: 'Toonout Trailer [New Animation Series]'

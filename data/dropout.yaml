@@ -4759,6 +4759,29 @@ scrapedAt:     2026-08-31T19:54:16.082Z
 
 ---
 
+slug:          american-woodcock
+collection:    toonout-season-1
+collections:
+- featured
+- new-releases
+- toonout-new
+- toonout-season-1
+lastmod:       2026-11-03T00:00:00.000Z
+title:         American Woodcock
+seasonNumber:  1
+episodeNumber: 17
+releaseDate:   '2026-11-03'
+url:           'https://watch.dropout.tv/toonout/season:1/videos/american-woodcock'
+showTitle:     Toonout
+showSlug:      toonout
+description:   'What''s that buzzy sound? It''s the woodcock, baby!'
+itemId:        4268798
+collectionId:  1489017
+firstSeen:     2026-11-03T20:23:43.933Z
+scrapedAt:     2026-11-03T20:24:10.021Z
+
+---
+
 slug:          americans-eat-japanese-toys-for-the-first-time
 collection:    ch-shorts-season-7
 collections:
@@ -68357,7 +68380,6 @@ scrapedAt:     2026-08-31T14:59:59.485Z
 slug:          the-ribbon
 collection:    toonout-season-1
 collections:
-- featured
 - new-releases
 - toonout-new
 - toonout-season-1

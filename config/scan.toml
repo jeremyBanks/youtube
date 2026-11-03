@@ -120,6 +120,12 @@ complete-interval = "P350D"
 incremental-interval = "P56D"
 complete-interval = "P280D"
 
+# Becky Sloan and Joe Pelling's channel. Dropout carries the six original
+# web shorts (2011-2016) beside the 2026 series, and only this channel has them.
+[donthugmeimscared]
+incremental-interval = "P70D"
+complete-interval = "P350D"
+
 [jakeandamir]
 incremental-interval = "P70D"
 complete-interval = "P350D"

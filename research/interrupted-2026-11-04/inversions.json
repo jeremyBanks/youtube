@@ -1,0 +1,339 @@
+[
+  {
+    "key": "Dimension 20 / Fantasy High (Chapter 1)",
+    "show": "Dimension 20",
+    "season": "Fantasy High (Chapter 1)",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2019-09-27 Wally and Gilear in the Morning with Emily, Murph, and Michael",
+        "later_in_file": "episode 2018-11-28 11. Cool Kids, Cold Case",
+        "days": 303
+      },
+      {
+        "earlier_in_file": "bts 2019-09-28 Parties are Weird but Friendship is Dope with Lou and Rick",
+        "later_in_file": "episode 2018-12-12 13. First Kisses and Last Words",
+        "days": 290
+      },
+      {
+        "earlier_in_file": "bts 2019-10-04 Problem Players and Troublesome Tangents with Ally and Zac",
+        "later_in_file": "episode 2018-12-26 15. Family in Flames",
+        "days": 282
+      },
+      {
+        "earlier_in_file": "bts 2019-10-05 The Greatest Nat 20 of All Time with Siobhan and Lou",
+        "later_in_file": "bts 2018-12-27 Behind the Scenes",
+        "days": 282
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / Escape from the Bloodkeep",
+    "show": "Dimension 20",
+    "season": "Escape from the Bloodkeep",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2019-09-10 Behind the Scenes",
+        "later_in_file": "bts 2019-06-26 Cast Reunion (Part 1)",
+        "days": 76
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / The Unsleeping City (Chapter 1)",
+    "show": "Dimension 20",
+    "season": "The Unsleeping City (Chapter 1)",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2019-11-16 Behind the Scenes: Brennan",
+        "later_in_file": "bts 2019-11-14 Behind the Scenes: Murph",
+        "days": 2
+      },
+      {
+        "earlier_in_file": "bts 2019-11-14 Behind the Scenes: Zac",
+        "later_in_file": "bts 2019-11-08 Behind the Scenes: Siobhan",
+        "days": 6
+      },
+      {
+        "earlier_in_file": "bts 2019-12-14 How the Editors Make Dimension 20 Come To Life",
+        "later_in_file": "bts 2019-11-30 How the Minis of Dimension 20 Are Made",
+        "days": 14
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / Fantasy High (Chapter 2)",
+    "show": "Dimension 20",
+    "season": "Fantasy High (Chapter 2)",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2020-04-07 20. Spring Break! I Believe In You! (Part 2)",
+        "later_in_file": "bts 2020-03-24 Fireside Chat with Brennan & Friends (Part 1)",
+        "days": 14
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / A Crown of Candy",
+    "show": "Dimension 20",
+    "season": "A Crown of Candy",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2020-06-24 11. At the Mountains of Sweetness",
+        "later_in_file": "bts 2020-06-23 Soft Hugs",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "episode 2020-07-01 12. Rescue at Buzzybrook",
+        "later_in_file": "bts 2020-06-30 Twinned Down, Big Business-Style",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "episode 2020-07-08 13. Family Ties",
+        "later_in_file": "bts 2020-07-07 Choppy Skullduggery",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "episode 2020-07-15 14. Encounter in the Ice Cream Temple",
+        "later_in_file": "bts 2020-07-14 Dom or Be Dommed",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "episode 2020-07-22 15. The Two Balls",
+        "later_in_file": "bts 2020-07-21 Rude Goldberg and Eartha Crit, Explained",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "episode 2020-07-29 16. For Candia! (Part 1)",
+        "later_in_file": "bts 2020-07-28 I Stan The Protestant Work Ethic!",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "episode 2020-08-05 17. For Candia! (Part 2)",
+        "later_in_file": "bts 2020-08-04 Burt From Ohio, Thankyousomuch",
+        "days": 1
+      },
+      {
+        "earlier_in_file": "bts 2020-08-26 The Wild Childs",
+        "later_in_file": "bts 2020-08-15 Behind the Scenes",
+        "days": 11
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / Pirates of Leviathan",
+    "show": "Dimension 20",
+    "season": "Pirates of Leviathan",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2020-10-21 6. The Horizon Beyond the Squall",
+        "later_in_file": "bts 2020-10-20 The Buccaneer Buddies Reunite",
+        "days": 1
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / A Starstruck Odyssey (Season 1)",
+    "show": "Dimension 20",
+    "season": "A Starstruck Odyssey (Season 1)",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2022-05-19 No Middle Sliders",
+        "later_in_file": "bts 2022-05-18 Starstruck Post Season Talkback With Elaine Lee",
+        "days": 1
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / A Court of Fey and Flowers",
+    "show": "Dimension 20",
+    "season": "A Court of Fey and Flowers",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2022-10-13 The Wish Factory",
+        "later_in_file": "bts 2022-10-05 Behind the Scenes of Fey & Flowers' Finale Shoot",
+        "days": 8
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / Mentopolis",
+    "show": "Dimension 20",
+    "season": "Mentopolis",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2023-09-14 Bit City USA",
+        "later_in_file": "external 2023-08-09 Hank Green Describes The Worst Part About Being on Dimension 20",
+        "days": 36
+      }
+    ]
+  },
+  {
+    "key": "Um, Actually / Season 1",
+    "show": "Um, Actually",
+    "season": "Season 1",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2018-09-27 101. C-3PO's Origins, HP Lovecraft, the Food Album (with Weird Al Yankovic)",
+        "later_in_file": "episode 2018-09-25 102. Cyborg Cops, Shai'Hulud, Sci-Fi Substance Abuse",
+        "days": 2
+      }
+    ]
+  },
+  {
+    "key": "Breaking News / Season 2",
+    "show": "Breaking News",
+    "season": "Season 2",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2019-10-21 204. You Missed My Soccer Games, Dad",
+        "later_in_file": "episode 2019-09-25 205. Climbing Gym Opens On Disappointing Riverwalk",
+        "days": 26
+      },
+      {
+        "earlier_in_file": "episode 2019-11-04 206. Disgruntled Sewer Men Demand to Meet Ninja Turtles",
+        "later_in_file": "episode 2019-10-02 207. On-Set Hijinks: George Clooney Refuses to Leave Trailer",
+        "days": 33
+      },
+      {
+        "earlier_in_file": "episode 2019-11-18 208. Man Turns Home into Home Depot",
+        "later_in_file": "episode 2019-10-09 209. \"Jazzy Taint\" Sweeps the Nation",
+        "days": 40
+      },
+      {
+        "earlier_in_file": "episode 2019-12-02 210. Webster's Adds New Word for Friend-Zoning Dermatologist",
+        "later_in_file": "episode 2019-10-16 211. Weatherman Confuses El Niño with La Llorona",
+        "days": 47
+      }
+    ]
+  },
+  {
+    "key": "Breaking News / Season 3",
+    "show": "Breaking News",
+    "season": "Season 3",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2020-04-27 306. BTK Killer Gives a Foreboding Weather Forecast",
+        "later_in_file": "episode 2020-03-30 307. News Crew Plans Terrible Trip to the Beach",
+        "days": 28
+      },
+      {
+        "earlier_in_file": "episode 2020-06-22 315. Hot Dogs Are Made From People (But Still Tasty)",
+        "later_in_file": "episode 2020-06-08 316. Good Morning, River View High!",
+        "days": 14
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / Fantasy High (Chapter 3)",
+    "show": "Dimension 20",
+    "season": "Fantasy High (Chapter 3)",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2024-01-10 Teenage Rebellion (Theme Song) Music Video",
+        "later_in_file": "bts 2023-12-20 The Legendary Rick Perry and the Art of Dimension 20",
+        "days": 21
+      }
+    ]
+  },
+  {
+    "key": "Very Important People / Season 1",
+    "show": "Very Important People",
+    "season": "Season 1",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2024-02-02 Marionette Conqui and Zonton de la Doll",
+        "later_in_file": "episode 2024-01-26 105. Kepl and Dr. Milk",
+        "days": 7
+      }
+    ]
+  },
+  {
+    "key": "Dropout Presents / Season 1",
+    "show": "Dropout Presents",
+    "season": "Season 1",
+    "inversions": [
+      {
+        "earlier_in_file": "trailer 2024-08-31 Chris Grace Enters the Dropout Multiverse",
+        "later_in_file": "episode 2024-08-23 Chris Grace: As Scarlett Johansson",
+        "days": 8
+      }
+    ]
+  },
+  {
+    "key": "Dimension 20 / Misfits and Magic (Chapter 2)",
+    "show": "Dimension 20",
+    "season": "Misfits and Magic (Chapter 2)",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2024-12-04 11. The Show Goes On",
+        "later_in_file": "bts 2024-09-18 Behind the Scenes: Brennan Lee Mulligan",
+        "days": 77
+      }
+    ]
+  },
+  {
+    "key": "Game Changer / Season 7",
+    "show": "Game Changer",
+    "season": "Season 7",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2025-09-01 Samalamadingdong (Brennan's Revenge)",
+        "later_in_file": "bts 2025-08-15 Why I'm Leaving Dropout (Extended Cut)",
+        "days": 17
+      }
+    ]
+  },
+  {
+    "key": "Troopers / -",
+    "show": "Troopers",
+    "season": null,
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2011-06-03 004. Interrogation",
+        "later_in_file": "episode 2011-05-03 005. The Swamp Planet",
+        "days": 31
+      },
+      {
+        "earlier_in_file": "episode 2011-06-03 006. Space Improv",
+        "later_in_file": "episode 2011-05-31 007. Rescue Mission",
+        "days": 3
+      }
+    ]
+  },
+  {
+    "key": "WTF 101 / Season 1",
+    "show": "WTF 101",
+    "season": "Season 1",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2019-05-21 Remember When Murder Was Legal?",
+        "later_in_file": "bts 2019-01-18 WTF 101: Behind the Scenes",
+        "days": 123
+      }
+    ]
+  },
+  {
+    "key": "Cartoon Hell / Season 1",
+    "show": "Cartoon Hell",
+    "season": "Season 1",
+    "inversions": [
+      {
+        "earlier_in_file": "episode 2019-03-19 125. Big Booty Kaiju",
+        "later_in_file": "bts 2018-10-19 How We Made Drawfee's New Show",
+        "days": 151
+      }
+    ]
+  },
+  {
+    "key": "Total Forgiveness / Season 1",
+    "show": "Total Forgiveness",
+    "season": "Season 1",
+    "inversions": [
+      {
+        "earlier_in_file": "bts 2019-05-01 Reunion",
+        "later_in_file": "bts 2019-03-08 Grant O'Brien: It's All Love (Full Stand-up Set)",
+        "days": 54
+      }
+    ]
+  }
+]

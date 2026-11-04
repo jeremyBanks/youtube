@@ -1,0 +1,205 @@
+export const meta = {
+  name: 'curation-coherence-pass',
+  description: 'Judge every order inversion per season, research off-platform dates and animation placements, refute each proposal adversarially',
+  phases: [
+    { title: 'Order', detail: 'one judge per season doc with inversions' },
+    { title: 'Research', detail: 'DHMIS, Critical Role, Hertzfeldt, animated shorts' },
+    { title: 'Verify', detail: 'two skeptics per proposal, independent sources per research result' },
+  ],
+}
+
+const INV = args.inversionsPath
+const VERDICT = {
+  type: 'object',
+  properties: {
+    doc: { type: 'string' },
+    pattern: { type: 'string', description: 'any ordering pattern the doc follows, e.g. talkbacks follow their episode; empty if none' },
+    verdicts: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          earlier_in_file: { type: 'string' },
+          later_in_file: { type: 'string' },
+          verdict: { type: 'string', enum: ['convention', 'documented', 'reorder', 'date-suspect', 'unsure'] },
+          evidence: { type: 'string' },
+          proposal: { type: 'string', description: 'for reorder: "move X to after Y" / "move X to before Y"; for date-suspect: which date, probable value, source; else empty' },
+        },
+        required: ['earlier_in_file', 'later_in_file', 'verdict', 'evidence', 'proposal'],
+      },
+    },
+  },
+  required: ['doc', 'pattern', 'verdicts'],
+}
+const REFUTE = {
+  type: 'object',
+  properties: {
+    refuted: { type: 'boolean' },
+    reasoning: { type: 'string' },
+    correction: { type: 'string', description: 'if refuted or partly wrong, what is right instead; else empty' },
+  },
+  required: ['refuted', 'reasoning', 'correction'],
+}
+
+const RULES = `The rule being checked: within one doc of curation/seasons.yaml, entries are in release order by \`published:\`. Deliberate exceptions, and the only ones: (1) a trailer may stand ahead of what it trails whatever its date -- a season's opening trailers lead the doc, and a trailer for one special or episode sits right before it; (2) episodes keep Dropout's episode-number order even where that is not release order (the number is Dropout's, the date is the release, and the two need not agree -- Breaking News season 2 is the known case); (3) \`animation:\` entries sit beside the moment they depict and are out of order by design (they are already left out of the list you are given); (4) a comment in the file may record a deliberate exception, in which case quote it. Anything else that is out of release order is either a mistake in the file order or a wrong date, and you must say which.
+
+Sources: read the whole doc in curation/seasons.yaml, including the comment block above its \`show:\` line and comments between entries (find it with Grep for the exact \`season:\` and \`show:\` lines, then Read that range). For talkbacks (\`talkback: true\`) and anything with a \`dropout:\` slug, data/dropout.yaml has a record per slug with \`description\`, \`releaseDate\`, \`episodeNumber\` and \`collection\`; a talkback's description usually names the episode the cast discusses. \`published:\` is meant to equal Dropout's \`releaseDate\` where the page carries one (deno task verify-dates enforces this), so a wrong-looking date is a claim that Dropout's page is wrong and needs independent evidence: the YouTube upload date in data/videos/<channel>.yaml (field publishedAt; for a members upload that is the upload, which can precede release by days or weeks, so it is a lower bound on nothing and an upper bound on the release only loosely), the show's weekly cadence, or a free upload. Do not propose a reorder that would put an episode out of its number order. Do not propose moving an entry to a position that merely creates a different inversion. Be concrete: name the entries exactly as they appear in the file.`
+
+const judge = (doc) => agent(
+  `You are judging the order of entries in one season doc: "${doc.key}" (show "${doc.show}", season ${doc.season === null ? 'none -- a season-less doc' : JSON.stringify(doc.season)}).
+
+${RULES}
+
+The inversions to judge are in the JSON file ${INV}: read it and take the object whose "key" is ${JSON.stringify(doc.key)}. Each inversion is an adjacent pair where the later entry in the file has an earlier date. For every one, return a verdict: convention (say which of rules 1-3), documented (quote the comment), reorder (say exactly where the later entry should move, as "move <entry> to after <entry>" or "move <entry> to before <entry>", and why that position is right by date and by sense), date-suspect (which date is probably wrong, what it probably is, and the evidence), or unsure (what would settle it). Where several adjacent inversions are one displaced block (for example a run of cast behind-the-scenes videos all dated before the finale they follow), give the whole block one proposal and repeat it on each row. Also report any ordering pattern this doc follows that the rest of the catalogue should be checked against.`,
+  { label: `order:${doc.key}`, phase: 'Order', schema: VERDICT },
+)
+
+const skeptics = (verdict, row) => parallel([
+  () => agent(`A proposal has been made about curation/seasons.yaml and your job is to try to refute it on the evidence. Doc: ${JSON.stringify(verdict.doc)}. Pair: earlier in file ${JSON.stringify(row.earlier_in_file)}; later in file ${JSON.stringify(row.later_in_file)}. Verdict: ${row.verdict}. Proposal: ${JSON.stringify(row.proposal)}. Claimed evidence: ${JSON.stringify(row.evidence)}.
+
+${RULES}
+
+Check the evidence yourself: open the doc, the data/dropout.yaml records, the upload dates. Does the proposal follow from the facts? Would it leave the doc in release order (apart from the stated exceptions) rather than create a new inversion? Is the cited description or date actually what the file says? If any part fails, refuted=true and say what is right instead. If you are uncertain, refuted=true.`, { label: `refute-facts:${row.later_in_file.slice(0, 40)}`, phase: 'Verify', schema: REFUTE }),
+  () => agent(`A proposal has been made about curation/seasons.yaml and your job is to judge it against the catalogue's own conventions, as a skeptic. Doc: ${JSON.stringify(verdict.doc)}. Pair: earlier in file ${JSON.stringify(row.earlier_in_file)}; later in file ${JSON.stringify(row.later_in_file)}. Verdict: ${row.verdict}. Proposal: ${JSON.stringify(row.proposal)}. Claimed evidence: ${JSON.stringify(row.evidence)}.
+
+${RULES}
+
+Find how the rest of curation/seasons.yaml orders the same situation (the same kind of extra in another season of the same show; a talkback relative to its episode; a cast behind-the-scenes set; a post-season extra) and whether this proposal agrees with that practice or with a comment somewhere in the file or in CLAUDE.md / dates.md that settles it. If the proposal would make this doc inconsistent with the rest, or contradicts a documented decision, refuted=true and say what the consistent placement is. If you are uncertain, refuted=true.`, { label: `refute-convention:${row.later_in_file.slice(0, 40)}`, phase: 'Verify', schema: REFUTE }),
+]).then((votes) => ({ ...row, doc: verdict.doc, votes: votes.filter(Boolean) }))
+
+const orderResults = pipeline(
+  args.docs,
+  (doc) => judge(doc),
+  async (verdict) => {
+    if (!verdict) return null
+    const contested = verdict.verdicts.filter((r) => r.verdict === 'reorder' || r.verdict === 'date-suspect')
+    const checked = await parallel(contested.map((row) => () => skeptics(verdict, row)))
+    return { ...verdict, checked: checked.filter(Boolean) }
+  },
+)
+
+const RESEARCH = {
+  dhmis: {
+    label: 'research:dhmis',
+    prompt: `Research, on the web (WebSearch and WebFetch are available to you), two things about Don't Hug Me I'm Scared, and report with sources.
+
+1. The first-run dates of series 1 (2022) on Channel 4 in the UK: for each of the six episodes -- JOBS, DEATH, FAMILY, FRIENDSHIP, TRANSPORT, ELECTRICITY -- the date it was first broadcast on Channel 4, and separately the date it first became available on Channel 4's streaming service (All 4, now Channel 4 online), since the whole series may have been released online on the premiere day. Give the dates as YYYY-MM-DD. If the two differ, say so. Use Wikipedia's episode list, Channel 4 press material, or the DHMIS wiki, and name what you used. Note any disagreement between sources.
+
+2. The video "HARK!" on the creators' YouTube channel (youtube.com/watch?v=nnN05K-1RVw, uploaded 2024-12-06, 73 seconds, description "Greetings my children!" with a link to dhmis.tv; its thumbnail shows a glowing haloed puppet figure in a wicker basket in a dark room). What is it -- a stand-alone Don't Hug Me I'm Scared short, a holiday greeting, a teaser for something (a second series? a live show?), or something else? Does it belong to any series or season? Is it DHMIS content at all (the channel is Becky Sloan and Joseph Pelling's, who also post non-DHMIS work)? Cite what you find. If nothing reliable can be found, say exactly what you searched.`,
+    schema: {
+      type: 'object',
+      properties: {
+        episodes: { type: 'array', items: { type: 'object', properties: { title: { type: 'string' }, broadcast_date: { type: 'string' }, streaming_date: { type: 'string' }, source: { type: 'string' }, note: { type: 'string' } }, required: ['title', 'broadcast_date', 'streaming_date', 'source', 'note'] } },
+        hark: { type: 'object', properties: { what: { type: 'string' }, is_dhmis_content: { type: 'boolean' }, belongs_to: { type: 'string' }, confidence: { type: 'string' }, source: { type: 'string' } }, required: ['what', 'is_dhmis_content', 'belongs_to', 'confidence', 'source'] },
+        notes: { type: 'string' },
+      },
+      required: ['episodes', 'hark', 'notes'],
+    },
+  },
+  crEarly: {
+    label: 'research:cr-exu-downfall-divergence',
+    prompt: `Critical Role episodes are streamed live (Twitch and YouTube) and the edited VOD goes up on YouTube later, usually the following Monday. Our curation dates each episode by the YouTube VOD. For every episode below, find the date of the original live stream, in Pacific time, as YYYY-MM-DD, from the Critical Role wiki (criticalrole.fandom.com -- each episode page carries an air date), critrole.com, or Critical Role's own announcements; WebSearch and WebFetch are available. Also note whether any of these was released early on Beacon (Critical Role's subscription service) and on what date. Report the source for each row and flag any row where sources disagree or you could not confirm.
+
+Exandria Unlimited: Calamity (2022), our VOD dates: 1. Excelsior 2022-05-30; 2. Bitterness and Dread 2022-06-06; 3. Blood and Shadow 2022-06-13; 4. Fire and Ruin 2022-06-20; and the extra "Exandria Unlimited: Calamity Wrap-Up" 2022-07-13 and the trailer 2022-05-12.
+Downfall (2024, the Campaign 3 arc run by Brennan Lee Mulligan), our VOD dates: Part One 2024-07-15; Part Two 2024-07-22; Part Three 2024-07-29; teaser 2024-07-09.
+Exandria Unlimited: Divergence (2025): 1. Give and Take 2025-02-17; 2. Seven of Them 2025-02-24; 3. Mirror and Key 2025-03-03; 4. By Heart Alone 2025-03-10.`,
+    schema: {
+      type: 'object',
+      properties: {
+        episodes: { type: 'array', items: { type: 'object', properties: { season: { type: 'string' }, title: { type: 'string' }, vod_date: { type: 'string' }, stream_date: { type: 'string' }, beacon_date: { type: 'string' }, source: { type: 'string' }, note: { type: 'string' } }, required: ['season', 'title', 'vod_date', 'stream_date', 'beacon_date', 'source', 'note'] } },
+        notes: { type: 'string' },
+      },
+      required: ['episodes', 'notes'],
+    },
+  },
+  crC4a: {
+    label: 'research:cr-campaign4-1-16',
+    prompt: `Critical Role Campaign 4 episodes are streamed live on Thursdays (Twitch and YouTube, 7pm Pacific) and the edited VOD goes up on YouTube the following Monday. Our curation dates each episode by the YouTube VOD. For each episode below, find the date of the original live stream in Pacific time, as YYYY-MM-DD, from the Critical Role wiki (criticalrole.fandom.com episode pages carry an air date), critrole.com, or Critical Role's announcements; WebSearch and WebFetch are available. Note any episode that did not stream on the Thursday four days before its VOD (holiday schedules, delays, pre-recorded episodes) and any that reached Beacon earlier. Give a source per row and flag rows you could not confirm.
+
+Campaign 4, our VOD dates: 1. The Fall of Thjazi Fang 2025-10-06; 2. Broken Wing 2025-10-13; 3. The Snipping of Shears 2025-10-20; 4. Stone-Faced 2025-10-27; 5. Branching Paths 2025-11-10; 6. Knives and Thorns 2025-11-17; 7. On the Scent 2025-11-24; 8. Fanged Revenge 2025-12-08; 9. To the Hounds! 2025-12-15; 10. Blood for Blood 2025-12-22; 11. Make Merry 2026-01-19; 12. The Giant's Belt 2026-01-26; 13. Seeking Sanctuary 2026-02-02; 14. A Bridge Too Far 2026-02-09; 15. Flight to Castle Torch 2026-02-16; 16. Visions of Shadow & Stone 2026-02-23.`,
+    schema: {
+      type: 'object',
+      properties: {
+        episodes: { type: 'array', items: { type: 'object', properties: { title: { type: 'string' }, vod_date: { type: 'string' }, stream_date: { type: 'string' }, beacon_date: { type: 'string' }, source: { type: 'string' }, note: { type: 'string' } }, required: ['title', 'vod_date', 'stream_date', 'beacon_date', 'source', 'note'] } },
+        notes: { type: 'string' },
+      },
+      required: ['episodes', 'notes'],
+    },
+  },
+  crC4b: {
+    label: 'research:cr-campaign4-17-32',
+    prompt: `Critical Role Campaign 4 episodes are streamed live on Thursdays (Twitch and YouTube, 7pm Pacific) and the edited VOD goes up on YouTube the following Monday. Our curation dates each episode by the YouTube VOD. For each episode below, find the date of the original live stream in Pacific time, as YYYY-MM-DD, from the Critical Role wiki (criticalrole.fandom.com episode pages carry an air date), critrole.com, or Critical Role's announcements; WebSearch and WebFetch are available. Note any episode that did not stream on the Thursday four days before its VOD (holiday schedules, delays, pre-recorded episodes) and any that reached Beacon earlier. Give a source per row and flag rows you could not confirm. Episode 32 has a VOD two months after 31: find out why (a break? a live show?) and when it streamed.
+
+Campaign 4, our VOD dates: 17. The Place of Wings 2026-03-02; 18. Vindicta & Vale 2026-03-09; 19. Hand & Wheel 2026-03-23; 20. The Vanishing 2026-03-30; 21. King of Cards 2026-04-06; 22. The Point of No Return 2026-04-13; 23. Buried Truths 2026-04-20; 24. Good Tidings 2026-05-04; 25. Targeted 2026-05-11; 26. Council of Heroes 2026-05-25; 27. Complicated Questions 2026-06-01; 28. Chasing Shadows 2026-06-08; 29. Opening Night 2026-06-15; 30. Here in the Dark 2026-06-22; 31. Trick of the Light 2026-06-29; 32. Road of Dreams 2026-08-31.`,
+    schema: {
+      type: 'object',
+      properties: {
+        episodes: { type: 'array', items: { type: 'object', properties: { title: { type: 'string' }, vod_date: { type: 'string' }, stream_date: { type: 'string' }, beacon_date: { type: 'string' }, source: { type: 'string' }, note: { type: 'string' } }, required: ['title', 'vod_date', 'stream_date', 'beacon_date', 'source', 'note'] } },
+        notes: { type: 'string' },
+      },
+      required: ['episodes', 'notes'],
+    },
+  },
+  hertzfeldt: {
+    label: 'research:hertzfeldt',
+    prompt: `Dropout released "The Don Hertzfeldt Collection" on 2026-08-04, and our curation dates every film by that day. For each film, find the date it was first shown or released to the public -- its premiere (festival, theatrical, television, or online such as Vimeo On Demand), whichever came first -- as precisely as reliable sources allow: a full YYYY-MM-DD where documented, otherwise month or year. Use Wikipedia, bitterfilms.com (Hertzfeldt's own site), festival records, and press; WebSearch and WebFetch are available. For each film give: the date, its precision (day/month/year), what kind of release it was, the source, and any disagreement between sources. Films: Lily and Jim (1997 student film); Billy's Balloon (1998 student film); Rejected (2000); The Meaning of Life (2005); Wisdom Teeth (2010); It's Such a Beautiful Day (2012 feature; note it assembles the shorts Everything Will Be OK 2006, I Am So Proud of You 2008 and It's Such a Beautiful Day 2011 -- give the feature's own date); World of Tomorrow (2015); World of Tomorrow Episode Two: The Burden of Other People's Thoughts (2017); World of Tomorrow Episode Three: The Absent Destinations of David Prime (2020); On Memory (2023); Watching Grass Grow (2023?); ME (2023); Paper Trail (2024 or 2025?).`,
+    schema: {
+      type: 'object',
+      properties: {
+        films: { type: 'array', items: { type: 'object', properties: { title: { type: 'string' }, date: { type: 'string' }, precision: { type: 'string', enum: ['day', 'month', 'year', 'unknown'] }, kind: { type: 'string' }, source: { type: 'string' }, note: { type: 'string' } }, required: ['title', 'date', 'precision', 'kind', 'source', 'note'] } },
+        notes: { type: 'string' },
+      },
+      required: ['films', 'notes'],
+    },
+  },
+  gcAnimated: {
+    label: 'research:game-changer-animated',
+    prompt: `Dropout publishes six "Game Changer Animated" shorts, each animating a moment from a Game Changer episode. For each, name the Game Changer episode it animates: the season doc name as written in curation/seasons.yaml (for example "Season 2") and the exact episode entry title as written there (for example "206. Yes or No"), so that an \`animation:\` entry can be placed right after that episode. Evidence, in order of strength: the YouTube description of the free upload in data/videos/dropout.yaml (several name the episode or its game, e.g. "In Game Changer's 'Name a Number'..."), Dropout's description in data/dropout.yaml, then the web (the Game Changer wiki on fandom, Dropout's site, press; WebSearch and WebFetch are available). Read the Game Changer docs in curation/seasons.yaml to get the exact entry titles. Also collect the ids: the members upload on the @dropout channel is titled "<name> | Game Changer Animated | Ep. N" (membersOnly: true in data/videos/dropout.yaml); the free upload is a retitled public upload on @dropout (e.g. "To-Do List | Game Changer Karaoke Animated", "Izzy Orders a Pizza While Saying ..."), and there may be a vertical Shorts cut on data/videos/gamechangershorts.yaml (embedSize 405x720) of the same length. For each short give members id, public id (horizontal, the one to curate), any vertical twin id, durations, Dropout slug and release date, the season doc, the episode entry to place it after, and your evidence. The six: To-Do List (Ep. 1); Brennan's "Yes Or No?" Monologue (Ep. 2); Welcome to Mountport (Ep. 3); I'm Hungie (Ep. 4); Name That Bird (Ep. 5); I'm a Professional (Ep. 6).`,
+    schema: {
+      type: 'object',
+      properties: {
+        shorts: { type: 'array', items: { type: 'object', properties: { title: { type: 'string' }, dropout_slug: { type: 'string' }, release_date: { type: 'string' }, members_id: { type: 'string' }, public_id: { type: 'string' }, public_short_id: { type: 'string' }, durations: { type: 'string' }, season_doc: { type: 'string' }, after_entry: { type: 'string' }, confidence: { type: 'string' }, evidence: { type: 'string' } }, required: ['title', 'dropout_slug', 'release_date', 'members_id', 'public_id', 'public_short_id', 'durations', 'season_doc', 'after_entry', 'confidence', 'evidence'] } },
+        notes: { type: 'string' },
+      },
+      required: ['shorts', 'notes'],
+    },
+  },
+  d20Animated: {
+    label: 'research:dimension-20-animated',
+    prompt: `Dropout's "Dimension 20 Animated" run has 19 shorts; the curation records the first 13 as \`animation:\` entries inside the campaign each depicts (grep "animation:" in curation/seasons.yaml to see how they are filed and placed -- right after the episode whose moment they animate). Six are not recorded, and one more short needs a decision. For each, name the season doc as written in curation/seasons.yaml (e.g. "Neverafter", "Fantasy High (Chapter 3)", "A Starstruck Odyssey (Season 1)" -- check the exact \`season:\` strings) and the exact episode entry title to place it after, with evidence: Dropout's description in data/dropout.yaml, the YouTube descriptions in data/videos/dimension20show.yaml (public uploads titled "<name> | Dimension 20 Animated") and data/videos/dropout.yaml (members uploads titled "<name> | Dimension 20 Animated | Ep. N"), the Dimension 20 wiki (dimension20.fandom.com) for which episode the scene is from; WebSearch and WebFetch are available. Collect for each: members id, public id, any vertical twin, durations, Dropout slug and release date, season doc, the episode to place it after, confidence, evidence.
+
+The six: 14. Cinderella's Mice Are Traumatized (2023-10-18, Neverafter: Rosamund meets the mice); 15. Riz and Baron (2024-01-23, Fantasy High Junior Year: Riz meets Baron); 16. Barry Syx Confronts Barry Nyne (2025-12-02); 17. Handy Andi CEO Crashes Out (2025-12-16); 18. Proldier's License (2025-12-30); 19. Operation Slippery Puppet (2026-01-13, the Battle of the Brands) -- 16 to 19 are presumably A Starstruck Odyssey (the Gunner Channel, Sundry Sidney, Handy Andi) but confirm, and find which episode of it each scene is from.
+
+The extra: KYPRCCi8R9s on @dimension20show, "Here's What Happened In the 1st Part of the Episode (Animated)", 2024-08-25, 40 s, vertical 405x720, description "This was all HALF AN EPISODE #shorts #dimension20 #neverstopblowingup". Which Never Stop Blowing Up episode does it recap, and is it an original animation made for the Short (then it is an \`animation:\` of that episode) or a cut of something longer?
+
+Two more on that channel are previews and are NOT to be curated, but confirm what they preview: UxxW_-iNDbk "Evan Kelmp Tries To Explain Himself (Dimension 20 Animated Short)" 2022-02-15, 35 s vertical; s3_NKL6hGtE "Barry Syx Confronts Barry Nyne (D20 Animated Preview)" 2025-12-02, 24 s vertical.`,
+    schema: {
+      type: 'object',
+      properties: {
+        shorts: { type: 'array', items: { type: 'object', properties: { title: { type: 'string' }, dropout_slug: { type: 'string' }, release_date: { type: 'string' }, members_id: { type: 'string' }, public_id: { type: 'string' }, public_short_id: { type: 'string' }, durations: { type: 'string' }, season_doc: { type: 'string' }, after_entry: { type: 'string' }, confidence: { type: 'string' }, evidence: { type: 'string' } }, required: ['title', 'dropout_slug', 'release_date', 'members_id', 'public_id', 'public_short_id', 'durations', 'season_doc', 'after_entry', 'confidence', 'evidence'] } },
+        previews: { type: 'string' },
+        notes: { type: 'string' },
+      },
+      required: ['shorts', 'previews', 'notes'],
+    },
+  },
+}
+
+const RESEARCH_DISABLED = () => pipeline(
+  Object.entries(RESEARCH),
+  ([key, r]) => agent(r.prompt, { label: r.label, phase: 'Research', schema: r.schema }).then((result) => ({ key, result })),
+  async ({ key, result }) => {
+    if (!result) return { key, result: null, check: null }
+    const check = await agent(`Another researcher produced the following result. Your job is to try to refute it, row by row, from sources you find yourself (WebSearch and WebFetch are available; prefer a different source from the one each row cites). Original task: ${RESEARCH[key].prompt.slice(0, 1500)}
+
+Result to check:
+${JSON.stringify(result, null, 1)}
+
+For every row say whether it holds, and where it does not, what the right value is and your source. Then set refuted=true if any row is wrong or unsupported, with the corrections listed in "correction" as one line per row ("<title>: <field> should be <value> (<source>)"). If every row holds, refuted=false.`, { label: `refute:${key}`, phase: 'Verify', schema: REFUTE })
+    return { key, result, check }
+  },
+)
+
+const order = await orderResults
+log(`order: ${order.filter(Boolean).length} docs judged (research runs outside this workflow)`)
+return { order: order.filter(Boolean) }

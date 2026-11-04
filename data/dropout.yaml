@@ -36763,7 +36763,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - new-releases
-lastmod:       2026-11-02T00:00:00.000Z
+lastmod:       2026-11-03T00:00:00.000Z
 title:         'Jacob, Jess, and Carl Are Sooooo Close to Touching'
 seasonNumber:  5
 episodeNumber: 2
@@ -61366,7 +61366,6 @@ scrapedAt:     2026-08-31T18:29:59.934Z
 slug:          that-s-a-bang-off
 collection:    smartypants-season-3
 collections:
-- new-releases
 - smartypants-season-3
 lastmod:       2026-11-02T00:00:00.000Z
 title:         That's a Bang-Off
@@ -67310,9 +67309,8 @@ collections:
 - brennan-being-pedantic-on-make-some-noise
 - make-some-noise-new
 - make-some-noise-season-5
-- new-releases
 - noise-boys
-lastmod:       2026-11-02T00:00:00.000Z
+lastmod:       2026-11-03T00:00:00.000Z
 title:         The Noise Boys Make One Noise
 seasonNumber:  5
 episodeNumber: 1

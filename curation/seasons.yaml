@@ -1473,6 +1473,7 @@ videos:
     published: 2022-01-20
   - episode: 3. Wrecked on Rec 97
     dropout: wrecked-on-rec-97
+    public: Om_BCIIO9yM
     members: 1aeZiZT9kjs
     published: 2022-01-26
   - bts: The Ball Continues Rolling Up
@@ -8365,6 +8366,10 @@ videos:
     talkback: true
     members: I-ea4riUfcE
     published: 2026-10-22
+  # Made for the Short, about the minis themselves, and in no episode.
+  - bts: Behind The Scenes of the Toylight Minis
+    public: KAa7o-as53Q
+    published: 2026-11-03
 
 ---
 

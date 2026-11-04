@@ -1725,7 +1725,8 @@ show: Critical Role
 season: Campaign 4
 videos:
   - trailer: Campaign 4 Trailer
-    public: Ip96yVlQ3B4
+    public: jgK_qRwpygA
+    public short: Ip96yVlQ3B4
     published: 2025-09-18
   - episode: 1. The Fall of Thjazi Fang
     public: 3Mbynm0pGX0
@@ -1833,8 +1834,11 @@ videos:
     public: 5_KeVMfbE2k
     members: cqNXpLG_uVA
     published: 2026-05-11
+  # The horizontal cut is titled "The Tables Converge" and went up three and a
+  # half hours before the vertical one, with the same synopsis.
   - trailer: Convergence Trailer
-    public: RkVA3XQ-A1c
+    public: Uo9z2gIUmUo
+    public short: RkVA3XQ-A1c
     published: 2026-05-21
   - episode: 26. Council of Heroes
     public: z_JOnA_1We0
@@ -2263,7 +2267,7 @@ videos:
   # 20 channel, on Dropout's, and as a Short.
   - trailer: Dimension 20 New Season Teaser
     public: rM0CfvUbVNE
-    public copy: kQaPvjtQ2c8
+    members: kQaPvjtQ2c8
     public short: lWN_8r_U7Lg
     published: 2023-02-27
   - trailer: The Ravening War Trailer

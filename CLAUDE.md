@@ -199,11 +199,11 @@ apart, which no weekly run explains.
 
 ## Tests
 
-`deno task test` runs `test.ts`: 41 cases covering the sitemap and episode-page
+`deno task test` runs `test.ts`: 42 cases covering the sitemap and episode-page
 parsers, title normalisation, the playlist diff, storage flushing on an aborted
 run, the channel-playlist merge, the scan and resolve cadences, the video-record
-reader, the credentials advice, the release-date ranking, and `aggregate`'s
-watchable and description rules. They take under a second.
+reader, the credentials advice, the release-date ranking, `aggregate`'s
+watchable and description rules, and the filing check. They take under a second.
 
 `deno task check` runs it, along with the type check, the linter and the
 formatter, and the GitHub Action runs `deno task check` and nothing else. One
@@ -530,6 +530,14 @@ A Short is judged by what it holds, not by its shape or length:
   minis auction, a map reveal -- is a `bts` of the season it belongs to. That is
   how Dungeons and Drag Queens was curated by hand, and it is the model.
 - A cut-down of a longer video, or a moment out of an episode, is an excerpt.
+
+`aggregate` checks the filing on every run and prints what it finds as `filing:`
+lines (`src/filing.ts`): a `members` id that is a free upload, a `public` or
+`public copy` that is members-only, a `public short` that is not vertical or
+runs more than three seconds from its trailer, and a vertical `public` with an
+unnamed horizontal upload of the same length, from the same day and channel,
+which is the one that should be published. Critical Role's Convergence trailer
+was found that way, its horizontal cut titled "The Tables Converge".
 
 A sweep for uncurated videos that drops vertical uploads, or everything under a
 minute, never weighs any of these. The first pass of the 2026-11-03 review

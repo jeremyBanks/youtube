@@ -826,3 +826,76 @@ Deno.test("a description calls its extras trailers only while they all are", () 
     throw new Error("kept calling a set tour a trailer");
   }
 });
+
+import { filingProblems } from "./src/filing.ts";
+
+Deno.test("filing finds ids in the wrong field, and the twin a vertical public hides", () => {
+  const at = new Date("2026-05-21T17:00:00Z");
+  const later = new Date("2026-05-21T20:30:00Z");
+  const videos = [
+    { videoId: "free", channelId: "C", duration: 31 },
+    {
+      videoId: "paid",
+      channelId: "C",
+      duration: 31,
+      membersOnly: true as const,
+    },
+    { videoId: "wide", channelId: "C", duration: 86, publishedAt: at },
+    {
+      videoId: "tall",
+      channelId: "C",
+      duration: 86,
+      publishedAt: later,
+      embedSize: "405x720",
+    },
+    {
+      videoId: "cut",
+      channelId: "C",
+      duration: 20,
+      publishedAt: later,
+      embedSize: "405x720",
+    },
+  ];
+  const problems = (entry: Parameters<typeof filingProblems>[0][0]["entry"]) =>
+    filingProblems(
+      [{ where: "w", entry }],
+      videos,
+      new Set(Object.values(entry)),
+    );
+  const cases: Array<[string, Parameters<typeof problems>[0], RegExp | null]> =
+    [
+      ["a well-filed entry", { public: "free", members: "paid" }, null],
+      ["members naming a free upload", { members: "free" }, /is a free upload/],
+      [
+        "a copy that is members-only",
+        { "public copy": "paid" },
+        /members-only/,
+      ],
+      [
+        "a short that is not vertical",
+        { "public short": "wide" },
+        /not vertical/,
+      ],
+      [
+        "a short that is a cut-down",
+        { public: "wide", "public short": "cut" },
+        /cut-down/,
+      ],
+      ["a vertical public beside its twin", { public: "tall" }, /horizontal/],
+      [
+        "the twin, once curated",
+        { public: "wide", "public short": "tall" },
+        null,
+      ],
+      // A vertical upload with nothing horizontal beside it is the video.
+      ["a Short made for its own sake", { public: "cut" }, null],
+    ];
+  for (const [label, entry, expected] of cases) {
+    const found = problems(entry);
+    if (
+      expected === null ? found.length : !found.some((p) => expected.test(p))
+    ) {
+      throw new Error(`${label}: ${JSON.stringify(found)}`);
+    }
+  }
+});

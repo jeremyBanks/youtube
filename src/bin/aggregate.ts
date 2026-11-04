@@ -5,6 +5,7 @@ import {
   getSeasonsCuration,
 } from "../config.ts";
 import { isAggregate, showPrefixes } from "../dropout-link.ts";
+import { filingProblems } from "../filing.ts";
 import * as yaml from "../yaml.ts";
 import { normalizeTitle } from "../common.ts";
 import {
@@ -406,6 +407,36 @@ async function main() {
     videoId: string,
   ): { title?: string; duration?: number } | undefined =>
     videosById.get(videoId) ?? resolvedById.get(videoId);
+
+  const curatedIds = new Set<string>();
+  for (const season of seasons) {
+    for (const entry of season.videos) {
+      for (const value of Object.values(entry)) {
+        for (const id of [value].flat()) {
+          if (typeof id === "string") curatedIds.add(id);
+        }
+      }
+    }
+  }
+  for (
+    const problem of filingProblems(
+      seasons.flatMap((season) =>
+        season.videos.map((entry) => ({
+          where: `${season.show}${
+            season.season ? ` / ${season.season}` : ""
+          }: ${
+            entry.episode ?? entry.special ?? entry.trailer ?? entry.bts ??
+              entry.animation ?? entry.external
+          }`,
+          entry,
+        }))
+      ),
+      [...resolvedById.values(), ...videosById.values()],
+      curatedIds,
+    )
+  ) {
+    console.warn(`filing: ${problem}`);
+  }
 
   playlists.length = 0;
 

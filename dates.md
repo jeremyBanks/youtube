@@ -67,11 +67,12 @@ it whenever anything better exists.
 | TheTVDB         | fan catalogue                    | right in cadence; matches a same-day free upload; some placeholders |
 | public upload   | a real publication               | right where it is the earliest; a re-upload where it is not         |
 | audio-only page | released with or after the video | an upper bound; equals the video's date in 239 of 252 cases         |
+| TVmaze, TMDB    | fan catalogues, read by hand     | corroboration; the only dated source for See Plum Run               |
 | members upload  | an upload                        | wrong in either direction by days to years                          |
 
 TheTVDB's tables were transcribed by hand for thirteen shows and checked against
 each show's weekly cadence before use. See Plum Run's are placeholders (every
-episode 2018-01-01) and were left out.
+episode 2018-01-01) and were left out; TVmaze and TMDB date it instead.
 
 This table once said TheTVDB was "sometimes a day late (UTC)". Nothing measured
 supports it. Of the 21 entries whose free upload went up on a TheTVDB date,
@@ -98,6 +99,12 @@ each:
   Wednesday. TheTVDB and TVmaze put all 15 episodes on consecutive Thursdays,
   TVmaze at 09:00 Pacific, this one at 04-11.
 
+Nine more pages carry no date at all. See Plum Run's, which TVmaze and TMDB
+agree on: episode 1 on Dropout's launch day, 2018-09-26, then weekly Mondays to
+11-19, the run Wikipedia's list of Dropout originals gives. The curation had
+episode 1 at its free upload and the other eight at the 2019 members backfill.
+Those are overrides too, so `verify-dates` checks them like any other.
+
 Dropout's episode numbering is a separate matter and is sometimes not release
 order (Um, Actually season 3, Breaking News season 3). The curation's numbers
 are Dropout's; the dates are the releases; the two need not agree.
@@ -110,8 +117,10 @@ Run `deno task verify-dates --unmatched` for the live list. As of the review:
   uploads are one batch. The curated dates, five a week from 2024-11-11, are the
   show's original run as shorts and could not be checked against a catalogue.
 - **The CollegeHumor-era shows with no TheTVDB table**: Um, Actually seasons 1
-  and 2 (hand-entered; season 2 was confirmed against TheTVDB), See Plum Run,
-  Kingpin Katie's shorts, the Unlisted doc.
+  and 2 (hand-entered; season 2 was confirmed against TheTVDB), the Unlisted
+  doc, and Kingpin Katie's web series. Its first four shorts are dated by their
+  free run, Thursdays and Mondays from 2019-07-04; the last three never went up
+  free and rest on their members upload.
 - **Entries with no Dropout page and no public upload**: a handful of talkbacks
   and behind-the-scenes extras dated by their members upload, which for those is
   usually within a day or two of the release.
@@ -143,3 +152,6 @@ go inside the season they depict and are out of date order by design.
 - **2026-11-03**: the review above. 290 dates from Dropout's pages, 172 from
   TheTVDB; three entries with public and members ids swapped; the rule moved
   into `verify-dates`.
+- **2026-11-03, second pass**: See Plum Run dated from TVmaze and TMDB, and free
+  uploads that no title search had found -- renamed, but carrying Dropout's
+  synopsis -- dating the entries they belong to.

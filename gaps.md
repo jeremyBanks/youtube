@@ -5,7 +5,10 @@ watch.dropout.tv, and how far either answer can be trusted. A companion to
 `dates.md`, which does the same for release dates.
 
 Investigated 2026-09-02. The numbers are a snapshot; the method and its limits
-are the durable part.
+are the durable part. They are now stale in both directions: several of the
+items below have since been curated, and the 2026-11-03 review found free cuts
+that this method could not have matched (renamed, and found by their Dropout
+synopsis) and Shorts it never weighed (see "The under-five-minute bulk").
 
 ## The method, and why it is only ever approximate
 
@@ -78,8 +81,10 @@ channels we scan:
    found and curated: a public upload from 2021-06-02, dated 2020-04-20 by the
    season's weekly Monday run.
 2. **The six original Don't Hug Me I'm Scared web shorts** — CREATIVITY, TIME,
-   LOVE, COMPUTERS, FOOD, DREAMS. On YouTube, but on the DHMIS channel, which is
-   not one we scan. Dropout's own channel carries only the 2026 series.
+   LOVE, COMPUTERS, FOOD, DREAMS. On YouTube, but on the DHMIS channel, which
+   was not one we scanned. Dropout's own channel carries only the 2026 series.
+   The channel is scanned now, and the six are curated in a season-less doc
+   ahead of the series.
 
 Sixteen other candidates were checked individually by agent and all sixteen
 existed on YouTube under a different title.
@@ -140,9 +145,15 @@ exists in exactly one place.
 CollegeHumor-to-Dropout transition year. Likely a structural cause rather than
 66 separate ones; worth understanding as a batch.
 
-**4. The 8,604 under five minutes, deprioritised.** Believed to be
-overwhelmingly `#shorts` and clips. **This is a judgement, not a finding** — a
-random sample of 50 would settle it and has not been done.
+**4. The under-five-minute bulk.** The 8,604 under five minutes were set aside
+here as believed to be overwhelmingly `#shorts` and clips, a judgement rather
+than a finding. The 2026-11-03 review weighed two slices of them one by one
+rather than sampling: every vertical upload and everything of a minute or less
+on the channels we curate. The belief held for most of those, but not all.
+Teasers that go up before a season, set tours, minis auctions and map reveals
+are made for the Short and appear in no episode, and those are now curated as
+trailers and behind-the-scenes extras. What remained was clips and cut-downs,
+and one Don't Hug Me I'm Scared teaser, "HARK!", that nothing yet places.
 
 ## The one that proves the point
 

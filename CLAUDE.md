@@ -112,7 +112,7 @@ published or committed before anyone asked how we knew.
   search across `data/`, when the Jake and Amir channel — the one channel likely
   to carry it — was not being scanned at all.
 - **"No tests exist"**, from globbing `*_test.ts` and `*.test.ts`. The suite is
-  `test.ts` in the repo root, 617 lines and 28 cases.
+  `test.ts` in the repo root, and held 28 cases at the time.
 - **See Plum Run "was pulled from watch.dropout.tv"**, from a count grouped by
   `showTitle`. It is on the site, and that sentence reached the published
   playlist description on a channel with real subscribers.
@@ -199,9 +199,11 @@ apart, which no weekly run explains.
 
 ## Tests
 
-`deno task test` runs `test.ts`: 28 cases covering the sitemap and episode-page
-parsers, title normalisation, the playlist diff, and storage flushing on an
-aborted run. They take under a second.
+`deno task test` runs `test.ts`: 41 cases covering the sitemap and episode-page
+parsers, title normalisation, the playlist diff, storage flushing on an aborted
+run, the channel-playlist merge, the scan and resolve cadences, the video-record
+reader, the credentials advice, the release-date ranking, and `aggregate`'s
+watchable and description rules. They take under a second.
 
 `deno task check` runs it, along with the type check, the linter and the
 formatter, and the GitHub Action runs `deno task check` and nothing else. One
@@ -232,10 +234,23 @@ src/bin/                       # One file per task
 ```
 
 Every task: `scan`, `scan-dropout`, `curate`, `aggregate`, `publish`,
-`verify-dates`, `resolve`, `check`. Two not covered elsewhere in this file:
+`verify-dates`, `resolve`, `link`, `verify-playlists`, `test`, `check`. Four not
+covered elsewhere in this file:
 
-- `deno task scan --window=P96D` scans every actively-tracked channel back that
-  far regardless of cadence. For backfilling a newly-captured field, where the
+- `deno task link` proposes `dropout:` links for entries that have none, each
+  with the evidence for and against it, chiefly how much of Dropout's synopsis
+  reappears in the YouTube description. It only reports; `--write` applies what
+  `--accept` or `--min-coverage` names. A title match is a lead, not a verdict:
+  a pass that took a unique one as proof wrote 31 wrong links, behind-the-scenes
+  companions taking their episode's slug among them.
+- `deno task verify-playlists` compares the channels' own playlists with the
+  curation and reports three things: videos in a playlist we cover that no entry
+  names (`--uncovered`), entries naming only a members video where a free upload
+  of the same episode exists (`--free`), and playlists that order shared videos
+  differently from us (`--order`). Dropout organises its channels differently on
+  purpose, so a difference is a question, not a fault.
+- `deno task scan --window=P96D` scans every configured channel back that far
+  regardless of cadence. For backfilling a newly-captured field, where the
   scheduled tiers would otherwise skip a recently-scanned channel.
 - `deno task resolve --ids=a,b,c` (or `--unknown`) looks up video ids directly,
   50 per request. It never _creates_ a `data/videos.yaml` record — one fetched
@@ -403,12 +418,25 @@ videos:
 - `animation`: Animated content
 - `external`: Content on other channels
 
+`aggregate` counts `episode` and `special` as episodes and every other kind as
+an extra, and the published name and description follow from the counts rather
+than from fixed strings. "All Episodes" needs every Dropout episode of the
+collections the playlist links to be carried or knowingly left out, and falls
+back to "Full Episodes" otherwise; "and Extras" needs one extra that is not a
+trailer. A description's "N trailers" says "extras" for the same reason, since a
+set tour is not a trailer.
+
 ### Video ID Fields
 
 - `public`: Free version on YouTube
 - `members`: Dropout members-only version
 - `paid`: Paid/rental version
-- `public copy`: Re-uploaded public version
+- `public copy`: Another free upload of the same thing, usually on a show's own
+  channel. Where the two are the same video -- the same shape, and within 64
+  seconds of each other, which covers bumpers and an ad read -- `aggregate`
+  publishes whichever is on the channel the curation draws fewer videos from, so
+  a show's own channel wins over Dropout's. A copy that has gone never wins, and
+  one still served stands in for a `public` that has gone.
 - `public short`: The vertical cut uploaded alongside a trailer for Shorts —
   same content and length, 405x720 rather than 1280x720. Recorded, never
   published. Which is which is now stored: `embedSize` on the video record, see
@@ -426,6 +454,11 @@ stopped appearing in a listing, an entry left a playlist. That is all a listing
 can tell us, and an unlisted video leaves one exactly as a destroyed one does.
 The word `deleted` is reserved for the one place we can prove it —
 `absence: deleted`, from a 404 at the oEmbed endpoint on a direct lookup by id.
+
+`aggregate` publishes an id only while it is watchable as far as anything has
+observed: a video that left its uploads listing counts again only once `resolve`
+found it public or unlisted, never with an `absence` verdict, and never when its
+region lists leave nobody able to watch it.
 
 ### What a video record stores
 
@@ -485,7 +518,23 @@ playlist beside the thing it was cut from. "First N minutes" previews above all
 — those are deliberately incomplete — but equally a single moment lifted out of
 an episode, or a short promo cut down from a longer trailer. The full version is
 the entry; the excerpt is noise. This is why the shorts channels are scanned but
-almost never curated.
+almost never curated. Dirty Laundry's drink videos are excerpts too: every
+episode has a drink segment, and they are cut out of it.
+
+A Short is judged by what it holds, not by its shape or length:
+
+- A vertical upload the same length as a curated trailer is that trailer's twin,
+  and goes in its `public short`.
+- A teaser that goes up before its season is a `trailer` of that season.
+- Something made for the Short and in no episode -- a set tour, a sketch, a
+  minis auction, a map reveal -- is a `bts` of the season it belongs to. That is
+  how Dungeons and Drag Queens was curated by hand, and it is the model.
+- A cut-down of a longer video, or a moment out of an episode, is an excerpt.
+
+A sweep for uncurated videos that drops vertical uploads, or everything under a
+minute, never weighs any of these. The first pass of the 2026-11-03 review
+filtered exactly that way, and that is how a run of teasers, set tours and minis
+auctions stayed uncurated through it.
 
 ## When one of ours duplicates an official one
 
@@ -508,11 +557,11 @@ Exandria Unlimited: Divergence is Critical Role's.
 
 `deno task scan` records the playlists of the channels it scans into
 `data/channel-playlists.yaml` — observed, unlike `data/playlists.yaml`, which is
-what we intend to publish. Scope follows `config/scan.toml`: a channel counts as
-tracked when it has a `recent-window`, so the parked ones are excluded without a
-second list. `--channel=` restricts a run, `--playlists-only` does the playlist
-pass and skips the videos, and `--skip-playlists` the reverse. There is no
-`scan-playlists` task; this file claimed one for a while.
+what we intend to publish. A channel's playlists are read in the same pass as
+its videos, whenever `config/scan.toml`'s cadences make the channel due, so the
+two cannot fall out of step. `--channel=` restricts a run, `--playlists-only`
+does the playlist pass and skips the videos, and `--skip-playlists` the reverse.
+There is no `scan-playlists` task; this file claimed one for a while.
 
 The playlist pass runs daily in the same GitHub Action as the channel scan, and
 first: at roughly 300 quota units against a 10,000-unit day it is cheap, and it
@@ -660,12 +709,15 @@ first, an earlier public upload over it, the audio-only page as an upper bound,
 the members upload last, and never a later date on upload evidence alone.
 `deno task verify-dates` applies that to every entry and prints each
 disagreement as `curated X, expected Y (source)`; `--sources` counts where the
-dates come from and `--unmatched` lists what rests on no catalogue. Where
-Dropout's own date is wrong, `[release-dates]` in `config/dropout.toml`
+dates come from and `--unmatched` lists what rests on no catalogue. It also
+reports ambiguous title matches, `dropout:` slugs that name no page, links to a
+page Dropout has since removed (with its replacement, if one has the same
+title), and a video named by two entries that disagree on its date or link.
+Where Dropout's own date is wrong, `[release-dates]` in `config/dropout.toml`
 overrides it, with the evidence beside each.
 
-See `dates.md` for the measurements behind the ranking, the four Dropout dates
-known to be wrong, and what still rests on nothing better.
+See `dates.md` for the measurements behind the ranking, the pages where
+Dropout's own date is wrong or missing, and what still rests on nothing better.
 
 ```bash
 deno task scan-dropout                 # sitemap diff + budgeted detail fetches

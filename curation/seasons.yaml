@@ -9019,8 +9019,12 @@ videos:
     dropout: bathroom-run
     public: 0z7p0oM4_RM
     published: 2012-12-13
-  # Dropout also carries "Scareduke - Outtakes" (scareduke-outtakes); no
-  # upload of it is on any channel we scan, searched by title 2026-11-03.
+  # Dropout also carries "Scareduke - Outtakes" (scareduke-outtakes). It is not
+  # on YouTube as far as anything we hold can show: nothing went up on this
+  # channel between Scareduke and Holopad but other series, no title on any
+  # scanned channel names it, and both of the channel's Troopers playlists hold
+  # Scareduke and Holopad side by side. A video deleted before our first scan
+  # would leave none of those traces.
   - episode: 018. Scareduke
     dropout: scareduke
     public: VsulPjOqr6I

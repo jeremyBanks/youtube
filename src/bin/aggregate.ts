@@ -650,7 +650,12 @@ async function main() {
             countExtra(episode);
           }
         } else if (episode["public parts"]) {
-          freeCount += 1;
+          // The sentence this feeds says "N videos are free", and a viewer
+          // checks it against the playlist's length, so a split episode is
+          // counted by its parts: one episode, several videos. Counting the
+          // entry had Fantasy High's free and members figures sum to 108 in
+          // a playlist of 111.
+          freeCount += episode["public parts"].length;
           videoIds.push(...episode["public parts"]);
           included.push(episode);
           if (episode.episode || episode.special) {

@@ -9,7 +9,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (trailers an
 name = "Um, Actually (${ALL_SEASONS})"
 show = "Um, Actually"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (trailers and behind-the-scenes videos) from ${SEASONS} seasons of Um Actually, the game show where nerds correct nerds. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (trailers and behind-the-scenes videos) from ${SEASONS} seasons of Um, Actually, the game show where nerds correct nerds. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pBIEdqpWKGZXaUroUOThmmJ]
@@ -433,7 +433,7 @@ unlisted = true
 show = "Critical Role"
 season = "Campaign 4"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes from Campaign 4, the ongoing Critical Role campaign run by Brennan Lee Mulligan.
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Campaign 4, the ongoing Critical Role campaign run by Brennan Lee Mulligan.
 """
 
 [PLObfuAmZm9pBkqeNiz1HTbsg3r5cwiZzG]
@@ -529,11 +529,14 @@ ${HOURS}-hour playlist of full-length movies from Dropout. ${MAYBE_MEMBERS_ONLY}
 [PLZQz_bbjUbkE]
 # Fixed rather than "${ALL_SEASONS}": every entry is a `bts:` selected by its
 # talkback flag, so nothing here counts as an episode, yet for this show the
-# talkbacks are the episodes.
-name = "Dimension 20: Adventuring Party (All Episodes and Extras)"
+# talkbacks are the episodes, which is why the description counts them with
+# ${EXTRAS}. "All" is checked rather than assumed: the 254 talkbacks link one
+# to one to the 254 episodes of Dropout's 25 Adventuring Party seasons. There
+# is nothing else in it, so it does not claim "and Extras".
+name = "Dimension 20: Adventuring Party (All Episodes)"
 talkback = true
 description = """
-${HOURS}-hour playlist of ${EXTRAS} episodes/extras from Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EXTRAS} episodes of Adventuring Party, the Dimension 20 talkback show where the cast and guests unpack each episode after it airs. ${MAYBE_MEMBERS_ONLY}
 
 ${D20_PLUG}
 """
@@ -666,7 +669,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Parano
 name = "Kingpin Katie (${ALL_SEASONS})"
 show = "Kingpin Katie"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes of Kingpin Katie, in which a comedy writer becomes a hapless drug dealer, and the CollegeHumor web series it grew out of. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Kingpin Katie, in which a comedy writer becomes a hapless drug dealer, and the CollegeHumor web series it grew out of. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLZPDSrk5XDEA]

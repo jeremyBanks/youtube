@@ -59,6 +59,13 @@ now carries the `?code=`. Paste that whole URL into
 `deno task publish --auth-url="…"`, with or without its `http://`, and the
 tokens are stored for every task. The refresh token lasts weeks, not forever.
 
+Neither flag publishes. If the stored tokens still work, `--headless` says so
+and exits, and that is the way to find out whether authorising is needed. It
+used to be a publish in disguise: with working tokens it went straight on and
+updated every playlist, and on 2026-11-04 a run meant only to check the tokens
+began publishing a diff that had been read but not yet released. Publishing is
+only ever plain `publish`.
+
 ## Credentials, and which of them are secret
 
 `src/credentials.ts` holds everything about getting authorised, and the rule is

@@ -5,6 +5,7 @@ import { delay } from "@std/async";
 import { retryWithBackoff, spinning } from "./common.ts";
 import {
   ACCESS_TYPE,
+  clientId,
   REDIRECT_URI,
   requireCredentials,
   SCOPE,
@@ -80,8 +81,13 @@ export const storedClientAuthAndKey = async (): Promise<
     return undefined;
   }
   const { youtube, key } = await getClientAndKey();
+  // The id through `clientId()`, which falls back to the built-in one. This
+  // read the environment alone, and the id has lived in source since it was
+  // found not to be secret, so every refresh here was refused: once the
+  // hour-long access token lapsed, a dry run quietly went key-only, and a
+  // probe built on this reported working tokens as dead.
   const auth = new googleapis.google.auth.OAuth2({
-    clientId: Deno.env.get("YOUTUBE_CLIENT_ID"),
+    clientId: clientId(),
     clientSecret: Deno.env.get("YOUTUBE_CLIENT_SECRET"),
     redirectUri: REDIRECT_URI,
   });

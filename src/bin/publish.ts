@@ -1,5 +1,10 @@
 import { parseArgs } from "@std/cli";
-import { createPlaylist, setAuthMode, updatePlaylist } from "../client.ts";
+import {
+  createPlaylist,
+  getClientAuthAndKey,
+  setAuthMode,
+  updatePlaylist,
+} from "../client.ts";
 import { openPlaylistsStorage } from "../storage.ts";
 import { runMain } from "../credentials.ts";
 
@@ -56,14 +61,31 @@ async function main() {
 Options:
   --playlist=NAME    Only publish a specific playlist (by name or ID)
   --headless         Print the authorisation URL and exit, instead of
-                     opening a local server for the redirect
+                     opening a local server for the redirect; if the stored
+                     tokens still work, say so and exit
   --auth-url=URL     Complete authorisation with the URL the browser was
-                     redirected to after --headless
+                     redirected to after --headless, store the tokens, exit
+                     (neither flag publishes anything)
   --create-missing   Create playlists that have no ID or start with 'todo-'
   --dry-run          Show what would be done without making changes
   --help             Show this help message
 `);
     Deno.exit(0);
+  }
+
+  // Authorising is all these two flags do. `--headless` was documented as
+  // printing the URL and exiting, and did -- but only when the tokens had
+  // lapsed. With working tokens it went on and published every playlist, so
+  // the command run to check whether authorisation was needed was itself a
+  // publish, and one nobody had chosen to run. Now each authorises (or finds
+  // it has nothing to do) and stops, and publishing is only ever `publish`.
+  if (args.headless || args["auth-url"]) {
+    await getClientAuthAndKey();
+    console.log(
+      "Authorised: the stored tokens work, and nothing was published. " +
+        "Read `deno task publish --dry-run`, then run `deno task publish`.",
+    );
+    return;
   }
 
   const createMissing = args["create-missing"];

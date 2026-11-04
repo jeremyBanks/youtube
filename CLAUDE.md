@@ -206,11 +206,12 @@ apart, which no weekly run explains.
 
 ## Tests
 
-`deno task test` runs `test.ts`: 42 cases covering the sitemap and episode-page
+`deno task test` runs `test.ts`: 44 cases covering the sitemap and episode-page
 parsers, title normalisation, the playlist diff, storage flushing on an aborted
 run, the channel-playlist merge, the scan and resolve cadences, the video-record
 reader, the credentials advice, the release-date ranking, `aggregate`'s
-watchable and description rules, and the filing check. They take under a second.
+watchable and description rules, singular counts, and the filing and order
+checks. They take under a second.
 
 `deno task check` runs it, along with the type check, the linter and the
 formatter, and the GitHub Action runs `deno task check` and nothing else. One
@@ -425,6 +426,16 @@ videos:
 - `animation`: Animated content
 - `external`: Content on other channels
 
+An `animation:` is published only by a playlist whose `type` list names it, and
+none does: a playlist with no `type` carries every other kind. That is the
+default because the Game Changer shorts once reached the public Game Changer
+playlist through a definition that named no types.
+
+`premiered:` beside `published:` records an earlier first showing somewhere
+neither YouTube nor watch.dropout.tv -- a broadcast, a live stream -- known to
+the day. `published:` stays the first day on either. `verify-dates` reports a
+`premiered:` that is not earlier. No entry uses it yet.
+
 `aggregate` counts `episode` and `special` as episodes and every other kind as
 an extra, and the published name and description follow from the counts rather
 than from fixed strings. "All Episodes" needs every Dropout episode of the
@@ -550,6 +561,15 @@ runs more than three seconds from its trailer, and a vertical `public` with an
 unnamed horizontal upload of the same length, from the same day and channel,
 which is the one that should be published. Critical Role's Convergence trailer
 was found that way, its horizontal cut titled "The Tables Converge".
+
+It also prints `order:` lines (`src/order.ts`): an entry filed after one with a
+later `published:`. Three things are excused as conventions: a trailer ahead of
+what it trails, episodes in Dropout's number order where that is not release
+order, and `animation:` entries beside their moment. The 28 that remain are a
+mix of deliberate placements, such as Fantasy High's Extra Credit recaps beside
+the episodes they recap, and wrong dates or file order. They are not to be swept
+as a batch: `research/interrupted-2026-11-04/` has the two judged so far, and a
+review of the rest was closed by choice.
 
 A sweep for uncurated videos that drops vertical uploads, or everything under a
 minute, never weighs any of these. The first pass of the 2026-11-03 review

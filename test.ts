@@ -914,3 +914,88 @@ Deno.test("filing finds ids in the wrong field, and the twin a vertical public h
     }
   }
 });
+
+import { episodeNumber, orderProblems } from "./src/order.ts";
+import { singular } from "./src/bin/aggregate.ts";
+
+Deno.test("order flags what is out of release order and excuses the conventions", () => {
+  const day = (d: string) => new Date(`${d}T17:00:00Z`);
+  const problems = (videos: Parameters<typeof orderProblems>[0][0]["videos"]) =>
+    orderProblems([{ where: "w", videos }]);
+  const cases: Array<[string, Parameters<typeof problems>[0], number]> = [
+    ["release order", [
+      { episode: "1. A", published: day("2020-01-01") },
+      { bts: "B", published: day("2020-01-02") },
+    ], 0],
+    ["a trailer dated after the premiere leads anyway", [
+      { trailer: "T", published: day("2020-01-08") },
+      { episode: "1. A", published: day("2020-01-01") },
+    ], 0],
+    ["a trailer sits before the special it trails", [
+      { episode: "1. A", published: day("2020-01-01") },
+      { trailer: "T", published: day("2020-02-08") },
+      { special: "S", published: day("2020-02-01") },
+    ], 0],
+    ["episodes keep Dropout's numbering", [
+      { episode: "204. D", published: day("2019-10-21") },
+      { episode: "205. E", published: day("2019-09-25") },
+    ], 0],
+    ["an animation beside its moment", [
+      { episode: "1. A", published: day("2020-01-01") },
+      { animation: "X", published: day("2022-01-01") },
+      { episode: "2. B", published: day("2020-01-08") },
+    ], 0],
+    ["an extra filed after a later one", [
+      { bts: "late", published: day("2020-03-01") },
+      { bts: "early", published: day("2020-02-01") },
+    ], 1],
+    ["an extra filed before the episode it follows", [
+      { bts: "B", published: day("2020-01-09") },
+      { episode: "1. A", published: day("2020-01-01") },
+    ], 1],
+    ["episodes out of both orders", [
+      { episode: "2. B", published: day("2020-01-08") },
+      { episode: "1. A", published: day("2020-01-01") },
+    ], 1],
+  ];
+  for (const [name, videos, expected] of cases) {
+    const got = problems(videos);
+    if (got.length !== expected) {
+      throw new Error(
+        `${name}: ${got.length} problems, expected ${expected}: ${
+          got.join("; ")
+        }`,
+      );
+    }
+  }
+  if (
+    episodeNumber("206. Yes or No") !== 206 ||
+    episodeNumber("Live") !== undefined
+  ) {
+    throw new Error("episodeNumber");
+  }
+});
+
+Deno.test("a count of one takes a singular noun, wherever the noun sits", () => {
+  const cases: Array<[string, string]> = [
+    ["1 videos are free and 2 require", "1 video is free and 2 require"],
+    ["1 full-length movies from Dropout", "1 full-length movie from Dropout"],
+    ["1 weekly schedule announcements", "1 weekly schedule announcement"],
+    ["1 free episodes of Dimension 20", "1 free episode of Dimension 20"],
+    [
+      "playlist of 11 episodes and 1 Extras",
+      "playlist of 11 episodes and 1 Extra",
+    ],
+    ["All 1 videos require", "All 1 video require"],
+    ["1 series", "1 series"],
+    ["1 extra and 3 videos", "1 extra and 3 videos"],
+    ["1 trailer from 2 seasons", "1 trailer from 2 seasons"],
+    ["2021 videos", "2021 videos"],
+  ];
+  for (const [input, expected] of cases) {
+    const got = singular(input);
+    if (got !== expected) {
+      throw new Error(`${JSON.stringify(got)} !== ${JSON.stringify(expected)}`);
+    }
+  }
+});

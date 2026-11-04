@@ -143,6 +143,7 @@ export async function main() {
   const unmatched: Array<string> = [];
   const badSlugs: Array<string> = [];
   const removedLinks: Array<string> = [];
+  const premieredLate: Array<string> = [];
   const sources = new Map<DateSource | "none", number>();
 
   for (const doc of curation) {
@@ -168,6 +169,15 @@ export async function main() {
       }
       const label = `${where}: ${named.title}`;
       const curated = isoDate(video.published);
+      // `premiered:` is only ever written for a showing earlier than the one
+      // `published:` records; one that is not earlier is a mistake in one of
+      // the two.
+      if (video.premiered && +video.premiered >= +video.published) {
+        premieredLate.push(
+          `${label}: premiered ${isoDate(video.premiered)} is not before ` +
+            `published ${curated}`,
+        );
+      }
 
       let match: DropoutEpisode | undefined;
       if (video.dropout) {
@@ -288,6 +298,15 @@ export async function main() {
       }
     }
   }
+  if (premieredLate.length) {
+    console.info(
+      `\n${premieredLate.length} premiered dates not before their release:`,
+    );
+    for (const line of premieredLate) {
+      console.info(`  ${line}`);
+    }
+  }
+
   const disagreements = new Set<string>();
   for (const [id, set] of entriesById) {
     if (set.size < 2) continue;

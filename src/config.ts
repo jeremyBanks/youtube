@@ -192,6 +192,15 @@ const SeasonsCurationYaml = z.array(
     videos: z.array(
       z.object({
         published: z.date().optional(), // XXX: should this be optional?
+        // The first day the content could be watched anywhere, when that is
+        // earlier than `published:` and known to the day: a broadcast, a live
+        // stream, a release on another platform. `published:` stays the first
+        // day on YouTube or watch.dropout.tv, which is what the pipeline can
+        // check; this records what it cannot. Don't Hug Me I'm Scared's first
+        // series aired on Channel 4 in 2022, three and a half years before
+        // Dropout's dates, and Critical Role streams every episode live on a
+        // Thursday with the VOD up on the Monday.
+        premiered: z.date().optional(),
         // Marks an Adventuring Party talkback. These live as `bts` entries
         // interleaved into the campaign they accompany, which makes them
         // indistinguishable from any other extra; this flag is what lets a

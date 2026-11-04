@@ -92,6 +92,11 @@ ${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Advent
 [PLObfuAmZm9pD9kA_rvjirtpBUtwdthWmD]
 name = "Dimension 20 (${ALL_SEASONS})"
 show = "Dimension 20"
+# `type` lists the kinds a playlist carries. Left out, a playlist carries every
+# kind but `animation`, which is recorded beside the moment it depicts and
+# published only where a list names it. The campaign playlists therefore need
+# no list; these show-wide ones have one to leave `external` out, so a video
+# from another channel appears beside its campaign and not in the whole run.
 type = ["episode", "special", "bts", "trailer"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (behind-the-scenes videos, talkback shows, and trailers) from ${SEASONS} seasons of Dimension 20. ${MAYBE_MEMBERS_ONLY}
@@ -136,7 +141,6 @@ name = "Dimension 20: Fantasy High (${ALL_SEASONS})"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 world = "Spyre"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from ${SEASONS} seasons of Fantasy High, a series of campaigns from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -148,7 +152,6 @@ name = "Dimension 20: The Unsleeping City (${ALL_SEASONS})"
 show = "Dimension 20"
 cast = "Intrepid Heroes"
 world = "The Unsleeping City"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from ${SEASONS} seasons of The Unsleeping City, a series of campaigns from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -159,7 +162,6 @@ ${D20_PLUG}
 name = "Dimension 20: Escape from the Bloodkeep (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Escape from the Bloodkeep"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Escape from the Bloodkeep, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -170,7 +172,6 @@ ${D20_PLUG}
 name = "Dimension 20: Tiny Heist (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Tiny Heist"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Tiny Heist, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -181,7 +182,6 @@ ${D20_PLUG}
 name = "Dimension 20: A Crown of Candy (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Crown of Candy"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Crown of Candy, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -192,7 +192,6 @@ ${D20_PLUG}
 name = "Dimension 20: Pirates of Leviathan (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Pirates of Leviathan"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Pirates of Leviathan, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -203,7 +202,6 @@ ${D20_PLUG}
 name = "Dimension 20: Mice and Murder (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Mice and Murder"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Mice and Murder, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -214,7 +212,6 @@ ${D20_PLUG}
 name = "Dimension 20: Misfits and Magic (${ALL_SEASONS})"
 show = "Dimension 20"
 world = "Misfits and Magic"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Misfits and Magic, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -225,7 +222,6 @@ ${D20_PLUG}
 name = "Dimension 20: The Seven (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "The Seven"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from The Seven, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -236,7 +232,6 @@ ${D20_PLUG}
 name = "Dimension 20: Shriek Week (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Shriek Week"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Shriek Week, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -247,7 +242,6 @@ ${D20_PLUG}
 name = "Dimension 20: A Starstruck Odyssey (${ALL_SEASONS})"
 show = "Dimension 20"
 world = "A Starstruck Odyssey"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from ${SEASONS} seasons of A Starstruck Odyssey, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -258,7 +252,6 @@ ${D20_PLUG}
 name = "Dimension 20: Coffin Run (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Coffin Run"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Coffin Run, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -269,7 +262,6 @@ ${D20_PLUG}
 name = "Dimension 20: A Court of Fey and Flowers (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "A Court of Fey and Flowers"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from A Court of Fey and Flowers, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -280,7 +272,6 @@ ${D20_PLUG}
 name = "Dimension 20: Neverafter (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Neverafter"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Neverafter, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -291,7 +282,6 @@ ${D20_PLUG}
 name = "Dimension 20: The Ravening War (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "The Ravening War"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from The Ravening War, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -302,7 +292,6 @@ ${D20_PLUG}
 name = "Dimension 20: Dungeons and Drag Queens (${ALL_SEASONS})"
 show = "Dimension 20"
 world = "Dungeons and Drag Queens"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from ${SEASONS} seasons of Dungeons and Drag Queens, a series of campaigns from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -313,7 +302,6 @@ ${D20_PLUG}
 name = "Dimension 20: Mentopolis (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Mentopolis"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Mentopolis, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -324,7 +312,6 @@ ${D20_PLUG}
 name = "Dimension 20: Burrow's End (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Burrow's End"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Burrow's End, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -335,7 +322,6 @@ ${D20_PLUG}
 name = "Dimension 20: Never Stop Blowing Up (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Never Stop Blowing Up"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Never Stop Blowing Up, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -349,7 +335,6 @@ name = "Dimension 20: Time Quangle (${ALL_SEASONS})"
 unlisted = true
 show = "Dimension 20"
 season = "Time Quangle"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Time Quangle, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -440,7 +425,6 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Campa
 name = "Dimension 20: Titan Takedown (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Titan Takedown"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Titan Takedown, a Dimension 20 campaign in which four wrestlers battle the gods. ${MAYBE_MEMBERS_ONLY}
 
@@ -452,7 +436,6 @@ name = "Dimension 20: Cloudward, Ho! (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Cloudward, Ho!"
 cast = "Intrepid Heroes"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras from Cloudward, Ho!, a steampunk-themed campaign from Dimension 20 featuring the Intrepid Heroes. ${MAYBE_MEMBERS_ONLY}
 
@@ -484,7 +467,6 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEA
 name = "Dimension 20: City Council of Darkness (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "City Council of Darkness"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from City Council of Darkness, a Vampire: The Masquerade campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -495,7 +477,6 @@ ${D20_PLUG}
 name = "Dimension 20: Gladlands (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Gladlands"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Gladlands, a post-apocalyptic campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -520,7 +501,7 @@ ${HOURS}-hour playlist of ${EPISODES} films and ${EXTRAS} extras from The Don He
 name = "Full Movies on Dropout"
 show = "Full Movies"
 description = """
-${HOURS}-hour playlist of full-length movies from Dropout. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} full-length movies from Dropout. ${MAYBE_MEMBERS_ONLY}
 """
 
 # Talkbacks live as bts entries interleaved into the campaign they accompany,
@@ -545,7 +526,6 @@ ${D20_PLUG}
 name = "Dimension 20: On a Bus (${ALL_SEASONS})"
 show = "Dimension 20"
 season = ["On a Bus (Season 1)", "On a Bus (Season 2)"]
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (trailers and behind-the-scenes videos) from ${SEASONS} seasons of On a Bus, a Dimension 20 campaign played entirely on a public bus. ${MAYBE_MEMBERS_ONLY}
 
@@ -556,7 +536,6 @@ ${D20_PLUG}
 name = "Dimension 20: Toylight (${ALL_SEASONS})"
 show = "Dimension 20"
 season = "Toylight"
-type = ["episode", "special", "bts", "trailer", "external"]
 description = """
 ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras (talkbacks, trailers, behind-the-scenes videos, and interviews) from Toylight, a campaign from Dimension 20. ${MAYBE_MEMBERS_ONLY}
 
@@ -669,7 +648,7 @@ ${HOURS}-hour playlist of ${EPISODES} episodes from ${SEASONS} seasons of Parano
 name = "Kingpin Katie (${ALL_SEASONS})"
 show = "Kingpin Katie"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Kingpin Katie, in which a comedy writer becomes a hapless drug dealer, and the CollegeHumor web series it grew out of. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} extras of Kingpin Katie, in which a comedy writer becomes a hapless drug dealer, followed by the seven shorts of the CollegeHumor web series that ran alongside it. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLZPDSrk5XDEA]

@@ -6,6 +6,7 @@ import {
 } from "../config.ts";
 import { isAggregate, showPrefixes } from "../dropout-link.ts";
 import { filingProblems } from "../filing.ts";
+import { orderProblems } from "../order.ts";
 import * as yaml from "../yaml.ts";
 import { normalizeTitle } from "../common.ts";
 import {
@@ -300,6 +301,45 @@ export const extraKind = (
  * trailers, and behind-the-scenes videos)" where they are not. `qualifier`
  * goes before the noun, for "82 free extras".
  */
+/**
+ * "1 videos are free" and "1 full-length movies" read as the count of a
+ * noun that may sit a word or two away from the number, so the nouns the
+ * templates use are listed and the first one within two words of a lone "1"
+ * is made singular, with its verb. A noun not listed is left alone, so "1
+ * series" is safe. Case follows the noun.
+ */
+const PLURALS: Record<string, string> = {
+  episodes: "episode",
+  extras: "extra",
+  trailers: "trailer",
+  videos: "video",
+  seasons: "season",
+  films: "film",
+  movies: "movie",
+  announcements: "announcement",
+};
+export const singular = (s: string): string =>
+  s.replace(
+    new RegExp(
+      // Up to two words may sit between the number and its noun, none of
+      // them a conjunction or a number, so "1 extra and 3 videos" is not
+      // read as one video.
+      `\\b1 ((?:(?!(?:and|or|of|from|\\d)\\b)[\\w-]+ ){0,2}?)(${
+        Object.keys(PLURALS).join("|")
+      })\\b`,
+      "gi",
+    ),
+    (_match, between: string, noun: string) => {
+      const one = PLURALS[noun.toLowerCase()];
+      const cased = noun[0] === noun[0].toUpperCase()
+        ? one[0].toUpperCase() + one.slice(1)
+        : one;
+      return `1 ${between}${cased}`;
+    },
+  )
+    .replaceAll(/\b1 ((?:[\w-]+ ){0,2}?)([Vv]ideo) are\b/g, "1 $1$2 is")
+    .replaceAll(/\b1 require \b/g, "1 requires ");
+
 export function describeExtras(
   kinds: Map<ExtraKind, number>,
   qualifier = "",
@@ -491,6 +531,16 @@ async function main() {
   ) {
     console.warn(`filing: ${problem}`);
   }
+  for (
+    const problem of orderProblems(
+      seasons.map((season) => ({
+        where: `${season.show}${season.season ? ` / ${season.season}` : ""}`,
+        videos: season.videos,
+      })),
+    )
+  ) {
+    console.warn(`order: ${problem}`);
+  }
 
   playlists.length = 0;
 
@@ -586,6 +636,19 @@ async function main() {
       const episodesBefore = episodeCount;
 
       for (const episode of season.videos) {
+        // An animated short of a moment from an episode is recorded beside
+        // that episode and never published unless a playlist asks for the
+        // kind by name. The Game Changer shorts reached the public Game
+        // Changer playlist once, on 2026-09-01, because that playlist names
+        // no types and so took everything; this is the rule that the
+        // Dimension 20 playlists had each been writing out by hand.
+        if (
+          episode.animation !== undefined &&
+          !config.types?.includes("animation")
+        ) {
+          excluded.push(episode);
+          continue;
+        }
         if (
           config.types &&
           config.types.filter((type) =>
@@ -795,7 +858,7 @@ async function main() {
         missingEpisodes && missingEpisodes.length === 0 ? "All" : "Full"
       } Episodes${bonusCount > 0 ? " and Extras" : ""}`;
 
-    const applyTemplates = (s: string) =>
+    const applyCounts = (s: string) =>
       s.replaceAll(
         "${D20_PLUG}",
         "Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.",
@@ -861,17 +924,8 @@ async function main() {
           ? completeness.replace(/^All Episodes/, "All Seasons")
           : completeness,
       )
-        .replaceAll(" ()", "")
-        .replaceAll(/\b1 Extras\b/g, "1 Extra")
-        .replaceAll(/\b1 trailers\b/g, "1 trailer")
-        .replaceAll(/\b1 extras\b/g, "1 extra")
-        .replaceAll(/\b1 Episodes\b/g, "1 Episode")
-        .replaceAll(/\b1 Seasons\b/g, "1 Season")
-        .replaceAll(/\b1 Videos\b/g, "1 Video")
-        .replaceAll(/\b1 videos\b/g, "1 video")
-        .replaceAll(/\b1 Video are\b/g, "1 Video is")
-        .replaceAll(/\b1 video are\b/g, "1 video is")
-        .replaceAll(/\b1 require \b/g, "1 requires ");
+        .replaceAll(" ()", "");
+    const applyTemplates = (s: string) => singular(applyCounts(s));
 
     // `--report` prints the completeness judgement rather than reimplementing
     // it somewhere else and having the two disagree, which is how the show

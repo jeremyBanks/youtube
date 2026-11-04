@@ -44,42 +44,42 @@ ${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEA
 name = "Very Important People (${ALL_SEASONS})"
 show = "Very Important People"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Very Important People, a show where comedians are given makeovers to be transformed into someone completely new, and then have a fully-improvised interview with host Vic Michaelis. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pC4WERMgeEPlWLuLXIidDjr]
 name = "Smartypants (${ALL_SEASONS})"
 show = "Smartypants"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Smartypants. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Smartypants, where the greatest thinkers and comedians of our time ask the questions no one else will. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pCDwDKLDD8-UBsNRXKEOFHu]
 name = "Thousandaires (${ALL_SEASONS})"
 show = "Thousandaires"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Thousandaires. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Thousandaires, where comedians are given a thousand dollars to spend on their friends and their wildest dreams. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDZr7wOZPq0eCDbOIyD1IU2]
 name = "Dropout Presents (${ALL_SEASONS})"
 show = "Dropout Presents"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Dropout Presents. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Dropout Presents, Dropout's comedy specials. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pArudk1FiNVZhEE9iNiUJny]
 name = "Monét's Slumber Party (${ALL_SEASONS})"
 show = "Monét's Slumber Party"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Monét's Slumber Party. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Monét's Slumber Party, where host Monét X Change gathers the funniest people you know to kiki and play some salacious games. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pBkN8f2QDbVcfRpjaOdPLwY]
 name = "Gastronauts (${ALL_SEASONS})"
 show = "Gastronauts"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Gastronauts. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Gastronauts, where culinary masterminds compete in challenges dreamed up by the most unhinged comedians. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDMHtb0drlb8b6hC3FG_A5r]
@@ -463,21 +463,21 @@ ${D20_PLUG}
 name = "Nobody Asked (${ALL_SEASONS})"
 show = "Nobody Asked"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Nobody Asked, where comedians find the smartest answers to the dumbest questions. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Nobody Asked, where comedians find the smartest answers to the dumbest questions. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pCKmzmqJaEkRUfbUZnY1Kll]
 name = "Parlor Room (${ALL_SEASONS})"
 show = "Parlor Room"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Parlor Room, where host Becca Scott and guests play board games and tabletop games. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Parlor Room, where host Becca Scott gathers her comedian friends for a game night like no other. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLObfuAmZm9pDYbAk-b98mrGHIq8HvTBQw]
 name = "Crowd Control (${ALL_SEASONS})"
 show = "Crowd Control"
 description = """
-${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from Crowd Control, the improvised stand-up show where the audience is the material. ${MAYBE_MEMBERS_ONLY}
+${HOURS}-hour playlist of ${EPISODES} episodes and ${EXTRAS} trailers from ${SEASONS} seasons of Crowd Control, the improvised stand-up show where the audience is the material. ${MAYBE_MEMBERS_ONLY}
 """
 
 [PLUpEMC5JYQXE]

@@ -791,7 +791,11 @@ Deno.test("the audio page bounds the catalogue from above", () => {
   if (got?.date !== "2020-02-13") throw new Error(JSON.stringify(got));
 });
 
-import { trailersOrExtras, watchable } from "./src/bin/aggregate.ts";
+import {
+  describeExtras,
+  type ExtraKind,
+  watchable,
+} from "./src/bin/aggregate.ts";
 
 Deno.test("watchable refuses what has gone and what nobody can see", () => {
   const removedBefore = new Date("2026-01-01");
@@ -817,13 +821,24 @@ Deno.test("watchable refuses what has gone and what nobody can see", () => {
   }
 });
 
-Deno.test("a description calls its extras trailers only while they all are", () => {
-  const phrase = "${EXTRAS} trailers";
-  if (trailersOrExtras(phrase, 0) !== phrase) {
-    throw new Error("changed a playlist whose every extra is a trailer");
-  }
-  if (trailersOrExtras(phrase, 1) !== "${EXTRAS} extras") {
-    throw new Error("kept calling a set tour a trailer");
+Deno.test("a description names only the kinds of extra the playlist holds", () => {
+  const cases: Array<[Array<[ExtraKind, number]>, string, string]> = [
+    [[["trailer", 2]], "", "2 trailers"],
+    [[["trailer", 1]], "", "1 trailer"],
+    [
+      [["bts", 1], ["trailer", 1]],
+      "",
+      "2 extras (trailers and behind-the-scenes videos)",
+    ],
+    [
+      [["bts", 3], ["trailer", 1], ["talkback", 8]],
+      "free ",
+      "12 free extras (talkbacks, trailers, and behind-the-scenes videos)",
+    ],
+  ];
+  for (const [kinds, qualifier, expected] of cases) {
+    const got = describeExtras(new Map(kinds), qualifier);
+    if (got !== expected) throw new Error(`${got} !== ${expected}`);
   }
 });
 

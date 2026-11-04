@@ -256,12 +256,66 @@ export const watchable = (
   video.regionsAllowed?.length !== 0 &&
   (video.regionsBlocked?.length ?? 0) < ALL_REGIONS;
 
-// Most show templates say "${EXTRAS} trailers", which is true only while
-// every extra is one. A set tour or a behind-the-scenes video makes it a lie,
-// as Dropout Presents' 18 "trailers" were, so the noun follows what the
-// playlist holds: `bonusCount` is the extras that are not trailers.
-export const trailersOrExtras = (phrase: string, bonusCount: number): string =>
-  bonusCount > 0 ? phrase.replace(/\btrailers\b/, "extras") : phrase;
+// The templates used to say what a playlist's extras were in fixed words,
+// and the words were claims: "${EXTRAS} trailers" stayed on Dropout Presents
+// after a set tour made 18 of them something else, and 23 campaigns promised
+// "interviews" that no entry anywhere is. So the phrase is written from what
+// the playlist holds, in this order, and a template only says where it goes.
+const EXTRA_KINDS = [
+  "talkback",
+  "trailer",
+  "bts",
+  "animation",
+  "external",
+] as const;
+export type ExtraKind = (typeof EXTRA_KINDS)[number];
+const EXTRA_NOUNS: Record<ExtraKind, [string, string]> = {
+  talkback: ["talkback", "talkbacks"],
+  trailer: ["trailer", "trailers"],
+  bts: ["behind-the-scenes video", "behind-the-scenes videos"],
+  animation: ["animation", "animations"],
+  external: ["video from another channel", "videos from other channels"],
+};
+
+export const extraKind = (
+  entry: {
+    trailer?: string;
+    talkback?: boolean;
+    animation?: string;
+    external?: string;
+  },
+): ExtraKind =>
+  entry.trailer !== undefined
+    ? "trailer"
+    : entry.talkback
+    ? "talkback"
+    : entry.animation !== undefined
+    ? "animation"
+    : entry.external !== undefined
+    ? "external"
+    : "bts";
+
+/**
+ * "2 trailers" where the extras are all one kind, and "12 extras (talkbacks,
+ * trailers, and behind-the-scenes videos)" where they are not. `qualifier`
+ * goes before the noun, for "82 free extras".
+ */
+export function describeExtras(
+  kinds: Map<ExtraKind, number>,
+  qualifier = "",
+): string {
+  const present = EXTRA_KINDS.filter((kind) => (kinds.get(kind) ?? 0) > 0);
+  const total = present.reduce((sum, kind) => sum + kinds.get(kind)!, 0);
+  if (present.length === 1) {
+    const [one, many] = EXTRA_NOUNS[present[0]];
+    return `${total} ${qualifier}${total === 1 ? one : many}`;
+  }
+  const nouns = present.map((kind) => EXTRA_NOUNS[kind][1]);
+  const list = nouns.length === 2
+    ? nouns.join(" and ")
+    : `${nouns.slice(0, -1).join(", ")}, and ${nouns.at(-1)}`;
+  return `${total} ${qualifier}extras${list ? ` (${list})` : ""}`;
+}
 
 if (import.meta.main) {
   await main();
@@ -460,12 +514,26 @@ async function main() {
     // video gone private between scans is noticed rather than silently lost.
     const unplayable: Array<string> = [];
 
-    let seasonCount = 0;
+    // Seasons this playlist takes an episode from, and seasons it takes
+    // anything from. The first is the one a description means: Starstruck
+    // Odyssey's second season is so far one trailer, and counting it had
+    // the campaign claim two seasons and the two whole-show Dimension 20
+    // playlists disagree, 36 against 37. The second stands in only for a
+    // playlist with no episodes in it at all.
+    let seasonsWithEpisodes = 0;
+    let seasonsTakenFrom = 0;
     let episodeCount = 0;
     let extrasCount = 0;
     // Extras that are not trailers. A trailer is not "extras": every show has
     // one and it says nothing about there being bonus material.
     let bonusCount = 0;
+    const extraKinds = new Map<ExtraKind, number>();
+    const countExtra = (entry: Parameters<typeof extraKind>[0]) => {
+      extrasCount += 1;
+      if (!entry.trailer) bonusCount += 1;
+      const kind = extraKind(entry);
+      extraKinds.set(kind, (extraKinds.get(kind) ?? 0) + 1);
+    };
     let freeCount = 0;
     let membersCount = 0;
     let paidCount = 0;
@@ -515,6 +583,7 @@ async function main() {
       // and the episodes-only playlist count a campaign that so far is one
       // trailer.
       const includedBefore = included.length;
+      const episodesBefore = episodeCount;
 
       for (const episode of season.videos) {
         if (
@@ -558,6 +627,7 @@ async function main() {
           continue;
         }
         const takenBefore = included.length;
+        const episodesTakenBefore = episodeCount;
         segments.push({ start: videoIds.length, published: episode.published });
         // The free version, unless nobody can watch it, in which case the
         // entry falls through to whatever else it has, as if it had none.
@@ -577,8 +647,7 @@ async function main() {
           if (episode.episode || episode.special) {
             episodeCount += 1;
           } else {
-            extrasCount += 1;
-            if (!episode.trailer) bonusCount += 1;
+            countExtra(episode);
           }
         } else if (episode["public parts"]) {
           freeCount += 1;
@@ -587,8 +656,7 @@ async function main() {
           if (episode.episode || episode.special) {
             episodeCount += 1;
           } else {
-            extrasCount += 1;
-            if (!episode.trailer) bonusCount += 1;
+            countExtra(episode);
           }
         } else if (episode.members) {
           if (config.free) excluded.push(episode);
@@ -599,8 +667,7 @@ async function main() {
             if (episode.episode || episode.special) {
               episodeCount += 1;
             } else {
-              extrasCount += 1;
-              if (!episode.trailer) bonusCount += 1;
+              countExtra(episode);
             }
           }
         } else if (episode.paid) {
@@ -612,8 +679,7 @@ async function main() {
             if (episode.episode || episode.special) {
               episodeCount += 1;
             } else {
-              extrasCount += 1;
-              if (!episode.trailer) bonusCount += 1;
+              countExtra(episode);
             }
           }
         } else if (
@@ -628,15 +694,19 @@ async function main() {
         } else {
           console.error(`no video ID specified for ${JSON.stringify(episode)}`);
         }
-        if (performance && included.length > takenBefore) seasonCount += 1;
+        if (performance && included.length > takenBefore) {
+          seasonsTakenFrom += 1;
+          if (episodeCount > episodesTakenBefore) seasonsWithEpisodes += 1;
+        }
       }
-      if (
-        season.season && (config.live === undefined || seasonLive) &&
-        included.length > includedBefore
-      ) {
-        seasonCount += 1;
+      if (season.season && (config.live === undefined || seasonLive)) {
+        if (included.length > includedBefore) seasonsTakenFrom += 1;
+        if (episodeCount > episodesBefore) seasonsWithEpisodes += 1;
       }
     }
+    const seasonCount = episodeCount > 0
+      ? seasonsWithEpisodes
+      : seasonsTakenFrom;
 
     // Each entry's run of ids, so that a playlist spanning shows can be put
     // in release order without splitting a multi-part episode apart.
@@ -745,8 +815,11 @@ async function main() {
         /\$\{EPISODES\} episodes and /gi,
         (match) => episodeCount === 0 ? "" : match,
       ).replace(
-        /\$\{EXTRAS\} trailers\b/g,
-        (match) => trailersOrExtras(match, bonusCount),
+        /( and )?\$\{EXTRAS\} (free )?(?:extras|trailers)\b(?: \([^)]*\))?/g,
+        (_match, and = "", free = "") =>
+          extrasCount === 0
+            ? and ? "" : `0 ${free}extras`
+            : `${and}${describeExtras(extraKinds, free)}`,
       ).replaceAll(
         "${EPISODES}",
         String(episodeCount),
@@ -762,6 +835,11 @@ async function main() {
       ).replaceAll(
         "${PAID}",
         String(paidCount),
+      ).replace(
+        // "from 1 seasons of A Starstruck Odyssey" says less than "from A
+        // Starstruck Odyssey", and says it wrongly.
+        /\$\{SEASONS\} seasons of /g,
+        (match) => seasonCount === 1 ? "" : match,
       ).replaceAll(
         "${SEASONS}",
         String(seasonCount),

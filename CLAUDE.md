@@ -423,8 +423,13 @@ an extra, and the published name and description follow from the counts rather
 than from fixed strings. "All Episodes" needs every Dropout episode of the
 collections the playlist links to be carried or knowingly left out, and falls
 back to "Full Episodes" otherwise; "and Extras" needs one extra that is not a
-trailer. A description's "N trailers" says "extras" for the same reason, since a
-set tour is not a trailer.
+trailer; "All Seasons" needs two seasons. A season counts only once the playlist
+carries one of its episodes, so a campaign announced by a trailer is not yet a
+season. A template says where the extras go, as `${EXTRAS} extras`, and
+`describeExtras` writes what they are: "2 trailers" where they are all one kind,
+"12 extras (talkbacks, trailers, and behind-the-scenes videos)" where they are
+not. The words used to be fixed, and 23 campaigns promised interviews that no
+entry is.
 
 ### Video ID Fields
 

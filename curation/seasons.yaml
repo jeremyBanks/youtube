@@ -3708,10 +3708,12 @@ videos:
     public: dYavJ6hYymg
     members: AJkrAGRcAlY
     published: 2021-01-15
-  - episode: "Um, Actually Home Game Kickstarter Announcement"
-    published: 2021-05-13
-    members: 3a38rJV7J3M
+  # The board game's announcement: an extra rather than an episode, as Game
+  # Changer's Home Edition one is.
+  - bts: "Um, Actually Home Game Kickstarter Announcement"
     public: bV0cjYLYTjM
+    members: 3a38rJV7J3M
+    published: 2021-05-13
 
 ---
 
@@ -7132,6 +7134,11 @@ videos:
     public: DkB7Q3r09SM
     public short: 0493iyI--nk
     published: 2026-04-20
+  # The board game's announcement, an extra as Um, Actually's 2021 one is. The
+  # Short of it is a 145-second cut-down, so it is not recorded.
+  - bts: "Game Changer: Home Edition Kickstarter Announcement"
+    public: "-D5sxZnD5mo"
+    published: 2026-05-05
   - episode: 801. Don't Wake Standards & Practices
     dropout: don-t-wake-standards-practices
     members: UQIKTuHaddQ
@@ -10775,6 +10782,15 @@ videos:
   - episode: "2026-10-12. Emily Takes Over Dimension 20, Demi Adejuyigbe on New Crowd Control, And More!"
     public: TN3sl6rpSVU
     published: 2026-10-12
+  - episode: "2026-10-19. Jacob Wysocki On Make Some Noise, New Dimension 20, And More!"
+    public: LryV--PotoA
+    published: 2026-10-19
+  - episode: "2026-10-26. Drew Lynch on Crowd Control, Catherine McCafferty on Smartypants, And More!"
+    public: ZFpJDhqN2DI
+    published: 2026-10-26
+  - episode: "2026-11-02. A BIG Week on Dropout, New Dropout Show Premiere, And More!"
+    public: JrudvJxDGq0
+    published: 2026-11-02
 ---
 show: MP3
 season: Season 1

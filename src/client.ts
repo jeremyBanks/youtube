@@ -521,6 +521,15 @@ export async function updatePlaylist(
     ].filter(Boolean).join(", ");
     if (dryRun) {
       console.info(`  would update ${what}`);
+      // The title is the one change every subscriber sees, so it is shown in
+      // full. A description is long enough that the data/playlists.yaml diff
+      // is the better place to read it.
+      if (titleChanged) {
+        console.info(
+          `    title ${JSON.stringify(existingMetadata.snippet?.title ?? "")}` +
+            ` -> ${JSON.stringify(title)}`,
+        );
+      }
     } else {
       console.info(`Updating ${what}.`);
 
@@ -560,11 +569,16 @@ export async function updatePlaylist(
   // past everything, and then delete and re-insert all 446 entries that should
   // have followed it -- roughly 44,000 quota units to move one video, against a
   // budget of 10,000 a day. The same move costs one delete and one insert here.
-  const live: Array<{ entryId: string; wanted: number }> = [];
+  const live: Array<
+    { entryId: string; videoId: string; title?: string; wanted: number }
+  > = [];
   for await (const { entry } of playlistVideos(playlistId, { auth })) {
+    const videoId = unwrap(entry.snippet?.resourceId?.videoId);
     live.push({
       entryId: unwrap(entry.id),
-      wanted: videoIds.indexOf(unwrap(entry.snippet?.resourceId?.videoId)),
+      videoId,
+      title: entry.snippet?.title ?? undefined,
+      wanted: videoIds.indexOf(videoId),
     });
   }
 
@@ -618,13 +632,33 @@ export async function updatePlaylist(
   if (dryRun) {
     // Name what would change, so a reviewer can judge the diff rather than
     // just count it. Nothing below this point runs.
-    for (const videoId of videoIds) {
+    //
+    // A removal used to print as its playlist-item id, an opaque token that
+    // says nothing about which video is leaving, so the half of a diff most
+    // worth reading was the half nobody could. Each line now names the video
+    // and the title the live playlist shows for it, and a reorder -- one
+    // delete and one insert of the same video -- is marked as a move, so it
+    // is not mistaken for a video coming and going.
+    const liveIds = new Set(live.map((item) => item.videoId));
+    const keptIds = new Set(
+      live.filter((item) => keep.has(item.entryId)).map((item) => item.videoId),
+    );
+    for (const [index, videoId] of videoIds.entries()) {
       if (!existingVideoIds.includes(videoId)) {
-        console.info(`  + ${videoId}`);
+        const moved = liveIds.has(videoId) ? " (moved)" : "";
+        console.info(`  + ${videoId} at ${index + 1}${moved}`);
       }
     }
-    for (const entryId of entryIdsToRemove) {
-      console.info(`  - entry ${entryId}`);
+    for (const item of live) {
+      if (keep.has(item.entryId)) continue;
+      const why = keptIds.has(item.videoId)
+        ? " (duplicate)"
+        : item.wanted >= 0
+        ? " (moved)"
+        : "";
+      console.info(
+        `  - ${item.videoId} ${JSON.stringify(item.title ?? "")}${why}`,
+      );
     }
     return;
   }

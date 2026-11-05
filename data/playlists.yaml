@@ -5338,15 +5338,18 @@ videos:
 
 ---
 
-name:        MP3
+name:        MP3 (All Episodes)
 description: |-
   An official version of this playlist is available at https://www.youtube.com/playlist?list=PLA6HQcdpkBB0
 
-  2-minute playlist of 1 trailer from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. The one video is free.
+  44-minute playlist of 1 episode and 1 trailer from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. 1 video is free and 1 requires a @Dropout channel membership on YouTube.
+
+  https://watch.dropout.tv/mp3
 playlistId:  PLeFofbWq1F4s
 unlisted:    true
 videos:
   Q9Uvlu_mDAU: 'MP3 Trailer [New Dropout Series]'
+  F4qLUm1VOEo: Mid-Size Courtside Beverages | MP3 Season 1 | Ep. 1
 
 ---
 

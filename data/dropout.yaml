@@ -30159,7 +30159,6 @@ scrapedAt:     2026-08-31T15:38:30.974Z
 slug:          heaven
 collection:    toonout-season-1
 collections:
-- new-releases
 - toonout-new
 - toonout-season-1
 lastmod:       2026-10-28T00:00:00.000Z
@@ -57052,6 +57051,27 @@ itemId:        4223547
 collectionId:  1498226
 firstSeen:     2026-10-10T04:53:53.893Z
 scrapedAt:     2026-10-10T04:54:19.360Z
+
+---
+
+slug:          smartyshorts-finding-money
+collection:    smartypants-season-3
+collections:
+- new-releases
+- smartypants-season-3
+lastmod:       2026-11-06T00:00:00.000Z
+title:         'Smartyshorts: Finding Money'
+seasonNumber:  3
+episodeNumber: 22
+releaseDate:   '2026-11-06'
+url:           'https://watch.dropout.tv/smartypants/season:3/videos/smartyshorts-finding-money'
+showTitle:     Smartypants
+showSlug:      smartypants
+description:   The Smartypants Society deliberates what amount of money is acceptable to find and keep.
+itemId:        4274927
+collectionId:  1498226
+firstSeen:     2026-11-07T16:51:16.389Z
+scrapedAt:     2026-11-07T16:51:41.325Z
 
 ---
 

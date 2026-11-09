@@ -84,6 +84,13 @@ pays twice — nothing has to supply it, and `oauthClientUrl()` can then link at
 `/apis/credentials/oauthclient/<id>?project=…`, the one page showing that
 client's secret, instead of at a list of clients.
 
+**The threat model is small, and the owner has said so.** The one precaution
+that matters is never committing a key to the repository, because a public push
+gets scraped by bots. Short of that, nobody is after these keys: the owner may
+paste one into the conversation, and it may be read, echoed back where useful,
+and written to the gitignored `.env`, with no ceremony about not seeing it. Do
+not make things harder to avoid looking at a key.
+
 Not hardcoded, and not to be:
 
 - **`YOUTUBE_CLIENT_SECRET`.**

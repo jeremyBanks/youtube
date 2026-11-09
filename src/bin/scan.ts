@@ -1,5 +1,5 @@
 import { parseArgs } from "@std/cli";
-import { channelMetadata, playlistVideos } from "../client.ts";
+import { channelMetadata, getClientAndKey, playlistVideos } from "../client.ts";
 import type { Scan, Video } from "../storage.ts";
 import { upsertMerge } from "../common.ts";
 import { openVideoStorage } from "../storage.ts";
@@ -39,6 +39,12 @@ export async function main() {
         .subtract(args.window).toInstant().epochMilliseconds,
     )
     : undefined;
+
+  // Before any storage is opened. A scan that opens the stores and then finds
+  // no key exits through their shutdown dump, and on 2026-11-09 that rewrote
+  // data/videos/dropout.yaml from a half-loaded state in a container that had
+  // no credentials. Nothing below can run without the key, so ask for it first.
+  await getClientAndKey();
 
   const scans = await openScanStorage();
   const videos = await openVideoStorage();

@@ -6237,6 +6237,13 @@ scannedTo:     null
 
 channelId:     UCPDXXXJj9nax0fr0Wfc048g
 channelHandle: dropout
+scannedAt:     2026-11-10T02:04:00.612Z
+scannedTo:     2026-11-09T21:26:15.018Z
+
+---
+
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+channelHandle: dropout
 scannedAt:     2026-11-09T21:26:15.018Z
 scannedTo:     2026-08-05T21:26:15.008Z
 
@@ -11615,6 +11622,13 @@ channelId:     UCZOnoLKzoBItcEk5OsES2TA
 channelHandle: donthugmeimscared
 scannedAt:     2026-11-03T23:07:00.694Z
 scannedTo:     null
+
+---
+
+channelId:     UCcZUN2YuzVzj15X2HW8QOlQ
+channelHandle: veryimportantpeopleshow
+scannedAt:     2026-11-10T02:04:03.999Z
+scannedTo:     2026-08-06T02:04:00.545Z
 
 ---
 

@@ -6050,7 +6050,6 @@ collections:
 - dimension-20-the-complete-series-season-31
 - dimension-20-toylight-season-1
 - dimension-20-toylight-the-complete-experience
-- new-releases
 lastmod:       2026-10-15T00:00:00.000Z
 title:         'Ashes, Ashes, We All Fall'
 seasonNumber:  1
@@ -73566,6 +73565,27 @@ scrapedAt:     2026-08-31T13:24:10.989Z
 
 ---
 
+slug:          trauma-heals
+collection:    crowd-control-season-2
+collections:
+- crowd-control-season-2
+- new-releases
+lastmod:       2026-11-10T00:00:00.000Z
+title:         Trauma Heals
+seasonNumber:  2
+episodeNumber: 8
+releaseDate:   '2026-11-09'
+url:           'https://watch.dropout.tv/crowd-control/season:2/videos/trauma-heals'
+showTitle:     Crowd Control
+showSlug:      crowd-control
+description:   'Maria, Jackie, and Grant are tortured.'
+itemId:        4275045
+collectionId:  1503904
+firstSeen:     2026-11-10T02:04:08.186Z
+scrapedAt:     2026-11-10T02:04:33.584Z
+
+---
+
 slug:          travel
 collection:    paranoia-season-2
 collections:
@@ -76852,7 +76872,6 @@ collections:
 - dimension-20-new-releases
 - dimension-20-s-adventuring-party-season-25
 - dimension-20-toylight-the-complete-experience
-- new-releases
 lastmod:       2026-10-16T00:00:00.000Z
 title:         War Council
 seasonNumber:  25

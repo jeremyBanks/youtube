@@ -246133,8 +246133,46 @@ privacyStatus: public
 itemCount:     5
 createdAt:     2026-10-26T23:48:53.550Z
 entries:
-- videoId: Om_BCIIO9yM
+- videoId: iakkMdNq5WY
   position: 0
+  addedAt: 2026-11-06T23:07:01.000Z
+  videoPublishedAt: 2026-11-10T18:30:07.000Z
+  privacyStatus: public
+  ownerChannelId: UCC8zWIx8aBQme-x1nX9iZ0A
+  ownerChannelTitle: Dimension 20
+  title: 'Every Day is Our Wurst Day | Dimension 20: A Starstruck Odyssey | S1 Ep. 4'
+  description: |-
+    The crew investigate a mysterious meeting at the hotel. Gunnie and Barry try to get chef's tools.
+
+    Content Warning: Intense Gambling, Eye-Related Body Horror
+
+    A new season of Dimension 20: A Starstruck Odyssey premieres in 2027! Need to catch up? Well lucky for you we're releasing season one to YouTube. Episodes release on Tuesdays at 1:30pm ET/10:30am PT. 
+
+    You can watch every episode of Starstruck season 1 right here on YouTube: https://www.youtube.com/playlist?list=PLbx5KMt3fi8U
+
+    Here's the schedule:
+    Episode 5: November 17th
+    Episode 6: November 24th
+    Episode 7: December 1st
+    Episode 8: December 8th
+    Episode 9: December 15th
+    Episode 10: December 22nd
+    Episode 11: December 29th
+    Episode 12: February 9th
+    Episode 13: February 16th
+    Episode 14: February 23rd
+    Episode 15: March 2nd
+    Episode 16: March 9th
+    Episode 17: March 16th
+    Episode 18: March 23rd
+
+    Can't wait? Well you can watch the entirety of season 1 ad-free plus Adventuring Party episodes by signing up for Dropout: https://www.dropout.tv/plans
+
+    Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
+- videoId: Om_BCIIO9yM
+  position: 1
   addedAt: 2026-10-30T23:35:29.000Z
   videoPublishedAt: 2026-11-03T18:30:26.000Z
   privacyStatus: public
@@ -246174,7 +246212,7 @@ entries:
 
     Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: 24B1MXTMaDQ
-  position: 1
+  position: 2
   addedAt: 2026-10-26T23:48:53.000Z
   videoPublishedAt: 2026-10-27T17:33:37.000Z
   privacyStatus: public
@@ -246183,7 +246221,7 @@ entries:
   title: 'Rolling Up the Hill | Dimension 20: A Starstruck Odyssey | S1 Ep. 2'
   description: "Captain Takamori comes to a changed man. The Red Hot travels to Rubian V.\n\nA new season of Dimension 20: A Starstruck Odyssey premieres in 2027! Need to catch up? Well lucky for you we're releasing season one to YouTube. Episodes release on Tuesdays at 1:30pm ET/10:30am PT. \n\nYou can watch every episode of Starstruck season 1 right here on YouTube: https://www.youtube.com/playlist?list=PLbx5KMt3fi8U\n\nHere's the schedule:\nEpisode 3: November 3rd\_\nEpisode 4: November 10th\nEpisode 5: November 17th\nEpisode 6: November 24th\nEpisode 7: December 1st\nEpisode 8: December 8th\nEpisode 9: December 15th\nEpisode 10: December 22nd\nEpisode 11: December 29th\nEpisode 12: February 9th\nEpisode 13: February 16th\nEpisode 14: February 23rd\nEpisode 15: March 2nd\nEpisode 16: March 9th\nEpisode 17: March 16th\nEpisode 18: March 23rd\n\nCan't wait? Well you can watch the entirety of season 1 ad-free plus Adventuring Party episodes by signing up for Dropout: https://www.dropout.tv/plans\n\n\nWelcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv"
 - videoId: 6I7cZG_RoWI
-  position: 2
+  position: 3
   addedAt: 2026-10-26T23:48:53.000Z
   videoPublishedAt: 2022-01-25T18:30:05.000Z
   privacyStatus: public
@@ -246197,7 +246235,7 @@ entries:
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
 - videoId: oVC-KqAgm38
-  position: 3
+  position: 4
   addedAt: 2026-10-27T18:07:48.000Z
   videoPublishedAt: 2021-12-18T21:00:09.000Z
   privacyStatus: public
@@ -246208,15 +246246,9 @@ entries:
     It's a tough galaxy out there, but somebody's gotta live in it...it might as well be you. Launches January 12th on Dropout.tv. FAQ here: https://bit.ly/StarstruckOdysseyFAQ
 
     Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, only on Dropout: https://dimension20.dropout.tv/
-- videoId: iakkMdNq5WY
-  position: 4
-  addedAt: 2026-11-06T23:07:01.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
 firstSeen:     2026-10-28T01:41:36.560Z
-scrapedAt:     2026-11-09T21:26:29.630Z
-lastChangedAt: 2026-11-07T16:50:53.155Z
+scrapedAt:     2026-11-10T23:52:46.846Z
+lastChangedAt: 2026-11-10T23:52:45.559Z
 
 ---
 
@@ -252598,9 +252630,41 @@ entries:
 - videoId: iakkMdNq5WY
   position: 0
   addedAt: 2026-11-06T23:07:01.000Z
-  privacyStatus: private
-  title: Private video
-  description: This video is private.
+  videoPublishedAt: 2026-11-10T18:30:07.000Z
+  privacyStatus: public
+  ownerChannelId: UCC8zWIx8aBQme-x1nX9iZ0A
+  ownerChannelTitle: Dimension 20
+  title: 'Every Day is Our Wurst Day | Dimension 20: A Starstruck Odyssey | S1 Ep. 4'
+  description: |-
+    The crew investigate a mysterious meeting at the hotel. Gunnie and Barry try to get chef's tools.
+
+    Content Warning: Intense Gambling, Eye-Related Body Horror
+
+    A new season of Dimension 20: A Starstruck Odyssey premieres in 2027! Need to catch up? Well lucky for you we're releasing season one to YouTube. Episodes release on Tuesdays at 1:30pm ET/10:30am PT. 
+
+    You can watch every episode of Starstruck season 1 right here on YouTube: https://www.youtube.com/playlist?list=PLbx5KMt3fi8U
+
+    Here's the schedule:
+    Episode 5: November 17th
+    Episode 6: November 24th
+    Episode 7: December 1st
+    Episode 8: December 8th
+    Episode 9: December 15th
+    Episode 10: December 22nd
+    Episode 11: December 29th
+    Episode 12: February 9th
+    Episode 13: February 16th
+    Episode 14: February 23rd
+    Episode 15: March 2nd
+    Episode 16: March 9th
+    Episode 17: March 16th
+    Episode 18: March 23rd
+
+    Can't wait? Well you can watch the entirety of season 1 ad-free plus Adventuring Party episodes by signing up for Dropout: https://www.dropout.tv/plans
+
+    Welcome to Dimension 20, Dropout.tv's anthology actualplay show! Enjoy watching every campaign, every behind-the-scenes, every one-shot, and every talkback, by signing up for Dropout: https://www.dropout.tv/shows/dimension-20
+
+    Sign up for the Dropout newsletter here: https://newsletter.dropout.tv
 - videoId: Om_BCIIO9yM
   position: 1
   addedAt: 2026-10-30T23:35:29.000Z
@@ -256475,7 +256539,7 @@ entries:
   title: 'FANTASY HIGH: D&D Meets High School [Official Trailer]'
   description: "Support Dimension 20 by signing up for Dropout.tv: https://dimension20.dropout.tv, where you can get EVERY season, EVERY behind-the-scenes feature, and EVERY Adventuring Party talkback! It's only $5 a month! That's like 17 cents a day!\n\nBrennan Lee Mulligan is your game master in FANTASY HIGH, the first season in the DIMENSION 20 roleplaying anthology! Your CH cast favorites return to take on the Aguefort Adventuring Academy. Watch full episodes on DROPOUT.TV now.\n\nFOLLOW THE CAST:\nALLY:\_http://www.twitter.com/lilbeardsley\nGRANT:\_http://www.twitter.com/grantob\nKATIE:\_http://www.twitter.com/katiemarovitch\nTRAPP:\_http://www.twitter.com/mikewtrapp\nRAPH:\_http://www.twitter.com/chestangraphael\nREKHA:\_http://www.twitter.com/rekhalshankar\nBRENNAN: https://twitter.com/brennanlm\nSAM:\_http://www.twitter.com/samreich\n\nSee more\_http://www.collegehumor.com\nLIKE us on:\_http://www.facebook.com/collegehumor\nFOLLOW us on:\_http://www.twitter.com/collegehumor\nFOLLOW us on:\_http://www.collegehumor.tumblr.com\n\nD20 is a series from CollegeHumor and DROPOUT.TV, created and DM'd by Brennan Lee Mulligan.  It includes includes Fantasy High, Escape from the Bloodkeep and The Unsleeping City.\n\n#collegehumor\n#dropout\n#BrennanLeeMulligan\n#dnd"
 firstSeen:     2026-09-01T02:16:30.837Z
-scrapedAt:     2026-11-09T21:26:30.365Z
+scrapedAt:     2026-11-10T23:52:48.437Z
 lastChangedAt: 2026-11-07T16:50:53.155Z
 
 ---

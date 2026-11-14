@@ -7691,6 +7691,7 @@ show: Very Important People
 season: Season 4
 videos:
   - trailer: Very Important People Season 4 Teaser
+    dropout: very-important-people-season-4-teaser
     public: clMkVczkgww
     published: 2026-11-12
 
@@ -7923,6 +7924,7 @@ videos:
     members: 4KuWyxcqlGw
     published: 2026-11-06
   - episode: 312. I Stand by That
+    dropout: i-stand-by-that
     members: LzLpr8YcKec
     published: 2026-11-13
 

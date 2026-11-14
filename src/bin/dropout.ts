@@ -36,14 +36,24 @@ export function parseSitemap(xml: string): Map<string, SitemapItem> {
     )
   ) {
     const m = block[1].match(
-      /^https:\/\/watch\.dropout\.tv\/([a-z0-9-]+)\/videos\/([a-z0-9-]+)$/,
+      // The path may carry a season between the collection and `videos`, as
+      // in `/adventuring-academy/season:1/videos/...`. The sitemap moved most
+      // of its pages to that form in November 2026; the pattern rejected 3,948
+      // of 5,513, saw 1,337 of 3,651 known items, and the shrink guard
+      // refused to run.
+      /^https:\/\/watch\.dropout\.tv\/([a-z0-9-]+)(?:\/season:(\d+))?\/videos\/([a-z0-9-]+)$/,
     );
     if (!m) {
       continue;
     }
-    const [, collection, slug] = m;
+    const [, show, season, slug] = m;
+    // The per-season collection, in the name the old form gave it, which is
+    // what `canonicalCollection` prefers and the linker groups by.
+    const collection = season ? `${show}-season-${season}` : show;
     const item = items.get(slug) ?? { collections: [] };
-    item.collections.push(collection);
+    if (!item.collections.includes(collection)) {
+      item.collections.push(collection);
+    }
     if (block[2]) {
       const lastmod = new Date(block[2]);
       if (!isNaN(lastmod.getTime())) {
@@ -465,8 +475,14 @@ export async function main() {
   for (const [slug, item] of current) {
     const existing = episodes.find((e) => e.slug === slug);
     if (existing) {
-      existing.collections = item.collections;
-      existing.collection = canonicalCollection(item.collections);
+      // Merged with what is already known: the site renames shows without
+      // renaming the per-season slugs we recorded (make-some-noise-season-2
+      // is now listed under noise-boys), and a record should not lose its
+      // home because the sitemap stopped repeating it.
+      existing.collections = [
+        ...new Set([...existing.collections, ...item.collections]),
+      ].sort();
+      existing.collection = canonicalCollection(existing.collections);
       existing.lastmod = item.lastmod ?? existing.lastmod;
     } else {
       episodes.push({

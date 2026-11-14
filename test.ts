@@ -103,6 +103,20 @@ Deno.test("parseSitemap groups collections by slug and keeps lastmod", () => {
   }
 });
 
+Deno.test("parseSitemap reads the season-qualified form the site moved to", () => {
+  const xml = `<urlset>
+<url><loc>https://watch.dropout.tv/adventuring-academy/season:1/videos/leveling-up</loc></url>
+<url><loc>https://watch.dropout.tv/adventuring-academy-season-1/videos/leveling-up</loc></url>
+<url><loc>https://watch.dropout.tv/adventuring-academy/season:2/videos/other</loc></url>
+</urlset>`;
+  const items = parseSitemap(xml);
+  if (items.size !== 2) throw new Error(`expected 2 items, got ${items.size}`);
+  const got = items.get("leveling-up")!.collections.join(",");
+  if (got !== "adventuring-academy-season-1") {
+    throw new Error(`collections: ${got}`);
+  }
+});
+
 Deno.test("canonicalCollection prefers per-season over aggregates", () => {
   const got = canonicalCollection([
     "dimension-20-the-complete-series-season-28",

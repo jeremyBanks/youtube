@@ -7687,6 +7687,15 @@ videos:
 
 ---
 
+show: Very Important People
+season: Season 4
+videos:
+  - trailer: Very Important People Season 4 Teaser
+    public: clMkVczkgww
+    published: 2026-11-12
+
+---
+
 show: Gastronauts
 season: Season 2
 videos:
@@ -7913,6 +7922,9 @@ videos:
     dropout: smartyshorts-finding-money
     members: 4KuWyxcqlGw
     published: 2026-11-06
+  - episode: 312. I Stand by That
+    members: LzLpr8YcKec
+    published: 2026-11-13
 
 ---
 
@@ -9538,6 +9550,7 @@ videos:
     # old one, same title and synopsis. The old id was still in the channel's
     # uploads feed when this was written, so "removed" here is removal from
     # that playlist, not from YouTube.
+    public: TrLzMoWOisM
     members: 49hYURUTcwM
     removed members: 1Nf0e07oOIA
     published: 2026-09-08

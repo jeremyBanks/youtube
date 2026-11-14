@@ -964,6 +964,7 @@ slug:          ch-miniseries
 size:          12
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:20:22.214Z
+removedBefore: 2026-11-14T05:11:28.230Z
 
 ---
 
@@ -2123,6 +2124,7 @@ slug:          dimension-20-fantasy-high-sophomore-year
 size:          24
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T04:59:20.746Z
+removedBefore: 2026-11-14T05:11:28.230Z
 
 ---
 
@@ -3777,7 +3779,7 @@ itemIds:
 - 4150250
 - 4142194
 - 4142150
-size:          1
+size:          2
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:32:28.845Z
 
@@ -4982,7 +4984,7 @@ itemIds:
 - 4113147
 - 4112082
 - 4106141
-size:          20
+size:          21
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:14:48.372Z
 
@@ -5458,7 +5460,7 @@ itemIds:
 - 3284557
 - 3301204
 - 3310248
-size:          47
+size:          48
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T04:56:17.510Z
 
@@ -6849,6 +6851,7 @@ slug:          welcome
 size:          1
 firstSeen:     2026-08-31T04:55:27.499Z
 scrapedAt:     2026-08-31T05:36:34.367Z
+removedBefore: 2026-11-14T05:11:28.230Z
 
 ---
 

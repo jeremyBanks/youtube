@@ -1493,6 +1493,7 @@ videos:
     published: 2022-02-03
   - episode: 5. All In the Hot Exit
     dropout: all-in-the-hot-exit
+    public: 7SrqI3MQnmM
     members: iiEf2E1kIOM
     published: 2022-02-09
   - bts: "To Me, This Is A Perfect Battle"
@@ -7331,6 +7332,7 @@ videos:
     published: 2025-10-27
   - episode: 403. The Sneaky Girl Shuffle
     dropout: the-sneaky-girl-shuffle
+    public: yw51S3_WLKo
     members: T7gbx0f2eIM
     published: 2025-11-10
   - episode: 404. Zunk, Junk, and Dunk
@@ -7418,6 +7420,10 @@ videos:
     dropout: rekha-lily-jordan-and-sam-s-1x1-pants
     members: vnjGG3E1pB0
     published: 2026-11-02
+  - episode: 504. Pete, Lisa, and Paul Roast Sam A Lot
+    dropout: pete-lisa-and-paul-roast-sam-a-lot
+    members: ABFCVb2VZnk
+    published: 2026-11-16
 
 ---
 

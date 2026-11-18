@@ -2324,6 +2324,13 @@ scannedTo:     null
 
 channelId:     UCC8zWIx8aBQme-x1nX9iZ0A
 channelHandle: dimension20show
+scannedAt:     2026-11-18T01:06:59.719Z
+scannedTo:     2026-11-15T01:06:55.119Z
+
+---
+
+channelId:     UCC8zWIx8aBQme-x1nX9iZ0A
+channelHandle: dimension20show
 scannedAt:     2026-11-17T19:51:29.098Z
 scannedTo:     2026-11-16T21:01:45.451Z
 
@@ -6680,6 +6687,20 @@ channelId:     UCNNxmRzlheZAeZuMYakh6vQ
 channelHandle: jakeandamir
 scannedAt:     2026-09-05T15:12:17.561Z
 scannedTo:     null
+
+---
+
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+channelHandle: dropout
+scannedAt:     2026-11-18T01:06:57.157Z
+scannedTo:     2026-11-15T01:06:55.119Z
+
+---
+
+channelId:     UCPDXXXJj9nax0fr0Wfc048g
+channelHandle: dropout
+scannedAt:     2026-11-18T01:06:35.868Z
+scannedTo:     2026-11-17T19:51:18.885Z
 
 ---
 

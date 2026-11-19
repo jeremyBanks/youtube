@@ -18835,6 +18835,24 @@ scrapedAt:     2026-08-31T09:29:56.395Z
 
 ---
 
+slug:          dimension-20-heroless-teaser
+collection:    featured
+collections:
+- dimension-20-featured
+- dimension-20-new-releases
+- featured
+- new-releases
+lastmod:       2026-11-19T00:00:00.000Z
+title:         'Dimension 20: Heroless Teaser'
+releaseDate:   '2026-11-19'
+url:           'https://watch.dropout.tv/videos/dimension-20-heroless-teaser'
+description:   'Before you can save the world, you have to save yourself. New Dimension 20 season coming soon.'
+itemId:        4288517
+firstSeen:     2026-11-19T19:29:41.327Z
+scrapedAt:     2026-11-19T19:30:06.258Z
+
+---
+
 slug:          dimension-20-live-2025-battle-at-the-bowl
 collection:    dimension-20-live-complete-collection-season-2
 collections:
@@ -25693,6 +25711,32 @@ upNextIds:
 - 4152791
 firstSeen:     2026-08-31T02:48:00.050Z
 scrapedAt:     2026-08-31T07:02:32.243Z
+
+---
+
+slug:          fluent-as-the-ocean
+collection:    mp3-season-1
+collections:
+- mp3-season-1
+- new-releases
+lastmod:       2026-11-19T00:00:00.000Z
+title:         Fluent AS the Ocean
+seasonNumber:  1
+episodeNumber: 2
+releaseDate:   '2026-11-18'
+url:           'https://watch.dropout.tv/mp3/season:1/videos/fluent-as-the-ocean'
+showTitle:     MP3
+showSlug:      mp3
+description:   |-
+  Chia and Dr. Muse-Tina find their stride, and Princess Emily stops by for some lyrical ecstasy.
+
+  Content Warning:
+  Emetophobia (Retching) - [6:37-6:49]
+  Portrayal of Drug Use - [Throughout]
+itemId:        4274916
+collectionId:  1518379
+firstSeen:     2026-11-19T19:29:41.327Z
+scrapedAt:     2026-11-19T19:30:18.538Z
 
 ---
 
@@ -36783,7 +36827,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - new-releases
-lastmod:       2026-11-03T00:00:00.000Z
+lastmod:       2026-11-19T00:00:00.000Z
 title:         'Jacob, Jess, and Carl Are Sooooo Close to Touching'
 seasonNumber:  5
 episodeNumber: 2
@@ -49423,7 +49467,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - new-releases
-lastmod:       2026-11-17T00:00:00.000Z
+lastmod:       2026-11-19T00:00:00.000Z
 title:         'Pete, Lisa, and Paul Roast Sam A Lot'
 seasonNumber:  5
 episodeNumber: 4
@@ -52400,7 +52444,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - new-releases
-lastmod:       2026-11-03T00:00:00.000Z
+lastmod:       2026-11-19T00:00:00.000Z
 title:         'Rekha, Lily, Jordan, and Sam''s 1x1 Pants'
 seasonNumber:  5
 episodeNumber: 3
@@ -67397,7 +67441,7 @@ collections:
 - make-some-noise-new
 - make-some-noise-season-5
 - noise-boys
-lastmod:       2026-11-03T00:00:00.000Z
+lastmod:       2026-11-19T00:00:00.000Z
 title:         The Noise Boys Make One Noise
 seasonNumber:  5
 episodeNumber: 1

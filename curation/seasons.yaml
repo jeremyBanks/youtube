@@ -7933,6 +7933,10 @@ videos:
     dropout: i-stand-by-that
     members: LzLpr8YcKec
     published: 2026-11-13
+  - special: "Smartyshorts: Outside Clothes"
+    dropout: smartyshorts-outside-clothes
+    members: FID1tSbix0w
+    published: 2026-11-20
 
 ---
 
@@ -8409,12 +8413,13 @@ show: Fatal Decision
 season: Season 1
 videos:
   # Dropout's "Fatal Decision : Season 1" playlist,
-  # PLuKg-Whduhkmk_O2u2-b2QAICCmn994s0, holds nine private uploads added within
+  # PLuKg-Whduhkmk_O2u2-b2QAICCmn994s0, holds ten private uploads added within
   # fifteen seconds on 2018-07-11, presumably the original 2018 release of
-  # episodes since re-uploaded. The season has more than nine episodes, so
-  # position cannot say which; unidentified until it can: 3GYbsqFzDNU,
-  # VJ7tTIwd-_s, qjrl0-yeg4Q, DG0GQZTaXrE, 3cyayV1qfe4, FiBRy2LNn4E,
-  # sYZ7M1xztXs, E5H_wxSicZY, VD6cO_q67wo.
+  # episodes since re-uploaded. The season has more than ten episodes, so
+  # position cannot say which; still unidentified until it can: 3GYbsqFzDNU,
+  # VJ7tTIwd-_s, qjrl0-yeg4Q, DG0GQZTaXrE, FiBRy2LNn4E,
+  # sYZ7M1xztXs, E5H_wxSicZY, VD6cO_q67wo. Ten ids in all counting
+  # 3cyayV1qfe4, which is episode 2, below.
   - episode: 1. Operation Birthday Cake
     dropout: operation-birthday-cake
     members: iX6RGPjnfUY
@@ -8422,7 +8427,12 @@ videos:
   - episode: 2. Extreme Interrogation (with Christina Hendricks)
     dropout: extreme-interrogation-with-christina-hendricks
     members: Q9xD2DW3FMQ
-    published: 2024-11-11
+    # 3cyayV1qfe4 is the 2016 CollegeHumor upload: Dropout's "Latest" playlist
+    # added it on 2016-03-29, the date of the InTheFame article embedding it.
+    # Identified from that embed; it is also one of the ten private entries in
+    # the 2018 "Fatal Decision : Season 1" playlist listed above.
+    removed public: 3cyayV1qfe4
+    published: 2016-03-29
   - episode: 3. Perfect Partners... Until Death
     dropout: perfect-partners-until-death
     members: NQ60whPO1O8
@@ -10856,6 +10866,10 @@ videos:
     members: 8TFLO-lkLbk
     removed members: F4qLUm1VOEo
     published: 2026-11-04
+  - episode: 102. Fluent AS the Ocean
+    dropout: fluent-as-the-ocean
+    members: ZkpK-Ap2mAg
+    published: 2026-11-18
 ---
 
 # The original CollegeHumor sketches, 2014-2016, before the Quarantine Edition.

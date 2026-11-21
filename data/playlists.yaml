@@ -763,7 +763,7 @@ videos:
 
 name:        Smartypants (All Seasons)
 description: |-
-  24-hour playlist of 48 episodes and 3 trailers from 3 seasons of Smartypants, where the greatest thinkers and comedians of our time ask the questions no one else will. 5 videos are free and 46 require a @Dropout channel membership on YouTube.
+  24-hour playlist of 49 episodes and 3 trailers from 3 seasons of Smartypants, where the greatest thinkers and comedians of our time ask the questions no one else will. 5 videos are free and 47 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/smartypants
 playlistId:  PLObfuAmZm9pC4WERMgeEPlWLuLXIidDjr
@@ -819,6 +819,7 @@ videos:
   mY_MEP3xitc: A Conflict of Interests | Smartypants Season 3 | Ep. 11
   4KuWyxcqlGw: 'Smartyshorts: Finding Money | Smartypants (Bonus Content)'
   LzLpr8YcKec: I Stand by That | Smartypants Season 3 | Ep. 12
+  FID1tSbix0w: 'Smartyshorts: Outside Clothes | Smartypants (Bonus Content)'
 
 ---
 
@@ -1047,7 +1048,6 @@ description: |-
   https://watch.dropout.tv/dimension-20-escape-from-the-bloodkeep
   https://watch.dropout.tv/dimension-20-fantasy-high
   https://watch.dropout.tv/dimension-20-fantasy-high-junior-year-the-complete-experience
-  https://watch.dropout.tv/dimension-20-featured
   https://watch.dropout.tv/dimension-20-gladlands-the-complete-experience
   https://watch.dropout.tv/dimension-20-live-complete-collection
   https://watch.dropout.tv/dimension-20-mentopolis-the-complete-experience
@@ -2251,7 +2251,6 @@ description: |-
 
   Dimension 20 is an Actual Play TTRPG series from Dropout, featuring original campaigns of Dungeons and Dragons and other tabletop role-playing systems.
 
-  https://watch.dropout.tv/dimension-20-featured
   https://watch.dropout.tv/fantasy-high-extra-credit
 playlistId:  PLObfuAmZm9pBlmfWjeRYUmsucnZo87ONA
 videos:
@@ -5350,13 +5349,17 @@ videos:
 
 name:        MP3 (All Episodes)
 description: |-
-  44-minute playlist of 1 episode and 1 trailer from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. 1 video is free and 1 requires a @Dropout channel membership on YouTube.
+  An official version of this playlist is available at https://www.youtube.com/playlist?list=PLA6HQcdpkBB0
+
+  1-hour playlist of 2 episodes and 1 trailer from MP3, Dropout's music video show: outrageous music videos, ridiculous hosts, and surprise guests. 1 video is free and 2 require a @Dropout channel membership on YouTube.
 
   https://watch.dropout.tv/mp3
 playlistId:  PLeFofbWq1F4s
+unlisted:    true
 videos:
   Q9Uvlu_mDAU: 'MP3 Trailer [New Dropout Series]'
   8TFLO-lkLbk: Mid-Size Courtside Beverages | MP3 Season 1 | Ep. 1
+  ZkpK-Ap2mAg: Fluent AS the Ocean | MP3 Season 1 | Ep. 2
 
 ---
 

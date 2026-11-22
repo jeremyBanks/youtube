@@ -139,7 +139,7 @@ channelTitle:    hircine
 title:           'Dimension 20: Escape From The Bloodkeep but its just bones'
 uploadedAt:      2019-07-21T16:06:10.000Z
 duration:        223
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     |-
@@ -183,7 +183,7 @@ channelTitle:    LRR Streams
 title:           Overnight Watch-A-Long 5 || LRR20 Sub-a-thon
 uploadedAt:      2023-11-10T23:00:00.000Z
 duration:        14667
-resolvedAt:      2026-11-03T18:28:05.332Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2023-10-11
@@ -1683,6 +1683,13 @@ description:     |-
 
 ---
 
+videoId:         3cyayV1qfe4
+resolvedAt:      2026-11-22T18:30:37.623Z
+absence:         private
+missing:         true
+
+---
+
 videoId:         3eRRwcTdhtE
 channelId:       UCQJWtTnAHhEG5w4uN0udnUQ
 channelTitle:    Prime Video
@@ -1969,7 +1976,7 @@ channelTitle:    Dorkly
 title:           The Pokedex Would Be A NIGHTMARE Today
 uploadedAt:      2026-09-05T15:00:32.000Z
 duration:        159
-resolvedAt:      2026-10-28T17:10:27.045Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Damn, the 2020's suck.
@@ -2320,7 +2327,7 @@ channelTitle:    Geek & Sundry
 title:           'The Howling Mines | Critical Role: THE MIGHTY NEIN | Episode 6'
 uploadedAt:      2018-02-19T20:00:00.000Z
 duration:        14903
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     |-
@@ -2736,7 +2743,7 @@ channelTitle:    Darrington Press
 title:           Using Fear in Daggerheart! | Get Your Sheet Together
 uploadedAt:      2026-08-04T19:00:27.000Z
 duration:        331
-resolvedAt:      2026-11-03T18:28:05.332Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   It's time to make the GM scary again! Jeremy Crawford breaks down Fear, Daggerheart's GM-side currency: where it builds from, what it buys you at the table, and why a Fear-free game is a game with nothing on the line.
@@ -3871,7 +3878,7 @@ channelTitle:    Geek & Sundry
 title:           'Test of Pride | Critical Role: VOX MACHINA | Episode 51'
 uploadedAt:      2016-06-15T17:00:01.000Z
 duration:        10466
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -4018,7 +4025,7 @@ description:     |-
 ---
 
 videoId:         A8VGgGd1zio
-resolvedAt:      2026-10-13T18:19:02.735Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 absence:         private
 missing:         true
 
@@ -4753,6 +4760,13 @@ description:     |-
 
 ---
 
+videoId:         DG0GQZTaXrE
+resolvedAt:      2026-11-22T18:30:37.623Z
+absence:         private
+missing:         true
+
+---
+
 videoId:         DTOGH6M6INE
 channelId:       UCaBf1a-dpIsw8OxqH4ki2Kg
 channelTitle:    Geek & Sundry
@@ -5150,7 +5164,7 @@ channelTitle:    LRR Tabletop
 title:           Monikers - Board Game Day || LRR2025 Sub-A-Thon
 uploadedAt:      2025-09-24T17:00:31.000Z
 duration:        6546
-resolvedAt:      2026-11-03T18:28:05.332Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast: 2025-07-30
@@ -5206,6 +5220,13 @@ duration:        1182
 resolvedAt:      2026-11-19T19:29:25.052Z
 privacyStatus:   public
 description:     The first episode will be live on YouTube but the rest will require a subscription to dropout.tv!
+
+---
+
+videoId:         FiBRy2LNn4E
+resolvedAt:      2026-11-22T18:30:37.623Z
+absence:         private
+missing:         true
 
 ---
 
@@ -6018,7 +6039,7 @@ channelTitle:    Geek & Sundry
 title:           'Trial of the Take: Part 2 (ft. FELICIA DAY) | Critical Role: VOX MACHINA | Episode 19'
 uploadedAt:      2015-11-06T00:00:00.000Z
 duration:        16081
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -6375,7 +6396,7 @@ channelTitle:    LRRMTG
 title:           Beejlander - 6 Player Bonspiel || LRR20 Sub-a-thon
 uploadedAt:      2023-11-09T23:35:07.000Z
 duration:        14948
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2023-10-11
@@ -6928,7 +6949,7 @@ channelTitle:    'Magic: The Gathering'
 title:           'Friday Nights: Here Be Dragons'
 uploadedAt:      2015-03-27T14:30:01.000Z
 duration:        438
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     'LoadingReadyRun sets out to determine which timeline is best, both through Magic gameplay and of course through temporal & dimensional manipulation.'
 
@@ -7001,7 +7022,7 @@ channelTitle:    LRR Streams
 title:           Destiny 2 Raid Night || LRR20 Sub-a-thon
 uploadedAt:      2023-11-05T19:00:09.000Z
 duration:        18195
-resolvedAt:      2026-11-05T18:45:39.141Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2023-10-07
@@ -7733,7 +7754,7 @@ channelTitle:    Geek & Sundry
 title:           'Stoke the Flames | Critical Role: VOX MACHINA | Episode 30'
 uploadedAt:      2016-01-20T19:00:00.000Z
 duration:        11738
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -7796,7 +7817,7 @@ channelTitle:    Geek & Sundry
 title:           'A Bard''s Lament | Critical Role: VOX MACHINA | Episode 85'
 uploadedAt:      2017-03-08T20:07:37.000Z
 duration:        12438
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -8063,7 +8084,7 @@ channelTitle:    Darrington Press
 title:           Heritage in Daggerheart! | Get Your Sheet Together
 uploadedAt:      2026-01-27T20:00:31.000Z
 duration:        250
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Dive into Daggerheart’s heritage system! Marisha Ray explains how to select your character’s ancestry and community and weave it into a meaningful and unique backstory.
@@ -8296,7 +8317,7 @@ channelTitle:    Cards Against Humanity
 title:           'Tabletop Deathmatch s01e18: The Amberden Affair'
 uploadedAt:      2014-06-05T17:16:55.000Z
 duration:        1066
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     |-
@@ -8510,7 +8531,7 @@ channelTitle:    Geek & Sundry
 title:           'Dungeons & Dragons Campaign Tips | Critical Role: VOX MACHINA | Episode 12'
 uploadedAt:      2015-09-18T16:47:19.000Z
 duration:        13021
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -9408,7 +9429,7 @@ channelTitle:    'Magic: The Gathering'
 title:           Friday Nights - The Masters
 uploadedAt:      2013-06-07T04:00:32.000Z
 duration:        575
-resolvedAt:      2026-11-05T18:45:39.141Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     'Graham, James, Paul and Alex all get together to watch a replay of Pro Tour Dragon''s Maze while Kathleen, Jer and Cam all face off over a box of Modern Masters.'
 
@@ -9612,7 +9633,7 @@ channelTitle:    Morikorii
 title:           Bad Bank (Fantasy high animatic)
 uploadedAt:      2020-05-22T01:47:50.000Z
 duration:        96
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     From episode 7
@@ -9660,7 +9681,7 @@ channelTitle:    LRR Streams
 title:           Minecraft Punch-A-Chunk || LRR2024 Sub-A-Thon
 uploadedAt:      2024-08-13T03:00:18.000Z
 duration:        21156
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2024-07-15
@@ -10883,7 +10904,7 @@ channelTitle:    Midst Podcast
 title:           Moonward | Part 4
 uploadedAt:      2024-08-28T17:00:28.000Z
 duration:        5654
-resolvedAt:      2026-10-31T16:06:21.537Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     |-
@@ -11103,7 +11124,7 @@ channelTitle:    Cards Against Humanity
 title:           'Tabletop Deathmatch s02e14: Shut Up And Take My Money'
 uploadedAt:      2015-04-02T14:52:32.000Z
 duration:        1260
-resolvedAt:      2026-11-03T18:28:05.332Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     'Today, a bunch of people from the game industry play a game that makes fun of the game industry. Paul creates a historical post-apocalyptic MMORPG about the hipster resistance, Annalisa breeds special werewolves, and Luke still has a sword.'
@@ -11205,7 +11226,7 @@ channelTitle:    'Magic: The Gathering'
 title:           'An Invitation to Conspire: Chris Kluwe'
 uploadedAt:      2014-05-16T22:00:12.000Z
 duration:        44
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   What role does retired NFL player Chris Kluwe play in Conspiracy? Find out Saturday, May 17 after Round 11 at Pro Tour Journey into Nyx on twitch.tv/magic.
@@ -11291,7 +11312,7 @@ channelTitle:    Sila
 title:           Fantasy High - Hilda Hilda (Animatic)
 uploadedAt:      2020-06-10T01:55:55.000Z
 duration:        195
-resolvedAt:      2026-11-01T17:07:51.057Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 licensedContent: false
 description:     Iconic Fantasy High scene.
@@ -11304,7 +11325,7 @@ channelTitle:    Geek & Sundry
 title:           'Shopping and Shipping | Critical Role: VOX MACHINA | Episode 14'
 uploadedAt:      2015-09-30T21:00:01.000Z
 duration:        12075
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -11386,7 +11407,7 @@ channelTitle:    LRR Streams
 title:           Autumnal Rumble 5 - Summertime Slammertime || LRR2025 Sub-A-Thon
 uploadedAt:      2025-09-04T23:57:48.000Z
 duration:        9086
-resolvedAt:      2026-11-03T23:08:31.281Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2025-07-28
@@ -12522,7 +12543,7 @@ channelTitle:    LRR Tabletop
 title:           Monikers LRR Edition - Board Game Day || LRR2024 Sub-A-Thon
 uploadedAt:      2024-08-30T18:30:34.000Z
 duration:        8399
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast: 2024-07-17
@@ -13859,7 +13880,7 @@ channelTitle:    LRR Streams
 title:           'Minecraft Relay - Final Block w/ James, Graham, Cori & Alex || LRR20 Sub-a-thon'
 uploadedAt:      2023-11-04T22:00:30.000Z
 duration:        2821
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2023-10-07
@@ -14602,7 +14623,7 @@ channelTitle:    LRR Streams
 title:           Graham & Paul Let’s Play || LRR20 Sub-a-thon
 uploadedAt:      2023-11-11T19:00:20.000Z
 duration:        17805
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Broadcast 2023-10-12
@@ -16885,7 +16906,7 @@ channelTitle:    Geek & Sundry
 title:           'Critical Recap: Campaign 2, Episodes 1 - 10 -- The Story So Far'
 uploadedAt:      2018-03-22T13:00:04.000Z
 duration:        1157
-resolvedAt:      2026-11-03T18:28:05.332Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   OG Critter Dani Carr recaps the first 10 episodes of Critical Role's second campaign to keep you up to date!
@@ -17322,6 +17343,13 @@ description:     |-
 
 ---
 
+videoId:         sYZ7M1xztXs
+resolvedAt:      2026-11-22T18:30:37.623Z
+absence:         private
+missing:         true
+
+---
+
 videoId:         seY-M0i78F4
 channelId:       UCaBf1a-dpIsw8OxqH4ki2Kg
 channelTitle:    Geek & Sundry
@@ -17390,7 +17418,7 @@ channelTitle:    Dropout
 title:           'Bad Internet :60 Ad - Endcard'
 uploadedAt:      2016-06-03T22:17:55.000Z
 duration:        65
-resolvedAt:      2026-10-25T14:57:20.155Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   unlisted
 description:     |-
   From the minds of CollegeHumor comes Bad Internet, a YouTube Red Original Series featuring 10 darkly comedic stories about technology and the Internet failing in surprising ways.
@@ -18212,7 +18240,7 @@ channelTitle:    truTV
 title:           Adam Ruins Everything - The Real Reason Car Dealerships Are the Worst
 uploadedAt:      2015-10-08T13:47:59.000Z
 duration:        209
-resolvedAt:      2026-10-31T16:06:21.537Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     "Adam reveals why car dealers treat you like crap?and are able to get away with it.\n\nSubscribe: http://bit.ly/truTVSubscribe\nWatch Full Episodes for FREE: http://bit.ly/1Rw2yzp\n\nIn Adam Ruins Everything, host Adam Conover employs a combination of comedy, history and science to dispel widespread misconceptions about everything we take for granted. A blend of entertainment and enlightenment,\_Adam Ruins Everything\_is like that friend who knows a little bit too much about everything and is going to tell you about it... whether you like it or not.\_\n\ntruTV Official Site: http://www.trutv.com/\nLike truTV on Facebook:  https://www.facebook.com/truTV\nFollow truTV on Twitter: https://twitter.com/truTV\nFollow truTV on Tumblr: http://trutv.tumblr.com/\nGet the truTV app on Google Play:\_http://bit.ly/1eYxjPP\nGet the truTV app on iTunes:\_http://apple.co/1JiGkjh\n\ntruTV\nThe New truTV Is Way More Fun!\nWatch clips, sneak peeks and exclusives from original shows like Adam Ruins Everything, Friends of the People, Hack My Life and more – plus fresh video from hit shows like Impractical Jokers and The Carbonaro Effect. \n\nAdam Ruins Everything - The Real Reason Car Dealerships Are the Worst (Excerpt)"
 
@@ -18349,7 +18377,7 @@ channelTitle:    Geek & Sundry
 title:           'Cindergrove Revisited | Critical Role: VOX MACHINA | Episode 46'
 uploadedAt:      2016-05-11T19:30:00.000Z
 duration:        12184
-resolvedAt:      2026-11-03T18:28:05.332Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Catch Critical Role live Thursdays at 7PM PT on Twitch: https://goo.gl/D9fsrS
@@ -18562,7 +18590,7 @@ channelTitle:    Geek & Sundry
 title:           'The Gentleman''s Path | Critical Role | Campaign 2, Episode 19'
 uploadedAt:      2018-05-21T19:00:09.000Z
 duration:        14083
-resolvedAt:      2026-10-31T16:06:21.537Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   Thanks to D&D Beyond and Backblaze for sponsoring this episode of Critical Role!
@@ -19125,7 +19153,7 @@ channelTitle:    Geek & Sundry
 title:           'Critical Recap -- Episode 18: Whispers of War'
 uploadedAt:      2018-05-17T13:00:05.000Z
 duration:        298
-resolvedAt:      2026-11-02T20:47:54.661Z
+resolvedAt:      2026-11-22T18:30:37.623Z
 privacyStatus:   public
 description:     |-
   OG Critter and Talks Machina Segment Producer Dani Carr recaps an intense episode 18, "Whispers of War"!

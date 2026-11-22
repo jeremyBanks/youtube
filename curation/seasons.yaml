@@ -8414,12 +8414,21 @@ season: Season 1
 videos:
   # Dropout's "Fatal Decision : Season 1" playlist,
   # PLuKg-Whduhkmk_O2u2-b2QAICCmn994s0, holds ten private uploads added within
-  # fifteen seconds on 2018-07-11, presumably the original 2018 release of
-  # episodes since re-uploaded. The season has more than ten episodes, so
-  # position cannot say which; still unidentified until it can: 3GYbsqFzDNU,
-  # VJ7tTIwd-_s, qjrl0-yeg4Q, DG0GQZTaXrE, FiBRy2LNn4E,
-  # sYZ7M1xztXs, E5H_wxSicZY, VD6cO_q67wo. Ten ids in all counting
-  # 3cyayV1qfe4, which is episode 2, below.
+  # fifteen seconds on 2018-07-11: the original 2016 CollegeHumor uploads,
+  # since replaced. Dropout's "Latest" playlist added each of them on the day
+  # it first went up, which dates them. Four are matched to an episode below
+  # (2, 3, 10 and 22, each as `removed public`); the position in the 2018
+  # playlist says nothing, but the 2016 add date and the neighbours it had in
+  # "Latest" do, against an old title index of the CollegeHumor channel.
+  # Still unplaced, with what is known (playlist-add dates, not uploads):
+  # - qjrl0-yeg4Q, 2016-02-10: sat between the same two videos as the clip
+  #   "Big Guns, No Budget", which has no title here. Probably an early episode.
+  # - VD6cO_q67wo, 2016-07-05: embedded by a blog post titled "Fatal Decision"
+  #   that day; the clip was probably "What Happens If You Body Swap". No
+  #   episode here is named that.
+  # - E5H_wxSicZY, 2016-06-07: plausibly 6. Death by Pizza, but its neighbours
+  #   do not line up as neatly as the others'.
+  # - 3GYbsqFzDNU, 2016-02-11 on another playlist; nothing else known.
   - episode: 1. Operation Birthday Cake
     dropout: operation-birthday-cake
     members: iX6RGPjnfUY
@@ -8436,7 +8445,8 @@ videos:
   - episode: 3. Perfect Partners... Until Death
     dropout: perfect-partners-until-death
     members: NQ60whPO1O8
-    published: 2024-11-11
+    removed public: DG0GQZTaXrE
+    published: 2016-03-09
   - episode: 4. Art Heist
     dropout: art-heist
     members: 0EYjON-ev6A
@@ -8464,7 +8474,8 @@ videos:
   - episode: 10. I'm Too Old for This Sh*t
     dropout: i-m-too-old-for-this-sh-t
     members: oHyI7qZV3jM
-    published: 2024-11-18
+    removed public: FiBRy2LNn4E
+    published: 2016-04-14
   - episode: 11. Ghost Kid
     dropout: ghost-kid
     members: hojoRmzBQKY
@@ -8512,7 +8523,8 @@ videos:
   - episode: 22. How to Out a Rat
     dropout: how-to-out-a-rat
     members: mmK6dRYa1Jg
-    published: 2024-12-09
+    removed public: sYZ7M1xztXs
+    published: 2016-05-03
   - episode: 23. Hope Diamond
     dropout: hope-diamond
     members: qHFjDxLUqEE

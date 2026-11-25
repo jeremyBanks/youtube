@@ -1503,6 +1503,7 @@ videos:
     published: 2022-02-10
   - episode: 6. On the Run In the Martini Nebula
     dropout: on-the-run-in-the-martini-nebula
+    public: QUO2cBoREfg
     members: XsFcJ8eD9j0
     published: 2022-02-16
   - bts: Hot Dog Wrapped in Ham
@@ -7018,6 +7019,10 @@ videos:
     dropout: trauma-heals
     members: _g6LZbByLoM
     published: 2026-11-09
+  - episode: 209. Imagine if I Said That!
+    dropout: imagine-if-i-said-that
+    members: 1vDIKS0aB64
+    published: 2026-11-23
 
 ---
 
@@ -9590,6 +9595,7 @@ videos:
     # date as episode 13, 2026-09-08, which cannot be right: the show runs
     # fortnightly and 11, 12 and 13 fall on 08-11, 08-25 and 09-08, so 14
     # belongs on 09-22 -- which is when YouTube published it.
+    public: OUr6EyIQXok
     members: SmtonlOiRuA
     published: 2026-09-22
   - episode: 15. Heaven

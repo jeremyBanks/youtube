@@ -19698,7 +19698,7 @@ videoId:         zT1CKQAbZwc
 channelId:       UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:     2013-06-20T14:30:44.000Z
 removedBefore:   2024-04-21T01:59:37.011Z
-resolvedAt:      2026-10-10T16:14:54.671Z
+resolvedAt:      2026-11-27T19:58:01.409Z
 absence:         private
 title:           'POV: New Pope'
 duration:        214
@@ -89839,7 +89839,7 @@ videoId:         rikt_4obuqk
 channelId:       UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:     2024-06-07T23:14:11.000Z
 removedBefore:   2026-08-31T01:09:09.243Z
-resolvedAt:      2026-10-10T16:14:54.671Z
+resolvedAt:      2026-11-27T19:58:01.409Z
 absence:         private
 title:           Badman Meets the Riddler
 duration:        220
@@ -92364,7 +92364,7 @@ videoId:         SDwMbbUV6D0
 channelId:       UCPDXXXJj9nax0fr0Wfc048g
 publishedAt:     2024-09-03T23:00:31.000Z
 removedBefore:   2024-09-16T20:59:36.448Z
-resolvedAt:      2026-10-22T15:53:12.622Z
+resolvedAt:      2026-11-27T19:58:01.409Z
 absence:         private
 title:           One News to Break | Breaking News Season 7 | Ep. 12
 duration:        425
@@ -112216,6 +112216,7 @@ uploadedAt:      2026-08-03T23:59:19.000Z
 title:           ME | The Don Hertzfeldt Collection
 duration:        1303
 membersOnly:     true
+licensedContent: false
 description:     |-
   An experimental musical fable about narcissism and pain.
 
